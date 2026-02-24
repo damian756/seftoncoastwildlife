@@ -19,6 +19,7 @@ const nav = [
     ],
   },
   { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export function NavMenu() {

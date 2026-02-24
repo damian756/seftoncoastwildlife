@@ -55,6 +55,7 @@ export function Footer() {
                 { href: "/birdwatching-guide", label: "Birdwatching Guide" },
                 { href: "/seasonal", label: "Seasonal Guides" },
                 { href: "/blog", label: "Wildlife Blog" },
+                { href: "/contact", label: "Contact" },
               ].map(({ href, label }) => (
                 <li key={href}>
                   <Link href={href} className="hover:text-white transition">
