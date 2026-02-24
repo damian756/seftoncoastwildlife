@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     url: "https://seftoncoastwildlife.co.uk",
     siteName: "Sefton Coast Wildlife",
   },
+  icons: {
+    icon: [{ url: "/icon", sizes: "32x32", type: "image/png" }],
+    apple: [{ url: "/icon", sizes: "32x32", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({
