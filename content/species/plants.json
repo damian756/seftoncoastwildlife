@@ -408,5 +408,1041 @@
         "answer": "Dune lichen heath develops only on very old, stable dune surfaces where the sand has not been disturbed for decades. It is vulnerable to trampling (a single footstep can take 20 years to recover), fire, and succession to scrub. Globally, it is largely restricted to the Atlantic coast of northwest Europe, making the Sefton Coast examples of international conservation importance."
       }
     ]
+  },
+  {
+    "commonName": "Lyme Grass",
+    "scientificName": "Leymus arenarius",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Poales",
+    "family": "Poaceae",
+    "seasonalPresence": "Year-round. Flowers July–August.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Fore-dune and upper beach edges throughout the Sefton Coast. Forms large, distinctive clumps.",
+    "shortLocation": "Formby Beach",
+    "ukPopulation": "Common on northern and eastern UK coasts; less abundant in the south",
+    "seftonPopulation": "Common on fore-dunes and beach edges throughout the Sefton Coast",
+    "habitat": ["Fore-dune", "Upper beach", "Mobile dune"],
+    "diet": null,
+    "description": "Lyme Grass is one of the most striking plants on the Sefton Coast — large, blue-green clumps of broad, stiff, strongly ribbed leaves on the fore-dune and beach edge. The blue-grey colour is distinctive and gives it an almost ornamental appearance in natural conditions. Like Marram Grass, it helps bind sand and stabilises the fore-dune, but it's typically found slightly further seaward and in less hostile positions than Marram. The tall flower heads appear in July and August.",
+    "identification": "Large clump-forming grass. Broad, stiff, strongly ribbed leaves. Distinctive blue-grey-green colour — unlike any other grass. Grows at fore-dune and beach edge. Tall straw-coloured flower spikes in summer.",
+    "tips": "The blue-grey colour makes it distinctive even from a distance. Look at the upper beach edge at Formby and Ainsdale.",
+    "difficulty": "easy",
+    "relatedSpecies": ["marram-grass", "sand-sedge"],
+    "wikipediaTitle": "Leymus arenarius",
+    "faq": [
+      {
+        "question": "Why is Lyme Grass blue-green?",
+        "answer": "The distinctive blue-grey-green colour of Lyme Grass comes from a waxy surface coating on the leaves (cuticle) that reduces water loss and reflects some UV radiation. This adaptation helps it survive the extreme conditions of the fore-dune and upper beach — salt spray, drought, and wind exposure. The colour also reduces heating of the leaf surface in intense sunshine."
+      }
+    ]
+  },
+  {
+    "commonName": "Sand Couch",
+    "scientificName": "Elytrigia juncea",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Poales",
+    "family": "Poaceae",
+    "seasonalPresence": "Year-round. Flowers June–August.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "The very top of the beach and lowest fore-dune at Formby and Ainsdale. Pioneer of bare sand.",
+    "shortLocation": "Formby Beach",
+    "ukPopulation": "Common on all UK sandy coasts",
+    "seftonPopulation": "Common on the strandline and lowest fore-dune throughout the Sefton Coast",
+    "habitat": ["Strandline", "Fore-dune", "Bare sand at top of beach"],
+    "diet": null,
+    "description": "Sand Couch is the first grass to colonise bare sand at the top of the beach — a true pioneer. It tolerates salt spray and periodic burial by sand. Once established, it begins the dune-building process that Marram Grass eventually takes over further inland. Sand Couch is also the sole foodplant of the Sandhill Rustic Moth larvae — the rare moth that breeds on Birkdale Green Beach feeds inside Sand Couch leaves. A relatively unremarkable-looking plant with enormous ecological importance.",
+    "identification": "Low to medium grass. Grey-green, slightly wavy leaves. Grows in loose, spreading patches at the top of the beach. Flat-spike flower head (not the rolled tube of Marram). Somewhat waxy feel to leaves.",
+    "tips": "Look at the strandline and the very lowest slope of the dune at Formby. Sand Couch forms patches on the otherwise bare sand.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["marram-grass", "lyme-grass"],
+    "wikipediaTitle": "Elytrigia juncea",
+    "faq": [
+      {
+        "question": "Why is Sand Couch so important for the Sandhill Rustic Moth?",
+        "answer": "Sand Couch is the only known foodplant of the Sandhill Rustic Moth subspecies gueneei on the Sefton Coast. The larvae feed inside Sand Couch leaves in the highest tide zone — an extraordinarily specific requirement. As Sand Couch is restricted to this narrow coastal zone, the moth's entire British population depends on the health of Sand Couch stands at a handful of dune sites."
+      }
+    ]
+  },
+  {
+    "commonName": "Prickly Saltwort",
+    "scientificName": "Salsola kali",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Caryophyllales",
+    "family": "Amaranthaceae",
+    "seasonalPresence": "Flowers July–September. Annual.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Strandline and upper beach at Formby and Ainsdale. Grows in the wrack line.",
+    "shortLocation": "Formby Beach",
+    "ukPopulation": "Common on sandy beaches around the UK coast",
+    "seftonPopulation": "Annual on the strandline at Formby and Ainsdale in variable numbers",
+    "habitat": ["Strandline", "Upper beach", "Bare sand"],
+    "diet": null,
+    "description": "Prickly Saltwort is a strange, succulent annual of the strandline — its jointed, fleshy stems branch out like a small cactus and each leaf tip ends in a sharp spine (hence 'prickly'). It grows directly in the wrack line, rooted in the rotting seaweed of the strandline. The soda glass industry historically extracted ash from burnt Saltwort for glass-making — it's one of the 'glasswort' relatives. Despite looking spiny and unfriendly, it has tiny inconspicuous flowers.",
+    "identification": "Small annual. Jointed, succulent, pale green stems. Leaves reduced to fleshy lobes ending in a sharp spine. Branching, low-growing. Inconspicuous flowers at leaf bases. Growing in strandline.",
+    "tips": "Look at the high tide line at Formby in summer. The fleshy, cactus-like plant among the dried seaweed is Prickly Saltwort.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["sea-rocket", "sea-sandwort"],
+    "wikipediaTitle": "Salsola kali",
+    "faq": [
+      {
+        "question": "Is Prickly Saltwort related to the tumbleweed of American westerns?",
+        "answer": "Yes. The 'tumbleweed' of American films is largely Salsola tragus, a relative of Prickly Saltwort. When these plants die, they dry out, break off at the base and roll across the landscape in the wind, scattering seeds. Some Salsola species are invasive weeds across the world — introduced from Europe to North America and now widespread in the western United States."
+      }
+    ]
+  },
+  {
+    "commonName": "Yellow Horned-poppy",
+    "scientificName": "Glaucium flavum",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Ranunculales",
+    "family": "Papaveraceae",
+    "seasonalPresence": "Flowers June–September. Biennial or short-lived perennial.",
+    "bestTimeOfDay": "Morning — flowers freshest in morning sunshine",
+    "whereToSee": "Sandy beach and fore-dune areas at Formby and Ainsdale. Shingle beach edges elsewhere on UK coast.",
+    "shortLocation": "Formby Beach",
+    "ukPopulation": "Locally common on sandy and shingle beaches around the UK",
+    "seftonPopulation": "Present on sandy fore-dune and beach edge at Formby and Ainsdale",
+    "habitat": ["Sandy beach", "Fore-dune", "Shingle beach"],
+    "diet": null,
+    "description": "The Yellow Horned-poppy is one of the most striking plants of the beach and fore-dune — large, vivid yellow poppy flowers on a glaucous (blue-green waxy) rosette of deeply lobed leaves. The 'horn' is the extraordinary curved seed pod, which can reach 30cm long — the longest seed pod of any European plant. It's a biennial, spending its first year as a leaf rosette and flowering in its second. Despite looking exotic, it's a native coastal plant.",
+    "identification": "Large plant to 60cm. Glaucous (blue-green, waxy) lobed leaves. Large, vivid yellow four-petalled poppy flowers. Extraordinary curved, elongated seed pod to 30cm. Sandy coastal habitat.",
+    "tips": "Look on the lower dune and beach edge at Formby in July. The yellow flowers and glaucous leaves stand out. The extraordinary seed pod is worth examining closely.",
+    "difficulty": "easy",
+    "relatedSpecies": ["sea-spurge", "sea-holly"],
+    "wikipediaTitle": "Glaucium flavum",
+    "faq": [
+      {
+        "question": "Why does Yellow Horned-poppy have such a long seed pod?",
+        "answer": "The exceptionally long, curved seed pod (up to 30cm) of Yellow Horned-poppy can contain hundreds of seeds. As the pod dries, it splits and the seeds are scattered by wind. The length and curvature of the pod may help distribute seeds over a wider area. The pod structure is unique among British poppies — most Papaver species have a globular capsule, not a curved horn."
+      }
+    ]
+  },
+  {
+    "commonName": "Bird's-foot Trefoil",
+    "scientificName": "Lotus corniculatus",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "seasonalPresence": "Flowers May–September. Perennial.",
+    "bestTimeOfDay": "Any time; most insect-visited in warm sunshine",
+    "whereToSee": "Fixed and semi-fixed dune grassland throughout the Sefton Coast. One of the most abundant wildflowers.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Very common throughout Britain",
+    "seftonPopulation": "Abundant on dune grassland throughout the Sefton Coast; one of the key insect plants",
+    "habitat": ["Fixed dune grassland", "Semi-fixed dune", "Calcareous grassland"],
+    "diet": null,
+    "description": "Bird's-foot Trefoil is one of the most important wildflowers of the Sefton Coast dune grassland — a key nectar and pollen source for bumblebees, solitary bees, Six-spot Burnet Moths and Common Blue butterflies (whose larvae feed on it). The yellow-and-orange flowers form small clusters, and the ripe seed pods splay out like a bird's foot, giving the plant its name. Known as 'eggs and bacon' from the yellow and orange combination. One of the first flowers to bloom on new dune grassland.",
+    "identification": "Low-growing, trailing plant. Trifoliate leaves with two extra leaflets at base. Yellow pea-flowers with orange-red streaking. Seed pods splay like a bird's foot. Widespread on short grassland.",
+    "tips": "Present everywhere on dune grassland from May. Watch it for bees, Six-spot Burnet Moths and Common Blues — it's the hub of the dune grassland insect community.",
+    "difficulty": "easy",
+    "relatedSpecies": ["kidney-vetch", "common-restharrow"],
+    "wikipediaTitle": "Lotus corniculatus",
+    "faq": [
+      {
+        "question": "Why is Bird's-foot Trefoil so important for the Common Blue butterfly?",
+        "answer": "Bird's-foot Trefoil is the primary larval foodplant of the Common Blue butterfly on the Sefton Coast dunes. Wherever this plant grows in good quantity, Common Blue populations flourish. The plant also provides nectar for adult butterflies, making it doubly important. Managing dune grassland to maintain Bird's-foot Trefoil directly supports Common Blue populations."
+      }
+    ]
+  },
+  {
+    "commonName": "Kidney Vetch",
+    "scientificName": "Anthyllis vulneraria",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "seasonalPresence": "Flowers May–August. Perennial.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Open dune grassland, particularly on the younger, semi-fixed dunes at Ainsdale and Formby.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Locally common on calcareous and dune grassland in England and Wales",
+    "seftonPopulation": "Present on younger dune grassland throughout the Sefton Coast; also on the larval foodplant of Small Blue butterfly",
+    "habitat": ["Semi-fixed dune grassland", "Calcareous grassland", "Cliff-top grassland"],
+    "diet": null,
+    "description": "Kidney Vetch is one of the earlier colonisers of semi-fixed dune grassland and a key wildflower of the Sefton Coast. The flowerheads are distinctive — clustered yellow or cream pea-flowers with a velvety, felted calyx that inflates when in seed. It's the sole larval foodplant of the Small Blue butterfly (which is not currently confirmed on the Sefton Coast but may occur). Good for bees and other pollinators.",
+    "identification": "Sprawling or upright plant. Pinnate, silky leaves. Flowers in rounded heads: yellow, cream or occasionally orange/red. Distinctive velvety inflated calyx. Silky-haired stems.",
+    "tips": "Look on open, disturbed dune grassland in June. The clustered flower heads and velvety calyx are distinctive.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["bird-s-foot-trefoil"],
+    "wikipediaTitle": "Kidney vetch",
+    "faq": [
+      {
+        "question": "Is Kidney Vetch used medicinally?",
+        "answer": "Yes — the Latin name vulneraria means 'wound-healer'. Kidney Vetch was historically applied to wounds and skin conditions. Modern analysis confirms the plant contains compounds with mild antimicrobial properties. The name 'kidney vetch' refers to the kidney-shaped seeds."
+      }
+    ]
+  },
+  {
+    "commonName": "Common Ragwort",
+    "scientificName": "Jacobaea vulgaris",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "seasonalPresence": "Flowers June–October. Biennial or perennial.",
+    "bestTimeOfDay": "Any time in sunshine — insects most active in warm weather",
+    "whereToSee": "Open dune grassland and rough ground throughout the Sefton Coast. Essential insect plant.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Common throughout Britain; a key native wildflower despite its reputation",
+    "seftonPopulation": "Abundant on dune grassland throughout the Sefton Coast; the single most important insect plant in summer",
+    "habitat": ["Open dune grassland", "Rough disturbed ground", "Coastal grassland"],
+    "diet": null,
+    "description": "Common Ragwort is the most important insect plant on the Sefton Coast dune grassland and possibly the single most ecologically significant flowering plant for invertebrates. Over 70 species of insect are associated with it — Cinnabar Moth caterpillars eat the leaves (sequestering the alkaloids), Six-spot Burnet Moths and Dark Green Fritillaries feed on the nectar, and hundreds of other insects use it. Despite its reputation as a 'weed' to be controlled on horse pastures, on the dune system it's a cornerstone of the food web.",
+    "identification": "Upright plant to 1m. Deeply lobed, dark green leaves. Golden-yellow daisy flowers in flat-topped clusters. Distinctive smell when crushed — slightly unpleasant. Seeds with feathery 'clocks'.",
+    "tips": "Walk any open dune grassland in July — Ragwort patches are alive with insects. Count how many species you can find on a single plant.",
+    "difficulty": "easy",
+    "relatedSpecies": ["viper-s-bugloss", "common-centaury"],
+    "wikipediaTitle": "Common ragwort",
+    "faq": [
+      {
+        "question": "Is Common Ragwort actually dangerous?",
+        "answer": "Common Ragwort contains pyrrolizidine alkaloids that are toxic to horses and cattle if consumed in large quantities over time. Fresh plants are unpalatable to livestock, but plants dried in hay lose their deterrent smell while retaining toxicity. On the dune system (away from grazing livestock) it is a valuable native plant and must be preserved. Control is only justified where livestock graze."
+      }
+    ]
+  },
+  {
+    "commonName": "Heather",
+    "scientificName": "Calluna vulgaris",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Ericales",
+    "family": "Ericaceae",
+    "seasonalPresence": "Flowers August–October. Evergreen — present year-round.",
+    "bestTimeOfDay": "Any time; bees most active in morning sunshine",
+    "whereToSee": "Dune heath at Ainsdale NNR and Birkdale — the best dune heathland in northwest England.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Common on heathland and moorland throughout Britain",
+    "seftonPopulation": "Present on dune heath at Ainsdale NNR; one of the most southerly dune heath sites in England",
+    "habitat": ["Dune heath", "Heather moorland", "Coastal heath"],
+    "diet": null,
+    "description": "Heather (or Ling) is the defining plant of the dune heath at Ainsdale NNR. The purple-pink flowers in August are spectacular and attract enormous numbers of bees. The dune heath supports nationally scarce species including Silver-studded Blue, Emperor Moth, Bell Heather and the habitat itself (Atlantic dune heath) is internationally rare. Active management — cutting, burning and grazing — is required to maintain Heather in good condition and prevent succession to scrub.",
+    "identification": "Low, woody shrub to 60cm. Tiny scale-like leaves in rows. Bell-shaped purple-pink flowers in dense spikes August–October. Old, leggy heather is grey-brown. The characteristic plant of heathland.",
+    "tips": "Walk the heathy areas at Ainsdale in August for the best display. The fragrance of heather honey from bees working the flowers is distinctive.",
+    "difficulty": "easy",
+    "relatedSpecies": ["bell-heather", "creeping-willow"],
+    "wikipediaTitle": "Calluna vulgaris",
+    "faq": [
+      {
+        "question": "Why does heather need to be burned on grouse moors?",
+        "answer": "Heather has a natural lifespan as a productive plant — young plants (pioneer and building phase, 0–15 years) are most nutritious for grazing animals and richest in invertebrates. Old, leggy heather loses productivity. Rotation burning (in cool conditions) or cutting mimics the natural succession reset and maintains mixed-age heather. On the Sefton Coast dunes, cutting and grazing replace burning as management tools."
+      }
+    ]
+  },
+  {
+    "commonName": "Bell Heather",
+    "scientificName": "Erica cinerea",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Ericales",
+    "family": "Ericaceae",
+    "seasonalPresence": "Flowers July–September. Earlier than Calluna. Evergreen.",
+    "bestTimeOfDay": "Any time in sunshine",
+    "whereToSee": "Dune heath at Ainsdale NNR — grows with Heather but flowers earlier and has darker, richer colour.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Common on heathland in England, Wales and Scotland",
+    "seftonPopulation": "Present in the dune heath at Ainsdale NNR alongside Heather",
+    "habitat": ["Dune heath", "Dry heathland", "Coastal heath on free-draining acid soil"],
+    "diet": null,
+    "description": "Bell Heather flowers earlier than Heather (Calluna) and has a richer, deeper purple-crimson colour. It's a plant of drier, free-draining heath — it doesn't tolerate waterlogging and tends to grow on the better-drained ridges and slopes. On the Ainsdale dune heath it grows alongside Heather in mixed patches, the two often intermingling. The leaves are in whorls of three (Calluna has scale-like leaves) — a useful distinguishing feature.",
+    "identification": "Low shrub. Deeper crimson-purple than Heather. Leaves in whorls of three (not scale-like as Calluna). Larger bell-shaped flowers. Flowers July–September, before Calluna's peak.",
+    "tips": "Walk the Ainsdale dune heath in July. Bell Heather's deeper purple flowers appear first — look for the earlier and darker plants among the paler Calluna.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["heather", "creeping-willow"],
+    "wikipediaTitle": "Erica cinerea",
+    "faq": [
+      {
+        "question": "How do I tell Bell Heather from Common Heather?",
+        "answer": "Flower colour is helpful — Bell Heather is richer, deeper crimson-purple; Heather (Calluna) is softer pink-purple. The most reliable feature is the leaves: Bell Heather has leaves in whorls of three; Heather (Calluna) has tiny, overlapping scale-like leaves. Bell Heather also flowers slightly earlier, from July, while Calluna peaks in August–September."
+      }
+    ]
+  },
+  {
+    "commonName": "Common Restharrow",
+    "scientificName": "Ononis repens",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "seasonalPresence": "Flowers June–September. Perennial.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Fixed dune grassland and grassy dune edges throughout Ainsdale and Formby.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Locally common on sandy, calcareous and dune grassland in England",
+    "seftonPopulation": "Common on fixed dune grassland throughout the Sefton Coast",
+    "habitat": ["Fixed dune grassland", "Calcareous grassland", "Sandy rough grassland"],
+    "diet": null,
+    "description": "Common Restharrow is a low, spreading, sticky-hairy plant of dune grassland with vivid pink pea-flowers — one of the most cheerful wildflowers of the Sefton Coast. The name comes from its tough, woody root system that could halt or 'arrest' a harrow (a farming implement). The stems and leaves are covered in sticky hairs and it has a pleasant, resinous smell when handled. Good for bees.",
+    "identification": "Low, spreading, woody-based plant. Sticky, hairy stems. Oval leaflets. Vivid pink pea-flowers with darker veining. Root system very tough and deep.",
+    "tips": "Walk fixed dune grassland at Ainsdale in July. The vivid pink flowers are easy to spot. Crush a leaf gently — the resinous smell is distinctive.",
+    "difficulty": "easy",
+    "relatedSpecies": ["bird-s-foot-trefoil", "kidney-vetch"],
+    "wikipediaTitle": "Common restharrow",
+    "faq": [
+      {
+        "question": "Why is Restharrow called 'rest-harrow'?",
+        "answer": "The name refers to the plant's ability to stop a harrow — an agricultural implement used to break up soil. Restharrow's deep, tough, woody root system entangles with the harrow's tines and can bring it to a halt. This property was well-known to agricultural workers historically, making Restharrow a persistent weed of arable fields before modern farming practices eliminated it from most cultivated land."
+      }
+    ]
+  },
+  {
+    "commonName": "Wild Thyme",
+    "scientificName": "Thymus polytrichus",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Lamiales",
+    "family": "Lamiaceae",
+    "seasonalPresence": "Flowers June–August. Evergreen creeping perennial.",
+    "bestTimeOfDay": "Warm days when the fragrance is strongest",
+    "whereToSee": "Short, dry fixed dune grassland at Ainsdale NNR. Forms mats on the bare dune surfaces.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Common on well-drained calcareous and dune grassland in England",
+    "seftonPopulation": "Present on short, dry dune grassland at Ainsdale; locally common",
+    "habitat": ["Short dry fixed dune", "Calcareous grassland", "Dune lichen heath edges"],
+    "diet": null,
+    "description": "Wild Thyme forms low mats of tiny, aromatic leaves and pink-purple flowers on the short, dry dune grassland at Ainsdale. The scent released when walked on is unmistakeable — a clean, herbal fragrance that lifts the spirit on a warm summer day. Bees love it — a Thyme mat in full flower in July buzzes with activity. It's a good indicator of old, undisturbed dune grassland that hasn't been fertilised or heavily disturbed.",
+    "identification": "Creeping mat-former. Tiny, oval, aromatic leaves. Small pink-purple flowers in tight clusters. Hairy stems. Unmistakeable fragrance. Grows flat on short turf.",
+    "tips": "Walk the shortest, most open dune grassland at Ainsdale in July. Kneel down and smell any low-growing aromatic plant — the scent of Wild Thyme is unmistakeable.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["common-centaury", "autumn-gentian"],
+    "wikipediaTitle": "Thymus polytrichus",
+    "faq": [
+      {
+        "question": "Is Wild Thyme edible?",
+        "answer": "Wild Thyme is perfectly edible and has the same aromatic compounds (thymol and carvacrol) as cultivated Thyme, though in smaller concentrations. However, please don't pick it on the Sefton Coast dunes — it's an important plant for insects and part of a fragile ecosystem. Harvest garden-grown thyme instead. Wild Thyme has been used medicinally and culinarily since ancient times."
+      }
+    ]
+  },
+  {
+    "commonName": "Lady's Bedstraw",
+    "scientificName": "Galium verum",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Gentianales",
+    "family": "Rubiaceae",
+    "seasonalPresence": "Flowers July–August. Perennial.",
+    "bestTimeOfDay": "Any time; honey-scented, best smelled in warm conditions",
+    "whereToSee": "Fixed dune grassland and scrub edges throughout Ainsdale and Formby. One of the most abundant dune wildflowers.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Common throughout Britain on calcareous and sandy grassland",
+    "seftonPopulation": "Abundant on fixed dune grassland throughout the Sefton Coast",
+    "habitat": ["Fixed dune grassland", "Dune scrub edge", "Calcareous grassland"],
+    "diet": null,
+    "description": "Lady's Bedstraw covers the fixed dune grassland at Ainsdale in July with a foam of tiny golden-yellow flowers. The honey-sweet scent is carried on warm breezes. Historically used to stuff mattresses (hence 'bedstraw') and also used to curdle milk in cheese-making. The whorls of very narrow leaves are characteristic. It's one of the most abundant wildflowers of the Sefton Coast dune grassland and a key nectar source for many insects.",
+    "identification": "Sprawling plant forming dense mats. Whorls of 8–12 very narrow, dark green leaves. Dense clusters of tiny, golden-yellow four-petalled flowers in July. Honey scent. Forms bright yellow patches in dune grassland.",
+    "tips": "Walk any fixed dune grassland in July — the golden-yellow mats are unmistakeable. Get close to smell the honey fragrance.",
+    "difficulty": "easy",
+    "relatedSpecies": ["common-centaury", "wild-thyme"],
+    "wikipediaTitle": "Galium verum",
+    "faq": [
+      {
+        "question": "Why was Lady's Bedstraw used in cheese-making?",
+        "answer": "Lady's Bedstraw contains rennet-like enzymes that curdle milk, and was used across Europe as a vegetarian substitute for animal rennet in cheese-making. It's still used in some traditional Cheshire-area cheese recipes. The yellow pigments in the flowers have also been used as a dye, producing yellow and red colours depending on the mordant used."
+      }
+    ]
+  },
+  {
+    "commonName": "Autumn Gentian",
+    "scientificName": "Gentianella amarella",
+    "category": "plants",
+    "conservationStatus": "amber",
+    "order": "Gentianales",
+    "family": "Gentianaceae",
+    "seasonalPresence": "Flowers August–October. Biennial.",
+    "bestTimeOfDay": "Any time in sunshine — flowers close in dull weather",
+    "whereToSee": "Short calcareous dune grassland at Ainsdale NNR. One of the late-season botanical highlights.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Declining — amber-listed; lost from many former sites in lowland England",
+    "seftonPopulation": "Present in suitable short calcareous dune grassland at Ainsdale; a notable late-season plant",
+    "habitat": ["Short calcareous dune grassland", "Limestone grassland", "Dune turf"],
+    "diet": null,
+    "description": "The Autumn Gentian is one of the botanical jewels of the Sefton Coast dune grassland — a small biennial with purple-pink tubular flowers in August and September. It's a plant of very short, undisturbed calcareous grassland and is declining nationally as this habitat is lost. On the Sefton Coast the short dune turf at Ainsdale is one of its better northwest England sites. The flowers only open in sunshine — on dull days you'll walk past without noticing them.",
+    "identification": "Small plant, 10–25cm. Dull purple-pink four- or five-petalled tubular flowers with a fringe inside the tube. Flowers only open in sunshine. Biennial — rosette in year one, flowers in year two.",
+    "tips": "Visit Ainsdale NNR in August–September in sunshine. Walk the shortest, most undisturbed dune turf. The flowers are small but the purple-pink colour stands out among the grass.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["common-centaury", "grass-of-parnassus"],
+    "wikipediaTitle": "Autumn gentian",
+    "faq": [
+      {
+        "question": "Why are gentians associated with bitter medicines?",
+        "answer": "Gentians contain gentiopicroside and other iridoid compounds that are extremely bitter — some of the most bitter naturally occurring substances known. The bitterness has led to their use in herbal medicine as 'bitters' to stimulate digestion and liver function. Angostura bitters and other aperitifs use gentian root as a key ingredient. The Autumn Gentian is less bitter than the larger Alpine gentians used in medicine but shares the same chemical family."
+      }
+    ]
+  },
+  {
+    "commonName": "Pyramidal Orchid",
+    "scientificName": "Anacamptis pyramidalis",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Asparagales",
+    "family": "Orchidaceae",
+    "seasonalPresence": "Flowers June–August. Perennial.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Fixed calcareous dune grassland at Ainsdale NNR. Forms good colonies in suitable grassland.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Locally common on calcareous grassland and coastal dunes in southern and central England",
+    "seftonPopulation": "Present in calcareous dune grassland at Ainsdale NNR; colonies can be impressive in good years",
+    "habitat": ["Fixed calcareous dune grassland", "Chalk grassland", "Dune turf"],
+    "diet": null,
+    "description": "The Pyramidal Orchid is one of the most distinctive orchids of the Sefton Coast — its vivid pink-crimson pyramidal flower spike is unmistakeable. It's one of the commoner orchids of calcareous dune grassland and can form good colonies at Ainsdale. Like all orchids it depends on a specific mycorrhizal fungus in the soil to germinate and grow — this makes it very sensitive to disturbance. The flowers are strongly honey-scented and pollinated by moths and butterflies.",
+    "identification": "Upright plant to 40cm. Dense pyramidal spike of vivid pink-crimson flowers. Each flower has a long curved spur. Unspotted pale green leaves. The pyramid spike shape is unmistakeable.",
+    "tips": "Walk the calcareous dune grassland at Ainsdale in June and July. The vivid pink spike stands up well above the grass and is easy to spot.",
+    "difficulty": "easy",
+    "relatedSpecies": ["marsh-helleborine", "northern-marsh-orchid"],
+    "wikipediaTitle": "Anacamptis pyramidalis",
+    "faq": [
+      {
+        "question": "Why do orchids need fungi to grow?",
+        "answer": "Orchid seeds are dust-like and contain almost no nutrient reserves. To germinate, they must form a partnership (mycorrhizal association) with specific soil fungi that supply nutrients. Without the right fungus, orchid seeds cannot germinate. This is why orchids cannot simply be planted from seed in a garden — the specific fungus must be present, and it is tied to undisturbed grassland communities."
+      }
+    ]
+  },
+  {
+    "commonName": "Marsh Helleborine",
+    "scientificName": "Epipactis palustris",
+    "category": "plants",
+    "conservationStatus": "amber",
+    "order": "Asparagales",
+    "family": "Orchidaceae",
+    "seasonalPresence": "Flowers July–August. Perennial.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Damp calcareous dune slacks at Ainsdale NNR. Ask wardens for current best locations.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Declining — amber-listed; restricted to calcareous fens, dune slacks and chalk downland",
+    "seftonPopulation": "One of the most important populations in England — Ainsdale NNR dune slacks hold nationally significant colonies",
+    "habitat": ["Damp calcareous dune slack", "Fen", "Wet calcareous grassland"],
+    "diet": null,
+    "description": "The Marsh Helleborine is one of the most beautiful orchids in Britain and the Sefton Coast holds one of its most important English populations. The pink and white flowers with a frilled lip are exquisite close-up. It grows in the damp calcareous dune slacks at Ainsdale NNR alongside Grass of Parnassus and Round-leaved Wintergreen — the botanical jewel of the slack community. Numbers vary year to year but substantial colonies can appear in good years. It's declining nationally due to loss of calcareous fen habitat.",
+    "identification": "Upright plant to 50cm. Pink and white flowers with a distinctive three-lobed lip — the lower part white with red veins. Broadly oval, pointed leaves. Grows in colonies in damp slack grassland.",
+    "tips": "Ask wardens at Ainsdale NNR for the best current locations. Walk the wet dune slacks in late July. The pink and white flowers stand out in the low vegetation.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["grass-of-parnassus", "northern-marsh-orchid", "pyramidal-orchid"],
+    "wikipediaTitle": "Epipactis palustris",
+    "faq": [
+      {
+        "question": "Why is the Marsh Helleborine important at Ainsdale NNR?",
+        "answer": "Ainsdale NNR holds one of the largest populations of Marsh Helleborine in England. The plant requires wet, calcareous conditions — rare in northwest England — which the dune slack system provides. As dune slacks have been drained or dried across England, Ainsdale's intact slack hydrology makes it nationally significant. Natural England management specifically maintains slack water levels to protect this and associated rare species."
+      }
+    ]
+  },
+  {
+    "commonName": "Northern Marsh Orchid",
+    "scientificName": "Dactylorhiza purpurella",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Asparagales",
+    "family": "Orchidaceae",
+    "seasonalPresence": "Flowers June–July. Perennial.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Damp dune slacks and wet areas throughout Ainsdale NNR and Formby.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Common in the north of England, Scotland and Ireland on damp neutral to calcareous grassland",
+    "seftonPopulation": "Common in dune slacks throughout the Sefton Coast — one of the more easily found orchids",
+    "habitat": ["Damp dune slack", "Wet grassland", "Calcareous fen"],
+    "diet": null,
+    "description": "The Northern Marsh Orchid is the most widespread orchid of the Sefton Coast dune slacks. Its dense, rich purple flower spikes can be abundant in good years — hundreds of plants in a single large slack. It was first recorded on the Sefton Coast as a new species in the 1960s. The flowers are a rich magenta-purple with darker spots on the lip. It hybridises with other Dactylorhiza orchids, which can create identification challenges.",
+    "identification": "Upright plant to 40cm. Dense spike of rich magenta-purple flowers. Flower lip with darker spots and lines. Unspotted or slightly spotted leaves. Purple stems. Grows in damp situations.",
+    "tips": "Walk any damp dune slack at Ainsdale in June. Dense purple spikes are unmistakeable. Numbers can be impressive in good years.",
+    "difficulty": "easy",
+    "relatedSpecies": ["marsh-helleborine", "pyramidal-orchid"],
+    "wikipediaTitle": "Dactylorhiza purpurella",
+    "faq": [
+      {
+        "question": "Do Marsh Orchids form hybrids?",
+        "answer": "Yes. Dactylorhiza orchids hybridise freely where different species meet, producing plants with intermediate characteristics. On the Sefton Coast, Northern Marsh Orchid can hybridise with other marsh orchid species. These hybrids can be fertile and sometimes occur in populations, making identification complex. Consulting a specialist flora with detailed photographs is recommended for precise identification."
+      }
+    ]
+  },
+  {
+    "commonName": "Sea Buckthorn",
+    "scientificName": "Hippophae rhamnoides",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Rosales",
+    "family": "Elaeagnaceae",
+    "seasonalPresence": "Year-round. Orange berries most vivid September–March.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Dune scrub throughout Ainsdale and Formby. Can form dense, impenetrable thickets.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Native on East Anglian coasts; widely planted and now invasive on western dune systems including Sefton",
+    "seftonPopulation": "Widespread and invasive across the Sefton Coast dune system; active management to contain it",
+    "habitat": ["Fixed dune", "Dune scrub", "Dune grassland (when invading)"],
+    "diet": null,
+    "description": "Sea Buckthorn is one of the most significant management challenges on the Sefton Coast — an invasive shrub that forms dense, thorny thickets that smother dune grassland and eliminate the specialist plant and insect communities. The vivid orange berries in autumn and winter are beautiful and eaten by birds (particularly thrushes). But its aggressive suckering growth means it can take over large areas rapidly. Green Sefton manages it by cutting, pulling and targeted herbicide to protect open dune grassland. It's native in eastern England but non-native on the Sefton Coast.",
+    "identification": "Dense, thorny shrub to 3m. Narrow, silvery-grey leaves. Vivid orange berries in dense clusters in autumn (female plants only — plants are dioecious). Very thorny stems. Suckering, forming impenetrable thickets.",
+    "tips": "The vivid orange berries in October are unmistakeable. Walk any fixed dune area and you'll encounter Sea Buckthorn thickets — a contrast to the open grassland it displaces.",
+    "difficulty": "easy",
+    "relatedSpecies": ["creeping-willow", "burnet-rose"],
+    "wikipediaTitle": "Sea-buckthorn",
+    "faq": [
+      {
+        "question": "Why is Sea Buckthorn a problem on the Sefton Coast?",
+        "answer": "Sea Buckthorn is non-native to the Sefton Coast — it was planted for 'stabilisation' in the mid-20th century without understanding its aggressive spreading ability. It reproduces by seed (spread by birds eating the berries) and by underground suckers, forming dense thickets that eliminate the specialist dune grassland plants and insects. Removal is extremely difficult and expensive, and the Sefton Coast Partnership spends significant resources managing it."
+      }
+    ]
+  },
+  {
+    "commonName": "Sea Aster",
+    "scientificName": "Aster tripolium",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "seasonalPresence": "Flowers July–October. Annual or biennial.",
+    "bestTimeOfDay": "Any time; insects most active in sunshine",
+    "whereToSee": "Saltmarsh at Marshside RSPB and Crossens. Covers large areas of saltmarsh in August.",
+    "shortLocation": "Marshside RSPB",
+    "ukPopulation": "Common on saltmarsh and tidal creeks around the UK coast",
+    "seftonPopulation": "Abundant on the Marshside saltmarsh and Ribble Estuary saltmarsh in late summer",
+    "habitat": ["Saltmarsh", "Tidal creek edge", "Coastal mud"],
+    "diet": null,
+    "description": "Sea Aster turns the Marshside saltmarsh purple in late summer — one of the most striking wildflower spectacles on the Sefton Coast. The lilac-purple daisy flowers with yellow centres cover large areas of saltmarsh from August. It's a vital nectar source for late-season insects on the coast. It also provides seeds for Twite flocks in winter — making it doubly important for wildlife conservation.",
+    "identification": "Upright, fleshy plant. Succulent, strap-shaped leaves. Lilac-purple daisy flowers with yellow centres in flat-topped clusters. Growing in saltmarsh. Unmistakeable in the saltmarsh context.",
+    "tips": "Walk to Marshside RSPB in August and look across the saltmarsh — the purple spread of Sea Aster is immediately apparent. Good for bees and butterflies.",
+    "difficulty": "easy",
+    "relatedSpecies": ["sea-lavender"],
+    "wikipediaTitle": "Aster tripolium",
+    "faq": [
+      {
+        "question": "Is Sea Aster edible?",
+        "answer": "Yes — Sea Aster leaves are edible and have been used in coastal areas as a vegetable, particularly in southern Europe. The fleshy, slightly salty leaves can be eaten raw in salads or briefly cooked. However, harvesting from the Marshside RSPB saltmarsh would be inappropriate and potentially harmful to the wildlife conservation value of the area."
+      }
+    ]
+  },
+  {
+    "commonName": "Common Glasswort",
+    "scientificName": "Salicornia europaea",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Caryophyllales",
+    "family": "Amaranthaceae",
+    "seasonalPresence": "Annual — appears in spring, green summer, vivid red-orange in autumn.",
+    "bestTimeOfDay": "Any time; best in September when autumn colour is brightest",
+    "whereToSee": "Saltmarsh at Marshside RSPB and Ribble Estuary. The pioneer of bare mud in saltmarsh.",
+    "shortLocation": "Marshside RSPB",
+    "ukPopulation": "Common on all UK saltmarsh systems",
+    "seftonPopulation": "Abundant on the Marshside and Crossens saltmarsh; colours the marsh red-orange in autumn",
+    "habitat": ["Pioneer saltmarsh", "Tidal mudflat", "Saltmarsh creek margin"],
+    "diet": null,
+    "description": "Glasswort is one of the most unusual plants on the Sefton Coast — it looks like a tiny cactus and grows on the bare mud of pioneer saltmarsh, the first plant to colonise tidal mudflats. Bright green and succulent in summer, the saltmarsh turns vivid red-orange in autumn as Glasswort colours up — one of the most striking natural colour changes on the coast. Historically used in glass-making (the ash provides sodium carbonate). Also edible — it's the 'samphire' of sea vegetables.",
+    "identification": "Small, segmented, cactus-like annual. Jointed, fleshy, leafless stems. Bright green in summer, vivid red-orange in autumn. Growing on bare saltmarsh mud with no other plants. Unmistakeable in the salt marsh context.",
+    "tips": "Visit Marshside RSPB in September and look at the pioneer saltmarsh at low tide — the red-orange colour of autumn Glasswort is stunning.",
+    "difficulty": "easy",
+    "relatedSpecies": ["sea-aster", "sea-purslane"],
+    "wikipediaTitle": "Salicornia europaea",
+    "faq": [
+      {
+        "question": "Is Glasswort the same as samphire?",
+        "answer": "Common Glasswort (Salicornia) is one of two plants sold as 'samphire'. It's also called marsh samphire or sea asparagus and is the one used in upmarket restaurants as a sea vegetable — crunchy, salty and bright green. The other 'samphire' is Rock Samphire (Crithmum maritimum, a member of the carrot family), which grows on sea cliffs. Both are edible, but they're completely different plants."
+      }
+    ]
+  },
+  {
+    "commonName": "Sea Purslane",
+    "scientificName": "Atriplex portulacoides",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Caryophyllales",
+    "family": "Amaranthaceae",
+    "seasonalPresence": "Year-round. Flowers July–September. Evergreen shrub.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Saltmarsh at Marshside RSPB. Forms the characteristic silvery-grey border along saltmarsh channels.",
+    "shortLocation": "Marshside RSPB",
+    "ukPopulation": "Common on all UK saltmarsh systems",
+    "seftonPopulation": "Abundant on the Marshside saltmarsh; characteristic of the mid-saltmarsh community",
+    "habitat": ["Mid to upper saltmarsh", "Saltmarsh creek bank"],
+    "diet": null,
+    "description": "Sea Purslane forms the distinctive silvery-grey borders along saltmarsh channels and creek banks at Marshside. It's a low, spreading shrub with mealy, grey-green leaves that can tolerate regular tidal flooding. In salt marsh structure terms, it marks the mid to upper saltmarsh — above the bare pioneer zone but below the drier upper marsh. The grey-silver colour against the green of Sea Aster and the brown mud is one of the defining visual characteristics of the Marshside saltmarsh.",
+    "identification": "Low, spreading shrub to 80cm. Grey-green, oval, mealy leaves (covered in salt-excreting glands). Tiny yellow-green flowers. Forms spreading mats along saltmarsh creek banks. Silvery-grey appearance.",
+    "tips": "Walk the Marshside saltmarsh and look for the silvery-grey borders of Sea Purslane along tidal channels. It marks the main channel edges clearly.",
+    "difficulty": "easy",
+    "relatedSpecies": ["sea-aster", "common-glasswort"],
+    "wikipediaTitle": "Halimione portulacoides",
+    "faq": [
+      {
+        "question": "How does Sea Purslane deal with salt?",
+        "answer": "Sea Purslane has salt glands on its leaves that actively excrete excess salt taken up from the saline soil and water. This is why the leaves have a mealy, whitish appearance — tiny crystals of salt excreted by the glands. This salt extrusion mechanism allows it to grow in conditions that would kill most plants."
+      }
+    ]
+  },
+  {
+    "commonName": "Sea Lavender",
+    "scientificName": "Limonium vulgare",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Caryophyllales",
+    "family": "Plumbaginaceae",
+    "seasonalPresence": "Flowers July–September. Perennial.",
+    "bestTimeOfDay": "Any time; turns the upper saltmarsh purple in July–August",
+    "whereToSee": "Upper saltmarsh at Marshside RSPB and Crossens. Colours the marsh purple in late summer.",
+    "shortLocation": "Marshside RSPB",
+    "ukPopulation": "Common on UK east and south coast saltmarsh; less common in the north",
+    "seftonPopulation": "Present on the upper saltmarsh at Marshside and Crossens; significant seed source for wintering Twite",
+    "habitat": ["Upper saltmarsh", "Saltmarsh fringe"],
+    "diet": null,
+    "description": "Sea Lavender colours the upper saltmarsh at Marshside with a haze of lavender-purple in late summer — one of the most beautiful saltmarsh spectacles. It's not related to garden Lavender (it's in the sea-pink family) but the colour is similar. The seeds in winter are eaten by Twite — the Marshside saltmarsh's Sea Lavender seed bank is one of the reasons Twite flocks gather there. The dried flowers hold their colour well and are used in dried flower arrangements.",
+    "identification": "Rosette of flat, leathery, oval leaves. Flat-topped branching flower stems. Tiny, lavender-purple flowers in dense clusters. Papery remains of flowers persist through winter. Growing in upper saltmarsh.",
+    "tips": "Walk the Marshside sea wall in August and look down onto the upper saltmarsh — the purple haze of Sea Lavender is unmistakeable from above.",
+    "difficulty": "easy",
+    "relatedSpecies": ["sea-aster", "sea-purslane"],
+    "wikipediaTitle": "Limonium vulgare",
+    "faq": [
+      {
+        "question": "Why do Twite eat Sea Lavender seeds?",
+        "answer": "Twite are seed-eating finches that specialise in the seeds of saltmarsh plants in winter. Sea Lavender produces abundant small seeds that persist on the plant through winter — accessible even in poor weather. The Marshside saltmarsh's Sea Lavender population is one of the reasons the site supports nationally significant Twite flocks. Sea Aster and other saltmarsh plants also contribute to the winter seed supply."
+      }
+    ]
+  },
+  {
+    "commonName": "Common Reed",
+    "scientificName": "Phragmites australis",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Poales",
+    "family": "Poaceae",
+    "seasonalPresence": "Year-round. Flowers August–September. Persists through winter.",
+    "bestTimeOfDay": "Any time; rustling in wind is one of the sounds of Marshside",
+    "whereToSee": "Marshside RSPB reedbeds. Any standing water near the coast.",
+    "shortLocation": "Marshside RSPB",
+    "ukPopulation": "Very common throughout Britain on standing and slow-moving water",
+    "seftonPopulation": "Abundant at Marshside RSPB reedbeds and ditches; the key habitat for Reed and Sedge Warblers, Water Rail and wintering wildfowl",
+    "habitat": ["Reedbed", "Marsh ditch", "Freshwater lagoon edge", "Brackish water"],
+    "diet": null,
+    "description": "The Common Reed is the dominant plant of the Marshside RSPB reedbeds — and reedbeds are among the most wildlife-rich habitats in Britain. The Marsh Helleborine cannot grow there, but Reed and Sedge Warblers, Water Rail, Bittern (target species), Bearded Tit (occasional) and wintering wildfowl all depend on it. The rustling, swaying reedbeds are one of the characteristic sounds and sights of Marshside. Reeds are also used in traditional thatching.",
+    "identification": "Very tall grass to 4m. Broad, flat grey-green leaves. Feathery purple-brown flower head in August–September. Stiff, hollow golden stems persist through winter. Growing in water or wetland.",
+    "tips": "Walk the Marshside sea wall at any season. The tall golden reeds stand above all other vegetation in winter. In summer, listen for Reed and Sedge Warbler song from within.",
+    "difficulty": "easy",
+    "relatedSpecies": ["purple-moor-grass"],
+    "wikipediaTitle": "Common reed",
+    "faq": [
+      {
+        "question": "Why is Common Reed used for thatching?",
+        "answer": "Water Reed (Phragmites australis) has been used for thatching for thousands of years. The stems are hollow, very strong, resistant to water penetration and have a natural silica content that increases durability. A good water reed thatch can last 60–70 years. Norfolk remains the centre of UK thatching reed production, where reedbeds are still commercially harvested."
+      }
+    ]
+  },
+  {
+    "commonName": "Purple Moor-grass",
+    "scientificName": "Molinia caerulea",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Poales",
+    "family": "Poaceae",
+    "seasonalPresence": "Year-round. Flowers August–October. Dies back in winter.",
+    "bestTimeOfDay": "Any time; spectacular autumn colour",
+    "whereToSee": "Wet dune slacks and damp heathland at Ainsdale NNR. Forms large tussocks.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Common on wet heathland, moorland and dune slacks throughout Britain",
+    "seftonPopulation": "Present in wet dune slacks and damp heath at Ainsdale NNR",
+    "habitat": ["Wet dune slack", "Damp heathland", "Bog edge"],
+    "diet": null,
+    "description": "Purple Moor-grass forms large, dense tussocks in the wet dune slacks at Ainsdale. In autumn it turns spectacular shades of gold and amber before dying back completely. The Large Marsh Grasshopper is associated with the boggy areas where it grows. It can become rank and dominate wet heath if not managed by grazing or cutting — another management challenge at Ainsdale alongside Sea Buckthorn. The purple tinge of the flower heads in late summer gives it its name.",
+    "identification": "Dense tussock-forming grass. Broad, flat leaves in summer; dies back completely in winter leaving only brown tussocks. Purple-tinged flower heads in late summer. In wet dune slack or damp heath.",
+    "tips": "Walk the wet slack areas at Ainsdale in October. The gold and amber autumn colour of large Molinia tussocks is striking.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["creeping-willow", "heather"],
+    "wikipediaTitle": "Molinia caerulea",
+    "faq": [
+      {
+        "question": "Why is Purple Moor-grass a problem on some heaths?",
+        "answer": "On overgrazed or underburned heathland, Purple Moor-grass can spread from wet hollows into drier heath, forming dense rank swards that smother Heather, bog plants and the specialist invertebrate communities of lowland heath. Management (grazing, cutting, burning) is required to prevent it from dominating. At Ainsdale NNR its spread is carefully monitored alongside Sea Buckthorn and scrub encroachment."
+      }
+    ]
+  },
+  {
+    "commonName": "Bogbean",
+    "scientificName": "Menyanthes trifoliata",
+    "category": "plants",
+    "conservationStatus": "amber",
+    "order": "Asterales",
+    "family": "Menyanthaceae",
+    "seasonalPresence": "Flowers May–June. Perennial. Leaves visible year-round.",
+    "bestTimeOfDay": "Any time; flowers most spectacular in morning sunshine",
+    "whereToSee": "Deeper, more permanent dune slack pools at Ainsdale NNR. Requires open standing water.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Widespread but declining; amber-listed in Wales; requires open water",
+    "seftonPopulation": "Present in suitable dune slack pools at Ainsdale NNR",
+    "habitat": ["Dune slack pond edge", "Fen", "Shallow pool", "Bog"],
+    "diet": null,
+    "description": "The Bogbean is one of the most beautiful aquatic plants — the flowers are extraordinary: pink on the outside of the bud, opening white with a fringe of long white hairs on the petals, giving a wonderfully delicate appearance. It grows at the edges of pools and in boggy ground in the dune slacks. The three-part leaves (like a large Clover) emerge from the water. Despite the name it is not related to beans — the 'bean' refers to the leaf shape.",
+    "identification": "Emergent aquatic plant. Large three-part leaves like a giant Clover. Flowers on tall stems: pink buds opening white with beautifully fringed petals. Growing in shallow water or boggy ground.",
+    "tips": "Visit the dune slack pools at Ainsdale in May. Bogbean flowers are extraordinary close-up — the fringed petals are unlike anything else in the British flora.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["grass-of-parnassus", "marsh-pennywort"],
+    "wikipediaTitle": "Menyanthes trifoliata",
+    "faq": [
+      {
+        "question": "Is Bogbean related to garden beans?",
+        "answer": "No. Despite the name, Bogbean is not related to beans (which are in the pea family, Fabaceae). The name refers to the leaf shape — the three leaflets look somewhat like a broad bean leaf. Bogbean is in the family Menyanthaceae, a small family of aquatic and bog plants. It has been used medicinally as a digestive bitter."
+      }
+    ]
+  },
+  {
+    "commonName": "Marsh Pennywort",
+    "scientificName": "Hydrocotyle vulgaris",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Apiales",
+    "family": "Araliaceae",
+    "seasonalPresence": "Flowers June–September. Perennial. Leaves visible most of year.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Wet dune slacks at Ainsdale NNR. Forms carpets of round leaves in permanently wet areas.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Common in wet grassland and fen throughout Britain",
+    "seftonPopulation": "Common in wet dune slack grassland throughout Ainsdale NNR",
+    "habitat": ["Wet dune slack", "Bog", "Fen grassland"],
+    "diet": null,
+    "description": "Marsh Pennywort forms carpets of round, penny-shaped leaves in the wet dune slacks at Ainsdale. The leaves are distinctive — perfectly round with a stalk attached at the centre, like a tiny parasol. It creeps through wet grass by underground runners. The flowers are tiny and largely hidden under the leaves. A characteristic and abundant plant of the wet slack community.",
+    "identification": "Creeping plant. Perfectly round, scallop-edged leaves with central stalk. Forms dense carpets in very wet grassland. Tiny pinkish flowers hidden under leaves. In wet, boggy dune slacks.",
+    "tips": "Walk any wet dune slack at Ainsdale — the carpets of round leaves are unmistakeable. Get low to see the structure of the individual leaves.",
+    "difficulty": "easy",
+    "relatedSpecies": ["bogbean", "grass-of-parnassus"],
+    "wikipediaTitle": "Hydrocotyle vulgaris",
+    "faq": [
+      {
+        "question": "Why is the stalk of Marsh Pennywort attached to the centre of the leaf?",
+        "answer": "Marsh Pennywort is 'peltate' — the leaf stalk attaches at the centre of the leaf rather than the edge. This is relatively unusual in British plants and is thought to help water run off effectively in the wet, boggy habitats where the plant grows, preventing the leaf from becoming waterlogged and sinking. The perfectly round shape and central stalk are the key identification features."
+      }
+    ]
+  },
+  {
+    "commonName": "Biting Stonecrop",
+    "scientificName": "Sedum acre",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Saxifragales",
+    "family": "Crassulaceae",
+    "seasonalPresence": "Flowers May–July. Perennial, evergreen.",
+    "bestTimeOfDay": "Any time; flowers most vivid in sunshine",
+    "whereToSee": "Dry, bare dune surfaces and sandy paths throughout the Sefton Coast. Covers sand with vivid yellow in June.",
+    "shortLocation": "Formby Beach",
+    "ukPopulation": "Common on walls, roofs, sandy ground and dunes throughout Britain",
+    "seftonPopulation": "Common on dry, bare dune surfaces throughout the Sefton Coast",
+    "habitat": ["Bare dune surface", "Sandy path", "Old dune turf", "Wall tops"],
+    "diet": null,
+    "description": "Biting Stonecrop creates vivid yellow carpets on bare, dry dune surfaces in May and June — one of the most cheerful early-summer sights on the coast. The name 'biting' refers to the acrid, peppery taste of the tiny fleshy leaves. It's a succulent adapted to the driest, most exposed positions on the dune. The starry, bright yellow flowers are surprisingly large relative to the tiny plant.",
+    "identification": "Very small, mat-forming succulent. Tiny, fat, fleshy leaves overlapping along stems. Vivid yellow, star-shaped flowers May–June. On dry, bare, sunny surfaces. Small plant (to 5cm) that covers bare sand.",
+    "tips": "Look on any bare, sunny sand or path on the dune system in June. The vivid yellow mats are unmistakeable. Nibble a tiny leaf (if you're not allergic) to understand the 'biting' name.",
+    "difficulty": "easy",
+    "relatedSpecies": ["sand-sedge", "common-centaury"],
+    "wikipediaTitle": "Sedum acre",
+    "faq": [
+      {
+        "question": "Why is Biting Stonecrop called 'biting'?",
+        "answer": "The leaves contain alkaloid compounds including sedamine and sarracine that produce an acrid, burning sensation on the tongue and lips — quite a shock for such a tiny plant. The biting quality has led to various folk names including 'wall pepper'. The sensation passes quickly but is memorable. This chemical defence deters grazing by most animals."
+      }
+    ]
+  },
+  {
+    "commonName": "Carline Thistle",
+    "scientificName": "Carlina vulgaris",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "seasonalPresence": "Flowers July–September. Biennial. Dry seedheads persist through winter.",
+    "bestTimeOfDay": "Any time; flower heads open in sunshine, close in damp weather",
+    "whereToSee": "Short, dry calcareous dune grassland at Ainsdale NNR.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Locally common on calcareous grassland and coastal dunes in England",
+    "seftonPopulation": "Present in short calcareous dune grassland at Ainsdale; less common than on chalk downland",
+    "habitat": ["Short calcareous dune grassland", "Chalk and limestone grassland"],
+    "diet": null,
+    "description": "The Carline Thistle is a strange and beautiful plant — a spiny thistle with a flower head that opens flat in sunshine, revealing golden-straw inner bracts surrounding the tiny central flowers. In winter the dried seedheads persist, looking like a flat compass rose. It grows on the shortest, most grazed calcareous dune turf. A good indicator species of old, undisturbed dune grassland. The flowers close in damp weather, which was historically used as a natural barometer.",
+    "identification": "Stemless or short-stemmed thistle. Spiny leaves radiating from a rosette. Large flower head with golden-straw bracts opening flat in sunshine to reveal central flowers. Whole head closes in damp weather. Distinctive straw-gold colour.",
+    "tips": "Look in the shortest, most open dune turf at Ainsdale in August. The flat, star-like flower heads are distinctive. Also look for the dried stems of previous years' plants in winter.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["common-centaury", "autumn-gentian"],
+    "wikipediaTitle": "Carlina vulgaris",
+    "faq": [
+      {
+        "question": "Why does the Carline Thistle open and close its flower head?",
+        "answer": "The inner bracts of the Carline Thistle act as a hygrometer — they open in dry weather (facilitating pollination by insects) and close tightly in damp conditions (protecting the flowers from rain). This responsive behaviour is so reliable that the plant has historically been used as a natural weather indicator, hung in houses and used like a hygrometer. The movement is entirely passive — driven by water absorption and loss from the bract tissue."
+      }
+    ]
+  },
+  {
+    "commonName": "Field Scabious",
+    "scientificName": "Knautia arvensis",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Dipsacales",
+    "family": "Caprifoliaceae",
+    "seasonalPresence": "Flowers July–September. Perennial.",
+    "bestTimeOfDay": "Any time; insect-visited throughout the day in sunshine",
+    "whereToSee": "Fixed dune grassland and scrub edges at Ainsdale and Formby.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Common on calcareous and neutral grassland throughout England",
+    "seftonPopulation": "Present on fixed dune grassland and rough ground throughout the Sefton Coast",
+    "habitat": ["Fixed dune grassland", "Rough grassland", "Scrub edge"],
+    "diet": null,
+    "description": "Field Scabious is one of the best insect plants of the Sefton Coast — the flat, lilac-blue flower heads are a magnet for bumblebees, butterflies and hoverflies throughout August. The outer florets of each flower head are larger than the inner ones, giving an irregular pincushion look. Common on dune grassland and scrub edges, it often grows with Lady's Bedstraw, Viper's Bugloss and Common Centaury in the diverse dune wildflower community.",
+    "identification": "Tall, branching plant to 80cm. Pinnately lobed basal leaves. Flat-topped lilac-blue flower heads with larger outer florets. Hairy stems. Multiple flower heads per plant.",
+    "tips": "Watch Field Scabious in August — it's one of the most attractive insect plants on the dune grassland. Bumblebees and butterflies visit constantly.",
+    "difficulty": "easy",
+    "relatedSpecies": ["common-knapweed", "viper-s-bugloss"],
+    "wikipediaTitle": "Field scabious",
+    "faq": [
+      {
+        "question": "Why is it called scabious?",
+        "answer": "The name comes from the Latin scabies (itch, mange). Scabious plants were used medicinally to treat skin diseases including scabies, eczema and various itching conditions. The plant contains compounds with mild antimicrobial and anti-inflammatory properties. This medicinal use gave the whole genus (Knautia and Scabiosa) the common name 'scabious'."
+      }
+    ]
+  },
+  {
+    "commonName": "Common Knapweed",
+    "scientificName": "Centaurea nigra",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "seasonalPresence": "Flowers June–September. Perennial.",
+    "bestTimeOfDay": "Any time in sunshine; excellent insect plant",
+    "whereToSee": "Fixed dune grassland, scrub edges and rough ground throughout the Sefton Coast.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Very common throughout Britain on grassland and roadside",
+    "seftonPopulation": "Common on fixed dune grassland and rough ground throughout the Sefton Coast",
+    "habitat": ["Fixed dune grassland", "Rough grassland", "Scrub edge", "Roadside"],
+    "diet": null,
+    "description": "Common Knapweed is one of the most important summer wildflowers for insects — its purple-red thistle-like flowers attract an extraordinary diversity of bees, butterflies, hoverflies and beetles. Dark Green Fritillary, Painted Lady and Red Admiral all visit it. On the dune grassland it grows tall and robust, flowering from June to September. The flower head has distinctive black-fringed bracts — giving it the local names 'black knapweed' or 'hardhead'.",
+    "identification": "Upright plant to 90cm. Dark green, slightly hairy leaves. Dark purple-red flower heads on globular base with distinctively black-fringed bracts. Looks like a thistle but leaves not spiny. Often grows with Field Scabious.",
+    "tips": "Watch Knapweed in any dune grassland in August. It's covered in insects — a good plant for beginners to start learning bee and hoverfly identification.",
+    "difficulty": "easy",
+    "relatedSpecies": ["field-scabious", "viper-s-bugloss"],
+    "wikipediaTitle": "Common knapweed",
+    "faq": [
+      {
+        "question": "Why is Common Knapweed so good for insects?",
+        "answer": "Knapweed provides abundant, accessible nectar through a long flowering period (June–September). The tubular florets are short enough for both short-tongued bees and long-tongued bumblebees to access. The plant also provides seed for Goldfinches and other finches in autumn. Research consistently places Knapweed among the top five UK wildflowers for total insect visits — making it one of the most valuable wildflowers in any grassland restoration."
+      }
+    ]
+  },
+  {
+    "commonName": "Evening Primrose",
+    "scientificName": "Oenothera biennis agg.",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Myrtales",
+    "family": "Onagraceae",
+    "seasonalPresence": "Flowers July–September. Biennial — rosette in year one, tall flower spike in year two.",
+    "bestTimeOfDay": "Evening — flowers open at dusk and are pollinated by moths",
+    "whereToSee": "Disturbed sandy ground, dune edges and scrub margins at Ainsdale and Formby.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Non-native but naturalised; common on disturbed sandy soils throughout England",
+    "seftonPopulation": "Common on disturbed sandy ground and dune margins throughout the Sefton Coast",
+    "habitat": ["Disturbed sandy ground", "Dune margin", "Sandy roadside"],
+    "diet": null,
+    "description": "Evening Primrose is a North American introduction, naturalized across sandy, disturbed habitats in Britain since the 17th century. On the Sefton Coast it's common on disturbed dune ground and scrub margins. The large, bright yellow flowers open in the evening — hence the name — and are pollinated by moths including Elephant Hawkmoth, which hovers at the flowers in the dusk light. The flowers close during the day. Standing beside an Evening Primrose patch at dusk on a warm August evening as moths arrive is memorable.",
+    "identification": "Tall biennial, to 1.5m in second year. Large, bright yellow four-petalled flowers that open in the evening. Reddish stems. Soft, slightly reddish-tinged rosette leaves in year one.",
+    "tips": "Visit a patch of Evening Primrose at dusk in August. Watch for hovering moths — Elephant Hawkmoths are attracted to the flowers. During the day the flowers are closed.",
+    "difficulty": "easy",
+    "relatedSpecies": ["viper-s-bugloss", "common-ragwort"],
+    "wikipediaTitle": "Oenothera biennis",
+    "faq": [
+      {
+        "question": "Is Evening Primrose oil from this plant?",
+        "answer": "Yes. Evening Primrose oil (used in supplements and skincare) is extracted from the seeds of Oenothera biennis and related species. The oil contains gamma-linolenic acid (GLA) and has been used for various health conditions, though scientific evidence for most claimed benefits is limited. The plant itself is not native to Britain — it originates from eastern North America."
+      }
+    ]
+  },
+  {
+    "commonName": "Wood Sage",
+    "scientificName": "Teucrium scorodonia",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Lamiales",
+    "family": "Lamiaceae",
+    "seasonalPresence": "Flowers July–September. Perennial.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Dune scrub and pinewood edges at Formby and Ainsdale. Grows in dry, acidic soil.",
+    "shortLocation": "Formby NT Pinewoods",
+    "ukPopulation": "Common on dry, acidic heathland and woodland in Britain",
+    "seftonPopulation": "Common in the Formby pinewoods edge and dry dune scrub throughout the Sefton Coast",
+    "habitat": ["Pinewood edge", "Dry dune scrub", "Heathland edge", "Sandy woodland"],
+    "diet": null,
+    "description": "Wood Sage is one of the characteristic plants of the pinewood edges and dry dune scrub at Formby. The soft, grey-green, wrinkled leaves smell of sage when crushed. The flower spikes of small, pale yellow-green flowers are distinctive in late summer. It's a plant of dry, acidic, free-draining soils — the sandy conditions at Formby suit it perfectly. Used historically to flavour ale before hops became the standard bitter ingredient.",
+    "identification": "Upright plant to 40cm. Soft, grey-green, oval, wrinkled leaves with a sage-like smell when crushed. Spikes of small, pale yellow-green flowers. Paired leaves. Dry, sandy habitat.",
+    "tips": "Walk the pinewood edges at Formby and the dry dune scrub — Wood Sage is common. Crush a leaf to enjoy the distinctive sage fragrance.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["heather", "wild-thyme"],
+    "wikipediaTitle": "Teucrium scorodonia",
+    "faq": [
+      {
+        "question": "Was Wood Sage actually used to make beer?",
+        "answer": "Yes — Wood Sage was one of the most widely used bittering agents for ale in Britain before hops became standard in the 15th–16th centuries. It provided both bitterness and antimicrobial preservative properties (important for keeping beer drinkable). Other bittering plants used historically included Ground Ivy, Yarrow and Mugwort."
+      }
+    ]
+  },
+  {
+    "commonName": "Dewberry",
+    "scientificName": "Rubus caesius",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Rosales",
+    "family": "Rosaceae",
+    "seasonalPresence": "Flowers May–July. Fruit August–September. Perennial.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Fixed dune grassland and scrub edges throughout Ainsdale and Formby. Lower-growing than Bramble.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Common on calcareous and sandy grassland and dune systems in England",
+    "seftonPopulation": "Common on fixed dune grassland and scrub edges throughout the Sefton Coast",
+    "habitat": ["Fixed dune grassland", "Dune scrub edge", "Calcareous grassland"],
+    "diet": null,
+    "description": "Dewberry looks like a low-growing Bramble but is a different species — smaller, less spiny, and producing a distinctive fruit: a blackberry-like fruit with a grey-blue bloom that gives it a 'dewy' appearance. It's a characteristic plant of dune grassland and calcareous grassland, growing lower and more sprawling than Bramble. The fruits are excellent to eat — if you can find enough of them. A good nectar source for insects in May and June.",
+    "identification": "Low-growing, sprawling plant, less than 50cm. Round-stemmed with weak spines (unlike Bramble's angular stems with strong spines). Small white flowers. Fruit: blackberry-like with prominent grey-blue waxy bloom — distinctive.",
+    "tips": "Walk dune grassland at Ainsdale in August–September. The bluish bloom on the small fruits is distinctive. Taste one — they're sweet and good.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["burnet-rose", "common-restharrow"],
+    "wikipediaTitle": "Rubus caesius",
+    "faq": [
+      {
+        "question": "How do I tell Dewberry from Bramble?",
+        "answer": "Dewberry is smaller and more sprawling, with round stems (Bramble has angular, strongly spiny stems). The fruit is the best distinguishing feature — Dewberry has a prominent grey-blue waxy bloom covering the drupelets, while Bramble fruits are shiny black without a bloom. Dewberry fruits are also smaller with fewer, larger drupelets."
+      }
+    ]
+  },
+  {
+    "commonName": "Tormentil",
+    "scientificName": "Potentilla erecta",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Rosales",
+    "family": "Rosaceae",
+    "seasonalPresence": "Flowers May–September. Perennial.",
+    "bestTimeOfDay": "Any time in sunshine",
+    "whereToSee": "Dune heath and dry dune grassland at Ainsdale NNR. Small, four-petalled yellow flowers.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Very common on heathland, moorland and acidic grassland throughout Britain",
+    "seftonPopulation": "Common on dune heath and dry dune grassland at Ainsdale NNR",
+    "habitat": ["Dune heath", "Dry acidic grassland", "Moorland"],
+    "diet": null,
+    "description": "Tormentil is a small but cheerful plant of dune heath and acidic grassland — its four-petalled, bright yellow flowers bloom throughout summer. It can be distinguished from similar Cinquefoils by always having four petals (most Potentilla species have five). The deep red root was used medicinally as an astringent and to treat toothache — the name 'torment' may refer to this painful application.",
+    "identification": "Small, low-growing plant. Bright yellow four-petalled flowers (most similar plants have five petals). Trefoil (three-part) stem leaves. Flowers throughout summer. On acidic, dry grass.",
+    "tips": "Get low on the dune heath at Ainsdale and look for small yellow flowers. Four petals means Tormentil — a reliable field mark.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["heather", "heath-bedstraw"],
+    "wikipediaTitle": "Potentilla erecta",
+    "faq": [
+      {
+        "question": "Why does Tormentil always have four petals?",
+        "answer": "Four petals is a consistent characteristic of Tormentil (Potentilla erecta) — unlike most of the other cinquefoils which have five petals. This four-petal character is constant and is the most reliable field mark separating Tormentil from similar yellow-flowered relatives. The name Potentilla comes from the Latin 'potens' (powerful) — referring to the plant's perceived medicinal power."
+      }
+    ]
+  },
+  {
+    "commonName": "Heath Bedstraw",
+    "scientificName": "Galium saxatile",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Gentianales",
+    "family": "Rubiaceae",
+    "seasonalPresence": "Flowers June–August. Perennial.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Dune heath and acidic dune grassland at Ainsdale NNR. White flower clusters close to ground.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Very common on heathland and acidic grassland throughout Britain",
+    "seftonPopulation": "Common on dune heath at Ainsdale NNR",
+    "habitat": ["Dune heath", "Acidic grassland", "Moorland"],
+    "diet": null,
+    "description": "Heath Bedstraw is the acidic-soil counterpart of Lady's Bedstraw — growing on heathland and acidic dune grassland rather than the calcareous dune grassland preferred by its relative. It forms low, spreading mats of tiny white flowers. Smaller and lower-growing than Lady's Bedstraw. A common component of the dune heath community at Ainsdale alongside Heather, Bell Heather and Tormentil.",
+    "identification": "Low mat-forming plant. Whorls of narrow leaves. Tiny white four-petalled flowers in clusters. No scent (unlike Lady's Bedstraw which is honey-scented). Grows on acidic heath.",
+    "tips": "Walk the dune heath at Ainsdale in July. Heath Bedstraw forms low white mats at ground level between the Heather plants.",
+    "difficulty": "moderate",
+    "relatedSpecies": ["lady-s-bedstraw", "tormentil"],
+    "wikipediaTitle": "Heath bedstraw",
+    "faq": [
+      {
+        "question": "How do I tell Heath Bedstraw from Lady's Bedstraw?",
+        "answer": "Habitat is the first clue — Heath Bedstraw grows on acidic heathland; Lady's Bedstraw on calcareous dune grassland. The flowers differ: Heath Bedstraw flowers are white; Lady's Bedstraw flowers are yellow. Lady's Bedstraw is also strongly honey-scented; Heath Bedstraw has no significant scent. Both have whorls of narrow leaves but Lady's Bedstraw is taller and more robust."
+      }
+    ]
+  },
+  {
+    "commonName": "Marsh Marigold",
+    "scientificName": "Caltha palustris",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Ranunculales",
+    "family": "Ranunculaceae",
+    "seasonalPresence": "Flowers March–June. Perennial. One of the earliest flowering plants of spring.",
+    "bestTimeOfDay": "Any time; flowers most vivid in morning sunshine",
+    "whereToSee": "Wet dune slacks and drainage ditches at Ainsdale NNR and behind the sea wall. April spectacular.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Common in wet habitats throughout Britain; declining in some areas due to drainage",
+    "seftonPopulation": "Present in wet dune slacks at Ainsdale NNR and wet areas behind the sea wall",
+    "habitat": ["Wet dune slack", "Marsh ditch", "Streamside", "Wet woodland"],
+    "diet": null,
+    "description": "Marsh Marigold is one of spring's most vivid flowers — large, gleaming gold flowers on robust, hollow-stemmed plants in wet dune slacks and ditches. In April, before most other plants have woken up, the Marsh Marigold patches glow brilliant gold in the low sunlight. Also known as Kingcup. It's one of the first nectar sources for early-emerging bees. The flowers are rich in pollen and are visited by small flies and beetles as well as bees.",
+    "identification": "Large, robust plant to 40cm. Large, round to kidney-shaped, dark green, glossy leaves. Large, brilliant golden-yellow flowers with 5–8 sepals (not true petals). Hollow, fleshy stems. In very wet or flooded ground.",
+    "tips": "Visit wet dune slacks at Ainsdale in April. The vivid gold flowers are unmistakeable in the early spring landscape.",
+    "difficulty": "easy",
+    "relatedSpecies": ["bogbean", "marsh-pennywort"],
+    "wikipediaTitle": "Caltha palustris",
+    "faq": [
+      {
+        "question": "Is Marsh Marigold related to the pot marigold of gardens?",
+        "answer": "No. Despite the name, Marsh Marigold (Caltha palustris) is a member of the buttercup family (Ranunculaceae), while pot marigold (Calendula officinalis) is in the daisy family (Asteraceae). They are completely unrelated. The 'marigold' name for Caltha is thought to come from the Old English 'mersc-meargealla' or similar words meaning 'marsh gold'."
+      }
+    ]
+  },
+  {
+    "commonName": "Sea Arrow-grass",
+    "scientificName": "Triglochin maritima",
+    "category": "plants",
+    "conservationStatus": "green",
+    "order": "Alismatales",
+    "family": "Juncaginaceae",
+    "seasonalPresence": "Flowers June–August. Perennial.",
+    "bestTimeOfDay": "Any time",
+    "whereToSee": "Saltmarsh at Marshside RSPB and Crossens. Very common in the mid-saltmarsh zone.",
+    "shortLocation": "Marshside RSPB",
+    "ukPopulation": "Common on all UK saltmarsh systems and coastal wet ground",
+    "seftonPopulation": "Abundant in the Marshside and Crossens saltmarsh",
+    "habitat": ["Saltmarsh", "Tidal creek edge", "Coastal wet grassland"],
+    "diet": null,
+    "description": "Sea Arrow-grass is not a true grass — it's a member of the arrow-grass family. It grows in dense stands on the saltmarsh at Marshside, its narrow, fleshy, cylindrical leaves looking superficially like rushes. The tall flower spikes produce small, inconspicuous green flowers followed by distinctive elongated fruits. It's one of the dominant plants of mid-saltmarsh. Important food for geese and wildfowl, which eat the leaves and seeds.",
+    "identification": "Narrow, cylindrical, fleshy leaves arising in a basal rosette. Tall, unbranched flower spike with small green flowers. Elongated, three-parted fruits. Growing in saltmarsh. Superficially like a grass but leaves cylindrical.",
+    "tips": "Walk the Marshside saltmarsh — Sea Arrow-grass is common in the mid-zone. Look for the cylindrical, fleshy leaves and the tall flower spikes.",
+    "difficulty": "specialist",
+    "relatedSpecies": ["sea-aster", "sea-purslane"],
+    "wikipediaTitle": "Triglochin maritima",
+    "faq": [
+      {
+        "question": "Is Sea Arrow-grass toxic?",
+        "answer": "Sea Arrow-grass contains cyanogenic glycosides that can release hydrogen cyanide if the plant is damaged. In normal conditions this is not a problem. However, when plants are wilted or drought-stressed, toxin concentrations can increase, and cases of livestock poisoning have been recorded. In UK conditions and at normal grazing pressures this is not usually a significant hazard."
+      }
+    ]
+  },
+  {
+    "commonName": "Creeping Ladies' Tresses",
+    "scientificName": "Spiranthes romanzoffiana",
+    "category": "plants",
+    "conservationStatus": "red",
+    "order": "Asparagales",
+    "family": "Orchidaceae",
+    "seasonalPresence": "Flowers August–September. One of Britain's rarest plants.",
+    "bestTimeOfDay": "Any time in season",
+    "whereToSee": "Ainsdale NNR dune slacks — one of only two locations in England where this plant grows wild.",
+    "shortLocation": "Ainsdale NNR",
+    "ukPopulation": "Extremely rare — in England found only at Ainsdale NNR and one other site. Red-listed.",
+    "seftonPopulation": "Ainsdale NNR is one of the most significant botanical sites in England precisely because of this plant.",
+    "habitat": ["Wet, unimproved dune slack", "Damp calcareous grassland"],
+    "diet": null,
+    "description": "Creeping Ladies' Tresses is one of Britain's rarest wild plants — it occurs in Ireland and Scotland but in England is confined to just two sites, one of which is Ainsdale NNR. It is the reason Ainsdale is botanically internationally important. The small, white, strongly vanilla-scented flowers are arranged in a triple spiral up the stem — the 'tresses' pattern. It grows in undisturbed, damp calcareous dune slacks. Numbers fluctuate year to year, and it may not be visible every year. Finding it in flower is a genuinely significant botanical moment.",
+    "identification": "Small orchid, 15–30cm. Three rows of small, white flowers in a tight triple spiral up the stem. Sweet vanilla scent. Oval basal leaves. Growing in wet dune slack in August–September.",
+    "tips": "This species requires specific guidance from Ainsdale NNR wardens in season. Do not attempt to search independently — the plant is critically rare and any disturbance is harmful. Contact Natural England at Ainsdale NNR for guided access.",
+    "difficulty": "specialist",
+    "relatedSpecies": ["marsh-helleborine", "grass-of-parnassus"],
+    "wikipediaTitle": "Spiranthes romanzoffiana",
+    "faq": [
+      {
+        "question": "Why is Creeping Ladies' Tresses so rare in England?",
+        "answer": "Creeping Ladies' Tresses is primarily an American and North Atlantic species — its main European populations are in Ireland and Scotland. In England it reaches the extreme southern edge of its range at Ainsdale. The combination of a highly specific habitat requirement (wet, unimproved dune slack with the right mycorrhizal fungi) and climate proximity to its southern range limit makes it extremely vulnerable. Ainsdale NNR's management specifically protects the slack hydrology that allows this plant to persist."
+      }
+    ]
   }
 ]
