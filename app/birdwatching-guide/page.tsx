@@ -1,6 +1,5 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getWikipediaImage } from "@/lib/wikipedia";
 
 const title = "Birdwatching on the Sefton Coast — Guide, Best Spots & What to Bring";
 const description =
@@ -35,31 +34,10 @@ const articleJsonLd = {
   },
 };
 
-export default async function BirdwatchingGuidePage() {
-  const heroImage = await getWikipediaImage("Calidris alpina");
-
+export default function BirdwatchingGuidePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
-
-      {heroImage && (
-        <div className="relative h-64 sm:h-80 w-full overflow-hidden bg-[var(--dune)]">
-          <img
-            src={heroImage.src}
-            alt="Dunlin flock on coastal mudflats — a classic sight on the Sefton Coast"
-            className="w-full h-full object-cover object-center"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
-          <div className="absolute bottom-0 left-0 right-0 p-6">
-            <p className="text-xs text-white/60">
-              Image:{" "}
-              <a href={heroImage.pageUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-white/80">
-                Wikimedia Commons
-              </a>
-            </p>
-          </div>
-        </div>
-      )}
 
       <div className="mx-auto max-w-3xl px-4 py-10">
         <nav className="text-sm text-[var(--slate)]/60 mb-6 flex items-center gap-1.5">

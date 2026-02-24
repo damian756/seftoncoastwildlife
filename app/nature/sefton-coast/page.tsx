@@ -1,6 +1,5 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getWikipediaImage } from "@/lib/wikipedia";
 
 const title = "The Sefton Coast — Geography, Habitats & Wildlife";
 const description =
@@ -32,31 +31,10 @@ const pageJsonLd = {
   touristType: ["Nature lovers", "Birdwatchers", "Walkers", "Families"],
 };
 
-export default async function SeftonCoastPage() {
-  const heroImage = await getWikipediaImage("Pied avocet");
-
+export default function SeftonCoastPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
-
-      {heroImage && (
-        <div className="relative h-64 sm:h-80 w-full overflow-hidden bg-[var(--dune)]">
-          <img
-            src={heroImage.src}
-            alt="Marram grass on the Sefton Coast sand dunes"
-            className="w-full h-full object-cover object-center"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
-          <div className="absolute bottom-0 left-0 right-0 p-6">
-            <p className="text-xs text-white/60">
-              Image:{" "}
-              <a href={heroImage.pageUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-white/80">
-                Wikimedia Commons
-              </a>
-            </p>
-          </div>
-        </div>
-      )}
 
       <div className="mx-auto max-w-3xl px-4 py-10">
         <nav className="text-sm text-[var(--slate)]/60 mb-6 flex items-center gap-1.5">
