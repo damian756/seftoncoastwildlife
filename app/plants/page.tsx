@@ -1,5 +1,6 @@
 import { getAllSpecies } from "@/lib/species";
 import { SpeciesList } from "@/components/SpeciesList";
+import { getCardThumbnail } from "@/lib/wikipedia";
 import type { Metadata } from "next";
 
 const title = "Sefton Coast Plants — Dune & Marsh Flora Species Guide";
@@ -14,8 +15,16 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title, description },
 };
 
-export default function PlantsPage() {
+export default async function PlantsPage() {
   const species = getAllSpecies("plants");
+
+  const thumbnails = await Promise.all(
+    species.map(async (s) => ({
+      id: s.id,
+      src: s.wikipediaTitle ? await getCardThumbnail(s.wikipediaTitle) : null,
+    }))
+  );
+  const imageMap = new Map(thumbnails.map((t) => [t.id, t.src]));
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -35,7 +44,7 @@ export default function PlantsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
-      <SpeciesList category="plants" species={species} />
+      <SpeciesList category="plants" species={species} imageMap={imageMap} />
     </>
   );
 }

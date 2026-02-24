@@ -1,9 +1,10 @@
 import { getAllSpecies } from "@/lib/species";
 import { SpeciesList } from "@/components/SpeciesList";
+import { getCardThumbnail } from "@/lib/wikipedia";
 import type { Metadata } from "next";
 
 const title = "Sefton Coast Birds — Species Guide, Where to See & ID Tips";
-const description = "40+ bird species recorded on the Sefton Coast — Pink-footed Geese at Marshside RSPB, breeding Avocets, Peregrines, waders and wildfowl. Seasonal presence, identification and viewing tips for each.";
+const description = "119 bird species recorded on the Sefton Coast — Pink-footed Geese at Marshside RSPB, breeding Avocets, Peregrines, waders and wildfowl. Seasonal presence, identification and viewing tips for each.";
 const url = "https://seftoncoastwildlife.co.uk/birds";
 
 export const metadata: Metadata = {
@@ -14,8 +15,18 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title, description },
 };
 
-export default function BirdsPage() {
+export default async function BirdsPage() {
   const species = getAllSpecies("birds");
+
+  const [thumbnails] = await Promise.all([
+    Promise.all(
+      species.map(async (s) => ({
+        id: s.id,
+        src: s.wikipediaTitle ? await getCardThumbnail(s.wikipediaTitle) : null,
+      }))
+    ),
+  ]);
+  const imageMap = new Map(thumbnails.map((t) => [t.id, t.src]));
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -35,7 +46,7 @@ export default function BirdsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
-      <SpeciesList category="birds" species={species} />
+      <SpeciesList category="birds" species={species} imageMap={imageMap} />
     </>
   );
 }

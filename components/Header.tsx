@@ -15,6 +15,7 @@ const nav = [
       { label: "Seasonal Guides", href: "/seasonal" },
     ],
   },
+  { label: "Blog", href: "/blog" },
 ];
 
 export function Header() {

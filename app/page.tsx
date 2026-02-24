@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { getAllSpecies } from "@/lib/species";
 
 const title = "Sefton Coast Wildlife — Birds, Nature & Wildlife Guide";
 const description = "Independent guide to wildlife on the Sefton Coast — Marshside RSPB, bird species database, insects, plants and mammals from Southport to Formby.";
@@ -49,6 +50,10 @@ const orgJsonLd = {
 };
 
 export default function HomePage() {
+  const birdCount = getAllSpecies("birds").length;
+  const insectCount = getAllSpecies("insects").length;
+  const plantCount = getAllSpecies("plants").length;
+  const mammalCount = getAllSpecies("mammals").length;
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
@@ -82,10 +87,10 @@ export default function HomePage() {
 
       <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
         {[
-          { href: "/birds", label: "Birds", count: "40", desc: "Waders, wildfowl, raptors and passerines" },
-          { href: "/insects", label: "Insects", count: "12", desc: "Butterflies, moths and invertebrates" },
-          { href: "/plants", label: "Plants", count: "15", desc: "Saltmarsh and dune flora" },
-          { href: "/mammals", label: "Mammals", count: "12", desc: "Including red squirrels at Formby" },
+          { href: "/birds", label: "Birds", count: birdCount, desc: "Waders, wildfowl, raptors and passerines" },
+          { href: "/insects", label: "Insects", count: insectCount, desc: "Butterflies, moths and invertebrates" },
+          { href: "/plants", label: "Plants", count: plantCount, desc: "Saltmarsh and dune flora" },
+          { href: "/mammals", label: "Mammals", count: mammalCount, desc: "Including red squirrels at Formby" },
         ].map(({ href, label, count, desc }) => (
           <Link
             key={href}
@@ -97,6 +102,19 @@ export default function HomePage() {
             <p className="mt-1 text-sm text-[var(--slate)]/80">{desc}</p>
           </Link>
         ))}
+      </section>
+
+      <section className="mb-16">
+        <h2 className="text-2xl font-bold text-[var(--forest)] mb-4">From the blog</h2>
+        <p className="text-[var(--slate)] mb-4 text-sm">
+          Conservation, species spotlights, seasonal watching and more — written by Ed.
+        </p>
+        <Link
+          href="/blog"
+          className="inline-flex items-center gap-2 rounded-lg border border-[var(--forest)] px-5 py-2.5 text-[var(--forest)] font-medium text-sm hover:bg-[var(--dune)] transition"
+        >
+          Read the blog →
+        </Link>
       </section>
 
       <section>

@@ -7,6 +7,23 @@ export interface WikiImage {
   pageUrl: string;
 }
 
+/** Lightweight thumbnail (200px) for use on species listing cards */
+export async function getCardThumbnail(title: string): Promise<string | null> {
+  try {
+    const res = await fetch(
+      `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`,
+      { next: { revalidate: 604800 } }
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    const base: string | undefined = data.originalimage?.source ?? data.thumbnail?.source;
+    if (!base) return null;
+    return base.replace(/\/\d+px-([^/]+)$/, "/200px-$1");
+  } catch {
+    return null;
+  }
+}
+
 export async function getWikipediaImage(title: string): Promise<WikiImage | null> {
   try {
     const res = await fetch(
