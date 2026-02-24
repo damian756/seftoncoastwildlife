@@ -86,11 +86,23 @@ export function Footer() {
           </div>
         </div>
 
+        {/* Partner banner */}
+        <div className="mt-12 border-t border-white/10 pt-6 pb-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm">
+          <p className="text-white/50">
+            Conservation group or local business?{" "}
+            <span className="text-[var(--gold)] font-semibold">Partner with the Sefton Coast Network</span>
+          </p>
+          <a href="mailto:hello@seftoncoast.network" className="text-[var(--gold)] hover:text-white transition font-medium text-sm">
+            hello@seftoncoast.network →
+          </a>
+        </div>
+
         {/* Bottom bar */}
-        <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/40">
+        <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/40">
           <span>© {year} Sefton Coast Wildlife · Built by <a href="https://churchtownmedia.co.uk" target="_blank" rel="noopener" className="hover:text-white/60 transition">Churchtown Media</a></span>
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-white/60 transition">Privacy</Link>
+            <Link href="/terms" className="hover:text-white/60 transition">Terms</Link>
           </div>
         </div>
       </div>
