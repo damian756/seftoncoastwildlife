@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://seftoncoastwildlife.co.uk"),
   title: {
     default: "Sefton Coast Wildlife — Birds, Nature & Wildlife on the Sefton Coast",
     template: "%s | Sefton Coast Wildlife",

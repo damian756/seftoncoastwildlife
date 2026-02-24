@@ -301,9 +301,12 @@ export function SpeciesDetail({ category, species, related, wikiImage, slug }: S
                   UK {sc.label}
                 </h3>
                 <p className={`text-sm leading-relaxed ${sc.calloutText}`}>
-                  {status === "red" && "This species is on the UK Red List for Birds (BoCC5), indicating serious concern about its population decline or unfavourable conservation status. Monitoring this species on the Sefton Coast contributes to national population tracking."}
-                  {status === "amber" && "This species is on the UK Amber List for Birds (BoCC5), indicating moderate concern. Population monitoring and habitat management remain important for its continued recovery."}
-                  {status === "green" && "This species is on the UK Green List, indicating a healthy population status in the UK context. It remains an important component of Sefton Coast biodiversity."}
+                  {category === "birds" && status === "red" && "This species is on the UK Red List for Birds (BoCC5), indicating serious concern about its population decline or unfavourable conservation status. Monitoring this species on the Sefton Coast contributes to national population tracking."}
+                  {category === "birds" && status === "amber" && "This species is on the UK Amber List for Birds (BoCC5), indicating moderate concern. Population monitoring and habitat management remain important for its continued recovery."}
+                  {category === "birds" && status === "green" && "This species is on the UK Green List, indicating a healthy population status in the UK context. It remains an important component of Sefton Coast biodiversity."}
+                  {category !== "birds" && status === "red" && "This species is of serious conservation concern in the UK. Its presence on the Sefton Coast is important for local and national monitoring and habitat management."}
+                  {category !== "birds" && status === "amber" && "This species is of moderate conservation concern. Population monitoring and habitat management on the Sefton Coast support its continued recovery."}
+                  {category !== "birds" && status === "green" && "This species has a favourable conservation status in the UK and remains an important part of Sefton Coast biodiversity."}
                 </p>
                 {species.externalLinks && (
                   <div className="flex flex-wrap gap-3 mt-3">

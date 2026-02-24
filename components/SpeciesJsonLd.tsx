@@ -53,10 +53,14 @@ export function SpeciesJsonLd({ species, category, slug, imageUrl }: SpeciesJson
     taxon.sameAs = `https://en.wikipedia.org/wiki/${encodeURIComponent(species.wikipediaTitle)}`;
   }
   if (species.conservationStatus && species.conservationStatus !== "unknown") {
+    const value =
+      category === "birds"
+        ? `${species.conservationStatus.charAt(0).toUpperCase() + species.conservationStatus.slice(1)} List (BoCC5)`
+        : `${species.conservationStatus.charAt(0).toUpperCase() + species.conservationStatus.slice(1)} List`;
     taxon.additionalProperty = {
       "@type": "PropertyValue",
       name: "UK Conservation Status",
-      value: `${species.conservationStatus.charAt(0).toUpperCase() + species.conservationStatus.slice(1)} List (BoCC5)`,
+      value,
     };
   }
   graph.push(taxon);

@@ -19,7 +19,7 @@
     "tips": "The pale yellow dunes at Formby are named after the plant's colour — yellow dunes are Marram-dominated, showing the dune is still mobile.",
     "difficulty": "easy",
     "relatedSpecies": ["sand-sedge"],
-    "wikipediaTitle": "Marram grass",
+    "wikipediaTitle": "Ammophila arenaria",
     "faq": [
       {
         "question": "Why must you not walk on marram grass on the dunes?",
@@ -46,7 +46,7 @@
     "tips": "Look near the strandline in July and August. The blue colouring is visible from some distance. Do not pick — it is a declining species.",
     "difficulty": "easy",
     "relatedSpecies": ["sea-bindweed", "sea-rocket"],
-    "wikipediaTitle": "Sea holly",
+    "wikipediaTitle": "Eryngium maritimum",
     "faq": [
       {
         "question": "Is Sea Holly related to garden Holly?",
@@ -73,7 +73,7 @@
     "tips": "Look at the very top of the beach near the high tide line in July and August. It grows where almost nothing else can.",
     "difficulty": "easy",
     "relatedSpecies": ["sea-holly", "sea-sandwort"],
-    "wikipediaTitle": "Sea rocket",
+    "wikipediaTitle": "Cakile maritima",
     "faq": [
       {
         "question": "Why can Sea Rocket survive on the strandline?",
@@ -100,7 +100,7 @@
     "tips": "Look along the strandline anywhere at Formby Beach. Often forms patches of green among the dried seaweed.",
     "difficulty": "easy",
     "relatedSpecies": ["sea-rocket", "sea-holly"],
-    "wikipediaTitle": "Sea sandwort",
+    "wikipediaTitle": "Honckenya peploides",
     "faq": [
       {
         "question": "What plants grow on the strandline at Formby Beach?",
@@ -293,7 +293,7 @@
     "tips": "Look on the mobile dune face for straight lines of plants at regular spacing — that's Sand Sedge. Much easier to identify from a distance than up close.",
     "difficulty": "moderate",
     "relatedSpecies": ["marram-grass"],
-    "wikipediaTitle": "Sand sedge",
+    "wikipediaTitle": "Carex arenaria",
     "faq": [
       {
         "question": "How does Sand Sedge spread across dunes?",
@@ -374,7 +374,7 @@
     "tips": "Walk the fore-dune at Formby in July on a sunny morning. The pink striped flowers are attractive and the kidney-shaped leaves are distinctive.",
     "difficulty": "easy",
     "relatedSpecies": ["sea-rocket", "sea-sandwort"],
-    "wikipediaTitle": "Sea bindweed",
+    "wikipediaTitle": "Calystegia soldanella",
     "faq": [
       {
         "question": "Is Sea Bindweed related to the invasive garden Bindweed?",

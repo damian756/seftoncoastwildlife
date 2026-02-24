@@ -23,13 +23,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const wikiImage = species.wikipediaTitle ? await getWikipediaImage(species.wikipediaTitle) : null;
 
+  const canonical = `https://seftoncoastwildlife.co.uk/birds/${slug}`;
   return {
     title,
     description,
+    alternates: { canonical },
     openGraph: {
       title,
       description,
-      url: `https://seftoncoastwildlife.co.uk/birds/${slug}`,
+      url: canonical,
       siteName: "Sefton Coast Wildlife",
       type: "article",
       ...(wikiImage && { images: [{ url: wikiImage.src, width: 800, alt: species.commonName }] }),
