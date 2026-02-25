@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";
 import type { WikiImage } from "@/lib/wikipedia";
 
@@ -11,6 +10,7 @@ interface ImageLightboxProps {
 
 export function ImageLightbox({ image, alt }: ImageLightboxProps) {
   const [open, setOpen] = useState(false);
+  const [imgError, setImgError] = useState(false);
 
   const close = useCallback(() => setOpen(false), []);
 
@@ -25,23 +25,25 @@ export function ImageLightbox({ image, alt }: ImageLightboxProps) {
     };
   }, [open, close]);
 
+  if (imgError) return null;
+
   return (
     <>
-      {/* Thumbnail — click to open lightbox */}
+      {/* Thumbnail — plain <img> to bypass Next.js image proxy */}
       <button
         type="button"
         onClick={() => setOpen(true)}
         className="group relative w-full aspect-[4/3] rounded-xl overflow-hidden border border-white/10 block focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
         aria-label={`Enlarge photo of ${alt}`}
       >
-        <Image
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
           src={image.src}
           alt={alt}
-          fill
-          className="object-cover transition group-hover:scale-[1.02]"
-          sizes="(max-width: 1024px) 100vw, 288px"
+          className="absolute inset-0 w-full h-full object-cover transition group-hover:scale-[1.02]"
+          loading="lazy"
+          onError={() => setImgError(true)}
         />
-        {/* Hover overlay */}
         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/25 transition-all flex items-end justify-end p-2">
           <span className="opacity-0 group-hover:opacity-100 transition bg-black/75 text-white text-xs font-medium px-2.5 py-1.5 rounded-lg flex items-center gap-1.5">
             <svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor">
