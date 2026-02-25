@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { Species, SpeciesCategory } from "@/lib/types";
-import type { WikiImage } from "@/lib/wikipedia";
-import { ImageLightbox } from "@/components/ImageLightbox";
+import { WikiImage } from "@/components/WikiImage";
 import { SpeciesJsonLd } from "@/components/SpeciesJsonLd";
 
 const categoryLabels: Record<SpeciesCategory, string> = {
@@ -62,11 +61,10 @@ interface SpeciesDetailProps {
   category: SpeciesCategory;
   species: Species;
   related: Species[];
-  wikiImage?: WikiImage | null;
   slug: string;
 }
 
-export function SpeciesDetail({ category, species, related, wikiImage, slug }: SpeciesDetailProps) {
+export function SpeciesDetail({ category, species, related, slug }: SpeciesDetailProps) {
   const label = categoryLabels[category];
   const status = species.conservationStatus ?? "unknown";
   const sc = statusConfig[status];
@@ -86,7 +84,6 @@ export function SpeciesDetail({ category, species, related, wikiImage, slug }: S
         species={species}
         category={category}
         slug={slug}
-        imageUrl={wikiImage?.src ?? null}
       />
 
       <article>
@@ -156,21 +153,10 @@ export function SpeciesDetail({ category, species, related, wikiImage, slug }: S
                 </div>
               </div>
 
-              {/* Right: Wikipedia image — click to enlarge */}
-              {wikiImage && (
+              {/* Right: Wikipedia image — fetched client-side, always available */}
+              {species.wikipediaTitle && (
                 <div className="lg:w-72 flex-shrink-0">
-                  <ImageLightbox image={wikiImage} alt={species.commonName} />
-                  <p className="text-xs text-white/30 mt-1.5 text-right">
-                    Tap image to enlarge ·{" "}
-                    <a
-                      href={wikiImage.pageUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline hover:text-white/60"
-                    >
-                      Wikimedia Commons
-                    </a>
-                  </p>
+                  <WikiImage title={species.wikipediaTitle} alt={species.commonName} />
                 </div>
               )}
             </div>

@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import { getSpeciesBySlug, getAllSlugs, getAllSpecies } from "@/lib/species";
-import { getWikipediaImage } from "@/lib/wikipedia";
 import { SpeciesDetail } from "@/components/SpeciesDetail";
 import type { Metadata } from "next";
 
@@ -21,9 +20,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? species.faq[0].answer.substring(0, 160)
     : `${species.commonName} (${species.scientificName}) on the Sefton Coast — where to find it, identification tips, and when it flowers. ${species.seasonalPresence}.`;
 
-  const wikiImage = species.wikipediaTitle ? await getWikipediaImage(species.wikipediaTitle) : null;
-
   const canonical = `https://seftoncoastwildlife.co.uk/plants/${slug}`;
+  const ogImage = species.wikipediaTitle
+    ? `https://en.wikipedia.org/wiki/Special:FilePath/${encodeURIComponent(species.wikipediaTitle)}`
+    : undefined;
+
   return {
     title,
     description,
@@ -34,13 +35,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: canonical,
       siteName: "Sefton Coast Wildlife",
       type: "article",
-      ...(wikiImage && { images: [{ url: wikiImage.src, width: 800, alt: species.commonName }] }),
+      ...(ogImage && { images: [{ url: ogImage, width: 800, alt: species.commonName }] }),
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      ...(wikiImage && { images: [wikiImage.src] }),
+      ...(ogImage && { images: [ogImage] }),
     },
   };
 }
@@ -53,6 +54,5 @@ export default async function PlantPage({ params }: Props) {
   const related = species.relatedSpecies
     ? all.filter((s) => species.relatedSpecies!.includes(s.id))
     : [];
-  const wikiImage = species.wikipediaTitle ? await getWikipediaImage(species.wikipediaTitle) : null;
-  return <SpeciesDetail category="plants" species={species} related={related} wikiImage={wikiImage} slug={slug} />;
+  return <SpeciesDetail category="plants" species={species} related={related} slug={slug} />;
 }

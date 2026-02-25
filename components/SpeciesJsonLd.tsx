@@ -11,10 +11,9 @@ interface SpeciesJsonLdProps {
   species: Species;
   category: SpeciesCategory;
   slug: string;
-  imageUrl?: string | null;
 }
 
-export function SpeciesJsonLd({ species, category, slug, imageUrl }: SpeciesJsonLdProps) {
+export function SpeciesJsonLd({ species, category, slug }: SpeciesJsonLdProps) {
   const baseUrl = "https://seftoncoastwildlife.co.uk";
   const pageUrl = `${baseUrl}/${category}/${slug}`;
   const categoryLabel = categoryLabels[category];
@@ -84,8 +83,11 @@ export function SpeciesJsonLd({ species, category, slug, imageUrl }: SpeciesJson
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
   };
-  if (imageUrl) {
-    article.image = { "@type": "ImageObject", url: imageUrl };
+  if (species.wikipediaTitle) {
+    article.image = {
+      "@type": "ImageObject",
+      url: `https://en.wikipedia.org/wiki/Special:FilePath/${encodeURIComponent(species.wikipediaTitle)}`,
+    };
   }
   graph.push(article);
 
