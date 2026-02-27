@@ -6,23 +6,22 @@ const categoryLabels: Record<SpeciesCategory, string> = {
   birds: "Birds",
   insects: "Insects",
   plants: "Plants",
-  mammals: "Mammals",
+  mammals: "Mammals & Wildlife",
 };
 
 const categoryDescriptions: Record<SpeciesCategory, string> = {
   birds: "Waders, wildfowl, raptors and passerines recorded on the Sefton Coast — from the Pink-footed Goose roosts at Marshside to breeding Avocets and Little Terns on the beach.",
   insects: "Butterflies, moths, beetles and other invertebrates of the Sefton Coast dunes, slacks and heathland — one of the richest insect habitats in northwest England.",
   plants: "Dune and marsh flora of the Sefton Coast — including nationally rare species such as Grass of Parnassus and Round-leaved Wintergreen at Ainsdale NNR.",
-  mammals: "Mammals recorded on the Sefton Coast — from Red Squirrels in the Formby pinewoods to Grey Seals on the beach and Natterjack Toads in the dune slacks.",
+  mammals: "Mammals, reptiles and amphibians of the Sefton Coast — Red Squirrels in the Formby pinewoods, Grey Seals on the beach, Sand Lizards at Ainsdale NNR and the Natterjack Toad chorus on warm spring nights.",
 };
 
 interface SpeciesListProps {
   category: SpeciesCategory;
   species: Species[];
-  imageMap: Map<string, string | null>;
 }
 
-export function SpeciesList({ category, species, imageMap }: SpeciesListProps) {
+export function SpeciesList({ category, species }: SpeciesListProps) {
   const label = categoryLabels[category];
   const description = categoryDescriptions[category];
 
@@ -75,7 +74,7 @@ export function SpeciesList({ category, species, imageMap }: SpeciesListProps) {
           </p>
         </div>
       ) : (
-        <SpeciesListClient category={category} species={species} imageMap={imageMap} />
+        <SpeciesListClient category={category} species={species} />
       )}
     </div>
   );

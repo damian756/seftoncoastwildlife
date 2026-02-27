@@ -1,10 +1,10 @@
 import { getAllSpecies } from "@/lib/species";
 import { SpeciesList } from "@/components/SpeciesList";
-import { batchFetchThumbnails } from "@/lib/wikipedia";
+
 import type { Metadata } from "next";
 
-const title = "Sefton Coast Mammals — Red Squirrels, Seals, Otters & More";
-const description = "Mammals of the Sefton Coast — Red Squirrels at Formby NT pinewoods, Grey Seals on the beach, Natterjack Toads at Ainsdale NNR and Brown Hares on the marshland. Where to see them and ID tips.";
+const title = "Sefton Coast Mammals & Wildlife — Red Squirrels, Seals, Sand Lizards, Natterjack Toads";
+const description = "Mammals, reptiles and amphibians of the Sefton Coast — Red Squirrels at Formby NT pinewoods, Grey Seals on the beach, Sand Lizards at Ainsdale NNR and the Natterjack Toad chorus. Where to see them, ID tips and seasonal guidance.";
 const url = "https://seftoncoastwildlife.co.uk/mammals";
 
 export const metadata: Metadata = {
@@ -17,7 +17,6 @@ export const metadata: Metadata = {
 
 export default async function MammalsPage() {
   const species = getAllSpecies("mammals");
-  const imageMap = await batchFetchThumbnails(species);
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -37,7 +36,7 @@ export default async function MammalsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
-      <SpeciesList category="mammals" species={species} imageMap={imageMap} />
+      <SpeciesList category="mammals" species={species}  />
     </>
   );
 }

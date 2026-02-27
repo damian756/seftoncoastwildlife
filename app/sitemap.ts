@@ -3,6 +3,7 @@ import { BLOG_POSTS } from "@/content/blog/posts";
 import type { MetadataRoute } from "next";
 
 const baseUrl = "https://seftoncoastwildlife.co.uk";
+const SITE_UPDATED = new Date("2026-02-01");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const categories = ["birds", "insects", "plants", "mammals"] as const;
@@ -12,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const slug of slugs) {
       speciesUrls.push({
         url: `${baseUrl}/${cat}/${slug}`,
-        lastModified: new Date(),
+        lastModified: SITE_UPDATED,
         changeFrequency: "weekly",
         priority: 0.8,
       });
@@ -27,27 +28,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const staticPages: MetadataRoute.Sitemap = [
-    { url: baseUrl, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
-    { url: `${baseUrl}/birds`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/insects`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/plants`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/mammals`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/nature`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/nature/marshside-rspb`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/nature/ainsdale-sand-dunes`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/nature/martin-mere`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/nature/seaforth-nature-reserve`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/nature/sefton-coast`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/birdwatching-guide`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/seasonal`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/seasonal/pink-footed-geese`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/seasonal/wader-migration`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/seasonal/breeding-birds`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/seasonal/winter-wildfowl`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
-    { url: `${baseUrl}/contact`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.4 },
-    { url: `${baseUrl}/privacy`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
-    { url: `${baseUrl}/terms`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
+    { url: baseUrl, lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 1 },
+    { url: `${baseUrl}/birds`, lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/insects`, lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/plants`, lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/mammals`, lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/nature`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/nature/marshside-rspb`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/nature/ainsdale-sand-dunes`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/nature/martin-mere`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/nature/seaforth-nature-reserve`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/nature/sefton-coast`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/birdwatching-guide`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/seasonal`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/seasonal/pink-footed-geese`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/seasonal/wader-migration`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/seasonal/breeding-birds`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/seasonal/winter-wildfowl`, lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/blog`, lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${baseUrl}/contact`, lastModified: SITE_UPDATED, changeFrequency: "yearly", priority: 0.4 },
+    { url: `${baseUrl}/privacy`, lastModified: SITE_UPDATED, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${baseUrl}/terms`, lastModified: SITE_UPDATED, changeFrequency: "yearly", priority: 0.3 },
   ];
 
   return [...staticPages, ...speciesUrls, ...blogUrls];

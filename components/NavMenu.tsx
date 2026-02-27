@@ -7,7 +7,7 @@ const nav = [
   { label: "Birds", href: "/birds" },
   { label: "Insects", href: "/insects" },
   { label: "Plants", href: "/plants" },
-  { label: "Mammals", href: "/mammals" },
+  { label: "Mammals & Wildlife", href: "/mammals" },
   {
     label: "Nature & Coast",
     href: "/nature",

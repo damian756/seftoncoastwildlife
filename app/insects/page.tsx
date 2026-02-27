@@ -1,6 +1,6 @@
 import { getAllSpecies } from "@/lib/species";
 import { SpeciesList } from "@/components/SpeciesList";
-import { batchFetchThumbnails } from "@/lib/wikipedia";
+
 import type { Metadata } from "next";
 
 const title = "Sefton Coast Insects — Butterflies, Moths & Beetles Guide";
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default async function InsectsPage() {
   const species = getAllSpecies("insects");
-  const imageMap = await batchFetchThumbnails(species);
+
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -37,7 +37,7 @@ export default async function InsectsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
-      <SpeciesList category="insects" species={species} imageMap={imageMap} />
+      <SpeciesList category="insects" species={species}  />
     </>
   );
 }

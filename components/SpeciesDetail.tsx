@@ -7,7 +7,7 @@ const categoryLabels: Record<SpeciesCategory, string> = {
   birds: "Birds",
   insects: "Insects",
   plants: "Plants",
-  mammals: "Mammals",
+  mammals: "Mammals & Wildlife",
 };
 
 const statusConfig = {

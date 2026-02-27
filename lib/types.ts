@@ -60,6 +60,9 @@ export interface Species {
 
   /** Wikipedia article title for image fetching e.g. "Pink-footed goose" */
   wikipediaTitle?: string;
+
+  /** Sub-group within a category e.g. "mammal" | "reptile" | "amphibian" */
+  group?: string;
 }
 
 export const SPECIES_CATEGORIES: SpeciesCategory[] = ['birds', 'insects', 'plants', 'mammals'];

@@ -1,6 +1,5 @@
 import { getAllSpecies } from "@/lib/species";
 import { SpeciesList } from "@/components/SpeciesList";
-import { batchFetchThumbnails } from "@/lib/wikipedia";
 import type { Metadata } from "next";
 
 const title = "Sefton Coast Birds — Species Guide, Where to See & ID Tips";
@@ -17,7 +16,6 @@ export const metadata: Metadata = {
 
 export default async function BirdsPage() {
   const species = getAllSpecies("birds");
-  const imageMap = await batchFetchThumbnails(species);
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -37,7 +35,7 @@ export default async function BirdsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
-      <SpeciesList category="birds" species={species} imageMap={imageMap} />
+      <SpeciesList category="birds" species={species} />
     </>
   );
 }

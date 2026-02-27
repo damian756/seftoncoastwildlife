@@ -1,9 +1,46 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import type { Species, SpeciesCategory } from "@/lib/types";
 import { classifySeason, type SeasonTag } from "@/lib/season";
+
+function SpeciesCardImage({ species }: { species: Species }) {
+  const [thumb, setThumb] = useState<string | null>(null);
+
+  useEffect(() => {
+    const title = species.wikipediaTitle ?? species.commonName;
+    let cancelled = false;
+    fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`)
+      .then((r) => r.ok ? r.json() : null)
+      .then((data) => {
+        if (cancelled || !data) return;
+        const base = data.originalimage?.source ?? data.thumbnail?.source;
+        if (base) setThumb(base.replace(/\/\d+px-([^/]+)$/, "/200px-$1"));
+      })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, [species.id, species.wikipediaTitle, species.commonName]);
+
+  if (!thumb) return null;
+  return (
+    <div className="aspect-[4/3] overflow-hidden bg-[var(--dune)]">
+      <img
+        src={thumb}
+        alt={species.commonName}
+        className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+        loading="lazy"
+      />
+    </div>
+  );
+}
+
+const GROUP_CONFIG: Record<string, { label: string; icon: string }> = {
+  mammal:    { label: "Mammals",    icon: "🐾" },
+  reptile:   { label: "Reptiles",   icon: "🦎" },
+  amphibian: { label: "Amphibians", icon: "🐸" },
+};
+const GROUP_ORDER = ["mammal", "reptile", "amphibian"];
 
 const statusConfig = {
   red: { label: "Red", bg: "bg-red-600", text: "text-white", pill: "bg-red-100 text-red-800 border-red-200" },
@@ -73,10 +110,9 @@ const seasonOptionsByCategory: Partial<Record<SpeciesCategory, SeasonOption[]>> 
 interface SpeciesListClientProps {
   category: SpeciesCategory;
   species: Species[];
-  imageMap: Map<string, string | null>;
 }
 
-export function SpeciesListClient({ category, species, imageMap }: SpeciesListClientProps) {
+export function SpeciesListClient({ category, species }: SpeciesListClientProps) {
   const [query, setQuery] = useState("");
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
   const [seasonFilter, setSeasonFilter] = useState<SeasonTag | "all">("all");
@@ -265,7 +301,7 @@ export function SpeciesListClient({ category, species, imageMap }: SpeciesListCl
         </div>
       </div>
 
-      {/* Grid */}
+      {/* Grid or grouped sections */}
       {filtered.length === 0 ? (
         <div className="py-16 text-center">
           <p className="text-[var(--slate)]/60 text-sm">No species match your filters.</p>
@@ -273,60 +309,74 @@ export function SpeciesListClient({ category, species, imageMap }: SpeciesListCl
             Clear filters
           </button>
         </div>
-      ) : (
-        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((s) => {
-            const sc = s.conservationStatus ? statusConfig[s.conservationStatus] : null;
-            const thumb = imageMap.get(s.id);
+      ) : category === "mammals" && !hasActiveFilter ? (
+        /* Sub-grouped view for mammals when no filters active */
+        <div className="space-y-10">
+          {GROUP_ORDER.filter((g) => filtered.some((s) => s.group === g)).map((group) => {
+            const groupSpecies = filtered.filter((s) => s.group === group);
+            const cfg = GROUP_CONFIG[group];
             return (
-              <li key={s.id}>
-                <Link
-                  href={`/${category}/${s.id}`}
-                  className="card-hover block rounded-xl border border-[var(--dune)] bg-white hover:border-[var(--marsh)] transition group h-full overflow-hidden"
-                >
-                  {thumb && (
-                    <div className="aspect-[4/3] overflow-hidden bg-[var(--dune)]">
-                      <img
-                        src={thumb}
-                        alt={s.commonName}
-                        className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
-                        loading="lazy"
-                      />
-                    </div>
-                  )}
-                  <div className="p-4">
-                    <div className="flex items-start justify-between gap-2 mb-1">
-                      <span className="font-semibold text-[var(--forest)] group-hover:text-[var(--marsh)] transition leading-snug">
-                        {s.commonName}
-                      </span>
-                      {sc && sc.label && (
-                        <span className={`flex-shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded ${sc.bg} ${sc.text} uppercase tracking-wide mt-0.5`}>
-                          {sc.label}
-                        </span>
-                      )}
-                    </div>
-                    <span className="text-xs italic text-[var(--slate)]/60 block mb-2">{s.scientificName}</span>
-                    {s.habitat && s.habitat.length > 0 && (
-                      <div className="flex flex-wrap gap-1 mb-2">
-                        {s.habitat.slice(0, 2).map((h) => (
-                          <span key={h} className="text-[10px] bg-[var(--dune)] text-[var(--slate)]/70 px-1.5 py-0.5 rounded">
-                            {h}
-                          </span>
-                        ))}
-                      </div>
-                    )}
-                    {s.seasonalPresence && (
-                      <span className="text-xs text-[var(--slate)]/55 leading-snug block">
-                        {s.seasonalPresence.split(".")[0]}
-                      </span>
-                    )}
-                  </div>
-                </Link>
-              </li>
+              <section key={group}>
+                <h2 className="text-lg font-bold text-[var(--forest)] mb-4 flex items-center gap-2 border-b border-[var(--dune)] pb-2">
+                  <span>{cfg.icon}</span>
+                  <span>{cfg.label}</span>
+                  <span className="text-sm font-normal text-[var(--slate)]/50 ml-1">— {groupSpecies.length} species</span>
+                </h2>
+                <SpeciesGrid category={category} species={groupSpecies} />
+              </section>
             );
           })}
-        </ul>
+        </div>
+      ) : (
+        <SpeciesGrid category={category} species={filtered} />
       )}
     </div>
+  );
+}
+
+function SpeciesGrid({ category, species }: { category: SpeciesCategory; species: Species[] }) {
+  return (
+    <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {species.map((s) => {
+        const sc = s.conservationStatus ? statusConfig[s.conservationStatus] : null;
+        return (
+          <li key={s.id}>
+            <Link
+              href={`/${category}/${s.id}`}
+              className="card-hover block rounded-xl border border-[var(--dune)] bg-white hover:border-[var(--marsh)] transition group h-full overflow-hidden"
+            >
+              <SpeciesCardImage species={s} />
+              <div className="p-4">
+                <div className="flex items-start justify-between gap-2 mb-1">
+                  <span className="font-semibold text-[var(--forest)] group-hover:text-[var(--marsh)] transition leading-snug">
+                    {s.commonName}
+                  </span>
+                  {sc && sc.label && (
+                    <span className={`flex-shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded ${sc.bg} ${sc.text} uppercase tracking-wide mt-0.5`}>
+                      {sc.label}
+                    </span>
+                  )}
+                </div>
+                <span className="text-xs italic text-[var(--slate)]/60 block mb-2">{s.scientificName}</span>
+                {s.habitat && s.habitat.length > 0 && (
+                  <div className="flex flex-wrap gap-1 mb-2">
+                    {s.habitat.slice(0, 2).map((h) => (
+                      <span key={h} className="text-[10px] bg-[var(--dune)] text-[var(--slate)]/70 px-1.5 py-0.5 rounded">
+                        {h}
+                      </span>
+                    ))}
+                  </div>
+                )}
+                {s.seasonalPresence && (
+                  <span className="text-xs text-[var(--slate)]/55 leading-snug block">
+                    {s.seasonalPresence.split(".")[0]}
+                  </span>
+                )}
+              </div>
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
   );
 }

@@ -12,7 +12,10 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Around 140,000 — 85% in Scotland; fewer than 20,000 in England, mostly in the north",
     "seftonPopulation": "Isolated but stable population of around 1,000–1,500 individuals in the Formby pinewoods; one of England's most accessible wild populations",
-    "habitat": ["Coniferous pinewood", "Mixed woodland edge"],
+    "habitat": [
+      "Coniferous pinewood",
+      "Mixed woodland edge"
+    ],
     "diet": "Pine seeds, acorns, hazelnuts, fungi, bark, insects — caches food for winter",
     "description": "The red squirrel at Formby is an icon. This is one of the most accessible populations in England, managed carefully by the National Trust, and a visit in autumn or winter almost always produces sightings. They've been lost from most of England, outcompeted and displaced by introduced Grey Squirrels. Formby's isolated pinewood population survives because Grey Squirrels struggle in pure pine — there's not enough food for them, but the reds are adapted to pine seed. The squirrel trail is well-signed and early morning gives the best chance.",
     "identification": "Smaller and more slender than Grey Squirrel. Russet-red coat (can be darker in winter, occasionally near-black). Ear tufts in winter — distinctive. No grey colouring. Much more compact than Grey Squirrel.",
@@ -37,7 +40,8 @@
         "question": "How many Red Squirrels are at Formby?",
         "answer": "The Formby population is estimated at 1,000–1,500 individuals, making it one of the larger Red Squirrel populations in England. It is considered a key conservation site and the National Trust invests significantly in habitat management and monitoring."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Grey Seal",
@@ -52,13 +56,20 @@
     "shortLocation": "Formby Beach",
     "ukPopulation": "Around 120,000 — the UK holds approximately 40% of the world population of Grey Seals",
     "seftonPopulation": "Regular visitor; occasional hauled-out individuals; pupping on Ribble sandbanks in autumn",
-    "habitat": ["Open sea", "Sandy beach", "Sandbank", "Estuary"],
+    "habitat": [
+      "Open sea",
+      "Sandy beach",
+      "Sandbank",
+      "Estuary"
+    ],
     "diet": "Fish (sand eels, whiting, cod), crustaceans, cephalopods",
     "description": "Grey Seals are the largest native land predator in Britain and a regular sight from Formby Beach. Pups are born on beaches and sandbanks in autumn — pure white at first, moulting to grey. They can haul out on the Ribble sandbanks and are often visible in the surf at Formby. Britain holds about 40% of the world population of Grey Seals, making the Sefton Coast sightings part of a genuinely important global story.",
     "identification": "Large, dog-like head with long Roman nose. Males (bulls) to 2.5m, dark grey. Females (cows) smaller, paler. Long muzzle distinguishes from Common/Harbour Seal (which has a rounder face).",
     "tips": "Walk Formby Beach in autumn and scan offshore. Heads visible in the surf. Keep your distance from any hauled-out animals — 50m minimum. Never approach a pup on the beach.",
     "difficulty": "moderate",
-    "relatedSpecies": ["common-seal"],
+    "relatedSpecies": [
+      "common-seal"
+    ],
     "wikipediaTitle": "Grey seal",
     "externalLinks": {
       "iucn": "https://www.iucnredlist.org/species/9660/45226042",
@@ -73,7 +84,8 @@
         "question": "What should I do if I find a seal pup on Formby Beach?",
         "answer": "Do not approach, touch or try to return it to the sea. Seal pups are often left alone by their mothers while she feeds — this is normal. Keep dogs on leads and people back. If the pup appears injured or distressed after 24 hours, call the BDMLR (British Divers Marine Life Rescue) on 01825 765546."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Common Seal",
@@ -88,13 +100,19 @@
     "shortLocation": "Ribble Estuary",
     "ukPopulation": "Around 30,000 — smaller than Grey Seal population",
     "seftonPopulation": "Occasional visitor; less frequent than Grey Seal",
-    "habitat": ["Estuary", "Sandbank", "Open sea"],
+    "habitat": [
+      "Estuary",
+      "Sandbank",
+      "Open sea"
+    ],
     "diet": "Fish, squid, crustaceans",
     "description": "The Common (or Harbour) Seal is less frequently seen on the Sefton Coast than the Grey Seal. Smaller and with a distinctly rounded, more dog-like face compared to the Grey Seal's long Roman nose. Pups are born in June and can swim immediately unlike Grey Seal pups. Worth checking any seal sighting carefully for the rounder head shape.",
     "identification": "Smaller than Grey Seal. Round head, concave profile, large eyes. Mottled grey-brown. V-shaped nostrils (Grey Seal has parallel nostrils).",
     "tips": "Compare head shape with any Grey Seals present. Common Seal's rounder, more 'puppy-faced' look is distinctive with practice.",
     "difficulty": "specialist",
-    "relatedSpecies": ["grey-seal"],
+    "relatedSpecies": [
+      "grey-seal"
+    ],
     "wikipediaTitle": "Harbor seal",
     "externalLinks": {
       "iucn": "https://www.iucnredlist.org/species/17013/45229114"
@@ -104,7 +122,8 @@
         "question": "How do I tell Common Seal from Grey Seal?",
         "answer": "Head shape is the key difference. Common Seal has a round, concave-profiled, puppy-like face. Grey Seal has a long, straight Roman nose — particularly obvious in bulls. At close range, Common Seal's nostrils form a V-shape; Grey Seal's are more parallel. Common Seal is also smaller — about two-thirds the size of an adult Grey Seal."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Natterjack Toad",
@@ -119,7 +138,11 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Around 30,000–60,000 adults in the UK — restricted to coastal dunes, Breckland and a few upland sites",
     "seftonPopulation": "One of the largest UK populations; the Sefton Coast holds several hundred breeding females across Ainsdale NNR and Birkdale",
-    "habitat": ["Dune slack", "Shallow pool", "Sandy dune"],
+    "habitat": [
+      "Dune slack",
+      "Shallow pool",
+      "Sandy dune"
+    ],
     "diet": "Beetles, ants, flies, woodlice, small invertebrates",
     "description": "The Sefton Coast holds one of the largest Natterjack Toad populations in the UK — a fact that most visitors don't know. They breed in the shallow, warm dune slack pools at Ainsdale NNR and Birkdale, and on warm spring nights the males' chorus — a remarkably loud, mechanical rattle that carries for a kilometre — fills the dunes. They're smaller than Common Toads, run rather than hop, and have a distinctive yellow line down the back.",
     "identification": "Smaller than Common Toad. Yellow stripe down centre of back — distinctive. Runs rather than hops. Warty brown skin. Short hind legs.",
@@ -144,7 +167,8 @@
         "question": "Why is the Sefton Coast important for Natterjack Toads?",
         "answer": "The Sefton Coast holds one of the UK's largest Natterjack Toad populations in the dune slack system at Ainsdale NNR and Birkdale. The warm, shallow slack pools are ideal breeding habitat. Natural England's management of the dune system specifically includes maintaining water levels in slacks to support breeding."
       }
-    ]
+    ],
+    "group": "amphibian"
   },
   {
     "commonName": "Brown Hare",
@@ -159,7 +183,12 @@
     "shortLocation": "Hesketh Bank",
     "ukPopulation": "Around 800,000 — declined by 80% since the 1880s",
     "seftonPopulation": "Resident on farmland behind the Sefton Coast sea wall; best seen March–April",
-    "habitat": ["Farmland", "Rough grassland", "Field margin", "Dune grassland edge"],
+    "habitat": [
+      "Farmland",
+      "Rough grassland",
+      "Field margin",
+      "Dune grassland edge"
+    ],
     "diet": "Grasses, herbs, bark, crops — feeds above ground at night",
     "description": "The Brown Hare is one of Britain's most charismatic mammals and the Sefton Coast's farmland hinterland holds a reasonable population. In March — 'mad March hares' — females box pursuing males in open fields. Unlike rabbits, hares live entirely above ground, resting in a shallow depression (form) in the grass. The long black-tipped ears, powerful hind legs and rust-brown colouring make them unmistakeable. They're most active at dawn and dusk.",
     "identification": "Much larger than rabbit. Very long black-tipped ears. Rusty-brown with pale underparts. Long hind legs. Yellow eyes. Does not use burrows.",
@@ -176,7 +205,8 @@
         "question": "What is the 'mad March hares' boxing behaviour?",
         "answer": "The 'mad March hares' behaviour seen in early spring is females boxing pursuing males who won't leave them alone. Contrary to popular belief it is not usually males fighting each other — it's the female (doe) striking at unwanted suitors. This behaviour peaks in March and can be watched from a distance on the farmland around Hesketh Bank."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Otter",
@@ -191,13 +221,20 @@
     "shortLocation": "Marshside RSPB",
     "ukPopulation": "Recovering — estimated 11,000 in England, having recovered from near-extinction in the 1970s",
     "seftonPopulation": "Low density; present in suitable watercourses; occasional sightings at Marshside",
-    "habitat": ["Drainage ditch", "Freshwater channel", "Coastal lagoon edge", "River"],
+    "habitat": [
+      "Drainage ditch",
+      "Freshwater channel",
+      "Coastal lagoon edge",
+      "River"
+    ],
     "diet": "Fish (primary), frogs, crayfish, waterfowl",
     "description": "Otters have recovered well in northwest England following water quality improvements, and the Sefton Coast's network of drainage channels, pools and ditches provides good habitat. They're rarely seen but signs — spraint (droppings) on prominent rocks and bankside, footprints in mud, fish remains — are more frequent. A sighting at Marshside RSPB is an exceptional event but has been recorded.",
     "identification": "Long, low-slung, chocolate-brown. Pale throat. Flat head with small ears and long whiskers. Thick tapering tail. Swims with back barely visible, leaving V-wake.",
     "tips": "Look for spraint (fishy-smelling, tarry droppings) on prominent rocks beside water. Check drainage channels at dusk. Footprints in mud (5-toed, webbed) are a reliable sign.",
     "difficulty": "specialist",
-    "relatedSpecies": ["grey-seal"],
+    "relatedSpecies": [
+      "grey-seal"
+    ],
     "wikipediaTitle": "Eurasian otter",
     "externalLinks": {
       "iucn": "https://www.iucnredlist.org/species/12302/218787544",
@@ -208,7 +245,8 @@
         "question": "How do I find signs of Otter on the Sefton Coast?",
         "answer": "Otter spraint (droppings) is the most reliable sign — it is left on prominent rocks, bridge buttresses and bankside vegetation as territorial markers. Otter spraint has a distinctive fishy, musky smell and contains fish bones and scales. Footprints in soft mud (5-toed, star-shaped with webbing) are also diagnostic."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Water Vole",
@@ -223,7 +261,11 @@
     "shortLocation": "Marshside RSPB",
     "ukPopulation": "Estimated 132,000 — declined by 95% since the 1970s",
     "seftonPopulation": "Present in suitable habitat but at low density; pockets in the ditch network behind the sea wall",
-    "habitat": ["Drainage ditch", "Reed bank", "Slow-moving freshwater edge"],
+    "habitat": [
+      "Drainage ditch",
+      "Reed bank",
+      "Slow-moving freshwater edge"
+    ],
     "diet": "Aquatic and bankside vegetation — grasses, sedges, rushes",
     "description": "Britain's fastest-declining mammal. Water Voles have been lost from 95% of their former sites, largely due to American Mink predation. The Sefton Coast has pockets of suitable habitat in the network of ditches behind the sea wall. If you hear a 'plop' as you walk beside a ditch and see ripples, that might be a Water Vole.",
     "identification": "Like a fat, blunt-nosed brown rat with a short tail. Much rounder face than Brown Rat, smaller ears, shorter tail. Chestnut-brown. Swims readily.",
@@ -240,7 +282,8 @@
         "question": "Why have Water Voles declined so severely in the UK?",
         "answer": "The primary cause of the 95% decline in Water Voles is predation by American Mink, which were released or escaped from fur farms from the 1950s onwards. Mink can follow voles into their burrows and devastate entire colonies. Habitat loss (drainage of ditches, channel management) is a secondary factor. Trapping of Mink is now a key part of Water Vole conservation."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Fox",
@@ -255,7 +298,12 @@
     "shortLocation": "Formby Beach",
     "ukPopulation": "Around 350,000 in the UK",
     "seftonPopulation": "Common year-round; dune system provides good denning habitat",
-    "habitat": ["Sand dune", "Farmland", "Suburban edge", "Beach"],
+    "habitat": [
+      "Sand dune",
+      "Farmland",
+      "Suburban edge",
+      "Beach"
+    ],
     "diet": "Rabbits, voles, birds, eggs, earthworms, fruit, carrion — opportunistic generalist",
     "description": "Foxes are common across the Sefton Coast. The dune system at Formby and Ainsdale provides good denning habitat. In January, the eerie screaming call of the vixen is one of the most dramatic sounds of a winter night. Foxes are a significant predator of ground-nesting birds — including the Little Terns at Formby Beach — which is why wardening schemes are so important.",
     "identification": "Rusty orange-red with white chest and black legs. Large bushy tail with white tip. Pointed muzzle, large ears. Dog-like but more lithe.",
@@ -268,7 +316,8 @@
         "question": "Are Foxes a threat to the Little Tern colony at Formby?",
         "answer": "Yes. Foxes are one of the main predators of Little Tern eggs and chicks on Formby Beach. A single fox entering the colony at night can destroy an entire season's breeding. The RSPB and Natural England wardening and electric fencing around nest areas is largely aimed at excluding foxes."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Stoat",
@@ -283,20 +332,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Around 450,000 in the UK — widespread but declining",
     "seftonPopulation": "Present throughout the dune system and surrounding farmland",
-    "habitat": ["Dune grassland", "Farmland hedge", "Rough grassland", "Woodland edge"],
+    "habitat": [
+      "Dune grassland",
+      "Farmland hedge",
+      "Rough grassland",
+      "Woodland edge"
+    ],
     "diet": "Rabbits (primary prey), voles, birds, eggs",
     "description": "Stoats are agile, fast-moving predators that hunt rabbits, voles and birds across the Sefton Coast. They sometimes turn white in winter (ermine) though this is more common in colder parts of Britain — Sefton birds may show partial whitening. They're seen less often than heard — the squeal of a rabbit being caught is not an unusual sound in the dunes. Sometimes they perform a 'dance' to hypnotise rabbits, bounding around until the confused prey stands still.",
     "identification": "Long, slender body. Orange-brown above, white below. Black tip to tail — always, in all seasons. Faster and longer than Weasel, with that black tail tip.",
     "tips": "Watch along fence lines and grass margins. They tend to move in a bounding gait and can be surprisingly bold — they'll often stop and investigate a still observer.",
     "difficulty": "moderate",
-    "relatedSpecies": ["weasel"],
+    "relatedSpecies": [
+      "weasel"
+    ],
     "wikipediaTitle": "Stoat",
     "faq": [
       {
         "question": "How do I tell a Stoat from a Weasel?",
         "answer": "Size and tail are the key features. Stoats are noticeably larger — about the size of a small squirrel. The black tip to the tail is always present on a Stoat in all seasons, and is the most reliable field mark. Weasels are smaller, shorter-tailed, and have no black tail tip. Both have the same orange-brown above and white below colouring."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Weasel",
@@ -311,20 +368,27 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Around 450,000 in the UK",
     "seftonPopulation": "Present in suitable dune and grassland habitats across the coast",
-    "habitat": ["Dune grassland", "Farmland hedge", "Rough grassland"],
+    "habitat": [
+      "Dune grassland",
+      "Farmland hedge",
+      "Rough grassland"
+    ],
     "diet": "Voles (primary prey), mice, small birds",
     "description": "The Weasel is Britain's smallest carnivore and a fierce hunter of voles and mice. Much smaller than the Stoat and without the black tail tip. They can pursue prey into burrows underground. On the Sefton Coast dunes they hunt in the rank grass and heather areas. Often overlooked — people mistake them for Stoats — but a close view reveals a noticeably smaller, more compact animal.",
     "identification": "Very small, slender. Brown above, white below. No black tail tip (key difference from Stoat). Shorter tail proportionally. Rapid movement.",
     "tips": "Any small brown mustelid without a black tail tip is a Weasel. They often pop up to look around before diving back into cover — stand still and wait after seeing one move.",
     "difficulty": "specialist",
-    "relatedSpecies": ["stoat"],
+    "relatedSpecies": [
+      "stoat"
+    ],
     "wikipediaTitle": "Least weasel",
     "faq": [
       {
         "question": "What is Britain's smallest carnivore?",
         "answer": "The Weasel is Britain's smallest carnivore, and one of the smallest in the world. Adult males weigh only 60–130g. Despite their tiny size they regularly prey on rabbits much larger than themselves, killing by a bite to the base of the skull. On the Sefton Coast they are the primary predators of field voles in dune grassland."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Common Pipistrelle",
@@ -339,20 +403,28 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Around 2.4 million — Britain's most common bat",
     "seftonPopulation": "Common across the Sefton Coast wherever there is woodland edge, water or buildings",
-    "habitat": ["Woodland edge", "Garden", "Waterway", "Open dune edge"],
+    "habitat": [
+      "Woodland edge",
+      "Garden",
+      "Waterway",
+      "Open dune edge"
+    ],
     "diet": "Midges, moths, mosquitoes, small beetles — up to 3,000 per night",
     "description": "The Common Pipistrelle is Britain's smallest and most abundant bat and the most likely bat you'll see on the Sefton Coast. A pipistrelle weighs about 5 grams — less than a 20p coin — and eats 3,000 insects per night. At Formby, where the pinewoods meet open grassland, bat numbers can be good on summer evenings. They emerge about 20 minutes after sunset, flying erratically low over vegetation catching moths and midges.",
     "identification": "Very small, dark brown bat. Rapid, jerky flight. Black face and ears. Wingspan about 22cm. Echolocates at 45kHz (detectable with bat detector).",
     "tips": "Walk the pinewoods at Formby at dusk in June or July. A bat detector app on your phone (many free apps available) will reveal pipistrelle echolocation at 45kHz.",
     "difficulty": "easy",
-    "relatedSpecies": ["soprano-pipistrelle"],
+    "relatedSpecies": [
+      "soprano-pipistrelle"
+    ],
     "wikipediaTitle": "Common pipistrelle",
     "faq": [
       {
         "question": "How can I tell Common Pipistrelle from Soprano Pipistrelle?",
         "answer": "They are almost identical visually. The key difference is echolocation frequency — Common Pipistrelle echolocates at around 45kHz; Soprano Pipistrelle at around 55kHz. A bat detector app on your phone can detect and display these frequencies. Soprano Pipistrelle also tends to prefer waterside habitats."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Soprano Pipistrelle",
@@ -367,20 +439,28 @@
     "shortLocation": "Marshside RSPB",
     "ukPopulation": "Around 1.3 million — separated from Common Pipistrelle as a distinct species in 1997",
     "seftonPopulation": "Present in waterside habitats across the coast; likely at Marshside RSPB",
-    "habitat": ["Reed bed edge", "Waterway", "Wetland edge", "Woodland near water"],
+    "habitat": [
+      "Reed bed edge",
+      "Waterway",
+      "Wetland edge",
+      "Woodland near water"
+    ],
     "diet": "Chironomid midges, small moths, aquatic insects",
     "description": "The Soprano Pipistrelle was only distinguished as a separate species from Common Pipistrelle in 1997 using echolocation frequency analysis. It prefers waterside habitats — which makes Marshside RSPB a likely spot. Physically almost identical to Common Pipistrelle, it echolocates at a higher frequency (55kHz versus 45kHz). A bat detector is needed for confident identification.",
     "identification": "Virtually identical to Common Pipistrelle in the field. Slightly pinkish face compared to Common's black face. Reliably distinguishable only by echolocation frequency (55kHz) with a detector.",
     "tips": "Use a bat detector app at Marshside at dusk. 55kHz calls indicate Soprano; 45kHz indicates Common Pipistrelle. The waterside habitat preference is a useful clue.",
     "difficulty": "specialist",
-    "relatedSpecies": ["common-pipistrelle"],
+    "relatedSpecies": [
+      "common-pipistrelle"
+    ],
     "wikipediaTitle": "Soprano pipistrelle",
     "faq": [
       {
         "question": "How was the Soprano Pipistrelle discovered as a separate species?",
         "answer": "In the 1990s, researchers noticed that some pipistrelle bats echolocated at 55kHz rather than the usual 45kHz. Genetic analysis confirmed these were a separate species. The Soprano Pipistrelle (Pipistrellus pygmaeus) was formally described in 1997. The two species can be found roosting in the same buildings but have different ecological preferences — Soprano preferring waterside habitats."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Sand Lizard",
@@ -395,13 +475,19 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Extremely rare — restricted to a few heathland and dune sites; subject to active conservation programme",
     "seftonPopulation": "The Sefton Coast holds one of the UK's most important Sand Lizard populations — a National Trust/Natural England conservation priority",
-    "habitat": ["Open mobile dune", "South-facing bare sand slope", "Dune heath edge"],
+    "habitat": [
+      "Open mobile dune",
+      "South-facing bare sand slope",
+      "Dune heath edge"
+    ],
     "diet": "Invertebrates — beetles, ants, grasshoppers, spiders",
     "description": "The Sand Lizard is one of Britain's most spectacular reptiles and one of the most important reasons Ainsdale NNR exists. Breeding males in spring are vivid emerald-green on the flanks — extraordinary colouration unlike any other British reptile. The Sefton Coast population is one of the largest in Britain and a National Trust/Natural England conservation priority. They require open, bare, south-facing sand for egg-laying (the sun incubates the eggs) and are highly sensitive to habitat structure. Careful dune management — creating and maintaining bare sand slopes — is done specifically for them.",
     "identification": "Stocky lizard. Male spring: brilliant green flanks, brown-spotted back — unmistakeable. Female and non-breeding male: brown with pale-spotted pattern. Broader, more robust than Common Lizard. Slow, cautious movement.",
     "tips": "Visit south-facing open sand slopes at Ainsdale NNR on a warm March or April morning. Sand Lizards emerge early to bask. Move very slowly — they're wary and retreat to cover quickly. May is peak time for vivid male colour.",
     "difficulty": "specialist",
-    "relatedSpecies": ["natterjack-toad"],
+    "relatedSpecies": [
+      "natterjack-toad"
+    ],
     "wikipediaTitle": "Sand lizard",
     "externalLinks": {
       "iucn": "https://www.iucnredlist.org/species/11041/81229981"
@@ -415,7 +501,8 @@
         "question": "Why do male Sand Lizards turn green?",
         "answer": "Male Sand Lizards develop vivid emerald-green flanks during the breeding season (April–June). This colouration is testosterone-driven and functions both to attract females and to signal territorial status to rival males. Outside the breeding season, the green fades. Females and juveniles are cryptically brown and spotted throughout the year."
       }
-    ]
+    ],
+    "group": "reptile"
   },
   {
     "commonName": "Great Crested Newt",
@@ -430,13 +517,20 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Around 400,000 — declining; protected by law. UK holds 40% of world population.",
     "seftonPopulation": "Present at suitable dune slack ponds on the Sefton Coast — a priority protected species",
-    "habitat": ["Dune slack pond with Soft Rush margins", "Ponds near rough grassland", "Fish-free still water"],
+    "habitat": [
+      "Dune slack pond with Soft Rush margins",
+      "Ponds near rough grassland",
+      "Fish-free still water"
+    ],
     "diet": "Invertebrates, tadpoles, frog spawn — opportunistic predator",
     "description": "The Great Crested Newt is Britain's largest newt and one of its most legally protected species — it is illegal to disturb them, their eggs, or their habitat without a licence. Males in breeding season have an extraordinary serrated crest running along their back, separate from a second crest on the tail — vivid orange belly and silvery tail flash complete the display. The dune slack ponds at Ainsdale provide good habitat — fish-free, with aquatic vegetation for egg-laying. Surveying requires specialist permission.",
     "identification": "Britain's largest newt — much bigger than Smooth or Palmate. Dark grey-brown above with white spots on flanks. Bright orange belly with black spots. Male in spring: large, serrated dorsal crest. Silvery tail stripe in males. Large, warty skin.",
     "tips": "Great Crested Newts can be detected using licensed eDNA water sampling (April–June) or licensed torch surveys at night. Do not disturb ponds in the breeding season without a survey licence. Any suspected presence should be reported to Natural England.",
     "difficulty": "specialist",
-    "relatedSpecies": ["natterjack-toad", "common-frog"],
+    "relatedSpecies": [
+      "natterjack-toad",
+      "common-frog"
+    ],
     "wikipediaTitle": "Great crested newt",
     "externalLinks": {
       "iucn": "https://www.iucnredlist.org/species/22212/9367645"
@@ -446,7 +540,8 @@
         "question": "Why is the Great Crested Newt so heavily protected?",
         "answer": "The Great Crested Newt is listed under the EU Habitats Directive and UK Wildlife and Countryside Act because it has declined severely — pond loss (80% of UK ponds have been lost since the 1900s), fish introduction and habitat fragmentation have reduced populations drastically. The UK holds around 40% of the world population, giving it international responsibility. Any development affecting GCN habitat requires expensive mitigation surveys and licensing."
       }
-    ]
+    ],
+    "group": "amphibian"
   },
   {
     "commonName": "Common Frog",
@@ -461,20 +556,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Very common throughout Britain — most widespread amphibian",
     "seftonPopulation": "Common throughout the Sefton Coast in any suitable wet habitat",
-    "habitat": ["Dune slack pond", "Garden pond", "Ditch", "Wet grassland"],
+    "habitat": [
+      "Dune slack pond",
+      "Garden pond",
+      "Ditch",
+      "Wet grassland"
+    ],
     "diet": "Insects, slugs, worms, other invertebrates",
     "description": "The Common Frog is the UK's most familiar amphibian and present throughout the Sefton Coast wherever suitable ponds exist. In February and March, frogs gather at dune slack ponds in sometimes extraordinary numbers to breed — the mass of spawn, the underwater writhing of frogs in amplexus, and the collective calling is one of the first wildlife spectacles of spring. Spawn masses are followed by tadpoles, then froglets emerging in June and July. Foxes and herons prey on breeding aggregations.",
     "identification": "Variable colour — olive green, brown, yellow-brown or grey-green. Dark mask from eye to shoulder. Smooth (not warty) skin. Dark blotching on back. Long hind legs. Orange-yellow flecks in eye.",
     "tips": "Visit any dune slack pond at Ainsdale in late February. Frog spawn — round, jelly masses with black central dot — appears first. Then the frogs themselves, often in large numbers. Garden ponds throughout Formby and Southport hold good populations.",
     "difficulty": "easy",
-    "relatedSpecies": ["natterjack-toad", "great-crested-newt"],
+    "relatedSpecies": [
+      "natterjack-toad",
+      "great-crested-newt"
+    ],
     "wikipediaTitle": "Common frog",
     "faq": [
       {
         "question": "How do you tell frog spawn from toad spawn?",
         "answer": "Frog spawn is laid in clumped masses of jelly, floating at the surface. Toad spawn is laid in long, double strings of jelly wrapped around aquatic vegetation. Natterjack Toad spawn at Ainsdale is in a single string (not doubled) and much thinner than Common Toad's. If you see a mass of spawn in a dune slack, it's almost certainly Common Frog — Natterjack Toad spawn strings are very different."
       }
-    ]
+    ],
+    "group": "amphibian"
   },
   {
     "commonName": "Rabbit",
@@ -489,20 +593,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Around 40 million — declined by 60% since 1995 due to disease but still abundant",
     "seftonPopulation": "Abundant throughout the Sefton Coast; the Rabbit is a keystone species of the dune ecosystem",
-    "habitat": ["Dune grassland", "Dune scrub", "Farmland", "Pinewood edge"],
+    "habitat": [
+      "Dune grassland",
+      "Dune scrub",
+      "Farmland",
+      "Pinewood edge"
+    ],
     "diet": "Grass, herbs, bark, Heather shoots — feeds above ground throughout the night",
     "description": "The Rabbit is a keystone species of the Sefton Coast dune system — without Rabbit grazing, the short, flower-rich turf and bare sand patches that support Sand Lizards, Natterjack Toads and dozens of specialist invertebrates would succeed to rank grass and scrub. Rabbits were introduced by the Normans and have been in Britain for 900 years. On the dune system they're everywhere. Foxes, Stoats and Buzzards all depend on them. Despite their abundance, UK populations have crashed by 60% since the 1990s due to myxomatosis and RHD2 disease.",
     "identification": "Unmistakeable. Brown-grey above, white below, white cotton tail. Long ears with black tips. Long hind feet. Hops in bounds. Active dawn and dusk but also daytime in undisturbed areas.",
     "tips": "Visible everywhere at any time of day — easiest at dawn. Watch any open dune grassland for movement. Rabbit scrapes (bare earth patches) and droppings are everywhere on the dune system.",
     "difficulty": "easy",
-    "relatedSpecies": ["brown-hare", "stoat"],
+    "relatedSpecies": [
+      "brown-hare",
+      "stoat"
+    ],
     "wikipediaTitle": "European rabbit",
     "faq": [
       {
         "question": "Why are Rabbits so important for the Sefton Coast dune ecosystem?",
         "answer": "Rabbit grazing maintains the short, open dune turf that specialist plants and animals require. Without grazing, coarse grasses and scrub shade out low-growing specialists like Wild Thyme, Carline Thistle and the orchids. Bare sand created by Rabbit burrowing is essential for Sand Lizard egg-laying and Natterjack Toad breeding pools. Paradoxically, the 'pest' species is a conservation cornerstone of the dune system."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Bank Vole",
@@ -517,20 +630,29 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Around 23 million — very common in woodland and scrub",
     "seftonPopulation": "Common in scrub and woodland habitats throughout the Sefton Coast",
-    "habitat": ["Dune scrub", "Woodland edge", "Hedgerow", "Dense grassland"],
+    "habitat": [
+      "Dune scrub",
+      "Woodland edge",
+      "Hedgerow",
+      "Dense grassland"
+    ],
     "diet": "Seeds, berries, fungi, vegetation, some invertebrates",
     "description": "The Bank Vole is a small, chestnut-brown vole of woodland and scrub habitats. Unlike the Field Vole (which lives in grassland), the Bank Vole is associated with cover — hedgerows, wood piles, scrub edges. It's more agile than the Field Vole and may climb to eat berries and seeds. At Formby, Bank Voles live throughout the scrub and pinewood edges. Their runways — small tunnels through the vegetation — are a common sign. Owls, Stoats, Weasels and Foxes all eat them.",
     "identification": "Small vole. Bright chestnut-brown above, pale grey-white below. Rounded blunt snout. Small ears visible above fur. Longer tail than Field Vole but shorter than mice. Not in open grassland.",
     "tips": "Look for runways in dense scrub vegetation and piles of chewed hazel nutshells (gnawed circular holes) near the pinewoods. A patient sit by a log pile will sometimes reveal one feeding.",
     "difficulty": "specialist",
-    "relatedSpecies": ["water-vole", "weasel"],
+    "relatedSpecies": [
+      "water-vole",
+      "weasel"
+    ],
     "wikipediaTitle": "Bank vole",
     "faq": [
       {
         "question": "How do I tell Bank Vole from Field Vole?",
         "answer": "Colour and habitat are the main differences. Bank Vole is bright chestnut-brown with pale grey sides and grey-white underside; Field Vole is dull greyish-brown all over. Bank Vole has a slightly longer tail relative to body length. Bank Vole is found in scrub and woodland; Field Vole is found in open rough grassland. Gnawed hazel nuts with a circular hole indicate Bank Vole (the hole on a Field Vole-gnawed nut would be split open instead)."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Field Vole",
@@ -545,20 +667,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Around 75 million — Britain's most numerous mammal",
     "seftonPopulation": "Abundant in dune grassland throughout the Sefton Coast — the primary prey of Kestrel, Short-eared Owl and Barn Owl",
-    "habitat": ["Rough grassland", "Dune grassland", "Sedge meadow", "Any rank grass"],
+    "habitat": [
+      "Rough grassland",
+      "Dune grassland",
+      "Sedge meadow",
+      "Any rank grass"
+    ],
     "diet": "Grass — almost exclusively grasses and sedges",
     "description": "The Field Vole is Britain's most numerous mammal — around 75 million individuals — and the foundation of the Sefton Coast food chain. Kestrels hovering over the dunes are hunting Field Voles. Short-eared Owls patrol the grassland for Field Voles. Barn Owls hunt them along road verges. Without Field Voles, many of the Sefton Coast's most charismatic wildlife would struggle. They live in extensive tunnel systems under rank grass, running along surface 'runways'. Their populations cycle dramatically — good vole years produce good raptor years.",
     "identification": "Small, dumpy, blunt-nosed rodent. Dull greyish-brown above, pale below. Very short tail (shorter than Bank Vole). Small eyes and ears almost hidden in fur. Found in rank grassland, not woodland.",
     "tips": "Lift any piece of old board or corrugated iron on the dune grassland at Ainsdale — Field Voles often nest beneath. Or part rank grass to reveal the network of runs. Never handle without gloves — they bite.",
     "difficulty": "moderate",
-    "relatedSpecies": ["water-vole", "bank-vole"],
+    "relatedSpecies": [
+      "water-vole",
+      "bank-vole"
+    ],
     "wikipediaTitle": "Field vole",
     "faq": [
       {
         "question": "Why do Kestrel numbers vary so much year to year?",
         "answer": "Kestrel breeding success is closely linked to Field Vole population cycles. Vole numbers rise and crash every 3–5 years, driven by food availability and disease. In high vole years, Kestrels breed successfully and are abundant. In crash years, food is scarce and Kestrels may fail to breed or even disappear from some areas. The same relationship applies to Short-eared Owls, Barn Owls and Stoats."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Wood Mouse",
@@ -573,20 +704,29 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Around 40 million — the most common wild mammal in Britain",
     "seftonPopulation": "Common throughout the Sefton Coast in any habitats with seed and cover",
-    "habitat": ["Woodland", "Scrub", "Hedgerow", "Dune grassland edge"],
+    "habitat": [
+      "Woodland",
+      "Scrub",
+      "Hedgerow",
+      "Dune grassland edge"
+    ],
     "diet": "Seeds (primary), berries, nuts, insects, fungi",
     "description": "The Wood Mouse is Britain's most common wild rodent and common throughout the Sefton Coast's scrub and woodlands. It's much larger-eyed and eared than House Mouse, with large protruding eyes adapted for nocturnal movement. Wood Mice are agile climbers and will go into trees to find seeds. They live in burrow systems under roots and log piles. You're unlikely to see one unless you run a mammal trap or look by torchlight — but they're present in every wood and scrub area.",
     "identification": "Large eyes and ears — much bigger relative to head than House Mouse. Sandy-brown above, grey-white below. Long tail. Long hind feet. Sandy (not grey) colour — no yellow breast band (compare Yellow-necked Mouse).",
     "tips": "Track identification: tiny, four-toed footprints in soft mud near water. Cache piles of seeds under bark or in old bird nests are also diagnostic. Listen for rustling in dead leaves at night.",
     "difficulty": "specialist",
-    "relatedSpecies": ["field-vole", "bank-vole"],
+    "relatedSpecies": [
+      "field-vole",
+      "bank-vole"
+    ],
     "wikipediaTitle": "Wood mouse",
     "faq": [
       {
         "question": "Is the Wood Mouse the same as a Field Mouse?",
         "answer": "Yes — Wood Mouse and Field Mouse are the same species (Apodemus sylvaticus). It's called Field Mouse when found in agricultural and open habitats, and Wood Mouse in woodland. It's the same animal. It should not be confused with the House Mouse (Mus musculus), which is grey throughout and has much smaller eyes."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Badger",
@@ -601,20 +741,29 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Around 400,000 — population has grown significantly since 1970s",
     "seftonPopulation": "Present in the Formby pinewoods and woodland edges; setts in sandy banks",
-    "habitat": ["Woodland", "Sandy woodland bank (for setts)", "Farmland edge", "Scrub"],
+    "habitat": [
+      "Woodland",
+      "Sandy woodland bank (for setts)",
+      "Farmland edge",
+      "Scrub"
+    ],
     "diet": "Earthworms (primary food), beetles, small mammals, fruit, bulbs — opportunistic omnivore",
     "description": "Badgers are present in the Formby pinewoods and woodland edges. The sandy substrate makes burrowing easy and setts — sometimes with multiple generations of excavation — can be impressive. Badgers are primarily earthworm hunters, spending hours working through damp ground in wet weather, using their sensitive nose and strong front claws. They're sociable and live in family groups called clans. Watching a sett at dusk on a still summer evening is one of the most accessible wildlife experiences near Formby.",
     "identification": "Unmistakeable. Grey body, black and white striped face. Heavy, wide body on short legs. Strong front claws. Shuffling, distinctive gait. Black and white face stripes visible even in poor light.",
     "tips": "Find a sett in the Formby pinewood area by looking for a large hole with sandy spoil heap and tracks. Sit quietly downwind at dusk in May or June — Badgers emerge predictably at dusk when undisturbed.",
     "difficulty": "moderate",
-    "relatedSpecies": ["fox", "stoat"],
+    "relatedSpecies": [
+      "fox",
+      "stoat"
+    ],
     "wikipediaTitle": "European badger",
     "faq": [
       {
         "question": "How do I find a Badger sett?",
         "answer": "Badger setts are large — much larger than Fox or Rabbit holes. The entrance is often D-shaped (wider than tall), with a large spoil heap of earth, old bedding (dried grass) and grey-black badger hairs caught on the surrounding vegetation. Well-used setts have worn pathways radiating outward. Sandy woodland edges are the best places to look on the Sefton Coast."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Daubenton's Bat",
@@ -629,20 +778,29 @@
     "shortLocation": "Marshside RSPB",
     "ukPopulation": "Around 570,000 — common throughout Britain",
     "seftonPopulation": "Present over waterways and ponds throughout the Sefton Coast",
-    "habitat": ["Open water", "River", "Canal", "Lake edge"],
+    "habitat": [
+      "Open water",
+      "River",
+      "Canal",
+      "Lake edge"
+    ],
     "diet": "Small aquatic insects — caught just above or from the water surface using large feet",
     "description": "Daubenton's Bat is the classic 'water bat' — it hunts just centimetres above the surface of still or slow-moving water, scooping insects from the surface using its large feet or tail membrane. The flight is fast and low, often following the same circuit repeatedly over a pool. At Marshside RSPB in summer, watching Daubenton's Bats hunting over the lagoon at dusk is one of the hidden wildlife pleasures. A bat detector reveals the echolocation at around 45kHz — similar to Common Pipistrelle but with a more FM structure.",
     "identification": "Medium bat. Silver-grey fur above, paler below. Reddish face. Large pink feet. Flies very low over water — rarely more than 30cm above the surface. Skims water surface with feet. 45kHz echolocation.",
     "tips": "Visit Marshside RSPB at dusk in June–July. A bat flying low and fast just above the water, repeatedly skimming the same stretch, is almost certainly a Daubenton's. A bat detector confirms the echolocation.",
     "difficulty": "moderate",
-    "relatedSpecies": ["common-pipistrelle", "soprano-pipistrelle"],
+    "relatedSpecies": [
+      "common-pipistrelle",
+      "soprano-pipistrelle"
+    ],
     "wikipediaTitle": "Daubenton's bat",
     "faq": [
       {
         "question": "How does Daubenton's Bat catch insects from the water?",
         "answer": "Daubenton's Bats hunt insects on or just above the water surface using two methods. They can detect surface disturbances from emerging aquatic insects using echolocation, then scoop the insect using the large, webbed feet or the tail membrane (uropatagium) in a 'gaff' action. Insects emerging from the water — midges, small moths — are the primary prey."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Noctule Bat",
@@ -657,20 +815,28 @@
     "shortLocation": "Marshside RSPB",
     "ukPopulation": "Around 40,000 — amber-listed",
     "seftonPopulation": "Present over open country and wetland; echolocates at lower frequency than pipistrelles",
-    "habitat": ["Open water", "Open farmland above treeline", "Woodland edge"],
+    "habitat": [
+      "Open water",
+      "Open farmland above treeline",
+      "Woodland edge"
+    ],
     "diet": "Large flying insects — beetles, moths, cockchafers — caught in open air",
     "description": "The Noctule is one of Britain's largest bats and one of the easiest to see — it often emerges to hunt before sunset, flying high in fast, swooping flight over open country and water. At Marshside RSPB it may be seen against the sky in the minutes before dark, dropping and swooping on large insects. The echolocation at 20kHz is lower than pipistrelles and detectable as a 'chip-chip' on a bat detector. It roosts in tree holes in summer.",
     "identification": "Large bat. Uniform golden-brown fur. Narrow, pointed wings. Fast, high, swooping flight. Often active before dark. Echolocates at ~20kHz — 'chip-chip' sound on detector. Much larger than pipistrelles.",
     "tips": "Watch the sky above Marshside RSPB at sunset in June. Any large, fast-moving bat flying high before dark is likely a Noctule. A bat detector at 20kHz will confirm the species.",
     "difficulty": "moderate",
-    "relatedSpecies": ["common-pipistrelle", "soprano-pipistrelle"],
+    "relatedSpecies": [
+      "common-pipistrelle",
+      "soprano-pipistrelle"
+    ],
     "wikipediaTitle": "Common noctule",
     "faq": [
       {
         "question": "Why do Noctule Bats sometimes emerge before sunset?",
         "answer": "Noctule Bats emerge earlier in the evening than most UK bats, often appearing against the lit sky before dark. This may be related to their hunting strategy — they hunt large, diurnal insects (like cockchafers and flying beetles) that are active at dusk but may become scarce after dark. The early emergence reduces competition from pipistrelles which dominate nighttime insect hunting."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Brown Long-eared Bat",
@@ -685,20 +851,29 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Around 245,000 — second most common bat after pipistrelle",
     "seftonPopulation": "Present in the Formby pinewoods and mature gardens near woodland",
-    "habitat": ["Woodland", "Garden", "Churchyard", "Pinewood edge"],
+    "habitat": [
+      "Woodland",
+      "Garden",
+      "Churchyard",
+      "Pinewood edge"
+    ],
     "diet": "Moths, beetles, earwigs — gleaned from leaves and bark surfaces",
     "description": "The Brown Long-eared Bat is one of the most distinctive UK bats — the ears are almost as long as the body (up to 4cm). This extraordinary hearing is an adaptation for 'passive listening' — it can hear the footfall of a moth crawling on a leaf by ear alone, without echolocating. It is almost silent on a bat detector (echolocates very quietly) and gleans prey from vegetation surfaces. The ears are folded back under the wings when roosting, leaving only the pointed tragus visible.",
     "identification": "Medium bat. Pale brown fur above, pale below. Enormous ears nearly as long as body — visible in flight. Very quiet echolocation (~40kHz, very low intensity) — 'soft' on bat detector. Slow, fluttering flight in woodland.",
     "tips": "Watch the edges of the Formby pinewoods with a bat detector in June. The very quiet echolocation means it's often heard only at close range. The large ears are sometimes visible in flight.",
     "difficulty": "specialist",
-    "relatedSpecies": ["common-pipistrelle", "soprano-pipistrelle"],
+    "relatedSpecies": [
+      "common-pipistrelle",
+      "soprano-pipistrelle"
+    ],
     "wikipediaTitle": "Brown long-eared bat",
     "faq": [
       {
         "question": "How can the Brown Long-eared Bat hear so well?",
         "answer": "The Brown Long-eared Bat's huge ears have a very high surface area, capturing small sound waves efficiently. The complex fold pattern inside the ear (tragus and antihelix) helps determine the direction of sounds with great precision. The bat can detect the rustling of a moth's wings or the footfall of a beetle on a leaf from several metres away — enough to locate prey without echolocating and alerting the prey."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "American Mink",
@@ -713,20 +888,29 @@
     "shortLocation": "Marshside RSPB",
     "ukPopulation": "Around 40,000 in the UK — an invasive non-native species",
     "seftonPopulation": "Present in drainage channels and watercourses; main predator of Water Vole and key threat to Natterjack Toad",
-    "habitat": ["Drainage ditch", "River", "Pond edge", "Marsh"],
+    "habitat": [
+      "Drainage ditch",
+      "River",
+      "Pond edge",
+      "Marsh"
+    ],
     "diet": "Rabbits, water voles, moorhens, terns, ducks, fish — highly effective predator",
     "description": "The American Mink is one of the most ecologically damaging invasive species in Britain. Released or escaped from fur farms from the 1950s onward, it devastated Water Vole populations (now 95% declined) and impacts ground-nesting birds including Natterjack Toads and Little Terns. It swims and dives well, following water voles into their burrows. The Sefton Coast Partnership controls Mink using licensed trapping to protect Water Voles and ground-nesting birds. They are not native and are a legal target for control.",
     "identification": "Like a large Weasel or Polecat. All-dark chocolate-brown with a white chin spot. Long, sleek body. Semi-aquatic — swims readily. Much larger than Weasel or Stoat. Smaller than Otter.",
     "tips": "Any large, dark mustelid near water should be checked. American Mink are uniformly dark brown — unlike the paler belly of Otter. Report sightings to the Sefton Coast Partnership so trapping can be directed appropriately.",
     "difficulty": "moderate",
-    "relatedSpecies": ["otter", "water-vole"],
+    "relatedSpecies": [
+      "otter",
+      "water-vole"
+    ],
     "wikipediaTitle": "American mink",
     "faq": [
       {
         "question": "Why is American Mink so damaging to UK wildlife?",
         "answer": "American Mink evolved alongside North American prey species that have some behavioural responses to mink predation. UK species — especially Water Voles — have not co-evolved with mink and have no effective defensive behaviours against an animal that can pursue them into their burrows. Mink can eliminate Water Vole colonies from entire river systems within a few seasons. They also raid ground-nesting bird colonies, including tern and gull colonies. Trapping remains the primary control method."
       }
-    ]
+    ],
+    "group": "mammal"
   },
   {
     "commonName": "Roe Deer",
@@ -741,19 +925,27 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Around 500,000 — increasing and expanding",
     "seftonPopulation": "Present in the Formby pinewoods and surrounding woodland; small resident population",
-    "habitat": ["Pinewood", "Mixed woodland", "Dune scrub", "Woodland edge near farmland"],
+    "habitat": [
+      "Pinewood",
+      "Mixed woodland",
+      "Dune scrub",
+      "Woodland edge near farmland"
+    ],
     "diet": "Leaves, shoots, bramble, herbs, berries — selective browser",
     "description": "Roe Deer are present in the Formby pinewoods and surrounding woodland — usually heard as a sharp bark from the woodland rather than seen. The smallest of Britain's native deer, they're solitary and territorial, holding year-round territories unlike the gregarious Red and Fallow Deer. In summer their rich chestnut-red coat is bright; in winter they're grey-brown. The male's antlers are small with no more than three points. They can occasionally be seen at the pinewood edge at dawn.",
     "identification": "Small deer. Summer: rich chestnut-red. Winter: grey-brown. No visible tail — prominent white rump patch (cream). Males: small antlers, usually three points. Solitary. Alarm bark sounds like a dog.",
     "tips": "Walk the pinewood edges at Formby at dawn. Roe Deer are present but secretive. Listen for the sharp bark alarm call when they detect you. The white rump patch is visible as they bound away.",
     "difficulty": "moderate",
-    "relatedSpecies": ["fox"],
+    "relatedSpecies": [
+      "fox"
+    ],
     "wikipediaTitle": "Roe deer",
     "faq": [
       {
         "question": "What does a Roe Deer bark sound like?",
         "answer": "The Roe Deer's alarm call is a loud, sharp, dog-like bark — quite startling from a medium-sized deer. It is given when the deer detects a predator or intruder and is repeated several times before the deer bounds away. Once heard it is unmistakeable, and hearing a bark from the Formby pinewoods is a reliable sign of Roe Deer presence even if the animal is never seen."
       }
-    ]
+    ],
+    "group": "mammal"
   }
 ]

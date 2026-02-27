@@ -34,7 +34,7 @@ export function Footer() {
                 { href: "/birds", label: "Birds" },
                 { href: "/insects", label: "Insects" },
                 { href: "/plants", label: "Plants" },
-                { href: "/mammals", label: "Mammals" },
+                { href: "/mammals", label: "Mammals & Wildlife" },
               ].map(({ href, label }) => (
                 <li key={href}>
                   <Link href={href} className="hover:text-white transition">
