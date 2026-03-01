@@ -41,7 +41,8 @@
         "answer": "The Formby population is estimated at 1,000–1,500 individuals, making it one of the larger Red Squirrel populations in England. It is considered a key conservation site and the National Trust invests significantly in habitat management and monitoring."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/red-squirrel.jpg"
   },
   {
     "commonName": "Grey Seal",
@@ -85,7 +86,8 @@
         "answer": "Do not approach, touch or try to return it to the sea. Seal pups are often left alone by their mothers while she feeds — this is normal. Keep dogs on leads and people back. If the pup appears injured or distressed after 24 hours, call the BDMLR (British Divers Marine Life Rescue) on 01825 765546."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/grey-seal.jpg"
   },
   {
     "commonName": "Common Seal",
@@ -123,7 +125,8 @@
         "answer": "Head shape is the key difference. Common Seal has a round, concave-profiled, puppy-like face. Grey Seal has a long, straight Roman nose — particularly obvious in bulls. At close range, Common Seal's nostrils form a V-shape; Grey Seal's are more parallel. Common Seal is also smaller — about two-thirds the size of an adult Grey Seal."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/common-seal.jpg"
   },
   {
     "commonName": "Natterjack Toad",
@@ -246,7 +249,8 @@
         "answer": "Otter spraint (droppings) is the most reliable sign — it is left on prominent rocks, bridge buttresses and bankside vegetation as territorial markers. Otter spraint has a distinctive fishy, musky smell and contains fish bones and scales. Footprints in soft mud (5-toed, star-shaped with webbing) are also diagnostic."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/otter.jpg"
   },
   {
     "commonName": "Water Vole",
@@ -283,7 +287,8 @@
         "answer": "The primary cause of the 95% decline in Water Voles is predation by American Mink, which were released or escaped from fur farms from the 1950s onwards. Mink can follow voles into their burrows and devastate entire colonies. Habitat loss (drainage of ditches, channel management) is a secondary factor. Trapping of Mink is now a key part of Water Vole conservation."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/water-vole.jpg"
   },
   {
     "commonName": "Fox",
@@ -317,7 +322,8 @@
         "answer": "Yes. Foxes are one of the main predators of Little Tern eggs and chicks on Formby Beach. A single fox entering the colony at night can destroy an entire season's breeding. The RSPB and Natural England wardening and electric fencing around nest areas is largely aimed at excluding foxes."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/fox.jpg"
   },
   {
     "commonName": "Stoat",
@@ -353,7 +359,8 @@
         "answer": "Size and tail are the key features. Stoats are noticeably larger — about the size of a small squirrel. The black tip to the tail is always present on a Stoat in all seasons, and is the most reliable field mark. Weasels are smaller, shorter-tailed, and have no black tail tip. Both have the same orange-brown above and white below colouring."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/stoat.jpg"
   },
   {
     "commonName": "Weasel",
@@ -388,7 +395,8 @@
         "answer": "The Weasel is Britain's smallest carnivore, and one of the smallest in the world. Adult males weigh only 60–130g. Despite their tiny size they regularly prey on rabbits much larger than themselves, killing by a bite to the base of the skull. On the Sefton Coast they are the primary predators of field voles in dune grassland."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/weasel.jpg"
   },
   {
     "commonName": "Common Pipistrelle",
@@ -424,7 +432,8 @@
         "answer": "They are almost identical visually. The key difference is echolocation frequency — Common Pipistrelle echolocates at around 45kHz; Soprano Pipistrelle at around 55kHz. A bat detector app on your phone can detect and display these frequencies. Soprano Pipistrelle also tends to prefer waterside habitats."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/common-pipistrelle.jpg"
   },
   {
     "commonName": "Soprano Pipistrelle",
@@ -460,7 +469,8 @@
         "answer": "In the 1990s, researchers noticed that some pipistrelle bats echolocated at 55kHz rather than the usual 45kHz. Genetic analysis confirmed these were a separate species. The Soprano Pipistrelle (Pipistrellus pygmaeus) was formally described in 1997. The two species can be found roosting in the same buildings but have different ecological preferences — Soprano preferring waterside habitats."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/soprano-pipistrelle.jpg"
   },
   {
     "commonName": "Sand Lizard",
@@ -502,7 +512,8 @@
         "answer": "Male Sand Lizards develop vivid emerald-green flanks during the breeding season (April–June). This colouration is testosterone-driven and functions both to attract females and to signal territorial status to rival males. Outside the breeding season, the green fades. Females and juveniles are cryptically brown and spotted throughout the year."
       }
     ],
-    "group": "reptile"
+    "group": "reptile",
+    "localImage": "/images/species/mammals/sand-lizard.jpg"
   },
   {
     "commonName": "Great Crested Newt",
@@ -541,7 +552,8 @@
         "answer": "The Great Crested Newt is listed under the EU Habitats Directive and UK Wildlife and Countryside Act because it has declined severely — pond loss (80% of UK ponds have been lost since the 1900s), fish introduction and habitat fragmentation have reduced populations drastically. The UK holds around 40% of the world population, giving it international responsibility. Any development affecting GCN habitat requires expensive mitigation surveys and licensing."
       }
     ],
-    "group": "amphibian"
+    "group": "amphibian",
+    "localImage": "/images/species/mammals/great-crested-newt.jpg"
   },
   {
     "commonName": "Common Frog",
@@ -652,7 +664,8 @@
         "answer": "Colour and habitat are the main differences. Bank Vole is bright chestnut-brown with pale grey sides and grey-white underside; Field Vole is dull greyish-brown all over. Bank Vole has a slightly longer tail relative to body length. Bank Vole is found in scrub and woodland; Field Vole is found in open rough grassland. Gnawed hazel nuts with a circular hole indicate Bank Vole (the hole on a Field Vole-gnawed nut would be split open instead)."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/bank-vole.jpg"
   },
   {
     "commonName": "Field Vole",
@@ -689,7 +702,8 @@
         "answer": "Kestrel breeding success is closely linked to Field Vole population cycles. Vole numbers rise and crash every 3–5 years, driven by food availability and disease. In high vole years, Kestrels breed successfully and are abundant. In crash years, food is scarce and Kestrels may fail to breed or even disappear from some areas. The same relationship applies to Short-eared Owls, Barn Owls and Stoats."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/field-vole.jpg"
   },
   {
     "commonName": "Wood Mouse",
@@ -726,7 +740,8 @@
         "answer": "Yes — Wood Mouse and Field Mouse are the same species (Apodemus sylvaticus). It's called Field Mouse when found in agricultural and open habitats, and Wood Mouse in woodland. It's the same animal. It should not be confused with the House Mouse (Mus musculus), which is grey throughout and has much smaller eyes."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/wood-mouse.jpg"
   },
   {
     "commonName": "Badger",
@@ -763,7 +778,8 @@
         "answer": "Badger setts are large — much larger than Fox or Rabbit holes. The entrance is often D-shaped (wider than tall), with a large spoil heap of earth, old bedding (dried grass) and grey-black badger hairs caught on the surrounding vegetation. Well-used setts have worn pathways radiating outward. Sandy woodland edges are the best places to look on the Sefton Coast."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/badger.jpg"
   },
   {
     "commonName": "Daubenton's Bat",
@@ -800,7 +816,8 @@
         "answer": "Daubenton's Bats hunt insects on or just above the water surface using two methods. They can detect surface disturbances from emerging aquatic insects using echolocation, then scoop the insect using the large, webbed feet or the tail membrane (uropatagium) in a 'gaff' action. Insects emerging from the water — midges, small moths — are the primary prey."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/daubenton-s-bat.jpg"
   },
   {
     "commonName": "Noctule Bat",
@@ -836,7 +853,8 @@
         "answer": "Noctule Bats emerge earlier in the evening than most UK bats, often appearing against the lit sky before dark. This may be related to their hunting strategy — they hunt large, diurnal insects (like cockchafers and flying beetles) that are active at dusk but may become scarce after dark. The early emergence reduces competition from pipistrelles which dominate nighttime insect hunting."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/noctule-bat.jpg"
   },
   {
     "commonName": "Brown Long-eared Bat",
@@ -873,7 +891,8 @@
         "answer": "The Brown Long-eared Bat's huge ears have a very high surface area, capturing small sound waves efficiently. The complex fold pattern inside the ear (tragus and antihelix) helps determine the direction of sounds with great precision. The bat can detect the rustling of a moth's wings or the footfall of a beetle on a leaf from several metres away — enough to locate prey without echolocating and alerting the prey."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/brown-long-eared-bat.jpg"
   },
   {
     "commonName": "American Mink",

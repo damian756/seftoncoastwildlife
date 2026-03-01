@@ -12,13 +12,20 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread but declining in England; strongholds in coastal dunes and upland grassland",
     "seftonPopulation": "One of the better northwest England sites; regularly seen in July on open dune grassland",
-    "habitat": ["Open dune grassland", "Coastal heath", "Calcareous grassland"],
+    "habitat": [
+      "Open dune grassland",
+      "Coastal heath",
+      "Calcareous grassland"
+    ],
     "diet": "Adults: Ragwort, thistle, Viper's Bugloss nectar. Larvae: violets (Viola spp.)",
     "description": "The Dark Green Fritillary is the powerhouse butterfly of the Sefton Coast dunes. Large, fast-flying and striking, it careers across open dune grassland at speed, stopping to feed on Ragwort and thistles in sunshine. The Sefton Coast is one of the best places in northwest England to see it — the combination of open dune grassland and its larval foodplant (violets) makes it ideal. On warm days in July the numbers can be impressive. The green and silver underside gives it its name.",
     "identification": "Large orange-brown butterfly with black spots above. Underside hindwing has green wash with large silver spots — distinctive. Fast, powerful flight.",
     "tips": "Visit Ainsdale NNR on a hot, sunny day in July. Watch Ragwort and thistle patches for feeding adults. They are fast but will feed for several minutes if undisturbed.",
     "difficulty": "moderate",
-    "relatedSpecies": ["silver-studded-blue", "common-blue"],
+    "relatedSpecies": [
+      "silver-studded-blue",
+      "common-blue"
+    ],
     "wikipediaTitle": "Dark green fritillary",
     "faq": [
       {
@@ -29,7 +36,8 @@
         "question": "Why is the Dark Green Fritillary called 'dark green'?",
         "answer": "The name refers to the underside of the hindwing, which has a distinctive green wash with large silver spots — not the upper surface, which is orange-brown. The underside is only visible when the butterfly settles with wings closed, which it does occasionally when roosting in vegetation."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/dark-green-fritillary.jpg"
   },
   {
     "commonName": "Grayling",
@@ -44,20 +52,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Declining significantly — lost from inland England, now mainly coastal and specialist habitats",
     "seftonPopulation": "Regular in open sandy dune areas at Ainsdale; one of the more reliable northwest England sites",
-    "habitat": ["Open bare sand", "Fixed dune", "Dune heath", "Coastal grassland"],
+    "habitat": [
+      "Open bare sand",
+      "Fixed dune",
+      "Dune heath",
+      "Coastal grassland"
+    ],
     "diet": "Adults: little feeding — mainly honeydew and occasional flowers. Larvae: various grasses.",
     "description": "The Grayling is a master of camouflage — it rests on bare ground or bark and tilts toward the sun to minimise its shadow, becoming virtually invisible. The Sefton Coast's sandy dune habitats are perfect for it. When disturbed it flies a short distance and lands again, instantly vanishing. The undersides are beautifully patterned in grey, white and brown. The UK population has declined significantly and the coastal dune populations are increasingly important.",
     "identification": "Medium butterfly. Brown above with an orange-ringed eye spot. Sits with wings closed showing mottled grey-brown underside. Tilts toward sun when resting.",
     "tips": "Walk slowly across open sandy dunes and watch for butterflies that land and instantly disappear. Mark where they land and approach very slowly — they hold their position remarkably well.",
     "difficulty": "moderate",
-    "relatedSpecies": ["dark-green-fritillary", "common-blue"],
+    "relatedSpecies": [
+      "dark-green-fritillary",
+      "common-blue"
+    ],
     "wikipediaTitle": "Hipparchia semele",
     "faq": [
       {
         "question": "Why does the Grayling tilt toward the sun?",
         "answer": "The Grayling tilts its body toward the sun to reduce the shadow it casts on the ground — a shadow would reveal its presence to predators. By angling perpendicular to the sun, it minimises its visible profile. This behaviour, combined with its exceptional camouflage, makes it one of the most difficult butterflies to spot once it has landed."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/grayling.jpg"
   },
   {
     "commonName": "Common Blue",
@@ -72,20 +89,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread but declining in England due to grassland loss",
     "seftonPopulation": "Common on dune grassland throughout the Sefton Coast; locally abundant in good years",
-    "habitat": ["Dune grassland", "Coastal grassland", "Rough grass with trefoil"],
+    "habitat": [
+      "Dune grassland",
+      "Coastal grassland",
+      "Rough grass with trefoil"
+    ],
     "diet": "Adults: various flowers. Larvae: Bird's-foot Trefoil (primary), other Fabaceae",
     "description": "The Common Blue is the most abundant blue butterfly on the Sefton Coast and one of the most reliable. Males are a beautiful, vivid blue; females are brown with blue scaling at the wing base. They require Bird's-foot Trefoil as a larval foodplant, which is common on the dune grassland. In July the dune slopes can be alive with them. Males are territorial and will see off rivals and investigate any small blue object.",
     "identification": "Males: bright violet-blue above with thin black border. Females: brown with orange spots and variable blue sheen. Both have spotted pale grey underside.",
     "tips": "Walk any area of dune grassland with Bird's-foot Trefoil in July. Males puddle on damp sand and are very approachable when drinking.",
     "difficulty": "easy",
-    "relatedSpecies": ["silver-studded-blue", "small-copper"],
+    "relatedSpecies": [
+      "silver-studded-blue",
+      "small-copper"
+    ],
     "wikipediaTitle": "Common blue butterfly",
     "faq": [
       {
         "question": "How do I find Common Blue butterflies at Ainsdale?",
         "answer": "Look for patches of Bird's-foot Trefoil (a small yellow pea flower) on the dune grassland — wherever the foodplant grows, Common Blues will follow. Males are territorial and often visible on prominent perches. Damp patches of sand attract males puddling for minerals, and they are easy to photograph while drinking."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/common-blue.jpg"
   },
   {
     "commonName": "Silver-studded Blue",
@@ -100,20 +125,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Declining nationally; strongholds on southern heathland and coastal dunes",
     "seftonPopulation": "Colony present in the heather areas at Ainsdale NNR; one of the more northerly sites in England",
-    "habitat": ["Dune heath", "Heather heath", "Coastal heath"],
+    "habitat": [
+      "Dune heath",
+      "Heather heath",
+      "Coastal heath"
+    ],
     "diet": "Adults: Heather, Bird's-foot Trefoil, thyme. Larvae: Heather, Bell Heather, Gorse",
     "description": "The Silver-studded Blue is one of the more special butterfly records for the Sefton Coast, associated with the dune heath habitat where Heather grows. Males are a vivid violet-blue with a distinctive silver-studded underside hindwing; females are brown with orange spots. They live in colonies and tend not to travel far, making habitat management critical. The Ainsdale NNR heath management benefits this species.",
     "identification": "Small blue butterfly. Males: bright violet-blue with black border. Females: brown with orange marginal spots. Underside has distinctive silver-studded spots on hindwing — key feature.",
     "tips": "Search the Heather areas at Ainsdale NNR in July. They tend to stay low, nectaring on Heather flowers. Visit in the morning when they are most active.",
     "difficulty": "specialist",
-    "relatedSpecies": ["common-blue", "small-copper"],
+    "relatedSpecies": [
+      "common-blue",
+      "small-copper"
+    ],
     "wikipediaTitle": "Silver-studded blue",
     "faq": [
       {
         "question": "What is the relationship between Silver-studded Blue and ants?",
         "answer": "Silver-studded Blue caterpillars have a mutualistic relationship with black ants (Lasius niger). The caterpillars produce secretions from a dorsal nectary organ that ants collect, and in return the ants protect the caterpillars from predators. At pupation, ants may carry caterpillars into ant nests where they pupate. This ant-butterfly relationship is one of the reasons the Silver-studded Blue is so habitat-specific."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/silver-studded-blue.jpg"
   },
   {
     "commonName": "Small Copper",
@@ -128,20 +161,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread but declining across Britain",
     "seftonPopulation": "Regular on dune grassland throughout the Sefton Coast",
-    "habitat": ["Open dune grassland", "Disturbed ground", "Rough grassland"],
+    "habitat": [
+      "Open dune grassland",
+      "Disturbed ground",
+      "Rough grassland"
+    ],
     "diet": "Adults: various small flowers. Larvae: Common Sorrel, Sheep's Sorrel",
     "description": "A small but brilliantly-coloured butterfly of open grassland and dune edges. The copper and black upper wing pattern is unmistakeable and catches the eye in sunlight. Males are highly territorial, launching from a perch to investigate passing insects. The Sefton Coast's dune grassland holds good numbers. It's one of those butterflies that rewards patience — sit near a warm, sheltered south-facing dune slope and they will come to you.",
     "identification": "Small. Upper forewing brilliant copper-orange with black spots. Hindwing dark with orange band. Underside pale. Very fast flight.",
     "tips": "Watch warm, sheltered south-facing dune slopes in late summer. Males often return to the same prominent perch after chasing rivals.",
     "difficulty": "easy",
-    "relatedSpecies": ["common-blue", "silver-studded-blue"],
+    "relatedSpecies": [
+      "common-blue",
+      "silver-studded-blue"
+    ],
     "wikipediaTitle": "Small copper",
     "faq": [
       {
         "question": "Why are male Small Copper butterflies so aggressive?",
         "answer": "Male Small Coppers hold small territories and aggressively chase away any other insect that enters — including much larger butterflies, bees and even passing dragonflies. This is mate-guarding behaviour: the territory is a perch from which males spot and court passing females. The same perch is often used repeatedly, so if you find one, wait for the resident male to return."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/small-copper.jpg"
   },
   {
     "commonName": "Six-spot Burnet Moth",
@@ -156,20 +197,27 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread and locally common in grassland throughout Britain",
     "seftonPopulation": "Abundant on dune grassland at Ainsdale and Formby in July; one of the most conspicuous dune insects",
-    "habitat": ["Open dune grassland", "Calcareous grassland", "Rough grassland"],
+    "habitat": [
+      "Open dune grassland",
+      "Calcareous grassland",
+      "Rough grassland"
+    ],
     "diet": "Adults: Ragwort, thistle, knapweed nectar. Larvae: Bird's-foot Trefoil",
     "description": "The Six-spot Burnet is one of the most striking insects on the Sefton Coast dunes — a day-flying moth with metallic green-black wings spotted with six brilliant red dots. They congregate on Ragwort, thistles and other flowers in groups. The red spots are a warning signal — Burnet Moths contain hydrogen cyanide and birds learn to leave them alone. The papery, boat-shaped cocoons attached to grass stems are a feature of the dune grassland in early summer before adults emerge.",
     "identification": "Day-flying moth. Metallic blue-green forewings with six red spots. Red hindwings. Slow, fluttering flight. Papery, spindle-shaped cocoon on grass stems in June.",
     "tips": "Ragwort patches in July are the place to look. Easy to photograph — they're sluggish and unconcerned about approach. Look for cocoons on grass stems in June before adults emerge.",
     "difficulty": "easy",
-    "relatedSpecies": ["cinnabar-moth"],
+    "relatedSpecies": [
+      "cinnabar-moth"
+    ],
     "wikipediaTitle": "Six-spot burnet",
     "faq": [
       {
         "question": "Why do Six-spot Burnet Moths contain cyanide?",
         "answer": "Six-spot Burnet Moths synthesise hydrogen cyanide as a defence against predators. The HCN is stored throughout the body — including the eggs — making the moths genuinely toxic. The bright red spots on metallic green wings are aposematic warning colouration, teaching predators to avoid them. Some spiders have been observed cutting Burnets out of their webs rather than eating them."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/six-spot-burnet-moth.jpg"
   },
   {
     "commonName": "Cinnabar Moth",
@@ -184,13 +232,19 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread in England; numbers fluctuate with Ragwort availability",
     "seftonPopulation": "Common wherever Ragwort grows on dune grassland throughout the Sefton Coast",
-    "habitat": ["Open dune grassland", "Rough grassland", "Disturbed ground with Ragwort"],
+    "habitat": [
+      "Open dune grassland",
+      "Rough grassland",
+      "Disturbed ground with Ragwort"
+    ],
     "diet": "Adults: minimal feeding. Larvae: Ragwort almost exclusively — the caterpillars sequester toxic alkaloids from the plant.",
     "description": "The Cinnabar Moth is one of the most distinctive insects on the Sefton Coast. Adults are striking — black with crimson-red stripes and spots. But the caterpillars are even more obvious: jet black and bright orange in bold stripes, feeding openly on Ragwort in groups of 10, 20 or more. The warning colouring of both adult and caterpillar signals toxicity — they sequester the pyrrolizidine alkaloids from Ragwort. The bright orange and black caterpillars on Ragwort in August are one of the most striking sights on the dune grassland.",
     "identification": "Adult: black with red stripes on forewings, red hindwings. Caterpillar: bold black and orange hoops, feeding on Ragwort. Very distinctive at both stages.",
     "tips": "Look for the caterpillars on Ragwort in August — they're conspicuous and easy to find. Multiple caterpillars on a single plant is typical. Adults are night-flying so usually found at rest in daytime.",
     "difficulty": "easy",
-    "relatedSpecies": ["six-spot-burnet-moth"],
+    "relatedSpecies": [
+      "six-spot-burnet-moth"
+    ],
     "wikipediaTitle": "Cinnabar moth",
     "faq": [
       {
@@ -216,13 +270,19 @@
     "shortLocation": "Formby Beach",
     "ukPopulation": "Largely restricted to coastal dunes; found wherever good Marram Grass habitat exists",
     "seftonPopulation": "Present throughout the Sefton Coast dune system; a reliable catch in any moth trap set on the dunes",
-    "habitat": ["Mobile sand dune", "Semi-fixed dune", "Marram Grass stands"],
+    "habitat": [
+      "Mobile sand dune",
+      "Semi-fixed dune",
+      "Marram Grass stands"
+    ],
     "diet": "Adults: nectar. Larvae: inside the rolled leaves of Marram Grass",
     "description": "The Shore Wainscot is a specialist of coastal dunes — one of the few moth species almost entirely restricted to dune habitats. The larvae feed on Marram Grass inside the rolled leaves. The adult is a pale buff moth, unremarkable to look at but significant as an indicator of dune quality. Found across the Sefton Coast wherever good Marram habitat exists.",
     "identification": "Pale straw-buff moth. Wainscot-type pattern with pale streaking on forewing. Wingspan 30–35mm. Best identified by habitat — coastal dunes with Marram.",
     "tips": "A moth trap (or a white sheet with a UV lamp) on the dunes in August will usually produce this species. It is a reliable dune specialist.",
     "difficulty": "specialist",
-    "relatedSpecies": ["six-spot-burnet-moth"],
+    "relatedSpecies": [
+      "six-spot-burnet-moth"
+    ],
     "wikipediaTitle": "Mythimna litoralis",
     "faq": [
       {
@@ -244,7 +304,11 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread on heathland and moorland; declining due to heathland loss",
     "seftonPopulation": "Present in the heather areas at Ainsdale NNR; one of the better northwest England sites",
-    "habitat": ["Dune heath", "Heather heath", "Moorland edge"],
+    "habitat": [
+      "Dune heath",
+      "Heather heath",
+      "Moorland edge"
+    ],
     "diet": "Adults: do not feed. Larvae: Heather, Bramble, Hawthorn, Blackthorn",
     "description": "Britain's only wild silk moth, the Emperor is spectacular. Males fly in afternoon sunshine in April, using their extraordinary feathery antennae to detect female pheromones from over a kilometre away. The large eye spots on all four wings are dramatic. Females are nocturnal. The caterpillars are vivid green with pink and black spots, feeding on Heather and Bramble. The Sefton Coast's dune heath is one of the better places to see this species in northwest England.",
     "identification": "Large moth. Males: orange-brown with large eye spots on all four wings, fly in daylight. Females: grey with same eye spots, nocturnal. Feathery comb-like antennae on males. Wingspan to 85mm.",
@@ -257,7 +321,8 @@
         "question": "How do male Emperor Moths find females?",
         "answer": "Male Emperor Moths have extremely large, feathery (bipectinate) antennae that can detect female pheromones at concentrations as low as a few molecules per cubic metre. Males can locate a female from over a kilometre downwind. This is why male Emperor Moths fly rapidly in a searching pattern — they are following a pheromone plume back to its source."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/emperor-moth.jpg"
   },
   {
     "commonName": "Dune Tiger Beetle",
@@ -272,7 +337,11 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Restricted to coastal dunes; declining due to habitat loss — amber-listed beetle",
     "seftonPopulation": "One of the better populations in England; present on open bare sandy areas at Ainsdale NNR",
-    "habitat": ["Bare sand dune", "Open sandy ground", "Dune blowout"],
+    "habitat": [
+      "Bare sand dune",
+      "Open sandy ground",
+      "Dune blowout"
+    ],
     "diet": "Other invertebrates — ants, beetles, flies — pursued and caught on the sand surface or ambushed from burrows",
     "description": "The Dune Tiger Beetle is one of the most exciting insects of the Sefton Coast. It's fast, iridescent and a voracious predator. The bronze-green body with pale markings catches the light and the massive jaws are a giveaway — these beetles hunt other invertebrates on the sand surface, running them down with speed or ambushing from shallow burrows in the sand. The Sefton Coast holds one of the better populations in England. Hot, sunny conditions are needed — they disappear in cloud.",
     "identification": "Medium beetle to 16mm. Reddish-brown with pale cream markings on elytra. Long legs, prominent eyes, massive mandibles. Very fast on bare sand. Flies short distances if approached.",
@@ -285,7 +354,8 @@
         "question": "Why are Tiger Beetles so hard to approach?",
         "answer": "Tiger Beetles have large, forward-facing eyes that give them excellent wide-angle vision, combined with very fast running speed (relative to body size they are among the fastest insects). As you approach, they see you and run or fly a short distance, then land and turn to face you again. The trick is to approach very slowly, pausing when they turn to face you, allowing them to habituate to your presence."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/dune-tiger-beetle.jpg"
   },
   {
     "commonName": "Large Marsh Grasshopper",
@@ -300,7 +370,12 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Nationally rare — restricted to a handful of wet heathland and dune slack sites in England",
     "seftonPopulation": "One of the most important populations in England; Ainsdale NNR is a stronghold",
-    "habitat": ["Wet dune slack", "Sphagnum bog", "Rush beds", "Boggy heath"],
+    "habitat": [
+      "Wet dune slack",
+      "Sphagnum bog",
+      "Rush beds",
+      "Boggy heath"
+    ],
     "diet": "Grasses, sedges, rush leaves",
     "description": "Britain's largest grasshopper and one of its rarest. The Sefton Coast is one of a small number of sites in England where the Large Marsh Grasshopper can be found, making it a genuinely special species to see. It lives in wet sphagnum moss and rush beds in the dune slack system. The call — a series of ticks rather than a typical grasshopper chirp — is distinctive. Males are brownish with a yellow-striped abdomen; females are larger.",
     "identification": "Britain's largest grasshopper, to 40mm. Mottled brown and yellow. Red and yellow underside to abdomen visible from below. Ticking call rather than chirp — like a finger nail flicked against a comb.",
@@ -313,7 +388,8 @@
         "question": "Why is the Large Marsh Grasshopper so rare?",
         "answer": "The Large Marsh Grasshopper is restricted to wet, boggy habitats — Sphagnum-dominated dune slacks, wet heathland and valley bogs — which have been drained or destroyed across most of England. The remaining populations are fragmented and small. Ainsdale NNR is one of a handful of English sites with a viable population, making it a nationally important conservation site for this species."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/large-marsh-grasshopper.jpg"
   },
   {
     "commonName": "Bee Wolf",
@@ -328,7 +404,11 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Spreading northward from southern England as climate warms; now recorded in Lancashire",
     "seftonPopulation": "Present on suitable south-facing sandy banks in the dune system; relatively recent coloniser of the Sefton Coast",
-    "habitat": ["South-facing sandy bank", "Open dune", "Sandy heathland"],
+    "habitat": [
+      "South-facing sandy bank",
+      "Open dune",
+      "Sandy heathland"
+    ],
     "diet": "Adults: nectar. Females provision nests with paralysed Honey Bees as food for larvae.",
     "description": "The Bee Wolf is a large, striking solitary wasp that hunts Honey Bees — paralysing them with a sting and burying them in sand tunnels as food for larvae. The Sefton Coast dunes provide ideal nesting habitat on warm, sheltered sandy banks. Females are yellow and black with distinctive markings; they dig burrows in loose sand and make multiple trips carrying paralysed bees. Watching a Bee Wolf locate, sting and carry a bee as large as itself back to the burrow is extraordinary.",
     "identification": "Large wasp to 18mm. Broad yellow bands on abdomen. Three yellow spots on thorax. Powerful build. Carries paralysed Honey Bees in flight, held under the body.",
@@ -341,7 +421,8 @@
         "question": "How does the Bee Wolf find its nest burrow among thousands of identical sand grains?",
         "answer": "The Bee Wolf learns the visual landmarks surrounding its nest entrance on each departure, flying in increasing spirals to memorise the pattern. Research by Niko Tinbergen (who won the Nobel Prize) showed that Bee Wolves use pine cone arrangements, stones and other objects as landmark arrays. If the landmarks are moved while the wasp is away, it searches at the old position — a classic demonstration of landmark navigation."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/bee-wolf.jpg"
   },
   {
     "commonName": "Orange-tip",
@@ -356,20 +437,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread and common; slightly increasing",
     "seftonPopulation": "Well-established on the Sefton Coast since the mid-1980s; now common in dune slacks and scrub edges",
-    "habitat": ["Damp dune slack edge", "Woodland edge", "Hedgerow", "Rough grassland"],
+    "habitat": [
+      "Damp dune slack edge",
+      "Woodland edge",
+      "Hedgerow",
+      "Rough grassland"
+    ],
     "diet": "Adults: flowers including Cuckoo Flower and Garlic Mustard. Larvae: Cuckoo Flower and Garlic Mustard seed pods.",
     "description": "The Orange-tip is one of the loveliest spring butterflies and one of the early signs that the Sefton Coast season is underway. Males are unmistakeable — white with vivid orange wingtips. Females lack the orange and can be mistaken for other white butterflies but the green-marbled underside is distinctive. They were scarce north of the Mersey before the mid-1980s but colonised the Sefton Coast and are now well established. Look in damp areas where Cuckoo Flower (their larval foodplant) grows in the dune slacks.",
     "identification": "Male: white wings with brilliant orange outer half of forewing. Female: white with black tip, no orange. Both: beautifully marbled green-and-white underside (looks like lichen). Single generation — only flies in spring.",
     "tips": "Walk the dune slack edges at Ainsdale in May. Males patrol low over the vegetation looking for females. Near any patch of Cuckoo Flower (lilac-pink crucifer) is a reliable spot.",
     "difficulty": "easy",
-    "relatedSpecies": ["small-white", "large-white"],
+    "relatedSpecies": [
+      "small-white",
+      "large-white"
+    ],
     "wikipediaTitle": "Anthocharis cardamines",
     "faq": [
       {
         "question": "Why do Orange-tip caterpillars not eat each other?",
         "answer": "Orange-tip caterpillars are cannibalistic — if a larva finds another egg or young caterpillar on the same plant, it will eat it. This is why females lay only one egg per plant, and why caterpillars are almost always found alone. The egg colour (orange when fresh, turning grey) helps females identify already-occupied plants and avoid laying there."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/orange-tip.jpg"
   },
   {
     "commonName": "Speckled Wood",
@@ -384,20 +474,29 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Widespread and increasing; expanding northward",
     "seftonPopulation": "Well-established throughout the Sefton Coast woodlands since the 1980s; one of the most common woodland butterflies",
-    "habitat": ["Woodland edge", "Shaded dune scrub", "Pinewood rides", "Hedgerow shade"],
+    "habitat": [
+      "Woodland edge",
+      "Shaded dune scrub",
+      "Pinewood rides",
+      "Hedgerow shade"
+    ],
     "diet": "Adults: honeydew from aphids and occasional flowers. Larvae: various grasses.",
     "description": "The Speckled Wood colonised the Sefton Coast in the mid-1980s and is now the characteristic butterfly of the Formby pinewoods. Males hold territories in sunflecks on the forest floor, spiralling upward in aerial combat with rival males. The dappled brown and cream pattern mimics the play of light through leaves. It flies from April to October — one of the longest seasons of any UK butterfly — and can overwinter as either a caterpillar or a pupa. In the Formby pinewoods, they're present on almost any warm, sunny day.",
     "identification": "Brown with pale cream spots and three white-centred eye spots near the wingtip. Dappled pattern matches woodland light perfectly. Males territorial in sunny patches — spiralling fights.",
     "tips": "Walk the Formby pinewoods on any warm day from April onwards. Males are obvious in sunlit patches between the trees. The spiralling combat flights are dramatic to watch.",
     "difficulty": "easy",
-    "relatedSpecies": ["meadow-brown", "gatekeeper"],
+    "relatedSpecies": [
+      "meadow-brown",
+      "gatekeeper"
+    ],
     "wikipediaTitle": "Speckled wood butterfly",
     "faq": [
       {
         "question": "How do male Speckled Wood butterflies choose their territories?",
         "answer": "Males hold territories in patches of sunlight on the woodland floor — premium spots for attracting females who pass through. When two males meet over the same sunspot, they spiral upward in an aerial fight, sometimes for minutes. The resident usually wins. Males without a sunspot territory will challenge established males repeatedly."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/speckled-wood.jpg"
   },
   {
     "commonName": "Peacock",
@@ -412,20 +511,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread and common; increasing",
     "seftonPopulation": "Common and increasing throughout the Sefton Coast; present almost year-round",
-    "habitat": ["Dune grassland", "Garden", "Woodland edge", "Scrub edge"],
+    "habitat": [
+      "Dune grassland",
+      "Garden",
+      "Woodland edge",
+      "Scrub edge"
+    ],
     "diet": "Adults: Buddleia, thistle, knapweed, Ragwort, Bramble. Larvae: Common Nettle.",
     "description": "The Peacock is one of Britain's most beautiful butterflies — the brilliant eye spots in vivid blue, red, yellow and black on the wings are extraordinary close up. It hibernates as an adult in dark spaces (hollow trees, outbuildings) and can appear on warm sunny days in any month. Adults from the summer generation hibernate then mate and lay eggs in spring. The larvae feed communally on nettles — a patch of nettles in the dune scrub with a web of silk and shredded leaves is probably Peacock larvae.",
     "identification": "Large, striking butterfly. Deep red-brown with four large, vivid eye spots (blue/black/red/yellow). Underside very dark — almost black, giving excellent camouflage when wings closed.",
     "tips": "Any warm sunny day in the dune grassland or on a Buddleia in gardens near Formby. March visits produce fresh hibernating adults that have overwintered.",
     "difficulty": "easy",
-    "relatedSpecies": ["comma", "small-tortoiseshell"],
+    "relatedSpecies": [
+      "comma",
+      "small-tortoiseshell"
+    ],
     "wikipediaTitle": "Aglais io",
     "faq": [
       {
         "question": "What are the eye spots on a Peacock butterfly for?",
         "answer": "The eye spots serve multiple defence functions. They can startle a predator (a bird pecking at what it thinks is a leaf suddenly sees four 'eyes'). The butterfly also stridulates — rubbing its wings together to make a hissing sound simultaneously with flashing the eye spots. This combined visual and acoustic startle can deter even experienced predators."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/peacock.jpg"
   },
   {
     "commonName": "Comma",
@@ -440,20 +548,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread and increasing; remarkable range expansion northward",
     "seftonPopulation": "Established on the Sefton Coast since the 1980s; now common in scrubby habitats",
-    "habitat": ["Dune scrub", "Woodland edge", "Hedgerow with Hop", "Garden"],
+    "habitat": [
+      "Dune scrub",
+      "Woodland edge",
+      "Hedgerow with Hop",
+      "Garden"
+    ],
     "diet": "Adults: Bramble, Ivy, Buddleia, overripe fruit. Larvae: Hop, Stinging Nettle, Elm.",
     "description": "The Comma's deeply scalloped wing edges make it unmistakeable — no other British butterfly has such ragged-looking wings. The underside, when the wings are closed, is a perfect dead leaf including the white comma-shaped mark that gives the species its name. From 1920 to the 1960s it retreated to Wales and west England; since then it has expanded rapidly northward and the Sefton Coast now has a good population. The scalloped wings are a camouflage adaptation.",
     "identification": "Unmistakeable ragged-edged wings. Rich orange-brown above with dark spots. Underside: beautiful dead-leaf pattern, white comma mark on hindwing. Two colour forms: one orange, one darker.",
     "tips": "Watch Bramble and Ivy flowers at Ainsdale in August and September. The dead-leaf underside makes roosting Commas almost invisible.",
     "difficulty": "easy",
-    "relatedSpecies": ["peacock", "small-tortoiseshell"],
+    "relatedSpecies": [
+      "peacock",
+      "small-tortoiseshell"
+    ],
     "wikipediaTitle": "Comma butterfly",
     "faq": [
       {
         "question": "Why does the Comma have such ragged wing edges?",
         "answer": "The deeply scalloped, ragged wing edges of the Comma are a camouflage adaptation. When the butterfly rests with wings closed, it is almost indistinguishable from a dead leaf — the irregular edge matches the irregular edges of damaged or partially decomposed leaves. This is a remarkably effective defence that allows the butterfly to roost in exposed positions."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/comma.jpg"
   },
   {
     "commonName": "Small Tortoiseshell",
@@ -468,20 +585,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread but declining; amber-listed due to long-term population fall",
     "seftonPopulation": "Regular throughout the Sefton Coast; less abundant than formerly but still present",
-    "habitat": ["Dune grassland", "Garden", "Scrub edge", "Open land near nettles"],
+    "habitat": [
+      "Dune grassland",
+      "Garden",
+      "Scrub edge",
+      "Open land near nettles"
+    ],
     "diet": "Adults: Buddleia, Aster, Sedum, thistles. Larvae: Stinging Nettle exclusively.",
     "description": "The Small Tortoiseshell is one of Britain's most familiar butterflies — or was. It has declined significantly in recent decades (thought to be linked to a parasitic fly introduced from the continent) and is now amber-listed. On the Sefton Coast it's still regular but less numerous than in the 1980s. Adults hibernate from August and can appear on warm winter days. The vivid orange, black and blue wing pattern is unmistakeable. Stinging Nettle beds are essential for breeding.",
     "identification": "Medium butterfly. Vivid orange with black and yellow forewing base, blue-spotted black border. Similar to Large Tortoiseshell (now extinct in UK) but much smaller and more common.",
     "tips": "Watch any Buddleia or thistle patch in summer. In early spring, hibernating adults emerge to feed before nettles are available.",
     "difficulty": "easy",
-    "relatedSpecies": ["peacock", "comma"],
+    "relatedSpecies": [
+      "peacock",
+      "comma"
+    ],
     "wikipediaTitle": "Small tortoiseshell",
     "faq": [
       {
         "question": "Why has the Small Tortoiseshell declined so much?",
         "answer": "The decline of Small Tortoiseshell is thought to be partly caused by a parasitic fly, Sturmia bella, which arrived in Britain from the continent in the 1990s. This fly lays eggs near nettle patches; larvae burrow into caterpillars and consume them from within. Other factors include loss of nectar-rich flower habitats and changes in agricultural practice affecting nettle quality."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/small-tortoiseshell.jpg"
   },
   {
     "commonName": "Red Admiral",
@@ -496,20 +622,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common; increasing as winters become milder — some now overwinter",
     "seftonPopulation": "Common from May to October throughout the Sefton Coast; particularly abundant in warm autumns",
-    "habitat": ["Dune grassland", "Garden", "Scrub", "Woodland edge"],
+    "habitat": [
+      "Dune grassland",
+      "Garden",
+      "Scrub",
+      "Woodland edge"
+    ],
     "diet": "Adults: Buddleia, Ivy flowers, overripe fruit, Bramble. Larvae: Stinging Nettle.",
     "description": "The Red Admiral is one of Britain's most dramatic butterflies — velvety black wings with brilliant scarlet bands and white spots. It's a migrant species, with most UK individuals arriving from Southern Europe in spring and building up through the summer. In recent warm years, some overwinter as adults. In autumn, Red Admirals can be seen in numbers on Ivy flowers and overripe fruit. The Sefton Coast's scrub and dune grassland holds them well from midsummer onwards.",
     "identification": "Unmistakeable. Deep velvety black with brilliant red-orange band across forewings and red border on hindwings. White spots near wingtips. Blue and red near hindwing edge. Underside dark and cryptic.",
     "tips": "Watch Ivy flowers in September and October — Red Admirals feed well into autumn as long as warm weather persists. Overripe Blackberries also attract them.",
     "difficulty": "easy",
-    "relatedSpecies": ["peacock", "painted-lady"],
+    "relatedSpecies": [
+      "peacock",
+      "painted-lady"
+    ],
     "wikipediaTitle": "Vanessa atalanta",
     "faq": [
       {
         "question": "Where do Red Admirals come from?",
         "answer": "UK Red Admirals are largely migrants from southern Europe and North Africa. They begin arriving from April, building up through the summer as multiple generations breed on nettles. In some years large numbers arrive in autumn from the continent. Increasingly, some individuals survive the winter in Britain as adults, particularly in mild southern areas — a change linked to warming winters."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/red-admiral.jpg"
   },
   {
     "commonName": "Painted Lady",
@@ -524,20 +659,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Entirely migratory; varies from very common to abundant depending on year",
     "seftonPopulation": "Variable — abundant in good years (1996 was exceptional), scarce in others. Dune thistles attract large numbers.",
-    "habitat": ["Open dune grassland", "Rough grassland with thistles", "Garden"],
+    "habitat": [
+      "Open dune grassland",
+      "Rough grassland with thistles",
+      "Garden"
+    ],
     "diet": "Adults: thistles, knapweed, Buddleia. Larvae: thistles, Burdock, Borage.",
     "description": "The Painted Lady is the world's most widely distributed butterfly — found on every continent except Antarctica and South America. In Britain it's a migrant that cannot survive winter — all UK individuals arrive from North Africa and Europe each spring, and some research suggests UK-bred butterflies migrate back to Africa in autumn. Numbers fluctuate wildly: in 1996, Painted Ladies were abundant across the Sefton Coast dunes. The tawny-orange, black and white patterning with rose-pink underwing is distinctive.",
     "identification": "Medium-large butterfly. Tawny-orange with black and white pattern on forewings. Pink-tinged hindwing underside with complex patterning. Row of small eye spots on hindwing. Five white spots on black forewing tip.",
     "tips": "Check thistle patches on the dune grassland from late May. In good years they can be on every flower. The orange-on-black pattern is distinctive even in flight.",
     "difficulty": "easy",
-    "relatedSpecies": ["red-admiral", "small-tortoiseshell"],
+    "relatedSpecies": [
+      "red-admiral",
+      "small-tortoiseshell"
+    ],
     "wikipediaTitle": "Painted lady butterfly",
     "faq": [
       {
         "question": "Can Painted Ladies really migrate to Africa from Britain?",
         "answer": "Yes. Research using stable hydrogen isotopes in butterfly wings has shown that UK-bred Painted Ladies migrate south in autumn, potentially reaching West Africa. The migration is multigenerational — no individual makes the complete round trip. Instead, parent butterflies breed in the UK, and their offspring continue south. It's one of the most remarkable migration stories in the insect world."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/painted-lady.jpg"
   },
   {
     "commonName": "Clouded Yellow",
@@ -552,13 +695,19 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Entirely migratory; abundant in good years, scarce otherwise",
     "seftonPopulation": "Irregular — occasional singles most years, large numbers in good migration years",
-    "habitat": ["Open dune grassland", "Coastal clover fields", "Any open area with Clover or Trefoil"],
+    "habitat": [
+      "Open dune grassland",
+      "Coastal clover fields",
+      "Any open area with Clover or Trefoil"
+    ],
     "diet": "Adults: flowers — particularly Clover and Bird's-foot Trefoil. Larvae: Clover, Lucerne.",
     "description": "The Clouded Yellow is one of the most exciting butterflies to see on the Sefton Coast — a vivid lemon-yellow migrant that powers along fast and low over dune grassland. In good years (known as 'Clouded Yellow years') large numbers reach the Sefton Coast, the deep golden-yellow males and paler females feeding on Clover and Bird's-foot Trefoil. The frustrating thing is that it rarely opens its wings at rest, making photography a challenge. When it does open its wings briefly in sunshine, the vivid yellow-orange is extraordinary.",
     "identification": "Deep golden-yellow (male) or pale yellow-white (female). Dark border on upper surface rarely seen — usually rests with wings closed. Underside: yellow with orange spots and a bright orange circle on hindwing. Fast, powerful flight.",
     "tips": "Walk open dune grassland in August–September in warm weather. Look for fast-flying yellow butterflies — much more powerful flight than Brimstone or whites. They settle regularly to feed on Clover.",
     "difficulty": "moderate",
-    "relatedSpecies": ["orange-tip"],
+    "relatedSpecies": [
+      "orange-tip"
+    ],
     "wikipediaTitle": "Clouded yellow butterfly",
     "faq": [
       {
@@ -580,13 +729,21 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Very common throughout Britain; one of the most abundant butterflies",
     "seftonPopulation": "Abundant throughout the Sefton Coast from April to October",
-    "habitat": ["Dune grassland", "Garden", "Scrub edge", "Farmland"],
+    "habitat": [
+      "Dune grassland",
+      "Garden",
+      "Scrub edge",
+      "Farmland"
+    ],
     "diet": "Adults: flowers. Larvae: Cabbages, Brassicas — the 'cabbage white' caterpillar.",
     "description": "The Small White is the 'cabbage white' of gardens — the butterfly whose caterpillars devastate brassicas. Despite its reputation as a pest, it's an important pollinator and part of the dune ecosystem. Smaller and less vigorous than Large White, it has one or two black spots on the forewing (one in males, two in females). Common throughout the Sefton Coast in multiple generations from April to October.",
     "identification": "Small white butterfly. One (male) or two (female) black spots on forewing. Yellowish-green underside. Smaller and more delicate than Large White. Fast, direct flight.",
     "tips": "Any white butterfly smaller than a 50p coin is likely Small White. Present everywhere in summer.",
     "difficulty": "easy",
-    "relatedSpecies": ["large-white", "green-veined-white"],
+    "relatedSpecies": [
+      "large-white",
+      "green-veined-white"
+    ],
     "wikipediaTitle": "Pieris rapae",
     "faq": [
       {
@@ -608,20 +765,29 @@
     "shortLocation": "Formby Beach",
     "ukPopulation": "Very common; supplemented by regular immigration from the continent",
     "seftonPopulation": "Common from April to October throughout the Sefton Coast",
-    "habitat": ["Dune grassland", "Garden", "Coastal farmland", "Any open habitat"],
+    "habitat": [
+      "Dune grassland",
+      "Garden",
+      "Coastal farmland",
+      "Any open habitat"
+    ],
     "diet": "Adults: various flowers. Larvae: Brassicas — the other 'cabbage white' caterpillar.",
     "description": "The Large White is the other 'cabbage white' — bigger, stronger and more striking than Small White, with a large black wingtip that extends further down the wing. In good years, immigration from the continent swells UK numbers considerably. The yellow, black-striped caterpillars of the Large White are very different from those of the Small White (which are green and inconspicuous). Large Whites fly powerfully and cover more ground than Small Whites.",
     "identification": "Large white butterfly. Extensive black wingtip on forewing. Females: two large black spots on forewing. Powerful flight. Larger than Small White. Underside more uniformly white.",
     "tips": "A large, powerful white butterfly is likely Large White. The extensive black wingtip is obvious in flight.",
     "difficulty": "easy",
-    "relatedSpecies": ["small-white", "green-veined-white"],
+    "relatedSpecies": [
+      "small-white",
+      "green-veined-white"
+    ],
     "wikipediaTitle": "Large white butterfly",
     "faq": [
       {
         "question": "Are Large White butterflies migrating to the Sefton Coast?",
         "answer": "Yes. The UK Large White population includes both resident individuals and immigrants from the continent. In some years, large numbers cross the Channel and arrive on UK coasts including the Sefton Coast. These migratory movements — sometimes visible as streams of butterflies flying in from the sea — are one of the phenomena of coastal butterfly watching."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/large-white.jpg"
   },
   {
     "commonName": "Green-veined White",
@@ -636,20 +802,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread and common throughout Britain",
     "seftonPopulation": "Common in damp habitats on the Sefton Coast; particularly around Cuckoo Flower in dune slacks",
-    "habitat": ["Damp dune slack edge", "Wetland edge", "Hedgerow", "Damp woodland"],
+    "habitat": [
+      "Damp dune slack edge",
+      "Wetland edge",
+      "Hedgerow",
+      "Damp woodland"
+    ],
     "diet": "Adults: various flowers especially Cuckoo Flower. Larvae: wild Brassicas and Cuckoo Flower.",
     "description": "The Green-veined White is easily confused with Small White but has distinctive grey-green veining on the underside of the hindwing — visible when the butterfly rests with wings closed. It prefers damper habitats than the other whites and is the one most likely to be found near the Cuckoo Flower in dune slacks. Not associated with gardens and cabbages as much as the other whites — it's a butterfly of countryside rather than gardens.",
     "identification": "White with pale grey-green veining on underside of hindwing — key feature. Upperside: small black spots on forewing, variable in extent. Delicate, floating flight. More likely in moist habitats than similar whites.",
     "tips": "Check damp areas and Cuckoo Flower patches in the dune slacks at Ainsdale. The green veining on the underside is unmistakeable at rest.",
     "difficulty": "moderate",
-    "relatedSpecies": ["small-white", "orange-tip"],
+    "relatedSpecies": [
+      "small-white",
+      "orange-tip"
+    ],
     "wikipediaTitle": "Pieris napi",
     "faq": [
       {
         "question": "Is the Green-veined White a pest like the other whites?",
         "answer": "No. Unlike Large and Small White, the Green-veined White's larvae do not eat cultivated cabbages and Brassicas. They feed on wild plants — Cuckoo Flower, Garlic Mustard, Watercress and other wild Brassica family plants. This is why Green-veined White is much more of a countryside butterfly than a garden pest."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/green-veined-white.jpg"
   },
   {
     "commonName": "Small Heath",
@@ -664,20 +839,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread but declining; amber-listed due to significant losses",
     "seftonPopulation": "Common on short dune grassland throughout the Sefton Coast; one of the most numerous butterflies",
-    "habitat": ["Short dune grassland", "Coastal heath", "Dry calcareous grassland"],
+    "habitat": [
+      "Short dune grassland",
+      "Coastal heath",
+      "Dry calcareous grassland"
+    ],
     "diet": "Adults: small flowers close to the ground. Larvae: fine-leaved fescue grasses.",
     "description": "The Small Heath is one of the most characteristic butterflies of the Sefton Coast's short dune grassland — a small, orange-brown butterfly that flutters low over the turf, never settling with wings open. It always rests with wings closed, showing the buff-orange underside with a small eye spot near the wingtip. In good years the dune grassland can hold dozens per hectare. Despite its abundance locally, it's declining nationally due to grassland improvement.",
     "identification": "Small butterfly. Orange-brown above (never seen — always rests with wings closed). Underside: buff-orange hindwing with grey-buff band; small eye spot on forewing underside near tip. Low fluttering flight.",
     "tips": "Walk short dune grassland at Ainsdale in June or August. Small Heaths constantly settle with wings closed — the small eye spot near the wingtip is the key feature.",
     "difficulty": "easy",
-    "relatedSpecies": ["common-blue", "small-copper"],
+    "relatedSpecies": [
+      "common-blue",
+      "small-copper"
+    ],
     "wikipediaTitle": "Coenonympha pamphilus",
     "faq": [
       {
         "question": "Why does the Small Heath never open its wings?",
         "answer": "Small Heaths always rest with wings folded, making the underside the primary identification view. This is thought to reduce visibility to predators — the buff-brown underside blends with dry grass. Unlike many species that open wings to thermoregulate, the Small Heath likely uses body posture and ground reflectance to warm up rather than exposing the dorsal surface."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/small-heath.jpg"
   },
   {
     "commonName": "Meadow Brown",
@@ -692,20 +875,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Very common and widespread; Britain's most abundant butterfly",
     "seftonPopulation": "Abundant in dune grassland throughout the Sefton Coast in summer",
-    "habitat": ["Dune grassland", "Rough grassland", "Hedgerow", "Woodland edge"],
+    "habitat": [
+      "Dune grassland",
+      "Rough grassland",
+      "Hedgerow",
+      "Woodland edge"
+    ],
     "diet": "Adults: Bramble, thistles, Ragwort. Larvae: various grasses.",
     "description": "The Meadow Brown is Britain's most abundant butterfly and the default large brown of Sefton Coast dune grassland. Males are darker and more uniform; females are more orange-centred. It's unusual in that it remains active in cloudy, even cool conditions when other butterflies have stopped flying. In July, the dune grassland at Ainsdale can hold extraordinary numbers. The single eye spot near the forewing tip is always present.",
     "identification": "Medium-large butterfly. Brown with orange forewing patch containing black eye spot with white pupil. Female more orange than male. Underside buff-grey with hindwing eye spot. Active in cloud — unusual.",
     "tips": "Walk any dune grassland in July. The most numerous butterfly — present everywhere on warm or cool days.",
     "difficulty": "easy",
-    "relatedSpecies": ["small-heath", "gatekeeper"],
+    "relatedSpecies": [
+      "small-heath",
+      "gatekeeper"
+    ],
     "wikipediaTitle": "Maniola jurtina",
     "faq": [
       {
         "question": "Why does the Meadow Brown fly in cloudy weather?",
         "answer": "Unlike most butterflies which require warmth from sunshine to fly, Meadow Browns can remain active in cool, overcast conditions. Their dark coloration helps them absorb heat even from diffuse light. This adaptation allows them to feed and mate across a wider temperature range than sunshine-dependent species, giving them longer daily activity periods."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/meadow-brown.jpg"
   },
   {
     "commonName": "Ringlet",
@@ -720,20 +912,29 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Common in England and Wales; increasing",
     "seftonPopulation": "Present in scrub edges and shaded grassland throughout the Sefton Coast",
-    "habitat": ["Shaded dune scrub edge", "Woodland edge", "Bramble patches", "Rough shaded grassland"],
+    "habitat": [
+      "Shaded dune scrub edge",
+      "Woodland edge",
+      "Bramble patches",
+      "Rough shaded grassland"
+    ],
     "diet": "Adults: Bramble, Ragwort, Thistle. Larvae: various grasses in shade.",
     "description": "The Ringlet is a chocolate-brown butterfly of shaded, damp grassland and scrub edges — the preference for shade distinguishes it from the Meadow Brown of open grassland. It has small, butter-yellow ringed eye spots on the underside — the 'ringlets'. It emerges in late June, coinciding with the peak of the Bramble flower season, and feeds extensively on Bramble. Along the edges of the Formby pinewoods and in shaded dune scrub it's regular in July and August.",
     "identification": "Dark chocolate-brown with small rings of yellow-white on both surfaces. Underside: distinct pale-ringed eye spots. Dark, almost black overall. Prefers shaded grassland. Distinctive dark colouring.",
     "tips": "Walk the edge of the Formby pinewoods or any shaded scrub edge in July. Ringlets feed on Bramble flowers and are easy to approach.",
     "difficulty": "easy",
-    "relatedSpecies": ["meadow-brown", "speckled-wood"],
+    "relatedSpecies": [
+      "meadow-brown",
+      "speckled-wood"
+    ],
     "wikipediaTitle": "Ringlet butterfly",
     "faq": [
       {
         "question": "Why does the Ringlet prefer shade?",
         "answer": "The Ringlet's dark coloration allows it to absorb heat efficiently even in dappled shade, so it doesn't depend on direct sunshine as much as paler butterflies. The larvae also require the moist, shaded grassland conditions where many grass species grow at their best. This shade preference separates Ringlet from the Meadow Brown which prefers more open grassland."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/ringlet.jpg"
   },
   {
     "commonName": "Gatekeeper",
@@ -748,20 +949,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread in southern England; expanding northward slowly",
     "seftonPopulation": "Present in dune scrub edges and hedgerows throughout the Sefton Coast",
-    "habitat": ["Dune scrub edge", "Bramble patch", "Hedgerow", "Woodland ride"],
+    "habitat": [
+      "Dune scrub edge",
+      "Bramble patch",
+      "Hedgerow",
+      "Woodland ride"
+    ],
     "diet": "Adults: Bramble, Ragwort, Marjoram. Larvae: fine grasses at scrub edges.",
     "description": "The Gatekeeper is aptly named — males guard sunlit gaps in hedgerows and scrub edges, perching on leaves with wings open to intercept passing females. Smaller and more vividly orange than the Meadow Brown, with two white pupils in the forewing eye spot (Meadow Brown has one). In July, sunny Bramble patches at Ainsdale can hold several males perching at the same warm spot, chasing each other off and returning.",
     "identification": "Smaller than Meadow Brown. Vivid orange-brown with dark border. Forewing eye spot has two white pupils — key feature. Underside: orange and grey-brown with small eye spots. Prefers scrub and hedgerow edges.",
     "tips": "Check sunny Bramble patches at Ainsdale scrub edges in July and August. Males are conspicuous, perching with wings open and returning to the same spot.",
     "difficulty": "easy",
-    "relatedSpecies": ["meadow-brown", "small-heath"],
+    "relatedSpecies": [
+      "meadow-brown",
+      "small-heath"
+    ],
     "wikipediaTitle": "Gatekeeper butterfly",
     "faq": [
       {
         "question": "Why does the Gatekeeper have two white pupils in its eye spot?",
         "answer": "The double pupil of the Gatekeeper's forewing eye spot distinguishes it from the single-pupilled Meadow Brown — a useful field mark. The purpose of the eye spot itself is protective — the fake 'eye' can deflect a predator's strike toward the wing edge rather than the body. Species with double pupils may be mimicking animals with binocular vision more effectively."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/gatekeeper.jpg"
   },
   {
     "commonName": "Wall Brown",
@@ -776,20 +986,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Declining severely — lost from most of England inland; now mainly coastal sites",
     "seftonPopulation": "Rare and declining — occasional records on bare sunny dune areas; formerly more widespread",
-    "habitat": ["Bare dune path", "Open rocky ground", "Warm bare surfaces"],
+    "habitat": [
+      "Bare dune path",
+      "Open rocky ground",
+      "Warm bare surfaces"
+    ],
     "diet": "Adults: flowers. Larvae: fine grasses, particularly Brome and Yorkshire Fog.",
     "description": "The Wall Brown has almost disappeared from inland England but coastal dune sites retain small populations. It basks on bare ground, paths and (historically) stone walls with wings open — the orange-brown chequered pattern with multiple eye spots is distinctive. The cause of decline is poorly understood but may be linked to climate — paradoxically, warmer summers may overheat larval development on south-facing bare ground. On the Sefton Coast it's now rare, with occasional records from the barest open dune areas.",
     "identification": "Orange-brown with intricate dark markings. Multiple small eye spots — row on hindwing and one larger eye spot on forewing. Basks with wings open on bare ground. Underside: beautiful grey-brown marbling.",
     "tips": "Check bare open paths and sunny dune areas at Ainsdale in May and August. Any orange-brown butterfly on bare ground is worth investigating. Record any sightings — they're increasingly rare.",
     "difficulty": "specialist",
-    "relatedSpecies": ["speckled-wood", "meadow-brown"],
+    "relatedSpecies": [
+      "speckled-wood",
+      "meadow-brown"
+    ],
     "wikipediaTitle": "Wall (butterfly)",
     "faq": [
       {
         "question": "Why is the Wall Brown disappearing from England?",
         "answer": "The Wall Brown has disappeared from around 50% of its former English range since the 1970s, with the steepest declines inland. The cause remains unclear — a warming climate is suspected, possibly causing larval overheating on south-facing slopes, or changes in the vegetation structure that alter the microclimate. Coastal populations, including on the Sefton Coast dunes, appear to be maintaining better than inland populations."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/wall-brown.jpg"
   },
   {
     "commonName": "Small Skipper",
@@ -804,20 +1022,27 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common in England; expanding northward",
     "seftonPopulation": "Established since the mid-1990s; now common on tall rough grassland throughout the Sefton Coast",
-    "habitat": ["Tall dune grassland", "Rough grassland", "Scrub edge with tall grasses"],
+    "habitat": [
+      "Tall dune grassland",
+      "Rough grassland",
+      "Scrub edge with tall grasses"
+    ],
     "diet": "Adults: thistles, Bramble, knapweed. Larvae: Yorkshire Fog and other grasses.",
     "description": "The Small Skipper arrived on the Sefton Coast in the mid-1990s — a rapid northward colonisation that coincided with warming summers. In Merseyside it was previously unknown north of the Wirral. Now it's firmly established and common on the tall rough grassland of the dune system. The burnt-orange wings held at the distinctive 'jet' angle (forewings raised, hindwings flat) are the classic skipper look. They dash between grass flowers with rapid, buzzing flight.",
     "identification": "Small, orange-brown butterfly. Rounded orange wings. Rests with forewings raised and hindwings flat — distinctive 'jet' posture. Underside: uniform orange-buff. Orange antennal tips with black undersides (key feature separating from Essex Skipper which has black tips all round).",
     "tips": "Walk tall rough grassland at Ainsdale in July. They rest on grass and flower stems with the characteristic wings-raised posture. Active in bright sunshine but stop feeding in cloud.",
     "difficulty": "easy",
-    "relatedSpecies": ["dark-green-fritillary"],
+    "relatedSpecies": [
+      "dark-green-fritillary"
+    ],
     "wikipediaTitle": "Small skipper",
     "faq": [
       {
         "question": "How did Small Skippers reach the Sefton Coast?",
         "answer": "Small Skippers were unknown north of the Mersey until the mid-1980s. Their rapid northward spread is attributed to a sequence of warm summers that allowed the species to colonise suitable habitat beyond its previous range limit. First recorded at Altcar Rifle Range in 1996, they spread rapidly across the Sefton Coast dunes over the following years."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/small-skipper.jpg"
   },
   {
     "commonName": "Dingy Skipper",
@@ -832,20 +1057,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Declining — amber-listed; lost from many sites",
     "seftonPopulation": "Present in small numbers on open dune grassland at Ainsdale; local and not always easy to find",
-    "habitat": ["Bare dune grassland", "Limestone grassland", "Open dry ground with Bird's-foot Trefoil"],
+    "habitat": [
+      "Bare dune grassland",
+      "Limestone grassland",
+      "Open dry ground with Bird's-foot Trefoil"
+    ],
     "diet": "Adults: Bird's-foot Trefoil, Bramble. Larvae: Bird's-foot Trefoil, Crown Vetch.",
     "description": "The Dingy Skipper is one of the less glamorous butterflies but a good record on the Sefton Coast nonetheless. It's moth-like in appearance and resting posture — flat wings with grey-brown mottling. It requires short, open grassland with Bird's-foot Trefoil on warm, bare south-facing ground. The dune grassland at Ainsdale provides this habitat. In May on a warm, sunny morning, a patient search of suitable habitat should turn one up.",
     "identification": "Small, moth-like butterfly. Grey-brown with pale spots. Rests with wings spread flat like a moth (unlike other skippers). Chequered wing pattern. Short, rapid flight. Easy to lose on bare ground.",
     "tips": "Search open dune grassland at Ainsdale in May on sunny days. Look for a small moth-like insect resting flat on bare ground or low vegetation near Bird's-foot Trefoil.",
     "difficulty": "specialist",
-    "relatedSpecies": ["small-skipper", "common-blue"],
+    "relatedSpecies": [
+      "small-skipper",
+      "common-blue"
+    ],
     "wikipediaTitle": "Dingy skipper",
     "faq": [
       {
         "question": "Why is the Dingy Skipper declining?",
         "answer": "The Dingy Skipper has declined by around 50% in the UK since 1976, linked to loss of its key habitat — short, open, south-facing grassland with Bird's-foot Trefoil. Grassland improvement, scrub encroachment and reduced grazing have all reduced the bare, warm ground it needs for breeding. Active management at Ainsdale NNR helps maintain suitable conditions."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/dingy-skipper.jpg"
   },
   {
     "commonName": "Sandhill Rustic Moth",
@@ -860,20 +1093,26 @@
     "shortLocation": "Birkdale Green Beach",
     "ukPopulation": "Red Data Book Vulnerable — fewer than 10 UK colonies of this subspecies",
     "seftonPopulation": "Birkdale Green Beach holds the most substantial colony of this subspecies in Britain",
-    "habitat": ["Mobile frontal dune", "Sand Couch zone at highest tide line"],
+    "habitat": [
+      "Mobile frontal dune",
+      "Sand Couch zone at highest tide line"
+    ],
     "diet": "Adults: minimal. Larvae: Sand Couch (Elytrigia juncea) exclusively — feeds inside leaves.",
     "description": "The Sandhill Rustic is one of Britain's rarest moths and the Sefton Coast holds its most important population. The subspecies gueneei is confined to coastal dune systems in north Merseyside and North Wales. The larvae feed exclusively on Sand Couch in the highest tide zone — one of the most hostile habitats for an insect. The moth was recorded at Birkdale in the 19th century, then not found again until 2007, when a survey of Birkdale Green Beach revealed a substantial colony. It remains a critical conservation concern.",
     "identification": "Medium noctuid moth. Straw-yellow to grey-brown forewing with indistinct kidney-shaped spot. Unremarkable appearance — identified by habitat, season and coastal location. Similar to other wainscot moths.",
     "tips": "Moth trapping at Birkdale Green Beach requires permission. The moth's extraordinary scarcity means any sighting should be reported to the Merseyside Biodiversity Group. The habitat — frontal dunes with Sand Couch at the highest tideline — is highly specific.",
     "difficulty": "specialist",
-    "relatedSpecies": ["shore-wainscot-moth"],
+    "relatedSpecies": [
+      "shore-wainscot-moth"
+    ],
     "wikipediaTitle": "Luperina nickerlii",
     "faq": [
       {
         "question": "Why is the Sandhill Rustic confined to such specific habitat?",
         "answer": "The subspecies gueneei lays eggs in late summer on Sand Couch plants that are lapped by the highest tides — an extraordinarily specific habitat requirement. The caterpillars can only complete development in the right conditions of sand moisture and plant growth provided by this high tide zone habitat. Any change in tidal patterns or beach profile can eliminate a colony."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/sandhill-rustic-moth.jpg"
   },
   {
     "commonName": "Forester Moth",
@@ -888,20 +1127,26 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Declining — amber-listed; restricted to calcareous and dune grassland",
     "seftonPopulation": "Present in dune grassland at Ainsdale NNR; a notable Sefton Coast speciality for moth recorders",
-    "habitat": ["Open dune grassland", "Calcareous grassland with Sorrel"],
+    "habitat": [
+      "Open dune grassland",
+      "Calcareous grassland with Sorrel"
+    ],
     "diet": "Adults: Ragwort, thistles. Larvae: Common Sorrel and Sheep's Sorrel.",
     "description": "The Forester Moth is a day-flying jewel — a small moth with metallic green wings that glint in the sunshine like emerald silk. Green Sefton's John Dempsey specifically names it as a Sefton Coast speciality for moth watchers. It flies only when the weather is warm and sunny, appearing wherever Sorrel and Ragwort grow together on the dune grassland. The metallic green is genuinely stunning at close range. Despite the name, it has nothing to do with forests — it's a grassland moth.",
     "identification": "Small day-flying moth. Brilliant metallic grass-green wings. Narrow wings held closed over the back at rest. Slow, fluttering flight on warm days. Could be confused with green beetles at a distance.",
     "tips": "Walk the open dune grassland at Ainsdale in June where Sorrel grows. Look for slow-flying, metallic green insects on warm, sunny, calm days. They're easy to overlook — most people think they're beetles.",
     "difficulty": "specialist",
-    "relatedSpecies": ["six-spot-burnet-moth"],
+    "relatedSpecies": [
+      "six-spot-burnet-moth"
+    ],
     "wikipediaTitle": "Adscita statices",
     "faq": [
       {
         "question": "Why does the Forester Moth need both Sorrel and Ragwort?",
         "answer": "Adult Forester Moths feed mainly on Ragwort nectar (and other flowers), while the larvae feed specifically on Common Sorrel or Sheep's Sorrel. Both plants need to be present within flying distance for breeding populations to persist. On the dune grassland at Ainsdale, Sorrel and Ragwort grow together — ideal conditions."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/forester-moth.jpg"
   },
   {
     "commonName": "Elephant Hawkmoth",
@@ -916,20 +1161,27 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread and increasing; one of Britain's most beautiful moths",
     "seftonPopulation": "Present throughout the Sefton Coast wherever larval foodplants grow; regular in moth traps",
-    "habitat": ["Dune scrub", "Rough grassland with Willowherb", "Garden"],
+    "habitat": [
+      "Dune scrub",
+      "Rough grassland with Willowherb",
+      "Garden"
+    ],
     "diet": "Adults: honeysuckle and other deep-tubed flowers. Larvae: Rosebay Willowherb, Bedstraw, Fuchsia.",
     "description": "The Elephant Hawkmoth is one of Britain's most spectacular insects — a large, streamlined moth with vivid pink and olive-green wings, active at dusk when it hovers before flowers like a hummingbird. The name comes from the caterpillar which has a snout-like head that can be retracted, giving it an elephant-trunk appearance when disturbed (a display that also reveals false eyes). John Dempsey of Green Sefton specifically names it as a beautiful pollinator of the Sefton Coast.",
     "identification": "Large, streamlined moth. Vivid pink and olive-green colour scheme. Hovers at flowers at dusk. Wingspan 45–60mm. Cigar-shaped body. Unmistakeable colour combination.",
     "tips": "Visit dune scrub at dusk in June. Watch Rosebay Willowherb and Honeysuckle for hovering moths. Any moth that hovers while feeding is likely a Hawkmoth. A moth trap will catch them reliably.",
     "difficulty": "moderate",
-    "relatedSpecies": ["poplar-hawkmoth"],
+    "relatedSpecies": [
+      "poplar-hawkmoth"
+    ],
     "wikipediaTitle": "Elephant hawk-moth",
     "faq": [
       {
         "question": "Can the Elephant Hawkmoth really see in colour at night?",
         "answer": "Research has shown that Elephant Hawkmoths can perceive colour in very low light conditions — down to starlight levels — making them among the very few animals capable of colour vision in the dark. This adaptation helps them identify the pink flowers (particularly willowherb and Honeysuckle) they prefer to visit at night."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/elephant-hawkmoth.jpg"
   },
   {
     "commonName": "Poplar Hawkmoth",
@@ -944,13 +1196,19 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Common throughout Britain; one of the most frequently encountered hawkmoths",
     "seftonPopulation": "Present wherever Poplar and Willow trees grow near the Sefton Coast; regular in moth traps",
-    "habitat": ["Woodland edge", "Dune scrub with Willow", "Riverside Poplar"],
+    "habitat": [
+      "Woodland edge",
+      "Dune scrub with Willow",
+      "Riverside Poplar"
+    ],
     "diet": "Adults: do not feed. Larvae: Poplar, Willow, Aspen.",
     "description": "Britain's most commonly encountered hawkmoth, the Poplar Hawkmoth has an unusual rest posture — wings held out and body raised, creating an angular shape that resembles a broken twig. When threatened, it flashes vivid orange-red hindwings. Named in Green Sefton's moth accounts as a Sefton Coast species. The adult doesn't feed at all — all energy reserves come from larval feeding. Larvae are large and green with diagonal white stripes, found on Poplar, Willow and Sallow in the dune scrub.",
     "identification": "Large moth. Grey-brown wings with wavy markings. When at rest, wings held in angular, 'broken twig' posture. Hindwings show vivid orange-red when disturbed. No feeding tube (adults do not feed).",
     "tips": "A moth trap run near the dune scrub in June will regularly produce Poplar Hawkmoths. By day, check tree trunks near Willows and Poplars for resting adults.",
     "difficulty": "moderate",
-    "relatedSpecies": ["elephant-hawkmoth"],
+    "relatedSpecies": [
+      "elephant-hawkmoth"
+    ],
     "wikipediaTitle": "Poplar hawk-moth",
     "faq": [
       {
@@ -972,13 +1230,19 @@
     "shortLocation": "Formby",
     "ukPopulation": "Entirely migratory; annual visitor in variable numbers",
     "seftonPopulation": "Regular migrant visitor May–October; increasingly common as climate warms",
-    "habitat": ["Garden", "Open dune grassland with flowers", "Coastal scrub"],
+    "habitat": [
+      "Garden",
+      "Open dune grassland with flowers",
+      "Coastal scrub"
+    ],
     "diet": "Nectar from flowers — hovers while feeding, preferring Red Valerian, Verbena, Lavender",
     "description": "Meeting a Hummingbird Hawkmoth is always a moment. It hovers in front of flowers, tongue extended into the tube, with audible wing-beats — exactly like a tiny hummingbird. Its speed and behaviour are so convincing that many people genuinely believe they're watching a hummingbird. It's a day-flying moth from southern Europe that migrates to Britain in summer. John Dempsey of Green Sefton specifically names it as a Sefton Coast delight.",
     "identification": "Unmistakeable. Hummingbird-like hovering at flowers. Olive-brown forewings, bright orange hindwings. Furry body with white-spotted abdomen. Audible wing hum. Extended proboscis visible while feeding.",
     "tips": "Watch any Red Valerian, Buddleia or Verbena in a Formby garden in August. The hovering figure-of-eight feeding pattern and audible wing hum are unmistakeable.",
     "difficulty": "easy",
-    "relatedSpecies": ["elephant-hawkmoth"],
+    "relatedSpecies": [
+      "elephant-hawkmoth"
+    ],
     "wikipediaTitle": "Hummingbird hawk-moth",
     "faq": [
       {
@@ -1000,20 +1264,27 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Entirely migratory from North Africa and southern Europe; numbers vary enormously",
     "seftonPopulation": "Very common in most years; sometimes extremely abundant in mass migration events",
-    "habitat": ["Open dune grassland", "Garden", "Any habitat with flowers"],
+    "habitat": [
+      "Open dune grassland",
+      "Garden",
+      "Any habitat with flowers"
+    ],
     "diet": "Adults: many flowers — hovers while feeding. Larvae: clover, nettles, plantains, many low plants.",
     "description": "The Silver Y is one of Britain's most important insects — a migrant moth that arrives in huge numbers from North Africa, breeds in Britain and creates a new generation that migrates south again in autumn. Numbers are staggering in good years — millions arrive in coordinated nocturnal migrations. The Y-shaped silver mark on the forewing is the key feature. It hovers at flowers by day as well as night, making it one of the most visible moths for non-moth-trappers.",
     "identification": "Medium noctuid moth. Grey-brown forewing with a conspicuous silver Y (or gamma γ) shaped mark — unmistakeable. Hovers at flowers in daylight. In flight, white Y mark flashes.",
     "tips": "Watch any flower patch on the dune grassland in August. Silver Ys hover to feed, making them easy to observe. In invasion years they're everywhere.",
     "difficulty": "easy",
-    "relatedSpecies": ["cinnabar-moth"],
+    "relatedSpecies": [
+      "cinnabar-moth"
+    ],
     "wikipediaTitle": "Silver Y",
     "faq": [
       {
         "question": "How many Silver Y Moths come to Britain each year?",
         "answer": "In good years, hundreds of millions of Silver Ys arrive in Britain from the continent. Radar studies have revealed organised, wind-assisted nocturnal migrations of enormous scale — entire fronts of moths moving purposefully north and south between Britain and North Africa across multiple generations. It's one of the great wildlife spectacles of the insect world, largely invisible but tracked by radar."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/silver-y-moth.jpg"
   },
   {
     "commonName": "Oak Eggar",
@@ -1028,20 +1299,27 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common on heathland and moorland throughout Britain",
     "seftonPopulation": "Present on dune heath and heathery areas at Ainsdale; males fly conspicuously by day",
-    "habitat": ["Dune heath", "Heather moorland", "Coastal scrub with Heather"],
+    "habitat": [
+      "Dune heath",
+      "Heather moorland",
+      "Coastal scrub with Heather"
+    ],
     "diet": "Adults: do not feed. Larvae: Heather, Bramble, Hawthorn, Blackthorn, various shrubs.",
     "description": "The Oak Eggar is a large, powerful moth — males fly by day in a rapid, buzzing search for females that are nocturnal and sedentary. Male Oak Eggars can fly for miles following a female's pheromone plume. On the Sefton Coast dune heath they're a characteristic sight in July — large, tawny-brown moths careering past at speed. Despite the name, Oak is not their primary foodplant here — on the coastal heathland they feed mainly on Heather and Bramble.",
     "identification": "Large, powerful moth. Males: rich tawny-orange-brown, fly by day at speed. Females: larger, paler, nocturnal. Broad, rounded wings. White spot on forewing centre. Fast, direct flight in males.",
     "tips": "Walk the heathy areas at Ainsdale in July on a sunny day. Male Oak Eggars fly rapidly past and are hard to follow. Stand still and they may return. Females are found in moth traps at night.",
     "difficulty": "moderate",
-    "relatedSpecies": ["emperor-moth"],
+    "relatedSpecies": [
+      "emperor-moth"
+    ],
     "wikipediaTitle": "Oak eggar",
     "faq": [
       {
         "question": "Can an Oak Eggar male smell a female from a mile away?",
         "answer": "Yes. Male Oak Eggars have large, comb-like (bipectinate) antennae that can detect female pheromones at extraordinarily low concentrations. Females produce pheromones while sedentary, and males can detect and home in on the source from distances of over a kilometre. This 'assembling' behaviour has been used experimentally — placing a caged female outdoors can attract dozens of wild males."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/oak-eggar.jpg"
   },
   {
     "commonName": "White Satin Moth",
@@ -1056,20 +1334,26 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Widely distributed but declining in many areas",
     "seftonPopulation": "Present but numbers crashed significantly in 2021–22; formerly more abundant. Named specifically in Green Sefton moth accounts.",
-    "habitat": ["Poplar and Willow woodland", "Dune scrub with Sallow"],
+    "habitat": [
+      "Poplar and Willow woodland",
+      "Dune scrub with Sallow"
+    ],
     "diet": "Adults: minimal. Larvae: Poplar, White Poplar, Willow, Sallow.",
     "description": "The White Satin Moth is a pristine white moth with a silky sheen — beautiful at close range. Larvae feed on Poplar and Willow and the species was more common when plantations were managed regularly. Green Sefton's John Dempsey specifically notes a 'population collapse' at previously favoured sites in 2021 and 2022 and expresses hope for its return. The cause of the local decline is unclear. Resting adults are sometimes found on tree trunks by day.",
     "identification": "Medium moth. Pure white, silky-sheened wings. White body. Black-and-white chequered legs. No patterning — uniform white. Often rests on Poplar trunks in daytime.",
     "tips": "Check Poplar and Willow trunks in June–July for resting adults. A moth trap near Willows in the dune scrub may produce the species. Report any sightings — population data is valuable.",
     "difficulty": "moderate",
-    "relatedSpecies": ["shore-wainscot-moth"],
+    "relatedSpecies": [
+      "shore-wainscot-moth"
+    ],
     "wikipediaTitle": "White satin moth",
     "faq": [
       {
         "question": "Why did White Satin Moth numbers crash in 2021?",
         "answer": "The cause of the sharp decline in White Satin Moth at Sefton Coast sites in 2021–22 is not fully understood. Possible factors include changes in the woodland structure that reduced suitable larval habitat, unusual weather conditions affecting egg or larval survival, or natural population fluctuations. Population crashes and recoveries are not uncommon in moth species, and ongoing monitoring will reveal whether recovery occurs."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/white-satin-moth.jpg"
   },
   {
     "commonName": "Garden Tiger Moth",
@@ -1084,20 +1368,29 @@
     "shortLocation": "Formby NT Pinewoods",
     "ukPopulation": "Declining significantly — amber-listed; formerly very common",
     "seftonPopulation": "Present in dune scrub; most obvious as the hairy 'woolly bear' caterpillar",
-    "habitat": ["Dune scrub", "Rough grassland", "Garden", "Hedgerow"],
+    "habitat": [
+      "Dune scrub",
+      "Rough grassland",
+      "Garden",
+      "Hedgerow"
+    ],
     "diet": "Adults: minimal. Larvae: nettles, dock, plantain — the 'woolly bear' caterpillar.",
     "description": "The Garden Tiger Moth has declined by around 90% in Britain over the last 50 years — one of the steepest declines of any moth, linked to climate change (warmer, wetter winters killing overwintering caterpillars). It used to be one of the most familiar moths of gardens and countryside. The adult is spectacular — brown and white mottled forewings, vivid orange-red hindwings with black spots, red-and-black body. The hairy black caterpillar is the 'woolly bear' familiar from paths in late summer.",
     "identification": "Large moth. Brown and white mottled forewings. Vivid orange-red hindwings with blue-black spots. Red-and-black abdomen. Very striking. Caterpillar: hairy, black with red-orange sides ('woolly bear').",
     "tips": "The hairy 'woolly bear' caterpillar crossing paths in late summer is often the first sign — the adult flies in July and August and comes to moth traps.",
     "difficulty": "easy",
-    "relatedSpecies": ["cinnabar-moth", "six-spot-burnet-moth"],
+    "relatedSpecies": [
+      "cinnabar-moth",
+      "six-spot-burnet-moth"
+    ],
     "wikipediaTitle": "Garden tiger moth",
     "faq": [
       {
         "question": "Why has the Garden Tiger Moth declined so dramatically?",
         "answer": "The Garden Tiger Moth overwinters as a small caterpillar and is vulnerable to mild, wet winters — conditions that cause drowning, disease and inability to survive extended warm periods. As UK winters have become milder and wetter due to climate change, winter survival of caterpillars has plummeted. This is one of the most clearly documented cases of climate change directly driving moth decline."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/garden-tiger-moth.jpg"
   },
   {
     "commonName": "Emperor Dragonfly",
@@ -1112,20 +1405,27 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common in England; expanding northward",
     "seftonPopulation": "Established breeding species at Ainsdale dune slacks since the mid-1990s. First recorded 1976.",
-    "habitat": ["Dune slack pond", "Open water with emergent vegetation"],
+    "habitat": [
+      "Dune slack pond",
+      "Open water with emergent vegetation"
+    ],
     "diet": "Large flying insects — pursues prey aerially, including other dragonflies and large flies",
     "description": "Britain's largest dragonfly — a spectacular insect. The male's vivid sky-blue abdomen with a black dorsal stripe is unmistakeable, and the apple-green thorax is beautiful close up. The Emperor was first recorded on the Sefton Coast in 1976 and a breeding colony established in the dune slack ponds. Males patrol territories relentlessly over open water, rarely resting, and are extremely territorial. On a hot July day at Ainsdale's ponds, watching the aerial combat between male Emperors is extraordinary.",
     "identification": "Britain's largest dragonfly. Male: sky-blue abdomen with black stripe, green thorax. Female: green-blue abdomen. Powerful, direct flight. Constantly patrolling over water. Very large wingspan to 105mm.",
     "tips": "Visit the dune slack ponds at Ainsdale on a hot July day. Male Emperors patrol continuously and are immediately obvious. Females oviposit in aquatic vegetation — slower and easier to observe.",
     "difficulty": "easy",
-    "relatedSpecies": ["brown-hawker", "migrant-hawker"],
+    "relatedSpecies": [
+      "brown-hawker",
+      "migrant-hawker"
+    ],
     "wikipediaTitle": "Emperor dragonfly",
     "faq": [
       {
         "question": "How does the Emperor Dragonfly establish its territory?",
         "answer": "Male Emperor Dragonflies patrol a stretch of open water continuously, investigating any large flying insect that enters and engaging rival males in aerial combat. They rarely perch, instead spending most of their active time in flight. The territory is centred on areas where females come to lay eggs, and a successful male may hold the same pond section for his entire adult life."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/emperor-dragonfly.jpg"
   },
   {
     "commonName": "Azure Damselfly",
@@ -1140,20 +1440,27 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Very common throughout England",
     "seftonPopulation": "Abundant at dune slack ponds throughout the Sefton Coast; greatly expanded range since 1990",
-    "habitat": ["Dune slack pond", "Any still or slow-moving freshwater with emergent vegetation"],
+    "habitat": [
+      "Dune slack pond",
+      "Any still or slow-moving freshwater with emergent vegetation"
+    ],
     "diet": "Small flying insects — catches prey in flight",
     "description": "The Azure Damselfly has expanded dramatically across the Sefton Coast dune slack system since the 1990s. At Ainsdale NNR's ponds in June and July, Azure Damselflies can be present in hundreds — the brilliant blue and black males resting on emergent vegetation and flying in mating pairs (the 'wheel' position). They're smaller and more delicate than dragonflies, flying weakly but precisely. The dune slack pools are ideal habitat.",
     "identification": "Slender damselfly. Male: brilliant sky-blue with black markings. Second abdominal segment has distinctive U-shape pattern (key feature separating from Common Blue Damselfly). Female: blue or green. Both: weaker flight than dragonflies, lands frequently.",
     "tips": "Walk the dune slack boardwalk at Ainsdale in June. Azure Damselflies land on any vegetation near water and allow close approach.",
     "difficulty": "easy",
-    "relatedSpecies": ["common-blue-damselfly", "blue-tailed-damselfly"],
+    "relatedSpecies": [
+      "common-blue-damselfly",
+      "blue-tailed-damselfly"
+    ],
     "wikipediaTitle": "Azure damselfly",
     "faq": [
       {
         "question": "How do I tell Azure Damselfly from Common Blue Damselfly?",
         "answer": "The key feature is the pattern on abdominal segment 2 (just behind the thorax). Azure Damselfly has a U or cup shape; Common Blue Damselfly has a thick stalk and round 'lollipop' shape. The markings on the other segments also differ. With practice the general 'feel' differs — Azure tends to look more boldly patterned."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/azure-damselfly.jpg"
   },
   {
     "commonName": "Emerald Damselfly",
@@ -1168,20 +1475,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common in England; has expanded range significantly",
     "seftonPopulation": "Established across the Sefton Coast dune slack system since the 1990s; significantly expanded range",
-    "habitat": ["Rush-bordered dune slack pool", "Boggy dune slack", "Pond with tall emergent vegetation"],
+    "habitat": [
+      "Rush-bordered dune slack pool",
+      "Boggy dune slack",
+      "Pond with tall emergent vegetation"
+    ],
     "diet": "Small flying insects",
     "description": "The Emerald Damselfly is distinctive in that it rests with its wings held partially open away from the body — unlike most damselflies which rest with wings folded over the back. It prefers dense rush and grass stands at dune slack margins and can often be found some distance from open water. The metallic green-bronze colour is beautiful. It's expanded dramatically across the Sefton Coast since 1990 — one of several Odonata species that have benefited from the dune slack habitat.",
     "identification": "Metallic green-bronze damselfly. Unique resting posture — wings held open at 45–60 degrees (not closed over back like other damsels). Pale blue pruinescence on abdomen tip and thorax of mature males. Blue eyes.",
     "tips": "Check rush beds around dune slack margins at Ainsdale in August. The open wing posture at rest is unmistakeable once you know it.",
     "difficulty": "moderate",
-    "relatedSpecies": ["azure-damselfly", "blue-tailed-damselfly"],
+    "relatedSpecies": [
+      "azure-damselfly",
+      "blue-tailed-damselfly"
+    ],
     "wikipediaTitle": "Emerald damselfly",
     "faq": [
       {
         "question": "Why does the Emerald Damselfly hold its wings open at rest?",
         "answer": "The Lestidae (Spread-winged Damselflies) hold their wings partially open at rest — this is the family characteristic that separates them from all other damselflies. The biological reason is not fully understood but may relate to thermoregulation — the open wing position may allow more efficient warming in cool conditions, or may be a display signal."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/emerald-damselfly.jpg"
   },
   {
     "commonName": "Blue-tailed Damselfly",
@@ -1196,20 +1511,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Very common throughout Britain; one of the most abundant damselflies",
     "seftonPopulation": "Abundant at any suitable water body on the Sefton Coast",
-    "habitat": ["Dune slack pond", "Marsh ditch", "Any standing or slow freshwater"],
+    "habitat": [
+      "Dune slack pond",
+      "Marsh ditch",
+      "Any standing or slow freshwater"
+    ],
     "diet": "Small flying insects",
     "description": "The Blue-tailed Damselfly is one of the most tolerant of all damselflies — it can breed in heavily polluted or brackish water where other Odonata cannot survive. This makes it one of the most widespread and abundant species on the Sefton Coast. The male has a distinctive blue tail tip (segment 8) that glows electric blue in the right light. Females come in several colour forms — violet, pale green, buff or blue. Very approachable at rest.",
     "identification": "Slender damselfly. Male: dark body with brilliant blue segment 8 near tail tip — the key feature. Black and blue/green thorax. Female: various colour forms (pinkish-violet, blue, green or buff) — all have the blue/coloured segment 8 pattern. Bronze-green thorax with pale stripes.",
     "tips": "Check any open water on the Sefton Coast from May. The bright blue tail tip of the male is visible at quite close range. Much more tolerant of disturbed water than other damselflies.",
     "difficulty": "easy",
-    "relatedSpecies": ["azure-damselfly", "common-blue-damselfly"],
+    "relatedSpecies": [
+      "azure-damselfly",
+      "common-blue-damselfly"
+    ],
     "wikipediaTitle": "Blue-tailed damselfly",
     "faq": [
       {
         "question": "Why do female Blue-tailed Damselflies come in so many colour forms?",
         "answer": "Female Blue-tailed Damselflies show remarkable colour polymorphism — up to five distinct colour forms in some populations. Research suggests that some female colour forms are more successful at avoiding male harassment (males harass females of the most common colour more, so rarer colours gain protection by being unusual). This frequency-dependent selection may maintain the polymorphism."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/blue-tailed-damselfly.jpg"
   },
   {
     "commonName": "Common Blue Damselfly",
@@ -1224,13 +1547,20 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Very common throughout Britain; most abundant blue damselfly",
     "seftonPopulation": "Abundant at dune slack ponds and Marshside lagoons",
-    "habitat": ["Open dune pond", "Larger freshwater", "Coastal lagoon"],
+    "habitat": [
+      "Open dune pond",
+      "Larger freshwater",
+      "Coastal lagoon"
+    ],
     "diet": "Small flying insects",
     "description": "The Common Blue Damselfly is Britain's most abundant blue damselfly — and can be extremely numerous at dune slack ponds. It prefers slightly larger, more open water than the Azure Damselfly. The males are vivid sky-blue with black markings, and paired couples in the 'wheel' position are a common sight over any dune pond in June and July. The 'lollipop' mark on abdominal segment 2 is the key feature separating it from Azure.",
     "identification": "Bright sky-blue with black markings. Segment 2: thick stalk and round spot ('lollipop' or 'mushroom' shape) — key difference from Azure's U-shape. Female: blue or green, same patterning. More slender than Azure.",
     "tips": "Any open dune pond in June–August. Abundant. The 'lollipop' pattern on the second abdominal segment is the key ID feature for separation from Azure Damselfly.",
     "difficulty": "moderate",
-    "relatedSpecies": ["azure-damselfly", "blue-tailed-damselfly"],
+    "relatedSpecies": [
+      "azure-damselfly",
+      "blue-tailed-damselfly"
+    ],
     "wikipediaTitle": "Common blue damselfly",
     "faq": [
       {
@@ -1252,13 +1582,19 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common throughout Britain",
     "seftonPopulation": "Present at dune slack ponds; one of the first Odonata to appear in spring",
-    "habitat": ["Dune slack pond", "Any still or slow freshwater with emergent vegetation"],
+    "habitat": [
+      "Dune slack pond",
+      "Any still or slow freshwater with emergent vegetation"
+    ],
     "diet": "Small flying insects",
     "description": "The Large Red Damselfly is often the first damselfly of the year — appearing at dune slack ponds in late April or early May while most other Odonata are still larvae. The male is distinctive: red body with black markings, red eyes. Females are more complex with more extensive black. They're much redder than any other British damselfly. At Ainsdale's ponds in May, the appearance of the first Large Red is a reliable sign that the Odonata season is beginning.",
     "identification": "Vivid red with black markings. Only red damselfly in Britain — unmistakeable. Male brighter red than female. Red eyes. Black legs. Often rests on vegetation near water.",
     "tips": "Check dune slack ponds at Ainsdale in late April–early May for the first of the season. The red colour is unmistakeable — no other British damselfly is red.",
     "difficulty": "easy",
-    "relatedSpecies": ["azure-damselfly", "blue-tailed-damselfly"],
+    "relatedSpecies": [
+      "azure-damselfly",
+      "blue-tailed-damselfly"
+    ],
     "wikipediaTitle": "Large red damselfly",
     "faq": [
       {
@@ -1280,20 +1616,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common in southern and central England; now well-established in northwest England",
     "seftonPopulation": "Established breeding species at Ainsdale NNR since the mid-1990s. First recorded 1989.",
-    "habitat": ["Dune slack pond", "Sheltered open water", "Ditch with emergent vegetation"],
+    "habitat": [
+      "Dune slack pond",
+      "Sheltered open water",
+      "Ditch with emergent vegetation"
+    ],
     "diet": "Flying insects — catches prey in aerial pursuit",
     "description": "The Ruddy Darter has colonised the Sefton Coast — a single male was recorded in 1989, and by the mid-1990s it was an established breeder at Ainsdale NNR. The male is blood-red with a constricted 'waisted' abdomen, brighter red than the Common Darter. It's a perching dragonfly, resting on prominent stems and returning to the same perch. The dune slack ponds at Ainsdale are one of the best northwest England sites for this species.",
     "identification": "Male: vivid blood-red with distinctly waisted abdomen (narrower at the base). Redder and more waisted than Common Darter. Female: yellow-brown with same waisted shape. Red veins at base of wings.",
     "tips": "Visit Ainsdale slack ponds in August. Ruddy Darters perch prominently on dead sticks and bare ground near the water, returning repeatedly to the same spot.",
     "difficulty": "moderate",
-    "relatedSpecies": ["common-darter", "emperor-dragonfly"],
+    "relatedSpecies": [
+      "common-darter",
+      "emperor-dragonfly"
+    ],
     "wikipediaTitle": "Ruddy darter",
     "faq": [
       {
         "question": "How do I tell Ruddy Darter from Common Darter?",
         "answer": "Both are red dragonflies but the Ruddy Darter is brighter blood-red and has a distinctly waisted abdomen — clearly narrower at the base, creating a club-shaped look. Common Darter is duller brownish-red without the waisting. Female Ruddy Darter is yellow-brown with the same waisted shape, while female Common Darter is buffier-brown. Leg colour also differs: Ruddy Darter has largely black legs; Common Darter has yellow legs with black stripes."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/ruddy-darter.jpg"
   },
   {
     "commonName": "Common Darter",
@@ -1308,20 +1652,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Very common throughout Britain; the most widespread darter",
     "seftonPopulation": "Abundant throughout the Sefton Coast from July to November",
-    "habitat": ["Dune slack pond", "Coastal ditch", "Any freshwater", "Also found on heathland far from water"],
+    "habitat": [
+      "Dune slack pond",
+      "Coastal ditch",
+      "Any freshwater",
+      "Also found on heathland far from water"
+    ],
     "diet": "Flying insects — perches and makes short sallies to catch prey",
     "description": "The Common Darter is the most abundant dragonfly of late summer and autumn on the Sefton Coast, and the last to fly as temperatures drop. In October, Common Darters will fly in temperatures where no other dragonfly is active. Males are brownish-red, perching prominently on vegetation and bare ground near water and returning repeatedly to the same perch. They're often found far from water in late summer, basking on paths and warm walls. Their long season — July to November — means they're present on the Sefton Coast for a quarter of the year.",
     "identification": "Medium darter. Male: brownish-red (darker and less vivid than Ruddy Darter). Female: yellow-brown. Yellowish streaks along abdomen sides. Yellow legs with black stripes. Perches frequently, returns to same spot.",
     "tips": "Walk any dune area in August–October. Common Darters are everywhere — basking on paths, walls and vegetation. The most frequently encountered dragonfly of late summer.",
     "difficulty": "easy",
-    "relatedSpecies": ["ruddy-darter", "four-spotted-chaser"],
+    "relatedSpecies": [
+      "ruddy-darter",
+      "four-spotted-chaser"
+    ],
     "wikipediaTitle": "Common darter",
     "faq": [
       {
         "question": "Why can Common Darters fly so late in autumn?",
         "answer": "Common Darters are cold-tolerant compared to other dragonflies, remaining active at temperatures where Emperor and Brown Hawker have long since disappeared. They can supplement sun-warming by basking on warm surfaces. This extended season allows them to continue breeding until late October in good years — some adults survive into November."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/common-darter.jpg"
   },
   {
     "commonName": "Brown Hawker",
@@ -1336,20 +1689,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common in England and Wales",
     "seftonPopulation": "Regular at larger dune slack ponds and drainage channels near the Sefton Coast",
-    "habitat": ["Dune slack pond", "Drainage channel", "Slow river"],
+    "habitat": [
+      "Dune slack pond",
+      "Drainage channel",
+      "Slow river"
+    ],
     "diet": "Large flying insects",
     "description": "Britain's only entirely brown large dragonfly. The Brown Hawker is unmistakeable in flight — all other large hawkers have blue or green markings on a dark body, but the Brown Hawker is warm amber-brown throughout. In flight it looks orange-brown in sunlight, the wings themselves with an amber tint. It hawks over large areas including along hedgerows well away from water. A large, powerful dragonfly that patrols continuously.",
     "identification": "Large hawker. Entirely warm brown-amber body. Wings with golden-brown tint — visible in flight. Blue eyes. Blue spots on sides of abdomen. No other large dragonfly is entirely brown.",
     "tips": "Any large, brown dragonfly is a Brown Hawker — no confusion is possible once you know the species. Afternoon patrols along dune edges and water margins.",
     "difficulty": "easy",
-    "relatedSpecies": ["emperor-dragonfly", "migrant-hawker"],
+    "relatedSpecies": [
+      "emperor-dragonfly",
+      "migrant-hawker"
+    ],
     "wikipediaTitle": "Brown hawker",
     "faq": [
       {
         "question": "Why is the Brown Hawker amber-coloured?",
         "answer": "The amber-brown colouration of the Brown Hawker is unusual among large dragonflies, most of which are blue-and-black or green-and-black. The function of the colouration is not fully understood but may provide better camouflage against autumn vegetation (when the species is most abundant). The amber-tinted wings are a particularly beautiful feature visible in sunlight."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/brown-hawker.jpg"
   },
   {
     "commonName": "Migrant Hawker",
@@ -1364,20 +1725,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common in England; expanding northward rapidly",
     "seftonPopulation": "Established at Ainsdale dune slacks; mentioned in the 1990s as a potential colonist — now confirmed",
-    "habitat": ["Dune slack pond", "Open water", "Coastal scrub edge"],
+    "habitat": [
+      "Dune slack pond",
+      "Open water",
+      "Coastal scrub edge"
+    ],
     "diet": "Flying insects",
     "description": "The Migrant Hawker was mentioned in the 1997 Sefton Coast insect article as a species to watch for — a potential colonist heading northward. It has since colonised across northwest England and is now confirmed at Sefton Coast sites. Smaller than the Emperor, the Migrant Hawker is a late-season species — most abundant in September and October when other hawkers have declined. The distinctive yellow triangle on abdominal segment 2 is the key feature.",
     "identification": "Medium hawker. Blue and black (male) or yellow-brown and black (female). Distinctive bright yellow triangle on top of segment 2. Smaller and slimmer than Emperor and Brown Hawker. Flies in September when most large dragonflies have gone.",
     "tips": "Check dune slack ponds in September and October. The yellow triangle on S2 distinguishes Migrant Hawker from other hawkers.",
     "difficulty": "moderate",
-    "relatedSpecies": ["emperor-dragonfly", "brown-hawker"],
+    "relatedSpecies": [
+      "emperor-dragonfly",
+      "brown-hawker"
+    ],
     "wikipediaTitle": "Migrant hawker",
     "faq": [
       {
         "question": "Does the Migrant Hawker actually migrate to Britain?",
         "answer": "Yes. The name comes from the fact that it was long considered a migrant to Britain from the continent. While UK breeding populations are now well-established, continental migrants do arrive each autumn, boosting UK numbers. Migrant Hawkers genuinely cross the sea — they have been recorded landing on ships in the North Sea. Their late season peak (September–October) partially reflects this migratory input."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/migrant-hawker.jpg"
   },
   {
     "commonName": "Four-spotted Chaser",
@@ -1392,20 +1761,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common throughout Britain; can migrate in enormous swarms",
     "seftonPopulation": "Present at dune slack ponds; appears early in the season",
-    "habitat": ["Dune slack pond", "Bog pond", "Heathland pool"],
+    "habitat": [
+      "Dune slack pond",
+      "Bog pond",
+      "Heathland pool"
+    ],
     "diet": "Flying insects",
     "description": "The Four-spotted Chaser is named for the four dark spots on the wings — one at the base and one at the nodus of each forewing. A stocky, perching dragonfly that is extremely aggressive: it will charge and see off all other dragonflies from its territory. It sometimes migrates in enormous swarms — millions of individuals moving together — a phenomenon recorded across Europe. The dune slack ponds at Ainsdale are a reliable site.",
     "identification": "Stocky, perching dragonfly. Yellow-brown body. Four dark spots on wings — one at nodus and one at base of each forewing. Black tail tip. Very aggressive, perches prominently and charges intruders.",
     "tips": "Visit dune slack ponds in June. Four-spotted Chasers perch prominently on waterside vegetation and charge anything that enters their territory. The four wing spots are visible at close range.",
     "difficulty": "easy",
-    "relatedSpecies": ["broad-bodied-chaser", "common-darter"],
+    "relatedSpecies": [
+      "broad-bodied-chaser",
+      "common-darter"
+    ],
     "wikipediaTitle": "Four-spotted chaser",
     "faq": [
       {
         "question": "How large can Four-spotted Chaser migration swarms be?",
         "answer": "Four-spotted Chasers sometimes migrate in swarms of millions — one recorded event in 1900 involved an estimated 2.4 billion individuals moving across Germany. Modern events are smaller but still impressive: British observers have recorded swarms of hundreds of thousands moving along coastlines. The ecological drivers of mass migration in this species are not fully understood."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/four-spotted-chaser.jpg"
   },
   {
     "commonName": "Broad-bodied Chaser",
@@ -1420,20 +1797,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common in England; expanding northward",
     "seftonPopulation": "Colonising — mentioned in 1990s as a potential colonist; now occasionally recorded at Ainsdale",
-    "habitat": ["Dune slack pond", "Garden pond", "Any small open water"],
+    "habitat": [
+      "Dune slack pond",
+      "Garden pond",
+      "Any small open water"
+    ],
     "diet": "Flying insects",
     "description": "The Broad-bodied Chaser was mentioned in the 1997 Sefton Coast article as a species heading northward. It's a dramatic dragonfly — the male has a pale sky-blue, flat, very broad abdomen that makes it look half as wide as it is long. It often colonises new ponds quickly. Its presence at Ainsdale dune slacks is linked to habitat creation through dune management. A very approachable, perching species that returns repeatedly to the same spot.",
     "identification": "Stocky, perching dragonfly. Male: brilliant pale blue, very broad flat abdomen — distinctive. Female: yellow-brown, same very wide, flat abdomen. Yellow spots on abdomen sides. Brown wing bases.",
     "tips": "Check any new or shallow dune slack pond at Ainsdale. Males are unmistakeable — the very broad, blue abdomen is unlike any other dragonfly.",
     "difficulty": "easy",
-    "relatedSpecies": ["four-spotted-chaser", "common-darter"],
+    "relatedSpecies": [
+      "four-spotted-chaser",
+      "common-darter"
+    ],
     "wikipediaTitle": "Broad-bodied chaser",
     "faq": [
       {
         "question": "Why are Broad-bodied Chasers often the first dragonfly to colonise a new pond?",
         "answer": "Broad-bodied Chasers are pioneer species — the females will lay eggs in almost any open freshwater, including garden ponds, newly created wildlife ponds and even puddles. Males are territorial and establish territories quickly once suitable water appears. This opportunism, combined with their strong dispersal ability, means they often appear at new water bodies within a year of creation."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/broad-bodied-chaser.jpg"
   },
   {
     "commonName": "Vernal Mining Bee",
@@ -1448,13 +1833,18 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Red Data Book Rare — restricted to coastal dune systems in northwest England and Wales. Sefton Coast is the type locality for the subspecies.",
     "seftonPopulation": "The Sefton Coast (from Birkdale to Hightown) is one of the most important sites in the UK. Hightown is the type locality for the subspecies celticus.",
-    "habitat": ["Semi-fixed yellow dune with old blowouts", "South-facing sandy bank"],
+    "habitat": [
+      "Semi-fixed yellow dune with old blowouts",
+      "South-facing sandy bank"
+    ],
     "diet": "Adults: Creeping Willow pollen almost exclusively. Larvae: Creeping Willow pollen provisions.",
     "description": "The Vernal Mining Bee is one of the Sefton Coast's most remarkable wildlife events — the mass emergence in late March or April when hundreds of bees appear simultaneously from sandy banks in the dune system. The timing is triggered by warm weather and synchronised with Creeping Willow flowering. Females excavate horizontal burrows in old blowouts and provision them with Creeping Willow pollen. Despite looking communal, each burrow belongs to one female. Red Data Book Rare. The Sefton Coast is the type locality for the subspecies.",
     "identification": "Medium solitary bee. Female: dark with pale hair bands on abdomen. Male: paler, tawny-haired. Associated with Creeping Willow in dune slacks March–May. Nests in sandy banks in old blowouts.",
     "tips": "Visit Ainsdale NNR in the last week of March or early April after the first warm spell. Look for sandy banks with dozens of bee burrow holes and males hovering overhead. The window is short — the bees disappear as soon as Creeping Willow catkins go over.",
     "difficulty": "moderate",
-    "relatedSpecies": ["bee-wolf"],
+    "relatedSpecies": [
+      "bee-wolf"
+    ],
     "wikipediaTitle": "Colletes cunicularius",
     "faq": [
       {
@@ -1465,7 +1855,8 @@
         "question": "What makes the mass emergence of Vernal Mining Bees so special?",
         "answer": "Hundreds of bees emerge from their overwintering burrows simultaneously after the first warm period triggers emergence. Males hatch first and hover over the nesting banks waiting for females. When females emerge they are immediately mated. The spectacle — clouds of bees, constant movement, the sound of buzzing over a warm sandy bank — is extraordinary, and the window is only a few weeks before the Creeping Willow catkins go over and the bees disappear for another year."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/vernal-mining-bee.jpg"
   },
   {
     "commonName": "Ashy Mining Bee",
@@ -1480,20 +1871,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common in England; often nests in aggregations",
     "seftonPopulation": "Present on south-facing sandy dune banks; nests in aggregations",
-    "habitat": ["Sandy dune bank", "Open sandy ground", "Coastal grassland"],
+    "habitat": [
+      "Sandy dune bank",
+      "Open sandy ground",
+      "Coastal grassland"
+    ],
     "diet": "Pollen from a range of flowers — particularly Willows, Dandelion, Fruit blossom",
     "description": "The Ashy Mining Bee is one of Britain's most striking solitary bees — the female is black and grey-white with a white-grey thorax and white facial hair, creating a distinctive grey-and-black look. Males are slightly smaller and fuzzier. It nests in sandy banks in aggregations — not colonies (each female has her own burrow), but sometimes hundreds of individuals nesting in a favoured south-facing bank. The Sefton Coast's sandy dune banks are ideal habitat.",
     "identification": "Female: unmistakeable — black body with white-grey thorax hair giving grey overall appearance. White facial hair. Male: smaller, more uniformly grey-haired. Nests in sandy banks.",
     "tips": "Look for groups of bee burrow entrances on south-facing sandy dune banks in April. The grey-and-black female is unmistakeable among the bees visiting flowers nearby.",
     "difficulty": "moderate",
-    "relatedSpecies": ["vernal-mining-bee", "bee-wolf"],
+    "relatedSpecies": [
+      "vernal-mining-bee",
+      "bee-wolf"
+    ],
     "wikipediaTitle": "Andrena cineraria",
     "faq": [
       {
         "question": "Is the Ashy Mining Bee aggressive?",
         "answer": "No. Like all solitary bees, Ashy Mining Bees are not aggressive. Females are focused on nest-building and pollen collection; males, having no nest to defend, rarely sting. They may investigate people at close range (males particularly), but they don't sting unless physically handled. Close observation of a nesting aggregation is perfectly safe."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/ashy-mining-bee.jpg"
   },
   {
     "commonName": "Buff-tailed Bumblebee",
@@ -1508,20 +1907,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Very common throughout Britain; the most abundant bumblebee",
     "seftonPopulation": "Abundant throughout the Sefton Coast in any flower-rich habitat",
-    "habitat": ["Dune grassland", "Garden", "Scrub edge", "Any habitat with flowers"],
+    "habitat": [
+      "Dune grassland",
+      "Garden",
+      "Scrub edge",
+      "Any habitat with flowers"
+    ],
     "diet": "Pollen and nectar from a very wide range of flowers",
     "description": "The Buff-tailed Bumblebee is Britain's most common bumblebee and easily the most likely bee to be encountered anywhere on the Sefton Coast. The queen is large with a buff-yellow tail; workers have white tails. It's one of the first bumblebees to emerge in spring — queens can appear in February — and is now increasingly active in winter in mild years. The dune grassland with its diverse flower resources supports good populations.",
     "identification": "Queen: large, yellow and black with buff-orange tail. Workers: yellow bands, white tail (buff only in queens). Males: yellow and black with buff tail. Compare with White-tailed and Red-tailed bumblebees by tail colour.",
     "tips": "Present everywhere with flowers. The queen's buff tail (workers white) is the key feature. One of the easiest insects to photograph — foraging workers are approachable.",
     "difficulty": "easy",
-    "relatedSpecies": ["red-tailed-bumblebee", "common-carder-bee"],
+    "relatedSpecies": [
+      "red-tailed-bumblebee",
+      "common-carder-bee"
+    ],
     "wikipediaTitle": "Buff-tailed bumblebee",
     "faq": [
       {
         "question": "Are Buff-tailed Bumblebees now active in winter?",
         "answer": "Increasingly, yes. Buff-tailed Bumblebee queens are now found foraging in UK gardens throughout mild winters, particularly in southern England, disrupting the traditional annual cycle. This is linked to climate warming and the availability of winter-flowering plants (Winter Heather, Mahonia, Viburnum). Whether this winter activity benefits or harms the species long-term is still being studied."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/buff-tailed-bumblebee.jpg"
   },
   {
     "commonName": "Red-tailed Bumblebee",
@@ -1536,20 +1944,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common throughout Britain",
     "seftonPopulation": "Common on dune grassland throughout the Sefton Coast",
-    "habitat": ["Dune grassland", "Garden", "Rough grassland", "Coastal heath"],
+    "habitat": [
+      "Dune grassland",
+      "Garden",
+      "Rough grassland",
+      "Coastal heath"
+    ],
     "diet": "Pollen and nectar from diverse flowers — particularly Clover, Viper's Bugloss, Bramble",
     "description": "The Red-tailed Bumblebee is one of the most distinctive — the all-black body with a vivid red-orange tail is unmistakeable in queens and workers. Males are less obvious (with some yellow). On the dune grassland at Ainsdale they're regular visitors to Viper's Bugloss, Clover and other flowers. Like all bumblebees, the colony is annual — only newly mated queens survive winter to start new colonies in spring.",
     "identification": "Queen and workers: all black with red-orange tail — distinctive and unmistakeable. Males: yellow face hair and yellow-banded abdomen with red-orange tail. The red tail is always diagnostic for queens and workers.",
     "tips": "Present throughout the dune grassland. The vivid red tail on a black body is immediately recognisable. Often feeds on Viper's Bugloss and Red Clover.",
     "difficulty": "easy",
-    "relatedSpecies": ["buff-tailed-bumblebee", "common-carder-bee"],
+    "relatedSpecies": [
+      "buff-tailed-bumblebee",
+      "common-carder-bee"
+    ],
     "wikipediaTitle": "Red-tailed bumblebee",
     "faq": [
       {
         "question": "Why is the Red-tailed Bumblebee so conspicuous?",
         "answer": "The vivid red-orange tail on a jet-black body is aposematic (warning) colouration — the bee's sting is a genuine deterrent and the bright colours advertise this to predators. Many other insects (including hover flies) mimic this colour pattern to gain protection without having a sting. This 'batesian mimicry' is one of the most common mimicry systems in British insects."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/red-tailed-bumblebee.jpg"
   },
   {
     "commonName": "Common Carder Bee",
@@ -1564,20 +1981,29 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Very common throughout Britain; often the most abundant late-season bumblebee",
     "seftonPopulation": "Common throughout the Sefton Coast; often the dominant bumblebee in autumn",
-    "habitat": ["Dune grassland", "Scrub edge", "Garden", "Rough grassland"],
+    "habitat": [
+      "Dune grassland",
+      "Scrub edge",
+      "Garden",
+      "Rough grassland"
+    ],
     "diet": "Pollen and nectar from diverse flowers; particularly fond of Woundwort, Clover, White Dead-nettle",
     "description": "The Common Carder Bee is a gingery-brown bumblebee — quite different from the yellow-and-black pattern of most bumblebees. It gets its name from the habit of 'carding' — combing together dry grass, moss and leaves to create an above-ground nest, unlike species that nest in pre-formed cavities. It has one of the longest seasons of any bumblebee, active from March to November. In autumn when other bumblebee species have ended their season, Common Carder Bees are often still foraging.",
     "identification": "Ginger-brown throughout — no black bands. Variable — some individuals quite pale, others darker. The consistent gingery-brown colour (workers and queens) separates it from all other UK bumblebees. Males: yellow face hair.",
     "tips": "Any uniformly gingery-brown bumblebee is Common Carder. Very common in late summer — in September, most bumblebees on the dune grassland will be Carder Bees.",
     "difficulty": "easy",
-    "relatedSpecies": ["buff-tailed-bumblebee", "red-tailed-bumblebee"],
+    "relatedSpecies": [
+      "buff-tailed-bumblebee",
+      "red-tailed-bumblebee"
+    ],
     "wikipediaTitle": "Common carder bee",
     "faq": [
       {
         "question": "What is 'carding' in the Common Carder Bee?",
         "answer": "Carding is the process of gathering and combing dry plant material (grass, moss, leaves) to make a nest. Female Common Carder Bees collect fibrous material and work it into a ball around their brood cells, providing insulation. Unlike bumblebees that use existing cavities (rodent burrows, bird nest boxes), Carder Bees construct their nests on the surface, usually in tussocky grass."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/common-carder-bee.jpg"
   },
   {
     "commonName": "Green Tiger Beetle",
@@ -1592,13 +2018,19 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Widespread on heathland and sandy paths in England",
     "seftonPopulation": "Present on heathland paths and fixed dune areas at Ainsdale",
-    "habitat": ["Heathland path", "Sandy fixed dune", "Open heath"],
+    "habitat": [
+      "Heathland path",
+      "Sandy fixed dune",
+      "Open heath"
+    ],
     "diet": "Other invertebrates — pursues prey on path surfaces",
     "description": "The Green Tiger Beetle is the more widespread cousin of the Northern Dune Tiger Beetle — brilliant metallic green with cream spots on the elytra. It prefers heathland paths and fixed dune areas rather than the mobile fore-dune habitat of the Northern Dune Tiger Beetle. Both species are fast, iridescent predators that hunt invertebrates on the surface. The green metallic colour is vivid in sunlight.",
     "identification": "Medium beetle. Brilliant metallic green elytra with cream spots. Long legs, prominent eyes, massive mandibles. Fast on sandy paths. Flies short distances when approached.",
     "tips": "Walk heathland paths at Ainsdale in summer. Look for fast-running green beetles. Move slowly and stop when they turn to face you.",
     "difficulty": "moderate",
-    "relatedSpecies": ["dune-tiger-beetle"],
+    "relatedSpecies": [
+      "dune-tiger-beetle"
+    ],
     "wikipediaTitle": "Cicindela campestris",
     "faq": [
       {
@@ -1620,13 +2052,19 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common throughout upland and coastal grassland",
     "seftonPopulation": "Abundant in dune grassland throughout the Sefton Coast",
-    "habitat": ["Dune grassland", "Coastal heath", "Rough grassland"],
+    "habitat": [
+      "Dune grassland",
+      "Coastal heath",
+      "Rough grassland"
+    ],
     "diet": "Grasses and other vegetation",
     "description": "The Common Green Grasshopper is the most numerous grasshopper of the Sefton Coast dune grassland. As the name suggests, both sexes are predominantly green, though there is variation — some individuals are more grey-brown. The male's song is a series of soft, rising 'tik' notes building to a sustained purring churr, repeated every 20–30 seconds. On warm July afternoons, the sound fills the dune grassland. They jump enormous distances relative to their size when disturbed.",
     "identification": "Green (variable — can be brownish). No keel on pronotum (sides of thorax are straight, not angled). Male's song builds to a churr. Shorter wings than Meadow Grasshopper. Green underside and sides.",
     "tips": "Walk dune grassland in July — the sound of grasshoppers is constant. Move slowly and look for the movement when they jump.",
     "difficulty": "easy",
-    "relatedSpecies": ["large-marsh-grasshopper"],
+    "relatedSpecies": [
+      "large-marsh-grasshopper"
+    ],
     "wikipediaTitle": "Common green grasshopper",
     "faq": [
       {
@@ -1648,20 +2086,28 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Very common throughout Britain — probably the most abundant grasshopper",
     "seftonPopulation": "Extremely abundant in dune grassland throughout the Sefton Coast",
-    "habitat": ["Dune grassland", "Rough grassland", "Coastal meadow"],
+    "habitat": [
+      "Dune grassland",
+      "Rough grassland",
+      "Coastal meadow"
+    ],
     "diet": "Grasses",
     "description": "The Meadow Grasshopper is Britain's most common grasshopper and the one most likely to be encountered on the Sefton Coast dune grassland. It's distinctive in that females are flightless — the hindwings are vestigial. Both sexes are variable in colour (green, purple-brown, red-brown or intermediate). The male's song is a series of short churrs, each about a second long, repeated at intervals. An almost constant background sound of any warm dune grassland day.",
     "identification": "Green or brown, variable. Female flightless (hindwings vestigial). Male's song: short bursts of churring, each 1–2 seconds. Curved (not straight) lower edge of pronotum sides. One of the most variable grasshoppers in colour.",
     "tips": "The default grasshopper of any dune grassland. The short bursts of song are distinctive once learned — shorter than Common Green's building churr.",
     "difficulty": "easy",
-    "relatedSpecies": ["common-green-grasshopper", "large-marsh-grasshopper"],
+    "relatedSpecies": [
+      "common-green-grasshopper",
+      "large-marsh-grasshopper"
+    ],
     "wikipediaTitle": "Meadow grasshopper",
     "faq": [
       {
         "question": "Why can the female Meadow Grasshopper not fly?",
         "answer": "Female Meadow Grasshoppers have vestigial hindwings — they are functionally flightless. This is an evolved condition, not damage. Flightlessness in females is thought to be advantageous because flight capability requires large wing muscles (energy-costly) that could be redirected to egg production. Males retain wings and use them for display buzzing."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/meadow-grasshopper.jpg"
   },
   {
     "commonName": "Dark Bush Cricket",
@@ -1676,20 +2122,27 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Common in England; one of the most widespread bush crickets",
     "seftonPopulation": "Common in dune scrub throughout the Sefton Coast",
-    "habitat": ["Dense dune scrub", "Bramble thickets", "Nettle beds"],
+    "habitat": [
+      "Dense dune scrub",
+      "Bramble thickets",
+      "Nettle beds"
+    ],
     "diet": "Plant material, small invertebrates — omnivorous",
     "description": "The Dark Bush Cricket is a stocky, dark brown bush cricket of dense scrub edges. Unlike grasshoppers (which sing by day in sunshine), bush crickets are more active toward evening. The male's song is a series of short chirps: 'chr-chr-chr' at about one per second. It's flightless — short wings cover only the thorax. The Sefton Coast dune scrub, particularly the Bramble and Nettle thickets, holds this species well. Often the last Orthoptera species of the year, active into November.",
     "identification": "Stocky, dark brown bush cricket. Very short wings — flightless. Pale yellow-buff sides of abdomen. Long antennae (much longer than grasshoppers). Male: short, sharp chirps in series.",
     "tips": "Walk scrub edges at Ainsdale in August–October in the afternoon. Listen for the 'chr-chr' chirping from Bramble. They're well-camouflaged but can often be spotted once the sound location is narrowed down.",
     "difficulty": "moderate",
-    "relatedSpecies": ["common-green-grasshopper"],
+    "relatedSpecies": [
+      "common-green-grasshopper"
+    ],
     "wikipediaTitle": "Pholidoptera griseoaptera",
     "faq": [
       {
         "question": "How do crickets differ from grasshoppers in their song?",
         "answer": "Grasshoppers stridulate by rubbing a hind leg against the forewing. Crickets (including bush crickets) rub the two forewings together — a different mechanism producing different sounds. Bush cricket songs are typically higher-pitched and more rhythmic than grasshopper songs, and many species sing primarily in the evening rather than the daytime."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/dark-bush-cricket.jpg"
   },
   {
     "commonName": "Roesel's Bush Cricket",
@@ -1704,19 +2157,27 @@
     "shortLocation": "Ainsdale NNR",
     "ukPopulation": "Expanding rapidly northward; now well-established in Lancashire",
     "seftonPopulation": "Established on the Sefton Coast; now regular in tall rough dune grassland",
-    "habitat": ["Tall dune grassland", "Rough coastal grassland", "Scrub edge"],
+    "habitat": [
+      "Tall dune grassland",
+      "Rough coastal grassland",
+      "Scrub edge"
+    ],
     "diet": "Grasses, vegetation, small invertebrates",
     "description": "Roesel's Bush Cricket has been expanding northward at an extraordinary rate, reaching the Sefton Coast in recent decades. The male's song is one of the most distinctive insect sounds: a continuous, electrical buzzing that sounds more like overhead power cables than a cricket. On a warm summer day in the tall grass at Ainsdale, this constant buzz is increasingly a background sound. The distinctive pale yellow-green border around the pronotum is the key identification feature.",
     "identification": "Medium bush cricket. Green-brown with distinctive pale yellow-green border around the pronotum (thorax shield). Long antennae. Partially winged — most individuals short-winged, but occasional fully-winged individuals occur. Continuous electrical buzzing song.",
     "tips": "Walk tall rough grassland at Ainsdale in August. Listen for the continuous electrical buzzing — once you know it, you'll hear it everywhere. The pale border around the thorax is the key feature.",
     "difficulty": "moderate",
-    "relatedSpecies": ["dark-bush-cricket", "meadow-grasshopper"],
+    "relatedSpecies": [
+      "dark-bush-cricket",
+      "meadow-grasshopper"
+    ],
     "wikipediaTitle": "Roesel's bush-cricket",
     "faq": [
       {
         "question": "Why has Roesel's Bush Cricket expanded so rapidly northward?",
         "answer": "Roesel's Bush Cricket has expanded its UK range northward by several hundred kilometres since the 1990s, linked to warmer summers. The species needs sufficient warm days to complete its life cycle, and climate warming has extended its viable range. Climate warming has now made Lancashire summers warm enough for breeding populations to establish. This is one of the most dramatic documented range expansions of any British insect."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/roesel-s-bush-cricket.jpg"
   }
 ]

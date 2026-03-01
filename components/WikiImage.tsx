@@ -11,14 +11,21 @@ interface WikiImageData {
 interface WikiImageProps {
   title: string;
   alt: string;
+  /** Local image path from /public — if provided, skips the Wikipedia API fetch */
+  localSrc?: string;
 }
 
-export function WikiImage({ title, alt }: WikiImageProps) {
-  const [image, setImage] = useState<WikiImageData | null>(null);
+export function WikiImage({ title, alt, localSrc }: WikiImageProps) {
+  const wikiUrl = `https://en.wikipedia.org/wiki/${encodeURIComponent(title)}`;
+
+  const [image, setImage] = useState<WikiImageData | null>(
+    localSrc ? { src: localSrc, fullSrc: localSrc, pageUrl: wikiUrl } : null
+  );
   const [open, setOpen] = useState(false);
   const [error, setError] = useState(false);
 
   useEffect(() => {
+    if (localSrc) return;
     let cancelled = false;
     async function load() {
       try {
@@ -34,16 +41,15 @@ export function WikiImage({ title, alt }: WikiImageProps) {
         const src = base.replace(/\/\d+px-([^/]+)$/, "/800px-$1");
         const fullSrc = original ?? src;
         const pageUrl =
-          data.content_urls?.desktop?.page ??
-          `https://en.wikipedia.org/wiki/${encodeURIComponent(title)}`;
+          data.content_urls?.desktop?.page ?? wikiUrl;
         if (!cancelled) setImage({ src, fullSrc, pageUrl });
       } catch {
-        /* silently fail — page still works without the image */
+        /* silently fail */
       }
     }
     load();
     return () => { cancelled = true; };
-  }, [title]);
+  }, [title, localSrc, wikiUrl]);
 
   const close = useCallback(() => setOpen(false), []);
 

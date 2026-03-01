@@ -1,35 +1,22 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
 import type { Species, SpeciesCategory } from "@/lib/types";
 import { classifySeason, type SeasonTag } from "@/lib/season";
 
 function SpeciesCardImage({ species }: { species: Species }) {
-  const [thumb, setThumb] = useState<string | null>(null);
-
-  useEffect(() => {
-    const title = species.wikipediaTitle ?? species.commonName;
-    let cancelled = false;
-    fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`)
-      .then((r) => r.ok ? r.json() : null)
-      .then((data) => {
-        if (cancelled || !data) return;
-        const base = data.originalimage?.source ?? data.thumbnail?.source;
-        if (base) setThumb(base.replace(/\/\d+px-([^/]+)$/, "/200px-$1"));
-      })
-      .catch(() => {});
-    return () => { cancelled = true; };
-  }, [species.id, species.wikipediaTitle, species.commonName]);
-
-  if (!thumb) return null;
+  if (!species.localImage) return null;
   return (
     <div className="aspect-[4/3] overflow-hidden bg-[var(--dune)]">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={thumb}
+        src={species.localImage}
         alt={species.commonName}
         className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
         loading="lazy"
+        width={400}
+        height={300}
       />
     </div>
   );
