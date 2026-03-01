@@ -171,7 +171,8 @@
         "answer": "The Sefton Coast holds one of the UK's largest Natterjack Toad populations in the dune slack system at Ainsdale NNR and Birkdale. The warm, shallow slack pools are ideal breeding habitat. Natural England's management of the dune system specifically includes maintaining water levels in slacks to support breeding."
       }
     ],
-    "group": "amphibian"
+    "group": "amphibian",
+    "localImage": "/images/species/mammals/natterjack-toad.jpg"
   },
   {
     "commonName": "Brown Hare",
@@ -209,7 +210,8 @@
         "answer": "The 'mad March hares' behaviour seen in early spring is females boxing pursuing males who won't leave them alone. Contrary to popular belief it is not usually males fighting each other — it's the female (doe) striking at unwanted suitors. This behaviour peaks in March and can be watched from a distance on the farmland around Hesketh Bank."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/brown-hare.jpg"
   },
   {
     "commonName": "Otter",
@@ -590,7 +592,8 @@
         "answer": "Frog spawn is laid in clumped masses of jelly, floating at the surface. Toad spawn is laid in long, double strings of jelly wrapped around aquatic vegetation. Natterjack Toad spawn at Ainsdale is in a single string (not doubled) and much thinner than Common Toad's. If you see a mass of spawn in a dune slack, it's almost certainly Common Frog — Natterjack Toad spawn strings are very different."
       }
     ],
-    "group": "amphibian"
+    "group": "amphibian",
+    "localImage": "/images/species/mammals/common-frog.jpg"
   },
   {
     "commonName": "Rabbit",
@@ -627,7 +630,8 @@
         "answer": "Rabbit grazing maintains the short, open dune turf that specialist plants and animals require. Without grazing, coarse grasses and scrub shade out low-growing specialists like Wild Thyme, Carline Thistle and the orchids. Bare sand created by Rabbit burrowing is essential for Sand Lizard egg-laying and Natterjack Toad breeding pools. Paradoxically, the 'pest' species is a conservation cornerstone of the dune system."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/rabbit.jpg"
   },
   {
     "commonName": "Bank Vole",
@@ -929,7 +933,8 @@
         "answer": "American Mink evolved alongside North American prey species that have some behavioural responses to mink predation. UK species — especially Water Voles — have not co-evolved with mink and have no effective defensive behaviours against an animal that can pursue them into their burrows. Mink can eliminate Water Vole colonies from entire river systems within a few seasons. They also raid ground-nesting bird colonies, including tern and gull colonies. Trapping remains the primary control method."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/american-mink.jpg"
   },
   {
     "commonName": "Roe Deer",
@@ -965,6 +970,7 @@
         "answer": "The Roe Deer's alarm call is a loud, sharp, dog-like bark — quite startling from a medium-sized deer. It is given when the deer detects a predator or intruder and is repeated several times before the deer bounds away. Once heard it is unmistakeable, and hearing a bark from the Formby pinewoods is a reliable sign of Roe Deer presence even if the animal is never seen."
       }
     ],
-    "group": "mammal"
+    "group": "mammal",
+    "localImage": "/images/species/mammals/roe-deer.jpg"
   }
 ]

@@ -1014,7 +1014,8 @@
         "question": "What is Britain's smallest duck?",
         "answer": "The Teal is Britain's smallest native duck — about half the size of a Mallard. On the Sefton Coast it is a common winter visitor to Marshside RSPB, where flocks of hundreds can be seen in shallow lagoon margins. The male's high, musical whistle is one of the characteristic sounds of the winter marsh."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/teal.jpg"
   },
   {
     "commonName": "Wigeon",
@@ -1054,7 +1055,8 @@
         "question": "What does a Wigeon call sound like?",
         "answer": "The male Wigeon's call is a distinctive, musical 'whee-oo' whistle — once learned it's instantly recognisable and heard from some distance. The female makes a soft growling purr. Wigeon flocks at Marshside RSPB are often heard before they are seen."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/wigeon.jpg"
   },
   {
     "commonName": "Pintail",
@@ -1584,7 +1586,8 @@
         "question": "Do Bar-tailed Godwits really fly non-stop from Alaska to New Zealand?",
         "answer": "Yes. The Bar-tailed Godwit (Baueri subspecies) undertakes the longest non-stop migration of any bird — around 11,000km in approximately 8–11 days without landing, eating or drinking. The Sefton Coast birds are a different subspecies (lapponica) from Scandinavian breeding grounds, but still undertake substantial migrations of several thousand kilometres."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/bar-tailed-godwit.jpg"
   },
   {
     "commonName": "Whimbrel",
@@ -1624,7 +1627,8 @@
         "question": "How do I tell a Whimbrel from a Curlew?",
         "answer": "Whimbrel is noticeably smaller and has a shorter, less curved bill than Curlew. The best field mark is the striped crown — two dark lateral stripes visible at close range. The call is the most reliable distinction: Whimbrel gives a rippling seven-note whistle; Curlew has a bubbling, rising 'cur-lee'."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/whimbrel.jpg"
   },
   {
     "commonName": "Greylag Goose",
@@ -2026,7 +2030,8 @@
         "question": "Where do Goosanders breed?",
         "answer": "Goosanders breed mainly in Scotland and parts of northern England, nesting in holes in riverside trees. They prefer fast-flowing rivers where they can pursue fish. Winter visitors from Scandinavia supplement UK breeders, bringing birds to coastal sites including the Sefton Coast."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/goosander.jpg"
   },
   {
     "commonName": "Long-tailed Duck",
@@ -2064,7 +2069,8 @@
         "question": "How deep can Long-tailed Ducks dive?",
         "answer": "Long-tailed Ducks can dive to depths of 60 metres — a record for diving ducks. They are propelled underwater by both wings and feet simultaneously. They feed on molluscs, crustaceans and small fish on the seabed in deep water, making them one of the most pelagic of the diving ducks."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/long-tailed-duck.jpg"
   },
   {
     "commonName": "Common Scoter",
@@ -2859,7 +2865,8 @@
         "question": "Why do Fulmars spit at intruders?",
         "answer": "Fulmars defend their nests by projectile-vomiting stomach oil at threats — with impressive accuracy up to a metre. The oil is produced in the stomach and is sticky, foul-smelling and can mat the feathers of other birds, reducing insulation and waterproofing. This defence is so effective that even large predators such as Golden Eagles avoid Fulmar colonies."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/fulmar.jpg"
   },
   {
     "commonName": "Manx Shearwater",
@@ -2897,7 +2904,8 @@
         "question": "How far does the Manx Shearwater migrate?",
         "answer": "Manx Shearwaters undertake one of the longest migrations of any bird — from UK breeding colonies to the South Atlantic (mainly off Brazil and Argentina) and back, a round trip of around 20,000 km. Chicks raised on Welsh islands have been tracked reaching the South Atlantic within weeks of their first flight. They can live for 50+ years and may accumulate over a million kilometres of flying in a lifetime."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/manx-shearwater.jpg"
   },
   {
     "commonName": "Kittiwake",
@@ -3537,7 +3545,8 @@
         "question": "When did Ospreys return to England?",
         "answer": "Ospreys were extinct in England and Wales as breeding birds by the late 19th century. They returned naturally to Scotland (Speyside) in 1954 and have since been reintroduced in England at several sites including Rutland Water. Populations are now expanding southward. Spring and autumn migrants from Scotland now regularly pass the Sefton Coast."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/osprey.jpg"
   },
   {
     "commonName": "Hobby",
@@ -3576,7 +3585,8 @@
         "question": "Can a Hobby really catch a Swift?",
         "answer": "Yes. Hobbies are among the fastest birds in level flight and can catch Swifts, Swallows and House Martins. They hunt with sustained fast pursuit — their long, pointed wings enable them to match or exceed the evasive manoeuvres of fast-flying prey. They can also catch large dragonflies and eat them in flight, transferring the prey from feet to bill while still airborne."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/hobby.jpg"
   },
   {
     "commonName": "Long-eared Owl",
@@ -4058,7 +4068,8 @@
         "question": "Why is the Stonechat called a Stonechat?",
         "answer": "The name comes from the call — a sharp, clicking 'tsak-tsak' that sounds like two flint stones being struck together. The call is one of the characteristic sounds of coastal heath and is unmistakeable once learned. It's an alarm and contact call used year-round."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/stonechat.jpg"
   },
   {
     "commonName": "Wheatear",
@@ -4098,7 +4109,8 @@
         "question": "Where do Wheatears passing the Sefton Coast come from?",
         "answer": "Wheatears are one of the longest-distance migrants among small birds. Populations breeding in Greenland pass through the UK on their way to and from wintering areas in sub-Saharan Africa — a journey of up to 14,500 km. Even small Wheatears, weighing only 25g, complete this journey twice a year. Spring birds in March are some of the most welcome wildlife sights on the Sefton Coast."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/wheatear.jpg"
   },
   {
     "commonName": "Whinchat",
@@ -4495,7 +4507,8 @@
         "question": "Why does the Grasshopper Warbler sound like a grasshopper?",
         "answer": "The Grasshopper Warbler's reeling song has evolved to sound like a large insect — a remarkable example of acoustic mimicry, though its exact purpose is debated. The sound is produced by an exceptionally rapid repetition of the same note, and the bird can rotate its head while singing, causing the volume to seem to vary. It can maintain the reel for several minutes without pausing."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/grasshopper-warbler.jpg"
   },
   {
     "commonName": "Common Whitethroat",
@@ -4535,7 +4548,8 @@
         "question": "What caused the Whitethroat population crash in 1969?",
         "answer": "In spring 1969, Whitethroats returned to Britain in drastically reduced numbers — a 77% population decline overnight. Investigation revealed a catastrophic drought in the Sahel region of West Africa (where Whitethroats winter), which had caused mass mortality on the wintering grounds. This was one of the first documented cases of African conditions directly impacting UK bird breeding populations — an early warning of the interconnected nature of migratory bird populations."
       }
-    ]
+    ],
+    "localImage": "/images/species/birds/common-whitethroat.jpg"
   },
   {
     "commonName": "Blackcap",

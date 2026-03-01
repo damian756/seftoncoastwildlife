@@ -42,21 +42,49 @@ async function fetchWithRetry(url, retries = 3) {
   return null;
 }
 
-async function getWikiImageUrl(title) {
+/**
+ * Returns an array of candidate image URLs to try in order.
+ * Uses summary API thumbnail (with size substitution), then the original
+ * thumbnail as-is, then the MediaWiki pageimages API at multiple sizes.
+ */
+async function getWikiImageCandidates(title) {
+  const candidates = [];
+
+  // 1. REST summary API
   const res = await fetchWithRetry(
     `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`
   );
-  if (!res) return null;
-  try {
-    const data = await res.json();
-    // Always use thumbnail.source as base — it reliably has the /\d+px- URL pattern
-    // for safe size substitution. originalimage is full-resolution and can be 100MB+.
-    const thumb = data.thumbnail?.source;
-    if (!thumb) return null;
-    return thumb.replace(/\/\d+px-([^/]+)$/, `/${TARGET_SIZE}px-$1`);
-  } catch {
-    return null;
+  if (res) {
+    try {
+      const data = await res.json();
+      const thumb = data.thumbnail?.source;
+      if (thumb) {
+        // Try requested size first, then fall back to whatever size the API returned
+        candidates.push(thumb.replace(/\/\d+px-([^/]+)$/, `/${TARGET_SIZE}px-$1`));
+        if (!candidates.includes(thumb)) candidates.push(thumb);
+      }
+    } catch { /* fall through */ }
   }
+
+  // 2. MediaWiki pageimages API — returns lead image even when summary API has no thumbnail
+  await sleep(DELAY_MS);
+  for (const size of [TARGET_SIZE, 1280, 320]) {
+    const mwRes = await fetchWithRetry(
+      `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(title)}&prop=pageimages&format=json&pithumbsize=${size}&origin=*`
+    );
+    if (!mwRes) continue;
+    try {
+      const mwData = await mwRes.json();
+      const pages = mwData?.query?.pages ?? {};
+      const page = Object.values(pages)[0];
+      const thumb = page?.thumbnail?.source;
+      if (thumb && !candidates.includes(thumb)) candidates.push(thumb);
+    } catch { /* fall through */ }
+    if (candidates.length > 0) break; // got something from MediaWiki, no need to try other sizes
+    await sleep(DELAY_MS);
+  }
+
+  return candidates;
 }
 
 const MAX_FILE_BYTES = 3 * 1024 * 1024; // 3 MB guard — thumbnail images should be well under this
@@ -109,37 +137,32 @@ async function main() {
       const title = s.wikipediaTitle ?? s.commonName;
       process.stdout.write(`  ↓ ${s.commonName} (${title})... `);
 
-      const imgUrl = await getWikiImageUrl(title);
-      if (!imgUrl) {
-        // Try scientific name as fallback
-        const fallbackUrl = s.wikipediaTitle ? await getWikiImageUrl(s.scientificName) : null;
-        if (!fallbackUrl) {
-          console.log("no image found");
-          totalFailed++;
-          await sleep(DELAY_MS);
-          continue;
+      // Gather all candidate URLs (primary title + scientific name fallback)
+      const candidates = await getWikiImageCandidates(title);
+      if (s.wikipediaTitle || candidates.length === 0) {
+        // Also try scientific name as an additional source
+        const sciCandidates = await getWikiImageCandidates(s.scientificName);
+        for (const url of sciCandidates) {
+          if (!candidates.includes(url)) candidates.push(url);
         }
-        const ok = await downloadImage(fallbackUrl, destPath);
-        if (ok) {
-          s.localImage = localImagePath;
-          changed = true;
-          console.log(`✓ (via scientific name)`);
-          totalDownloaded++;
-        } else {
-          console.log("download failed");
-          totalFailed++;
-        }
-      } else {
-        const ok = await downloadImage(imgUrl, destPath);
+      }
+
+      let downloaded = false;
+      for (const url of candidates) {
+        const ok = await downloadImage(url, destPath);
         if (ok) {
           s.localImage = localImagePath;
           changed = true;
           console.log("✓");
           totalDownloaded++;
-        } else {
-          console.log("download failed");
-          totalFailed++;
+          downloaded = true;
+          break;
         }
+      }
+
+      if (!downloaded) {
+        console.log("no image found");
+        totalFailed++;
       }
 
       await sleep(DELAY_MS);

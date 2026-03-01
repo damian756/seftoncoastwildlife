@@ -255,7 +255,8 @@
         "question": "Are Cinnabar Moths used for biological control of Ragwort?",
         "answer": "Cinnabar Moth has been trialled as a biocontrol agent for Ragwort in New Zealand, Australia and North America where Ragwort is an invasive weed. In the UK context, both Cinnabar Moth and Ragwort are native species and part of the dune grassland ecosystem — high caterpillar numbers can defoliate Ragwort plants but rarely eliminate them, and the moths themselves are an important part of the food web."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/cinnabar-moth.jpg"
   },
   {
     "commonName": "Shore Wainscot Moth",
@@ -289,7 +290,8 @@
         "question": "Why is the Shore Wainscot Moth restricted to coastal dunes?",
         "answer": "The Shore Wainscot Moth's larvae feed almost exclusively inside the rolled leaves of Marram Grass (Ammophila arenaria), which only grows on coastal sand dunes. This specialist relationship makes the moth entirely dependent on dune habitat. The moth's distribution closely tracks the distribution of Marram Grass around the British coast."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/shore-wainscot-moth.jpg"
   },
   {
     "commonName": "Emperor Moth",
@@ -714,7 +716,8 @@
         "question": "What are 'Clouded Yellow years'?",
         "answer": "Some years see enormous influxes of Clouded Yellows from southern Europe, when favourable winds carry large numbers across the Channel and into Britain. These 'Clouded Yellow years' (notably 1983, 1992, 2000) are memorable events for butterfly watchers. In good years, thousands may reach the Sefton Coast. The species cannot survive the UK winter — all individuals must either migrate south or perish."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/clouded-yellow.jpg"
   },
   {
     "commonName": "Small White",
@@ -750,7 +753,8 @@
         "question": "How do I tell Small White from Large White?",
         "answer": "Size is the main feature — Small White is noticeably smaller with weaker flight. On Large White the black wingtip extends much further down the wing edge, and the black spots (on females) are larger and bolder. The underside of Small White is yellow-green; Large White underside is whiter. Small White also tends to fly lower and more erratically."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/small-white.jpg"
   },
   {
     "commonName": "Large White",
@@ -1215,7 +1219,8 @@
         "question": "Why does the Poplar Hawkmoth not feed as an adult?",
         "answer": "Poplar Hawkmoths belong to a group of moths that have vestigial mouthparts — they physically cannot feed. All their energy for adult life (flying, mating, egg-laying) comes from fat reserves built up during the caterpillar stage. As a result, adults live only a few weeks. This is why females must mate quickly and lay eggs efficiently."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/poplar-hawkmoth.jpg"
   },
   {
     "commonName": "Hummingbird Hawkmoth",
@@ -1249,7 +1254,8 @@
         "question": "Is a Hummingbird Hawkmoth actually a hummingbird?",
         "answer": "No — there are no wild hummingbirds in the UK. The Hummingbird Hawkmoth (Macroglossum stellatarum) is a moth that has evolved to mimic hummingbird behaviour — hovering at flowers and extracting nectar with a long proboscis. This convergent evolution is extraordinary; the two animals are not related but have independently evolved identical feeding strategies. The Hawkmoth is much smaller than any hummingbird (wingspan ~5cm)."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/hummingbird-hawkmoth.jpg"
   },
   {
     "commonName": "Silver Y Moth",
@@ -1567,7 +1573,8 @@
         "question": "What is the 'wheel position' in damselflies?",
         "answer": "During mating, male damselflies (and dragonflies) grasp the female behind the head with specialised claspers at the tail tip. The female curves her abdomen forward to the male's secondary genitalia on the underside of his abdomen. This creates the distinctive wheel or heart shape seen when paired damselflies fly or rest together."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/common-blue-damselfly.jpg"
   },
   {
     "commonName": "Large Red Damselfly",
@@ -1601,7 +1608,8 @@
         "question": "Why does the Large Red Damselfly emerge earlier than other species?",
         "answer": "The Large Red Damselfly overwinters as a larva in a more advanced stage of development than most other species, allowing it to complete metamorphosis and emerge as an adult earlier in spring. Its tolerance of cooler temperatures also allows it to be active earlier. This early emergence reduces competition for food and mating opportunities."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/large-red-damselfly.jpg"
   },
   {
     "commonName": "Ruddy Darter",
@@ -2037,7 +2045,8 @@
         "question": "How do I tell Green Tiger Beetle from Northern Dune Tiger Beetle?",
         "answer": "Colour is the primary difference. Green Tiger Beetle is brilliant metallic green; Northern Dune Tiger Beetle is reddish-brown with pale markings. Habitat also helps — Green Tiger Beetle is found on heathland paths and fixed dune areas; Northern Dune Tiger Beetle is restricted to mobile fore-dunes and bare sand closest to the beach."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/green-tiger-beetle.jpg"
   },
   {
     "commonName": "Common Green Grasshopper",
@@ -2071,7 +2080,8 @@
         "question": "How do grasshoppers make their sound?",
         "answer": "Grasshoppers stridulate by rubbing a row of pegs on the inner surface of the hind legs against the edge of the forewing — the leg acting like a comb on a ridged surface. Each species has a characteristic song. On warm summer days in the dune grassland, the sound of multiple species singing simultaneously creates one of the characteristic soundscapes of the Sefton Coast."
       }
-    ]
+    ],
+    "localImage": "/images/species/insects/common-green-grasshopper.jpg"
   },
   {
     "commonName": "Meadow Grasshopper",
