@@ -70,7 +70,9 @@ export default async function HomePage() {
     recentPosts.map((p) =>
       p.heroLocalSrc
         ? Promise.resolve(p.heroLocalSrc)
-        : getWikipediaImage(p.heroWikipediaTitle).then((img) => img?.src ?? null)
+        : p.heroWikipediaTitle != null
+          ? getWikipediaImage(p.heroWikipediaTitle).then((img) => img?.src ?? null)
+          : Promise.resolve(null)
     )
   );
 
