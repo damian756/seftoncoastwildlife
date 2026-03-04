@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
+import { ClickableImage } from "@/components/ClickableImage";
 
 const title = "The Sefton Coast — Geography, Habitats & Wildlife";
 const description =
@@ -11,7 +11,14 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: url },
-  openGraph: { title, description, url, siteName: "Sefton Coast Wildlife", type: "article" },
+  openGraph: {
+    title,
+    description,
+    url,
+    siteName: "Sefton Coast Wildlife",
+    type: "article",
+    images: [{ url: "https://www.seftoncoastwildlife.co.uk/images/blog/beachcombing/compass-jellyfish-dogprints-ainsdale.webp" }],
+  },
   twitter: { card: "summary_large_image", title, description },
 };
 
@@ -36,6 +43,21 @@ export default function SeftonCoastPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+
+      {/* Hero image — before the header band */}
+      <div className="relative h-72 sm:h-96 w-full overflow-hidden bg-[var(--slate)]">
+        <ClickableImage
+          src="/images/blog/beachcombing/compass-jellyfish-dogprints-ainsdale.webp"
+          alt="Compass jellyfish stranded on the Ainsdale tideline with dog paw prints in the wet sand — Sefton Coast, winter"
+          className="w-full h-full object-cover object-center"
+          caption="The Sefton Coast tideline at Ainsdale — compass jellyfish with dog prints in the wet sand. Twenty-one miles of coast, most of it wild and free."
+          fill
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent pointer-events-none" />
+        <div className="absolute bottom-0 left-0 right-0 p-6 pointer-events-none">
+          <p className="text-xs text-white/50">The Sefton Coast at Ainsdale — 21 miles of coastline between the Mersey and the Ribble</p>
+        </div>
+      </div>
 
       {/* Page header band */}
       <div className="bg-[var(--forest)] text-white">
@@ -77,33 +99,47 @@ export default function SeftonCoastPage() {
         <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Key habitats</h2>
 
         <div className="space-y-6 mb-10">
+
+          {/* Saltmarsh */}
           <div className="rounded-xl border border-[var(--dune)] p-5">
-            <h3 className="font-bold text-[var(--forest)] mb-2">Saltmarsh and managed lagoons — Marshside & Crossens</h3>
-            <p className="text-[var(--slate)] text-sm leading-relaxed">
+            <h3 className="font-bold text-[var(--forest)] mb-2">Saltmarsh and managed lagoons — Marshside &amp; Crossens</h3>
+            <p className="text-[var(--slate)] text-sm leading-relaxed mb-4">
               At the northern end of the coast, the RSPB manages two reserves at Marshside and Hesketh Out Marsh. Tidal creeks, managed scrapes and saltmarsh grassland hold huge numbers of waders and wildfowl through winter. Pink-footed Geese from Iceland arrive in October — at peak, 80,000+ can be present on the Ribble. Breeding Avocets, Lapwing and Redshank nest here in summer.
             </p>
+            <div className="relative h-52 rounded-lg overflow-hidden">
+              <ClickableImage
+                src="/images/reserves/marshside/hero-coastal-reflection.jpg"
+                alt="The Marshside coastal saltmarsh path — sky and clouds reflected in a tidal pool, a walker in the distance"
+                className="w-full h-full object-cover object-center"
+                caption="Marshside coastal path — Redshank Road, SD 353204. The saltmarsh is part of the Ribble Estuary Special Protection Area."
+                fill
+              />
+              <p className="absolute bottom-2 left-3 right-3 text-white text-xs drop-shadow pointer-events-none">Marshside saltmarsh — part of the Ribble Estuary Special Protection Area</p>
+            </div>
           </div>
 
+          {/* Sand dunes */}
           <div className="rounded-xl border border-[var(--dune)] p-5">
             <h3 className="font-bold text-[var(--forest)] mb-2">Sand dunes — Ainsdale NNR and Formby</h3>
             <p className="text-[var(--slate)] text-sm leading-relaxed">
               The dune system at Ainsdale is one of the most extensive in England — mobile yellow dunes at the seaward edge, fixed grey dunes further back, and dune slacks (wet hollows between the ridges) that support nationally rare plants and the only natural breeding population of Natterjack Toad in the North West.
             </p>
-            <p className="text-[var(--slate)] text-sm leading-relaxed mt-2">
-              Rare dune plants including Grass of Parnassus, Round-leaved Wintergreen and Dune Helleborine grow at Ainsdale NNR. Access is managed — check Natural England&apos;s guidance before visiting the most sensitive areas.
+            <p className="text-[var(--slate)] text-sm leading-relaxed mt-2 mb-4">
+              Rare dune plants including Grass of Parnassus, Round-leaved Wintergreen and Dune Helleborine grow at Ainsdale NNR. Sea spurge lines the seaward dune face — toxic sap, striking fleshy leaves. Access is managed — check Natural England&apos;s guidance before visiting the most sensitive areas.
             </p>
-            <div className="relative h-52 rounded-lg overflow-hidden mt-4">
-              <Image
+            <div className="relative h-52 rounded-lg overflow-hidden">
+              <ClickableImage
                 src="/images/blog/beachcombing/sea-spurge-ainsdale-dunes.webp"
                 alt="Sea spurge on the Ainsdale sand dunes — a protected dune plant of the Sefton Coast SSSI"
+                className="w-full h-full object-cover object-center"
+                caption="Sea spurge on the Ainsdale dunes — one of the protected plants of the SSSI. The sap is toxic; do not handle."
                 fill
-                sizes="(max-width: 768px) 100vw, 700px"
-                className="object-cover object-center"
               />
-              <p className="absolute bottom-2 left-3 right-3 text-white text-xs drop-shadow">Sea spurge on the Ainsdale dunes — a protected plant of the Sefton Coast SSSI</p>
+              <p className="absolute bottom-2 left-3 right-3 text-white text-xs drop-shadow pointer-events-none">Sea spurge on the Ainsdale dunes — a protected plant of the Sefton Coast SSSI</p>
             </div>
           </div>
 
+          {/* Pinewoods */}
           <div className="rounded-xl border border-[var(--dune)] p-5">
             <h3 className="font-bold text-[var(--forest)] mb-2">Pinewoods — Formby (National Trust)</h3>
             <p className="text-[var(--slate)] text-sm leading-relaxed">
@@ -114,34 +150,36 @@ export default function SeftonCoastPage() {
             </p>
           </div>
 
+          {/* Beach and intertidal */}
           <div className="rounded-xl border border-[var(--dune)] p-5">
             <h3 className="font-bold text-[var(--forest)] mb-2">The beach and intertidal zone</h3>
             <p className="text-[var(--slate)] text-sm leading-relaxed">
-              Formby Beach is managed by the National Trust. The intertidal zone — the stretch exposed at low tide — is significant for roosting and feeding waders. Sanderling, Dunlin and Ringed Plover work the tideline year-round. Little Tern colonies nest on the beach at Ainsdale each summer — the colony is one of the most important in England and is wardened by the RSPB.
+              Formby Beach is managed by the National Trust. The intertidal zone — the stretch exposed at low tide — is significant for roosting and feeding waders. Sanderling, Dunlin and Ringed Plover work the tideline year-round. Little Tern colonies nest on the beach at Ainsdale each summer — the colony is one of the most important in England and is wardened by the RSPB. The strandline after winter storms regularly turns up mermaid&apos;s purses, barrel jellyfish, and whelk egg masses.
             </p>
             <div className="grid grid-cols-2 gap-3 mt-4">
               <div className="relative h-44 rounded-lg overflow-hidden">
-                <Image
-                  src="/images/blog/beachcombing/compass-jellyfish-dogprints-ainsdale.webp"
-                  alt="Compass jellyfish on the Ainsdale tideline with dog paw prints in the wet sand"
+                <ClickableImage
+                  src="/images/blog/beachcombing/barrel-jellyfish-ainsdale-beach.webp"
+                  alt="Barrel jellyfish stranded on Ainsdale Beach — common winter strandline find on the Sefton Coast"
+                  className="w-full h-full object-cover object-center"
+                  caption="Barrel jellyfish on the Ainsdale strandline — harmless, and common in winter and spring after storms."
                   fill
-                  sizes="50vw"
-                  className="object-cover object-center"
                 />
-                <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug">Compass jellyfish on the Ainsdale tideline — common summer strandings</p>
+                <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug pointer-events-none">Barrel jellyfish — common winter strandline find on the Sefton Coast</p>
               </div>
               <div className="relative h-44 rounded-lg overflow-hidden">
-                <Image
+                <ClickableImage
                   src="/images/blog/beachcombing/mermaids-purse-held-hand-ainsdale.webp"
                   alt="Mermaid's purse — catshark egg case — found on Ainsdale Beach"
+                  className="w-full h-full object-cover object-center"
+                  caption="Mermaid's purse — the empty egg case of a small-spotted catshark, washed up on Ainsdale Beach."
                   fill
-                  sizes="50vw"
-                  className="object-cover object-center"
                 />
-                <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug">Mermaid&apos;s purse — catshark egg case washed up on Ainsdale Beach</p>
+                <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug pointer-events-none">Mermaid&apos;s purse — catshark egg case washed up on Ainsdale Beach</p>
               </div>
             </div>
           </div>
+
         </div>
 
         <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">Species database</p>
@@ -176,8 +214,9 @@ export default function SeftonCoastPage() {
 
         <div className="flex flex-wrap gap-4 pt-4 border-t border-[var(--dune)]">
           <Link href="/nature/marshside-rspb" className="text-[var(--marsh)] font-medium hover:underline text-sm">Marshside RSPB Reserve →</Link>
+          <Link href="/nature/ainsdale-sand-dunes" className="text-[var(--marsh)] font-medium hover:underline text-sm">Ainsdale Sand Dunes NNR →</Link>
           <Link href="/birdwatching-guide" className="text-[var(--marsh)] font-medium hover:underline text-sm">Birdwatching guide →</Link>
-          <a href="https://www.formbyguide.co.uk" target="_blank" rel="noopener" className="text-[var(--marsh)] font-medium hover:underline text-sm">FormbyGuide — pinewoods & red squirrels →</a>
+          <a href="https://www.formbyguide.co.uk" target="_blank" rel="noopener" className="text-[var(--marsh)] font-medium hover:underline text-sm">FormbyGuide — pinewoods &amp; red squirrels →</a>
           <a href="https://www.southportguide.co.uk" target="_blank" rel="noopener" className="text-[var(--marsh)] font-medium hover:underline text-sm">SouthportGuide →</a>
         </div>
       </div>
