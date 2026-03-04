@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 const title = "The Sefton Coast — Geography, Habitats & Wildlife";
@@ -91,6 +92,16 @@ export default function SeftonCoastPage() {
             <p className="text-[var(--slate)] text-sm leading-relaxed mt-2">
               Rare dune plants including Grass of Parnassus, Round-leaved Wintergreen and Dune Helleborine grow at Ainsdale NNR. Access is managed — check Natural England&apos;s guidance before visiting the most sensitive areas.
             </p>
+            <div className="relative h-52 rounded-lg overflow-hidden mt-4">
+              <Image
+                src="/images/blog/beachcombing/sea-spurge-ainsdale-dunes.webp"
+                alt="Sea spurge on the Ainsdale sand dunes — a protected dune plant of the Sefton Coast SSSI"
+                fill
+                sizes="(max-width: 768px) 100vw, 700px"
+                className="object-cover object-center"
+              />
+              <p className="absolute bottom-2 left-3 right-3 text-white text-xs drop-shadow">Sea spurge on the Ainsdale dunes — a protected plant of the Sefton Coast SSSI</p>
+            </div>
           </div>
 
           <div className="rounded-xl border border-[var(--dune)] p-5">
@@ -108,6 +119,28 @@ export default function SeftonCoastPage() {
             <p className="text-[var(--slate)] text-sm leading-relaxed">
               Formby Beach is managed by the National Trust. The intertidal zone — the stretch exposed at low tide — is significant for roosting and feeding waders. Sanderling, Dunlin and Ringed Plover work the tideline year-round. Little Tern colonies nest on the beach at Ainsdale each summer — the colony is one of the most important in England and is wardened by the RSPB.
             </p>
+            <div className="grid grid-cols-2 gap-3 mt-4">
+              <div className="relative h-44 rounded-lg overflow-hidden">
+                <Image
+                  src="/images/blog/beachcombing/compass-jellyfish-dogprints-ainsdale.webp"
+                  alt="Compass jellyfish on the Ainsdale tideline with dog paw prints in the wet sand"
+                  fill
+                  sizes="50vw"
+                  className="object-cover object-center"
+                />
+                <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug">Compass jellyfish on the Ainsdale tideline — common summer strandings</p>
+              </div>
+              <div className="relative h-44 rounded-lg overflow-hidden">
+                <Image
+                  src="/images/blog/beachcombing/mermaids-purse-held-hand-ainsdale.webp"
+                  alt="Mermaid's purse — catshark egg case — found on Ainsdale Beach"
+                  fill
+                  sizes="50vw"
+                  className="object-cover object-center"
+                />
+                <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug">Mermaid&apos;s purse — catshark egg case washed up on Ainsdale Beach</p>
+              </div>
+            </div>
           </div>
         </div>
 

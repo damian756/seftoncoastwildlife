@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 const title = "Ainsdale Sand Dunes NNR — Natterjack Toads, Sand Lizards & Access Guide";
@@ -101,6 +102,20 @@ export default function AinsdaleSandDunesPage() {
         </div>
       </div>
 
+      {/* Hero image */}
+      <div className="relative h-64 sm:h-80 md:h-96 overflow-hidden">
+        <Image
+          src="/images/blog/beachcombing/sea-spurge-ainsdale-dunes.webp"
+          alt="Sea spurge growing on the Ainsdale sand dunes, Sefton Coast"
+          fill
+          sizes="100vw"
+          className="object-cover object-center"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+        <p className="absolute bottom-3 right-4 text-white/70 text-xs">Sea spurge on the Ainsdale dunes — part of the SSSI</p>
+      </div>
+
       <div className="mx-auto max-w-3xl px-4 py-10">
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
@@ -164,6 +179,30 @@ export default function AinsdaleSandDunesPage() {
             </p>
           </div>
 
+          {/* Dune plant images */}
+          <div className="grid grid-cols-2 gap-3 my-2">
+            <div className="relative h-48 rounded-xl overflow-hidden">
+              <Image
+                src="/images/blog/beachcombing/sea-spurge-ainsdale-dunes.webp"
+                alt="Sea spurge in the Ainsdale sand dunes"
+                fill
+                sizes="50vw"
+                className="object-cover object-center"
+              />
+              <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug">Sea spurge — toxic sap, fleshy yellow-green leaves</p>
+            </div>
+            <div className="relative h-48 rounded-xl overflow-hidden">
+              <Image
+                src="/images/blog/beachcombing/sea-spurge-closeup-ainsdale.webp"
+                alt="Sea spurge close-up on Ainsdale dunes"
+                fill
+                sizes="50vw"
+                className="object-cover object-center"
+              />
+              <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug">Sea spurge close-up — do not touch</p>
+            </div>
+          </div>
+
           <div className="border-l-4 border-rose-400 pl-5">
             <h3 className="font-semibold text-[var(--forest)] mb-1">Birds</h3>
             <p className="text-[var(--slate)] text-sm leading-relaxed">
@@ -225,9 +264,33 @@ export default function AinsdaleSandDunesPage() {
         <p className="text-[var(--slate)] mb-3 text-sm leading-relaxed">
           The National Trust Formby site (L37 1YH) is immediately to the north — the two reserves adjoin. You can walk between them along the beach at low tide, though the NT car park and Ainsdale car park are separate.
         </p>
-        <p className="text-[var(--slate)] mb-10 text-sm leading-relaxed">
+        <p className="text-[var(--slate)] mb-6 text-sm leading-relaxed">
           By train: Ainsdale station is on the Merseyrail Northern Line — a 15-minute walk to the beach. Much easier than dealing with the car park on summer weekends.
         </p>
+
+        {/* Access images */}
+        <div className="grid grid-cols-2 gap-3 mb-10">
+          <div className="relative h-44 rounded-xl overflow-hidden">
+            <Image
+              src="/images/blog/beachcombing/england-coast-path-sign-ainsdale.webp"
+              alt="England Coast Path sign at Ainsdale"
+              fill
+              sizes="50vw"
+              className="object-cover object-center"
+            />
+            <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug">England Coast Path runs through Ainsdale</p>
+          </div>
+          <div className="relative h-44 rounded-xl overflow-hidden">
+            <Image
+              src="/images/blog/beachcombing/sefton-coast-natural-home-sign.webp"
+              alt="Sefton Coast — Natural Home sign at Ainsdale"
+              fill
+              sizes="50vw"
+              className="object-cover object-top"
+            />
+            <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug">Sefton Coast — Natural Home sign at the reserve entrance</p>
+          </div>
+        </div>
 
         <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
           Common questions
