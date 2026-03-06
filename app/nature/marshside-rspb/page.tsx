@@ -157,7 +157,7 @@ export default function MarshsidePage() {
             <tbody className="divide-y divide-[var(--foam)]">
               <tr className="py-2"><td className="py-2 font-medium w-36">Postcode</td><td className="py-2">PR9 9PH (Marshside Road layby) · SD 353204 (Redshank Road car park)</td></tr>
               <tr><td className="py-2 font-medium">Entry</td><td className="py-2">Free. RSPB members and non-members alike</td></tr>
-              <tr><td className="py-2 font-medium">Car park</td><td className="py-2">RSPB car park on Redshank Road — £1.50 up to 2 hours, £3.00 over 2 hours. RSPB members and Blue Badge holders free. Pay and display (Flowbird machine, card/contactless). Car park locked at closing time.</td></tr>
+              <tr><td className="py-2 font-medium">Car park</td><td className="py-2"><a href="https://www.southportguide.co.uk/parking/parking-rspb-marshside" target="_blank" rel="noopener" className="text-[var(--marsh)] underline underline-offset-2">RSPB car park on Redshank Road</a> — £1.50 up to 2 hours, £3.00 over 2 hours. RSPB members and Blue Badge holders free. Pay and display (Flowbird machine, card/contactless). Car park locked at closing time.</td></tr>
               <tr><td className="py-2 font-medium">Car park hours</td><td className="py-2">8:30am–4pm (1 Nov–1 Mar) · 8:30am–5pm (2 Mar–31 Oct) · Open every day including bank holidays and Christmas</td></tr>
               <tr><td className="py-2 font-medium">Nel&apos;s Hide</td><td className="py-2">Open 8:30am–4pm. Guide dogs only inside the hide. No smoking.</td></tr>
               <tr><td className="py-2 font-medium">Dogs</td><td className="py-2">On leads at all times. Dog zone on the coastal saltmarsh path — keep to the track. Nel&apos;s Hide: guide dogs only.</td></tr>
@@ -373,7 +373,7 @@ export default function MarshsidePage() {
         </p>
         <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-3">How to find it</h2>
         <p className="text-[var(--slate)] mb-3 text-sm leading-relaxed">
-          <strong>By car:</strong> From Southport, head north along Marshside Road (postcode PR9 9PH). For Nel&apos;s Hide and the RSPB car park, follow signs for Redshank Road off Marine Drive — the blue &apos;RSPB Marshside P&apos; directional signs are visible at the junction. Grid reference SD 353204. The car park is locked at closing time — do not stay past 4pm (winter) or 5pm (summer).
+          <strong>By car:</strong> From Southport, head north along Marshside Road (postcode PR9 9PH). For Nel&apos;s Hide and the <a href="https://www.southportguide.co.uk/parking/parking-rspb-marshside" target="_blank" rel="noopener" className="text-[var(--marsh)] underline underline-offset-2">RSPB car park</a>, follow signs for Redshank Road off Marine Drive — the blue &apos;RSPB Marshside P&apos; directional signs are visible at the junction. Grid reference SD 353204. The car park is locked at closing time — do not stay past 4pm (winter) or 5pm (summer).
         </p>
         <p className="text-[var(--slate)] mb-10 text-sm leading-relaxed">
           <strong>By public transport:</strong> Southport is on the Merseyrail Northern Line from Liverpool. The reserve is about 25 minutes on foot from Lord Street, or a short bus ride to Marshside Road.

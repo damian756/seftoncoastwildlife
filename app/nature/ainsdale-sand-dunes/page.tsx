@@ -151,7 +151,7 @@ export default function AinsdaleSandDunesPage() {
             <tbody className="divide-y divide-[var(--foam)]">
               <tr className="py-2"><td className="py-2 font-medium w-36">Postcode</td><td className="py-2">PR8 2QA (Shore Road, Ainsdale)</td></tr>
               <tr><td className="py-2 font-medium">Entry</td><td className="py-2">Free. Open access at all times</td></tr>
-              <tr><td className="py-2 font-medium">Parking</td><td className="py-2">Ainsdale Beach car park (Sefton Council — paid). The NNR is directly accessible from the beach</td></tr>
+              <tr><td className="py-2 font-medium">Parking</td><td className="py-2"><a href="https://www.southportguide.co.uk/parking/parking-ainsdale-beach-parking-area" target="_blank" rel="noopener" className="text-[var(--marsh)] underline underline-offset-2">Ainsdale Beach car park</a> (Sefton Council — paid). The NNR is directly accessible from the beach</td></tr>
               <tr><td className="py-2 font-medium">Managed by</td><td className="py-2">Natural England</td></tr>
               <tr><td className="py-2 font-medium">Dogs</td><td className="py-2">Permitted, under close control. On leads Mar–Aug near dune slacks and vegetated areas</td></tr>
               <tr><td className="py-2 font-medium">Facilities</td><td className="py-2">No on-site facilities. Ainsdale village is 10 minutes walk with cafés and shops</td></tr>
@@ -337,7 +337,7 @@ export default function AinsdaleSandDunesPage() {
         </p>
         <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-3">How to find it</h2>
         <p className="text-[var(--slate)] mb-3 text-sm leading-relaxed">
-          <strong>By car:</strong> Postcode <strong>PR8 2QA</strong> takes you to Shore Road, Ainsdale. Park at Ainsdale Beach car park (Sefton Council, pay and display). The NNR begins immediately north of the beach car park — walk north along the beach or take the footpath through the dunes heading inland.
+          <strong>By car:</strong> Postcode <strong>PR8 2QA</strong> takes you to Shore Road, Ainsdale. Park at <a href="https://www.southportguide.co.uk/parking/parking-ainsdale-beach-parking-area" target="_blank" rel="noopener" className="text-[var(--marsh)] underline underline-offset-2">Ainsdale Beach car park</a> (Sefton Council, pay and display). The NNR begins immediately north of the beach car park — walk north along the beach or take the footpath through the dunes heading inland.
         </p>
         <p className="text-[var(--slate)] mb-3 text-sm leading-relaxed">
           The National Trust Formby site (L37 1YH) is immediately to the north — the two reserves adjoin. You can walk between them along the beach at low tide, though the NT car park and Ainsdale car park are separate.
