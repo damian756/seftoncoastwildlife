@@ -153,6 +153,25 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
         ))}
 
+        {/* Related species / pages */}
+        {post.relatedLinks && post.relatedLinks.length > 0 && (
+          <div className="mt-10 pt-6 border-t border-[var(--dune)]">
+            <h2 className="font-display text-lg font-bold text-[var(--forest)] mb-4">Species covered in this post</h2>
+            <div className="grid sm:grid-cols-2 gap-3">
+              {post.relatedLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="flex flex-col rounded-xl border border-[var(--foam)] bg-[var(--dune)]/40 px-4 py-3 hover:border-[var(--marsh)] hover:bg-[var(--dune)] transition-colors"
+                >
+                  <span className="text-sm font-semibold text-[var(--forest)] mb-0.5">{link.label}</span>
+                  <span className="text-xs text-[var(--slate)]/70 leading-relaxed">{link.description}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Tags */}
         {post.tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-10 pt-6 border-t border-[var(--dune)]">

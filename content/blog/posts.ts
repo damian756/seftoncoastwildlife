@@ -22,6 +22,7 @@ export interface BlogPost {
     imageAfter?: { src: string; alt: string; caption: string; objectPosition?: string };
   }[];
   tags: string[];
+  relatedLinks?: { label: string; href: string; description: string }[];
 }
 
 export const BLOG_CATEGORIES: Record<BlogCategory, { label: string; description: string }> = {
@@ -48,6 +49,103 @@ export const BLOG_CATEGORIES: Record<BlogCategory, { label: string; description:
 };
 
 export const BLOG_POSTS: BlogPost[] = [
+  {
+    slug: "march-sefton-coast-wildlife",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "What to See on the Sefton Coast in March",
+    date: "2026-03-12",
+    metaDescription:
+      "March on the Sefton Coast — Pink-footed Geese building up to leave, Avocets arriving, Brown Hares boxing, and the first signs of spring in the dune system. What to look for and where to go.",
+    heroLocalSrc: "/images/blog/march-sefton-coast-wildlife.jpg",
+    heroAlt: "Pink-footed goose in flight over Sefton Coast marshland at dusk",
+    intro:
+      "March is a transition month on the Sefton Coast. Winter's not done — you'll still be cold, you'll still want waterproofs — but things are moving. The Pink-footed Geese are starting to thin out. The Avocets are back at Marshside. In the farmland behind the sea wall, Brown Hares are boxing in the early morning fields. And in the dune slack ponds, Common Frogs have been spawning since February. Worth going out for all of it.",
+    sections: [
+      {
+        heading: "Pink-footed Geese — catch them before they go",
+        body: [
+          "The Pink-footed Geese have been roosting at Marshside RSPB since October. By late March, numbers start to fall. The birds are building condition for the migration back to Iceland and Greenland, and the skeins thin out week by week. You can still get 10,000–20,000 at the dusk roost in early March — later in the month it drops off quickly.",
+          "Go to the Marshside car park 30 minutes before sunset on a clear evening. The birds come in from the south and west, off the farmland fields where they've been feeding all day. Bring a flask. It's still cold. The noise as the first skeins arrive is something you don't forget.",
+          "If you've never seen the Marshside roost, March is your last chance until October. Don't leave it too late in the month.",
+        ],
+        imageAfter: {
+          src: "/images/blog/march-sefton-coast-wildlife.jpg",
+          alt: "Pink-footed goose in flight over Sefton Coast marshland at dusk",
+          caption: "Pink-footed Geese return to Iceland in March–April — catch the Marshside roost in early March before numbers drop",
+        },
+      },
+      {
+        heading: "Avocets back at Marshside",
+        body: [
+          "Avocets start returning to Marshside RSPB from late February into March. They breed on the scrape — the shallower lagoon area visible from the road — and by April the site can hold 30–40 pairs. In March you'll see early arrivals prospecting.",
+          "Avocets are one of conservation's genuine success stories. They were extinct as a British breeding bird by 1840, then recolonised naturally in the 1940s and have been expanding since. Marshside is one of the northern strongholds. Visible from the road or the short walk along the sea wall — you don't need to go far.",
+          "Teal, Gadwall, Shoveler and Goldeneye are all still on the lagoons in early March. Winter wildfowl numbers start dropping through the month as birds return to breeding grounds. If you want to compare them all in one visit, early March is the best time.",
+        ],
+      },
+      {
+        heading: "Brown Hares boxing in the farmland",
+        body: [
+          "The 'mad March hares' behaviour is real and it peaks in March. Drive slowly along the lanes around Banks and Hesketh Bank at dawn. The farmland fields behind the sea wall hold a reasonable Brown Hare population and in early spring the fields are bare enough to see across them properly.",
+          "What you're watching when you see hares boxing is usually a female knocking back an unwanted male. It's not males fighting each other — it's the doe making her preferences clear. Sometimes energetically. It can go on for a sustained time and both animals get some height off the ground.",
+          "They're easiest to spot at first light on a still morning when the air is clear. If you see one running fast in the open, stay still — they often stop, sit up and look around before moving on.",
+        ],
+      },
+      {
+        heading: "First signs in the dune system",
+        body: [
+          "Common Frogs have been breeding since late February in the dune slack ponds at Ainsdale. By early March the spawn masses are visible — floating clusters of black-dotted jelly at the pond surface. The ponds themselves are worth spending time at in March because they also show up the first pond insects of the year.",
+          "Natterjack Toads are still quiet in early March — they start calling on warm evenings from late March into April. A mild spell at the end of March can trigger the first chorus at Ainsdale NNR. If it's above 10°C on a still evening after dark, it's worth checking.",
+          "Sand Lizards begin emerging from hibernation on south-facing dune slopes from mid-March onwards when there's sun. The males are brown at this stage — they won't colour up to vivid green until April and May. A south-facing sandy slope on a warm morning at Ainsdale NNR is the place to look. Move slowly.",
+        ],
+      },
+      {
+        heading: "Wader movement beginning",
+        body: [
+          "Wader migration on the Sefton Coast picks up from mid-March. Ringed Plovers start moving through and early Sanderling can appear on the beach in the second half of the month. The beach at low tide is worth scanning systematically — most people walk past good waders without noticing them.",
+          "Redshank are present year-round and March is a good time to look properly at the waders on Marshside as the winter visitors are still present alongside early migrants. By April the scrape is busy; March is the quieter lead-up.",
+          "Oystercatchers are loud and obvious throughout the month. Their piping calls at low tide are one of the defining sounds of the coast in early spring.",
+        ],
+      },
+      {
+        heading: "Where to go this month",
+        body: [
+          "Marshside RSPB (Southport end): Pink-footed Goose roost in early March, Avocets arriving, winter wildfowl still on the lagoons. The car park off Marshside Road is free. An hour at dusk on a clear day is worth it.",
+          "Ainsdale NNR: Common Frog spawn in the dune slack ponds, early Sand Lizard if the weather is kind, Brown Hares on the dune grassland edge. Walk out from the car park on Shore Road.",
+          "Hesketh Bank farmland: Brown Hare and Pink-footed Goose feeding during the day. Drive the lanes slowly at first light.",
+          "Formby Beach: Low-tide wader watching along the tideline. Sanderling and Ringed Plover from mid-March. Worth combining with a walk through the pinewoods — Roe Deer are occasionally visible at the woodland edge at dawn.",
+        ],
+      },
+    ],
+    tags: [
+      "March",
+      "seasonal watching",
+      "Pink-footed Goose",
+      "Avocet",
+      "Brown Hare",
+      "Common Frog",
+      "Sand Lizard",
+      "Natterjack Toad",
+      "Marshside RSPB",
+      "Ainsdale NNR",
+      "Sefton Coast",
+      "spring migration",
+    ],
+    relatedLinks: [
+      { label: "Pink-footed Goose", href: "/birds/pink-footed-goose", description: "The Marshside roost — up to 40,000 birds. October to April." },
+      { label: "Avocet", href: "/birds/avocet", description: "Returning from late February. Breeds on the Marshside scrape." },
+      { label: "Brown Hare", href: "/mammals/brown-hare", description: "Boxing behaviour peaks in March. Farmland behind the sea wall." },
+      { label: "Common Frog", href: "/mammals/common-frog", description: "Spawn masses in dune slack ponds from late February." },
+      { label: "Sand Lizard", href: "/mammals/sand-lizard", description: "First emergence mid-March on south-facing dune slopes at Ainsdale." },
+      { label: "Natterjack Toad", href: "/mammals/natterjack-toad", description: "First calling late March on warm evenings at Ainsdale NNR." },
+      { label: "Teal", href: "/birds/teal", description: "Winter visitor, still present in early March on Marshside lagoons." },
+      { label: "Goldeneye", href: "/birds/goldeneye", description: "Winter wildfowl leaving in March. Worth catching before they go." },
+      { label: "Sanderling", href: "/birds/sanderling", description: "First spring migrants arriving on Formby Beach from mid-March." },
+      { label: "Redshank", href: "/birds/redshank", description: "Year-round on the Sefton Coast. Active and obvious in March." },
+      { label: "Roe Deer", href: "/mammals/roe-deer", description: "Present in Formby pinewoods. Dawn walks in March occasionally produce sightings." },
+      { label: "Otter", href: "/mammals/otter", description: "Low density but present in drainage channels. Dawn is the best chance." },
+    ],
+  },
   {
     slug: "natterjack-toad-sefton-coast",
     category: "conservation",
