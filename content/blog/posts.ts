@@ -657,6 +657,242 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
     tags: ["jellyfish", "barrel jellyfish", "compass jellyfish", "Ainsdale Beach", "Sefton Coast", "beachcombing", "marine wildlife"],
   },
+
+  {
+    slug: "april-sefton-coast-wildlife",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "What to See on the Sefton Coast in April",
+    date: "2026-03-17",
+    metaDescription:
+      "April on the Sefton Coast — Natterjack Toads calling for the first time, Sand Lizards appearing on warm dune slopes, Avocets on the Marshside scrape, and the Sefton Coast at its spring best. What to look for and where to go.",
+    heroLocalSrc: "/images/blog/april-sefton-coast-wildlife.jpg",
+    heroAlt: "Spring wildlife scene on the Sefton Coast dunes in April, with nesting birds and greening vegetation",
+    intro:
+      "April is the month the Sefton Coast wakes up properly. The Pink-footed Geese have gone. In their place: Natterjack Toads calling on warm evenings, Sand Lizards basking on south-facing dune slopes, and Avocets on the Marshside scrape beginning to pair up and display. The winter birding season is closing; the summer one is opening. April is genuinely one of the best months to be out here.",
+    sections: [
+      {
+        heading: "Natterjack Toads — the first chorus",
+        body: [
+          "The Natterjack Toad breeding season starts when evening temperatures rise above about 10°C consistently — that means late March into April on the Sefton Coast, depending on the weather. The males gather at the dune slack ponds at Ainsdale NNR and produce a remarkable rasping, churring call that carries a long way on a still night.",
+          "To hear the chorus, go to Ainsdale NNR on a warm, still evening in April — ideally above 12°C after dark. The NNR is off Shore Road, Ainsdale. You don't need to enter the reserve to hear the calling; stand near the boundary on a warm night and it's audible from outside.",
+          "The Natterjack Toad is Britain's rarest amphibian. The Sefton Coast holds one of the largest breeding populations in the country — around 30% of the British total. Hearing the April chorus is one of the genuinely unusual wildlife experiences available on this stretch of coast.",
+        ],
+      },
+      {
+        heading: "Sand Lizards — spring emergence",
+        body: [
+          "Sand Lizards come out of hibernation from mid-March onwards, but April is when you start seeing them reliably. The males have brown, cryptically patterned flanks at this stage — they won't colour up to the vivid breeding green until late April and May. Even without the green colouration, they're distinctive once you know the shape.",
+          "South-facing dune slopes at Ainsdale NNR are the reliable locations. The lizards need direct morning sun to warm up before they become active — go between 10am and noon when the sun is on the south-facing slopes. Move slowly. They'll freeze if you approach carefully but will bolt if you're careless. A patient approach from a distance gives you time to watch them basking.",
+          "Sand Lizards are a protected species. Don't attempt to handle them or disturb their basking spots. The populations here are genuinely important nationally.",
+        ],
+        imageAfter: {
+          src: "/images/blog/sand-lizard-ainsdale.jpg",
+          alt: "Sand Lizard male on warm dune sand at Ainsdale NNR, showing green breeding colouration",
+          caption: "Sand Lizard in breeding condition — the vivid green flanks develop in late April and May. Earlier in the month they're browner but still recognisable.",
+        },
+      },
+      {
+        heading: "Avocets at Marshside",
+        body: [
+          "The Avocet colony at Marshside RSPB is well established by April. Breeding pairs are on the scrape, and by mid-April territorial disputes and courtship displays are visible from the road or the sea wall walk. In a good year, 40–50 pairs use the site.",
+          "The Avocet is one of conservation's clearest success stories — extinct as a British breeding bird by 1840, recolonised naturally in Suffolk in the 1940s, and now established at a handful of key sites including Marshside. The RSPB uses it as its logo for good reason.",
+          "Access: the Marshside scrape is visible from Marshside Road (the road alongside the RSPB reserve). Free access to the sea wall path. The car park off Marshside Road is also free. You can see the Avocets clearly from the road without entering the reserve.",
+        ],
+      },
+      {
+        heading: "Spring migrants arriving",
+        body: [
+          "April brings the first summer migrants through the Sefton Coast. Wheatears appear on the beach and dune edges in early April — small, upright chat-like birds with a distinctive white rump visible in flight. They're often on open sandy areas and are easy to spot once you know what to look for.",
+          "Willow Warblers sing from the scrub areas throughout April — the gentle, descending cascade of notes is one of the definitive sounds of spring on the coast. Sand Martins over the beach and dune ponds from April onwards. First Swallows usually mid-April.",
+          "The Sefton Coast is on a major migration corridor. The beach and dune edge in April can hold anything — scan carefully, especially after strong southerly winds.",
+        ],
+      },
+      {
+        heading: "Where to go in April",
+        body: [
+          "Marshside RSPB (off Marshside Road, Southport): Avocets displaying and breeding, winter wildfowl still departing, early wader movement. Best in the morning. Car park free.",
+          "Ainsdale NNR (Shore Road, Ainsdale): Sand Lizards on south-facing dune slopes from mid-morning, Natterjack Toad ponds, dune vegetation starting to green up. Evenings for Natterjack calling.",
+          "Formby Beach (L37 1YH): Wheatears on the open beach, Sand Martins over the dune ponds, Oystercatchers nesting on the beach edge.",
+          "Hesketh Bank farmland: Brown Hares still visible in April, quieter than March but still worth a slow drive at first light.",
+        ],
+      },
+    ],
+    tags: [
+      "April",
+      "seasonal watching",
+      "Natterjack Toad",
+      "Sand Lizard",
+      "Avocet",
+      "Wheatear",
+      "Willow Warbler",
+      "spring migration",
+      "Marshside RSPB",
+      "Ainsdale NNR",
+      "Sefton Coast",
+    ],
+    relatedLinks: [
+      { label: "Natterjack Toad", href: "/mammals/natterjack-toad", description: "Britain's rarest amphibian — one of the largest breeding populations in the UK is here." },
+      { label: "Sand Lizard", href: "/mammals/sand-lizard", description: "South-facing dune slopes at Ainsdale. Emerge mid-March, colour up in April–May." },
+      { label: "Avocet", href: "/birds/avocet", description: "Breeding at Marshside from late February. 40–50 pairs in a good year." },
+      { label: "Wheatear", href: "/birds/wheatear", description: "First spring migrants on the beach and dune edges, early April." },
+      { label: "What to see in March", href: "/blog/march-sefton-coast-wildlife", description: "The transition month — Pink-footed Geese departing, Avocets arriving, Brown Hares boxing." },
+    ],
+  },
+
+  {
+    slug: "sand-lizard-sefton-coast",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlights",
+    title: "Sand Lizard — Britain's Most Colourful Reptile, on Your Doorstep",
+    date: "2026-03-18",
+    metaDescription:
+      "The Sand Lizard at Ainsdale NNR on the Sefton Coast — one of the best places in Britain to see this protected species. When to go, where to look, and what you'll actually see.",
+    heroLocalSrc: "/images/blog/sand-lizard-ainsdale.jpg",
+    heroAlt: "Sand Lizard male in vivid green breeding condition basking on warm dune sand at Ainsdale NNR",
+    intro:
+      "The Sand Lizard is the rarest reptile in Britain and one of the most striking. The breeding males, in April and May, are bright vivid green on their flanks — an almost tropical colour on a British dune system. Ainsdale NNR on the Sefton Coast is one of the key Sand Lizard sites in England. They're here in reasonable numbers and they're findable if you know when and where to look.",
+    sections: [
+      {
+        heading: "Why the Sefton Coast matters for Sand Lizards",
+        body: [
+          "Sand Lizards need two things: open, south-facing sandy slopes for basking and egg-laying, and areas of dense vegetation for shelter and invertebrate food. The dune system at Ainsdale NNR provides both — open blowouts and south-facing dune faces alongside dense marram grass and scrub.",
+          "The Sefton Coast supports one of the most significant Sand Lizard populations in north-west England. They were once more widespread along the coast but habitat loss — development, dune stabilisation, vegetation succession — reduced populations dramatically in the 20th century. Active conservation management at Ainsdale NNR, including controlled scrub clearance and grazing to maintain open dune habitat, is the reason the population is stable here now.",
+          "The nearest comparable populations in England are in Dorset and Surrey heathland. The Sefton Coast is an isolated northern outpost, which makes it both more significant nationally and more interesting ecologically.",
+        ],
+      },
+      {
+        heading: "Identification",
+        body: [
+          "Outside breeding season, Sand Lizards are brown and patterned — rows of pale spots on a dark brown background. Males and females look similar from a distance in this condition. The pattern is distinctive once you know it but easy to miss if you're scanning quickly.",
+          "In April and May, breeding males develop vivid green flanks. The green is intense — genuinely bright in direct sunlight. This is the colouration most photographs show. If you visit in late April or May on a warm day, a basking male is unmistakable from a few metres away.",
+          "Common Lizards also occur in the dune system and are more frequently seen. Common Lizards are smaller and more uniformly brown — no pale spot pattern. If you see a small brown lizard moving quickly, it's probably a Common Lizard. If you see a larger, heavier-looking lizard with a spotted pattern basking slowly on a sunny slope, that's a Sand Lizard.",
+        ],
+        imageAfter: {
+          src: "/images/blog/sand-lizard-ainsdale.jpg",
+          alt: "Sand Lizard basking on warm dune sand — vivid green flanks visible in breeding condition",
+          caption: "The vivid green breeding colouration of a male Sand Lizard. This level of colour is only visible April–May. Outside that window, they're brown and more cryptic.",
+        },
+      },
+      {
+        heading: "When to go",
+        body: [
+          "The window for seeing Sand Lizards on the Sefton Coast runs from late March to October, with the best sightings between April and June. Outside this period they're in hibernation.",
+          "The single most important factor is weather. Lizards need direct sunshine to warm up before they become active. A cloudy April day with wind will produce no sightings even in a good location. A warm, sunny morning with light wind on a south-facing slope is when you'll find them.",
+          "Best timing: 10am to noon. Early enough that the sun has warmed the slopes but before peak temperatures in the afternoon when lizards may retreat to cover. A warm, sunny day after a cold night tends to produce the most visible basking behaviour.",
+        ],
+      },
+      {
+        heading: "Where to look",
+        body: [
+          "Ainsdale NNR is the site. The NNR is managed by Natural England and has a network of paths through the dune system. The relevant habitat is south-facing dune faces — look for slopes where bare sand is mixed with marram grass and the aspect faces roughly south.",
+          "Walk slowly. Look for movement on the sand surface or the lowest parts of the vegetation. A Sand Lizard in good light on a clear sand surface is not hard to see — the difficulty is finding the right slope on the right day. Scan each slope for 30–60 seconds before moving on.",
+          "Don't approach closer than about three metres. Sand Lizards will freeze for a sustained period if they don't feel threatened, allowing proper observation. Sudden movement causes them to bolt. Take your time.",
+        ],
+      },
+      {
+        heading: "The ecology — what they're doing there",
+        body: [
+          "Sand Lizards are predators of invertebrates — beetles, spiders, grasshoppers. They're also prey for Kestrel, Stoat, Weasel, and domestic cats (which is why cat control near key sites matters). The food web of a dune system runs partly through the lizard population.",
+          "Females lay eggs in shallow scrapes in warm sand in May and June — they're incubated by the sun rather than brooded. This is why open, south-facing sand is so important. A dune system with no open sand — fully vegetated and stabilised — cannot support Sand Lizards. The conservation management work to create and maintain bare sand patches is directly enabling reproduction.",
+          "The population at Ainsdale has been the subject of long-term monitoring. Current status is stable to slightly improving — a good result for a species that was in decline nationally for most of the 20th century.",
+        ],
+      },
+    ],
+    tags: [
+      "Sand Lizard",
+      "reptiles",
+      "Ainsdale NNR",
+      "Sefton Coast",
+      "species spotlight",
+      "conservation",
+      "spring",
+      "dune habitat",
+    ],
+    relatedLinks: [
+      { label: "April wildlife guide", href: "/blog/april-sefton-coast-wildlife", description: "April on the Sefton Coast — Sand Lizards, Natterjack Toads and spring migrants." },
+      { label: "Natterjack Toad", href: "/mammals/natterjack-toad", description: "The other key dune reptile/amphibian. Calls on warm evenings from late April." },
+      { label: "Dune slack habitat guide", href: "/blog/dune-slack-habitat-guide", description: "The wet dune slacks — a different habitat that supports different species." },
+      { label: "Understanding sand dunes", href: "/blog/understanding-sand-dunes", description: "How the dune system works and what each zone supports." },
+    ],
+  },
+
+  {
+    slug: "dune-slack-habitat-guide",
+    category: "habitat-guides",
+    categoryLabel: "Habitat Guides",
+    title: "Dune Slacks — The Wetland in the Middle of the Dunes",
+    date: "2026-03-19",
+    metaDescription:
+      "Dune slacks on the Sefton Coast — the shallow wetland depressions between dune ridges that support Natterjack Toads, Marsh Orchids, and rare invertebrates. What they are and why they matter.",
+    heroLocalSrc: "/images/blog/dune-slack-habitat.jpg",
+    heroAlt: "Dune slack wetland at Ainsdale NNR — shallow water between dune ridges with aquatic vegetation and reeds",
+    intro:
+      "Most people walking the Sefton Coast dunes notice the high ridges of sand, the marram grass, the open beach. What they often walk straight past is the dune slacks — the shallow, damp or waterlogged depressions between the dune ridges. They don't look dramatic. They are, in ecological terms, the most important habitat on the coast.",
+    sections: [
+      {
+        heading: "What a dune slack is",
+        body: [
+          "A dune slack forms when wind erosion lowers the sand surface down to the level of the water table. The result is a shallow, flat-bottomed depression that's either permanently damp, seasonally flooded, or occasionally underwater. The water table on the Sefton Coast sits relatively close to the surface in many areas, so slacks can form anywhere erosion is active.",
+          "Slacks vary in size from a few square metres to several hectares. They range from almost permanently dry (dry slacks, with moisture-dependent grassland) through to seasonally wet and permanently waterlogged. Each condition supports different communities of plants and animals.",
+          "The dune system at Ainsdale and Birkdale holds one of the best examples of a dune slack series in England — multiple slacks at different successional stages, from newly formed open water through to mature willow scrub enclosing the water. This range of stages within a small area is what makes the site nationally important.",
+        ],
+      },
+      {
+        heading: "The plants",
+        body: [
+          "Dune slack vegetation is distinct from the surrounding dune system. In wet slacks, look for Creeping Willow (low-growing, spreading along the ground rather than growing into a tree), Marsh Pennywort (round, lily-pad like leaves on long stems across wet ground), and in the wetter areas, Common Reed and Bulrush.",
+          "The drier slack margins are where the orchids appear. Northern Marsh Orchid and Bee Orchid both occur in the Ainsdale NNR slacks. June is the month for orchids on the Sefton Coast — the displays in a good year are significant, particularly in the dry slack grassland areas.",
+          "Round-leaved Wintergreen is an indicator of old, stable dune slack — a small, low-growing plant that only occurs in habitats with a long, undisturbed history. Where you find it, you're standing in habitat that's been ecologically intact for a long time.",
+        ],
+        imageAfter: {
+          src: "/images/blog/dune-slack-habitat.jpg",
+          alt: "Dune slack at Ainsdale NNR with standing water, aquatic vegetation and dune ridges in background",
+          caption: "A dune slack in the Ainsdale NNR complex — standing water between dune ridges supporting aquatic vegetation. The water table here is at or near the surface year-round.",
+        },
+      },
+      {
+        heading: "The animals",
+        body: [
+          "Dune slacks are the breeding habitat for Natterjack Toads on the Sefton Coast. The females lay eggs in shallow, warm, permanent or semi-permanent water. The key requirement is that the water stays warm and doesn't flood quickly — the tadpoles need enough time to develop and metamorphose before any flash flooding, and the shallowness means the water heats rapidly in spring sun.",
+          "The invertebrate fauna of dune slacks is specialised and significant. Several rare hoverflies, beetles and water beetles are associated with dune slack habitat nationally, with several species having their strongholds on the Sefton Coast.",
+          "Waders and waterfowl use the larger, wetter slacks as feeding and roosting habitat. Snipe probe for invertebrates in the soft slack substrate in winter. Teal use the more open water areas. Sedge Warbler and Reed Bunting breed in the tall vegetation margins.",
+        ],
+      },
+      {
+        heading: "Threats and conservation",
+        body: [
+          "The primary threat to dune slacks on the Sefton Coast is vegetation succession. Without active management, the slacks progressively fill with willow scrub — Creeping Willow transitions to Grey Willow, then to dense thickets that shade out the water and the specialist slack vegetation. Within 30–50 years, an unmanaged wet slack can become closed woodland.",
+          "Management interventions include scrub clearance, controlled grazing (cattle and Konik ponies have been used on the Sefton Coast to graze dune vegetation), and in some cases mechanical scrape of accumulated organic material. The goal is to maintain open water or damp grassland conditions rather than allowing succession to scrub and woodland.",
+          "The dune system is also under pressure from declining water tables — reduced rainfall and groundwater extraction have lowered the water table in some areas, leaving slacks that were formerly wet now dry for extended periods. This reduces the habitat available to water-dependent species.",
+        ],
+      },
+      {
+        heading: "Where to see dune slacks",
+        body: [
+          "Ainsdale NNR (Shore Road, Ainsdale PR8 2QB): the core site for dune slack wildlife on the Sefton Coast. The network of paths through the reserve passes several slack complexes. Spring and early summer are the best times — orchids in June, Natterjack Toads calling from April.",
+          "Birkdale Hills Local Nature Reserve (Birkdale, Southport): accessible via the public footpath network. Less managed than Ainsdale NNR but holds good slack habitat.",
+          "What to bring: binoculars for the birds; a hand lens if you want to look at plants and invertebrates properly. Waterproof footwear — even in dry conditions the slack margins are soft and damp.",
+        ],
+      },
+    ],
+    tags: [
+      "dune slacks",
+      "habitat guides",
+      "Ainsdale NNR",
+      "Sefton Coast",
+      "Natterjack Toad",
+      "Marsh Orchid",
+      "wetland habitat",
+      "dune conservation",
+    ],
+    relatedLinks: [
+      { label: "Natterjack Toad", href: "/mammals/natterjack-toad", description: "The dune slack specialist — breeds in warm shallow slack water from April." },
+      { label: "Understanding sand dunes", href: "/blog/understanding-sand-dunes", description: "The full dune system guide — how each zone forms and what it supports." },
+      { label: "April wildlife guide", href: "/blog/april-sefton-coast-wildlife", description: "What to see in April — Natterjack Toads calling and Sand Lizards emerging." },
+      { label: "Sand Lizard spotlight", href: "/blog/sand-lizard-sefton-coast", description: "The protected reptile that depends on open dune habitat alongside the slacks." },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
