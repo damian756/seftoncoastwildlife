@@ -65,8 +65,10 @@ export default async function HomePage() {
   const mammalCount = getAllSpecies("mammals").length;
   const totalCount = birdCount + insectCount + plantCount + mammalCount;
 
-  // Fetch 3 recent blog post hero images
-  const recentPosts = BLOG_POSTS.slice(-3).reverse();
+  // Fetch 3 recent blog post hero images (sorted newest first)
+  const recentPosts = [...BLOG_POSTS]
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 3);
   const blogImages = await Promise.all(
     recentPosts.map((p) =>
       p.heroLocalSrc

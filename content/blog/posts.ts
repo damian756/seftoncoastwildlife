@@ -818,6 +818,202 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
+    slug: "easter-weekend-wildlife-walk-ainsdale",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "Easter Weekend Wildlife Walk at Ainsdale NNR — What to Look For",
+    date: "2026-04-03",
+    metaDescription:
+      "Easter weekend is a great time for a wildlife walk at Ainsdale NNR. Sand Lizards emerging, Natterjacks starting to call, spring migrants arriving. Practical guide to what to look for and when.",
+    heroLocalSrc: "/images/blog/blog-ainsdale-easter-walk.jpg",
+    heroAlt: "Family walking through the dunes at Ainsdale National Nature Reserve on a spring day",
+    intro:
+      "Easter weekend and Ainsdale NNR is worth going to. The Sand Lizards are out on warm mornings — basking in the first decent sunshine of the year. The Natterjack Toads have started calling from the dune slack ponds after dark. The first Willow Warblers and Chiffchaffs are in the scrub. It's one of those spring moments when the reserve feels like it's switched back on after winter.",
+    sections: [
+      {
+        heading: "Sand Lizards — the right conditions",
+        body: [
+          "Sand Lizards come out to bask on warm, sunny mornings from late March onward. Easter weekend, in a normal year, is right at the start of the reliable season. What you need is sunshine and a south-facing sandy slope sheltered from the wind. The lizards position themselves at 90 degrees to the sun to maximise heat absorption.",
+          "The best spots at Ainsdale NNR are on the open sandy dune faces away from the main footpaths. Look for bare sand with sparse vegetation at the edges — that's the habitat. Move slowly, keep low, and scan the sand ahead of you before you walk. The lizards will disappear into vegetation at the first vibration. Once you know what a basking Sand Lizard looks like — bright green flanks on males in breeding condition, brown and patterned on females — you start seeing them where you'd previously walked past.",
+          "Go between 9am and 11am on a sunny day. That's the prime basking window before the lizards become active and mobile. After midday they're harder to spot because they're moving rather than sitting still.",
+        ],
+      },
+      {
+        heading: "Natterjack Toads — dusk and after dark",
+        body: [
+          "The Natterjack Toad calling season starts in April on the Sefton Coast. The males call from the shallow dune slack ponds to attract females — a loud, rattling churr that carries surprisingly far on a still evening. On a warm April night the calling can be heard from 400 metres.",
+          "Easter weekend is early in the season. A few males will be calling already if the nights have been warm enough. Wrap up, go to the dune slack area at Ainsdale NNR after dark (torches essential), and listen. If you hear what sounds like a distant generator or rattling engine coming from a pond in the dunes, that's them.",
+          "The Natterjack Toad is one of Britain's rarest amphibians. The Sefton Coast holds one of the largest UK populations. Hearing them on an April evening in the dune slacks is genuinely memorable.",
+        ],
+        imageAfter: {
+          src: "/images/blog/blog-ainsdale-easter-walk.jpg",
+          alt: "Family on sandy dune path at Ainsdale NNR in spring sunshine",
+          caption: "Ainsdale NNR on a spring morning — Sand Lizards bask on the open dune faces from late March.",
+        },
+      },
+      {
+        heading: "Spring migrants in the scrub",
+        body: [
+          "By Easter the first spring migrants are in. Chiffchaff has been back since mid-March — you'll hear its repetitive chiff-chaff call from any patch of scrub or woodland. Willow Warbler is the next arrival: similar habitat, similar size, but the song is completely different — a beautiful descending cascade of notes that starts strongly and fades. Once you know the Willow Warbler song you'll hear it everywhere in April.",
+          "Blackcap and Garden Warbler start arriving in April. The Blackcap has a rich, varied warbling song — stronger and more varied than the Willow Warbler. The males arrive before females and establish territories in dense scrub. The scrub margins around Ainsdale NNR are good habitat for both.",
+          "Wheatear passes through in April on its way to upland breeding areas. Look for it on the open dune crests — a small, upright bird with a distinctive white rump that flashes as it flies. Not a breeding species on the Sefton Coast but a reliable spring passage migrant.",
+        ],
+      },
+      {
+        heading: "Practical walk guide",
+        body: [
+          "Ainsdale NNR entrance is off Shore Road, Ainsdale, PR8 2QB. There's a small car park. The reserve is open and free to walk at any time. Dogs on leads in the dune area — the Sand Lizards and Natterjack Toads are the reason.",
+          "Allow two hours minimum for a proper walk through the dune system. Take the path into the dunes from the car park and work through the open sandy areas first (Sand Lizards), then the dune slack area (Natterjack Toad habitat and wetland birds), then back via the scrub margin (spring migrants). Binoculars essential. Good footwear — the sand is soft in places and the slack margins are damp.",
+          "Easter weekend will have other visitors. Go early morning (before 9am for Sand Lizards) or after dark (for Natterjacks) to avoid the main daytime foot traffic. The dune system is large enough to absorb visitors without ruining the wildlife watching, but quieter conditions always help.",
+        ],
+      },
+    ],
+    tags: [
+      "Ainsdale NNR",
+      "Sand Lizard",
+      "Natterjack Toad",
+      "spring wildlife",
+      "Easter",
+      "Sefton Coast",
+      "seasonal watching",
+      "spring migrants",
+    ],
+    relatedLinks: [
+      { label: "Sand Lizard on the Sefton Coast", href: "/blog/sand-lizard-sefton-coast", description: "Full species guide to Sand Lizards — habitat, identification and where to see them." },
+      { label: "Natterjack Toad spotlight", href: "/blog/natterjack-toad-sefton-coast", description: "The dune slack specialist — biology, conservation status and the calling season." },
+      { label: "April wildlife guide", href: "/blog/april-sefton-coast-wildlife", description: "What else is happening on the Sefton Coast in April." },
+    ],
+  },
+
+  {
+    slug: "swallows-return-sefton-coast-2026",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "The Swallows Are Back — First Hirundines on the Sefton Coast, April 2026",
+    date: "2026-04-03",
+    metaDescription:
+      "Swallows, House Martins and Sand Martins return to the Sefton Coast in April. What to look for, where to see them, and what the arrival of hirundines tells you about the season.",
+    heroLocalSrc: "/images/blog/blog-swallows-return.jpg",
+    heroAlt: "Two barn swallows perched on a wire against a blue sky in spring",
+    intro:
+      "The Swallows are back. First ones on the Sefton Coast this week — a pair over the Marshside pools on Tuesday morning, and a single over the dunes at Ainsdale on Thursday. Every year the first Swallow feels like the same thing: confirmation that the season has actually turned. April without them is winter. April with them is spring.",
+    sections: [
+      {
+        heading: "The three hirundines — who arrives when",
+        body: [
+          "The hirundine family on the Sefton Coast means Swallow, House Martin, and Sand Martin. All three are summer visitors that spend winter in sub-Saharan Africa. All three return to the coast in April, but at slightly different times.",
+          "Sand Martin is typically first. They often arrive in mid-to-late March — a pale, brown-above, white-below martin with a distinctive breast band. They breed in sandy river banks and coastal cliffs rather than on buildings. The Sefton Coast doesn't have a large Sand Martin colony but they pass through in numbers on spring and autumn passage.",
+          "Swallow arrives next, usually early April. The bird most people recognise: metallic blue upperparts, russet throat, long tail streamers on adults. Breeds in farm buildings and barns throughout the Sefton Coast hinterland. Once Swallows arrive you see them consistently from April through October.",
+          "House Martin is last to arrive, often mid-April. White rump is the key field mark when one flies overhead. Nests under the eaves of houses — look for colonies on farm buildings and older houses near the coast.",
+        ],
+        imageAfter: {
+          src: "/images/blog/blog-swallows-return.jpg",
+          alt: "Two barn swallows perched on a wire, metallic blue and russet plumage, blue sky background",
+          caption: "Barn Swallows on a wire — the tail streamers, russet throat and metallic blue back are the key field marks.",
+        },
+      },
+      {
+        heading: "Where to see them on the Sefton Coast",
+        body: [
+          "Marshside RSPB is a reliable hirundine site in April. The open water and reed margins attract insects, and Swallows and House Martins feed low over the water on calm evenings. Park at the Marshside Road car park (PR9 9LH) and walk the coastal path — hirundines will be feeding over the pools to the west.",
+          "Farmland between Formby and Southport is good Swallow country once they've arrived. The birds nest in farm buildings and feed over the adjacent fields and hedgerows. Drive slowly on the minor roads between the coast and the A565 in April and you'll see them repeatedly.",
+          "The dune margin at Ainsdale NNR can have hirundines feeding over the open dune slacks on warm afternoons when the insect activity is high.",
+        ],
+      },
+      {
+        heading: "What to do with a first Swallow record",
+        body: [
+          "If you see a Swallow, House Martin, or Sand Martin on the Sefton Coast and it's your first of the year, report it to BirdTrack (bto.org/birdtrack). First arrival dates are a long-running dataset across the UK — every record contributes to understanding how climate change is shifting migration phenology. It takes three minutes and the data is genuinely used.",
+          "The iRecord app (from the Biological Records Centre) is the other option — you can record any wildlife sighting, not just birds. For a new Swallow record in early April, the date, location and count are all you need.",
+        ],
+      },
+    ],
+    tags: [
+      "Swallow",
+      "House Martin",
+      "Sand Martin",
+      "hirundines",
+      "spring migration",
+      "Marshside",
+      "Sefton Coast",
+      "April",
+    ],
+    relatedLinks: [
+      { label: "March wildlife guide", href: "/blog/march-sefton-coast-wildlife", description: "What was happening last month — the Pink-footed Geese departure and first spring arrivals." },
+      { label: "April wildlife guide", href: "/blog/april-sefton-coast-wildlife", description: "The full picture of what to look for across the Sefton Coast in April." },
+      { label: "Marshside RSPB guide", href: "/blog/nels-hide-marshside-guide", description: "The reserve guide — where to park, where to watch, what to expect." },
+    ],
+  },
+
+  {
+    slug: "marsh-orchids-dune-slack-spring",
+    category: "habitat-guides",
+    categoryLabel: "Habitat Guides",
+    title: "Marsh Orchids in the Dune Slacks — What to Expect This Spring and Summer",
+    date: "2026-04-04",
+    metaDescription:
+      "Northern Marsh Orchids flower in the Sefton Coast dune slacks from late May into June. What to look for, where the best displays are, and how the dune slack habitat makes them possible.",
+    heroLocalSrc: "/images/blog/blog-marsh-orchids.jpg",
+    heroAlt: "Northern Marsh Orchids growing in a dune slack wetland with shallow water and dune ridges behind",
+    intro:
+      "Late May and June are the months for orchids on the Sefton Coast. The Northern Marsh Orchid is the main event — purple-pink flower spikes rising from the damp ground of the dune slacks, sometimes in dense clusters that cover the slack floor. We're a few weeks away from peak flowering, but April is the right time to start paying attention: the plants are emerging from the ground now and the timing of this year's display will depend on how warm the next few weeks are.",
+    sections: [
+      {
+        heading: "What dune slack orchids need",
+        body: [
+          "Northern Marsh Orchid (Dactylorhiza purpurella) grows in damp, calcareous grassland — exactly the conditions the dune slack floor provides. The dune slacks at Ainsdale NNR sit at or near the water table, the sand has been stabilised long enough to accumulate a thin layer of organic material, and the vegetation is kept open enough by management to prevent succession to willow scrub closing over the orchid habitat.",
+          "This combination of conditions is rare in England. The Sefton Coast dune system holds one of the strongest Northern Marsh Orchid populations in the country, precisely because the habitat requirements are met across a large area.",
+          "Bee Orchid also occurs in the drier slack margins and on stabilised dune grassland. Look for them from late June — a flower that really does look like a bumblebee sitting on a flower. Common Spotted Orchid is also present in places.",
+        ],
+        imageAfter: {
+          src: "/images/blog/blog-marsh-orchids.jpg",
+          alt: "Northern Marsh Orchids in flower in a dune slack at Ainsdale NNR, shallow water behind",
+          caption: "Northern Marsh Orchids in a dune slack — the shallow standing water behind is the Natterjack Toad breeding pond that the orchids surround.",
+        },
+      },
+      {
+        heading: "When to go for the best display",
+        body: [
+          "Northern Marsh Orchid in the Sefton Coast dune slacks typically peaks between late May and mid-June. Earlier in a warm spring, later in a cool one. April is too early for flowers but the right time to start planning a June visit.",
+          "Bee Orchids come slightly later — late June is the reliable window. They're less dense than the Marsh Orchids but more striking individually. Finding a good Bee Orchid on the open dune grassland above the slacks is one of the genuinely satisfying things about a June visit to Ainsdale.",
+          "The best years for orchid displays tend to follow winters with good rainfall to maintain water table levels in the slacks, followed by a warm April and May. The 2025 display was strong across Ainsdale NNR. 2026 is looking similarly well-set.",
+        ],
+      },
+      {
+        heading: "Where to find them — practical guide",
+        body: [
+          "Ainsdale NNR (Shore Road, Ainsdale PR8 2QB) is the core site. The dune slack complex immediately inland of the foredune is where the main orchid populations occur. Follow the path from the car park into the reserve, pass through the first dune ridges, and drop into the slack area. In a good year you'll see orchid spikes from the path.",
+          "The Birkdale Hills Local Nature Reserve is the other site. Less managed but holds good populations in some of the slack areas accessible from the public footpath network. Less predictable year to year.",
+          "What to bring: binoculars (for the birds in the same habitat), a hand lens (orchid identification is more satisfying up close), and waterproof footwear. The slack margins are soft and damp even in June.",
+        ],
+      },
+      {
+        heading: "The management that makes this possible",
+        body: [
+          "The orchid displays at Ainsdale NNR exist because of active habitat management. Without scrub clearance and controlled grazing, the dune slacks would succeed to willow woodland within decades, shading out the open ground conditions the orchids need.",
+          "Natural England and the Sefton Coast Partnership manage the NNR. The scrub clearance work is visible in winter — sections of the reserve are opened up and the vegetation cut back. What looks like disturbance in January is the reason for the orchid display in June. The management history of each slack directly determines what flowers in it.",
+          "Konik ponies have been used in the Ainsdale dune system as conservation grazing animals — low-intensity grazing that mimics the historical dune-grazing regime and maintains the open ground the orchids and other slack specialists need. If you see them in the reserve, keep a respectful distance.",
+        ],
+      },
+    ],
+    tags: [
+      "marsh orchids",
+      "Northern Marsh Orchid",
+      "Bee Orchid",
+      "dune slacks",
+      "Ainsdale NNR",
+      "Sefton Coast",
+      "June",
+      "habitat guides",
+    ],
+    relatedLinks: [
+      { label: "Dune slack habitat guide", href: "/blog/dune-slack-habitat-guide", description: "Full guide to the dune slack ecosystem — formation, species, and conservation." },
+      { label: "Natterjack Toads in the dune slacks", href: "/blog/natterjack-toad-sefton-coast", description: "The toad that shares dune slack habitat with the orchids — breeding season runs April to June." },
+      { label: "April wildlife guide", href: "/blog/april-sefton-coast-wildlife", description: "What's happening on the Sefton Coast right now — before the orchids arrive." },
+    ],
+  },
+
+  {
     slug: "dune-slack-habitat-guide",
     category: "habitat-guides",
     categoryLabel: "Habitat Guides",
@@ -893,6 +1089,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { label: "Sand Lizard spotlight", href: "/blog/sand-lizard-sefton-coast", description: "The protected reptile that depends on open dune habitat alongside the slacks." },
     ],
   },
+
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
