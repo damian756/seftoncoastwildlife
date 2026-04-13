@@ -1090,6 +1090,130 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
 
+  {
+    slug: "roe-deer-formby-pinewoods",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlights",
+    title: "Roe Deer in Formby Pinewoods: The Deer Most Visitors Don't Know Are There",
+    date: "2026-04-02",
+    metaDescription:
+      "Roe Deer live in Formby pinewoods year-round. Where to look, when to go, and what to expect from one of the most overlooked mammals on the Sefton Coast.",
+    heroWikipediaTitle: "Roe deer",
+    heroAlt: "Roe deer in woodland — the species present in Formby pinewoods year-round",
+    intro:
+      "The Formby pinewoods are known for red squirrels. Natterjack Toads draw wildlife watchers from across the country. Roe Deer don't get mentioned in most guides, and yet they're there, year-round, in the mixed woodland between the National Trust pines and the farmland edge. If you're in the pinewoods at dawn and you move quietly enough, a Roe Deer is a realistic sighting. Most people who visit don't even know to look.",
+    sections: [
+      {
+        heading: "The Formby population",
+        body: [
+          "Roe Deer (Capreolus capreolus) are present in and around the Formby pinewoods throughout the year. They favour the woodland edge — the transitional zone between the mature pines and the farmland to the east — where cover is available but open ground is close. The denser stands of pines tend to hold fewer deer than the mixed woodland with hazel, birch and lower shrub layer.",
+          "Population numbers aren't formally monitored at Formby the way they are at some National Nature Reserves, but walkers who are in the pinewoods regularly report sightings throughout the year. Dawn and dusk movements account for the majority of observations.",
+        ],
+      },
+      {
+        heading: "How to actually see them",
+        body: [
+          "The key is timing. Roe Deer are crepuscular — most active around dawn and dusk. A walk into the pinewoods 30 minutes before sunrise, when the light is just beginning to filter through, gives you the best chance of encountering deer before the main wave of visitors arrives. The same applies in the evening, though morning tends to be more reliable.",
+          "Move slowly and stop often. Roe Deer detect movement more readily than static shapes. If you stand still for two or three minutes in a location with a clear sight line through the trees, deer that would have fled from a walking figure will often continue feeding or moving. Binoculars help — a deer in dappled pine shadow at 80 metres is easy to miss with the naked eye.",
+          "The woodland edge near the northern boundary of the National Trust land and the farmland tracks east of the pines are worth checking. The Roe Deer here use the field edges in early morning to feed in the open, then retreat into woodland cover as the day progresses.",
+        ],
+      },
+      {
+        heading: "What you're looking for",
+        body: [
+          "Roe Deer are relatively small: about the size of a large dog, around 65–75cm at the shoulder. The summer coat is a rich reddish-brown; winter coat is grey-brown and thicker. The distinctive white rump patch (the 'target') is obvious when the deer is moving away. Roe tend to stand with head held high when alert, then drop and bolt quickly when they decide you're a threat.",
+          "The bark of a Roe Deer — a short, sharp 'roe' call — is often the first sign that a deer has detected you and is deciding whether to run. If you hear it, stop and look carefully in the direction the sound came from. The deer may hold its position for some time before deciding you're harmless.",
+        ],
+      },
+      {
+        heading: "Spring and the rut",
+        body: [
+          "The Roe Deer rut runs from late July into August on the Sefton Coast. Unlike most British deer, Roe rut in midsummer: the bucks are territorial and active, marking scrapes and pursuing does. This is not the best time to find deer in the pinewoods from a public access point of view — the National Trust land has visitor numbers that push deer into quieter areas. But the fields east of the pines, accessible by footpath, may show more activity.",
+          "In spring (April and May), the does are heavily pregnant and tend to stay in cover. Young fawns are born in May and June and remain hidden in vegetation for the first weeks of life. If you find a lone fawn in the pinewoods apparently abandoned, it almost certainly isn't — the doe is nearby and will return when she judges it safe. Leave it completely alone.",
+        ],
+      },
+      {
+        heading: "The broader picture",
+        body: [
+          "Roe Deer are widespread across most of England and not a conservation priority species. Their presence in Formby pinewoods isn't remarkable in a national sense, but it's a genuine wildlife encounter that most visitors to the NT site don't realise is available. The Sefton Coast is better known for its rare and specialist species — the Natterjack Toad, the Sand Lizard, the red squirrel — but the deer add something to a dawn visit that's worth knowing about.",
+          "They're quiet, they're wild, and they'll be watching you long before you see them. That's part of the appeal.",
+        ],
+      },
+    ],
+    tags: ["Roe Deer", "mammals", "Formby pinewoods", "National Trust", "species spotlight", "wildlife watching"],
+    relatedLinks: [
+      { label: "Red squirrel, Formby", href: "/mammals/red-squirrel", description: "The Formby pinewoods hold one of England's most accessible red squirrel populations." },
+      { label: "April wildlife guide", href: "/blog/april-sefton-coast-wildlife", description: "What to look for on the Sefton Coast in April, including dawn woodland mammals." },
+      { label: "Formby pinewoods habitat", href: "/blog/understanding-sand-dunes", description: "Understanding the dune and woodland habitat that makes Formby unique." },
+    ],
+  },
+
+  {
+    slug: "common-tern-sefton-coast",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "Common Tern on the Sefton Coast: The Summer Arrival Worth Waiting For",
+    date: "2026-04-02",
+    metaDescription:
+      "Common Terns arrive on the Sefton Coast from late April. Where to find them, what they're doing, and why they're worth looking for properly rather than just noting as 'seagull-like bird.'",
+    heroWikipediaTitle: "Common tern",
+    heroAlt: "Common Tern in flight — the summer visitor that arrives on the Sefton Coast in late April",
+    intro:
+      "Common Terns arrive on the Sefton Coast from late April and stay through to September. Most people see them without really seeing them — a white bird hovering over water before diving, filed mentally as 'big seagull.' They're not gulls. They're long-distance migrants, arriving from West Africa having crossed the Sahara and the Bay of Biscay. Once you've looked at one properly, you won't confuse it again.",
+    sections: [
+      {
+        heading: "When and where they arrive",
+        body: [
+          "The first Common Terns appear on the Sefton Coast from late April, with numbers building through May as breeding birds settle and migrants pass through. Marine Lake in Southport and Marshside RSPB are the most reliable sites. The restored RSPB lagoons at Marshside hold a nesting colony most years — look for the characteristic hovering and plunge-diving behaviour over the shallower water areas.",
+          "By June, the breeding season is underway. Common Terns nest on shingle spits, flat sandy areas, and occasionally on artificial tern rafts provided by conservation managers. On the Sefton Coast, the nesting colonies are small compared to major sites like those on the Farne Islands, but the birds are present and watchable.",
+        ],
+      },
+      {
+        heading: "What to look for",
+        body: [
+          "Common Terns are distinctive once you know the features. Bright orange-red bill with a black tip (not all-yellow like an Arctic Tern). Black cap, pale grey upperparts, white below. Long forked tail. Flight is buoyant and graceful — more so than any gull. The hovering behaviour before a plunge-dive is characteristic and once seen, diagnostic.",
+          "Arctic Terns also pass through the Sefton Coast in spring migration. The distinction matters: Arctic Terns have an all-red bill (no black tip), shorter legs, and marginally longer tail streamers. When both species are present in late April, comparing them side by side is instructive. Don't stress the ID on a bird seen briefly at distance — the common rule applies here.",
+        ],
+      },
+      {
+        heading: "Marshside RSPB: the best site",
+        body: [
+          "Marshside is the most productive site on the Sefton Coast for Common Terns. The managed lagoons provide good fishing opportunities and, in some years, nesting habitat on the islands within the scrape. Check the RSPB sightings board at the car park for recent reports before walking out.",
+          "The lagoon viewpoints along the sea wall give good views over the water. Late morning is usually productive — the terns fish actively when light is strong and direct. Bring binoculars at minimum; a telescope is worthwhile if you're specifically watching terns rather than passing through.",
+          "The car park is off Marshside Road, Southport. Free parking. The walk to the main viewpoints is around 10 minutes on a flat, surfaced path. Accessible for most visitors.",
+        ],
+      },
+      {
+        heading: "Marine Lake, Southport",
+        body: [
+          "Common Terns use Marine Lake regularly during spring and summer. The lake's artificial islands provide occasional roosting opportunities, and the terns fish along the northern end of the lake and the tidal gut where it connects to the sea. Viewable from the Marine Drive road — no specialist access needed.",
+          "Numbers at Marine Lake are lower than at Marshside, but sightings are more casual and easier for visitors based in the town centre. Worth scanning the lake surface if you're walking the Promenade in late spring.",
+        ],
+      },
+      {
+        heading: "Why they matter",
+        body: [
+          "Common Terns are amber-listed in the UK, indicating a population concern. The UK breeding population has declined over recent decades, partly due to loss of suitable nesting habitat on coasts and inland waterbodies. Managed sites like Marshside RSPB contribute to the national population, however modestly.",
+          "There is also something worth saying about where these birds have come from. A Common Tern arriving in Southport in late April has spent the winter on the coast of West Africa, primarily Ghana and Côte d'Ivoire. It has crossed the Sahara and the Bay of Biscay. The bird hovering over the Marine Lake on a calm Tuesday morning in May has done something genuinely remarkable to get there.",
+        ],
+      },
+    ],
+    tags: [
+      "Common Tern",
+      "seabirds",
+      "summer visitors",
+      "Marshside RSPB",
+      "Marine Lake",
+      "spring migration",
+      "Sefton Coast",
+    ],
+    relatedLinks: [
+      { label: "Marshside RSPB guide", href: "/blog/nels-hide-marshside-guide", description: "Complete guide to Marshside — best viewing spots, what to expect each season." },
+      { label: "April wildlife guide", href: "/blog/april-sefton-coast-wildlife", description: "What's arriving on the Sefton Coast this month — including the first terns." },
+      { label: "Photographing waders and seabirds", href: "/blog/photographing-waders-marshside", description: "Practical photography tips for birds at Marshside and the coast." },
+    ],
+  },
+
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
