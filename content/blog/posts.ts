@@ -1095,7 +1095,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "species-spotlight",
     categoryLabel: "Species Spotlights",
     title: "Roe Deer in Formby Pinewoods: The Deer Most Visitors Don't Know Are There",
-    date: "2026-04-02",
+    date: "2026-04-13",
     metaDescription:
       "Roe Deer live in Formby pinewoods year-round. Where to look, when to go, and what to expect from one of the most overlooked mammals on the Sefton Coast.",
     heroWikipediaTitle: "Roe deer",
@@ -1153,7 +1153,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "seasonal-watching",
     categoryLabel: "Seasonal Watching",
     title: "Common Tern on the Sefton Coast: The Summer Arrival Worth Waiting For",
-    date: "2026-04-02",
+    date: "2026-04-12",
     metaDescription:
       "Common Terns arrive on the Sefton Coast from late April. Where to find them, what they're doing, and why they're worth looking for properly rather than just noting as 'seagull-like bird.'",
     heroWikipediaTitle: "Common tern",
