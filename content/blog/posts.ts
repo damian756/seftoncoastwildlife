@@ -1214,6 +1214,140 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
 
+  {
+    slug: "natterjack-toads-sefton-coast",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlights",
+    title: "Natterjack Toads on the Sefton Coast: When to Hear Them and Where to Go",
+    date: "2026-04-02",
+    metaDescription:
+      "The Sefton Coast holds one of the UK's largest Natterjack Toad populations. Find out when they breed, where to hear the chorus, and what makes these dunes so important for their survival.",
+    heroLocalSrc: "/images/blog/blog-natterjack-dune-pool.jpg",
+    heroAlt: "A shallow dune slack pond at sunset surrounded by marram grass — Natterjack Toad breeding habitat on the Sefton Coast",
+    intro:
+      "The Natterjack Toad is one of the rarest amphibians in the UK. It lives in a handful of places along the north-west coast, and the Sefton Coast dunes hold one of its most important populations in the country. Between late March and June, on warm still evenings after dark, the males produce a chorus that's audible from a remarkable distance. If you haven't heard it, you've been missing something.",
+    sections: [
+      {
+        heading: "Why the Sefton Coast?",
+        body: [
+          "Natterjack Toads need very specific habitat: open, sandy ground with shallow, warm pools for breeding. The dune slack ponds at Ainsdale National Nature Reserve and Freshfield Dune Heath are exactly that. The pools warm up fast in spring because they're shallow and exposed, which the toads need for egg development. The open sandy dune habitat gives them room to forage and burrow.",
+          "This combination — warm shallow water, open sand, mild maritime climate — is rare in the UK. The Sefton Coast dunes are one of the few places where it still exists at scale. That's why the population here matters and why it's been subject to specific conservation management, including pool creation and scrub clearance to keep the habitat open.",
+          "The national population was estimated at around 30,000 adults across all UK sites. A significant proportion of those animals are on the Sefton Coast. That gives a sense of how important this stretch of coastline is.",
+        ],
+      },
+      {
+        heading: "When to hear the chorus",
+        body: [
+          "The males start calling on warm evenings from late March, though in a cool spring it can be well into April before numbers build. The peak chorus runs from mid-April through May. By mid-June most breeding activity is over.",
+          "The key conditions: temperature above 10°C after dark, low wind, ideally still air. On the right night the chorus carries 500 metres or more. It's a persistent, rasping rattle — often described as a cross between a cricket and a motorbike engine. Once you've heard it, you won't confuse it with anything else.",
+          "Go after dark. The toads emerge and call from around 9pm onwards on a suitable evening. Take a torch. Don't shine it directly into the pools — give the animals time to get used to the light. You'll usually hear them well before you see them.",
+        ],
+        imageAfter: {
+          src: "/images/blog/blog-natterjack-dune-pool.jpg",
+          alt: "Shallow dune slack pond at dusk in the Sefton Coast dunes — Natterjack Toad breeding habitat",
+          caption: "Dune slack ponds like this warm up fast in spring. The Natterjacks need the water temperature to be right before egg development will succeed.",
+        },
+      },
+      {
+        heading: "Where exactly to go",
+        body: [
+          "Ainsdale National Nature Reserve is the most accessible site. The NNR car park is on Shore Road, Ainsdale (PR8 2QD). Walk out from the car park towards the dune slacks — there are several pools within easy walking distance. The reserve wardens can advise on current pool locations if you want to plan ahead.",
+          "Freshfield Dune Heath (part of the Formby complex) also holds toads and is worth visiting if you're further south. The Natterjack walk at Freshfield takes you through suitable habitat — the signs are clear.",
+          "Do not go looking at Birkdale Sandhills Local Nature Reserve without checking access first. Some areas are managed specifically for ground-nesting birds during the breeding season and disturbance restrictions apply.",
+        ],
+      },
+      {
+        heading: "The conservation context",
+        body: [
+          "Natterjacks were extinct across most of their former range in England by the late twentieth century. They need a very specific kind of management: keeping the dune slacks open, preventing scrub encroachment, and in some cases creating new shallow pools. The work that's been done on the Sefton Coast over the past 30 years has stabilised and in places grown the local population.",
+          "They're a European Protected Species, which means it's a criminal offence to disturb them, damage their habitat, or handle them without a licence. Watching and listening is fine. Getting into the pools to look for spawn, or handling animals you find, is not.",
+          "If you're interested in the conservation work, Natural England and the Lancashire Wildlife Trust both publish updates on the Sefton Coast NNR management. The dune restoration work is ongoing.",
+        ],
+      },
+      {
+        heading: "What else is out in the dunes at the same time",
+        body: [
+          "If you're out on a warm April or May evening for the Natterjacks, the dunes are also worth checking for Sand Lizards on south-facing slopes during the day before dark falls. The males colour up to vivid green from April onwards — easily the most striking reptile in the UK if you catch one in breeding condition.",
+          "Common Lizards are also present and more likely to be encountered than Sand Lizards — they're not restricted to the open sandy dune habitat in the same way. Both species are harmless and generally more interested in escaping than in anything else.",
+          "Northern Dune Tiger Beetles are active on the open sand during warm sunny periods. Pale green, fast-moving, and spectacular under a hand lens. They're an indicator species for intact dune habitat and seeing them alongside Natterjacks on the same visit is a genuine sign of a healthy dune system.",
+        ],
+      },
+    ],
+    tags: ["natterjack toad", "dunes", "sefton coast", "amphibians", "ainsdale", "spring wildlife"],
+    relatedLinks: [
+      { label: "Ainsdale NNR guide", href: "/reserves/ainsdale-national-nature-reserve", description: "What to see and how to visit Ainsdale National Nature Reserve across the seasons." },
+      { label: "Sand Lizards on the Sefton Coast", href: "/species/sand-lizard", description: "The UK's rarest lizard lives in the Sefton Coast dunes. Where to find them and when." },
+      { label: "Spring wildlife guide", href: "/blog/april-sefton-coast-wildlife", description: "Everything arriving on the Sefton Coast in April, from terns to warblers." },
+    ],
+  },
+
+  {
+    slug: "spring-migration-lancashire-coast",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "Spring Migration on the Lancashire Coast: What's Moving Through in April",
+    date: "2026-04-02",
+    metaDescription:
+      "April is one of the most active months for bird migration on the Lancashire coast. From Sefton's marshes to the Fylde, here's what's moving through and where to position yourself.",
+    heroLocalSrc: "/images/blog/blog-lancashire-coast-spring.jpg",
+    heroAlt: "Reed stems and coastal grass at the edge of a Lancashire estuary in early morning mist",
+    intro:
+      "April is the month when everything starts moving properly. The winter birds are leaving, the summer visitors are arriving, and for a few weeks you can get both at the same site on the same day. The Lancashire coast — from the Ribble estuary down through Marshside to the Sefton dunes — is a major artery for northbound migration in spring. Worth being out for it.",
+    sections: [
+      {
+        heading: "What's arriving in April",
+        body: [
+          "Wheatear are usually first. They appear on the coast from late March, and by early April you'll find them on open ground — beach tops, short turf, the edges of the dune system. Male Wheatear in fresh spring plumage is one of the most satisfying early migrants: grey, buff and white, with the distinctive white rump flashing as they bounce away from you.",
+          "Sand Martins arrive at Marshside and along the coast from late March. By April they're hawking over the lagoons in good numbers on mild days. Swallows follow in the first week of April. House Martins are a week or two behind that, typically.",
+          "Little Ringed Plover appear at Marshside and on the coastal pools from April. Check the scrape at Marshside RSPB carefully — they're smaller than Ringed Plover and the two species can be on the same pool. The yellow eye-ring of the Little Ringed is diagnostic. The leg colour helps too: pink-orange on Ringed, flesh-pink on Little Ringed.",
+        ],
+        imageAfter: {
+          src: "/images/blog/blog-lancashire-coast-spring.jpg",
+          alt: "Coastal reeds and marsh grass in morning mist on the Lancashire coast in spring",
+          caption: "The margins between open water and reed habitat are where spring migrants concentrate. Work these edges slowly.",
+        },
+      },
+      {
+        heading: "The Ribble Estuary as a migration route",
+        body: [
+          "The Ribble estuary is one of the most important wader staging posts in Europe. In late April and May, the intertidal mudflats at high-tide roost sites near Banks and Hesketh Bank hold enormous numbers of northbound waders: Knot, Dunlin, Bar-tailed Godwit, and Grey Plover in significant numbers.",
+          "The Knot are particularly spectacular in late April. They shift from grey winter plumage into rufous brick-red summer plumage on the staging grounds, and you can sometimes see birds in transition mid-roost — part winter grey, part summer red. If you can position yourself at a roost site an hour before high tide with the light behind you, it's worth the early start.",
+          "Bar-tailed Godwit in summer plumage are also striking: burnt orange on the breast and underparts, the long upturned bill conspicuous even at distance. They breed in arctic tundra and the Lancashire coast is a refuelling stop on the way.",
+        ],
+      },
+      {
+        heading: "Where to watch: Marshside RSPB",
+        body: [
+          "Marshside is the most accessible quality site on the Sefton Coast for spring migration watching. The car park off Marshside Road is free. The scrape (visible from the road) holds Avocet, Lapwing, Redshank and early wader migrants. The lagoon to the north holds wildfowl year-round with additions in April.",
+          "Spring at Marshside has a different quality to winter. Fewer birds overall, but what's there is more active, noisier, and in breeding plumage. Avocet males displaying at the scrape in April is worth seeing — they're genuinely elegant birds and the calling and posturing is sustained.",
+          "Check the sea wall walk for Wheatear in the first half of April. They use the short turf along the top of the sea wall as a feeding perch before moving on. You can sometimes count five or six birds on a short stretch on a clear April morning.",
+        ],
+      },
+      {
+        heading: "The Fylde coast and what it adds",
+        body: [
+          "North of the Ribble, the Fylde coast towards Blackpool and beyond holds its own migration interest in April. The Naze peninsula at Fleetwood is worth checking in northerly winds — it can trap migrants on the point in the right conditions. Wader roosts on the Morecambe Bay side of the Fylde at high tide can add Red Knot in large numbers in late April.",
+          "If you're doing a spring day on the Lancashire coast, the Marshside and Ribble sites in the morning, and then the Naze or Lytham St Annes shore at high tide in the afternoon, gives a good cross-section of what's available. A lot of the same species, different habitat context.",
+          "The coastal strip from the Sefton dunes to the Fylde is all connected in terms of migration. Birds moving north follow the coastline. Anything you might see at Marshside could turn up on the Fylde shore the same afternoon.",
+        ],
+      },
+      {
+        heading: "Practical notes for April watching",
+        body: [
+          "Tide times matter more in spring than in winter. Wader roosts form on the highest points of the beach and marsh at high tide — this is when the birds are closest. Go 90 minutes either side of high water for the best viewing.",
+          "Light direction: for Marshside, morning light is from the east and generally behind you if you're facing the scrape. The lagoon views face west and are better in the afternoon. If you're at the Ribble roost sites, south or west of your quarry works best.",
+          "Weather: April on the Lancashire coast is unpredictable. Waterproofs are not optional. A north or north-east wind in April can be cold enough to feel like February — and it tends to push migrants down onto the coast, which means more to see. Don't write off cold windy days.",
+        ],
+      },
+    ],
+    tags: ["spring migration", "waders", "marsh birds", "lancashire coast", "ribble estuary", "april wildlife"],
+    relatedLinks: [
+      { label: "Marshside RSPB reserve guide", href: "/reserves/marshside-rspb", description: "What to see, when to go, and how to get the most from Marshside RSPB throughout the year." },
+      { label: "Waders of the Sefton Coast", href: "/habitats/sefton-coast-waders", description: "The species, the habitats, and the best sites for wader watching on the Sefton coast." },
+      { label: "Natterjack Toads — spring breeding", href: "/blog/natterjack-toads-sefton-coast", description: "The dune slack chorus begins in April. Where to hear it and what to expect." },
+    ],
+  },
+
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
