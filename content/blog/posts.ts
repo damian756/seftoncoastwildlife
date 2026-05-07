@@ -1350,6 +1350,137 @@ export const BLOG_POSTS: BlogPost[] = [
 
 ];
 
+  {
+    slug: "may-wildlife-sefton-coast-2026",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "May on the Sefton Coast: What Wildlife to Look For This Month",
+    date: "2026-05-07",
+    metaDescription: "May is one of the most productive months on the Sefton Coast. Natterjack toads calling at dusk, little terns arriving to nest, sand lizards basking on dune slopes, marsh orchids emerging. Here's what to look for and where.",
+    heroLocalSrc: "/images/blog/blog-sefton-coast-may-wildlife.jpg",
+    heroAlt: "White sea campion flowers growing from pale dune sand on the Sefton Coast in spring",
+    intro: "May is the month the Sefton Coast shifts gear. The winter waders have gone north. The summer breeding species have arrived. The dune plants are starting their main flowering period. And the natterjack toads are calling from the dune slacks every night from late April into June. If you're going to pick one month to spend time on this coastline, May is a serious contender.",
+    sections: [
+      {
+        heading: "Natterjack Toads",
+        body: [
+          "The natterjack is the Sefton Coast's signature species and May is when the calling is at its most intense. Males aggregate around the shallow dune slack pools at dusk and begin calling to attract females. The sound is extraordinary: a loud, rasping croak that carries up to a kilometre in still conditions. Once you've heard it, you won't forget it.",
+          "The calling begins reliably around dusk and continues through the early hours. Ainsdale Sands NNR and the dune slacks at Birkdale are the most productive sites. Access to some slack areas is restricted during the breeding season to protect nesting sites. Keep to marked paths and don't disturb the pools.",
+          "If you want to see rather than just hear them, torch-light surveys on calm, mild evenings in May are the best approach. Males call while floating in the water. Females are generally less visible. The best conditions are still nights above 10°C. Cold or windy nights produce much reduced activity.",
+        ],
+      },
+      {
+        heading: "Little Terns",
+        body: [
+          "Little terns arrive on the Sefton Coast in late April and early May from their wintering grounds in West Africa. They nest on the open beach at Ainsdale, making them one of the most vulnerable breeding birds in Britain — ground-nesting on a beach used by the public.",
+          "Natural England and the RSPB manage the nesting colony with fencing and warden presence throughout the breeding season. The colony is viewable from a respectful distance and wardens can usually direct you to the best viewing point. Do not enter the fenced nesting area.",
+          "Peak activity at the colony is in May and June. Watch for the characteristic hovering over the sea — little terns hover before plunging for small fish. Their rapid wingbeat and yellow bill with black tip distinguish them from common and arctic terns which also occur here.",
+        ],
+      },
+      {
+        heading: "Sand Lizards",
+        body: [
+          "May is ideal for sand lizard watching on the Sefton Coast. The breeding males are in their peak colour: vivid green flanks contrasting with the brown back pattern, which is one of the most striking colour displays of any British reptile.",
+          "South-facing dune slopes are the place to look. Sand lizards bask on warm sand in the morning, retreating to cover if disturbed. The best approach is to move slowly and stop frequently. A lizard that hasn't been alarmed will often bask for extended periods.",
+          "Ainsdale NNR has one of the best sand lizard populations in Britain. The wardens can advise on the most productive areas in season. This is a Schedule 5 species: do not handle or deliberately disturb them.",
+        ],
+      },
+      {
+        heading: "Dune Plants in May",
+        body: [
+          "The flowering sequence on the dunes is well underway by May. Sea campion (Silene uniflora) produces white flowers across the open dune face. Yellow bird's-foot trefoil starts in sheltered spots and spreads through May. The dune slacks begin to show early marsh orchid leaves — the purple marsh orchid (Dactylorhiza purpurella) flowers from late May into June in the wetter slacks.",
+          "Creeping willow is a low-growing willow species characteristic of dune slacks on the Sefton Coast. Its catkins appear in April and May. The dune slack vegetation is nationally important and the Sefton Coast holds plant communities found almost nowhere else in England.",
+          "May is also when the early purple orchid (Orchis mascula) finishes in sheltered pinewood edges and the bee orchid (Ophrys apifera) begins to appear. The bee orchid peaks in June but the first flowers are usually visible on south-facing dune slopes in the last week of May.",
+        ],
+      },
+      {
+        heading: "Migrant Birds",
+        body: [
+          "Spring migration is largely complete by mid-May on the Sefton Coast but late migrants continue to move through into the month. Sedge warblers are singing from every reedbed and bramble patch by now. Reed warblers are also established at Marshside RSPB. Whitethroats are in song on gorse and bramble scrub across the dunes.",
+          "Rarities still occur in May, particularly after easterly winds which can deflect continental migrants onto the Lancashire coast. Hobbies are regular visitors, hunting dragonflies and large insects over the dune areas and marshes. Watch for the long-winged silhouette and brick-red undertail.",
+          "Marshside RSPB is worth a visit in May for breeding waders: lapwing, redshank, and avocet are all nesting on the reserve. The lagoons are managed to provide optimal nesting conditions and the viewing screen gives close views without disturbance.",
+        ],
+      },
+      {
+        heading: "Practical Notes for May",
+        body: [
+          "Early morning is significantly more productive than afternoon for most species. Dawn chorus peaks in early May and the birds are most active before the first visitors arrive on the dunes. For natterjack toads, evenings are essential.",
+          "The Sefton Coast in May can still be cold, particularly with a sea breeze. Layers are necessary even on sunny days. Waterproofs are sensible. The dune slacks can be wet underfoot.",
+          "Ainsdale NNR has a visitor centre open on selected days. Natural England wardens can provide site-specific advice on what's active and where. The Friends of Ainsdale Sands NNR run guided wildlife walks in spring that are worth booking if you want expert direction.",
+        ],
+      },
+    ],
+    tags: ["may wildlife", "natterjack toads", "little terns", "sand lizards", "dune plants", "sefton coast", "spring watching"],
+    relatedLinks: [
+      { label: "Natterjack Toad Guide", href: "/blog/natterjack-toads-sefton-coast", description: "Full breeding season guide to natterjack toads on the Sefton Coast dunes." },
+      { label: "Little Terns at Ainsdale", href: "/blog/little-terns-ainsdale-nesting", description: "The nesting season explained. What to expect and how to watch responsibly." },
+      { label: "Ainsdale NNR Reserve Guide", href: "/reserves/ainsdale-nns", description: "Everything you need to know about visiting Ainsdale National Nature Reserve." },
+    ],
+  },
+
+  {
+    slug: "little-terns-ainsdale-nesting",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Little Terns at Ainsdale: The Nesting Season Explained",
+    date: "2026-05-07",
+    metaDescription: "Little terns nest on Ainsdale beach from late April to August. One of Britain's rarest breeding seabirds, nesting on the open sand. How to watch them, what to expect, and why the colony matters.",
+    heroLocalSrc: "/images/blog/blog-little-terns-ainsdale.jpg",
+    heroAlt: "Marram grass stems on Ainsdale sand dunes in bright coastal light, the habitat of nesting little terns",
+    intro: "The little tern is one of Britain's least-known success stories and one of its most precarious ones. On Ainsdale beach, a managed nesting colony holds a significant proportion of the North West's little tern population each summer. The birds arrive from West Africa in late April and leave again in August. In between, they nest on open sand centimetres above the tideline, raise chicks in full view of a busy public beach, and depend entirely on a short fence and the presence of wardens to survive.",
+    sections: [
+      {
+        heading: "About the Species",
+        body: [
+          "The little tern (Sternula albifrons) is the smallest British tern, roughly the size of a starling. Key identification features: yellow bill with black tip, white forehead patch contrasting with the black cap, rapid wingbeat that gives it an almost fluttering flight compared to other terns. In flight, the long tail streamers are visible and the wingbeats are noticeably faster than common or arctic tern.",
+          "In Britain, little terns nest almost exclusively on beaches. This makes them acutely vulnerable. Egg predation, storm overwash, trampling by beach users and disturbance from dogs are the primary causes of nest failure. Conservation management, specifically fencing and warden presence, is the reason the species still nests on Ainsdale at all.",
+          "Nationally, little terns are an Amber List species under the Birds of Conservation Concern assessment. The UK population is around 1,900 pairs, down significantly from historical levels. Every breeding colony matters.",
+        ],
+      },
+      {
+        heading: "The Ainsdale Colony",
+        body: [
+          "The colony at Ainsdale is one of the more stable on the Lancashire coast, largely because of active management by Natural England and the RSPB. A fenced exclosure is erected on the nesting beach each spring before the birds arrive. Signs and wardens direct beach visitors away from the colony during the nesting season.",
+          "The colony varies in size from year to year. Good years see 30-50+ pairs nesting on the beach. Poor years, with heavy predation or bad weather during early chick stage, can result in total or near-total failure. Productivity data from the colony is collected annually as part of the national little tern monitoring programme.",
+          "The fencing is necessary, not decorative. Little terns nest in shallow scrapes in the sand. The eggs are almost invisible against the substrate. Without the exclosure, the colony would fail to a combination of trampling, dog predation and human disturbance within days of establishment.",
+        ],
+      },
+      {
+        heading: "Watching the Colony Responsibly",
+        body: [
+          "The nesting area can be watched from outside the fencing. Wardens are usually present on weekend mornings in May and June and can direct you to the best viewing positions. Binoculars or a telescope are the right tools. Do not enter the fenced area under any circumstances.",
+          "The best viewing is in the morning when birds are most active bringing fish to the nest or chicks. Watch for the feeding flights over the sea: little terns hover rapidly over shallow inshore water before diving for sandeels and small fish. The dive is fast and precise. Successful dives are followed by a flight back to the nest carrying the fish head-first.",
+          "The chicks fledge in July. Pre-fledged chicks will sometimes wander outside the fenced area and are at risk from dog predation. If you are walking dogs on Ainsdale beach during the breeding season, keep them on a lead near the colony area.",
+        ],
+      },
+      {
+        heading: "The Breeding Season Timeline",
+        body: [
+          "Late April to early May: first adults arrive on the beach. Courtship displays begin immediately. Males present fish to females as part of courtship. Pair bonds form or are re-established from previous years.",
+          "May: egg-laying begins, usually in the first or second week. Clutch size is typically two to three eggs. Both adults incubate. Incubation period is around 20-22 days.",
+          "June: chicks hatch. This is the most vulnerable period. Chicks are mobile almost immediately but cannot fly and depend on adults for food. Cold, wet weather at this stage is the single biggest cause of chick mortality.",
+          "July: chicks fledge, typically at around three to four weeks old. Family groups remain together for some time after fledging. Adults begin to lose the full breeding plumage in late July.",
+          "August: birds begin to move south. Most have left the Sefton Coast by mid-August.",
+        ],
+      },
+      {
+        heading: "Why This Matters",
+        body: [
+          "Little terns are a reliable indicator of the health of the inshore fish population. Their dependence on sandeels and other small fish means that colony productivity is linked to prey availability in the nearshore waters off Ainsdale. Poor years can reflect reduced prey, poor water conditions or increased competition from other predators.",
+          "The managed colony at Ainsdale contributes to a wider effort to maintain little tern breeding populations in the North West. Similar managed colonies exist at sites including Gronant in North Wales and South Walney in Cumbria. The combined population of managed sites in the region represents the species' viability in this part of Britain.",
+          "If you visit the colony and want to support the work, the RSPB and Natural England both accept volunteers for warden duties during the nesting season. It's one of the most direct ways to contribute to a conservation outcome on the Sefton Coast.",
+        ],
+      },
+    ],
+    tags: ["little tern", "ainsdale", "nesting seabirds", "summer breeding", "conservation", "sefton coast", "beach nesting"],
+    relatedLinks: [
+      { label: "May Wildlife on the Sefton Coast", href: "/blog/may-wildlife-sefton-coast-2026", description: "The full May wildlife guide. What to look for, where to go, practical timing." },
+      { label: "Ainsdale National Nature Reserve", href: "/reserves/ainsdale-nns", description: "Reserve guide to Ainsdale NNR including access, habitats and key species." },
+      { label: "Natterjack Toads", href: "/blog/natterjack-toads-sefton-coast", description: "The spring breeding season for natterjack toads on the Sefton Coast dunes." },
+    ],
+  },
+];
+
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
 }
