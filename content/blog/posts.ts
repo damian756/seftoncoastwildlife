@@ -1348,8 +1348,6 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
 
-];
-
   {
     slug: "may-wildlife-sefton-coast-2026",
     category: "seasonal-watching",
