@@ -50,6 +50,123 @@ export const BLOG_CATEGORIES: Record<BlogCategory, { label: string; description:
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "late-may-sefton-coast-wildlife-2026",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "What to See on the Sefton Coast in Late May 2026",
+    date: "2026-05-17",
+    metaDescription: "Late May on the Sefton Coast: marsh orchids in the dune slacks, little terns at Ainsdale, natterjack toad calling, swift arrivals and the full transition to summer breeding. What to look for and where to go.",
+    heroLocalSrc: "/images/blog/late-may-sefton-coast-wildlife.jpg",
+    heroAlt: "Marsh orchids in a Sefton Coast dune slack, late May",
+    intro: "The Sefton Coast in late May is at peak biodiversity. Breeding birds are committed to nests, the dune slack flora is at its best, and the nocturnal activity around the slack pools makes evening visits worth planning. This is what to look for right now.",
+    sections: [
+      {
+        heading: "Marsh Orchids in the Dune Slacks",
+        body: [
+          "The dune slacks behind the main beach ridge are producing marsh orchids right now. Southern marsh orchid is the primary species: tall purple-pink flower spikes standing above the sedge and rush vegetation. In the wetter slacks, look also for early marsh orchid, which is slightly smaller and earlier to flower.",
+          "The best concentrations are in the National Nature Reserve sections at Ainsdale and Birkdale. The slacks behind the third dune ridge from the beach typically hold the densest populations. Access from the boardwalk paths at Ainsdale NNR keeps you off the vegetation while giving clear views across the slack.",
+          "These orchid populations are genuinely significant nationally. The Sefton dune slacks support one of the largest marsh orchid populations in the North West. Photograph from the path rather than entering the slack vegetation.",
+        ],
+      },
+      {
+        heading: "Little Terns at Ainsdale",
+        body: [
+          "The little tern colony at Ainsdale is now established on the beach. The fenced exclosure will be in place and wardens are present on most weekend mornings. The colony size varies year to year. Watch for the characteristic rapid hovering flight over the nearshore water as birds hunt for sandeels.",
+          "Viewing is from outside the exclosure. Binoculars or a scope are the right equipment. The birds are small and fast. The adults are unmistakable in summer plumage: yellow bill with a black tip, white forehead patch, and that flickering fast wingbeat that distinguishes them instantly from common terns.",
+          "Do not fly drones anywhere near the colony. Any aerial disturbance during the nesting period can cause nest abandonment. The colony is not large and every successful nesting pair matters.",
+        ],
+      },
+      {
+        heading: "Natterjack Toads",
+        body: [
+          "The natterjack toad chorus continues through late May and into early June. Calling starts after dark from the shallow slack pools. The call is a loud, sustained churring sound, quite unlike any other British amphibian. On a warm still night it carries several hundred metres.",
+          "The slack pools at Ainsdale NNR and the managed pools on the southern dunes are the best locations. Evening visits from around 9.30pm on warm nights (above about 12C) produce the best calling activity. Check the forecast: cold nights silence them entirely.",
+          "The Sefton Coast holds one of the largest natterjack toad populations in Britain. The combination of warm, shallow breeding pools and sandy dune habitat is exactly what the species needs and is increasingly rare nationally.",
+        ],
+      },
+      {
+        heading: "Swifts and Late Migrants",
+        body: [
+          "Swifts are now present in good numbers over the coast, screaming in groups around rooftop sites and over the dune slack areas at dusk. They are insectivores and the dune system in May produces the invertebrate abundance they need.",
+          "Late spring migration is winding down but the coast still produces scarce migrants into late May. Check the Foulshaw Moss and Marshside area for late warblers. Sedge warbler and reed warbler are both singing in the reedbeds at Marshside RSPB. Any unusual warbler along the coast path at this time of year is worth checking carefully.",
+          "Sand martins continue to prospect the soft sand banks behind the dunes for nest sites. Swallows and house martins are moving through or breeding in nearby settlements.",
+        ],
+      },
+      {
+        heading: "The Dune Flora Transition",
+        body: [
+          "Late May is the transition point in the dune flora calendar. The spring species, including sand violet and early forget-me-not, are going over. The early summer species are coming in. Rest harrow is starting on the fixed dunes. Stork's-bill is in bloom on the short dune turf. The sea holly on the foredune is still in leaf but not yet flowering.",
+          "The most interesting area for dune flora at this time of year is the fixed dune grassland between the foredune and the slack zone, where the species diversity is highest. A slow walk along any of the main dune path systems will produce twenty or more flowering species without any specialist knowledge.",
+        ],
+      },
+    ],
+    tags: ["late may", "marsh orchids", "little terns", "natterjack toads", "dune slacks", "sefton coast", "seasonal-watching"],
+    relatedLinks: [
+      { label: "Little Terns at Ainsdale", href: "/blog/little-terns-ainsdale-nesting", description: "The nesting colony, how to watch responsibly, and the seasonal timeline." },
+      { label: "Natterjack Toads on the Sefton Coast", href: "/blog/natterjack-toads-sefton-coast", description: "Where and when to hear the natterjack chorus." },
+      { label: "Dune Slack Habitat Guide", href: "/blog/dune-slack-habitat-guide", description: "Understanding what makes the dune slacks so important." },
+    ],
+  },
+  {
+    slug: "oystercatcher-sefton-coast",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlights",
+    title: "The Oystercatcher: Bold, Noisy and Breeding on the Sefton Coast",
+    date: "2026-05-18",
+    metaDescription: "The oystercatcher is one of the most visible breeding birds on the Sefton Coast. Distinctive, loud, and surprisingly aggressive when nesting. Where to find them, when to go, and what to know.",
+    heroLocalSrc: "/images/blog/oystercatcher-sefton-coast.jpg",
+    heroAlt: "Intertidal rocky shoreline habitat used by oystercatchers on the Sefton Coast",
+    intro: "If you spend any time on the Sefton Coast in spring and summer, you will hear oystercatchers before you see them. The loud, persistent piping call is one of the defining sounds of the coast in the breeding season. They are conspicuous, territorial, and worth understanding properly.",
+    sections: [
+      {
+        heading: "Identification",
+        body: [
+          "The oystercatcher (Haematopus ostralegus) is unmistakable. It is a large wader: roughly the size of a small gull. The plumage is black and white: entirely black head, neck and upperparts, white underparts with a clean line across the breast. The bill is long, orange-red, and laterally compressed. The legs are pink.",
+          "In flight, the white wing stripe is prominent and the contrast is striking. The call is loud, carrying and persistent: a high-pitched kleeping that varies in intensity. Alarm calling when you approach a nest is rapid and insistent and it will continue until you move away.",
+          "Juveniles in their first summer have a brownish tinge to the upperparts and a duller bill tip. By autumn of their first year they are largely adult-like.",
+        ],
+      },
+      {
+        heading: "Distribution on the Sefton Coast",
+        body: [
+          "Oystercatchers breed along the length of the Sefton Coast. Nesting pairs are found on the upper beach and in the dune edge zone from Crosby north to Southport. The beach at Ainsdale and the dune system at Birkdale both support breeding pairs most years.",
+          "The species is also numerous as a wintering bird. The estuary at the north end of the coast and the mudflats around Southport hold significant wintering flocks from September through March. Numbers at Marshside RSPB can reach into the hundreds during autumn and winter high tide roosts.",
+          "The beach-nesting pairs in the dune system are the most visible to visitors. They nest in shallow scrapes on the upper beach or in short dune vegetation. Unlike the little tern colony at Ainsdale, oystercatcher nests are usually not fenced, which means individual nesting pairs can be encountered unexpectedly on the beach.",
+        ],
+      },
+      {
+        heading: "Breeding Behaviour",
+        body: [
+          "Oystercatchers are single-brooded and long-lived. Pairs are often faithful to the same nesting territory for multiple years. Nest establishment begins in March with territory defence and courtship displays. The piping display, where two or three birds run together with bills pointed down and wings drooped, is a common sight on the beach in spring.",
+          "The clutch is typically two to three eggs, laid in a shallow scrape that may be lined with pebbles or shell fragments. Both adults incubate and the eggs are well camouflaged against the sand and pebble substrate. Incubation takes around 27 days.",
+          "Chicks are mobile within hours of hatching. They are fed by the adults for several weeks, which is longer than most other waders. Young oystercatchers need to learn to open bivalves efficiently, which takes time. Adults teach this skill directly: a long and involved process of demonstration and practice.",
+        ],
+      },
+      {
+        heading: "Oystercatchers and Dogs",
+        body: [
+          "Beach-nesting oystercatchers are among the species most affected by uncontrolled dogs in the nesting season. A dog flushing a pair from a nest in cold or wet weather can cause egg chilling and nest failure. This is not a theoretical risk: it happens every year on the Sefton Coast.",
+          "The practical implication is straightforward. Keep dogs under close control on the upper beach from April through July. If a pair of oystercatchers is calling persistently and circling you, you are probably near a nest. Move away directly without lingering. Most adult birds return to the nest within minutes once the disturbance has passed, provided it was brief.",
+          "The seasonal beach dog restrictions that apply to certain sections of Formby Beach are partly in place to protect beach-nesting birds including oystercatchers. These restrictions exist for a reason.",
+        ],
+      },
+      {
+        heading: "When to Watch",
+        body: [
+          "Oystercatchers are present year-round on the Sefton Coast. The breeding season from April to July is when they are most visible and most active behaviourally. The piping display and territory disputes are worth watching if you encounter them.",
+          "For winter watching, the high tide roost at Marshside RSPB is one of the better sites on the coast. Large flocks roost together on the saltmarsh during high water and disperse to feed at low tide. An hour at the reserve on a rising tide in October or November will produce hundreds of birds.",
+          "For breeding behaviour, a quiet early morning walk on the beach north of the NT car park at Formby from April onwards will produce nesting pairs in most years. Do not approach closer than about 30 metres if a pair is calling at you.",
+        ],
+      },
+    ],
+    tags: ["oystercatcher", "breeding birds", "beach nesting", "sefton coast", "waders", "spring", "species spotlight"],
+    relatedLinks: [
+      { label: "Little Terns at Ainsdale", href: "/blog/little-terns-ainsdale-nesting", description: "The nesting colony, how to watch responsibly, and the seasonal timeline." },
+      { label: "May Wildlife on the Sefton Coast", href: "/blog/may-wildlife-sefton-coast-2026", description: "The full May wildlife guide." },
+      { label: "Marshside RSPB Reserve", href: "/reserves/marshside-rspb", description: "Reserve guide to Marshside including access and key species." },
+    ],
+  },
+  {
     slug: "march-sefton-coast-wildlife",
     category: "seasonal-watching",
     categoryLabel: "Seasonal Watching",
