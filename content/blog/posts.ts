@@ -1215,8 +1215,8 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2026-04-13",
     metaDescription:
       "Roe Deer live in Formby pinewoods year-round. Where to look, when to go, and what to expect from one of the most overlooked mammals on the Sefton Coast.",
-    heroWikipediaTitle: "Roe deer",
-    heroAlt: "Roe deer in woodland — the species present in Formby pinewoods year-round",
+    heroLocalSrc: "/images/blog/roe-deer-formby-pinewoods.jpg",
+    heroAlt: "Roe deer at the edge of Formby pinewoods at dawn",
     intro:
       "The Formby pinewoods are known for red squirrels. Natterjack Toads draw wildlife watchers from across the country. Roe Deer don't get mentioned in most guides, and yet they're there, year-round, in the mixed woodland between the National Trust pines and the farmland edge. If you're in the pinewoods at dawn and you move quietly enough, a Roe Deer is a realistic sighting. Most people who visit don't even know to look.",
     sections: [
