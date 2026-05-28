@@ -50,6 +50,127 @@ export const BLOG_CATEGORIES: Record<BlogCategory, { label: string; description:
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "sefton-coast-june-wildlife-2026",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "Sefton Coast Wildlife in June 2026: What to Look For Right Now",
+    date: "2026-05-28",
+    metaDescription: "June on the Sefton Coast: sand lizards basking on warm dunes, common blue butterflies, little tern chicks, natterjack toadlets emerging, and breeding waders at peak activity. The complete June wildlife guide.",
+    heroLocalSrc: "/images/blog/blog-sand-lizard-june-dunes.jpg",
+    heroAlt: "Sand lizard basking on warm sandy Sefton Coast dunes in June sunshine",
+    intro: "June on the Sefton Coast sits at an interesting biological moment. The spring migration is over. Breeding activity is at its peak. Reptiles are at their most visible. And the dune system itself is producing its most diverse flora of the year. Here is what to focus on right now.",
+    sections: [
+      {
+        heading: "Sand Lizards on the Dunes",
+        body: [
+          "June is the prime month for sand lizard observation on the Sefton Coast. Males in full breeding condition are a striking sight: vivid green flanks, active and territorial. The warm dune slopes at Ainsdale National Nature Reserve hold one of the most significant sand lizard populations in England.",
+          "The lizards emerge to bask when air temperatures rise, typically from mid-morning onwards on warm days. South-facing dune slopes with exposed sandy areas and sparse low vegetation are the key habitat to search. They are fast: movement in the peripheral vision, a pause, then gone if you approach directly.",
+          "The best approach is to move slowly along the dune crest and look downslope. Sand lizards often bask in positions that give them a clear view of their surroundings. Approach from above at an oblique angle and stop frequently. A telescope or binoculars give you better viewing distance without disturbing them.",
+          "This is a protected species. Do not handle, disturb nesting areas or enter roped-off sections of the reserve. Observe from the public paths.",
+        ],
+      },
+      {
+        heading: "Little Tern Colony: Chick Stage",
+        body: [
+          "The little tern colony at Ainsdale is in the chick stage through June. Eggs laid in May are hatching. The chick period is the most vulnerable stage of the breeding season: cold wet weather, predation by foxes and corvids, and disturbance all take a toll.",
+          "Watching from outside the fenced exclosure, you can observe the adults bringing fish, the chicks begging, and the aggressive dive-bombing of anything that approaches the colony perimeter. Little terns are fearless in defence of the nest.",
+          "Wardens are present on weekend mornings and can point you to the best viewing positions. The fencing is not decorative. Stay outside it. The chick mortality rate from trampling alone, in years without exclosures, would be total.",
+          "Binoculars or a telescope are essential. The colony is interesting enough to justify a proper visit, not just a walk past.",
+        ],
+      },
+      {
+        heading: "Natterjack Toadlets",
+        body: [
+          "The natterjack toads that were calling in May have now metamorphosed and the toadlets are emerging from the slack pools. They are tiny, around 10mm at metamorphosis, and emerge in large numbers on warm damp evenings.",
+          "The Ainsdale and Birkdale dune slacks are the place to look. Evening visits in mild, calm conditions are productive. Bring a torch and look carefully at the vegetation margins around the pools. The toadlets are mobile but slow compared to adults and easier to observe.",
+          "This is one of the less celebrated wildlife spectacles on the Sefton Coast but genuinely impressive when the emergence is happening. The UK population of natterjack toads is heavily concentrated on the Lancashire and Cumbrian coast. The Sefton dune system is one of the strongholds.",
+        ],
+      },
+      {
+        heading: "Common Blues and Other Butterflies",
+        body: [
+          "The sand dunes in June support a good diversity of butterflies. Common blue is the most eye-catching: vivid blue males on the kidney vetch and bird's foot trefoil that grows in the dune slacks. The females are brown with orange spots and easier to overlook.",
+          "Look also for small heath, grayling (appearing from late June on the hottest days), and six-spot burnet moth, which is not a butterfly but is often mistaken for one: distinctive red-spotted black wings flying in daytime.",
+          "The best conditions for butterfly observation are warm, sunny, calm days with temperatures above 18C. In lower temperatures or cloud, butterflies are less active and harder to find.",
+        ],
+      },
+      {
+        heading: "Where to Go in June",
+        body: [
+          "Ainsdale National Nature Reserve: the primary destination for sand lizards, little terns and natterjack toadlets. Access via Ainsdale-on-Sea. Park on Shore Road. The boardwalk paths give access to the dune system without damaging the vegetation.",
+          "Birkdale Hills Local Nature Reserve: quieter than Ainsdale, good for butterflies and general dune flora. Southern section of the dune system, accessible from Birkdale.",
+          "Cabin Hill National Nature Reserve: closed to public access to protect breeding natterjacks. Visible from the beach path.",
+          "The beach itself is worth checking in early morning for wading birds: oystercatcher, sanderling, and dunlin are all present through June.",
+        ],
+      },
+    ],
+    tags: ["sand lizard", "little tern", "natterjack toad", "common blue butterfly", "june wildlife", "sefton coast", "ainsdale", "seasonal watching"],
+    relatedLinks: [
+      { label: "Late May Wildlife on the Sefton Coast", href: "/blog/late-may-sefton-coast-wildlife-2026", description: "The previous monthly guide: marsh orchids, little terns arriving, natterjack toad calling." },
+      { label: "Ainsdale National Nature Reserve", href: "/reserves/ainsdale-nns", description: "Reserve guide including access, habitats and the key species to look for year-round." },
+      { label: "Sand Lizard on the Sefton Coast", href: "/species/sand-lizard", description: "Full species profile: ecology, distribution on the Sefton Coast, and how to find them." },
+    ],
+  },
+  {
+    slug: "common-blue-butterfly-sefton-dunes",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Common Blue Butterfly on the Sefton Dunes: June Is the Month",
+    date: "2026-05-28",
+    metaDescription: "The common blue butterfly is at peak abundance on the Sefton Coast dunes in June. Where to find them, what to look for, and which dune plants are key to the population.",
+    heroLocalSrc: "/images/blog/blog-common-blue-butterfly-dunes.jpg",
+    heroAlt: "Common blue butterfly on kidney vetch flower in Sefton Coast sand dunes",
+    intro: "The common blue is the most conspicuous butterfly on the Sefton Coast dunes in June. Males are a vivid, metallic blue that is impossible to miss on a sunny day. Here is what you need to know about finding them and why the dune system supports such a good population.",
+    sections: [
+      {
+        heading: "Why the Dunes Work for Common Blues",
+        body: [
+          "The common blue butterfly (Polyommatus icarus) is a species of short-grass habitats with abundant legumes. Its larval foodplant is bird's foot trefoil and, secondarily, kidney vetch. Both plants grow in good quantities in the Sefton dune slacks and on the dune slopes where turf is short and open.",
+          "The dune system provides the warm, sheltered, south-facing slopes that common blues require for territory establishment and basking. The mosaic of open sandy areas, short turf and flowering legumes creates ideal habitat across a large continuous area at Ainsdale and Birkdale Hills.",
+          "This is not a rare butterfly nationally, but the quality of the Sefton dune population is notable. On a good June day with warm sunshine, you can see dozens of individuals in a relatively small area of suitable habitat.",
+        ],
+      },
+      {
+        heading: "Males and Females",
+        body: [
+          "The male common blue is electric blue on the upperwing with a white fringe. In good light, the colour is vivid enough to be visible at 30 or 40 metres. Males are territorial and will perch on prominent vegetation stems, periodically chasing rivals and returning to the same perch.",
+          "The female is mostly brown above with orange spots along the wing margin and a variable amount of blue at the wing base. It is easy to overlook females as they blend into vegetation, but they are present in similar numbers to males and spend more time close to the larval foodplants.",
+          "Underwings in both sexes are pale grey-brown with orange spots and white-ringed black dots. The pattern is distinctive and useful for identification when the butterfly is settled with wings closed.",
+        ],
+      },
+      {
+        heading: "When and Where to Look",
+        body: [
+          "Peak flight period is June, with a second generation in late July and August. The first generation is typically larger and more numerous. June sees both sexes active simultaneously, making it the most productive time for observation.",
+          "Best conditions: warm (above 17C), sunny, low wind. Common blues are sensitive to temperature and largely inactive in cloud or below 15C.",
+          "The dune slacks at Ainsdale NNR are the most reliable location. Walk the boardwalk paths and check the open areas of short vegetation around the slack margins. The slopes of the dune ridges facing south and southwest also hold territories.",
+          "The Birkdale Hills LNR is a quieter alternative with similar habitat and less visitor pressure. Access from Shore Road or the coastal path from Southport.",
+        ],
+      },
+      {
+        heading: "Associated Species",
+        body: [
+          "Where you find common blues, look also for small heath, which is abundant in the same habitat. The small heath is a small orange-brown butterfly that always settles with wings closed, showing a distinctive eyespot on the forewing.",
+          "Six-spot burnet moth shares the dune grassland with common blues in June and can be seen nectaring on the same plants. Its red and black colouring makes it unmistakable.",
+          "Brown argus is a smaller brown butterfly with orange spots, often confused with female common blue. It is less common on the Sefton Coast but present. The best way to separate them in the field is by the absence of any blue scaling on the upperwing in brown argus.",
+        ],
+      },
+      {
+        heading: "Conservation Context",
+        body: [
+          "The common blue has declined across much of lowland Britain as rough grassland and downland has been lost to development, improvement and scrub encroachment. The Sefton dune system has remained viable partly because of active management: dune slack restoration, removal of invasive sea buckthorn, and grazing management that maintains the short-turf conditions the butterfly requires.",
+          "The work of Natural England at Ainsdale NNR and the ongoing management of Birkdale Hills directly benefits the common blue population. Any visit to these sites supports the case for continued investment in dune management.",
+        ],
+      },
+    ],
+    tags: ["common blue butterfly", "butterfly", "dunes", "june wildlife", "sefton coast", "ainsdale", "species spotlight"],
+    relatedLinks: [
+      { label: "Sefton Coast Wildlife in June 2026", href: "/blog/sefton-coast-june-wildlife-2026", description: "The full June wildlife guide: sand lizards, little tern chicks, natterjack toadlets and more." },
+      { label: "Ainsdale National Nature Reserve", href: "/reserves/ainsdale-nns", description: "Reserve guide with access details, habitats and species to look for." },
+      { label: "Sand Lizard on the Sefton Coast", href: "/species/sand-lizard", description: "The other key June species on the Sefton dunes: ecology, where to find them." },
+    ],
+  },
+  {
     slug: "late-may-sefton-coast-wildlife-2026",
     category: "seasonal-watching",
     categoryLabel: "Seasonal Watching",
