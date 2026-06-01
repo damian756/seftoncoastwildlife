@@ -494,8 +494,8 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2026-02-10",
     metaDescription:
       "Natterjack Toads on the Sefton Coast — one of the last strongholds for Britain's rarest amphibian. How conservation management is helping the population recover.",
-    heroWikipediaTitle: "Natterjack toad",
-    heroAlt: "Natterjack Toad — Britain's rarest amphibian, found in the Sefton Coast dune slacks",
+    heroLocalSrc: "/images/blog/blog-natterjack-toad-sefton.jpg",
+    heroAlt: "Natterjack toad beside a shallow dune pool, yellow dorsal stripe visible",
     intro:
       "The Natterjack Toad is Britain's rarest amphibian. It needs warm, shallow, temporary pools in open, sandy habitat — a combination that puts it squarely in conflict with the general direction of land use in England over the past century. The Sefton Coast is one of its last strongholds. Here's why that matters, and what's being done to keep it that way.",
     sections: [
@@ -545,8 +545,8 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2026-01-20",
     metaDescription:
       "Short-eared Owls at Marshside RSPB — when to look, where to look, and what to expect from one of the Sefton Coast's most sought-after winter visitors.",
-    heroWikipediaTitle: "Ribble Estuary",
-    heroAlt: "Ribble Estuary — the marshes and mudflats where Short-eared Owls hunt in winter",
+    heroLocalSrc: "/images/blog/blog-short-eared-owl-marshside.jpg",
+    heroAlt: "Short-eared owl in low flight over saltmarsh, yellow eyes and streaked plumage visible",
     intro:
       "Short-eared Owls are not guaranteed at Marshside. Some winters you'll see three in an afternoon; some years they're barely present at all. That unpredictability is part of what makes finding one feel like a proper reward. Here's what you need to know to give yourself the best chance.",
     sections: [
@@ -590,8 +590,8 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2025-10-05",
     metaDescription:
       "October birdwatching at Marshside RSPB — Pink-footed Geese arriving, wader passage wrapping up and the first winter wildfowl. What to expect and when to go.",
-    heroWikipediaTitle: "Brent goose",
-    heroAlt: "Brent Geese flock in flight — the kind of spectacle October brings to the Sefton Coast",
+    heroLocalSrc: "/images/blog/blog-geese-october-marshside.jpg",
+    heroAlt: "Large flock of geese in flight against an overcast autumn sky over an estuary",
     intro:
       "October is the month I look forward to most. The summer is over, the Little Terns have left for West Africa, and something changes in the air. By the second week of October, the first skeins of Pink-footed Geese are arriving from Iceland and the winter is beginning. There is no better month to be at Marshside.",
     sections: [
@@ -641,8 +641,8 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2025-11-15",
     metaDescription:
       "The Sefton Coast sand dune system — how it formed, why it's changing, and what lives in the different dune zones from mobile yellow dunes to wet slacks.",
-    heroWikipediaTitle: "Ammophila arenaria",
-    heroAlt: "Marram grass (Ammophila arenaria) stabilising the sand dunes of the Sefton Coast",
+    heroLocalSrc: "/images/blog/blog-sand-dunes-marram-grass.jpg",
+    heroAlt: "Marram grass growing on a Sefton Coast sand dune in warm evening light",
     intro:
       "The sand dune system on the Sefton Coast is one of the most extensive in England. It stretches nearly 20 miles from Crosby to Southport, averaging a kilometre wide. From the beach looking inland, it looks uniform — just sand and rough grass. It isn't. There are distinct zones, each with its own ecology, and some of the most unusual plant and animal communities in lowland England are hiding in the damper hollows.",
     sections: [
@@ -1496,8 +1496,8 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2026-04-12",
     metaDescription:
       "Common Terns arrive on the Sefton Coast from late April. Where to find them, what they're doing, and why they're worth looking for properly rather than just noting as 'seagull-like bird.'",
-    heroWikipediaTitle: "Common tern",
-    heroAlt: "Common Tern in flight — the summer visitor that arrives on the Sefton Coast in late April",
+    heroLocalSrc: "/images/blog/blog-common-tern-sefton-coast.jpg",
+    heroAlt: "Common tern in flight over the sea showing black cap, white body and orange-red bill",
     intro:
       "Common Terns arrive on the Sefton Coast from late April and stay through to September. Most people see them without really seeing them — a white bird hovering over water before diving, filed mentally as 'big seagull.' They're not gulls. They're long-distance migrants, arriving from West Africa having crossed the Sahara and the Bay of Biscay. Once you've looked at one properly, you won't confuse it again.",
     sections: [
