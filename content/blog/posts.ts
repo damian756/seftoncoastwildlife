@@ -50,6 +50,108 @@ export const BLOG_CATEGORIES: Record<BlogCategory, { label: string; description:
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "oystercatcher-nesting-sefton-coast",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Oystercatcher Nesting on the Sefton Coast: The Beach Bird That Won't Back Down",
+    date: "2026-06-01",
+    metaDescription: "Oystercatchers nest on the Sefton Coast beach and dunes through June and July. Their alarm calls, bold plumage and aggressive nest defence make them the most noticeable breeding bird on the shore.",
+    heroLocalSrc: "/images/blog/blog-oystercatcher-beach.jpg",
+    heroAlt: "Oystercatcher standing on wet sand at the shoreline, showing distinctive black and white plumage and orange bill",
+    intro: "The oystercatcher is the loudest, most visible and most confident bird on the Sefton Coast beach in summer. If you have walked along the shore between Ainsdale and Southport in June and been harassed by a large black-and-white wading bird, this is why.",
+    sections: [
+      {
+        heading: "Identification",
+        body: [
+          "The oystercatcher (Haematopus ostralegus) is unmistakable. Black upperparts and white underparts, a long vivid orange-red bill, pink legs, and a bright red eye-ring. In flight the white wing-bar is conspicuous. The alarm call is a loud, penetrating 'kleep' repeated insistently when the bird is disturbed.",
+          "Adults in breeding condition are the birds you will encounter from May through July on the Sefton Coast shore. The bill is heavier and more striking in summer than in winter when it can appear slightly duller.",
+          "In size, the oystercatcher is considerably larger than most wading birds you will see on the coast: roughly the size of a jackdaw but more robustly built. At rest on the sand or rock it looks almost comically confident.",
+        ],
+      },
+      {
+        heading: "Nesting on the Sefton Shore",
+        body: [
+          "Oystercatchers nest on the ground. On the Sefton Coast this means nests on open sand and shingle above the tide line, in the lower dune vegetation, and occasionally on flat dune tops. The nest is a shallow scrape in the substrate, sometimes lined with shell fragments and pebbles. The eggs are cryptically marked: buff-brown with dark spots that make them almost impossible to see against sand or shingle.",
+          "Clutch size is typically two to three eggs. Incubation is shared between both parents and takes around 27 days. Both adults are aggressively defensive of the nest site. If you come within 50 to 100 metres of an active nest, you will know about it. The alarm calling is persistent and loud, the birds will approach closely, and they will not stop until you move away.",
+          "This defence response is genuinely effective. It alerts other birds in the area and draws attention to a potential predator. The downside from a conservation perspective is that it also draws attention to the nest if the disturbance is sustained. Minimise time near nesting birds.",
+        ],
+      },
+      {
+        heading: "Chicks and Fledging",
+        body: [
+          "Oystercatcher chicks are precocial: they hatch with their eyes open, are mobile within hours, and follow their parents immediately. They are grey-brown and downy with a short pale bill that gradually develops the adult orange over the first year. They are fed by their parents, predominantly on shellfish and marine worms, for several weeks after hatching.",
+          "Chicks on the beach are vulnerable to disturbance. A chick separated from its parents by a dog or a group of people approaching too closely is at genuine risk. The parents will call loudly and try to draw attention to themselves rather than the chick. If you hear an oystercatcher alarm-calling persistently near the tide line, be aware that there may be a chick close by.",
+          "Fledging takes around 35 days. Young birds leave the area in late summer and early autumn, moving south along the coast. Adults return to the same territories in subsequent years.",
+        ],
+      },
+      {
+        heading: "Where to Watch Responsibly",
+        body: [
+          "The oystercatcher population on the Sefton Coast is visible along the entire shore from Formby Point north to Southport and along the Ainsdale beach. Pairs are loosely territorial and you will typically encounter them spread along the tide line, particularly where there is exposed sand and shingle above the high tide mark.",
+          "Watch from a distance. The alarm call is your cue that you are too close. Move away and observe from 50 metres or more. Binoculars are the right tool. The birds are large and distinctive enough to observe well at distance.",
+          "Keep dogs under close control on the beach through June and July. Oystercatcher nests and chicks are at direct risk from off-lead dogs. The seasonal dog restrictions on parts of the Sefton Coast beach exist partly to protect ground-nesting birds including oystercatchers.",
+        ],
+      },
+    ],
+    tags: ["oystercatcher", "nesting", "beach birds", "june wildlife", "waders", "sefton coast", "species spotlight"],
+    relatedLinks: [
+      { label: "Sefton Coast Wildlife in June 2026", href: "/blog/sefton-coast-june-wildlife-2026", description: "The full June wildlife guide: what to look for across the dune system and shore." },
+      { label: "Little Terns at Ainsdale", href: "/blog/little-terns-ainsdale-nesting", description: "The little tern colony at Ainsdale: the nesting season explained." },
+      { label: "Ainsdale National Nature Reserve", href: "/reserves/ainsdale-nns", description: "Access, habitats and key species at Ainsdale NNR." },
+    ],
+  },
+  {
+    slug: "cinnabar-moth-sefton-dunes",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Cinnabar Moth on the Sefton Dunes: The Most Striking Insect of the Summer",
+    date: "2026-06-01",
+    metaDescription: "The cinnabar moth is one of the most distinctive insects on the Sefton Coast dunes in June and July. Red and black wings, a day-flying habit, and a caterpillar that is even more conspicuous than the adult.",
+    heroLocalSrc: "/images/blog/blog-cinnabar-moth-ragwort.jpg",
+    heroAlt: "Cinnabar moth resting on yellow ragwort flowers, showing vivid red and black wing markings",
+    intro: "The cinnabar moth is the easiest insect to spot on the Sefton Coast dunes in summer. The red-and-black adult flies in daylight, the caterpillars are bright orange and black, and the host plant, common ragwort, is abundant across the dune system. Here is what you are looking at when you see it.",
+    sections: [
+      {
+        heading: "The Adult Moth",
+        body: [
+          "The cinnabar moth (Tyria jacobaeae) is one of the few British moths that flies readily by day. The forewings are dark grey with two red spots and a red stripe along the outer edge. The hindwings are a vivid crimson red, visible in flight as a flash of bright colour against the dune vegetation. The wingspan is around 32-42mm.",
+          "The red and black colouration is aposematic: it signals to predators that the moth is unpalatable. Cinnabar moths accumulate toxic alkaloids from their ragwort foodplant and are genuinely distasteful to birds. The warning colouration is effective and the moths are largely ignored by predators that have learned to associate the pattern with an unpleasant experience.",
+          "Adults are on the wing from late May through July, with a peak in June. They fly in warm sunshine but are less active in cloud. You will find them nectaring on ragwort, knapweed, and other open flowers in the dune slacks and on the dune slopes.",
+        ],
+      },
+      {
+        heading: "The Caterpillar: Even More Conspicuous",
+        body: [
+          "The cinnabar caterpillar is arguably more striking than the adult. It is banded in bright orange and black, warning colouration again reflecting the toxic alkaloids absorbed from the ragwort it feeds on. Caterpillars feed gregariously: you will often find groups of 10 to 20 on a single ragwort plant, stripping it down systematically.",
+          "The caterpillars are present from July onwards, peaking in August. They are easy to find: look for ragwort plants that have been heavily defoliated, then check the stems carefully. The banding makes them visible from several metres.",
+          "Ragwort is the primary foodplant. The moth has a very close association with ragwort populations, and where ragwort grows freely on the dunes, cinnabar moths follow. The Sefton Coast dune system has excellent ragwort populations in the less managed areas, which is part of why the moth does well here.",
+        ],
+      },
+      {
+        heading: "Where to Find Them",
+        body: [
+          "Any area of the Sefton dune system with established ragwort is worth checking. The less intensively managed sections of the dunes, away from the main beach access paths, often have the best populations.",
+          "Ainsdale Hills and Birkdale Hills are consistently productive. Walk the dune grassland areas rather than the main paths and look for ragwort in flower. Adults will be nectaring on the flowers. Caterpillars will be on or near the same plants from July.",
+          "The best time of day for adults is mid-morning on warm sunny days, when they are actively flying and nectaring. By afternoon they may be resting lower in the vegetation.",
+        ],
+      },
+      {
+        heading: "The Ragwort Question",
+        body: [
+          "Ragwort has a complex reputation in Britain. It is toxic to horses and cattle when consumed in quantity and is subject to control requirements on agricultural land. On the Sefton Coast dunes, away from grazing animals, it is a key plant for a wide range of insects including the cinnabar moth, common blue butterfly, and dozens of other species.",
+          "Natural England's management of Ainsdale NNR takes a pragmatic approach: ragwort on the dune system is managed to maintain habitat diversity rather than eradicated. This is the right approach for biodiversity and means the cinnabar moth population remains viable.",
+          "If you want to understand why ragwort management on nature reserves is more nuanced than the public narrative suggests, watching a colony of cinnabar caterpillars methodically strip a plant is a good starting point.",
+        ],
+      },
+    ],
+    tags: ["cinnabar moth", "moths", "ragwort", "june wildlife", "july wildlife", "dunes", "sefton coast", "species spotlight"],
+    relatedLinks: [
+      { label: "Common Blue Butterfly on the Sefton Dunes", href: "/blog/common-blue-butterfly-sefton-dunes", description: "The most conspicuous butterfly on the dunes in June: where to find it and what to look for." },
+      { label: "Sefton Coast Wildlife in June 2026", href: "/blog/sefton-coast-june-wildlife-2026", description: "The full June wildlife guide: sand lizards, oystercatchers, natterjack toadlets and more." },
+      { label: "Ainsdale National Nature Reserve", href: "/reserves/ainsdale-nns", description: "Reserve guide with access, habitats and key species year-round." },
+    ],
+  },
+  {
     slug: "sefton-coast-june-wildlife-2026",
     category: "seasonal-watching",
     categoryLabel: "Seasonal Watching",
