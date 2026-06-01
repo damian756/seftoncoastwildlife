@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { COTTAGES } from "@/lib/affiliate-links";
 
 const title = "Birdwatching on the Sefton Coast — Guide, Best Spots & What to Bring";
 const description =
@@ -239,6 +240,23 @@ export default function BirdwatchingGuidePage() {
               <p className="text-sm text-[var(--slate)] leading-relaxed">{a}</p>
             </div>
           ))}
+        </div>
+
+        {/* Cottages.com — overnight visitors */}
+        <div className="rounded-xl border border-[var(--dune)] bg-[var(--dune)] p-6 mb-8">
+          <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-1">Self-Catering Partner</p>
+          <h3 className="font-display text-lg font-bold text-[var(--forest)] mb-2">Staying Overnight?</h3>
+          <p className="text-[var(--slate)] text-sm leading-relaxed mb-4">
+            The Pink-footed Geese spectacle at Marshside peaks in October and November, and the wader passage runs through autumn. If you're travelling specifically to the Sefton Coast for birding, self-catering gives you the flexibility for early starts. Cottages.com have properties across Southport and Formby.
+          </p>
+          <a
+            href={COTTAGES.summerSale}
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="inline-block bg-[var(--forest)] hover:bg-[var(--marsh)] text-white font-semibold px-5 py-2.5 rounded-lg transition-colors text-sm"
+          >
+            Browse self-catering options →
+          </a>
         </div>
 
         <div className="flex flex-wrap gap-4 pt-4 border-t border-[var(--dune)]">
