@@ -103,6 +103,7 @@ export function Footer() {
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-white/60 transition">Privacy</Link>
             <Link href="/terms" className="hover:text-white/60 transition">Terms</Link>
+            <Link href="https://www.siba.digital/disclosure" className="hover:text-white/60 transition">Disclosure</Link>
           </div>
         </div>
       </div>
