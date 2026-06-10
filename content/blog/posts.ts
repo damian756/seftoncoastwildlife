@@ -1757,6 +1757,125 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
+    slug: "rabbits-sefton-coast-dunes",
+    category: "conservation",
+    categoryLabel: "Conservation",
+    title: "Rabbits on the Sefton Coast: The Keystone Species the Dunes Cannot Afford to Lose",
+    date: "2026-06-10",
+    metaDescription: "Rabbits have no legal protection in England yet the Sefton Coast dunes depend on them entirely. Their populations collapsed by up to 99% after myxomatosis. Here is why they matter and what conservation is doing to bring them back.",
+    heroLocalSrc: "/images/blog/blog-rabbits-sefton-dunes.webp",
+    heroAlt: "Wild rabbit sitting on bare sandy ground at the base of dune grass, Sefton Coast habitat",
+    intro: "Rabbits have no legal protection in England. Under the Pests Act 1954 they are classified as a pest species and landowners have a legal duty to control them if they cause damage to crops or property. And yet the Sefton Coast sand dunes, one of the most important coastal habitats in north-west Europe, depend on rabbits for their ecological health more than almost any other single species.",
+    sections: [
+      {
+        heading: "What Rabbits Do for Sand Dunes",
+        body: [
+          "A healthy dune system is not static. Sand should be moving through the system, plants kept in check, bare patches opening and closing as conditions change. Rabbits are central to all of this.",
+          "Their grazing keeps vegetation short, maintaining a diverse open sward with room for rare plants, insects, and basking reptiles. Their burrowing keeps bare sand exposed and in motion, essential for dune dynamism and for pioneer species that cannot establish in dense vegetation. Their latrine areas create nitrogen-rich patches that support a further suite of plant communities. The overall effect is a mosaic of habitats far richer than a dune system without rabbits.",
+          "On the Sefton Coast, the species that depend most directly on rabbit-maintained habitat include the natterjack toad, sand lizard, and northern dune tiger beetle. The short open turf rabbits create is essential for natterjack breeding pools to warm quickly enough for tadpole development. Sand lizards require bare south-facing sand for thermoregulation and egg-laying. Without rabbits maintaining open conditions, these species lose the microhabitats they need.",
+        ],
+      },
+      {
+        heading: "The Collapse: Myxomatosis and What Followed",
+        body: [
+          "In the 1950s, myxomatosis was deliberately introduced to the UK to control rabbit populations. The impact on the Sefton Coast was severe. Populations collapsed by an estimated 99% in the worst-affected areas. The disease is still present in the population today.",
+          "Just as numbers were beginning to slowly recover, rabbit haemorrhagic disease virus (RHDV1) arrived in the UK in the 1990s, followed by RHDV2 in 2010. Between the two viruses and ongoing myxomatosis, rabbit populations have never returned to historical levels anywhere on the Sefton Coast.",
+          "The ecological consequences are visible across the dune system. Without rabbit grazing, vegetation has grown rank and dense. Sea buckthorn, introduced to the Sefton Coast in the late nineteenth century and previously kept in check by heavy rabbit grazing, spread rapidly after the myxomatosis crash. Marram grass has dominated more of the open dune face. The bare sand patches, short-grazed turf, and dune slack margins that support the rarest species have all contracted.",
+        ],
+      },
+      {
+        heading: "The Legal Paradox",
+        body: [
+          "Despite their ecological importance, rabbits have no protected status in England. The Pests Act 1954 requires landowners to take steps to prevent rabbit damage. There is no legal requirement to maintain rabbit populations, no protection for wild rabbits, and no restriction on culling them outside the context of individual listed species protections.",
+          "This creates a genuine conservation difficulty. The same species classified as a pest in agricultural contexts is, on the dunes, ecologically essential. Where the management objective requires more rabbits, not fewer, the legal framework offers no support. Conservation on the Sefton Coast depends entirely on active, funded management programmes rather than any form of statutory protection for the species itself.",
+        ],
+      },
+      {
+        heading: "What the Dynamic Dunescapes Project Has Done",
+        body: [
+          "The Dynamic Dunescapes project, which ran from 2020 to 2026 across the Sefton Coast and other major English and Welsh dune systems, included rabbit population enhancement as a specific conservation objective. The Sefton Coast work covers over 4,500 hectares across Ainsdale Sand Dunes NNR, Birkdale Hills, and National Trust Formby.",
+          "The approach on the Sefton Coast has focused on creating better conditions for existing populations to expand rather than direct reintroduction. Turf stripping to create bare sand provides ideal burrowing habitat and rabbits will begin digging in freshly stripped areas within 24 hours. Livestock grazing is also being used on some sites: grazed sites consistently support better rabbit populations because the shorter sward is more palatable and the habitat diversity more attractive.",
+          "Natural England commissioned specific research in 2015 into rabbit reintroduction feasibility on the Sefton Coast, assessing the prospect of establishing new breeding populations at Winsdale and Birkdale Hills LNR. The ongoing monitoring from Dynamic Dunescapes is building the evidence base for future decisions.",
+        ],
+      },
+      {
+        heading: "What This Means for the Dune Ecosystem",
+        body: [
+          "The dune restoration work on the Sefton Coast is largely aimed at recreating the conditions rabbits once maintained naturally. Turf stripping, scrub clearance, mowing: all of it is substituting human management effort for the ecological work that sufficient rabbit populations would provide.",
+          "The long-term aspiration is a dune system with enough rabbit activity that it maintains its own dynamism without constant intervention. That is not the current situation. But the trajectory is moving in the right direction: more bare sand, more rabbit-suitable habitat, and populations that are not continuing to decline.",
+          "If you walk the Sefton Coast and see rabbits feeding or burrowing on the open dunes, they are doing some of the most important conservation work on this coastline. They are not background scenery. They are the original architects of the habitat.",
+        ],
+      },
+    ],
+    tags: ["rabbits", "sand dunes", "conservation", "keystone species", "myxomatosis", "sefton coast", "Dynamic Dunescapes", "natterjack toads", "sand lizards"],
+    relatedLinks: [
+      { label: "Natterjack Toads on the Sefton Coast", href: "/blog/natterjack-toads-sefton-coast", description: "Full guide to the natterjack toad, a direct beneficiary of rabbit-maintained dune habitat." },
+      { label: "Sand Lizards at Ainsdale", href: "/blog/sand-lizard-sefton-coast", description: "Where to find sand lizards and why open sandy habitat is critical for their survival." },
+      { label: "Understanding the Sand Dunes", href: "/blog/understanding-sand-dunes", description: "How the Sefton Coast dune system works and what threatens its ecological integrity." },
+    ],
+  },
+
+  {
+    slug: "pyramidal-orchids-sefton-dunes",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Pyramidal Orchids on the Sefton Coast Dunes: A June Wildflower Worth Finding",
+    date: "2026-06-10",
+    metaDescription: "The pyramidal orchid flowers on the Sefton Coast dunes in June and July. It grows in the dry dune grassland, distinct from the marsh orchids of the dune slacks. Here is how to identify it, where to look, and what else to find alongside it.",
+    heroLocalSrc: "/images/blog/blog-pyramidal-orchid-dunes.webp",
+    heroAlt: "Pyramidal orchid flower spike in deep pink-purple, set against dry dune grassland",
+    intro: "June is the month the dry dune grassland on the Sefton Coast comes into its own for wildflowers. The pyramidal orchid is one of the highlights: a vivid pink-purple spike appearing on south-facing dune slopes and stabilised grassland from early June into July. It is easy to overlook if you are not looking for it, but once you have found one you will start noticing them all along the dune face.",
+    sections: [
+      {
+        heading: "Identification",
+        body: [
+          "The pyramidal orchid (Anacamptis pyramidalis) is named for the shape of its flower spike when it first opens: a tight, conical pyramid of deep pink or magenta-purple flowers. As the spike matures, the flowers open from the bottom up and the pyramidal shape becomes looser and more cylindrical.",
+          "Individual flowers have a three-lobed lip and two small raised ridges that guide pollinating moths and butterflies to the nectar. The plant has no spur visible from the outside but nectar is stored within a long, narrow spur at the back of the flower. Each plant produces a single flower spike typically 20 to 45 centimetres tall, with several narrow, pointed leaves at the base.",
+          "The colour ranges from pale rose-pink to deep magenta. It is distinct from the marsh orchids found in the dune slacks: the pyramidal orchid grows in dry, calcareous grassland, not wet habitat. If you are standing on a dry dune slope and the soil is sandy, the orchid you are looking at is likely pyramidal. Marsh orchids grow lower down in the slacks.",
+        ],
+      },
+      {
+        heading: "Where to Find It on the Sefton Coast",
+        body: [
+          "Pyramidal orchids favour calcareous grassland: short, well-drained turf on chalk, limestone, or, in this case, shell-rich sand. The Sefton Coast dunes, which contain significant quantities of shell fragments, provide suitable soil chemistry on the fixed and semi-fixed dune slopes.",
+          "Look on south-facing dune slopes where the vegetation is short and the ground warm and dry. Ainsdale Sand Dunes NNR has good populations in the fixed dune grassland areas, particularly where grazing or previous management has kept the vegetation from becoming too rank. The National Trust Formby estate also has pyramidal orchids in the dune grassland away from the pinewood edge.",
+          "The key is finding areas of short, close-cropped turf. Dense marram grass or tall rank vegetation is the wrong habitat. Shorter, more diverse grassland with bird's-foot trefoil, red fescue, and wild thyme growing alongside is a good indicator that pyramidal orchids may be present.",
+        ],
+      },
+      {
+        heading: "Peak Flowering and What to Expect",
+        body: [
+          "On the Sefton Coast, pyramidal orchids typically begin flowering in early June on the most sheltered, south-facing slopes. The main peak across the dune grassland is usually mid-June to mid-July. By late July most spikes have finished and are producing seed capsules.",
+          "In a good year, you can find multiple plants flowering together on a single dune slope. In years when vegetation management has been less intensive and the turf has grown tall, populations may appear reduced simply because the orchids cannot compete with the taller grasses. The plants themselves persist in the soil as tubers and will flower again when conditions improve.",
+          "Bee orchids and common spotted orchids may be flowering at the same time in nearby areas, making June a particularly good month for orchid watching on the dunes.",
+        ],
+      },
+      {
+        heading: "The Rabbit Connection",
+        body: [
+          "The short-grazed turf that pyramidal orchids require is, historically, largely a product of rabbit grazing. On the Sefton Coast, the decline of rabbit populations since the 1950s is one of the reasons orchid-rich dune grassland has become patchier and less extensive.",
+          "Where management has maintained short turf through mechanical cutting or livestock grazing, pyramidal orchid populations persist. The Dynamic Dunescapes project's work to encourage rabbit recovery on the Sefton Coast is, indirectly, also conservation work for dune grassland plants including this one.",
+          "The connection between rabbits, short turf, and rare dune plants is a good example of how a single keystone species can underpin an entire plant community. The orchids do not need the rabbits directly. They need the habitat the rabbits create.",
+        ],
+      },
+      {
+        heading: "Practical Notes",
+        body: [
+          "Do not pick or dig up wild orchids. All wild orchids in the UK are protected under the Wildlife and Countryside Act 1981. Picking the flower prevents seed production and digging up the plant kills it. Photograph from a respectful distance without trampling the surrounding vegetation.",
+          "The best time to visit for pyramidal orchids is mid-morning on a calm, warm day in June. The flowers are at their best in full sun. Carry the OS Explorer map 285 or use the Natural England NNR boundary as your guide to the best grassland areas.",
+          "If you are visiting Ainsdale NNR or National Trust Formby specifically for wildflowers, the wardens can advise on current flowering spots. The dune grassland in June is also worth visiting for the associated insect communities: marbled white butterflies, burnet moths, and solitary bees are all active on warm June days.",
+        ],
+      },
+    ],
+    tags: ["pyramidal orchid", "wildflowers", "dune grassland", "sefton coast", "june wildlife", "species spotlight", "Ainsdale NNR", "Formby NT"],
+    relatedLinks: [
+      { label: "Marsh Orchids in the Dune Slacks", href: "/blog/marsh-orchids-dune-slack-spring", description: "The marsh orchids of the Sefton Coast dune slacks, which flower slightly earlier in May and June in wet habitat." },
+      { label: "June Wildlife on the Sefton Coast", href: "/blog/sefton-coast-june-wildlife-2026", description: "The full June wildlife calendar for the Sefton Coast: what is active and where to look." },
+      { label: "Rabbits and the Dune Ecosystem", href: "/blog/rabbits-sefton-coast-dunes", description: "Why rabbit populations matter for dune grassland plants including the pyramidal orchid." },
+    ],
+  },
+
+  {
     slug: "little-terns-ainsdale-nesting",
     category: "species-spotlight",
     categoryLabel: "Species Spotlight",
