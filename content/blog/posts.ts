@@ -1876,6 +1876,125 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
+    slug: "july-wildlife-sefton-coast-2026",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "July Wildlife on the Sefton Coast: What to Look For",
+    date: "2026-06-22",
+    metaDescription: "July on the Sefton Coast: skylarks singing over the dunes, common lizards basking, sea holly in electric-blue bloom, and late-season breeding birds still active. The full July wildlife guide.",
+    heroLocalSrc: "/images/blog/blog-july-wildlife-sefton.webp",
+    heroAlt: "Skylark singing from a grass stem in dune grassland, coastal habitat, Sefton Coast",
+    intro: "July on the Sefton Coast is peak summer but it is not the quietest month for wildlife. The breeding season is in full swing for some species and winding down for others. The dune grassland flowers are at their most visible. The reserve sites are warm and dry. If you know what to look for and where to go, July is one of the more rewarding months to walk the coast.",
+    sections: [
+      {
+        heading: "Skylarks",
+        body: [
+          "Skylarks breed throughout the dune grassland and coastal heath habitats on the Sefton Coast. In July they are still on second or third broods and the song flight is consistent through the morning. You will hear them before you see them: the continuous, rippling song delivered from 50 to 100 metres above the ground.",
+          "The best habitat for skylarks on the Sefton Coast is the open dune grassland between the dune ridges and behind the foredune. Areas managed for short, diverse sward support the highest densities. Look up when you hear them. The hovering song flight is distinctive and once you have seen a skylark singing overhead it is one of the characteristic experiences of walking this coast.",
+          "Skylark numbers have declined sharply across Britain in recent decades, largely due to agricultural intensification. The managed dune habitats on the Sefton Coast represent important breeding habitat for the species. The Dynamic Dunescapes restoration work, which has created more open short-grazed sward, is thought to have supported skylark productivity on the reserve sites.",
+        ],
+      },
+      {
+        heading: "Common Lizard",
+        body: [
+          "The common lizard is the UK's most widespread reptile and breeds on the Sefton Coast dunes, particularly on south-facing slopes with bare sand and short vegetation. July is the month when newly born juveniles appear: the species gives birth to live young rather than eggs, typically in July and August.",
+          "Juveniles are tiny, around 4 to 5 centimetres, and very dark in colouration compared to adults. Adults are typically 10 to 15 centimetres, brown or grey-brown with a lighter underside and often a darker dorsal stripe. Both sexes bask on warm sand or bark in the morning sun.",
+          "The common lizard is often confused with the sand lizard, which also occurs on the Sefton Coast. The sand lizard is larger, stockier, and the males have bright green flanks in the breeding season. The common lizard is slimmer and more uniformly brown. Both species require basking sites and bare sand for thermoregulation, which is why the Dynamic Dunescapes habitat restoration work directly benefits reptile populations.",
+        ],
+      },
+      {
+        heading: "Sea Holly",
+        body: [
+          "Sea holly (Eryngium maritimum) flowers on the Sefton Coast dunes in July. It is one of the most distinctive dune plants: spiky, blue-tinged bracts and electric blue flower heads, growing directly from the sand in the mobile and semi-fixed dune zones. The colour is genuinely unusual for a UK wildflower.",
+          "Sea holly is a protected species in the UK. It is declining nationally due to coastal development and trampling. On the Sefton Coast it grows on the open foredune and dune face in areas with good sand mobility. July is the peak flowering month. It is worth looking for on the seaward face of the dune system at Ainsdale and Formby.",
+          "The plant is adapted to dune conditions: deep tap root reaching stable sand, waxy spiny leaves to reduce water loss and deter grazing. The blue colour of both the bracts and stems, not just the flowers, is caused by a similar pigment mechanism to the colour in sea kale and other coastal plants. Do not pick it. Do not trample the surrounding sand which is active habitat.",
+        ],
+      },
+      {
+        heading: "Breeding Birds: Late Season",
+        body: [
+          "By early July most of the first-brood passerine breeding has concluded. Linnets, stonechats, and reed buntings may be on second broods in suitable habitat. The marshside RSPB reserve and the dune slack habitats at Ainsdale have good populations of all three species.",
+          "The little tern colony on Ainsdale beach is typically in the chick-rearing phase in early July, with chick fledging through mid-July. This is a critical period for the colony. Keep dogs on leads near the fenced exclosure if you are walking south from Formby Point.",
+          "Marsh harriers are regular over the reedbed habitats at Marshside through summer. A July morning visit to the Nelson hide or the coastal path at Marshside will often produce a harrier quartering the reedbed in the first hour after dawn.",
+        ],
+      },
+      {
+        heading: "Where to Go",
+        body: [
+          "For skylarks and sea holly: walk the open dune grassland at Ainsdale Sand Dunes NNR or National Trust Formby. Morning is best. The dune face seaward of the main dune ridge is where sea holly is most concentrated.",
+          "For common lizard: south-facing dune slopes with bare sand, any time from around 9am when the sun has warmed the surface. Ainsdale NNR has good lizard habitat near the boardwalk areas.",
+          "For breeding birds and raptors: Marshside RSPB reserve on Marshside Road in Southport (PR9 9TH). The Nels Hide and Stan and Peggy Scott Hide both give views over the reed bed and coastal marsh. Early morning mid-week is quieter than weekend afternoons.",
+        ],
+      },
+    ],
+    tags: ["july wildlife", "skylark", "common lizard", "sea holly", "sefton coast", "seasonal", "little terns", "breeding birds"],
+    relatedLinks: [
+      { label: "Sea Holly on the Sefton Coast", href: "/blog/sea-holly-sefton-coast", description: "Detailed species guide to sea holly, including identification, habitat and where to find it in July." },
+      { label: "June Wildlife on the Sefton Coast", href: "/blog/sefton-coast-june-wildlife-2026", description: "The June wildlife guide: what was active last month and what carries over into July." },
+      { label: "Sand Lizards at Ainsdale", href: "/blog/sand-lizard-sefton-coast", description: "The sand lizard on the Sefton Coast, a related species with different habitat requirements." },
+    ],
+  },
+
+  {
+    slug: "sea-holly-sefton-coast",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Sea Holly on the Sefton Coast: The Dune Plant Worth Seeking Out in July",
+    date: "2026-06-22",
+    metaDescription: "Sea holly flowers on the Sefton Coast in July, electric blue on the open dune face. A legally protected plant and an indicator of healthy dune habitat. Where to find it and what to look for.",
+    heroLocalSrc: "/images/blog/blog-sea-holly-sefton.webp",
+    heroAlt: "Sea holly plant with electric blue spiky flower heads, sand dune habitat in background",
+    intro: "Sea holly is one of the more striking wildflowers you can find on the Sefton Coast in July. The electric blue colour of the bracts and flower heads is genuinely unusual for a British plant. It grows directly from bare sand on the dune face, looks like something from a different climate, and is far less well-known than it deserves to be.",
+    sections: [
+      {
+        heading: "Identification",
+        body: [
+          "Eryngium maritimum is unmistakable once you know it. The whole plant has a blue-grey tinge: stems, leaves, bracts, and flower heads all share the same cold-blue colouration that distinguishes it immediately from other dune plants. The flower heads are round to conical, approximately 1 to 2 centimetres, surrounded by stiff spiny bracts of 3 to 6 centimetres that radiate around the head like a collar.",
+          "The leaves are leathery and spine-tipped, an adaptation to salt and wind exposure in the mobile dune zone. The root system is deep: tap roots can extend more than a metre into the sand, anchoring the plant in actively mobile sand where most vegetation cannot establish.",
+          "Height is typically 20 to 60 centimetres. The plant does not stand up straight in the way a dune thistle might: it spreads outward from the base, with multiple stems radiating from a central root. In a small colony on open sand, the electric blue in July sunlight is striking enough that you will see it before you identify it.",
+        ],
+      },
+      {
+        heading: "Where It Grows on the Sefton Coast",
+        body: [
+          "Sea holly occupies the mobile and semi-fixed dune zone: the seaward face of the main dune ridge and the open sand areas between the foredune and the established dune grassland. It does not grow in closed turf or in scrub. It needs open, active sand where competition from other plants is limited.",
+          "On the Sefton Coast, the best locations are on the dune face at Ainsdale Sand Dunes NNR and on the National Trust estate at Formby. Look for it on the seaward-facing slopes of the main dune ridge rather than in the dune slacks or fixed grassland inland.",
+          "The plant is not abundant on the Sefton Coast in the way that it may have been historically. Stabilisation of the dune surface through vegetation succession, combined with trampling of open sand areas, has reduced the available habitat. The Dynamic Dunescapes turf-stripping work has in some areas created new bare sand habitat that may benefit sea holly in the coming years.",
+        ],
+      },
+      {
+        heading: "Conservation Status",
+        body: [
+          "Sea holly is listed as a species of conservation concern in Britain. It is a Section 41 species under the Natural Environment and Rural Communities Act 2006, identifying it as a species of principal importance for the conservation of biodiversity in England. While it is not illegal to pick in the same way as some orchid species, it is fully protected under Schedule 8 of the Wildlife and Countryside Act 1981.",
+          "Nationally, sea holly has declined significantly over the last century. The primary causes are coastal development, dune stabilisation, and direct picking or trampling. On managed nature reserves like those on the Sefton Coast, the plant is monitored and habitat management specifically aims to maintain the open sandy conditions it requires.",
+          "If you find sea holly: photograph it, note the location, and leave it exactly as you found it. The root system is fragile and any disturbance to the surrounding sand can damage established plants.",
+        ],
+      },
+      {
+        heading: "What Visits Sea Holly",
+        body: [
+          "Sea holly is an important late-summer nectar source for invertebrates on the dunes. The flowers are heavily visited by bumblebees, solitary bees, hoverflies, and various butterflies including the common blue and occasionally painted lady during migration years.",
+          "The spiny structure of the plant provides some shelter for small invertebrates in the open dune habitat. On warm afternoons in July, it is worth looking closely at sea holly flower heads for small beetles and flies that use the bracts for resting and feeding. The plant supports a miniature invertebrate community that is easy to overlook.",
+        ],
+      },
+      {
+        heading: "When and How to Look",
+        body: [
+          "July is the peak flowering month for sea holly on the Sefton Coast. Flowering typically continues into August but the electric blue colour is most intense in the first three weeks of July when the bracts are fresh and the flower heads unopened or freshly opened.",
+          "Go to the open dune face in the morning when the light is directional and the blue colour is at its most apparent. The seaward side of the main dune ridge at Ainsdale NNR is the most accessible location. Stay on established paths: the habitat around sea holly plants is fragile and trampling the open sand compacts the surface in a way that harms the plant community.",
+          "A sunny day in early July, walking the dune face at Ainsdale, the sea holly in flower with bees working the heads: it is one of those specific combinations that the Sefton Coast does well and that most people who visit the beach 200 metres away have no idea exists.",
+        ],
+      },
+    ],
+    tags: ["sea holly", "dune plants", "July wildflowers", "sefton coast", "species spotlight", "Ainsdale NNR", "protected species", "dune habitat"],
+    relatedLinks: [
+      { label: "July Wildlife on the Sefton Coast", href: "/blog/july-wildlife-sefton-coast-2026", description: "The full July wildlife guide: skylarks, common lizard, sea holly, and breeding birds." },
+      { label: "Pyramidal Orchids on the Sefton Dunes", href: "/blog/pyramidal-orchids-sefton-dunes", description: "The June wildflower on the dry dune grassland, flowering slightly earlier than sea holly." },
+      { label: "Understanding the Sand Dunes", href: "/blog/understanding-sand-dunes", description: "How the Sefton Coast dune system works and why open bare sand is ecologically critical." },
+    ],
+  },
+
+  {
     slug: "little-terns-ainsdale-nesting",
     category: "species-spotlight",
     categoryLabel: "Species Spotlight",
