@@ -56,6 +56,7 @@ export function Footer() {
                 { href: "/seasonal", label: "Seasonal Guides" },
                 { href: "/blog", label: "Wildlife Blog" },
                 { href: "/contact", label: "Contact" },
+                { href: "/advertise", label: "Advertise" },
               ].map(({ href, label }) => (
                 <li key={href}>
                   <Link href={href} className="hover:text-white transition">
@@ -89,12 +90,12 @@ export function Footer() {
         {/* Partner banner */}
         <div className="mt-12 border-t border-white/10 pt-6 pb-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm">
           <p className="text-white/50">
-            Conservation group or local business?{" "}
-            <span className="text-[var(--gold)] font-semibold">Partner with the Sefton Coast Network</span>
+            Conservation group, local business or national brand?{" "}
+            <span className="text-[var(--gold)] font-semibold">Advertise with the Sefton Coast Network</span>
           </p>
-          <a href="mailto:hello@seftoncoast.network" className="text-[var(--gold)] hover:text-white transition font-medium text-sm">
-            hello@seftoncoast.network →
-          </a>
+          <Link href="/advertise" className="text-[var(--gold)] hover:text-white transition font-medium text-sm">
+            View advertising options →
+          </Link>
         </div>
 
         {/* Bottom bar */}
@@ -103,6 +104,7 @@ export function Footer() {
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-white/60 transition">Privacy</Link>
             <Link href="/terms" className="hover:text-white/60 transition">Terms</Link>
+            <Link href="/advertise" className="hover:text-white/60 transition">Advertise</Link>
             <Link href="https://www.siba.digital/disclosure" className="hover:text-white/60 transition">Disclosure</Link>
           </div>
         </div>
