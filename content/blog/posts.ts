@@ -1995,6 +1995,111 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
+    slug: "glow-worms-sefton-coast",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Glow-Worms on the Sefton Coast: The July Spectacle Most People Miss",
+    date: "2026-07-01",
+    metaDescription: "Glow-worms are active on the Sefton Coast dunes in July. The female emits a cold green light from the grass after dark to attract males. Where to look, when to go, and what you are actually seeing.",
+    heroLocalSrc: "/images/blog/blog-glow-worms-sefton.webp",
+    heroAlt: "Glow-worm emitting green bioluminescent light in short grass at night, Sefton Coast dunes",
+    intro: "On warm, still evenings in July, the short grassland areas of the Sefton Coast dunes hold one of the most unusual wildlife spectacles in the north west of England. The common glow-worm, Lampyris noctiluca, is not a worm at all. It is a beetle. And for a few weeks each summer, the wingless females sit in the grass after dark and emit a cold green light from their abdomens to attract flying males. If you know where to look and when to go, you can see this on the Sefton Coast.",
+    sections: [
+      {
+        heading: "What a Glow-Worm Actually Is",
+        body: [
+          "The common glow-worm (Lampyris noctiluca) is a beetle in the family Lampyridae. The species is sexually dimorphic: males are winged and beetle-like, with a small light organ. Females are wingless and larval in appearance, significantly larger than the males, with a bright green bioluminescent organ occupying the last three abdominal segments.",
+          "The light is produced by a chemical reaction involving luciferin and the enzyme luciferase, catalysed in the presence of oxygen. It is genuinely cold: almost no heat is produced. The green colour is around 550 to 560 nanometres, in the peak sensitivity range of the human eye at low light levels. This is not accidental. The female is advertising herself to males flying overhead and the light is tuned for visibility.",
+          "The glow is visible from around 50 metres in good conditions. On a dark, still evening in a dune grassland area with no artificial light, a glowing female is unmistakable: a steady, cool green light in the grass, unlike anything else you are likely to encounter on the Sefton Coast.",
+        ],
+      },
+      {
+        heading: "When and Where on the Sefton Coast",
+        body: [
+          "Glow-worms are active from mid-June through July, with peak activity typically in the last two weeks of June and first week of July in the north west. The females glow from shortly after sunset, typically around 10pm BST in July, for two to three hours. They stop glowing if disturbed or if temperatures drop significantly.",
+          "The habitat requirement is short, open grassland with abundant invertebrate prey, particularly snails and slugs which are the primary food source for both larvae and adults. On the Sefton Coast, this means the short-grazed dune grassland of Ainsdale Sand Dunes NNR and the National Trust estate at Formby. Areas that have been subject to turf-stripping or grazing restoration as part of the Dynamic Dunescapes project are particularly good candidate habitat.",
+          "Walking the dune grassland paths at Ainsdale NNR after dark in the first two weeks of July is the most reliable approach. Go on a warm, still evening: wind and rain suppress glow-worm activity significantly. The lack of artificial light at Ainsdale NNR makes the glow visible at good range. Bring a red light torch rather than a white one: red light preserves your night vision and is less likely to disturb the insects.",
+        ],
+      },
+      {
+        heading: "The Life Cycle",
+        body: [
+          "Glow-worm larvae are predatory from hatching, hunting snails and slugs in the leaf litter and grass. They inject a paralysing fluid into prey and then digest it externally. Larvae overwinter and take two to three years to reach adulthood, spending the majority of their lives as larvae in the soil and grass.",
+          "Adult glow-worms do not feed. Their entire adult life is devoted to reproduction. The female glows to attract a male, mates, lays eggs in the soil or moss, and dies. The adult season is brief: four to six weeks in most years. After mating the female stops glowing. The eggs hatch into larvae which repeat the cycle.",
+          "The brevity of the adult season and the reliance on a specific prey base make glow-worm populations sensitive to habitat change. Short-grazed grassland supports the snail populations that sustain the larvae. Where grassland becomes rank and tall, snail communities change and glow-worm productivity declines. This is why rabbit grazing and conservation management on the Sefton Coast dunes benefits glow-worms indirectly as well as more visible species.",
+        ],
+      },
+      {
+        heading: "Watching Responsibly",
+        body: [
+          "Do not pick up or handle glow-worms. The female stops glowing if disturbed and her glowing window each evening is limited. A female that stops early has reduced chances of attracting a mate.",
+          "Use a red light torch rather than white light. White torches cause glow-worms to stop and can disorient them for the remainder of the evening.",
+          "Stay on established paths. The short grassland habitat that glow-worms use is also the habitat for natterjack toads, sand lizards, and other species. Wandering off path in dune grassland at night causes trampling damage that is not visible in the dark.",
+          "If you find a glowing female, note the location and check the same spot on subsequent evenings. Females often use the same position for several consecutive nights.",
+        ],
+      },
+    ],
+    tags: ["glow-worm", "bioluminescence", "dune grassland", "July wildlife", "night wildlife", "sefton coast", "Ainsdale NNR", "beetles"],
+    relatedLinks: [
+      { label: "July Wildlife on the Sefton Coast", href: "/blog/july-wildlife-sefton-coast-2026", description: "The full July wildlife guide including glow-worms, skylarks, sea holly and common lizard." },
+      { label: "Rabbits and the Dune Ecosystem", href: "/blog/rabbits-sefton-coast-dunes", description: "Why rabbit grazing matters for the dune grassland habitat that glow-worms depend on." },
+      { label: "Natterjack Toads on the Sefton Coast", href: "/blog/natterjack-toads-sefton-coast", description: "Another species of the open dune grassland, active in the same habitat in summer." },
+    ],
+  },
+
+  {
+    slug: "painted-lady-butterfly-sefton-coast",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Painted Lady Butterflies on the Sefton Coast: The 2026 Migration",
+    date: "2026-07-01",
+    metaDescription: "Painted ladies are arriving on the Sefton Coast in good numbers in 2026. They migrate from North Africa each year. How to identify them, where to see them, and why this year is significant.",
+    heroLocalSrc: "/images/blog/blog-painted-lady-sefton.webp",
+    heroAlt: "Painted lady butterfly with orange and black wings on purple knapweed, coastal grassland background",
+    intro: "The painted lady butterfly does not hibernate in Britain. Every individual you see on the Sefton Coast this summer has flown here from North Africa or southern Europe, a journey of up to 4,000 kilometres through multiple generations. It is one of the most extraordinary migration stories in the insect world, and 2026 is shaping up to be a significant arrival year on the Lancashire coast.",
+    sections: [
+      {
+        heading: "Identification",
+        body: [
+          "Vanessa cardui is one of the most distinctive British butterflies once you know it. Wingspan 58 to 74mm. Upper wing surface: salmon-orange with black and white markings at the wingtip and a row of black spots along the hindwing margin. Underside: pale brown and cream with four small eye-spots near the hindwing margin, giving a mottled cryptic pattern when resting with wings closed.",
+          "The painted lady can be confused with the red admiral (Vanessa atalanta) at a glance, but the red admiral has deeper red bands and a much darker background. The tortoiseshell species are smaller. Once seen well, the painted lady is straightforward to identify.",
+          "In flight, painted ladies are strong and fast. They cover ground quickly and will not tolerate close approach when nectaring. Watch from a distance and let the butterfly settle before moving closer. In direct sunlight on a calm day they often bask with wings flat, giving the best views.",
+        ],
+      },
+      {
+        heading: "The Migration",
+        body: [
+          "Painted ladies are unable to survive British winters. The species exists in Britain only through annual migration from breeding populations in North Africa and southern Europe. The migration takes multiple generations: no individual completes the full round trip. Each generation moves northward, breeds, and the next generation continues.",
+          "Arrivals on the British coast typically peak in late June and July. Coastal sites are the first to receive migrants coming in off the sea. The Sefton Coast, facing west onto the Irish Sea, is a natural landfall for painted ladies arriving from the south-west.",
+          "2026 is a notable year for painted lady arrivals in Britain. A combination of favourable breeding conditions in North Africa and good southerly winds during the migration window has produced higher numbers than average. If you are walking the Sefton Coast dune grassland in July, you have a better-than-average chance of encountering the species.",
+        ],
+      },
+      {
+        heading: "Where to See Them on the Sefton Coast",
+        body: [
+          "Painted ladies nectar on a range of wildflowers but are particularly associated with thistles, knapweed, and ragwort. All three are common in the dune grassland and coastal path habitats of the Sefton Coast. The best areas to look are the open dune grassland at Ainsdale NNR and the dune face and coastal grassland at National Trust Formby.",
+          "The coastal path between Formby Point and Ainsdale is particularly good in July because it passes through varied dune grassland with an abundance of the thistle and knapweed species that painted ladies prefer. Walk the path mid-morning on a calm, warm day and check every flowering thistle and knapweed head.",
+          "Marshside RSPB reserve on the Southport coast is another good location: the rough grassland margins of the reserve hold suitable nectar sources and migrants arriving off the sea at Southport sometimes land directly on the reserve.",
+        ],
+      },
+      {
+        heading: "The Return Journey",
+        body: [
+          "For decades it was assumed that painted ladies arriving in Britain simply died when winter came. Research using stable hydrogen isotopes in wing scales established in 2009 that British-bred painted ladies do fly south in autumn, continuing the multi-generational migration back toward Africa.",
+          "The adults fly at altitude during the autumn return, typically above 500 metres, which is why the southward movement was missed for so long. Radar tracking has subsequently confirmed significant southward movements of painted ladies off the British coast in August and September.",
+          "The full migratory circuit covers around 14,000 kilometres in total across six generations. For an insect with a body the weight of a paper clip, this is an astonishing feat. The individual butterfly you see nectaring on knapweed at Ainsdale in July is probably the third or fourth generation from a butterfly that left North Africa in spring.",
+        ],
+      },
+    ],
+    tags: ["painted lady", "butterfly migration", "July wildlife", "dune grassland", "sefton coast", "Vanessa cardui", "migratory insects", "Ainsdale NNR"],
+    relatedLinks: [
+      { label: "July Wildlife on the Sefton Coast", href: "/blog/july-wildlife-sefton-coast-2026", description: "The full July wildlife guide: skylarks, sea holly, common lizard and more." },
+      { label: "Common Blue Butterfly on the Sefton Dunes", href: "/blog/common-blue-butterfly-sefton-dunes", description: "The resident butterfly species of the dune grassland, present alongside painted lady migrants." },
+      { label: "Ainsdale Beach Walk from Formby", href: "https://www.formbyguide.co.uk/blog/ainsdale-beach-walk-from-formby", description: "Walk the coastal path where painted ladies are most reliably seen in July." },
+    ],
+  },
+
+  {
     slug: "little-terns-ainsdale-nesting",
     category: "species-spotlight",
     categoryLabel: "Species Spotlight",
