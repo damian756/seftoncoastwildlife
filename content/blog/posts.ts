@@ -1995,6 +1995,108 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
+    slug: "skylark-sefton-coast-dunes",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Skylark on the Sefton Coast Dunes: The Song Flight Worth Knowing",
+    date: "2026-07-14",
+    metaDescription: "The skylark breeds throughout the Sefton Coast dune grassland. Its song flight is one of the defining sounds of the open coast in summer. How to find it, what to listen for, and why it matters.",
+    heroLocalSrc: "/images/blog/blog-skylark-dunes.webp",
+    heroAlt: "Skylark perched on dune grass stem with open beak singing, pale blue coastal sky background",
+    intro: "There is a moment in summer on the Sefton Coast dunes when you stop walking and listen. From somewhere above you, invisible against the sky, a skylark is in full song. The sound is continuous: a rolling, bubbling stream of notes delivered without apparent pause from a bird hovering 50 to 100 metres overhead. It is one of the most recognisable and most underappreciated wildlife experiences on this coast.",
+    sections: [
+      {
+        heading: "About the Species",
+        body: [
+          "The Eurasian skylark (Alauda arvensis) is a medium-sized songbird of open habitats: farmland, heathland, moorland, and coastal dune grassland. In the UK it is most associated with arable farmland, where it has declined severely since the 1970s due to agricultural intensification. On the Sefton Coast, the open dune grassland provides an important breeding habitat that has been lost from much of the species' former range.",
+          "Identification on the ground: brown and streaked above, paler below, with a short crest that is raised when alert and flattened when calm. Slightly larger than a sparrow. In flight the song flight posture is distinctive: the bird rises steeply, hovers at height, and descends slowly, singing throughout. The white outer tail feathers flash briefly in flight.",
+          "The skylark is an Amber List species under the Birds of Conservation Concern assessment, reflecting long-term population declines. Any site supporting breeding skylarks has conservation significance.",
+        ],
+      },
+      {
+        heading: "The Song Flight",
+        body: [
+          "The song flight of the skylark is the defining behaviour. Males ascend to 50-100 metres or more and deliver continuous song for periods of two to five minutes or longer before descending. At the peak of the breeding season in April and May, males may perform dozens of song flights in a single morning. In July, second and third broods are still underway and song flight continues, though less intensively than peak spring.",
+          "The song is complex and variable, with no two birds identical. It consists of rapid sequences of buzzing, trilling, and warbling notes delivered at high speed. The continuity is achieved through circular breathing, a technique shared with some other songbirds that allows continuous sound production without the pauses for inhalation that would be audible in normal breathing.",
+          "Finding the bird visually during the song flight requires patience. Against a pale sky, a hovering skylark at 80 metres is a small brown speck. Binoculars help but are not essential for identification: the combination of location (open dune grassland), behaviour (hovering and singing), and sound is unambiguous.",
+        ],
+      },
+      {
+        heading: "On the Sefton Coast",
+        body: [
+          "Skylarks breed throughout the open dune grassland habitats of the Sefton Coast, from Southport Ainsdale Sand Dunes NNR south through the National Trust Formby estate. The best areas are the open grassland between dune ridges: the short, diverse sward maintained by rabbit grazing and conservation management.",
+          "The Dynamic Dunescapes habitat restoration work on the Sefton Coast, which has created more open short-grazed sward through turf stripping and rabbit population enhancement, is expected to benefit skylark productivity directly. Short, open grassland is both the preferred nesting habitat and the foraging habitat for adults feeding chicks.",
+          "The best time to hear skylarks on the Sefton Coast is early morning from May through July. Walking the open dune grassland at Ainsdale NNR between 6 and 9am on a calm, clear morning in summer will reliably produce song flight from multiple birds. Later in the day, song activity reduces, particularly in hot weather when birds spend more time on the ground.",
+        ],
+      },
+      {
+        heading: "Conservation",
+        body: [
+          "Skylark populations have declined by approximately 60 percent in the UK since the 1970s. The primary driver is agricultural change: the shift from spring-sown to autumn-sown crops has removed the winter stubble and spring bare ground that skylarks require for nesting and foraging. On farmland, conservation measures including skylark plots (small undrilled patches in cereal fields) have shown positive results in slowing the decline.",
+          "On the Sefton Coast, the managed dune habitat represents an important refuge for the species. The continuation of rabbit grazing management, targeted scrub control, and the maintenance of open short-grazed sward areas directly supports skylark breeding productivity. Monitoring of skylark territory density on the NNR provides an indicator of habitat quality across the dune system.",
+        ],
+      },
+    ],
+    tags: ["skylark", "dune grassland", "song flight", "breeding birds", "sefton coast", "Ainsdale NNR", "species spotlight", "conservation"],
+    relatedLinks: [
+      { label: "July Wildlife on the Sefton Coast", href: "/blog/july-wildlife-sefton-coast-2026", description: "The full July wildlife guide including skylarks, sea holly and common lizard." },
+      { label: "Rabbits and the Dune Ecosystem", href: "/blog/rabbits-sefton-coast-dunes", description: "Why rabbit grazing matters for the dune grassland that skylarks depend on." },
+      { label: "Understanding the Sand Dunes", href: "/blog/understanding-sand-dunes", description: "How the Sefton Coast dune system works and why open habitat matters." },
+    ],
+  },
+
+  {
+    slug: "grey-seal-sefton-coast",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Grey Seal on the Sefton Coast: When and Where to See Them",
+    date: "2026-07-14",
+    metaDescription: "Grey seals are seen regularly off the Sefton Coast, particularly from Formby Point and Ainsdale beach. When they appear, how to identify them, and what brings them to this stretch of coast.",
+    heroLocalSrc: "/images/blog/blog-grey-seal-sefton.webp",
+    heroAlt: "Grey seal resting on wet sand, looking directly at camera, Sefton Coast beach",
+    intro: "The grey seal is Britain's largest native land mammal and an occasional but memorable visitor to the beaches and nearshore waters of the Sefton Coast. Sightings are not daily occurrences in the way that oystercatchers or skylarks are. But grey seals do appear, particularly in autumn and winter, and knowing what to expect and where to look makes the difference between a chance encounter and a deliberate observation.",
+    sections: [
+      {
+        heading: "Identification",
+        body: [
+          "The grey seal (Halichoerus grypus) is unmistakable at close range. Adults are large: males (bulls) reach 2.3 to 2.5 metres and can weigh up to 300kg. Females (cows) are smaller, typically 1.6 to 2 metres and 100 to 150kg. The characteristic feature is the long, horse-like head profile, particularly obvious in bulls. Colouration is highly variable: males tend to be darker grey with pale patches, females lighter grey with darker spots.",
+          "In the water, grey seals are commonly confused with harbour seals (Phoca vitulina), which also occur on the Irish Sea coast. The key difference is the head shape: the grey seal has a long straight profile with nostrils parallel on the snout tip; the harbour seal has a more rounded, concave head profile with V-shaped nostrils meeting at the midline. At distance, size difference is the most reliable indicator.",
+          "Behaviour in the water: grey seals are curious and will sometimes approach swimmers or kayakers closely. They frequently adopt the 'bottling' position: floating vertically in the water with head raised, apparently sleeping. On beaches, hauled-out seals sleep deeply and are easily startled. Give plenty of space.",
+        ],
+      },
+      {
+        heading: "When to See Them on the Sefton Coast",
+        body: [
+          "Grey seals are seen on the Sefton Coast throughout the year, with the most reliable period being autumn and winter (October through March). The population on the Irish Sea coast increases in autumn as seals disperse from breeding colonies on the north Wales and Cumbrian coasts. Individual seals may haul out on Sefton Coast beaches to rest, particularly at low tide on undisturbed sections of beach.",
+          "Summer sightings are less frequent but do occur. In July and August, grey seals are most often seen in the water rather than hauled out, occasionally visible from Formby Point as dark heads in the nearshore swell or as distant shapes hauled on sandbanks exposed at low tide.",
+          "The breeding season for grey seals in the Irish Sea is primarily October to December, at colonies on rocky shores and beaches further north. Sefton Coast beaches are not breeding sites.",
+        ],
+      },
+      {
+        heading: "Where to Look",
+        body: [
+          "Formby Point is the best land-based vantage point for grey seal sightings on the Sefton Coast. The point extends into the Irish Sea and provides clear views of the nearshore water and exposed sandbanks at low tide. Scan the water with binoculars at low tide for dark heads or the larger bulk of hauled seals.",
+          "Ainsdale beach has produced haul-out records on the lower beach beyond the little tern colony area. Access this section by walking south from Formby Point or north from the Ainsdale beach car park (Shore Road, PR8 2QB).",
+          "The walk from Formby Point south toward Ainsdale at low tide on a calm autumn or winter morning is the most reliable approach for grey seal sightings on this coast. Early morning before beach users arrive in numbers is the best timing.",
+        ],
+      },
+      {
+        heading: "If You Find a Seal on the Beach",
+        body: [
+          "Seals haul out to rest and do not necessarily need rescue. A seal lying on a beach is not automatically in distress. Do not approach closely, do not attempt to return it to the water, and keep dogs away. A seal that remains on the beach for more than 24 hours, shows signs of injury, or is visibly in distress (laboured breathing, wounds, entanglement) should be reported to the BDMLR (British Divers Marine Life Rescue) on 01825 765546.",
+          "Approaching hauled seals causes significant stress and can prompt them to flee to the water in a state of exhaustion. Stay at a minimum of 50 metres from any hauled seal and observe from a distance.",
+        ],
+      },
+    ],
+    tags: ["grey seal", "marine mammals", "sefton coast", "Formby Point", "seashore", "species spotlight", "autumn wildlife"],
+    relatedLinks: [
+      { label: "Seawatching from Formby Point", href: "/blog/seawatching-formby-point-guide", description: "Guide to seawatching from Formby Point: what species pass, when to go, and how to get started." },
+      { label: "August Wildlife on the Sefton Coast", href: "/blog/august-wildlife-sefton-coast-2026", description: "The full August wildlife guide: what to look for as summer moves toward autumn." },
+      { label: "Harbour Porpoise off the Sefton Coast", href: "/blog/harbour-porpoise-sefton-coast", description: "The smaller cetacean also seen from Formby Point, particularly in summer." },
+    ],
+  },
+
+  {
     slug: "glow-worms-sefton-coast",
     category: "species-spotlight",
     categoryLabel: "Species Spotlight",
