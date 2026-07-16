@@ -137,7 +137,7 @@ export default function AdvertisePage() {
             <p className="text-gray-500 mt-3 text-sm max-w-xl mx-auto">
               Sefton Coast Wildlife is included in the Full Network package. For brands wanting the widest possible Sefton Coast reach, this covers all four sites from a single agreement.
             </p>
-            <p className="text-gray-400 mt-2 text-xs">All packages: six months paid upfront. Category exclusivity included.</p>
+            <p className="text-gray-400 mt-2 text-xs">All packages: six-month minimum contract. Category exclusivity included.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-5">
@@ -159,7 +159,7 @@ export default function AdvertisePage() {
                   <div className="text-2xl font-extrabold text-[var(--forest)] mb-0.5">
                     {pkg.price}<span className="text-sm font-normal text-gray-400"> / month</span>
                   </div>
-                  <p className="text-xs text-gray-400 mb-4">{pkg.total} paid upfront on agreement</p>
+                  <p className="text-xs text-gray-400 mb-4">{pkg.total} · 6-month minimum contract</p>
                   <ul className="space-y-2 mb-5">
                     {pkg.features.map((f) => (
                       <li key={f} className="flex items-start gap-2 text-xs text-gray-600">
