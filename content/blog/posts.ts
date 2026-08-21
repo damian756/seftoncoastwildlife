@@ -2262,6 +2262,131 @@ export const BLOG_POSTS: BlogPost[] = [
       { label: "Natterjack Toads", href: "/blog/natterjack-toads-sefton-coast", description: "The spring breeding season for natterjack toads on the Sefton Coast dunes." },
     ],
   },
+  {
+    slug: "august-wildlife-sefton-coast-2026",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "August Wildlife on the Sefton Coast: What to Look For",
+    date: "2026-08-21",
+    metaDescription: "August on the Sefton Coast brings dragonflies at Marshside, the last of the breeding season seabirds at Ainsdale, and the first hints of autumn migration over the dunes. What to look for and where to find it.",
+    heroLocalSrc: "/images/blog/blog-august-wildlife-sefton.webp",
+    heroAlt: "Common darter dragonfly resting on a reed stem at Marshside in late August, reed beds blurred behind",
+    intro: "August is the pivot month on the Sefton Coast. The breeding season is winding down. The first autumn migrants are beginning to move. Dragonflies and damselflies are at their peak. The dune flowers are past their June and July height but the late-summer species have taken over. It is a good month to be out, and a genuinely different month from what comes before and after.",
+    sections: [
+      {
+        heading: "Dragonflies and Damselflies: Peak Month",
+        body: [
+          "August is the best single month for odonata on the Sefton Coast. The Marshside RSPB scrapes hold multiple species through the summer, with peak numbers in late July and August before the first frosts begin to reduce populations in September.",
+          "Common Darter (Sympetrum striolatum) is the species you will see most reliably in August. The male is brick-red with a narrow abdomen, the female and immature birds are yellow-brown. It is a perching dragonfly that uses exposed stems, fence posts and flat rocks to bask. Marshside's reed edges and the scrape margins are the right habitat. They are bold enough that close approach with a camera is often possible.",
+          "Ruddy Darter (Sympetrum sanguineum) occurs alongside Common Darter but is less frequent. The male is a deeper, blood-red with a distinctly pinched abdomen. Worth checking carefully when you find a group of red darters. The two species often occur together at Marshside.",
+          "Brown Hawker (Aeshna grandis) is the large, unmistakable hawker of August: amber-brown wings, blue markings on the male. It patrols relentlessly over open water and along the reed edges, rarely settling. The Marshside scrapes and the pools on the Nels Hide path are the most reliable locations.",
+          "Blue-tailed Damselfly (Ischnura elegans) is present in large numbers on the reed margins through August. Easy to overlook unless you are looking for it specifically. The female has several colour forms including a pink immature form that catches people off-guard.",
+        ],
+      },
+      {
+        heading: "Seabirds: The Season Ending",
+        body: [
+          "The little tern colony at Ainsdale is approaching the end of its breeding season in August. Young birds from successful nests will be flying by mid-August. The colony warden presence reduces as the season concludes. By the end of August, the first birds have already departed for their West African wintering grounds.",
+          "Common tern numbers at Marshside remain reasonable in early August before post-breeding dispersal takes birds south. Check the colony posts and scrape margins. Terns in August are beginning to look rougher than they did in June: worn plumage, some adults already showing the black bill tip reappearing as the orange fades.",
+          "Gannets are starting to appear offshore in August as post-breeding birds disperse from Scottish colonies. Seawatching from Formby Point on days with a westerly or north-westerly wind is productive. August is the beginning of the autumn seawatching season, not the peak, but a decent westerly can bring good numbers past the point.",
+        ],
+      },
+      {
+        heading: "Waders: First Autumn Arrivals",
+        body: [
+          "The wader passage at Marshside begins in earnest in August. Birds that bred in the Arctic and subarctic tundra are already moving south through Britain. Marshside RSPB is one of the best accessible sites in the North West for watching this movement.",
+          "Dunlin are the most numerous passage wader through August. They arrive in mixed flocks often alongside Ringed Plover. Both species use the muddy edges of the Marshside scrapes. Numbers build through the month and into September.",
+          "Curlew Sandpiper (Calidris ferruginea) is the August wader to search for carefully. Adults in worn summer plumage can appear from late July. Juveniles, with their neat scaly upperparts and peach wash to the breast, follow in August and September. They are usually found in Dunlin flocks: check for the distinctive decurved bill.",
+          "Greenshank and Green Sandpiper appear at Marshside from July and continue through August. Both species prefer slightly deeper water than the smallest waders. The pools on the Nels Hide path are productive for both.",
+        ],
+      },
+      {
+        heading: "Dune Flora: Late Summer Species",
+        body: [
+          "The dune flowering season at Formby, Ainsdale and Birkdale extends into August with different species taking over from the June and July peaks. Sea Holly is still in flower in early August, its steely blue bracts fading toward the end of the month. Viper's Bugloss, which colours sections of the Ainsdale dunes intensely blue-purple in July, continues into August.",
+          "Late summer fungi begin to appear in the Formby pinewoods from mid-August. Russula species are among the first. The main autumn fungi season does not begin until September and October, but August walks in the pinewoods are starting to show early fruitings on the woodland floor.",
+          "Bloody Crane's-bill (Geranium sanguineum) flowers into August on the more stable dune grassland sections. The vivid magenta-pink flowers are disproportionately showy for a plant of open grassland and are worth looking for on the dune system north of Formby village.",
+        ],
+      },
+      {
+        heading: "Where to Go in August",
+        body: [
+          "Marshside RSPB: hides open from dawn. August mornings are excellent for dragonflies on the scrape margins and waders on the mud. The Stan and Peggy Scott hide gives the best views of the main scrape. The path to the Nels Hide is the most productive for mixed wader and passerine activity.",
+          "Formby pinewoods: the squirrel trail and woodland path network. Early morning for red squirrels, which are increasingly active as September approaches. The pinewoods floor for early fungi.",
+          "Formby Point: seawatching on westerly days. Stand facing the sea and scan systematically. August is the beginning rather than the peak of the autumn seawatching season, but an hour in the right conditions is always worth it.",
+          "Ainsdale beach: the little tern colony area at the northern end of the managed beach zone. The colony wardens are still present in early August. Respect the fencing.",
+        ],
+      },
+    ],
+    tags: ["August", "dragonflies", "Marshside", "waders", "autumn passage", "dune flora", "seawatching"],
+    relatedLinks: [
+      { label: "Marshside RSPB: Guide to the Hides and Paths", href: "/blog/nels-hide-marshside-guide", description: "The full guide to Marshside RSPB, including the Nels Hide path and Stan and Peggy Scott hide." },
+      { label: "July Wildlife on the Sefton Coast", href: "/blog/july-wildlife-sefton-coast-2026", description: "What was happening on the Sefton Coast in July 2026." },
+    ],
+  },
+
+  {
+    slug: "gannet-sefton-coast-seawatching",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Gannet over the Sefton Coast: Autumn Seawatching Begins",
+    date: "2026-08-21",
+    metaDescription: "Gannets begin passing the Sefton Coast in numbers from late August as post-breeding dispersal from Scottish colonies gets underway. How to see them, what to look for, and where to seawatch on the Sefton Coast.",
+    heroLocalSrc: "/images/blog/blog-gannet-sefton-coast.webp",
+    heroAlt: "Northern gannet in full flight over grey sea, white plumage with black wingtips, wings spread wide",
+    intro: "The northern gannet is the largest seabird in the North Atlantic and one of the most striking birds you can see from any British beach. From late August through to November, gannets pass the Sefton Coast in numbers as post-breeding birds disperse from their Scottish colonies. Formby Point is the best place to watch them from on this stretch of coast.",
+    sections: [
+      {
+        heading: "About the Species",
+        body: [
+          "The northern gannet (Morus bassanus) breeds in large colonies on remote headlands and sea stacks around Britain and Ireland, with the largest colonies on Bass Rock in the Firth of Forth, St Kilda, Bempton Cliffs in Yorkshire, and sites in Ireland and Wales. After the breeding season, both adults and juveniles disperse widely through the waters of the North Atlantic and North Sea.",
+          "Adult gannets are unmistakable: large, cigar-shaped body, brilliant white plumage, golden-yellow head, and black wingtips that span nearly 2 metres. The pointed bill is pale blue-grey. In flight the wingbeats are slow and powerful interspersed with long glides, and the silhouette is unlike any other seabird.",
+          "Juvenile gannets are brown with white spotting that gradually decreases over five years as they reach adult plumage. First-year birds are sooty-brown overall. The transition through intermediate plumages means that in a passing group of gannets, birds of several different ages can be identified by the amount of white in the plumage.",
+          "The gannet's diving behaviour is one of the most dramatic in British wildlife. A hunting bird will fold its wings and plunge from 20 to 40 metres above the sea surface, entering the water at speeds up to 100 kilometres per hour. Subcutaneous air sacs absorb the impact. Gannets hunt mackerel, herring, and other shoaling fish. When you see a group plunge-diving, there is usually a fish shoal beneath them.",
+        ],
+      },
+      {
+        heading: "When Gannets Pass the Sefton Coast",
+        body: [
+          "The first autumn gannets appear off the Sefton Coast from late July as post-breeding adults begin to wander from their colonies. Numbers build through August and peak from September through November as the full autumn migration movement gets underway.",
+          "Gannets are present throughout the year in Irish Sea waters, but the autumn movement represents a significant increase in the numbers passing any given point. On a good seawatching day with a westerly or north-westerly wind, hundreds of gannets can pass Formby Point in a few hours.",
+          "The timing within any given day is important. Gannets tend to be most visible on days with onshore winds that push seabirds closer to the coast. Calm days with offshore winds are poor for seawatching. A fresh to strong westerly with visibility of several miles is the ideal seawatching condition on the Sefton Coast.",
+        ],
+      },
+      {
+        heading: "Seawatching from Formby Point",
+        body: [
+          "Formby Point is the most westerly headland on the Sefton Coast and the best seawatching location on this stretch. It sits at the end of the National Trust nature reserve, accessed from the Victoria Road car park (L37 1YH) via the squirrel trail and beach path. The walk from the car park to the point is approximately 30 minutes.",
+          "The point itself is the southern end of a stretch of dunes and beach that extends north toward Ainsdale. In onshore wind conditions, birds are pushed close to the coastline and pass within comfortable binocular distance of anyone watching from the dune ridge above the beach.",
+          "Equipment: binoculars are the minimum. A telescope on a tripod is significantly better for identifying birds at distance, particularly for picking out juvenile gannets in mixed plumage from other large seabirds. A wind-resistant jacket is essential even in August. The exposed point has no shelter.",
+          "Seawatching requires patience and a systematic approach. Pick a reference point on the horizon and scan consistently rather than chasing individual birds. Allow your eyes to adjust to the conditions. In good autumn weather the sky and sea line can be full of movement once you are tuned in to it.",
+        ],
+      },
+      {
+        heading: "What Else Passes Formby Point in Autumn",
+        body: [
+          "Gannets are the headline species but autumn seawatching from Formby Point produces a wide range of birds alongside them. Manx Shearwater (Puffinus puffinus) passes in small numbers in August and September: a stiff-winged, banking flight low over the sea, dark above and white below. Skuas begin to pass from August: Arctic Skua most frequently, Pomarine Skua less so. Both species are best identified by size, tail structure and the way they harass gulls and terns.",
+          "Sandwich Tern and Common Tern move south through August in numbers. They are easily picked out from gulls by the faster wingbeats and the constant bill-pointing downward toward the water as they search for fish.",
+          "In strong north-westerly gales from September onward, Leach's Storm-petrel can appear close inshore: tiny, bat-like, distinctive bounding flight. These are rare enough to be notable but not rare enough to be unexpected in suitable conditions. The same conditions that produce Leach's Storm-petrel can also bring Grey Phalarope (small wader, swimming on the sea surface) close inshore.",
+        ],
+      },
+      {
+        heading: "Practical Notes",
+        body: [
+          "Best conditions: fresh to strong westerly or north-westerly wind, good visibility. Check the wind forecast before travelling specifically for seawatching. A calm day will produce much less than a windy one.",
+          "Best time of day: seawatching is generally better from mid-morning as birds begin to move actively. Dawn watches can be productive but the light is challenging early on a west-facing coast.",
+          "Car park: Victoria Road, Formby, L37 1YH. National Trust car park, booking via the NT app recommended on weekends.",
+          "Walk time to the point: approximately 30 minutes each way. The path can be soft sand in places. Wear appropriate footwear.",
+        ],
+      },
+    ],
+    tags: ["gannet", "seawatching", "Formby Point", "autumn migration", "seabirds", "species spotlight"],
+    relatedLinks: [
+      { label: "Seawatching from Formby Point: A Beginner's Guide", href: "/blog/seawatching-formby-point-guide", description: "The full beginner's guide to seawatching from Formby Point, including what to bring and how to read the conditions." },
+      { label: "August Wildlife on the Sefton Coast", href: "/blog/august-wildlife-sefton-coast-2026", description: "What else is happening on the Sefton Coast in August 2026." },
+    ],
+  },
+
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
