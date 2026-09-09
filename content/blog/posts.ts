@@ -2263,6 +2263,128 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
   {
+    slug: "september-wildlife-sefton-coast",
+    category: "seasonal-watching",
+    categoryLabel: "Seasonal Watching",
+    title: "September Wildlife on the Sefton Coast: The Autumn Shift",
+    date: "2026-09-09",
+    metaDescription: "September is when the Sefton Coast changes character. Wader numbers build at Marshside, the first pink-footed geese arrive from Iceland, dragonflies finish their season, and passerine migrants move through the dunes. What to look for and where.",
+    heroLocalSrc: "/images/blog/blog-september-wildlife-marshside.webp",
+    heroAlt: "Flock of dunlin wading birds on the shallow muddy scrape at Marshside RSPB in autumn, reflections in still water",
+    intro: "September is the month when the Sefton Coast shifts from summer to autumn character. The breeding season is over. The migratory movements that begin quietly in August become unmistakable. Marshside fills with waders. The first pink-footed geese cross from Iceland. The dune grassland loses its summer flowers. The pinewoods begin their slow change. It is one of the most actively interesting months on the coast for a wildlife watcher.",
+    sections: [
+      {
+        heading: "Waders at Marshside: The Season Building",
+        body: [
+          "Marshside RSPB is at its most dynamic in September. The scrapes hold a greater diversity and number of wading birds than at any other time of year. Post-breeding adults have already been moving south since July. September is when the juveniles from Arctic and subarctic breeding grounds arrive in significant numbers.",
+          "Dunlin dominate numerically. Flocks of hundreds are regular on the main scrape by mid-September. Watch for the variation in plumage within the flocks: some adults retain traces of the black belly patch from summer; juveniles have neat, scaly upperparts and a warm buff wash to the breast. Both can occur in the same flock.",
+          "Ringed Plover is a constant companion to Dunlin through September. They favour the edges of the scrape where the mud meets the water. The juvenile Ringed Plover in September has a warm buff wash to the breast band and scaly upperparts. Look carefully through Ringed Plover flocks for Little Ringed Plover, which is smaller, has a yellow eye-ring and lacks the white wing bar visible in flight.",
+          "Black-tailed Godwit numbers build through September. These are largely birds from Icelandic breeding grounds moving through to winter quarters further south. They favour deeper water than smaller waders and often feed in tight flocks, probing in water up to belly depth. Several hundred can be present on good days.",
+          "Curlew Sandpiper (Calidris ferruginea) is the September highlight for wader enthusiasts. Juveniles in fresh plumage, with their clean scaly upperparts and peach-washed breast, occur regularly within Dunlin flocks. The decurved bill and, in flight, the white rump distinguish them from Dunlin. Numbers vary year to year depending on Arctic breeding success.",
+        ],
+      },
+      {
+        heading: "Pink-Footed Geese: The Arrivals Begin",
+        body: [
+          "The first pink-footed geese arrive on the Sefton Coast from late September. A few family groups appear before then, but the main influx starts mid-September and builds through October and November. Arriving from breeding grounds in Iceland and Greenland, these birds use the Ribble Estuary and Marshside RSPB as a key wintering site.",
+          "In September, numbers are modest compared to the winter peak. Small skeins of 20-100 birds moving south-west at altitude are the most common sign. The dusk roost flights that define the October and November spectacle at Marshside are beginning to establish in September.",
+          "The Marshside car park on Marshside Road (PR9 9SP) is the best vantage point. Arrive an hour before sunset and watch the western sky. The distinctive 'wink-wink' calls of approaching geese often signal the birds before they are visible. As September progresses, the numbers coming in to roost grow from dozens to hundreds.",
+        ],
+      },
+      {
+        heading: "Passerine Migration Through the Dunes",
+        body: [
+          "September is one of the best months for passerine migration on the Sefton Coast. The dune systems at Formby and Ainsdale act as a leading line for migrants moving south-west along the coast. After overnight movement in light north-easterly winds, falls of migrants can ground out in the pinewoods and dune scrub.",
+          "Wheatear (Oenanthe oenanthe) is typically the most numerous autumn migrant through the open dune grassland. The white rump and upright posture make them immediately identifiable. They move through from August into October, using the open sandy areas and short dune turf.",
+          "Redstart, Pied Flycatcher and Spotted Flycatcher move through the pinewoods at Formby in September. These are birds heading from breeding grounds in northern Europe to African wintering areas. Early morning in the first week of September after a night of north-easterly wind is the most productive time to search the Formby pinewoods for these species.",
+          "Whinchat replaces Stonechat in the dune grassland edges in September. The supercilium (pale eyestripe) is the key to separating the two species. Whinchats are passage migrants; Stonechats are residents that stay through winter.",
+        ],
+      },
+      {
+        heading: "Dragonflies: The Season Closing",
+        body: [
+          "The dragonfly season at Marshside begins to close in September. Common Darter persists the longest of the resident species, often flying into October in warm years. Brown Hawker numbers drop off quickly from late September. The scrape margins at Marshside and the pool edges on the Nels Hide path are the best places to find late-season darters basking in autumn sun.",
+          "The first cold nights in September begin to reduce dragonfly activity significantly. Warm, sunny September mornings produce the best odonata activity. Overcast or cold days produce very little.",
+        ],
+      },
+      {
+        heading: "Where to Go in September",
+        body: [
+          "Marshside RSPB: the primary destination for September waders, Pink-footed Geese and wildfowl. The Stan and Peggy Scott hide overlooks the main scrape. The Nels Hide path offers the most varied habitat walk. Arrive at dawn for waders and late afternoon for geese movement.",
+          "Formby pinewoods: early morning after overnight north-easterly winds for passerine migrants. The squirrel trail and the woodland path between the car park and the beach are the most productive areas.",
+          "Formby Point: seawatching in any onshore wind. September produces Gannets, Manx Shearwater, skuas and terns moving south. The numbers increase through the month as the autumn migration builds.",
+          "Ainsdale dunes: Wheatear and other open-country migrants on the short dune turf. The beach approach path and the dune ridges are the right habitat.",
+        ],
+      },
+    ],
+    tags: ["September", "waders", "Marshside", "pink-footed geese", "migration", "autumn", "passerine migrants"],
+    relatedLinks: [
+      { label: "Pink-Footed Geese at Marshside: The Full Guide", href: "/blog/pink-footed-geese-sefton-coast", description: "Everything you need to know about watching the pink-footed goose roost at Marshside RSPB." },
+      { label: "August Wildlife on the Sefton Coast", href: "/blog/august-wildlife-sefton-coast-2026", description: "What was happening on the Sefton Coast through August." },
+    ],
+  },
+
+  {
+    slug: "pink-footed-geese-sefton-coast",
+    category: "species-spotlight",
+    categoryLabel: "Species Spotlight",
+    title: "Pink-Footed Geese at Marshside: The Sefton Coast's Winter Spectacle",
+    date: "2026-09-09",
+    metaDescription: "Tens of thousands of pink-footed geese roost at Marshside RSPB each winter after migrating from Iceland and Greenland. One of England's great wildlife spectacles. When to go, where to stand, and what to look for.",
+    heroLocalSrc: "/images/blog/blog-pink-footed-geese-marshside.webp",
+    heroAlt: "Skein of pink-footed geese in V formation flying at dusk over a flat coastal marsh, silhouettes against an orange and purple sunset sky",
+    intro: "Every autumn, tens of thousands of pink-footed geese fly from breeding grounds in Iceland and Greenland to winter on the Sefton Coast and the Ribble Estuary. The dusk roost flight at Marshside RSPB, when skeins of 20,000 to 40,000 birds pour in from the surrounding farmland just before dark, is one of the most spectacular wildlife events in England. Most people who live within an hour of it have never seen it.",
+    sections: [
+      {
+        heading: "About the Species",
+        body: [
+          "The pink-footed goose (Anser brachyrhynchus) is a medium-sized goose with a distinctive dark brown head and neck, a short pink and black bill, pink legs and feet, and grey-brown upperparts. The pink feet are diagnostic once you know to look for them. In flight, the bird is compact and fast-moving with relatively pointed wings for a goose, and the skeins move with a purpose that differs from the lazy flapping of Canada or Greylag geese.",
+          "The call is the most immediately recognisable feature: a high-pitched 'wink-wink' or 'ang-ang' that carries clearly. A skein of a thousand birds approaching in the dusk is audible a minute before it is visible. The sound of tens of thousands of geese calling as they come into the roost is something that is difficult to describe and easy to remember.",
+          "Pink-footed geese breed in the mountains and tundra of Iceland and east Greenland. The entire world population of the species winters in the UK and continental northwest Europe. The UK holds approximately 85 percent of the world population each winter. The Sefton Coast and Ribble Estuary form one of the most important wintering sites in Britain.",
+        ],
+      },
+      {
+        heading: "When to Go",
+        body: [
+          "The main influx of pink-footed geese arrives on the Sefton Coast from mid-September onwards. Numbers build through October and November and peak from November through January, when flocks of 20,000 to 40,000 birds are routine at the Marshside roost. By February the spring migration is beginning and numbers decrease as birds depart for Iceland.",
+          "September visits give you the experience of the season building: smaller skeins, the first birds establishing roost routines, the exciting unpredictability of migration in progress. October and November give you the full spectacle: vast skeins, the sky appearing to move, the roar of wings and calls that is hard to comprehend until you stand in it.",
+          "The dusk roost is the primary experience. Arrive at Marshside car park (PR9 9SP) 45-60 minutes before sunset. The geese begin arriving from 30 minutes before dark as they fly in from inland feeding grounds. The peak of the roost arrival typically coincides with the last 20 minutes of light.",
+          "Dawn departure is the alternative. The geese leave the roost before or at first light, flying east and north-east to feed on agricultural fields. This movement is faster and less concentrated than the dusk arrival, but the low winter light makes for dramatic photographs if the sky is clear.",
+        ],
+      },
+      {
+        heading: "Where to Watch",
+        body: [
+          "Marshside RSPB is the primary site. The car park on Marshside Road (PR9 9SP) gives you a direct view of the roost area over Crossens Inner Marsh. You do not need to enter the reserve to see the roost flight: the car park itself provides an unobstructed view of the western sky through which the geese fly in.",
+          "The seawall path gives you elevated views over the outer marsh, which the geese often use before the inland roost. Walking north from the car park along the seawall in the hour before dusk often produces close views of geese already on the water or moving between fields and the marsh.",
+          "The Alt Estuary at Hightown is a secondary roost site. Thousands of geese can roost here, with birds moving inland to feed in the fields around Little Crosby and further east. The beach at Hightown at low tide is worth checking if Marshside produces nothing.",
+        ],
+      },
+      {
+        heading: "Identifying Pink-Footed Geese",
+        body: [
+          "On the Sefton Coast in winter, confusion is most likely with Greylag Goose (larger, pale grey-brown, orange bill and legs, year-round resident), Canada Goose (much larger, black head and neck with white chin patch, resident) and Bean Goose (rare, dark brown, yellow-orange bill with black tip, similar size to pink-foot but with orange legs rather than pink).",
+          "The key features of pink-footed goose: dark chocolate-brown head and neck contrasting with the pale grey-brown body; short bill with a pink band and black base and tip; pink legs and feet visible on the ground and sometimes in flight. In a mixed flock of geese on the ground, Pink-feet are tidier and more uniform than Greylags.",
+          "Juvenile pink-footed geese in September and October have a scaly appearance to the upperparts as the adult-type feathers replace the juvenile plumage. By November most birds look fully adult.",
+        ],
+      },
+      {
+        heading: "The Roost Spectacle",
+        body: [
+          "Standing at Marshside car park as dusk arrives in October or November is one of those experiences that adjusts your sense of scale. The geese do not arrive in ones and twos. They arrive in skeins of hundreds, then thousands, the noise building before the birds are visible, the sky filling with moving shapes that resolve into individual birds only when you hold binoculars on them.",
+          "At peak times in November and December, the volume of geese passing over in the 20 minutes before dark is difficult to comprehend without standing in it. The calls carry long enough that you can hear the birds approaching while they are still invisible against the darkening western sky. It is one of those wildlife encounters that changes how you think about what is possible in England.",
+          "Do not bring a torch. Let your eyes adjust to the available light. You will see more. The geese are often still passing when it is fully dark.",
+        ],
+      },
+    ],
+    tags: ["pink-footed geese", "Marshside", "winter wildlife", "geese", "autumn migration", "spectacle", "species spotlight"],
+    relatedLinks: [
+      { label: "September Wildlife on the Sefton Coast", href: "/blog/september-wildlife-sefton-coast", description: "What else is happening on the Sefton Coast as autumn begins." },
+      { label: "Marshside RSPB: Nels Hide Guide", href: "/blog/nels-hide-marshside-guide", description: "The full guide to Marshside RSPB including the hide network and best access routes." },
+    ],
+  },
+
+  {
     slug: "august-wildlife-sefton-coast-2026",
     category: "seasonal-watching",
     categoryLabel: "Seasonal Watching",
