@@ -16,7 +16,7 @@ export function Footer() {
               <span className="text-[var(--gold)]">Wildlife</span>
             </p>
             <p className="text-white/60 text-sm leading-relaxed mt-2">
-              Independent guide to birds, nature and wildlife on the Sefton Coast — from Marshside RSPB to the Formby pinewoods.
+              Independent guide to birds, nature and wildlife on the Sefton Coast, from Marshside RSPB to the Formby pinewoods.
             </p>
             <p className="text-white/40 text-xs mt-4">
               Part of the{" "}
@@ -105,7 +105,7 @@ export function Footer() {
             <Link href="/privacy" className="hover:text-white/60 transition">Privacy</Link>
             <Link href="/terms" className="hover:text-white/60 transition">Terms</Link>
             <Link href="/advertise" className="hover:text-white/60 transition">Advertise</Link>
-            <Link href="https://www.siba.digital/disclosure" className="hover:text-white/60 transition">Disclosure</Link>
+            <Link href="/disclosure" className="hover:text-white/60 transition">Disclosure</Link>
           </div>
         </div>
       </div>

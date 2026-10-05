@@ -29,14 +29,14 @@ export const metadata: Metadata = {
     },
   },
   title: {
-    default: "Sefton Coast Wildlife — Birds, Nature & Wildlife on the Sefton Coast",
+    default: "Sefton Coast Wildlife: Birds, Nature & Wildlife on the Sefton Coast",
     template: "%s | Sefton Coast Wildlife",
   },
   description:
-    "Independent guide to wildlife on the Sefton Coast — Marshside RSPB Reserve, birdwatching, seasonal guides, and a database of birds, insects, plants and mammals.",
+    "Independent guide to wildlife on the Sefton Coast: Marshside RSPB Reserve, birdwatching, seasonal guides, and a database of birds, insects, plants and mammals.",
   openGraph: {
     title: "Sefton Coast Wildlife",
-    description: "Birds, nature and wildlife on the Sefton Coast — Marshside, the marshes and beyond.",
+    description: "Birds, nature and wildlife on the Sefton Coast: Marshside, the marshes and beyond.",
     url: "https://www.seftoncoastwildlife.co.uk",
     siteName: "Sefton Coast Wildlife",
     images: [
