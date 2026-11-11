@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const title = "Advertise on Sefton Coast Wildlife | Sefton Coast Network";
 const description =
-  "Reach wildlife enthusiasts, nature photographers, and conservation-minded visitors on the Sefton Coast. Display advertising across the Sefton Coast Network.";
+  "Advertising on Sefton Coast Wildlife and the Sefton Coast Network: packages, prices and how to enquire.";
 const url = "https://www.seftoncoastwildlife.co.uk/advertise";
 
 export const metadata: Metadata = {
@@ -21,8 +21,8 @@ const NETWORK_PACKAGES = [
     total: "£2,700",
     featured: false,
     features: [
-      "Sidebar on category and guide pages",
-      "Homepage sponsored panel on SouthportGuide",
+      "Placement on category and guide pages, by arrangement",
+      "Homepage placement on SouthportGuide, by arrangement",
       "Category exclusivity on both sites",
       "Monthly performance reporting",
     ],
@@ -35,7 +35,7 @@ const NETWORK_PACKAGES = [
     featured: true,
     features: [
       "All Core placements",
-      "SeftonLinks sidebar and in-feed placement",
+      "Placement on SeftonLinks, by arrangement",
       "Category exclusivity across all three sites",
       "Up to 2 creative updates per month",
       "Monthly performance reporting",
@@ -49,8 +49,8 @@ const NETWORK_PACKAGES = [
     featured: false,
     features: [
       "All Premium placements",
-      "SeftonCoastWildlife included",
-      "Maximum Sefton Coast reach",
+      "Placement on SeftonCoastWildlife, by arrangement",
+      "All four Sefton Coast Network sites",
       "Quarterly review call",
       "Monthly performance reporting",
     ],
@@ -59,12 +59,12 @@ const NETWORK_PACKAGES = [
 
 const WHY_ITEMS = [
   {
-    title: "Wildlife enthusiasts",
-    body: "Birdwatchers, naturalists, and wildlife photographers visiting Marshside RSPB, Ainsdale NNR, and National Trust Formby. Engaged, informed, and repeat visitors to the site.",
+    title: "Wildlife watchers",
+    body: "Written for birdwatchers, naturalists and wildlife photographers visiting Marshside RSPB, Ainsdale NNR and National Trust Formby.",
   },
   {
-    title: "Conservation supporters",
-    body: "Readers interested in species conservation, habitat management, and the ecological work happening on the Sefton Coast. A highly engaged niche audience.",
+    title: "Conservation",
+    body: "Covers species conservation, habitat management and the ecological work happening on the Sefton Coast.",
   },
   {
     title: "Part of a wider network",
@@ -72,15 +72,15 @@ const WHY_ITEMS = [
   },
   {
     title: "Category exclusivity",
-    body: "No direct competitor in your category will appear on the same site during your contract. A firm commitment for the full term.",
+    body: "Every package includes category exclusivity for the length of the contract.",
   },
   {
-    title: "Growing content base",
-    body: "Species pages, seasonal guides, and reserve guides covering the full Sefton Coast. A growing library of content attracting search traffic year-round.",
+    title: "What the site covers",
+    body: "Profiles of 257 species, plus reserve guides, seasonal guides and a blog, covering the Sefton Coast from Southport to Formby.",
   },
   {
-    title: "Independent and trusted",
-    body: "No tourist board, no local authority funding. Readers trust Sefton Coast Wildlife because it is written by people who actually walk the coast.",
+    title: "Independent",
+    body: "Published by Churchtown Media Ltd and paid for by the company and by advertising, with no tourist board or local authority funding.",
   },
 ];
 
@@ -95,10 +95,10 @@ export default function AdvertisePage() {
             Advertising and Partnerships
           </p>
           <h1 className="font-display text-4xl md:text-5xl font-bold text-white mb-5 leading-tight">
-            Reach the Sefton Coast wildlife audience.
+            Advertise on Sefton Coast Wildlife.
           </h1>
           <p className="text-white/70 text-lg leading-relaxed max-w-2xl mb-10">
-            Sefton Coast Wildlife reaches birdwatchers, nature photographers, conservation supporters, and wildlife enthusiasts visiting the coast. Part of the Sefton Coast Network: four independent editorial sites covering the region from Southport to Formby.
+            Sefton Coast Wildlife is written for birdwatchers, nature photographers and anyone visiting the coast for its wildlife. It is part of the Sefton Coast Network: four independent sites covering the region from Southport to Formby.
           </p>
           <a
             href="mailto:partnerships@seftoncoast.network"
@@ -113,8 +113,8 @@ export default function AdvertisePage() {
       <div className="px-4 py-16">
         <div className="mx-auto max-w-4xl">
           <div className="text-center mb-10">
-            <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-3">The audience</p>
-            <h2 className="font-display text-3xl font-bold text-[var(--forest)]">Who reads Sefton Coast Wildlife</h2>
+            <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-3">The site</p>
+            <h2 className="font-display text-3xl font-bold text-[var(--forest)]">Who Sefton Coast Wildlife is for</h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {WHY_ITEMS.map((item) => (
@@ -135,7 +135,7 @@ export default function AdvertisePage() {
             <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-3">Advertising packages</p>
             <h2 className="font-display text-3xl font-bold text-[var(--forest)]">Sefton Coast Network</h2>
             <p className="text-gray-500 mt-3 text-sm max-w-xl mx-auto">
-              Sefton Coast Wildlife is included in the Full Network package. For brands wanting the widest possible Sefton Coast reach, this covers all four sites from a single agreement.
+              Sefton Coast Wildlife is included in the Full Network package, which covers all four sites under a single agreement. Placements are agreed with each advertiser.
             </p>
             <p className="text-gray-400 mt-2 text-xs">All packages: six-month minimum contract. Category exclusivity included.</p>
           </div>
