@@ -35,7 +35,7 @@ export default function PrivacyPage() {
           <p className="mb-3">We keep data collection to a minimum:</p>
           <ul className="list-disc pl-5 space-y-1.5">
             <li><strong>Contact form</strong>: if you use the contact form, we receive your name, email address, subject and message. This is sent to us via Resend and is used solely to reply to your enquiry.</li>
-            <li><strong>Ahrefs Web Analytics</strong>: page view statistics without cookies. It records the page, referrer, browser, device, language, screen size and approximate location (city level), and counts visitors with a daily pseudonymous identifier that is not kept across days.</li>
+            <li><strong>Ahrefs Web Analytics</strong>: page view statistics without cookies. It records the page address (including any query string), the referring page, your browser, operating system and device, screen size and language, and when a link is clicked or a form is sent. It uses your IP address to work out your approximate location (city level) and a daily visitor ID that cannot be linked across days; the IP address itself is discarded, not stored.</li>
             <li><strong>Visit counts</strong>: we count how many times each page is viewed each day. We store only the page, the day and a number, and record nothing about the person viewing it.</li>
           </ul>
         </section>
