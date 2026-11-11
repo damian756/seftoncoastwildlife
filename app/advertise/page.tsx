@@ -5,7 +5,9 @@ import { AD_OPTIONS, findSlot, isAdOptionId, type AdOptionId } from "@/lib/ad-sl
 import { DISPLAY_EMAIL } from "@/lib/contact";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
-const title = "Advertise";
+// The title this page ranked with before the advertising build (traffic first, Damian,
+// 11 Nov 2026): keep it. The layout adds " | Sefton Coast Wildlife".
+const title = "Advertise on Sefton Coast Wildlife | Sefton Coast Network";
 const description =
   "Advertising on Sefton Coast Wildlife: section and guide sponsors, the home page card, sponsored articles and the Sefton Coast bundle. Prices and how to ask.";
 const url = "https://www.seftoncoastwildlife.co.uk/advertise";
@@ -14,7 +16,7 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: url },
-  openGraph: { images: [DEFAULT_OG_IMAGE], title: "Advertise on Sefton Coast Wildlife", description, url, siteName: "Sefton Coast Wildlife", type: "website" },
+  openGraph: { images: [DEFAULT_OG_IMAGE], title, description, url, siteName: "Sefton Coast Wildlife", type: "website" },
 };
 
 // Order of the cards on the page. The network bundle is drawn separately.
