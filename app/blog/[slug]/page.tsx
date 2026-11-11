@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {};
   const url = `https://www.seftoncoastwildlife.co.uk/blog/${slug}`;
   return {
-    title: `${post.title} — Sefton Coast Wildlife`,
+    title: post.title,
     description: post.metaDescription,
     alternates: { canonical: url },
     openGraph: {
@@ -46,6 +46,7 @@ export default async function BlogPostPage({ params }: Props) {
     : await getWikipediaImage(post.heroWikipediaTitle);
   const heroSrc = post.heroLocalSrc ?? heroImage?.src ?? null;
   const heroPageUrl = heroImage?.pageUrl ?? null;
+  const heroCredit = post.heroLocalSrc ? post.heroCredit ?? null : null;
   const url = `https://www.seftoncoastwildlife.co.uk/blog/${slug}`;
 
   const articleJsonLd = {
@@ -91,6 +92,16 @@ export default async function BlogPostPage({ params }: Props) {
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent pointer-events-none" />
+          {heroCredit && (
+            <div className="absolute bottom-0 left-0 right-0 p-6 pointer-events-none">
+              <p className="text-xs text-white/70">
+                Photo:{" "}
+                <a href={heroCredit.href} target="_blank" rel="noopener noreferrer" className="underline hover:text-white/90 pointer-events-auto">
+                  {heroCredit.text}
+                </a>
+              </p>
+            </div>
+          )}
           {heroPageUrl && (
             <div className="absolute bottom-0 left-0 right-0 p-6 pointer-events-none">
               <p className="text-xs text-white/60">
@@ -156,7 +167,7 @@ export default async function BlogPostPage({ params }: Props) {
         {/* Related species / pages */}
         {post.relatedLinks && post.relatedLinks.length > 0 && (
           <div className="mt-10 pt-6 border-t border-[var(--dune)]">
-            <h2 className="font-display text-lg font-bold text-[var(--forest)] mb-4">Species covered in this post</h2>
+            <h2 className="font-display text-lg font-bold text-[var(--forest)] mb-4">Related pages</h2>
             <div className="grid sm:grid-cols-2 gap-3">
               {post.relatedLinks.map((link) => (
                 <Link

@@ -6,9 +6,9 @@ import { getWikipediaImage } from "@/lib/wikipedia";
 import { BLOG_POSTS } from "@/content/blog/posts";
 import { PhotoGallery } from "@/components/PhotoGallery";
 
-const title = "Sefton Coast Wildlife — Birds, Nature & Wildlife Guide";
+const title = "Sefton Coast Wildlife: Birds, Nature & Wildlife Guide";
 const description =
-  "Independent guide to wildlife on the Sefton Coast — Marshside RSPB, bird species database, insects, plants and mammals from Southport to Formby.";
+  "Independent guide to wildlife on the Sefton Coast: Marshside RSPB, bird species database, insects, plants and mammals from Southport to Formby.";
 const url = "https://www.seftoncoastwildlife.co.uk";
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ const orgJsonLd = {
       "@id": "https://www.seftoncoastwildlife.co.uk/#website",
       url: "https://www.seftoncoastwildlife.co.uk",
       name: "Sefton Coast Wildlife",
-      description: "Independent guide to wildlife on the Sefton Coast — birds, insects, plants and mammals from Southport to Formby.",
+      description: "Independent guide to wildlife on the Sefton Coast: birds, insects, plants and mammals from Southport to Formby.",
       publisher: { "@id": "https://www.seftoncoastwildlife.co.uk/#organization" },
       inLanguage: "en-GB",
     },
@@ -149,7 +149,7 @@ export default async function HomePage() {
             </div>
           </div>
 
-          {/* Right panel — hero image */}
+          {/* Right panel, hero image */}
           <div className="relative min-h-[300px] lg:min-h-0 overflow-hidden bg-[var(--forest)]">
             <Image
               src="/images/species/birds/pink-footed-goose.jpg"
@@ -179,13 +179,13 @@ export default async function HomePage() {
               <strong className="text-[var(--forest)] font-bold">{totalCount}+</strong> species recorded
             </span>
             <span className="flex items-center gap-2">
-              <strong className="text-[var(--forest)] font-bold">80,000+</strong> Pink-footed Geese (peak winter)
+              <strong className="text-[var(--forest)] font-bold">Up to 250,000</strong> birds a year on the Ribble
             </span>
             <span className="flex items-center gap-2">
               <strong className="text-[var(--forest)] font-bold">Free entry</strong> to Marshside RSPB
             </span>
             <span className="flex items-center gap-2">
-              <strong className="text-[var(--forest)] font-bold">67km</strong> of protected coastline
+              <strong className="text-[var(--forest)] font-bold">36km</strong> of coastline
             </span>
           </div>
         </div>
@@ -200,7 +200,7 @@ export default async function HomePage() {
           What lives here
         </h2>
         <p className="text-[var(--slate)] max-w-2xl mb-8 leading-relaxed">
-          From Pink-footed Geese arriving from Iceland in October to Red Squirrels in the Formby pinewoods — the Sefton Coast holds some of the most important wildlife in northwest England.
+          From Pink-footed Geese arriving from Iceland in October to Red Squirrels in the Formby pinewoods, the Sefton Coast holds some of the most important wildlife in northwest England.
         </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {speciesCategories.map(({ href, label, count, desc, localImage }) => (
@@ -247,25 +247,25 @@ export default async function HomePage() {
               {
                 href: "/nature/marshside-rspb",
                 title: "Marshside RSPB",
-                desc: "Free entry. Managed lagoons, Avocets, and 80,000+ Pink-footed Geese in winter. The best birdwatching in the North West.",
+                desc: "Free entry. Lagoons, saltmarsh and three trails. Avocets and Lapwings nest in summer; Pink-footed Geese and Wigeon fill the winter sky.",
                 tag: "Reserve guide",
               },
               {
                 href: "/nature/sefton-coast",
                 title: "The Sefton Coast",
-                desc: "67km of dunes, slacks, pinewoods and saltmarsh — one of England's most significant coastal wildlife habitats.",
+                desc: "36km of coast with England's largest dune system: dunes, slacks, pinewoods and saltmarsh between the Mersey and the Ribble.",
                 tag: "Habitat overview",
               },
               {
                 href: "/birdwatching-guide",
                 title: "Birdwatching Guide",
-                desc: "Best spots by season, what to bring, and how to get started — from a birder who has watched these marshes for decades.",
+                desc: "Best spots by season, what to bring, and how to get started, from a birder who has watched these marshes for decades.",
                 tag: "Practical guide",
               },
               {
                 href: "/seasonal",
                 title: "Seasonal Guides",
-                desc: "Pink-footed Geese, wader migration, breeding birds and winter wildfowl — when to come and what to expect.",
+                desc: "Pink-footed Geese, wader migration, breeding birds and winter wildfowl. When to come and what to expect.",
                 tag: "4 guides",
               },
             ].map(({ href, title, desc, tag }) => (
@@ -371,24 +371,24 @@ export default async function HomePage() {
           </div>
           <PhotoGallery
             photos={[
-              { src: "/images/reserves/marshside/hero-coastal-reflection.jpg", alt: "Tidal pool reflection on the Marshside coastal path", caption: "The coastal saltmarsh path at Marshside — sky reflected in a tidal pool." },
-              { src: "/images/blog/beachcombing/barrel-jellyfish-dog-ainsdale-beach.webp", alt: "Barrel jellyfish washed up on Ainsdale Beach with a dog investigating", caption: "A barrel jellyfish on Ainsdale beach — one of the largest species found on the Sefton Coast." },
-              { src: "/images/reserves/marshside/nels-hide-lifestyle.jpg", alt: "Birdwatcher in Nel's Hide with flask and telephoto lens", caption: "Nel's Hide — bring a flask. No café on site." },
-              { src: "/images/blog/beachcombing/compass-jellyfish-closeup-ainsdale.webp", alt: "Compass jellyfish close-up on Ainsdale Beach, Sefton Coast", caption: "Compass jellyfish — named for the brown markings radiating from the centre." },
-              { src: "/images/reserves/marshside/coastal-path-walk.jpg", alt: "Dog walker on the Marshside coastal saltmarsh path", caption: "The coastal path looking north — big estuary sky, flat marsh." },
-              { src: "/images/blog/beachcombing/mermaids-purse-held-hand-ainsdale.webp", alt: "A mermaid's purse held in a hand on Ainsdale Beach", caption: "A mermaid's purse — the empty egg case of a small-spotted catshark." },
+              { src: "/images/reserves/marshside/hero-coastal-reflection.jpg", alt: "Tidal pool reflection on the Marshside coastal path", caption: "The coastal saltmarsh path at Marshside: sky reflected in a tidal pool." },
+              { src: "/images/blog/beachcombing/barrel-jellyfish-dog-ainsdale-beach.webp", alt: "Barrel jellyfish washed up on Ainsdale Beach with a dog investigating", caption: "A barrel jellyfish on Ainsdale beach, one of the largest species found on the Sefton Coast." },
+              { src: "/images/reserves/marshside/nels-hide-lifestyle.jpg", alt: "Birdwatcher in Nel's Hide with flask and telephoto lens", caption: "Nel's Hide. Bring a flask. No café on site." },
+              { src: "/images/blog/beachcombing/compass-jellyfish-closeup-ainsdale.webp", alt: "Compass jellyfish close-up on Ainsdale Beach, Sefton Coast", caption: "Compass jellyfish, named for the brown markings radiating from the centre." },
+              { src: "/images/reserves/marshside/coastal-path-walk.jpg", alt: "Dog walker on the Marshside coastal saltmarsh path", caption: "The coastal path looking north: big estuary sky, flat marsh." },
+              { src: "/images/blog/beachcombing/mermaids-purse-held-hand-ainsdale.webp", alt: "A mermaid's purse held in a hand on Ainsdale Beach", caption: "A mermaid's purse: the empty egg case of a small-spotted catshark." },
               { src: "/images/reserves/marshside/dog-in-water.jpg", alt: "Black Labrador in a tidal pool on the Marshside coastal path", caption: "Dogs love this path. Keep them on leads near the saltmarsh." },
-              { src: "/images/blog/beachcombing/jellyfish-iridescent-ainsdale.webp", alt: "Iridescent jellyfish on the tideline at Ainsdale Beach", caption: "Iridescent colouring on a jellyfish at the Ainsdale tideline — most vivid when freshly stranded." },
-              { src: "/images/reserves/marshside/nels-hide-exterior.jpg", alt: "Nel's Hide exterior — RSPB Marshside", caption: "Nel's Hide from the reserve path — corrugated metal, wooden decking." },
-              { src: "/images/blog/beachcombing/sea-spurge-ainsdale-dunes.webp", alt: "Sea spurge growing in Ainsdale sand dunes, Sefton Coast", caption: "Sea spurge on the Ainsdale dunes — a protected plant of the Sefton Coast SSSI." },
-              { src: "/images/reserves/marshside/nels-hide-interior.jpg", alt: "Inside Nel's Hide — viewing shelf and windows over the marsh", caption: "Inside Nel's Hide — blue chairs, viewing shelf, windows over the scrape." },
-              { src: "/images/blog/beachcombing/whelk-egg-mass-ainsdale-beach.webp", alt: "Whelk egg mass washed up on Ainsdale Beach", caption: "Whelk egg mass on the Ainsdale tideline — looks like a clump of bubble wrap." },
-              { src: "/images/reserves/marshside/coastal-driftwood.jpg", alt: "Driftwood on the Marshside coastal strandline", caption: "Driftwood on the strandline — Ribble Estuary brings in plenty." },
+              { src: "/images/blog/beachcombing/jellyfish-iridescent-ainsdale.webp", alt: "Iridescent jellyfish on the tideline at Ainsdale Beach", caption: "Iridescent colouring on a jellyfish at the Ainsdale tideline, most vivid when freshly stranded." },
+              { src: "/images/reserves/marshside/nels-hide-exterior.jpg", alt: "Nel's Hide exterior, RSPB Marshside", caption: "Nel's Hide from the reserve path: corrugated metal, wooden decking." },
+              { src: "/images/blog/beachcombing/sea-spurge-ainsdale-dunes.webp", alt: "Sea spurge growing in Ainsdale sand dunes, Sefton Coast", caption: "Sea spurge on the Ainsdale dunes, a protected plant of the Sefton Coast SSSI." },
+              { src: "/images/reserves/marshside/nels-hide-interior.jpg", alt: "Inside Nel's Hide: viewing shelf and windows over the marsh", caption: "Inside Nel's Hide: blue chairs, viewing shelf, windows over the scrape." },
+              { src: "/images/blog/beachcombing/whelk-egg-mass-ainsdale-beach.webp", alt: "Whelk egg mass washed up on Ainsdale Beach", caption: "Whelk egg mass on the Ainsdale tideline. Looks like a clump of bubble wrap." },
+              { src: "/images/reserves/marshside/coastal-driftwood.jpg", alt: "Driftwood on the Marshside coastal strandline", caption: "Driftwood on the strandline. Ribble Estuary brings in plenty." },
               { src: "/images/blog/beachcombing/compass-jellyfish-dogprints-ainsdale.webp", alt: "Compass jellyfish surrounded by dog paw prints on Ainsdale Beach", caption: "Compass jellyfish with dog prints on the wet sand at Ainsdale." },
-              { src: "/images/reserves/marshside/coastal-timber-shell.jpg", alt: "Old sea-defence timber on the Marshside foreshore", caption: "Barnacle-encrusted timber — remnants of old sea defences." },
-              { src: "/images/reserves/marshside/memorial-bench-plaque.jpg", alt: "Memorial plaque for Stan and Peggy Scott, Marshside RSPB", caption: "In Memory of Stan and Peggy Scott — Founder Members, North Cheshire Group RSPB 1976–1999." },
-              { src: "/images/blog/beachcombing/sea-spurge-closeup-ainsdale.webp", alt: "Sea spurge plant close-up in Ainsdale dunes", caption: "Sea spurge close-up — yellow-green flowers, fleshy leaves. Toxic sap. Do not touch." },
-              { src: "/images/reserves/marshside/junction-viewpoint-bench.jpg", alt: "Bench at the Junction Viewpoint, Marshside RSPB", caption: "Junction Viewpoint bench — looking out over the flooded winter marsh." },
+              { src: "/images/reserves/marshside/coastal-timber-shell.jpg", alt: "Old sea-defence timber on the Marshside foreshore", caption: "Barnacle-encrusted timber: remnants of old sea defences." },
+              { src: "/images/reserves/marshside/memorial-bench-plaque.jpg", alt: "Memorial plaque for Stan and Peggy Scott, Marshside RSPB", caption: "In Memory of Stan and Peggy Scott: Founder Members, North Cheshire Group RSPB 1976–1999." },
+              { src: "/images/blog/beachcombing/sea-spurge-closeup-ainsdale.webp", alt: "Sea spurge plant close-up in Ainsdale dunes", caption: "Sea spurge close-up: yellow-green flowers, fleshy leaves. Toxic sap. Do not touch." },
+              { src: "/images/reserves/marshside/junction-viewpoint-bench.jpg", alt: "Bench at the Junction Viewpoint, Marshside RSPB", caption: "Junction Viewpoint bench, looking out over the flooded winter marsh." },
             ]}
           />
           <div className="mt-5 sm:hidden text-center">
@@ -404,7 +404,7 @@ export default async function HomePage() {
             Sefton Coast Network
           </p>
           <p className="text-white/80 text-sm max-w-2xl mb-5">
-            Also from Churchtown Media — local guides covering the wider Sefton Coast.
+            Also from Churchtown Media: local guides covering the wider Sefton Coast.
           </p>
           <div className="flex flex-wrap gap-3 text-sm">
             {[

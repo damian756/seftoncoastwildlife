@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { ContactForm } from "@/components/ContactForm";
 
-const title = "Contact — Sefton Coast Wildlife";
-const description = "Get in touch with Sefton Coast Wildlife — questions, species records, local knowledge or listing enquiries.";
+const title = "Contact";
+const description = "Get in touch with Sefton Coast Wildlife: questions, species records, local knowledge or listing enquiries.";
 const url = "https://www.seftoncoastwildlife.co.uk/contact";
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ export default function ContactPage() {
             Contact us
           </h1>
           <p className="text-white/75 text-lg leading-relaxed max-w-2xl">
-            Species records, questions about the site, listing enquiries or just something you&apos;ve spotted on the coast — we&apos;d like to hear from you.
+            Species records, questions about the site, listing enquiries or just something you&apos;ve spotted on the coast. We&apos;d like to hear from you.
           </p>
         </div>
       </div>
@@ -45,8 +45,8 @@ export default function ContactPage() {
                 Sefton Coast Wildlife is an independent guide built by{" "}
                 <a href="https://churchtownmedia.co.uk" target="_blank" rel="noopener" className="text-[var(--marsh)] hover:underline">
                   Churchtown Media
-                </a>{" "}
-                — part of the{" "}
+                </a>,{" "}
+                 part of the{" "}
                 <a href="https://seftoncoast.network" target="_blank" rel="noopener" className="text-[var(--marsh)] hover:underline">
                   Sefton Coast Network
                 </a>.

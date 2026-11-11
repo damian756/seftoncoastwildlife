@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const title = "Terms of Use — Sefton Coast Wildlife";
+const title = "Terms of Use";
 const description = "Terms of use for seftoncoastwildlife.co.uk.";
 const url = "https://www.seftoncoastwildlife.co.uk/terms";
 
@@ -48,7 +48,7 @@ export default function TermsPage() {
           <p>
             We make every effort to keep species data, seasonal information and practical details accurate and up to date.
             However, wildlife is unpredictable and conditions change. We accept no liability for decisions made based on
-            information on this site. Always check current conditions before visiting any site — particularly tides,
+            information on this site. Always check current conditions before visiting any site, particularly tides,
             weather and access restrictions.
           </p>
         </section>

@@ -2,8 +2,8 @@ import Link from "next/link";
 
 import type { Metadata } from "next";
 
-const title = "Nature Reserves — Sefton Coast Wildlife";
-const description = "Guides to the Sefton Coast's best nature reserves — Marshside RSPB, Ainsdale Sand Dunes NNR, WWT Martin Mere, Seaforth and more.";
+const title = "Nature Reserves on the Sefton Coast";
+const description = "Guides to the Sefton Coast's best nature reserves: Marshside RSPB, Ainsdale Sand Dunes NNR, WWT Martin Mere, Seaforth and more.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature";
 
 export const metadata: Metadata = {
@@ -37,7 +37,7 @@ const reserves = [
     href: "/nature/seaforth-nature-reserve",
     name: "Seaforth Nature Reserve",
     tag: "Wildlife Trust · Free entry · Crosby",
-    desc: "Mediterranean Gulls breeding, Little Terns nesting, and autumn rarities — squeezed between a container terminal and the suburbs of Liverpool.",
+    desc: "Mediterranean Gulls breeding, Little Terns nesting, and autumn rarities, squeezed between a container terminal and the suburbs of Liverpool.",
   },
   {
     href: "/nature/sefton-coast",
@@ -52,7 +52,7 @@ export default function NaturePage() {
     <div className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="text-3xl font-bold text-[var(--forest)] mb-2">Nature Reserves</h1>
       <p className="text-[var(--slate)] mb-8 max-w-2xl">
-        The Sefton Coast has some of the best wildlife sites in the North West — from RSPB managed lagoons to internationally designated sand dunes. Here&apos;s where to go and what to see.
+        The Sefton Coast has some of the best wildlife sites in the North West, from RSPB managed lagoons to internationally designated sand dunes. Here&apos;s where to go and what to see.
       </p>
       <div className="grid gap-6 md:grid-cols-2">
         {reserves.map(({ href, name, tag, desc }) => (
