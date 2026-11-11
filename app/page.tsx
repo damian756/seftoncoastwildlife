@@ -5,6 +5,7 @@ import { getAllSpecies } from "@/lib/species";
 import { getWikipediaImage } from "@/lib/wikipedia";
 import { BLOG_POSTS } from "@/content/blog/posts";
 import { PhotoGallery } from "@/components/PhotoGallery";
+import { AdSlot } from "@/components/AdSlot";
 
 const title = "Sefton Coast Wildlife: Birds, Nature & Wildlife Guide";
 const description =
@@ -328,7 +329,7 @@ export default async function HomePage() {
               </div>
               <div className="p-5">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[var(--marsh)]">
-                  {post.categoryLabel}
+                  {post.sponsor ? `Sponsored · ${post.categoryLabel}` : post.categoryLabel}
                 </span>
                 <h3 className="mt-1 font-semibold text-[var(--forest)] leading-snug mb-2 group-hover:text-[var(--marsh)] transition">
                   {post.title}
@@ -348,6 +349,11 @@ export default async function HomePage() {
           </Link>
         </div>
       </section>
+
+      {/* ── ADVERTISING SPACE (one per page) ─────────────────── */}
+      <div className="mx-auto max-w-5xl px-4 pb-14">
+        <AdSlot id="home-card" />
+      </div>
 
       {/* ── GALLERY ──────────────────────────────────────────── */}
       <section className="bg-[var(--dune)] py-14">

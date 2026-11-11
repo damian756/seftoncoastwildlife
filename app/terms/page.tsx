@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { DISPLAY_EMAIL } from "@/lib/contact";
 
 const title = "Terms of Use";
 const description = "Terms of use for seftoncoastwildlife.co.uk.";
@@ -81,7 +82,7 @@ export default function TermsPage() {
           <h2 className="font-display text-lg font-bold text-[var(--forest)] mb-2">Contact</h2>
           <p>
             For any questions about these terms, contact{" "}
-            <a href="mailto:damian@churchtownmedia.co.uk" className="text-[var(--marsh)] hover:underline">damian@churchtownmedia.co.uk</a>.
+            <a href={`mailto:${DISPLAY_EMAIL}`} className="text-[var(--marsh)] hover:underline">{DISPLAY_EMAIL}</a>.
           </p>
         </section>
       </div>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { DISPLAY_EMAIL } from "@/lib/contact";
 
 const title = "Disclosure";
 const description =
@@ -19,7 +20,7 @@ export default function DisclosurePage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-12">
       <h1 className="font-display text-3xl font-bold text-[var(--forest)] mb-6">Disclosure</h1>
-      <p className="text-sm text-[var(--slate)]/60 mb-8">Last updated: 5 October 2026</p>
+      <p className="text-sm text-[var(--slate)]/60 mb-8">Last updated: 11 November 2026</p>
 
       <div className="space-y-8 text-sm text-[var(--slate)] leading-relaxed">
         <section>
@@ -34,9 +35,19 @@ export default function DisclosurePage() {
           <h2 className={h2}>How it is paid for</h2>
           <p>
             The site is paid for by Churchtown Media Ltd and by{" "}
-            <Link href="/advertise" className={a}>advertising</Link>. A few booking links earn us a small
-            commission, and these are marked where they appear. Neither changes what we write about wildlife
-            or places on the coast.
+            <Link href="/advertise" className={a}>advertising</Link>. Advertising does not change what we write
+            about wildlife or places on the coast.
+          </p>
+        </section>
+
+        <section>
+          <h2 className={h2}>Advertising</h2>
+          <p>
+            Every advert on this site is labelled on the card: Advertisement for a home page card, Sponsor for
+            the sponsor of a section, guide or set of posts. A sponsored article is labelled Sponsored at the
+            top and carries the name of the business that paid for it, never a writer&apos;s byline. Links in
+            adverts and sponsored articles are marked as sponsored for search engines. Paying for a space does
+            not change what we write.
           </p>
         </section>
 
@@ -86,7 +97,7 @@ export default function DisclosurePage() {
           <p>
             We update this page when any of these interests change. The date at the top shows the last
             update. Questions to{" "}
-            <a href="mailto:damian@churchtownmedia.co.uk" className={a}>damian@churchtownmedia.co.uk</a>.
+            <a href={`mailto:${DISPLAY_EMAIL}`} className={a}>{DISPLAY_EMAIL}</a>.
           </p>
         </section>
       </div>

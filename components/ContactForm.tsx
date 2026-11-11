@@ -4,7 +4,14 @@ import { useState, type FormEvent } from "react";
 
 type Status = "idle" | "sending" | "success" | "error";
 
-export function ContactForm() {
+type ContactFormProps = {
+  /** Prefilled subject, e.g. "Advertising" when arriving from /advertise. */
+  defaultSubject?: string;
+  /** Prefilled message, e.g. "I'm interested in: Sponsor of the Birds section". */
+  defaultMessage?: string;
+};
+
+export function ContactForm({ defaultSubject = "", defaultMessage = "" }: ContactFormProps = {}) {
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
@@ -109,6 +116,7 @@ export function ContactForm() {
           name="subject"
           type="text"
           placeholder="What's it about?"
+          defaultValue={defaultSubject}
           className={inputClass}
         />
       </div>
@@ -123,6 +131,7 @@ export function ContactForm() {
           required
           rows={6}
           placeholder="Your message..."
+          defaultValue={defaultMessage}
           className={`${inputClass} resize-y min-h-[140px]`}
         />
       </div>

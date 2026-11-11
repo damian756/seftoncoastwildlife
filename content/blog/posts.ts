@@ -26,6 +26,9 @@ export interface BlogPost {
   }[];
   tags: string[];
   relatedLinks?: { label: string; href: string; description: string }[];
+  // A paid article. Set only for a sponsored post: it is labelled Sponsored, bylined "Sponsored by <name>",
+  // has no author bio and no other advert, and links to the sponsor carry rel="sponsored noopener".
+  sponsor?: { name: string; url: string };
 }
 
 export const BLOG_CATEGORIES: Record<BlogCategory, { label: string; description: string }> = {

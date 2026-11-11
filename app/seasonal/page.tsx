@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AdSlot } from "@/components/AdSlot";
 
 const title = "Seasonal Wildlife Guides for the Sefton Coast";
 const description = "What to see when on the Sefton Coast: pink-footed geese, wader migration, breeding birds and winter wildfowl.";
@@ -85,6 +86,9 @@ export default function SeasonalPage() {
             </li>
           ))}
         </ul>
+
+        {/* Section sponsor: after the guides */}
+        <AdSlot id="section-seasonal" className="mt-10" />
       </div>
     </>
   );

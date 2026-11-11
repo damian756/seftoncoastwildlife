@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { DISPLAY_EMAIL } from "@/lib/contact";
 
 const title = "Privacy Policy";
 const description = "Privacy policy for seftoncoastwildlife.co.uk: how we handle your data.";
@@ -59,7 +60,7 @@ export default function PrivacyPage() {
           <h2 className="font-display text-lg font-bold text-[var(--forest)] mb-2">Your rights</h2>
           <p>
             If you&apos;ve submitted a contact form and would like your data deleted, email{" "}
-            <a href="mailto:damian@churchtownmedia.co.uk" className="text-[var(--marsh)] hover:underline">damian@churchtownmedia.co.uk</a>.
+            <a href={`mailto:${DISPLAY_EMAIL}`} className="text-[var(--marsh)] hover:underline">{DISPLAY_EMAIL}</a>.
           </p>
         </section>
 
@@ -67,7 +68,7 @@ export default function PrivacyPage() {
           <h2 className="font-display text-lg font-bold text-[var(--forest)] mb-2">Contact</h2>
           <p>
             For any privacy-related questions, contact{" "}
-            <a href="mailto:damian@churchtownmedia.co.uk" className="text-[var(--marsh)] hover:underline">damian@churchtownmedia.co.uk</a>.
+            <a href={`mailto:${DISPLAY_EMAIL}`} className="text-[var(--marsh)] hover:underline">{DISPLAY_EMAIL}</a>.
           </p>
         </section>
       </div>

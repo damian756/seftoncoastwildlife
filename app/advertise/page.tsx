@@ -1,210 +1,192 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { AD_OPTIONS, AD_SLOTS, isAdOptionId, isAdSlotId, type AdOptionId } from "@/lib/ad-slots";
+import { DISPLAY_EMAIL } from "@/lib/contact";
 
-const title = "Advertise on Sefton Coast Wildlife | Sefton Coast Network";
+const title = "Advertise";
 const description =
-  "Advertising on Sefton Coast Wildlife and the Sefton Coast Network: packages, prices and how to enquire.";
+  "Advertising on Sefton Coast Wildlife: section and guide sponsors, the home page card, sponsored articles and the Sefton Coast bundle. Prices and how to ask.";
 const url = "https://www.seftoncoastwildlife.co.uk/advertise";
 
 export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: url },
-  openGraph: { title, description, url, siteName: "Sefton Coast Wildlife", type: "website" },
+  openGraph: { title: "Advertise on Sefton Coast Wildlife", description, url, siteName: "Sefton Coast Wildlife", type: "website" },
 };
 
-const NETWORK_PACKAGES = [
-  {
-    name: "Core",
-    sites: "SouthportGuide + FormbyGuide",
-    price: "£450",
-    total: "£2,700",
-    featured: false,
-    features: [
-      "Placement on category and guide pages, by arrangement",
-      "Homepage placement on SouthportGuide, by arrangement",
-      "Category exclusivity on both sites",
-      "Monthly performance reporting",
-    ],
-  },
-  {
-    name: "Premium",
-    sites: "SouthportGuide + FormbyGuide + SeftonLinks",
-    price: "£650",
-    total: "£3,900",
-    featured: true,
-    features: [
-      "All Core placements",
-      "Placement on SeftonLinks, by arrangement",
-      "Category exclusivity across all three sites",
-      "Up to 2 creative updates per month",
-      "Monthly performance reporting",
-    ],
-  },
-  {
-    name: "Full Network",
-    sites: "All four Sefton Coast Network sites",
-    price: "£800",
-    total: "£4,800",
-    featured: false,
-    features: [
-      "All Premium placements",
-      "Placement on SeftonCoastWildlife, by arrangement",
-      "All four Sefton Coast Network sites",
-      "Quarterly review call",
-      "Monthly performance reporting",
-    ],
-  },
-];
+// Order of the cards on the page. The network bundle is drawn separately.
+const OPTION_ORDER: AdOptionId[] = ["section-sponsor", "birdwatching-guide", "home-card", "winter-birds", "sponsored-article"];
 
-const WHY_ITEMS = [
-  {
-    title: "Wildlife watchers",
-    body: "Written for birdwatchers, naturalists and wildlife photographers visiting Marshside RSPB, Ainsdale NNR and National Trust Formby.",
-  },
-  {
-    title: "Conservation",
-    body: "Covers species conservation, habitat management and the ecological work happening on the Sefton Coast.",
-  },
-  {
-    title: "Part of a wider network",
-    body: "Advertising on Sefton Coast Wildlife can be combined with SouthportGuide, FormbyGuide, and SeftonLinks for full Sefton Coast network coverage.",
-  },
-  {
-    title: "Category exclusivity",
-    body: "Every package includes category exclusivity for the length of the contract.",
-  },
-  {
-    title: "What the site covers",
-    body: "Profiles of 257 species, plus reserve guides, seasonal guides and a blog, covering the Sefton Coast from Southport to Formby.",
-  },
-  {
-    title: "Independent",
-    body: "Published by Churchtown Media Ltd and paid for by the company and by advertising, with no tourist board or local authority funding.",
-  },
-];
+function contactHref(space?: string) {
+  return space ? `/contact?topic=advertise&space=${encodeURIComponent(space)}` : "/contact?topic=advertise";
+}
 
-export default function AdvertisePage() {
+type Props = { searchParams: Promise<{ space?: string | string[] }> };
+
+export default async function AdvertisePage({ searchParams }: Props) {
+  const { space } = await searchParams;
+  // ?space=<slot-id> arrives from an empty "advertise here" card; ?space=<option-id> is also accepted.
+  const askedSlot = isAdSlotId(space) ? AD_SLOTS[space] : null;
+  const askedOption: AdOptionId | null = askedSlot ? askedSlot.option : isAdOptionId(space) ? space : null;
+  const askedTitle = askedSlot ? askedSlot.title : askedOption ? AD_OPTIONS[askedOption].name : null;
+  const askedSpace = typeof space === "string" && askedTitle ? space : undefined;
+
+  // The "Ask about" button on each card names the space the visitor came from, or the option itself.
+  const spaceFor = (id: AdOptionId) => (askedOption === id && askedSpace ? askedSpace : id);
+  const network = AD_OPTIONS.network;
+
   return (
-    <div className="min-h-screen bg-white">
-
+    <div className="bg-[var(--sand)]">
       {/* Hero */}
-      <div className="bg-[var(--forest)] text-white px-4 py-20">
-        <div className="mx-auto max-w-4xl">
-          <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-4">
-            Advertising and Partnerships
-          </p>
-          <h1 className="font-display text-4xl md:text-5xl font-bold text-white mb-5 leading-tight">
-            Advertise on Sefton Coast Wildlife.
+      <section className="bg-[var(--forest)] text-white">
+        <div className="h-1 bg-gradient-to-r from-transparent via-[var(--gold)] to-transparent" />
+        <div className="mx-auto max-w-5xl px-4 py-14 md:py-20">
+          <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-4">Advertising</p>
+          <h1 className="font-display text-4xl md:text-5xl font-bold text-white mb-5 leading-tight max-w-3xl">
+            Advertise on Sefton Coast Wildlife
           </h1>
-          <p className="text-white/70 text-lg leading-relaxed max-w-2xl mb-10">
-            Sefton Coast Wildlife is written for birdwatchers, nature photographers and anyone visiting the coast for its wildlife. It is part of the Sefton Coast Network: four independent sites covering the region from Southport to Formby.
+          <p className="text-white/75 text-lg leading-relaxed max-w-2xl mb-8">
+            Simple options at a fixed price. Every advert is clearly labelled and is just a picture, a few words and a
+            link: no ad networks and no tracking cookies. You deal with us directly.
           </p>
-          <a
-            href="mailto:partnerships@seftoncoast.network"
+          <Link
+            href={contactHref(askedSpace)}
             className="inline-flex items-center gap-2 bg-[var(--gold)] hover:opacity-90 text-white font-semibold px-6 py-3 rounded-lg transition-opacity"
           >
-            partnerships@seftoncoast.network
-          </a>
+            Ask about a space
+          </Link>
         </div>
-      </div>
+      </section>
 
-      {/* Why advertise */}
-      <div className="px-4 py-16">
-        <div className="mx-auto max-w-4xl">
-          <div className="text-center mb-10">
-            <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-3">The site</p>
-            <h2 className="font-display text-3xl font-bold text-[var(--forest)]">Who Sefton Coast Wildlife is for</h2>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {WHY_ITEMS.map((item) => (
-              <div key={item.title} className="bg-gray-50 border border-gray-100 rounded-xl p-5">
-                <div className="w-2 h-2 rounded-full bg-[var(--gold)] mb-4" />
-                <h3 className="font-bold text-[var(--forest)] text-sm mb-2">{item.title}</h3>
-                <p className="text-gray-500 text-xs leading-relaxed">{item.body}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+      {/* Options */}
+      <section className="mx-auto max-w-5xl px-4 py-14">
+        <h2 className="font-display text-3xl font-bold text-[var(--forest)] mb-2">Ways to advertise</h2>
+        <p className="text-[var(--slate)]/70 text-sm mb-8 max-w-2xl">All prices are plus VAT. Payment is by invoice.</p>
 
-      {/* Network packages */}
-      <div className="bg-gray-50 border-t border-gray-100 px-4 py-16">
-        <div className="mx-auto max-w-4xl">
-          <div className="text-center mb-10">
-            <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-3">Advertising packages</p>
-            <h2 className="font-display text-3xl font-bold text-[var(--forest)]">Sefton Coast Network</h2>
-            <p className="text-gray-500 mt-3 text-sm max-w-xl mx-auto">
-              Sefton Coast Wildlife is included in the Full Network package, which covers all four sites under a single agreement. Placements are agreed with each advertiser.
-            </p>
-            <p className="text-gray-400 mt-2 text-xs">All packages: six-month minimum contract. Category exclusivity included.</p>
+        {askedTitle && (
+          <div className="mb-8 rounded-xl border border-[var(--marsh)]/30 bg-white px-5 py-4 text-sm text-[var(--slate)]">
+            <span className="font-semibold text-[var(--forest)]">You asked about: {askedTitle}.</span>{" "}
+            {askedOption && askedSlot && <>It is part of the {AD_OPTIONS[askedOption].name} option below.</>}
           </div>
+        )}
 
-          <div className="grid md:grid-cols-3 gap-5">
-            {NETWORK_PACKAGES.map((pkg) => (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {OPTION_ORDER.map((id) => {
+            const o = AD_OPTIONS[id];
+            const picked = askedOption === id;
+            return (
               <div
-                key={pkg.name}
-                className={`rounded-2xl overflow-hidden border-2 ${pkg.featured ? "border-[var(--gold)]" : "border-gray-200"}`}
+                key={id}
+                id={id}
+                className={`scroll-mt-24 bg-white rounded-2xl border p-6 flex flex-col ${
+                  picked ? "border-[var(--gold)] ring-2 ring-[var(--gold)]/40" : "border-[var(--dune)]"
+                }`}
               >
-                <div className={`px-5 py-4 ${pkg.featured ? "bg-[var(--forest)]" : "bg-white"}`}>
-                  {pkg.featured && (
-                    <span className="inline-block bg-[var(--gold)] text-white text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded mb-2">
-                      Recommended
-                    </span>
-                  )}
-                  <h3 className={`font-bold text-lg ${pkg.featured ? "text-white" : "text-[var(--forest)]"}`}>{pkg.name}</h3>
-                  <p className={`text-xs mt-0.5 ${pkg.featured ? "text-white/50" : "text-gray-400"}`}>{pkg.sites}</p>
-                </div>
-                <div className="p-5 bg-white">
-                  <div className="text-2xl font-extrabold text-[var(--forest)] mb-0.5">
-                    {pkg.price}<span className="text-sm font-normal text-gray-400"> / month</span>
-                  </div>
-                  <p className="text-xs text-gray-400 mb-4">{pkg.total} · 6-month minimum contract</p>
-                  <ul className="space-y-2 mb-5">
-                    {pkg.features.map((f) => (
-                      <li key={f} className="flex items-start gap-2 text-xs text-gray-600">
-                        <span className={`w-2.5 h-2.5 rounded-full flex-shrink-0 mt-0.5 ${pkg.featured ? "bg-[var(--gold)]" : "bg-[var(--forest)]"}`} />
-                        {f}
-                      </li>
-                    ))}
-                  </ul>
-                  <a
-                    href="mailto:partnerships@seftoncoast.network"
-                    className={`block text-center font-semibold py-2.5 rounded-lg text-sm transition-colors ${
-                      pkg.featured
-                        ? "bg-[var(--gold)] hover:opacity-90 text-white"
-                        : "border border-[var(--forest)] text-[var(--forest)] hover:bg-[var(--forest)] hover:text-white"
-                    }`}
-                  >
-                    Enquire
-                  </a>
-                </div>
+                <h3 className="font-display text-xl font-bold text-[var(--forest)] mb-3">{o.name}</h3>
+                <p className="mb-1">
+                  <span className="text-3xl font-bold text-[var(--forest)]">{o.price}</span>{" "}
+                  <span className="text-sm text-[var(--slate)]/70">{o.per} plus VAT</span>
+                </p>
+                <p className="text-xs text-[var(--slate)]/60 mb-4">{o.term}</p>
+                <ul className="space-y-2 text-sm text-[var(--slate)]/85 mb-6 flex-1">
+                  {o.points.map((p) => (
+                    <li key={p} className="flex gap-2.5">
+                      <span className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-[var(--marsh)]" aria-hidden="true" />
+                      {p}
+                    </li>
+                  ))}
+                </ul>
+                <Link
+                  href={contactHref(spaceFor(id))}
+                  className="text-center bg-[var(--forest)] hover:bg-[var(--marsh)] text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors"
+                >
+                  Ask about this space
+                </Link>
               </div>
-            ))}
+            );
+          })}
+
+          <div
+            id={network.id}
+            className={`scroll-mt-24 bg-[var(--forest)] text-white rounded-2xl p-6 flex flex-col ${
+              askedOption === "network" ? "ring-2 ring-[var(--gold)]" : ""
+            }`}
+          >
+            <p className="text-[var(--gold)] text-[10px] font-bold uppercase tracking-widest mb-2">All four sites</p>
+            <h3 className="font-display text-xl font-bold mb-3">{network.name}</h3>
+            <p className="mb-1">
+              <span className="text-3xl font-bold">{network.price}</span>{" "}
+              <span className="text-sm text-white/70">{network.per} plus VAT</span>
+            </p>
+            <p className="text-xs text-white/60 mb-4">{network.term}</p>
+            <ul className="space-y-2 text-sm text-white/85 mb-6 flex-1">
+              {network.points.map((p) => (
+                <li key={p} className="flex gap-2.5">
+                  <span className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-[var(--gold)]" aria-hidden="true" />
+                  {p}
+                </li>
+              ))}
+            </ul>
+            <Link
+              href={contactHref(spaceFor("network"))}
+              className="text-center bg-[var(--gold)] hover:opacity-90 text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-opacity"
+            >
+              Ask about the bundle
+            </Link>
           </div>
         </div>
-      </div>
 
-      {/* CTA */}
-      <div className="bg-[var(--forest)] text-white px-4 py-16">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-2xl font-bold mb-3">Request the media kit</h2>
-          <p className="text-white/60 mb-8 text-sm leading-relaxed">
-            Email us at partnerships@seftoncoast.network for the full media kit including ad specifications, package details, and terms. We respond to all advertising enquiries within one working day.
-          </p>
-          <a
-            href="mailto:partnerships@seftoncoast.network"
-            className="inline-flex items-center justify-center bg-[var(--gold)] hover:opacity-90 text-white font-semibold px-8 py-3 rounded-lg transition-opacity"
-          >
-            partnerships@seftoncoast.network
-          </a>
-          <p className="text-white/30 text-xs mt-8">
-            For species records or editorial enquiries:{" "}
-            <Link href="/contact" className="underline hover:text-white/60">use the contact form</Link>.
+        <div className="mt-8 rounded-2xl border border-[var(--gold)]/50 bg-[var(--gold)]/10 p-6">
+          <h3 className="font-display text-lg font-bold text-[var(--forest)] mb-1">Founding advertisers</h3>
+          <p className="text-sm text-[var(--slate)]">
+            Half price for your first three months, and your monthly price held for twelve months, for the first ten
+            advertisers across the Sefton Coast sites.
           </p>
         </div>
-      </div>
+      </section>
 
+      {/* How it works and our rules */}
+      <section className="bg-white border-y border-[var(--dune)]">
+        <div className="mx-auto max-w-5xl px-4 py-14 grid md:grid-cols-2 gap-10">
+          <div>
+            <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">How it works</h2>
+            <ol className="space-y-3 text-sm text-[var(--slate)]/85 list-decimal pl-5">
+              <li>
+                Tell us which space you would like through the{" "}
+                <Link href={contactHref(askedSpace)} className="text-[var(--marsh)] underline underline-offset-2">contact form</Link>.
+              </li>
+              <li>We confirm it is free and send an invoice.</li>
+              <li>Send a photo and up to 30 words. Your advert goes live within two working days.</li>
+              <li>After any minimum term, stop with a month&apos;s notice.</li>
+            </ol>
+            <p className="text-sm text-[var(--slate)]/70 mt-5">
+              Prefer email? Write to{" "}
+              <a href={`mailto:${DISPLAY_EMAIL}`} className="text-[var(--marsh)] underline underline-offset-2">{DISPLAY_EMAIL}</a>.
+            </p>
+          </div>
+          <div>
+            <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Our rules</h2>
+            <ul className="space-y-3 text-sm text-[var(--slate)]/85">
+              {[
+                "Every advert is labelled Advertisement or Sponsor, and a sponsored article is labelled Sponsored.",
+                "Paid links are marked as sponsored for search engines.",
+                "Adverts never appear inside reviews or beside the businesses we write about.",
+                "Paying for a space does not change what we write.",
+              ].map((rule) => (
+                <li key={rule} className="flex gap-2.5">
+                  <span className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-[var(--marsh)]" aria-hidden="true" />
+                  {rule}
+                </li>
+              ))}
+            </ul>
+            <p className="text-sm text-[var(--slate)]/70 mt-5">
+              More about how the site is paid for is on our{" "}
+              <Link href="/disclosure" className="text-[var(--marsh)] underline underline-offset-2">disclosure page</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -28,6 +28,7 @@ export default async function BlogIndexPage() {
       metaDescription: post.metaDescription,
       heroAlt: post.heroAlt,
       tags: post.tags,
+      sponsored: post.sponsor != null,
       heroSrc: post.heroLocalSrc != null
           ? post.heroLocalSrc
           : post.heroWikipediaTitle != null

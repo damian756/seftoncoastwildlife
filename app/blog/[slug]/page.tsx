@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { BLOG_POSTS, getPostBySlug } from "@/content/blog/posts";
 import { getWikipediaImage } from "@/lib/wikipedia";
 import { ClickableImage } from "@/components/ClickableImage";
+import { AdSlot } from "@/components/AdSlot";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -48,6 +49,10 @@ export default async function BlogPostPage({ params }: Props) {
   const heroPageUrl = heroImage?.pageUrl ?? null;
   const heroCredit = post.heroLocalSrc ? post.heroCredit ?? null : null;
   const url = `https://www.seftoncoastwildlife.co.uk/blog/${slug}`;
+  const sponsor = post.sponsor ?? null;
+  // One advert per page: the end-of-post card goes on species and seasonal posts, never on a sponsored article.
+  const showPostEndSlot =
+    !sponsor && (post.category === "species-spotlight" || post.category === "seasonal-watching");
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -56,13 +61,15 @@ export default async function BlogPostPage({ params }: Props) {
     description: post.metaDescription,
     url,
     datePublished: post.date,
-    author: {
-      "@type": "Person",
-      name: "Ed",
-      description:
-        "Ed has been walking the Sefton Coast since the 1980s. Retired geography teacher. Keeps a yearly bird tally. Still gets up at five.",
-      url: "https://www.seftoncoastwildlife.co.uk",
-    },
+    author: sponsor
+      ? { "@type": "Organization", name: sponsor.name, url: sponsor.url }
+      : {
+          "@type": "Person",
+          name: "Ed",
+          description:
+            "Ed has been walking the Sefton Coast since the 1980s. Retired geography teacher. Keeps a yearly bird tally. Still gets up at five.",
+          url: "https://www.seftoncoastwildlife.co.uk",
+        },
     publisher: {
       "@type": "Organization",
       name: "Sefton Coast Wildlife",
@@ -141,9 +148,25 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Header */}
         <div className="mb-8">
-          <span className="text-xs font-bold uppercase tracking-wider text-[var(--marsh)]">{post.categoryLabel}</span>
+          {sponsor && (
+            <p className="inline-block mb-3 rounded-md bg-[var(--gold)]/20 px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-[var(--forest)]">
+              Sponsored
+            </p>
+          )}
+          <span className="block text-xs font-bold uppercase tracking-wider text-[var(--marsh)]">{post.categoryLabel}</span>
           <h1 className="font-display text-3xl sm:text-4xl font-bold text-[var(--forest)] mt-2 mb-3 leading-tight">{post.title}</h1>
-          <p className="text-sm text-[var(--slate)]/60">{formatDate(post.date)}</p>
+          <p className="text-sm text-[var(--slate)]/60">
+            {sponsor && (
+              <>
+                Sponsored by{" "}
+                <a href={sponsor.url} target="_blank" rel="sponsored noopener" className="font-semibold text-[var(--marsh)] hover:underline">
+                  {sponsor.name}
+                </a>
+                {" · "}
+              </>
+            )}
+            {formatDate(post.date)}
+          </p>
         </div>
 
         {/* Intro */}
@@ -183,16 +206,26 @@ export default async function BlogPostPage({ params }: Props) {
           <div className="mt-10 pt-6 border-t border-[var(--dune)]">
             <h2 className="font-display text-lg font-bold text-[var(--forest)] mb-4">Related pages</h2>
             <div className="grid sm:grid-cols-2 gap-3">
-              {post.relatedLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="flex flex-col rounded-xl border border-[var(--foam)] bg-[var(--dune)]/40 px-4 py-3 hover:border-[var(--marsh)] hover:bg-[var(--dune)] transition-colors"
-                >
-                  <span className="text-sm font-semibold text-[var(--forest)] mb-0.5">{link.label}</span>
-                  <span className="text-xs text-[var(--slate)]/70 leading-relaxed">{link.description}</span>
-                </Link>
-              ))}
+              {post.relatedLinks.map((link) => {
+                const cardClass =
+                  "flex flex-col rounded-xl border border-[var(--foam)] bg-[var(--dune)]/40 px-4 py-3 hover:border-[var(--marsh)] hover:bg-[var(--dune)] transition-colors";
+                const inner = (
+                  <>
+                    <span className="text-sm font-semibold text-[var(--forest)] mb-0.5">{link.label}</span>
+                    <span className="text-xs text-[var(--slate)]/70 leading-relaxed">{link.description}</span>
+                  </>
+                );
+                // On a sponsored article, outside links (the sponsor's) are marked as paid.
+                return sponsor && /^https?:\/\//.test(link.href) ? (
+                  <a key={link.href} href={link.href} target="_blank" rel="sponsored noopener" className={cardClass}>
+                    {inner}
+                  </a>
+                ) : (
+                  <Link key={link.href} href={link.href} className={cardClass}>
+                    {inner}
+                  </Link>
+                );
+              })}
             </div>
           </div>
         )}
@@ -208,14 +241,19 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
         )}
 
-        {/* Author bio */}
-        <div className="mt-8 p-5 rounded-xl bg-[var(--dune)] border border-[var(--foam)]">
-          <p className="text-xs font-bold uppercase tracking-wider text-[var(--marsh)] mb-1">About the author</p>
-          <p className="text-sm font-semibold text-[var(--forest)]">Ed</p>
-          <p className="text-sm text-[var(--slate)] mt-1 leading-relaxed">
-            Ed has been walking the Sefton Coast since the 1980s. He keeps a yearly bird tally, owns more waterproof jackets than he&apos;d care to admit, and has strong opinions about which hide has the best light in the morning. Retired geography teacher. Still gets up at five.
-          </p>
-        </div>
+        {/* End-of-post advertising space (species and seasonal posts only) */}
+        {showPostEndSlot && <AdSlot id="post-end" className="mt-10" />}
+
+        {/* Author bio (never on a sponsored article) */}
+        {!sponsor && (
+          <div className="mt-8 p-5 rounded-xl bg-[var(--dune)] border border-[var(--foam)]">
+            <p className="text-xs font-bold uppercase tracking-wider text-[var(--marsh)] mb-1">About the author</p>
+            <p className="text-sm font-semibold text-[var(--forest)]">Ed</p>
+            <p className="text-sm text-[var(--slate)] mt-1 leading-relaxed">
+              Ed has been walking the Sefton Coast since the 1980s. He keeps a yearly bird tally, owns more waterproof jackets than he&apos;d care to admit, and has strong opinions about which hide has the best light in the morning. Retired geography teacher. Still gets up at five.
+            </p>
+          </div>
+        )}
 
         {/* Back link */}
         <div className="mt-8">

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Species, SpeciesCategory } from "@/lib/types";
 import { SpeciesListClient } from "./SpeciesListClient";
+import { AdSlot } from "./AdSlot";
 
 const categoryLabels: Record<SpeciesCategory, string> = {
   birds: "Birds",
@@ -10,10 +11,10 @@ const categoryLabels: Record<SpeciesCategory, string> = {
 };
 
 const categoryDescriptions: Record<SpeciesCategory, string> = {
-  birds: "Waders, wildfowl, raptors and passerines recorded on the Sefton Coast — from the Pink-footed Goose roosts at Marshside to breeding Avocets and Little Terns on the beach.",
-  insects: "Butterflies, moths, beetles and other invertebrates of the Sefton Coast dunes, slacks and heathland — one of the richest insect habitats in northwest England.",
-  plants: "Dune and marsh flora of the Sefton Coast — including nationally rare species such as Grass of Parnassus and Round-leaved Wintergreen at Ainsdale NNR.",
-  mammals: "Mammals, reptiles and amphibians of the Sefton Coast — Red Squirrels in the Formby pinewoods, Grey Seals on the beach, Sand Lizards at Ainsdale NNR and the Natterjack Toad chorus on warm spring nights.",
+  birds: "Waders, wildfowl, raptors and passerines recorded on the Sefton Coast, from the Pink-footed Goose roosts at Marshside to breeding Avocets and Little Terns on the beach.",
+  insects: "Butterflies, moths, beetles and other invertebrates of the Sefton Coast dunes, slacks and heathland: one of the richest insect habitats in northwest England.",
+  plants: "Dune and marsh flora of the Sefton Coast, including nationally rare species such as Grass of Parnassus and Round-leaved Wintergreen at Ainsdale NNR.",
+  mammals: "Mammals, reptiles and amphibians of the Sefton Coast: Red Squirrels in the Formby pinewoods, Grey Seals on the beach, Sand Lizards at Ainsdale NNR and the Natterjack Toad chorus on warm spring nights.",
 };
 
 interface SpeciesListProps {
@@ -76,6 +77,11 @@ export function SpeciesList({ category, species }: SpeciesListProps) {
       ) : (
         <SpeciesListClient category={category} species={species} />
       )}
+
+      {/* Section sponsor: after the species list, never on individual species pages */}
+      <div className="mx-auto max-w-5xl px-4 pb-12">
+        <AdSlot id={`section-${category}`} />
+      </div>
     </div>
   );
 }

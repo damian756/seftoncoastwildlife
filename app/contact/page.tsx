@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { ContactForm } from "@/components/ContactForm";
+import { spaceTitle } from "@/lib/ad-slots";
 
 const title = "Contact";
-const description = "Get in touch with Sefton Coast Wildlife: questions, species records, local knowledge or listing enquiries.";
+const description = "Get in touch with Sefton Coast Wildlife: questions, species records, local knowledge or advertising enquiries.";
 const url = "https://www.seftoncoastwildlife.co.uk/contact";
 
 export const metadata: Metadata = {
@@ -12,7 +13,18 @@ export const metadata: Metadata = {
   openGraph: { title, description, url, siteName: "Sefton Coast Wildlife", type: "website" },
 };
 
-export default function ContactPage() {
+type Props = { searchParams: Promise<{ topic?: string | string[]; space?: string | string[] }> };
+
+export default async function ContactPage({ searchParams }: Props) {
+  // Arriving from /advertise: preselect the subject and name the space the visitor asked about.
+  const { topic, space } = await searchParams;
+  const isAdvertising = topic === "advertise";
+  const asked = isAdvertising ? spaceTitle(space) : null;
+  const defaultSubject = isAdvertising ? "Advertising" : "";
+  const defaultMessage = asked ? `I'm interested in: ${asked}
+
+` : "";
+
   return (
     <>
       {/* Page header */}
@@ -25,7 +37,7 @@ export default function ContactPage() {
             Contact us
           </h1>
           <p className="text-white/75 text-lg leading-relaxed max-w-2xl">
-            Species records, questions about the site, listing enquiries or just something you&apos;ve spotted on the coast. We&apos;d like to hear from you.
+            Species records, questions about the site, advertising enquiries or just something you&apos;ve spotted on the coast. We&apos;d like to hear from you.
           </p>
         </div>
       </div>
@@ -34,7 +46,7 @@ export default function ContactPage() {
         <div className="grid md:grid-cols-5 gap-10">
           {/* Form */}
           <div className="md:col-span-3">
-            <ContactForm />
+            <ContactForm defaultSubject={defaultSubject} defaultMessage={defaultMessage} />
           </div>
 
           {/* Sidebar */}
