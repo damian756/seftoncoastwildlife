@@ -14,7 +14,7 @@ function SpeciesCardImage({ species }: { species: Species }) {
         src={species.localImage}
         alt={species.commonName}
         fill
-        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px"
         className="object-cover group-hover:scale-105 transition duration-300"
       />
     </div>

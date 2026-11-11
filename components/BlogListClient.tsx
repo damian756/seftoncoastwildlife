@@ -165,7 +165,7 @@ export function BlogListClient({ posts }: Props) {
                     src={post.heroSrc}
                     alt={post.heroAlt}
                     fill
-                    sizes={i === 0 && filtered.length > 2 ? "(max-width: 1024px) 100vw, 33vw" : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"}
+                    sizes={i === 0 && filtered.length > 2 ? "(max-width: 1024px) 100vw, 320px" : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px"}
                     className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                 ) : (
