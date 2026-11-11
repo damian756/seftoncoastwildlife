@@ -4,6 +4,7 @@ import { BLOG_POSTS } from "@/content/blog/posts";
 import { getWikipediaImage } from "@/lib/wikipedia";
 import { BlogListClient } from "@/components/BlogListClient";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "Wildlife Blog";
 const description =
@@ -40,6 +41,7 @@ export default async function BlogIndexPage() {
 
   return (
     <div>
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Blog" }]} path="/blog" />
       {/* Header */}
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-5xl px-4 py-10">

@@ -7,6 +7,8 @@ import { ClickableImage } from "@/components/ClickableImage";
 import { AdSlot } from "@/components/AdSlot";
 import { hasPostSlot, postSlotId } from "@/lib/ad-slots";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { SITE_NAME, fitDescription } from "@/lib/seo";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -22,22 +24,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(slug);
   if (!post) return {};
   const url = `https://www.seftoncoastwildlife.co.uk/blog/${slug}`;
+  // Whole sentences up to about 160 characters, so results do not cut the summary mid-phrase.
+  const description = fitDescription(post.metaDescription);
   return {
-    title: post.title,
-    description: post.metaDescription,
+    // A title that already names the site does not get " | Sefton Coast Wildlife" again.
+    title: post.title.includes(SITE_NAME) ? { absolute: post.title } : post.title,
+    description,
     alternates: { canonical: url },
     openGraph: {
       title: post.title,
-      description: post.metaDescription,
+      description,
       url,
       siteName: "Sefton Coast Wildlife",
       type: "article",
       publishedTime: post.date,
+      ...(post.dateModified && { modifiedTime: post.dateModified }),
       images: post.heroLocalSrc
         ? [{ url: `https://www.seftoncoastwildlife.co.uk${post.heroLocalSrc}`, alt: post.heroAlt }]
         : [DEFAULT_OG_IMAGE],
     },
-    twitter: { card: "summary_large_image", title: post.title, description: post.metaDescription },
+    twitter: { card: "summary_large_image", title: post.title, description },
   };
 }
 
@@ -68,6 +74,7 @@ export default async function BlogPostPage({ params }: Props) {
     description: post.metaDescription,
     url,
     datePublished: post.date,
+    ...(post.dateModified && { dateModified: post.dateModified }),
     author: sponsor
       ? { "@type": "Organization", name: sponsor.name, url: sponsor.url }
       : {
@@ -87,7 +94,6 @@ export default async function BlogPostPage({ params }: Props) {
       image: {
         "@type": "ImageObject",
         url: heroSrc.startsWith("/") ? `https://www.seftoncoastwildlife.co.uk${heroSrc}` : heroSrc,
-        width: 800,
       },
     }),
   };
@@ -95,6 +101,10 @@ export default async function BlogPostPage({ params }: Props) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      <BreadcrumbJsonLd
+        crumbs={[{ name: "Home", path: "/" }, { name: "Blog", path: "/blog" }, { name: post.categoryLabel }]}
+        path={`/blog/${slug}`}
+      />
 
       {heroSrc && (
         <div className="relative h-64 sm:h-80 w-full overflow-hidden bg-[var(--dune)]">

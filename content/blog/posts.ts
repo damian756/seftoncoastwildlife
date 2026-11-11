@@ -10,7 +10,9 @@ export interface BlogPost {
   category: BlogCategory;
   categoryLabel: string;
   title: string;
-  date: string; // ISO date string
+  date: string; // ISO date string, the date the post shows
+  // YYYY-MM-DD: the last day the post's words changed after it was published (from git). Article dateModified and sitemap lastmod.
+  dateModified?: string;
   metaDescription: string;
   heroWikipediaTitle?: string;
   heroLocalSrc?: string; // overrides Wikipedia fetch when set
@@ -199,6 +201,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Oystercatcher Nesting on the Sefton Coast: The Beach Bird That Won't Back Down",
     date: "2026-06-01",
+    dateModified: "2026-11-11",
     metaDescription: "Oystercatchers nest on the Sefton Coast beach and dunes through June and July. Their alarm calls, bold plumage and aggressive nest defence make them the most noticeable breeding bird on the shore.",
     heroLocalSrc: "/images/blog/blog-oystercatcher-beach.jpg",
     heroAlt: "Oystercatcher standing on wet sand at the shoreline, showing distinctive black and white plumage and orange bill",
@@ -250,6 +253,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Cinnabar Moth on the Sefton Dunes: The Most Striking Insect of the Summer",
     date: "2026-06-01",
+    dateModified: "2026-11-11",
     metaDescription: "The cinnabar moth is one of the most distinctive insects on the Sefton Coast dunes in June and July. Red and black wings, a day-flying habit, and a caterpillar that is even more conspicuous than the adult.",
     heroLocalSrc: "/images/blog/blog-cinnabar-moth-ragwort.jpg",
     heroAlt: "Cinnabar moth resting on yellow ragwort flowers, showing vivid red and black wing markings",
@@ -299,8 +303,9 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "sefton-coast-june-wildlife-2026",
     category: "seasonal-watching",
     categoryLabel: "Seasonal Watching",
-    title: "Sefton Coast Wildlife in June 2026: What to Look For Right Now",
+    title: "Sefton Coast Wildlife in June 2026: What to Look For",
     date: "2026-05-28",
+    dateModified: "2026-11-11",
     metaDescription: "June on the Sefton Coast: sand lizards basking on warm dunes, common blue butterflies, little tern chicks, natterjack toadlets emerging, and breeding waders at peak activity. The complete June wildlife guide.",
     heroLocalSrc: "/images/blog/blog-sand-lizard-june-dunes.jpg",
     heroAlt: "Sand lizard basking on warm sandy Sefton Coast dunes in June sunshine",
@@ -363,6 +368,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Common Blue Butterfly on the Sefton Dunes: June Is the Month",
     date: "2026-05-28",
+    dateModified: "2026-11-11",
     metaDescription: "The common blue butterfly is at peak abundance on the Sefton Coast dunes in June. Where to find them, what to look for, and which dune plants are key to the population.",
     heroLocalSrc: "/images/blog/blog-common-blue-butterfly-dunes.jpg",
     heroAlt: "Common blue butterfly on kidney vetch flower in Sefton Coast sand dunes",
@@ -422,6 +428,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "What to See on the Sefton Coast in Late May 2026",
     date: "2026-05-17",
+    dateModified: "2026-11-11",
     metaDescription: "Late May on the Sefton Coast: marsh orchids in the dune slacks, little terns at Ainsdale, natterjack toad calling, swift arrivals and the full transition to summer breeding. What to look for and where to go.",
     heroLocalSrc: "/images/blog/late-may-sefton-coast-wildlife.jpg",
     heroAlt: "Marsh orchids in a Sefton Coast dune slack, late May",
@@ -480,6 +487,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlights",
     title: "The Oystercatcher: Bold, Noisy and Breeding on the Sefton Coast",
     date: "2026-05-18",
+    dateModified: "2026-11-11",
     metaDescription: "The oystercatcher is one of the most visible breeding birds on the Sefton Coast. Distinctive, loud, and surprisingly aggressive when nesting. Where to find them, when to go, and what to know.",
     heroLocalSrc: "/images/blog/oystercatcher-sefton-coast.jpg",
     heroAlt: "Intertidal rocky shoreline habitat used by oystercatchers on the Sefton Coast",
@@ -539,6 +547,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "What to See on the Sefton Coast in March",
     date: "2026-03-12",
+    dateModified: "2026-11-11",
     metaDescription:
       "March on the Sefton Coast: Pink-footed Geese building up to leave, Avocets arriving, Brown Hares boxing, and the first signs of spring in the dune system. What to look for and where to go.",
     heroLocalSrc: "/images/blog/march-sefton-coast-wildlife.jpg",
@@ -636,6 +645,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Conservation",
     title: "The Natterjack Toad: Britain's Rarest Amphibian Is Doing Better Than It Was",
     date: "2026-02-10",
+    dateModified: "2026-11-11",
     metaDescription:
       "Natterjack Toads on the Sefton Coast: one of the last strongholds for Britain's rarest amphibian. How conservation management is helping the population recover.",
     heroLocalSrc: "/images/blog/blog-natterjack-toad-sefton.jpg",
@@ -687,6 +697,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlights",
     title: "Short-eared Owl at Marshside: A Winter Visitor Worth Waiting For",
     date: "2026-01-20",
+    dateModified: "2026-11-11",
     metaDescription:
       "Short-eared Owls at Marshside RSPB: when to look, where to look, and what to expect from one of the Sefton Coast's most sought-after winter visitors.",
     heroLocalSrc: "/images/blog/blog-short-eared-owl-marshside.jpg",
@@ -732,6 +743,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "October at Marshside: The Month Everything Arrives",
     date: "2025-10-05",
+    dateModified: "2026-11-11",
     metaDescription:
       "October birdwatching at Marshside RSPB: Pink-footed Geese arriving, wader passage wrapping up and the first winter wildfowl. What to expect and when to go.",
     heroLocalSrc: "/images/blog/blog-geese-october-marshside.jpg",
@@ -783,6 +795,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Habitat Guides",
     title: "Understanding the Sand Dunes: Why the Sefton Dune System Matters",
     date: "2025-11-15",
+    dateModified: "2026-11-11",
     metaDescription:
       "The Sefton Coast sand dune system: how it formed, why it's changing, and what lives in the different dune zones from mobile yellow dunes to wet slacks.",
     heroLocalSrc: "/images/blog/blog-sand-dunes-marram-grass.jpg",
@@ -830,6 +843,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Wildlife Photography",
     title: "Photographing Waders at Marshside: Practical Tips for Better Results",
     date: "2026-01-08",
+    dateModified: "2026-11-11",
     metaDescription:
       "How to photograph waders at Marshside RSPB: camera settings, the best hides, timing, light direction and how to avoid the most common mistakes.",
     heroWikipediaTitle: "Calidris canutus",
@@ -878,6 +892,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Wildlife Photography",
     title: "What It's Actually Like Inside Nel's Hide at Marshside RSPB",
     date: "2026-03-02",
+    dateModified: "2026-11-11",
     metaDescription:
       "A practical guide to Nel's Hide at Marshside RSPB: what's inside, how to set up, when to arrive, what to bring, and whether it's worth visiting in winter.",
     heroWikipediaTitle: "Ribble Estuary",
@@ -930,6 +945,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Habitat Guides",
     title: "The Coastal Path at Marshside: The Bit Most People Miss",
     date: "2026-03-02",
+    dateModified: "2026-11-11",
     metaDescription:
       "The Marshside Saltmarsh coastal walk on Redshank Road: what to expect, dog rules, safety, and why it's a completely different experience from the reserve path.",
     heroWikipediaTitle: "Ribble Estuary",
@@ -983,6 +999,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Conservation",
     title: "Stan and Peggy Scott: The People Behind the Bench at Marshside",
     date: "2026-03-02",
+    dateModified: "2026-11-11",
     metaDescription:
       "The memorial bench on the Marshside RSPB reserve path commemorates Stan and Peggy Scott, Founder Members of North Cheshire Group RSPB 1976–1999. Who were they?",
     heroWikipediaTitle: "Ribble Estuary",
@@ -1025,6 +1042,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "What Is a Mermaid's Purse? Shark Egg Cases on the Sefton Coast",
     date: "2026-03-04",
+    dateModified: "2026-11-11",
     metaDescription:
       "Found a black leathery pouch with curly tendrils on a Sefton Coast beach? That's a mermaid's purse: the empty egg case of a small-spotted catshark. Here's what it is, where it comes from, and what to do with it.",
     heroLocalSrc: "/images/blog/beachcombing/mermaids-purse-held-hand-ainsdale.webp",
@@ -1084,6 +1102,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Jellyfish on the Sefton Coast: What Are They and Do They Sting?",
     date: "2026-03-04",
+    dateModified: "2026-11-11",
     metaDescription:
       "Finding jellyfish on Ainsdale or Formby Beach? They're almost certainly compass jellyfish or barrel jellyfish: here's how to tell them apart, whether they sting, and what to do if your dog goes for one.",
     heroLocalSrc: "/images/blog/beachcombing/barrel-jellyfish-dog-ainsdale-beach.webp",
@@ -1148,6 +1167,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "What to See on the Sefton Coast in April",
     date: "2026-03-17",
+    dateModified: "2026-11-11",
     metaDescription:
       "April on the Sefton Coast: Natterjack Toads calling for the first time, Sand Lizards appearing on warm dune slopes, Avocets on the Marshside scrape, and the Sefton Coast at its spring best. What to look for and where to go.",
     heroLocalSrc: "/images/blog/april-sefton-coast-wildlife.jpg",
@@ -1230,6 +1250,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlights",
     title: "Sand Lizard: Britain's Most Colourful Reptile, on Your Doorstep",
     date: "2026-03-18",
+    dateModified: "2026-11-11",
     metaDescription:
       "The Sand Lizard at Ainsdale NNR on the Sefton Coast, one of the best places in Britain to see this protected species. When to go, where to look, and what you'll actually see.",
     heroLocalSrc: "/images/blog/sand-lizard-ainsdale.jpg",
@@ -1307,6 +1328,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "Easter Weekend Wildlife Walk at Ainsdale NNR: What to Look For",
     date: "2026-04-03",
+    dateModified: "2026-11-11",
     metaDescription:
       "Easter weekend is a great time for a wildlife walk at Ainsdale NNR. Sand Lizards emerging, Natterjacks starting to call, spring migrants arriving. Practical guide to what to look for and when.",
     heroLocalSrc: "/images/blog/blog-ainsdale-easter-walk.jpg",
@@ -1375,6 +1397,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "The Swallows Are Back: First Hirundines on the Sefton Coast, April 2026",
     date: "2026-04-03",
+    dateModified: "2026-11-11",
     metaDescription:
       "Swallows, House Martins and Sand Martins return to the Sefton Coast in April. What to look for, where to see them, and what the arrival of hirundines tells you about the season.",
     heroLocalSrc: "/images/blog/blog-swallows-return.jpg",
@@ -1435,6 +1458,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Habitat Guides",
     title: "Marsh Orchids in the Dune Slacks: What to Expect This Spring and Summer",
     date: "2026-04-04",
+    dateModified: "2026-11-11",
     metaDescription:
       "Northern Marsh Orchids flower in the Sefton Coast dune slacks from late May into June. What to look for, where the best displays are, and how the dune slack habitat makes them possible.",
     heroLocalSrc: "/images/blog/blog-marsh-orchids.jpg",
@@ -1503,6 +1527,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Habitat Guides",
     title: "Dune Slacks: The Wetland in the Middle of the Dunes",
     date: "2026-03-19",
+    dateModified: "2026-11-11",
     metaDescription:
       "Dune slacks on the Sefton Coast: the shallow wetland depressions between dune ridges that support Natterjack Toads, Marsh Orchids, and rare invertebrates. What they are and why they matter.",
     heroLocalSrc: "/images/blog/dune-slack-habitat.jpg",
@@ -1580,6 +1605,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlights",
     title: "Roe Deer in Formby Pinewoods: The Deer Most Visitors Don't Know Are There",
     date: "2026-04-13",
+    dateModified: "2026-11-11",
     metaDescription:
       "Roe Deer live in Formby pinewoods year-round. Where to look, when to go, and what to expect from one of the most overlooked mammals on the Sefton Coast.",
     heroLocalSrc: "/images/blog/roe-deer-formby-pinewoods.jpg",
@@ -1638,6 +1664,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "Common Tern on the Sefton Coast: The Summer Arrival Worth Waiting For",
     date: "2026-04-12",
+    dateModified: "2026-11-11",
     metaDescription:
       "Common Terns arrive on the Sefton Coast from late April. Where to find them, what they're doing, and why they're worth looking for properly rather than just noting as 'seagull-like bird.'",
     heroLocalSrc: "/images/blog/blog-common-tern-sefton-coast.jpg",
@@ -1704,6 +1731,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlights",
     title: "Natterjack Toads on the Sefton Coast: When to Hear Them and Where to Go",
     date: "2026-04-02",
+    dateModified: "2026-11-11",
     metaDescription:
       "The Sefton Coast holds one of the UK's largest Natterjack Toad populations. Find out when they breed, where to hear the chorus, and what makes these dunes so important for their survival.",
     heroLocalSrc: "/images/blog/blog-natterjack-dune-pool.jpg",
@@ -1771,6 +1799,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "Spring Migration on the Lancashire Coast: What's Moving Through in April",
     date: "2026-04-02",
+    dateModified: "2026-11-11",
     metaDescription:
       "April is one of the most active months for bird migration on the Lancashire coast. From Sefton's marshes to the Fylde, here's what's moving through and where to position yourself.",
     heroLocalSrc: "/images/blog/blog-lancashire-coast-spring.jpg",
@@ -1838,6 +1867,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "May on the Sefton Coast: What Wildlife to Look For This Month",
     date: "2026-05-07",
+    dateModified: "2026-11-11",
     metaDescription: "May is one of the most productive months on the Sefton Coast. Natterjack toads calling at dusk, little terns arriving to nest, sand lizards basking on dune slopes, marsh orchids emerging. Here's what to look for and where.",
     heroLocalSrc: "/images/blog/blog-sefton-coast-may-wildlife.jpg",
     heroAlt: "White sea campion flowers growing from pale dune sand on the Sefton Coast in spring",
@@ -2025,6 +2055,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "July Wildlife on the Sefton Coast: What to Look For",
     date: "2026-06-22",
+    dateModified: "2026-11-11",
     metaDescription: "July on the Sefton Coast: skylarks singing over the dunes, common lizards basking, sea holly in electric-blue bloom, and late-season breeding birds still active. The full July wildlife guide.",
     heroLocalSrc: "/images/blog/blog-july-wildlife-sefton.webp",
     heroAlt: "Skylark singing from a grass stem in dune grassland, coastal habitat, Sefton Coast",
@@ -2085,6 +2116,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Sea Holly on the Sefton Coast: The Dune Plant Worth Seeking Out in July",
     date: "2026-06-22",
+    dateModified: "2026-11-11",
     metaDescription: "Sea holly flowers on the Sefton Coast in July, electric blue on the open dune face. A legally protected plant and an indicator of healthy dune habitat. Where to find it and what to look for.",
     heroLocalSrc: "/images/blog/blog-sea-holly-sefton.webp",
     heroAlt: "Sea holly plant with electric blue spiky flower heads, sand dune habitat in background",
@@ -2144,6 +2176,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Skylark on the Sefton Coast Dunes: The Song Flight Worth Knowing",
     date: "2026-07-14",
+    dateModified: "2026-11-11",
     metaDescription: "The skylark breeds throughout the Sefton Coast dune grassland. Its song flight is one of the defining sounds of the open coast in summer. How to find it, what to listen for, and why it matters.",
     heroLocalSrc: "/images/blog/blog-skylark-dunes.webp",
     heroAlt: "Skylark perched on dune grass stem with open beak singing, pale blue coastal sky background",
@@ -2195,6 +2228,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Grey Seal on the Sefton Coast: When and Where to See Them",
     date: "2026-07-14",
+    dateModified: "2026-11-11",
     metaDescription: "Grey seals are seen regularly off the Sefton Coast, particularly from Formby Point and Ainsdale beach. When they appear, how to identify them, and what brings them to this stretch of coast.",
     heroLocalSrc: "/images/blog/blog-grey-seal-sefton.webp",
     heroAlt: "Grey seal resting on wet sand, looking directly at camera, Sefton Coast beach",
@@ -2246,6 +2280,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Glow-Worms on the Sefton Coast: The July Spectacle Most People Miss",
     date: "2026-07-01",
+    dateModified: "2026-11-11",
     metaDescription: "Glow-worms are active on the Sefton Coast dunes in July. The female emits a cold green light from the grass after dark to attract males. Where to look, when to go, and what you are actually seeing.",
     heroLocalSrc: "/images/blog/blog-glow-worms-sefton.webp",
     heroAlt: "Glow-worm emitting green bioluminescent light in short grass at night, Sefton Coast dunes",
@@ -2351,6 +2386,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Little Terns at Ainsdale: The Nesting Season Explained",
     date: "2026-05-07",
+    dateModified: "2026-11-11",
     metaDescription: "Little terns nest on Ainsdale beach from late April to August. One of Britain's rarest breeding seabirds, nesting on the open sand. How to watch them, what to expect, and why the colony matters.",
     heroLocalSrc: "/images/blog/blog-little-terns-ainsdale.jpg",
     heroAlt: "Marram grass stems on Ainsdale sand dunes in bright coastal light, the habitat of nesting little terns",
@@ -2412,6 +2448,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "September Wildlife on the Sefton Coast: The Autumn Shift",
     date: "2026-09-09",
+    dateModified: "2026-11-11",
     metaDescription: "September is when the Sefton Coast changes character. Wader numbers build at Marshside, the first pink-footed geese arrive from Iceland, dragonflies finish their season, and passerine migrants move through the dunes. What to look for and where.",
     heroLocalSrc: "/images/blog/blog-september-wildlife-marshside.webp",
     heroAlt: "Flock of dunlin wading birds on the shallow muddy scrape at Marshside RSPB in autumn, reflections in still water",
@@ -2474,6 +2511,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Pink-Footed Geese at Marshside: The Sefton Coast's Winter Spectacle",
     date: "2026-09-09",
+    dateModified: "2026-11-11",
     metaDescription: "Tens of thousands of pink-footed geese roost at Marshside RSPB each winter after migrating from Iceland and Greenland. One of England's great wildlife spectacles. When to go, where to stand, and what to look for.",
     heroLocalSrc: "/images/blog/blog-pink-footed-geese-marshside.webp",
     heroAlt: "Skein of pink-footed geese in V formation flying at dusk over a flat coastal marsh, silhouettes against an orange and purple sunset sky",
@@ -2534,6 +2572,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Seasonal Watching",
     title: "August Wildlife on the Sefton Coast: What to Look For",
     date: "2026-08-21",
+    dateModified: "2026-11-11",
     metaDescription: "August on the Sefton Coast brings dragonflies at Marshside, the last of the breeding season seabirds at Ainsdale, and the first hints of autumn migration over the dunes. What to look for and where to find it.",
     heroLocalSrc: "/images/blog/blog-august-wildlife-sefton.webp",
     heroAlt: "Common darter dragonfly resting on a reed stem at Marshside in late August, reed beds blurred behind",
@@ -2597,6 +2636,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Gannet over the Sefton Coast: Autumn Seawatching Begins",
     date: "2026-08-21",
+    dateModified: "2026-11-11",
     metaDescription: "Gannets begin passing the Sefton Coast in numbers from late August as post-breeding dispersal from Scottish colonies gets underway. How to see them, what to look for, and where to seawatch on the Sefton Coast.",
     heroLocalSrc: "/images/blog/blog-gannet-sefton-coast.webp",
     heroAlt: "Northern gannet in full flight over grey sea, white plumage with black wingtips, wings spread wide",
