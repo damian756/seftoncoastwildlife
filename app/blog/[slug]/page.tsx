@@ -5,8 +5,12 @@ import { BLOG_POSTS, getPostBySlug } from "@/content/blog/posts";
 import { getWikipediaImage } from "@/lib/wikipedia";
 import { ClickableImage } from "@/components/ClickableImage";
 import { AdSlot } from "@/components/AdSlot";
+import { hasPostSlot, postSlotId } from "@/lib/ad-slots";
 
 type Props = { params: Promise<{ slug: string }> };
+
+// Rebuilt at most once a day, so a sponsor whose `until` has passed drops off within a day.
+export const revalidate = 86400;
 
 export function generateStaticParams() {
   return BLOG_POSTS.map((p) => ({ slug: p.slug }));
@@ -50,9 +54,8 @@ export default async function BlogPostPage({ params }: Props) {
   const heroCredit = post.heroLocalSrc ? post.heroCredit ?? null : null;
   const url = `https://www.seftoncoastwildlife.co.uk/blog/${slug}`;
   const sponsor = post.sponsor ?? null;
-  // One advert per page: the end-of-post card goes on species and seasonal posts, never on a sponsored article.
-  const showPostEndSlot =
-    !sponsor && (post.category === "species-spotlight" || post.category === "seasonal-watching");
+  // One advert per page: each species and seasonal post has its own end-of-post space, never a sponsored article.
+  const showPostEndSlot = hasPostSlot(post);
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -242,7 +245,7 @@ export default async function BlogPostPage({ params }: Props) {
         )}
 
         {/* End-of-post advertising space (species and seasonal posts only) */}
-        {showPostEndSlot && <AdSlot id="post-end" className="mt-10" />}
+        {showPostEndSlot && <AdSlot id={postSlotId(post.slug)} className="mt-10" />}
 
         {/* Author bio (never on a sponsored article) */}
         {!sponsor && (

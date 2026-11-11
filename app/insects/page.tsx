@@ -3,8 +3,11 @@ import { SpeciesList } from "@/components/SpeciesList";
 
 import type { Metadata } from "next";
 
-const title = "Sefton Coast Insects — Butterflies, Moths & Beetles Guide";
-const description = "Butterflies, moths and beetles of the Sefton Coast dunes and heathland — Dark Green Fritillary, Grayling, Six-spot Burnet, Dune Tiger Beetle and more. Where to see them and identification tips.";
+// Rebuilt at most once a day, so an advertising sponsor whose `until` has passed drops off within a day.
+export const revalidate = 86400;
+
+const title = "Sefton Coast Insects: Butterflies, Moths & Beetles Guide";
+const description = "Butterflies, moths and beetles of the Sefton Coast dunes and heathland: Dark Green Fritillary, Grayling, Six-spot Burnet, Dune Tiger Beetle and more. Where to see them and identification tips.";
 const url = "https://www.seftoncoastwildlife.co.uk/insects";
 
 export const metadata: Metadata = {

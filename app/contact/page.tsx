@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ContactForm } from "@/components/ContactForm";
+import { BLOG_POSTS } from "@/content/blog/posts";
 import { spaceTitle } from "@/lib/ad-slots";
 
 const title = "Contact";
@@ -19,7 +20,7 @@ export default async function ContactPage({ searchParams }: Props) {
   // Arriving from /advertise: preselect the subject and name the space the visitor asked about.
   const { topic, space } = await searchParams;
   const isAdvertising = topic === "advertise";
-  const asked = isAdvertising ? spaceTitle(space) : null;
+  const asked = isAdvertising ? spaceTitle(space, BLOG_POSTS) : null;
   const defaultSubject = isAdvertising ? "Advertising" : "";
   const defaultMessage = asked ? `I'm interested in: ${asked}
 

@@ -2,6 +2,11 @@
 
 import { useState, type FormEvent } from "react";
 
+// Must match HONEYPOT_FIELD and LIMITS in lib/contact.ts (checked by tests/enquiry-email.test.mjs). Not
+// imported, so the client bundle never carries lib/contact.ts and its delivery address.
+const HONEYPOT_FIELD = "website";
+const LIMITS = { name: 100, subject: 100 };
+
 type Status = "idle" | "sending" | "success" | "error";
 
 type ContactFormProps = {
@@ -26,6 +31,7 @@ export function ContactForm({ defaultSubject = "", defaultMessage = "" }: Contac
       email: (form.elements.namedItem("email") as HTMLInputElement).value,
       subject: (form.elements.namedItem("subject") as HTMLInputElement).value,
       message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+      [HONEYPOT_FIELD]: (form.elements.namedItem(HONEYPOT_FIELD) as HTMLInputElement).value,
     };
 
     try {
@@ -86,6 +92,7 @@ export function ContactForm({ defaultSubject = "", defaultMessage = "" }: Contac
             name="name"
             type="text"
             required
+            maxLength={LIMITS.name}
             autoComplete="name"
             placeholder="Your name"
             className={inputClass}
@@ -115,6 +122,7 @@ export function ContactForm({ defaultSubject = "", defaultMessage = "" }: Contac
           id="subject"
           name="subject"
           type="text"
+          maxLength={LIMITS.subject}
           placeholder="What's it about?"
           defaultValue={defaultSubject}
           className={inputClass}
@@ -134,6 +142,14 @@ export function ContactForm({ defaultSubject = "", defaultMessage = "" }: Contac
           defaultValue={defaultMessage}
           className={`${inputClass} resize-y min-h-[140px]`}
         />
+      </div>
+
+      {/* Honeypot: hidden from people and screen readers; bots that fill it get an ok and nothing is sent. */}
+      <div aria-hidden="true" className="absolute -left-[10000px] top-auto w-px h-px overflow-hidden">
+        <label>
+          Leave this field empty
+          <input type="text" name={HONEYPOT_FIELD} tabIndex={-1} autoComplete="off" defaultValue="" />
+        </label>
       </div>
 
       {status === "error" && (

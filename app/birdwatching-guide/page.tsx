@@ -2,6 +2,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { AdSlot } from "@/components/AdSlot";
 
+// Rebuilt at most once a day, so an advertising sponsor whose `until` has passed drops off within a day.
+export const revalidate = 86400;
+
 const title = "Birdwatching on the Sefton Coast: Guide, Best Spots & What to Bring";
 const description =
   "Where to go birdwatching on the Sefton Coast: Marshside RSPB, Hesketh Out Marsh, Ainsdale NNR. What to bring, when to go and what you'll see each season.";

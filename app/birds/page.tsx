@@ -2,8 +2,11 @@ import { getAllSpecies } from "@/lib/species";
 import { SpeciesList } from "@/components/SpeciesList";
 import type { Metadata } from "next";
 
-const title = "Sefton Coast Birds — Species Guide, Where to See & ID Tips";
-const description = "119 bird species recorded on the Sefton Coast — Pink-footed Geese at Marshside RSPB, breeding Avocets, Peregrines, waders and wildfowl. Seasonal presence, identification and viewing tips for each.";
+// Rebuilt at most once a day, so an advertising sponsor whose `until` has passed drops off within a day.
+export const revalidate = 86400;
+
+const title = "Sefton Coast Birds: Species Guide, Where to See & ID Tips";
+const description = "119 bird species recorded on the Sefton Coast: Pink-footed Geese at Marshside RSPB, breeding Avocets, Peregrines, waders and wildfowl. Seasonal presence, identification and viewing tips for each.";
 const url = "https://www.seftoncoastwildlife.co.uk/birds";
 
 export const metadata: Metadata = {
@@ -21,7 +24,7 @@ export default async function BirdsPage() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Birds of the Sefton Coast",
-    description: "Species database of birds recorded on the Sefton Coast — Marshside RSPB, the marshes, dunes and coastline from Southport to Formby.",
+    description: "Species database of birds recorded on the Sefton Coast: Marshside RSPB, the marshes, dunes and coastline from Southport to Formby.",
     url,
     numberOfItems: species.length,
     itemListElement: species.map((s, i) => ({

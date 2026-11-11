@@ -1,11 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AD_OPTIONS, AD_SLOTS, activeSponsor, advertiseHref, type AdSlotId } from "@/lib/ad-slots";
+import { BLOG_POSTS } from "@/content/blog/posts";
+import { AD_OPTIONS, activeSponsor, advertiseHref, findSlot, type SlotId } from "@/lib/ad-slots";
 
 // One advertising space. Filled: a labelled card with a sponsored link. Empty: an "advertise here" card
 // that names the space and links to /advertise. Spaces and sponsors are set in lib/ad-slots.ts.
-export function AdSlot({ id, className = "" }: { id: AdSlotId; className?: string }) {
-  const slot = AD_SLOTS[id];
+// `id` is a fixed space (e.g. "home-card") or `post-<slug>` for the end of an eligible blog post.
+export function AdSlot({ id, className = "" }: { id: SlotId; className?: string }) {
+  const slot = findSlot(id, BLOG_POSTS);
+  if (!slot) return null;
   const option = AD_OPTIONS[slot.option];
   const sponsor = activeSponsor(slot);
 
@@ -22,7 +25,7 @@ export function AdSlot({ id, className = "" }: { id: AdSlotId; className?: strin
           </div>
         )}
         <div className="min-w-0">
-          <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--slate)]/60 mb-1.5">{slot.label}</p>
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-[var(--forest)] mb-1.5">{slot.label}</p>
           <p className="font-display text-lg font-bold text-[var(--forest)] leading-snug">{sponsor.name}</p>
           <p className="text-sm text-[var(--slate)] leading-relaxed mt-1.5">{sponsor.text}</p>
           <a
@@ -51,10 +54,10 @@ export function AdSlot({ id, className = "" }: { id: AdSlotId; className?: strin
       </div>
       <div className="flex flex-col items-start gap-2">
         <span className="text-[13px] font-semibold text-[var(--forest)]">
-          {option.name} · from {option.fromMonthly ?? option.price} a month plus VAT
+          {slot.product ?? option.name} · from {option.fromMonthly ?? option.price} a month plus VAT
         </span>
         <Link
-          href={advertiseHref(id)}
+          href={advertiseHref(id, slot)}
           className="inline-block rounded-lg bg-[var(--forest)] hover:bg-[var(--marsh)] text-white text-sm font-semibold px-4 py-2.5 transition"
         >
           See advertising options

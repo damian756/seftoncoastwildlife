@@ -14,50 +14,41 @@ export async function GET(req: NextRequest) {
   const authError = requireApiKey(req);
   if (authError) return authError;
 
+  // Page views are the daily counts in "PageCount" (path, day, number), which /api/count writes.
+  // Read-only. The old "PageView" table is no longer written, and nothing records referrers, devices
+  // or visitors any more, so those figures are not reported.
   const now = new Date();
-  const todayStart = new Date(now);
-  todayStart.setHours(0, 0, 0, 0);
-  const weekStart = new Date(now);
-  weekStart.setDate(weekStart.getDate() - 7);
-  const monthStart = new Date(now);
-  monthStart.setDate(monthStart.getDate() - 30);
-  monthStart.setHours(0, 0, 0, 0);
+  const utcDay = (daysAgo: number) =>
+    new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - daysAgo));
+  const today = utcDay(0);
+  const weekStart = utcDay(6); // the last 7 days, today included
+  const monthStart = utcDay(29); // the last 30 days, today included
 
-  const [pageviewsToday, pageviewsThisWeek, pageviewsThisMonth, topPagesRaw, topReferrersRaw] =
-    await Promise.all([
-      prisma.pageView.count({ where: { createdAt: { gte: todayStart } } }),
-      prisma.pageView.count({ where: { createdAt: { gte: weekStart } } }),
-      prisma.pageView.count({ where: { createdAt: { gte: monthStart } } }),
-      prisma.pageView.groupBy({
-        by: ["path"],
-        where: { createdAt: { gte: weekStart } },
-        _count: { path: true },
-      }),
-      prisma.pageView.groupBy({
-        by: ["referrer"],
-        where: { createdAt: { gte: weekStart }, referrer: { not: null } },
-        _count: { referrer: true },
-      }),
-    ]);
+  const sumSince = (day: Date) =>
+    prisma.pageCount.aggregate({ _sum: { count: true }, where: { day: { gte: day } } });
+
+  const [todaySum, weekSum, monthSum, topPagesRaw] = await Promise.all([
+    sumSince(today),
+    sumSince(weekStart),
+    sumSince(monthStart),
+    prisma.pageCount.groupBy({
+      by: ["path"],
+      where: { day: { gte: weekStart } },
+      _sum: { count: true },
+      orderBy: { _sum: { count: "desc" } },
+      take: 10,
+    }),
+  ]);
 
   return NextResponse.json({
     site: "seftoncoastwildlife",
     network: "sefton",
     period: now.toISOString().slice(0, 10),
     analytics: {
-      pageviewsToday,
-      pageviewsThisWeek,
-      pageviewsThisMonth,
-      uniqueVisitorsThisWeek: pageviewsThisWeek,
-      topPages: topPagesRaw
-        .map((r) => ({ path: r.path, count: r._count.path }))
-        .sort((a, b) => b.count - a.count)
-        .slice(0, 10),
-      topReferrers: topReferrersRaw
-        .filter((r) => r.referrer)
-        .map((r) => ({ referrer: r.referrer!, count: r._count.referrer }))
-        .sort((a, b) => b.count - a.count)
-        .slice(0, 10),
+      pageviewsToday: todaySum._sum.count ?? 0,
+      pageviewsThisWeek: weekSum._sum.count ?? 0,
+      pageviewsThisMonth: monthSum._sum.count ?? 0,
+      topPages: topPagesRaw.map((r) => ({ path: r.path, count: r._sum.count ?? 0 })),
     },
     content: {
       totalListings: 0,

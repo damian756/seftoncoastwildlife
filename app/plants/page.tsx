@@ -3,8 +3,11 @@ import { SpeciesList } from "@/components/SpeciesList";
 
 import type { Metadata } from "next";
 
-const title = "Sefton Coast Plants — Dune & Marsh Flora Species Guide";
-const description = "Dune and marsh plants of the Sefton Coast — including nationally rare species like Grass of Parnassus and Round-leaved Wintergreen at Ainsdale NNR. Identification guides and where to find them.";
+// Rebuilt at most once a day, so an advertising sponsor whose `until` has passed drops off within a day.
+export const revalidate = 86400;
+
+const title = "Sefton Coast Plants: Dune & Marsh Flora Species Guide";
+const description = "Dune and marsh plants of the Sefton Coast, including nationally rare species like Grass of Parnassus and Round-leaved Wintergreen at Ainsdale NNR. Identification guides and where to find them.";
 const url = "https://www.seftoncoastwildlife.co.uk/plants";
 
 export const metadata: Metadata = {
@@ -23,7 +26,7 @@ export default async function PlantsPage() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Plants of the Sefton Coast",
-    description: "Dune and saltmarsh flora of the Sefton Coast — strandline annuals, orchids, dune slack specialists and nationally rare plants at Ainsdale NNR.",
+    description: "Dune and saltmarsh flora of the Sefton Coast: strandline annuals, orchids, dune slack specialists and nationally rare plants at Ainsdale NNR.",
     url,
     numberOfItems: species.length,
     itemListElement: species.map((s, i) => ({

@@ -1,12 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
-import { buildContactEmail, isPlainEmail, logSendError } from "@/lib/contact";
+import { buildContactEmail, logSendError, parseContact } from "@/lib/contact";
 
 const FAILED = "Failed to send message. Please try again.";
-
-function text(value: unknown): string {
-  return typeof value === "string" ? value.trim() : "";
-}
 
 export async function POST(req: NextRequest) {
   let body: Record<string, unknown>;
@@ -18,18 +14,11 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const name = text(body?.name);
-    const email = text(body?.email);
-    const subject = text(body?.subject);
-    const message = text(body?.message);
-
-    if (!name || !email || !message) {
-      return NextResponse.json({ error: "Missing required fields." }, { status: 400 });
-    }
-
-    if (!isPlainEmail(email)) {
-      return NextResponse.json({ error: "Invalid email address." }, { status: 400 });
-    }
+    // Required: name, email, message. Optional: subject. Name and subject at most 100 characters.
+    const parsed = parseContact(body);
+    // Honeypot filled: answer as if sent, send nothing.
+    if (parsed.kind === "honeypot") return NextResponse.json({ success: true });
+    if (parsed.kind === "error") return NextResponse.json({ error: parsed.error }, { status: 400 });
 
     const apiKey = process.env.RESEND_API_KEY;
     if (!apiKey) {
@@ -38,8 +27,9 @@ export async function POST(req: NextRequest) {
     }
 
     const resend = new Resend(apiKey);
-    // Delivered to DELIVERY_EMAIL, sent from the site's own domain, reply-to the enquirer (see lib/contact.ts).
-    const { error } = await resend.emails.send(buildContactEmail({ name, email, subject, message }));
+    // One email only: delivered to DELIVERY_EMAIL, sent from the site's own domain, reply-to the enquirer
+    // (see lib/contact.ts). Nothing is ever sent to the address typed into the form, so no auto-reply.
+    const { error } = await resend.emails.send(buildContactEmail(parsed.input));
     if (error) {
       logSendError(error);
       return NextResponse.json({ error: FAILED }, { status: 500 });

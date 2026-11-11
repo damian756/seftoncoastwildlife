@@ -34,9 +34,9 @@ export default function DisclosurePage() {
         <section>
           <h2 className={h2}>How it is paid for</h2>
           <p>
-            The site is paid for by Churchtown Media Ltd and by{" "}
-            <Link href="/advertise" className={a}>advertising</Link>. Advertising does not change what we write
-            about wildlife or places on the coast.
+            Churchtown Media Ltd pays for the site. Businesses can pay for a labelled{" "}
+            <Link href="/advertise" className={a}>advert</Link>. Advertising does not change what we write about
+            wildlife or places on the coast.
           </p>
         </section>
 
@@ -44,7 +44,7 @@ export default function DisclosurePage() {
           <h2 className={h2}>Advertising</h2>
           <p>
             Every advert on this site is labelled on the card: Advertisement for a home page card, Sponsor for
-            the sponsor of a section, guide or set of posts. A sponsored article is labelled Sponsored at the
+            the sponsor of a section, a guide or a single post. A sponsored article is labelled Sponsored at the
             top and carries the name of the business that paid for it, never a writer&apos;s byline. Links in
             adverts and sponsored articles are marked as sponsored for search engines. Paying for a space does
             not change what we write.

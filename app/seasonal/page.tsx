@@ -2,6 +2,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { AdSlot } from "@/components/AdSlot";
 
+// Rebuilt at most once a day, so an advertising sponsor whose `until` has passed drops off within a day.
+export const revalidate = 86400;
+
 const title = "Seasonal Wildlife Guides for the Sefton Coast";
 const description = "What to see when on the Sefton Coast: pink-footed geese, wader migration, breeding birds and winter wildfowl.";
 const url = "https://www.seftoncoastwildlife.co.uk/seasonal";

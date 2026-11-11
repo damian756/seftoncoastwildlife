@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { AD_OPTIONS, AD_SLOTS, isAdOptionId, isAdSlotId, type AdOptionId } from "@/lib/ad-slots";
+import { BLOG_POSTS } from "@/content/blog/posts";
+import { AD_OPTIONS, findSlot, isAdOptionId, type AdOptionId } from "@/lib/ad-slots";
 import { DISPLAY_EMAIL } from "@/lib/contact";
 
 const title = "Advertise";
@@ -26,8 +27,9 @@ type Props = { searchParams: Promise<{ space?: string | string[] }> };
 
 export default async function AdvertisePage({ searchParams }: Props) {
   const { space } = await searchParams;
-  // ?space=<slot-id> arrives from an empty "advertise here" card; ?space=<option-id> is also accepted.
-  const askedSlot = isAdSlotId(space) ? AD_SLOTS[space] : null;
+  // ?space=<slot-id> arrives from an empty "advertise here" card (including post-<slug> for one post);
+  // ?space=<option-id> is also accepted.
+  const askedSlot = findSlot(space, BLOG_POSTS);
   const askedOption: AdOptionId | null = askedSlot ? askedSlot.option : isAdOptionId(space) ? space : null;
   const askedTitle = askedSlot ? askedSlot.title : askedOption ? AD_OPTIONS[askedOption].name : null;
   const askedSpace = typeof space === "string" && askedTitle ? space : undefined;
@@ -67,7 +69,12 @@ export default async function AdvertisePage({ searchParams }: Props) {
         {askedTitle && (
           <div className="mb-8 rounded-xl border border-[var(--marsh)]/30 bg-white px-5 py-4 text-sm text-[var(--slate)]">
             <span className="font-semibold text-[var(--forest)]">You asked about: {askedTitle}.</span>{" "}
-            {askedOption && askedSlot && <>It is part of the {AD_OPTIONS[askedOption].name} option below.</>}
+            {askedOption && askedSlot && askedSlot.product && (
+              <>One sponsor per post, at the {AD_OPTIONS[askedOption].name} price below.</>
+            )}
+            {askedOption && askedSlot && !askedSlot.product && (
+              <>It is part of the {AD_OPTIONS[askedOption].name} option below.</>
+            )}
           </div>
         )}
 
@@ -97,6 +104,7 @@ export default async function AdvertisePage({ searchParams }: Props) {
                     </li>
                   ))}
                 </ul>
+                {o.note && <p className="text-sm text-[var(--slate)] -mt-2 mb-6">{o.note}</p>}
                 <Link
                   href={contactHref(spaceFor(id))}
                   className="text-center bg-[var(--forest)] hover:bg-[var(--marsh)] text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors"
@@ -171,8 +179,7 @@ export default async function AdvertisePage({ searchParams }: Props) {
               {[
                 "Every advert is labelled Advertisement or Sponsor, and a sponsored article is labelled Sponsored.",
                 "Paid links are marked as sponsored for search engines.",
-                "Adverts never appear inside reviews or beside the businesses we write about.",
-                "Paying for a space does not change what we write.",
+                "Adverts never appear inside a review, and paying for a space does not change what we write.",
               ].map((rule) => (
                 <li key={rule} className="flex gap-2.5">
                   <span className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-[var(--marsh)]" aria-hidden="true" />

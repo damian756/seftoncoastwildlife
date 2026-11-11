@@ -7,6 +7,9 @@ import { BLOG_POSTS } from "@/content/blog/posts";
 import { PhotoGallery } from "@/components/PhotoGallery";
 import { AdSlot } from "@/components/AdSlot";
 
+// Rebuilt at most once a day, so an advertising sponsor whose `until` has passed drops off within a day.
+export const revalidate = 86400;
+
 const title = "Sefton Coast Wildlife: Birds, Nature & Wildlife Guide";
 const description =
   "Independent guide to wildlife on the Sefton Coast: Marshside RSPB, bird species database, insects, plants and mammals from Southport to Formby.";

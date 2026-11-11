@@ -9,7 +9,10 @@ import {
   DELIVERY_EMAIL,
   DISPLAY_EMAIL,
   ENQUIRY_FROM,
+  HONEYPOT_FIELD,
+  LIMITS,
   buildContactEmail,
+  parseContact,
   cleanSubjectPart,
   escapeHtml,
   isPlainEmail,
@@ -131,4 +134,69 @@ test("no route can fall back to Resend's test sender", () => {
   const files = ["app", "lib"].flatMap((d) => walk(join(ROOT, d)));
   const offenders = files.filter((f) => readFileSync(f, "utf8").includes("resend.dev"));
   assert.deepEqual(offenders, []);
+});
+
+const good = { name: "Pat", email: "pat@example.com", subject: "Hello", message: "Hi" };
+
+test("name and subject are capped at 100 characters", () => {
+  assert.deepEqual(LIMITS, { name: 100, subject: 100 });
+  assert.equal(parseContact({ ...good, name: "a".repeat(100), subject: "b".repeat(100) }).kind, "ok");
+  const longName = parseContact({ ...good, name: "a".repeat(101) });
+  assert.equal(longName.kind, "error");
+  assert.match(longName.error, /Name is too long \(max 100 characters\)/);
+  const longSubject = parseContact({ ...good, subject: "b".repeat(101) });
+  assert.equal(longSubject.kind, "error");
+  assert.match(longSubject.error, /Subject is too long/);
+  // Trimmed before the check.
+  assert.equal(parseContact({ ...good, name: `  ${"a".repeat(100)}  ` }).kind, "ok");
+});
+
+test("required fields and the reply-to address are still checked", () => {
+  assert.deepEqual(parseContact(good), { kind: "ok", input: good });
+  assert.deepEqual(parseContact({ ...good, subject: undefined }), { kind: "ok", input: { ...good, subject: "" } });
+  for (const missing of ["name", "email", "message"]) {
+    assert.deepEqual(parseContact({ ...good, [missing]: "  " }), { kind: "error", error: "Missing required fields." }, missing);
+  }
+  assert.deepEqual(parseContact({ ...good, email: "a@b.com, c@d.com" }), { kind: "error", error: "Invalid email address." });
+  assert.equal(parseContact(null).kind, "error");
+  assert.equal(parseContact({ ...good, name: 42 }).kind, "error");
+});
+
+test("a filled honeypot is answered ok and nothing is sent", () => {
+  assert.equal(HONEYPOT_FIELD, "website");
+  assert.deepEqual(parseContact({ ...good, website: "https://spam.example" }), { kind: "honeypot" });
+  // Even an otherwise invalid body: the bot gets an ok and learns nothing.
+  assert.deepEqual(parseContact({ website: "x" }), { kind: "honeypot" });
+  assert.equal(parseContact({ ...good, website: "" }).kind, "ok");
+  assert.equal(parseContact({ ...good, website: "   " }).kind, "ok");
+
+  const route = read("app/api/contact/route.ts");
+  const honeypotAt = route.indexOf('if (parsed.kind === "honeypot") return NextResponse.json({ success: true });');
+  assert.ok(honeypotAt > 0, "the route answers a honeypot with ok");
+  assert.ok(honeypotAt < route.indexOf("new Resend("), "and returns before any mail client is made");
+  assert.ok(honeypotAt < route.indexOf("resend.emails.send("));
+});
+
+test("the form carries the hidden honeypot and the same limits", () => {
+  const form = read("components/ContactForm.tsx");
+  assert.match(form, new RegExp(`const HONEYPOT_FIELD = "${HONEYPOT_FIELD}";`));
+  assert.match(form, new RegExp(`const LIMITS = \{ name: ${LIMITS.name}, subject: ${LIMITS.subject} \};`));
+  assert.match(form, /<div aria-hidden="true" className="absolute -left-\[10000px\][^"]*">/);
+  assert.match(form, /name=\{HONEYPOT_FIELD\} tabIndex=\{-1\} autoComplete="off"/);
+  assert.match(form, /\[HONEYPOT_FIELD\]: \(form\.elements\.namedItem\(HONEYPOT_FIELD\)/);
+  assert.match(form, /maxLength=\{LIMITS\.name\}/);
+  assert.match(form, /maxLength=\{LIMITS\.subject\}/);
+  assert.doesNotMatch(form, /from "@\/lib\/contact"/, "the client form does not bundle lib/contact.ts");
+});
+
+test("no auto-reply: the route sends one email, to DELIVERY_EMAIL only", () => {
+  const route = read("app/api/contact/route.ts");
+  assert.equal(route.match(/resend\.emails\.send\(/g)?.length, 1, "exactly one send");
+  assert.equal(route.match(/\.send\(|\.batch/g)?.length, 1, "no other send or batch");
+  assert.doesNotMatch(route, /to:\s/, "the route sets no recipient of its own");
+  const mail = buildContactEmail({ name: "Eve <eve@x.com>", email: "victim@example.com", subject: "Buy now", message: "spam" });
+  assert.equal(mail.to, DELIVERY_EMAIL, "the only recipient is our inbox");
+  assert.notEqual(mail.to, "victim@example.com");
+  // The typed-in address is only ever the reply-to of the mail to us, never a recipient.
+  assert.equal(mail.replyTo, "victim@example.com");
 });
