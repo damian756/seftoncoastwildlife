@@ -289,3 +289,45 @@ An independent reviewer read `ff21b92`, `667dd12` and `f44b992` cold: 1 MUST FIX
 8. Contact form: name and subject capped at 100 characters, honeypot field `website`, no auto-reply (one email, to the delivery inbox only); "Our rules" reads "Adverts never appear inside a review, and paying for a space does not change what we write."
 
 Also: em dashes removed from the titles and meta descriptions of `/birds`, `/insects`, `/mammals`, `/plants`. Tests 41 of 41; tsc 0; eslint 0 errors and 3 warnings. Screenshots `adsfix-*`.
+
+## 8. Birdwatchers and students: site guides, calendar, designations
+
+Built 11 Nov 2026 from Damian's direction to make the site more useful to birdwatchers and to students and researchers. Commits on main: `8a0fb5e` (site guides), `281c15e` (calendar), `a88d3cb` (designations), `34b301f` (species facts), `cde9f8e` (leftovers and business wording), `bd279b3` (contact message cap), `937fb0f` (screenshots `j3-*`), `360c388` (Vercel Analytics removed; Ahrefs only). On branch `privacy-wording`: `c822e6a` (privacy wording, for Damian to approve). Not pushed.
+
+### 8.1 Reserve and site guides
+One standard guide per site (`components/SiteGuideFacts.tsx`): who manages it; getting there and parking; paths, hides and viewpoints; what is seen by season with links to species pages; tides; access and dogs; the managing body's own page; numbered sources at the foot (`components/SourceList.tsx`, `lib/sources.ts`). No adverts on guides.
+- New: https://www.seftoncoastwildlife.co.uk/nature/hesketh-out-marsh (RSPB); /nature/birkdale-green-beach (Sefton Council LNR); /nature/formby-point (National Trust, with Cabin Hill NNR and Ravenmeols LNR); /nature/crosby-and-alt-estuary (Sefton Council, Crosby Coastal Park to the Alt at Hightown).
+- Rebuilt: /nature/marshside-rspb, /nature/ainsdale-sand-dunes, /nature/seaforth-nature-reserve, /nature/martin-mere, /nature/sefton-coast and the hub /nature.
+- Key corrections: Marshside has no separate entry charge (the RSPB sign says parking includes entrance); Seaforth needs a day pass through the Wildlife Trust confirmed by Port of Liverpool Police, and no dogs (the page had said "free, open access, dogs on leads"); Hesketh Out Marsh postcode PR4 6XQ (PR9 8DS is in Banks); Martin Mere's stations are not on Merseyrail; unsupported Ainsdale sand lizard and Little Tern claims removed.
+- Sources (read 11 Nov 2026), listed on each page: RSPB Marshside and Hesketh Out Marsh reserve pages; Natural England's Merseyside NNRs page and site records (Ribble Estuary NNR, Ainsdale NNR, Cabin Hill, Ravenmeols, Ainsdale and Birkdale LNR); Natural England citations (Ribble and Alt Estuaries SPA, Ribble Estuary SSSI, Sefton Coast SSSI, Mersey Narrows SSSI and SPA); Sefton Council (nature calendar, LNR page, Ainsdale Beach, Crosby Coastal Park, Crosby Beach, Another Place, Enjoying Beaches Safely, Visiting our beaches); the National Trust Formby page; the Wildlife Trust (Seaforth, squirrel pox notice); WWT Martin Mere pages; JNCC Ramsar sheet.
+
+### 8.2 Month-by-month calendar
+https://www.seftoncoastwildlife.co.uk/seasonal/month-by-month, linked from /seasonal, the navigation, the footer and the hub. Twelve sections, each item linking to site guides and species pages with its source named; seasons, not promises. Sources: Sefton Council's nature calendar, RSPB, BTO BirdFacts (10 species), Natural England, the Wildlife Trust, WWT, JNCC. No advert.
+
+### 8.3 Protected sites reference
+https://www.seftoncoastwildlife.co.uk/nature/designations: Ribble and Alt Estuaries SPA and Ramsar; Sefton Coast SAC; Mersey Narrows and North Wirral Foreshore SPA and Ramsar; Liverpool Bay / Bae Lerpwl SPA; Sefton Coast, Ribble Estuary and Mersey Narrows SSSIs; Ribble Estuary, Ainsdale and Cabin Hill NNRs; Ainsdale and Birkdale Hills and Ravenmeols Hills LNRs; the nearby Ribble Estuary MCZ. Each gives what it protects, where, the area, dates, who is responsible and links to the official records (Natural England citations and Designated Sites View, JNCC Ramsar sheet UK11057, Sefton Coast SAC Standard Data Form, Liverpool Bay SPA page, the gov.uk SPA factsheet). Qualifying features named; no count tables reproduced. "How to cite this page" line; no advert.
+
+### 8.4 Species facts
+Twenty bird pages linked from the guides and calendar checked against BTO BirdFacts and RSPB (with Natural England, JNCC, WWT, the Wildlife Trust and Sefton Council where relevant): Pink-footed Goose, Avocet, Knot, Dunlin, Black-tailed Godwit, Lapwing, Golden Plover, Grey Plover, Redshank, Whooper Swan, Teal, Wigeon, Pintail, Common Tern, Sanderling, Bar-tailed Godwit, Common Scoter, Turnstone, Red-throated Diver, Twite. Status corrected to the BTO listing (Knot, Bar-tailed Godwit and Turnstone red to amber; Golden Plover and Red-throated Diver amber to green). Unsupported local counts removed (40,000 geese at Marshside, 100,000+ Knot, Pintail and Twite flocks, the Avocet colony, tern rafts), replaced by the designations each species qualifies for; UK totals kept as single BTO estimates with years. Each page shows its sources and the date checked; em dashes removed from these species.
+
+### 8.5 Leftovers and business wording
+- Home page Marshside "Free entry" now "£1.50 or £3 Marshside RSPB parking, entry included" (RSPB price list and sign).
+- Dusk tips sending people to Marshside after the car park locks now give the locking times (Pink-footed Goose; Soprano Pipistrelle, Daubenton's Bat, Noctule; Short-eared Owl, Bittern, Swallow, Starling).
+- Hesketh Out Marsh "free entry" confirmed (the RSPB lists no admission charge); postcode and direction corrected.
+- No ranking or criticism of named businesses or products: the Celestron, Kowa and Swarovski recommendations, the Collins Bird Guide and the Merlin app removed from the birdwatching and wader pages; the Martin Mere café verdict, Churchtown "good options for lunch", Ainsdale cafés and Co-op, and "the one / definitive reference" lines removed in the rebuilds.
+
+### 8.6 Contact form
+Message capped at 5,000 characters (field `maxLength` and server check); test added.
+
+### 8.7 Analytics and privacy
+Vercel Analytics removed from `app/layout.tsx` (Ahrefs only; the dependency left for the dependency job). The site sets no cookies (no Set-Cookie on live pages, no cookie or storage code). On branch `privacy-wording`: "Last updated" now November 2026; the Plausible sentence replaced by the agreed Ahrefs wording plus "Visit counts: we count how many times each page is viewed each day. We store only the page, the day and a number, and record nothing about the person viewing it."; "This site does not use cookies. Plausible Analytics is cookieless by design. No consent banner is required." now "This site does not use cookies. Ahrefs Web Analytics and our own visit counts work without them."; "Plausible Analytics: cookieless, privacy-first web analytics." now "Ahrefs Web Analytics: page view statistics without cookies." (linked to Ahrefs' help page).
+
+### 8.8 Checks
+Tests 42 of 42; tsc 0; eslint 0 errors and 3 warnings (baseline); console clean on 20 pages; no sideways overflow at 390; no em dashes in changed files except 381 left in unchecked species in `birds.json`.
+
+### 8.9 For Damian
+New routes added to `STATIC_PATHS` in `lib/visit-count.ts` (the tests require it); a code comment in `lib/ad-slots.ts` still lists brands no longer named on the birdwatching guide; on the privacy branch, decide on the "Vercel: website hosting" line and the out-of-date Wikipedia line; the National Trust car park charge and hours are dated 11 Nov 2026; the council and Natural England give different areas for the Ainsdale and Birkdale LNR (988 ha and 296 ha), both shown.
+
+### 8.10 Next steps
+1. A species checklist with status and source for every species page: about a day (237 species still need BTO or RSPB status; `sources` and `factsChecked` fields exist).
+2. A "for schools and researchers" page: about half a day (RSPB education sessions, National Trust group booking, Seaforth day passes, the citations on the protected-sites page).
