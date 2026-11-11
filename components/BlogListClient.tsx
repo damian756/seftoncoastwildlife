@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { BLOG_CATEGORIES, type BlogCategory } from "@/content/blog/posts";
 
 interface PostWithImage {
@@ -158,13 +159,14 @@ export function BlogListClient({ posts }: Props) {
               }`}
             >
               {/* Image */}
-              <div className={`overflow-hidden bg-[var(--dune)] ${i === 0 && filtered.length > 2 ? "h-52 sm:h-64 lg:h-52" : "h-48"}`}>
+              <div className={`relative overflow-hidden bg-[var(--dune)] ${i === 0 && filtered.length > 2 ? "h-52 sm:h-64 lg:h-52" : "h-48"}`}>
                 {post.heroSrc ? (
-                  <img
+                  <Image
                     src={post.heroSrc}
                     alt={post.heroAlt}
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    loading="lazy"
+                    fill
+                    sizes={i === 0 && filtered.length > 2 ? "(max-width: 1024px) 100vw, 33vw" : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"}
+                    className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                 ) : (
                   <div className="w-full h-full bg-gradient-to-br from-[var(--marsh)] to-[var(--forest)]" />
