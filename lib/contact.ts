@@ -51,8 +51,8 @@ export function isPlainEmail(value: unknown): value is string {
   return /^[^\s@,;<>"'()[\]\\]+@[^\s@,;<>"'()[\]\\]+\.[^\s@,;<>"'()[\]\\]+$/.test(value);
 }
 
-// Longest name and subject the contact route accepts. Caps what anyone can put into a mail we send.
-export const LIMITS = { name: 100, subject: 100 } as const;
+// Longest name, subject and message the contact route accepts. Caps what anyone can put into a mail we send.
+export const LIMITS = { name: 100, subject: 100, message: 5000 } as const;
 
 /**
  * Hidden field on the contact form. People never see it; a bot that fills it gets an ok response and
@@ -65,7 +65,7 @@ export type ParsedContact =
   | { kind: "honeypot" }
   | { kind: "error"; error: string };
 
-const FIELD_LABEL: Record<keyof typeof LIMITS, string> = { name: "Name", subject: "Subject" };
+const FIELD_LABEL: Record<keyof typeof LIMITS, string> = { name: "Name", subject: "Subject", message: "Message" };
 
 /** Check a contact-route request body. Sends nothing. */
 export function parseContact(body: unknown): ParsedContact {
@@ -83,10 +83,10 @@ export function parseContact(body: unknown): ParsedContact {
   if (!name || !email || !message) return { kind: "error", error: "Missing required fields." };
   if (!isPlainEmail(email)) return { kind: "error", error: "Invalid email address." };
 
-  const capped = { name, subject };
+  const capped = { name, subject, message };
   for (const key of Object.keys(LIMITS) as (keyof typeof LIMITS)[]) {
     if (capped[key].length > LIMITS[key]) {
-      return { kind: "error", error: `${FIELD_LABEL[key]} is too long (max ${LIMITS[key]} characters).` };
+      return { kind: "error", error: `${FIELD_LABEL[key]} is too long (max ${LIMITS[key].toLocaleString("en-GB")} characters).` };
     }
   }
 

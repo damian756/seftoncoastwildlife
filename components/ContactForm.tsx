@@ -5,7 +5,7 @@ import { useState, type FormEvent } from "react";
 // Must match HONEYPOT_FIELD and LIMITS in lib/contact.ts (checked by tests/enquiry-email.test.mjs). Not
 // imported, so the client bundle never carries lib/contact.ts and its delivery address.
 const HONEYPOT_FIELD = "website";
-const LIMITS = { name: 100, subject: 100 };
+const LIMITS = { name: 100, subject: 100, message: 5000 };
 
 type Status = "idle" | "sending" | "success" | "error";
 
@@ -138,6 +138,7 @@ export function ContactForm({ defaultSubject = "", defaultMessage = "" }: Contac
           name="message"
           required
           rows={6}
+          maxLength={LIMITS.message}
           placeholder="Your message..."
           defaultValue={defaultMessage}
           className={`${inputClass} resize-y min-h-[140px]`}

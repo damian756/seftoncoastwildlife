@@ -139,7 +139,7 @@ test("no route can fall back to Resend's test sender", () => {
 const good = { name: "Pat", email: "pat@example.com", subject: "Hello", message: "Hi" };
 
 test("name and subject are capped at 100 characters", () => {
-  assert.deepEqual(LIMITS, { name: 100, subject: 100 });
+  assert.deepEqual(LIMITS, { name: 100, subject: 100, message: 5000 });
   assert.equal(parseContact({ ...good, name: "a".repeat(100), subject: "b".repeat(100) }).kind, "ok");
   const longName = parseContact({ ...good, name: "a".repeat(101) });
   assert.equal(longName.kind, "error");
@@ -149,6 +149,16 @@ test("name and subject are capped at 100 characters", () => {
   assert.match(longSubject.error, /Subject is too long/);
   // Trimmed before the check.
   assert.equal(parseContact({ ...good, name: `  ${"a".repeat(100)}  ` }).kind, "ok");
+});
+
+test("the message is capped at 5,000 characters", () => {
+  assert.equal(LIMITS.message, 5000);
+  assert.equal(parseContact({ ...good, message: "m".repeat(5000) }).kind, "ok");
+  const longMessage = parseContact({ ...good, message: "m".repeat(5001) });
+  assert.equal(longMessage.kind, "error");
+  assert.match(longMessage.error, /Message is too long \(max 5,000 characters\)/);
+  // Trimmed before the check, like the other fields.
+  assert.equal(parseContact({ ...good, message: `  ${"m".repeat(5000)}  ` }).kind, "ok");
 });
 
 test("required fields and the reply-to address are still checked", () => {
@@ -180,12 +190,13 @@ test("a filled honeypot is answered ok and nothing is sent", () => {
 test("the form carries the hidden honeypot and the same limits", () => {
   const form = read("components/ContactForm.tsx");
   assert.match(form, new RegExp(`const HONEYPOT_FIELD = "${HONEYPOT_FIELD}";`));
-  assert.match(form, new RegExp(`const LIMITS = \{ name: ${LIMITS.name}, subject: ${LIMITS.subject} \};`));
+  assert.match(form, new RegExp(`const LIMITS = \{ name: ${LIMITS.name}, subject: ${LIMITS.subject}, message: ${LIMITS.message} \};`));
   assert.match(form, /<div aria-hidden="true" className="absolute -left-\[10000px\][^"]*">/);
   assert.match(form, /name=\{HONEYPOT_FIELD\} tabIndex=\{-1\} autoComplete="off"/);
   assert.match(form, /\[HONEYPOT_FIELD\]: \(form\.elements\.namedItem\(HONEYPOT_FIELD\)/);
   assert.match(form, /maxLength=\{LIMITS\.name\}/);
   assert.match(form, /maxLength=\{LIMITS\.subject\}/);
+  assert.match(form, /maxLength=\{LIMITS\.message\}/);
   assert.doesNotMatch(form, /from "@\/lib\/contact"/, "the client form does not bundle lib/contact.ts");
 });
 
