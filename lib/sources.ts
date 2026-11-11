@@ -67,8 +67,21 @@ export const SRC = {
     title: "Martin Mere: Nature reserve",
     url: "https://www.wwt.org.uk/wetland-centres/martin-mere/experience/nature-reserve",
   },
-  // Council pages are not listed or linked on the site (standing rule, 11 Nov 2026). Facts taken from
-  // them are recorded with their URLs in docs/freshen-2026-11/REPORT.md instead.
+  // Council pages are named but never linked (lib/blocked-domains.ts): these entries have no url, and
+  // SourceList shows them as plain text. Their URLs are recorded in docs/freshen-2026-11/REPORT.md.
+  seftonCalendar: {
+    publisher: "Sefton Council",
+    title: "Sefton's Nature Calendar (last updated 12 August 2024)",
+  },
+  seftonAinsdaleBeach: {
+    publisher: "Sefton Council",
+    title: "Ainsdale Beach",
+  },
+  bdmlr: {
+    publisher: "BDMLR",
+    title: "British Divers Marine Life Rescue",
+    url: "https://bdmlr.org.uk/",
+  },
   neSeftonSsssiCitation: {
     publisher: "Natural England",
     title: "Sefton Coast SSSI citation (notified 16 August 2000)",
