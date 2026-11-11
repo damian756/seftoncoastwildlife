@@ -16,7 +16,7 @@ export default function PrivacyPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-12">
       <h1 className="font-display text-3xl font-bold text-[var(--forest)] mb-6">Privacy Policy</h1>
-      <p className="text-sm text-[var(--slate)]/75 mb-8">Last updated: February 2026</p>
+      <p className="text-sm text-[var(--slate)]/75 mb-8">Last updated: November 2026</p>
 
       <div className="space-y-8 text-sm text-[var(--slate)] leading-relaxed">
         <section>
@@ -34,25 +34,26 @@ export default function PrivacyPage() {
           <h2 className="font-display text-lg font-bold text-[var(--forest)] mb-2">What data we collect</h2>
           <p className="mb-3">We keep data collection to a minimum:</p>
           <ul className="list-disc pl-5 space-y-1.5">
-            <li><strong>Contact form</strong>: if you use the contact form, we receive your name, email address and message. This is sent to us via Resend and is used solely to reply to your enquiry.</li>
-            <li><strong>Analytics</strong>: we use Plausible Analytics, a privacy-focused, cookieless analytics tool. Plausible does not use cookies, does not collect personal data, and is fully GDPR compliant. No data is shared with third parties.</li>
+            <li><strong>Contact form</strong>: if you use the contact form, we receive your name, email address, subject and message. This is sent to us via Resend and is used solely to reply to your enquiry.</li>
+            <li><strong>Ahrefs Web Analytics</strong>: page view statistics without cookies. It records the page address (including any query string), the referring page, your browser, operating system and device, screen size and language, and when a link is clicked or a form is sent. It uses your IP address to work out your approximate location (city level) and a daily visitor ID that cannot be linked across days; the IP address itself is discarded, not stored.</li>
+            <li><strong>Visit counts</strong>: we count how many times each page is viewed each day. We store only the page, the day and a number, and record nothing about the person viewing it.</li>
           </ul>
         </section>
 
         <section>
           <h2 className="font-display text-lg font-bold text-[var(--forest)] mb-2">Cookies</h2>
           <p>
-            This site does not use cookies. Plausible Analytics is cookieless by design. No consent banner is required.
+            This site does not use cookies. Ahrefs Web Analytics and our own visit counts work without them.
           </p>
         </section>
 
         <section>
           <h2 className="font-display text-lg font-bold text-[var(--forest)] mb-2">Third-party services</h2>
           <ul className="list-disc pl-5 space-y-1.5">
-            <li><strong>Plausible Analytics</strong>: cookieless, privacy-first web analytics. <a href="https://plausible.io/data-policy" target="_blank" rel="noopener" className="text-[var(--marsh)] hover:underline">Plausible data policy</a></li>
+            <li><strong>Ahrefs Web Analytics</strong>: page view statistics without cookies. <a href="https://help.ahrefs.com/en/articles/10247870-about-ahrefs-web-analytics" target="_blank" rel="noopener" className="text-[var(--marsh)] hover:underline">About Ahrefs Web Analytics</a></li>
             <li><strong>Resend</strong>: email delivery for the contact form. <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener" className="text-[var(--marsh)] hover:underline">Resend privacy policy</a></li>
             <li><strong>Vercel</strong>: website hosting. <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener" className="text-[var(--marsh)] hover:underline">Vercel privacy policy</a></li>
-            <li><strong>Wikipedia / Wikimedia Commons</strong>: species images are loaded from Wikipedia&apos;s REST API. No personal data is sent to Wikipedia by this site.</li>
+            <li><strong>Species photos</strong>: served from this site. Your browser does not connect to Wikipedia or Wikimedia Commons to show them.</li>
           </ul>
         </section>
 
