@@ -133,7 +133,7 @@ export function SpeciesDetail({ category, species, related, slug }: SpeciesDetai
                   )}
                   {species.shortLocation && (
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-white/10 text-white/80 border border-white/20">
-                      📍 {species.shortLocation}
+                      <span className="sr-only">Location: </span>{species.shortLocation}
                     </span>
                   )}
                 </div>

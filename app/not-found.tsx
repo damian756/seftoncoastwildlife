@@ -18,8 +18,6 @@ export default function NotFound() {
     <div className="min-h-[80vh] flex items-center justify-center px-4 py-16">
       <div className="max-w-md w-full text-center">
 
-        <div className="text-7xl mb-4 select-none">🦅</div>
-
         <h1 className="text-3xl font-bold text-[var(--forest)] mb-3">
           Page not found
         </h1>
