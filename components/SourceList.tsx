@@ -21,7 +21,7 @@ export function SourceList({ sources, accessed, heading = "Sources", id = "sourc
   return (
     <section id={id} className="mt-12 pt-6 border-t border-[var(--dune)]">
       <h2 className="font-display text-xl font-bold text-[var(--forest)] mb-2">{heading}</h2>
-      <p className="text-xs text-[var(--slate)]/70 mb-4">All accessed {accessed}. Where a source is linked, follow the link for the full text and the latest details.</p>
+      <p className="text-xs text-[var(--slate)]/80 mb-4">All accessed {accessed}. Where a source is linked, follow the link for the full text and the latest details.</p>
       <ol className="list-decimal pl-5 space-y-2 text-sm text-[var(--slate)] leading-relaxed">
         {sources.map((s) => (
           <li key={s.url ?? `${s.publisher}: ${s.title}`}>
@@ -33,7 +33,7 @@ export function SourceList({ sources, accessed, heading = "Sources", id = "sourc
             ) : (
               <span className="break-words">{s.title}</span>
             )}
-            {s.used ? <span className="text-[var(--slate)]/70">. Used for: {s.used}.</span> : "."}
+            {s.used ? <span className="text-[var(--slate)]/80">. Used for: {s.used}.</span> : "."}
           </li>
         ))}
       </ol>

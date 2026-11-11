@@ -141,24 +141,24 @@ export function SpeciesDetail({ category, species, related, slug }: SpeciesDetai
                 {/* Quick facts strip */}
                 <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div className="bg-white/8 rounded-lg p-3 border border-white/10">
-                    <div className="text-xs uppercase tracking-wider text-white/40 mb-0.5">Season</div>
+                    <div className="text-xs uppercase tracking-wider text-white/70 mb-0.5">Season</div>
                     <div className="text-sm text-white/90">{species.seasonalPresence}</div>
                   </div>
                   {species.bestTimeOfDay && (
                     <div className="bg-white/8 rounded-lg p-3 border border-white/10">
-                      <div className="text-xs uppercase tracking-wider text-white/40 mb-0.5">Best time of day</div>
+                      <div className="text-xs uppercase tracking-wider text-white/70 mb-0.5">Best time of day</div>
                       <div className="text-sm text-white/90">{species.bestTimeOfDay}</div>
                     </div>
                   )}
                   {species.seftonPopulation && (
                     <div className="bg-white/8 rounded-lg p-3 border border-white/10">
-                      <div className="text-xs uppercase tracking-wider text-white/40 mb-0.5">Sefton Coast</div>
+                      <div className="text-xs uppercase tracking-wider text-white/70 mb-0.5">Sefton Coast</div>
                       <div className="text-sm text-white/90">{species.seftonPopulation}</div>
                     </div>
                   )}
                   {species.ukPopulation && (
                     <div className="bg-white/8 rounded-lg p-3 border border-white/10">
-                      <div className="text-xs uppercase tracking-wider text-white/40 mb-0.5">UK population</div>
+                      <div className="text-xs uppercase tracking-wider text-white/70 mb-0.5">UK population</div>
                       <div className="text-sm text-white/90">{species.ukPopulation}</div>
                     </div>
                   )}

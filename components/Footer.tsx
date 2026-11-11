@@ -18,7 +18,7 @@ export function Footer() {
             <p className="text-white/60 text-sm leading-relaxed mt-2">
               Independent guide to birds, nature and wildlife on the Sefton Coast, from Marshside RSPB to the Formby pinewoods.
             </p>
-            <p className="text-white/40 text-xs mt-4">
+            <p className="text-white/70 text-xs mt-4">
               Part of the{" "}
               <a href="https://seftoncoast.network" target="_blank" rel="noopener" className="text-white/60 hover:text-white transition">
                 Sefton Coast Network
@@ -102,7 +102,7 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/40">
+        <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/70">
           <span>© {year} Sefton Coast Wildlife · Built by <a href="https://churchtownmedia.co.uk" target="_blank" rel="noopener" className="hover:text-white/60 transition">Churchtown Media</a></span>
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-white/60 transition">Privacy</Link>

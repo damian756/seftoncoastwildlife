@@ -65,7 +65,7 @@ export default async function AdvertisePage({ searchParams }: Props) {
       {/* Options */}
       <section className="mx-auto max-w-5xl px-4 py-14">
         <h2 className="font-display text-3xl font-bold text-[var(--forest)] mb-2">Ways to advertise</h2>
-        <p className="text-[var(--slate)]/70 text-sm mb-8 max-w-2xl">All prices are plus VAT. Payment is by invoice.</p>
+        <p className="text-[var(--slate)]/80 text-sm mb-8 max-w-2xl">All prices are plus VAT. Payment is by invoice.</p>
 
         {askedTitle && (
           <div className="mb-8 rounded-xl border border-[var(--marsh)]/30 bg-white px-5 py-4 text-sm text-[var(--slate)]">

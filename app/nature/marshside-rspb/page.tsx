@@ -133,7 +133,7 @@ export default function MarshsidePage() {
           ].map(({ stat, label }) => (
             <div key={label} className="rounded-xl bg-[var(--dune)] p-4 text-center">
               <p className="font-display text-2xl font-bold text-[var(--forest)]">{stat}</p>
-              <p className="text-xs text-[var(--slate)]/70 mt-1 leading-snug">{label}</p>
+              <p className="text-xs text-[var(--slate)]/80 mt-1 leading-snug">{label}</p>
             </div>
           ))}
         </div>

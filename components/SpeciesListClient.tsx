@@ -347,7 +347,7 @@ function SpeciesGrid({ category, species }: { category: SpeciesCategory; species
                 {s.habitat && s.habitat.length > 0 && (
                   <div className="flex flex-wrap gap-1 mb-2">
                     {s.habitat.slice(0, 2).map((h) => (
-                      <span key={h} className="text-[10px] bg-[var(--dune)] text-[var(--slate)]/70 px-1.5 py-0.5 rounded">
+                      <span key={h} className="text-[10px] bg-[var(--dune)] text-[var(--slate)]/80 px-1.5 py-0.5 rounded">
                         {h}
                       </span>
                     ))}

@@ -138,7 +138,7 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
       )}
       {heroSrc && post.heroCaption && (
-        <p className="mx-auto max-w-3xl px-4 pt-3 text-xs text-[var(--slate)]/70 leading-relaxed">
+        <p className="mx-auto max-w-3xl px-4 pt-3 text-xs text-[var(--slate)]/80 leading-relaxed">
           {post.heroCaption}
         </p>
       )}
@@ -219,7 +219,7 @@ export default async function BlogPostPage({ params }: Props) {
                 const inner = (
                   <>
                     <span className="text-sm font-semibold text-[var(--forest)] mb-0.5">{link.label}</span>
-                    <span className="text-xs text-[var(--slate)]/70 leading-relaxed">{link.description}</span>
+                    <span className="text-xs text-[var(--slate)]/80 leading-relaxed">{link.description}</span>
                   </>
                 );
                 // On a sponsored article, outside links (the sponsor's) are marked as paid.
@@ -241,7 +241,7 @@ export default async function BlogPostPage({ params }: Props) {
         {post.tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-10 pt-6 border-t border-[var(--dune)]">
             {post.tags.map((tag) => (
-              <span key={tag} className="text-xs bg-[var(--dune)] text-[var(--slate)]/70 px-2.5 py-1 rounded-full">
+              <span key={tag} className="text-xs bg-[var(--dune)] text-[var(--slate)]/80 px-2.5 py-1 rounded-full">
                 {tag}
               </span>
             ))}

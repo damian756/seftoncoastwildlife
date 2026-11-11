@@ -53,13 +53,13 @@ export function SpeciesList({ category, species }: SpeciesListProps) {
             {redList.length > 0 && (
               <div className="bg-red-600/80 rounded-lg px-4 py-2 border border-red-500/30">
                 <span className="text-xl font-bold text-white">{redList.length}</span>
-                <span className="text-sm text-white/80 ml-1.5">Red List</span>
+                <span className="text-sm text-white ml-1.5">Red List</span>
               </div>
             )}
             {amberList.length > 0 && (
               <div className="bg-amber-500 rounded-lg px-4 py-2 border border-amber-400/30">
                 <span className="text-xl font-bold text-[var(--forest)]">{amberList.length}</span>
-                <span className="text-sm text-[var(--forest)]/80 ml-1.5">Amber List</span>
+                <span className="text-sm text-[var(--forest)] ml-1.5">Amber List</span>
               </div>
             )}
           </div>

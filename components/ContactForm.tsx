@@ -85,7 +85,7 @@ export function ContactForm({ defaultSubject = "", defaultMessage = "" }: Contac
       <div className="grid sm:grid-cols-2 gap-4">
         <div>
           <label htmlFor="name" className="block text-xs font-semibold text-[var(--slate)] mb-1.5">
-            Name <span className="text-red-500">*</span>
+            Name <span className="text-red-700">*</span>
           </label>
           <input
             id="name"
@@ -100,7 +100,7 @@ export function ContactForm({ defaultSubject = "", defaultMessage = "" }: Contac
         </div>
         <div>
           <label htmlFor="email" className="block text-xs font-semibold text-[var(--slate)] mb-1.5">
-            Email <span className="text-red-500">*</span>
+            Email <span className="text-red-700">*</span>
           </label>
           <input
             id="email"
@@ -131,7 +131,7 @@ export function ContactForm({ defaultSubject = "", defaultMessage = "" }: Contac
 
       <div>
         <label htmlFor="message" className="block text-xs font-semibold text-[var(--slate)] mb-1.5">
-          Message <span className="text-red-500">*</span>
+          Message <span className="text-red-700">*</span>
         </label>
         <textarea
           id="message"
