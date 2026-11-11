@@ -7,7 +7,7 @@ export const revalidate = 86400;
 
 const title = "Birdwatching on the Sefton Coast: Guide, Best Spots & What to Bring";
 const description =
-  "Where to go birdwatching on the Sefton Coast: Marshside RSPB, Hesketh Out Marsh, Ainsdale NNR. What to bring, when to go and what you'll see each season.";
+  "Where to go birdwatching on the Sefton Coast: Marshside RSPB, Hesketh Out Marsh, the Green Beach, Ainsdale NNR, Formby Point and the Alt estuary. What to bring, when to go and what you'll see each season.";
 const url = "https://www.seftoncoastwildlife.co.uk/birdwatching-guide";
 
 export const metadata: Metadata = {
@@ -25,11 +25,11 @@ const faqs = [
   },
   {
     q: "What binoculars do I need for birdwatching at Marshside?",
-    a: "8×42 binoculars cover everything you'll see from the hides. Celestron Nature DX or Kowa YF are solid entry-level options under £150. A telescope is useful in winter for picking through goose flocks on the estuary.",
+    a: "8×42 binoculars cover most of what you'll see from the hides. A telescope is useful in winter for picking through goose flocks on the estuary.",
   },
   {
     q: "When is the best season for birdwatching on the Sefton Coast?",
-    a: "October to March for sheer spectacle: Pink-footed Geese, winter wildfowl and waders. April–June for breeding Avocets and Little Terns. July–September for southbound wader passage through the scrapes.",
+    a: "October to March for Pink-footed Geese, winter wildfowl and wader roosts. April to June for breeding Avocets and Lapwings at Marshside and Common Terns at Seaforth. July to September for southbound wader passage. The month-by-month calendar has the detail and a source for each timing.",
   },
   {
     q: "Is birdwatching at Marshside suitable for beginners?",
@@ -92,7 +92,7 @@ export default function BirdwatchingGuidePage() {
             Birdwatching on the Sefton Coast
           </h1>
           <p className="text-white/75 text-lg leading-relaxed max-w-2xl">
-            The Sefton Coast is excellent for birds. In winter you can watch thousands of Pink-footed Geese come off the estuary. In summer, Little Terns nest on the beach a few miles from Liverpool. You don&apos;t have to go to Norfolk.
+            The Sefton Coast is excellent for birds. In winter you can watch thousands of Pink-footed Geese come off the estuary. In early summer, Common Terns gather at Seaforth on the Mersey. You don&apos;t have to go to Norfolk.
           </p>
         </div>
       </div>
@@ -103,7 +103,7 @@ export default function BirdwatchingGuidePage() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {[
             { stat: "250,000", label: "Birds a year, at most, on the Ribble Estuary (Natural England)" },
-            { stat: "4", label: "Key sites to visit" },
+            { stat: "8", label: "Site guides, north to south" },
             { stat: "8.30am", label: "Marshside car park opens (locked at 4pm in winter)" },
             { stat: "Year-round", label: "Always something to see" },
           ].map(({ stat, label }) => (
@@ -136,9 +136,10 @@ export default function BirdwatchingGuidePage() {
           <div className="card-hover rounded-xl border border-[var(--dune)] bg-white p-5">
             <h3 className="font-bold text-[var(--forest)] mb-2">Hesketh Out Marsh (RSPB)</h3>
             <p className="text-sm text-[var(--slate)] leading-relaxed mb-2">
-              A short drive north of Marshside. The outer marsh holds good numbers of waders at passage: Knot, Bar-tailed Godwit and Grey Plover in autumn. Views over the Ribble are excellent. Less visited than Marshside, which is sometimes an advantage.
+              East of Marshside along the Ribble, at Hesketh Bank. Saltmarsh recreated by the RSPB, the Environment Agency and Natural England, with a surfaced trail to Karen&apos;s Viewpoint. Pink-footed Geese and Wigeons in winter, Redshanks and Lapwings.
             </p>
-            <p className="text-xs text-[var(--slate)]/60">Postcode: PR9 8DS · Free entry</p>
+            <p className="text-xs text-[var(--slate)]/60 mb-1">Postcode: PR4 6XQ · Car park 8am to 6pm or dusk if earlier · No admission charge (RSPB) · Dogs on footpaths only, on leads</p>
+            <Link href="/nature/hesketh-out-marsh" className="text-xs text-[var(--marsh)] font-medium hover:underline block">Full guide to Hesketh Out Marsh →</Link>
           </div>
 
           <div className="card-hover rounded-xl border border-[var(--dune)] bg-white p-5">
@@ -146,15 +147,27 @@ export default function BirdwatchingGuidePage() {
             <p className="text-sm text-[var(--slate)] leading-relaxed mb-2">
               Managed by Natural England. Dune slack habitat holds Natterjack Toads (spring evenings) and dune-specialist insects. Breeding Stonechats and Linnets on the scrub edge. The pine woodland section can produce Crossbill in irruption years.
             </p>
-            <p className="text-xs text-[var(--slate)]/60">No parking on the reserve · Sefton Council beach parking at Ainsdale-on-Sea 1 April to 30 September only · By train: Ainsdale station (1.2km) or Freshfield (1.4km) · Free entry · Permits required for restricted areas</p>
+            <p className="text-xs text-[var(--slate)]/60 mb-1">No parking on the reserve · Sefton Council beach parking at Ainsdale-on-Sea 1 April to 30 September only · By train: Ainsdale station (1.2km) or Freshfield (1.4km)</p>
+            <Link href="/nature/ainsdale-sand-dunes" className="text-xs text-[var(--marsh)] font-medium hover:underline block">Full guide to Ainsdale NNR →</Link>
           </div>
 
           <div className="card-hover rounded-xl border border-[var(--dune)] bg-white p-5">
             <h3 className="font-bold text-[var(--forest)] mb-2">Formby (National Trust): beach and pinewoods</h3>
             <p className="text-sm text-[var(--slate)] leading-relaxed mb-2">
-              The beach is good for tideline waders: Sanderling and Dunlin from autumn to spring, Purple Sandpiper occasionally in winter. Little Terns nest at Ainsdale in summer. The pinewoods are the place for Red Squirrel and woodland species: Treecreeper, Coal Tit and occasional Woodcock.
+              The beach is good for tideline waders: Sanderling and Dunlin from autumn to spring, Purple Sandpiper occasionally in winter. Natural England says Knot, Grey Plover and Bar-tailed Godwit feed and roost on the shore at Cabin Hill. The pinewoods are the place for Red Squirrel and woodland species: Treecreeper, Coal Tit and occasional Woodcock.
             </p>
-            <p className="text-xs text-[var(--slate)]/60">Postcode: L37 1LJ (Victoria Road) · NT car park charge, members free · Dogs allowed</p>
+            <p className="text-xs text-[var(--slate)]/60 mb-1">Postcodes: L37 1LJ (Victoria Road), L37 2EB (Lifeboat Road) · NT car park charge, members free · Dogs allowed</p>
+            <Link href="/nature/formby-point" className="text-xs text-[var(--marsh)] font-medium hover:underline block">Full guide to Formby Point →</Link>
+          </div>
+
+          <div className="rounded-xl bg-[var(--dune)] p-5 text-sm text-[var(--slate)] leading-relaxed">
+            More site guides:{" "}
+            <Link href="/nature/birkdale-green-beach" className="text-[var(--marsh)] underline underline-offset-2">Birkdale Green Beach</Link>,{" "}
+            <Link href="/nature/crosby-and-alt-estuary" className="text-[var(--marsh)] underline underline-offset-2">Crosby and the Alt estuary</Link>,{" "}
+            <Link href="/nature/seaforth-nature-reserve" className="text-[var(--marsh)] underline underline-offset-2">Seaforth</Link> and{" "}
+            <Link href="/nature/martin-mere" className="text-[var(--marsh)] underline underline-offset-2">WWT Martin Mere</Link>. Plan by month with the{" "}
+            <Link href="/seasonal/month-by-month" className="text-[var(--marsh)] underline underline-offset-2">month-by-month calendar</Link>, and see the{" "}
+            <Link href="/nature/designations" className="text-[var(--marsh)] underline underline-offset-2">protected sites</Link> reference.
           </div>
         </div>
 
@@ -180,13 +193,13 @@ export default function BirdwatchingGuidePage() {
               </tr>
               <tr>
                 <td className="px-3 py-2 font-medium text-amber-700">Apr – Jun</td>
-                <td className="px-3 py-2 text-[var(--slate)]">Breeding Avocets, Little Terns, Sedge Warbler, Reed Bunting, Lapwing, Redshank</td>
-                <td className="px-3 py-2 text-[var(--slate)]">Marshside, Ainsdale beach</td>
+                <td className="px-3 py-2 text-[var(--slate)]">Breeding Avocets, Lapwing and Redshank; Common Terns; Sedge Warbler, Reed Bunting</td>
+                <td className="px-3 py-2 text-[var(--slate)]">Marshside, Seaforth</td>
               </tr>
               <tr className="bg-emerald-50">
                 <td className="px-3 py-2 font-medium text-emerald-700">Jul – Sep</td>
                 <td className="px-3 py-2 text-[var(--slate)]">Wader passage: Greenshank, Green Sandpiper, Little Stint, Curlew Sandpiper, Black-tailed Godwit</td>
-                <td className="px-3 py-2 text-[var(--slate)]">Marshside, Hesketh</td>
+                <td className="px-3 py-2 text-[var(--slate)]">Marshside, Hesketh Out Marsh</td>
               </tr>
             </tbody>
           </table>
@@ -202,12 +215,12 @@ export default function BirdwatchingGuidePage() {
         </p>
         <div className="space-y-3 mb-10">
           {[
-            { item: "Binoculars", rec: "8×42 is the standard. Celestron Nature DX or Kowa YF are decent entry points under £150. Swarovski if you've made a commitment." },
-            { item: "Field guide", rec: "Collins Bird Guide. Not the pocket version, the full one. The waders in particular are worth having on paper." },
+            { item: "Binoculars", rec: "8×42 is a common size for general birdwatching." },
+            { item: "Field guide", rec: "A full European field guide rather than a pocket one. The waders in particular are worth having on paper." },
             { item: "Scope and tripod", rec: "Worth it once you're doing regular winter visits. Marshside in January is much better with magnification." },
             { item: "Layers", rec: "The sea wall at Marshside is exposed. In winter, dress for a boat trip and you'll be about right." },
             { item: "Wellies or walking boots", rec: "Paths are generally firm but field edges can be muddy. Trainers are fine for the hides in summer." },
-            { item: "Thermos", rec: "There's nowhere to get a coffee at Marshside. Plan accordingly." },
+            { item: "Flask", rec: "The RSPB has no café or shop at Marshside. Plan accordingly." },
           ].map(({ item, rec }) => (
             <div key={item} className="flex gap-3 text-sm">
               <span className="text-[var(--marsh)] mt-0.5 flex-shrink-0">▸</span>
@@ -225,7 +238,7 @@ export default function BirdwatchingGuidePage() {
           Go to Marshside. Walk the sea wall path to the main hide. Sit for twenty minutes. You&apos;ll see more species than you expect, even in summer. In autumn and winter you may see things that make you want to come back every weekend. That&apos;s how it usually goes.
         </p>
         <p className="text-[var(--slate)] mb-4 text-sm leading-relaxed">
-          Don&apos;t worry about identifying everything. Write down what you see, even rough descriptions, and look it up afterwards. The Collins Guide and the Merlin app (free) will cover most of what you encounter. Ask other birders at the hide; they&apos;ll usually be pleased you&apos;re interested.
+          Don&apos;t worry about identifying everything. Write down what you see, even rough descriptions, and look it up afterwards. A field guide and a bird identification app will cover most of what you encounter. Ask other birders at the hide; they&apos;ll usually be pleased you&apos;re interested.
         </p>
         <p className="text-[var(--slate)] mb-10 text-sm leading-relaxed">
           Sometimes you stand in the rain for two hours and see nothing. That&apos;s birdwatching. Come back tomorrow.
@@ -250,6 +263,8 @@ export default function BirdwatchingGuidePage() {
 
         <div className="flex flex-wrap gap-4 pt-4 border-t border-[var(--dune)]">
           <Link href="/nature/marshside-rspb" className="text-[var(--marsh)] font-medium hover:underline text-sm">Marshside RSPB guide →</Link>
+          <Link href="/nature" className="text-[var(--marsh)] font-medium hover:underline text-sm">All site guides →</Link>
+          <Link href="/seasonal/month-by-month" className="text-[var(--marsh)] font-medium hover:underline text-sm">Month by month →</Link>
           <Link href="/birds" className="text-[var(--marsh)] font-medium hover:underline text-sm">Bird species database →</Link>
           <Link href="/seasonal/pink-footed-geese" className="text-[var(--marsh)] font-medium hover:underline text-sm">Pink-footed Geese guide →</Link>
           <Link href="/seasonal/wader-migration" className="text-[var(--marsh)] font-medium hover:underline text-sm">Wader migration guide →</Link>

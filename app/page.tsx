@@ -186,7 +186,7 @@ export default async function HomePage() {
               <strong className="text-[var(--forest)] font-bold">Up to 250,000</strong> birds a year on the Ribble
             </span>
             <span className="flex items-center gap-2">
-              <strong className="text-[var(--forest)] font-bold">Free entry</strong> to Marshside RSPB
+              <strong className="text-[var(--forest)] font-bold">£1.50 or £3</strong> Marshside RSPB parking, entry included
             </span>
             <span className="flex items-center gap-2">
               <strong className="text-[var(--forest)] font-bold">36km</strong> of coastline
@@ -251,14 +251,14 @@ export default async function HomePage() {
               {
                 href: "/nature/marshside-rspb",
                 title: "Marshside RSPB",
-                desc: "Free entry. Lagoons, saltmarsh and three trails. Avocets and Lapwings nest in summer; Pink-footed Geese and Wigeon fill the winter sky.",
+                desc: "Two hides, a viewing platform and three trails. Parking £1.50 or £3.00 with entry included; RSPB members free. Avocets and Lapwings nest in summer; Pink-footed Geese and Wigeon fill the winter sky.",
                 tag: "Reserve guide",
               },
               {
-                href: "/nature/sefton-coast",
-                title: "The Sefton Coast",
-                desc: "36km of coast with England's largest dune system: dunes, slacks, pinewoods and saltmarsh between the Mersey and the Ribble.",
-                tag: "Habitat overview",
+                href: "/nature",
+                title: "Reserve and site guides",
+                desc: "Eight guides, north to south: who manages each site, parking, hides, what is seen each season, tides and dogs.",
+                tag: "Site guides",
               },
               {
                 href: "/birdwatching-guide",
@@ -267,10 +267,10 @@ export default async function HomePage() {
                 tag: "Practical guide",
               },
               {
-                href: "/seasonal",
-                title: "Seasonal Guides",
-                desc: "Pink-footed Geese, wader migration, breeding birds and winter wildfowl. When to come and what to expect.",
-                tag: "4 guides",
+                href: "/seasonal/month-by-month",
+                title: "Month by month",
+                desc: "What to see on the coast in each month of the year, and where, with the source for every timing.",
+                tag: "Calendar",
               },
             ].map(({ href, title, desc, tag }) => (
               <Link

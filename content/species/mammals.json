@@ -442,10 +442,10 @@
     "family": "Vespertilionidae",
     "seasonalPresence": "April–October. Hibernates in winter.",
     "bestTimeOfDay": "20–30 minutes after sunset",
-    "whereToSee": "Over water and wetland habitat. Marshside RSPB at dusk in summer.",
-    "shortLocation": "Marshside RSPB",
+    "whereToSee": "Over water and wetland habitat at dusk. Sefton Council's Green Sefton team runs evening bat walks in its parks.",
+    "shortLocation": "Sefton Coast",
     "ukPopulation": "Around 1.3 million, separated from Common Pipistrelle as a distinct species in 1997",
-    "seftonPopulation": "Present in waterside habitats across the coast; likely at Marshside RSPB",
+    "seftonPopulation": "Present in waterside habitats across the coast",
     "habitat": [
       "Reed bed edge",
       "Waterway",
@@ -453,9 +453,9 @@
       "Woodland near water"
     ],
     "diet": "Chironomid midges, small moths, aquatic insects",
-    "description": "The Soprano Pipistrelle was only distinguished as a separate species from Common Pipistrelle in 1997 using echolocation frequency analysis. It prefers waterside habitats, which makes Marshside RSPB a likely spot. Physically almost identical to Common Pipistrelle, it echolocates at a higher frequency (55kHz versus 45kHz). A bat detector is needed for confident identification.",
+    "description": "The Soprano Pipistrelle was only distinguished as a separate species from Common Pipistrelle in 1997 using echolocation frequency analysis. It prefers waterside habitats. Physically almost identical to Common Pipistrelle, it echolocates at a higher frequency (55kHz versus 45kHz). A bat detector is needed for confident identification.",
     "identification": "Virtually identical to Common Pipistrelle in the field. Slightly pinkish face compared to Common's black face. Reliably distinguishable only by echolocation frequency (55kHz) with a detector.",
-    "tips": "Use a bat detector app at Marshside at dusk. 55kHz calls indicate Soprano; 45kHz indicates Common Pipistrelle. The waterside habitat preference is a useful clue.",
+    "tips": "Use a bat detector app at dusk near still water: 55kHz calls indicate Soprano; 45kHz indicates Common Pipistrelle. If you go to Marshside, the RSPB car park locks at 5pm from 2 March to 31 October, so arrive on foot, by bike or by bus.",
     "difficulty": "specialist",
     "relatedSpecies": [
       "common-pipistrelle"
@@ -790,8 +790,8 @@
     "family": "Vespertilionidae",
     "seasonalPresence": "April–October. Hibernates in tunnels and caves in winter.",
     "bestTimeOfDay": "30 minutes after sunset, flies low over water",
-    "whereToSee": "Over open water at Marshside RSPB and any canal, pond or waterway near the Sefton Coast at dusk.",
-    "shortLocation": "Marshside RSPB",
+    "whereToSee": "Over still or slow-moving water at dusk: ponds, lakes, canals and other waterways near the Sefton Coast.",
+    "shortLocation": "Sefton Coast",
     "ukPopulation": "Around 570,000, common throughout Britain",
     "seftonPopulation": "Present over waterways and ponds throughout the Sefton Coast",
     "habitat": [
@@ -801,9 +801,9 @@
       "Lake edge"
     ],
     "diet": "Small aquatic insects, caught just above or from the water surface using large feet",
-    "description": "Daubenton's Bat is the classic 'water bat': it hunts just centimetres above the surface of still or slow-moving water, scooping insects from the surface using its large feet or tail membrane. The flight is fast and low, often following the same circuit repeatedly over a pool. At Marshside RSPB in summer, watching Daubenton's Bats hunting over the lagoon at dusk is one of the hidden wildlife pleasures. A bat detector reveals the echolocation at around 45kHz, similar to Common Pipistrelle but with a more FM structure.",
+    "description": "Daubenton's Bat is the classic 'water bat': it hunts just centimetres above the surface of still or slow-moving water, scooping insects from the surface using its large feet or tail membrane. The flight is fast and low, often following the same circuit repeatedly over a pool. A bat detector reveals the echolocation at around 45kHz, similar to Common Pipistrelle but with a more FM structure.",
     "identification": "Medium bat. Silver-grey fur above, paler below. Reddish face. Large pink feet. Flies very low over water: rarely more than 30cm above the surface. Skims water surface with feet. 45kHz echolocation.",
-    "tips": "Visit Marshside RSPB at dusk in June–July. A bat flying low and fast just above the water, repeatedly skimming the same stretch, is almost certainly a Daubenton's. A bat detector confirms the echolocation.",
+    "tips": "Watch still water at dusk in June and July. A bat flying low and fast just above the water, repeatedly skimming the same stretch, is almost certainly a Daubenton's; a bat detector confirms it. The RSPB car park at Marshside locks at 5pm from 2 March to 31 October, so do not plan a dusk visit there by car.",
     "difficulty": "moderate",
     "relatedSpecies": [
       "common-pipistrelle",
@@ -828,8 +828,8 @@
     "family": "Vespertilionidae",
     "seasonalPresence": "April–October; occasionally active in mild winter periods.",
     "bestTimeOfDay": "Sunset and just before sunset, often visible before dark",
-    "whereToSee": "Over Marshside RSPB lagoons, open farmland and above treelines. One of the largest UK bats.",
-    "shortLocation": "Marshside RSPB",
+    "whereToSee": "Over open farmland, wetland and above treelines. One of the largest UK bats.",
+    "shortLocation": "Sefton Coast",
     "ukPopulation": "Around 40,000, amber-listed",
     "seftonPopulation": "Present over open country and wetland; echolocates at lower frequency than pipistrelles",
     "habitat": [
@@ -838,9 +838,9 @@
       "Woodland edge"
     ],
     "diet": "Large flying insects (beetles, moths, cockchafers) caught in open air",
-    "description": "The Noctule is one of Britain's largest bats and one of the easiest to see: it often emerges to hunt before sunset, flying high in fast, swooping flight over open country and water. At Marshside RSPB it may be seen against the sky in the minutes before dark, dropping and swooping on large insects. The echolocation at 20kHz is lower than pipistrelles and detectable as a 'chip-chip' on a bat detector. It roosts in tree holes in summer.",
+    "description": "The Noctule is one of Britain's largest bats and one of the easiest to see: it often emerges to hunt before sunset, flying high in fast, swooping flight over open country and water. It may be seen against the sky in the minutes before dark, dropping and swooping on large insects. The echolocation at 20kHz is lower than pipistrelles and detectable as a 'chip-chip' on a bat detector. It roosts in tree holes in summer.",
     "identification": "Large bat. Uniform golden-brown fur. Narrow, pointed wings. Fast, high, swooping flight. Often active before dark. Echolocates at ~20kHz'chip-chip' sound on detector. Much larger than pipistrelles.",
-    "tips": "Watch the sky above Marshside RSPB at sunset in June. Any large, fast-moving bat flying high before dark is likely a Noctule. A bat detector at 20kHz will confirm the species.",
+    "tips": "Watch the sky at sunset in June over open country or water. Any large, fast-moving bat flying high before dark is likely a Noctule; a bat detector at 20kHz will confirm it. If you choose Marshside, the RSPB car park locks at 5pm from 2 March to 31 October.",
     "difficulty": "moderate",
     "relatedSpecies": [
       "common-pipistrelle",

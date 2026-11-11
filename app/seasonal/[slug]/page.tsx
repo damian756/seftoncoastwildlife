@@ -115,7 +115,7 @@ const seasonalPages: Record<string, SeasonalPageData> = {
         body: [
           "The main hide at Marshside looks directly over the managed scrape: this is where most of the passage waders concentrate. Visit early morning for best light and least disturbance.",
           "High tide pushes waders off the estuary mudflats and onto the scrapes. Check tide times before you go. The two hours either side of high tide are usually the best.",
-          "Hesketh Out Marsh, a short drive north of Marshside, holds good wader numbers in autumn and is often quieter. Worth including on a wader day.",
+          "Hesketh Out Marsh, east of Marshside at Hesketh Bank, is the RSPB's other reserve on the Ribble. A surfaced trail leads to Karen's Viewpoint over the recreated saltmarsh, and the car park is open from 8am to 6pm, or until dusk if earlier.",
         ],
       },
     ],
@@ -124,13 +124,14 @@ const seasonalPages: Record<string, SeasonalPageData> = {
       "Best times: early morning for light and quiet",
       "Peak autumn passage: mid-August to mid-September",
       "Bring a scope: distant wader identification requires magnification",
-      "The Collins Bird Guide wader plates are worth studying before you go",
-      "Marshside postcode: PR9 9PJ · Hesketh Out Marsh: PR9 8DS",
+      "A field guide's wader plates are worth studying before you go",
+      "Marshside postcode: PR9 9PJ · Hesketh Out Marsh: PR4 6XQ",
     ],
     relatedLinks: [
       { href: "/nature/marshside-rspb", label: "Marshside RSPB guide" },
       { href: "/birds/dunlin", label: "Dunlin species page" },
       { href: "/birds/curlew-sandpiper", label: "Curlew Sandpiper species page" },
+      { href: "/nature/hesketh-out-marsh", label: "Hesketh Out Marsh guide" },
       { href: "/birdwatching-guide", label: "Birdwatching guide" },
     ],
   },
@@ -369,6 +370,12 @@ export default async function SeasonalSlugPage({ params }: Props) {
               </Link>
             )
           )}
+          <Link href="/seasonal/month-by-month" className="text-[var(--marsh)] font-medium hover:underline text-sm">
+            Month-by-month calendar →
+          </Link>
+          <Link href="/nature" className="text-[var(--marsh)] font-medium hover:underline text-sm">
+            All site guides →
+          </Link>
         </div>
     </div>
     </>
