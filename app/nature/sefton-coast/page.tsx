@@ -8,7 +8,7 @@ import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 
 const title = "The Sefton Coast: Habitats, Wildlife and Where to Go";
 const description =
-  "An overview of the Sefton Coast from the Ribble to the Mersey: saltmarsh, sand dunes, pinewoods and beaches, what each protects, and guides to each site north to south.";
+  "An overview of the Sefton Coast from the Ribble to the Mersey: saltmarsh, sand dunes, pinewoods and beaches, what each protects, and guides to each site north to south, then WWT Martin Mere inland.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/sefton-coast";
 
 export const metadata: Metadata = {
@@ -93,7 +93,7 @@ export default function SeftonCoastPage() {
 
       <div className="mx-auto max-w-3xl px-4 py-10">
         <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">Where to go</p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Site guides, north to south</h2>
+        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Coast sites north to south, then WWT Martin Mere inland</h2>
         <ol className="space-y-3 mb-4">
           {SITE_GUIDES.map((g) => (
             <li key={g.href} className="rounded-xl border border-[var(--dune)] bg-white p-4">

@@ -391,7 +391,7 @@ export function SpeciesDetail({ category, species, related, slug }: SpeciesDetai
           <section className="bg-[var(--forest)] rounded-2xl p-6 sm:p-8 text-white">
             <h2 className="text-xl font-bold mb-2">Plan your visit to the Sefton Coast</h2>
             <p className="text-white/70 text-sm mb-5 max-w-xl">
-              Guides to each reserve and site, north to south: who manages it, getting there and parking, hides, seasons, tides and dogs.
+              Guides to each reserve and site, the coast north to south and then Martin Mere inland: who manages it, getting there and parking, hides, seasons, tides and dogs.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link href="/birdwatching-guide" className="inline-flex items-center gap-2 bg-white text-[var(--forest)] text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-[var(--sand)] transition">

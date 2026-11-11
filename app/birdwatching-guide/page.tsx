@@ -103,7 +103,7 @@ export default function BirdwatchingGuidePage() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {[
             { stat: "250,000", label: "Birds a year, at most, on the Ribble Estuary (Natural England)" },
-            { stat: "8", label: "Site guides, north to south" },
+            { stat: "8", label: "Site guides: the coast north to south, then Martin Mere inland" },
             { stat: "8.30am", label: "Marshside car park opens (locked at 4pm in winter)" },
             { stat: "Year-round", label: "Always something to see" },
           ].map(({ stat, label }) => (
@@ -127,7 +127,7 @@ export default function BirdwatchingGuidePage() {
               <span className="text-xs bg-[var(--forest)] text-white px-2 py-0.5 rounded font-medium flex-shrink-0">Best overall</span>
             </div>
             <p className="text-sm text-[var(--slate)] leading-relaxed mb-2">
-              Managed lagoons and scrapes on the edge of the Ribble Estuary. A hide, a viewing platform and screens. Waders, wildfowl and, in winter, thousands of Pink-footed Geese. Go in the morning: better light and the geese are still on the fields.
+              Managed lagoons and scrapes on the edge of the Ribble Estuary. Two hides, a viewing platform and screens. Waders, wildfowl and, in winter, thousands of Pink-footed Geese. Go in the morning: better light and the geese are still on the fields.
             </p>
             <p className="text-xs text-[var(--slate)]/60 mb-1">Postcode: PR9 9PJ · Car park 8.30am to 4pm (1 Nov to 1 Mar) or 5pm (2 Mar to 31 Oct), locked outside those hours · £1.50 up to 2 hours, £3.00 over 2 hours, RSPB members and Blue Badge holders free · Dogs on leads</p>
             <Link href="/nature/marshside-rspb" className="text-xs text-[var(--marsh)] font-medium hover:underline block">Full guide to Marshside →</Link>

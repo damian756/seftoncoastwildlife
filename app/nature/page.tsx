@@ -4,7 +4,7 @@ import { NATURE_REFERENCE, SITE_GUIDES } from "@/lib/site-guides";
 
 const title = "Sefton Coast Reserve and Site Guides";
 const description =
-  "Guides to the Sefton Coast's reserves and birdwatching sites, north to south: Hesketh Out Marsh, Marshside, Birkdale Green Beach, Ainsdale NNR, Formby Point, Crosby and the Alt, Seaforth and WWT Martin Mere.";
+  "Guides to the Sefton Coast's reserves and birdwatching sites, north to south: Hesketh Out Marsh, Marshside, Birkdale Green Beach, Ainsdale NNR, Formby Point, Crosby and the Alt and Seaforth, then WWT Martin Mere inland.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature";
 
 export const metadata: Metadata = {
@@ -22,10 +22,10 @@ export default function NaturePage() {
     <div className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="text-3xl font-bold text-[var(--forest)] mb-2">Reserve and site guides</h1>
       <p className="text-[var(--slate)] mb-8 max-w-2xl">
-        One guide for each place birdwatchers go on this coast, listed north to south. Each says who manages the site, how to get there and park, the paths and hides, what is seen by season, when the tide matters, the rules on access and dogs, and links to the managing body&apos;s own page.
+        One guide for each place birdwatchers go on this coast, listed north to south, then WWT Martin Mere inland. Each says who manages the site, how to get there and park, the paths and hides, what is seen by season, when the tide matters, the rules on access and dogs, and links to the managing body&apos;s own page.
       </p>
 
-      <h2 className="font-display text-xl font-bold text-[var(--forest)] mb-4">Site guides, north to south</h2>
+      <h2 className="font-display text-xl font-bold text-[var(--forest)] mb-4">Coast sites north to south, then WWT Martin Mere inland</h2>
       <div className="grid gap-6 md:grid-cols-2 mb-12">
         {SITE_GUIDES.map(({ href, name, tag, desc }) => (
           <Link key={href} href={href} className={card}>

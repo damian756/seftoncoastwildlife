@@ -186,10 +186,10 @@ export default async function HomePage() {
               <strong className="text-[var(--forest)] font-bold">Up to 250,000</strong> birds a year on the Ribble
             </span>
             <span className="flex items-center gap-2">
-              <strong className="text-[var(--forest)] font-bold">£1.50 or £3</strong> Marshside RSPB parking, entry included
+              <strong className="text-[var(--forest)] font-bold">Free entry</strong> to Marshside RSPB; parking £1.50 or £3
             </span>
             <span className="flex items-center gap-2">
-              <strong className="text-[var(--forest)] font-bold">36km</strong> of coastline
+              <strong className="text-[var(--forest)] font-bold">22 miles</strong> of natural coastline (Sefton Council)
             </span>
           </div>
         </div>
@@ -251,13 +251,13 @@ export default async function HomePage() {
               {
                 href: "/nature/marshside-rspb",
                 title: "Marshside RSPB",
-                desc: "Two hides, a viewing platform and three trails. Parking £1.50 or £3.00 with entry included; RSPB members free. Avocets and Lapwings nest in summer; Pink-footed Geese and Wigeon fill the winter sky.",
+                desc: "Two hides, a viewing platform and three trails. Free entry; parking £1.50 or £3.00, RSPB members and Blue Badge holders free. Avocets and Lapwings nest in summer; Pink-footed Geese and Wigeon fill the winter sky.",
                 tag: "Reserve guide",
               },
               {
                 href: "/nature",
                 title: "Reserve and site guides",
-                desc: "Eight guides, north to south: who manages each site, parking, hides, what is seen each season, tides and dogs.",
+                desc: "Eight guides, the coast north to south and then Martin Mere inland: who manages each site, parking, hides, what is seen each season, tides and dogs.",
                 tag: "Site guides",
               },
               {
