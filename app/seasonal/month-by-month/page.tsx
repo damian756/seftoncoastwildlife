@@ -6,7 +6,7 @@ import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 
 const title = "Sefton Coast Wildlife Calendar: What to See Month by Month, and Where";
 const description =
-  "A month-by-month calendar of birds and other wildlife on the Sefton Coast, with the site to visit for each and the source for every timing: RSPB, BTO, Natural England, the Wildlife Trust, WWT, JNCC and Sefton Council.";
+  "A month-by-month calendar of birds and other wildlife on the Sefton Coast, with the site to visit for each and links to the RSPB, BTO, Natural England, Wildlife Trust, WWT and JNCC pages used.";
 const url = "https://www.seftoncoastwildlife.co.uk/seasonal/month-by-month";
 
 export const metadata: Metadata = {
@@ -31,8 +31,6 @@ const rspbSpecies = (slug: string, name: string): Source => ({
 });
 
 const S = {
-  sefton: { ...SRC.seftonCalendar, short: "Sefton Council nature calendar" },
-  seftonAinsdale: { ...SRC.seftonAinsdaleBeach, short: "Sefton Council, Ainsdale Beach" },
   rspbMarshside: { ...SRC.rspbMarshside, short: "RSPB Marshside" },
   rspbLapwing: { ...rspbSpecies("lapwing", "Lapwing"), short: "RSPB Lapwing" },
   rspbWhooper: { ...rspbSpecies("whooper-swan", "Whooper Swan"), short: "RSPB Whooper Swan" },
@@ -84,10 +82,10 @@ const MONTHS: Month[] = [
     month: "January",
     items: [
       {
-        text: "The winter wader roosts that Sefton Council says are well established by December are still on the shore. The BTO describes Knot, Sanderling and Bar-tailed Godwit as mainly winter visitors.",
+        text: "The winter wader roosts that are well established by December are still on the shore. The BTO describes Knot, Sanderling and Bar-tailed Godwit as mainly winter visitors.",
         where: [G.birkdale, G.formby, G.crosby],
         birds: ["knot", "sanderling", "bar-tailed-godwit", "dunlin"],
-        src: ["sefton", "btoKnot", "btoSanderling", "btoBartail"],
+        src: ["btoKnot", "btoSanderling", "btoBartail"],
       },
       {
         text: "Natural England names the winter months as the time for Pink-footed Geese from Iceland and Wigeon from Siberia on the Ribble Estuary.",
@@ -107,20 +105,20 @@ const MONTHS: Month[] = [
     month: "February",
     items: [
       {
-        text: "Sefton Council says the roosts of waders and gulls stay large, and that birds weakened by cold days need to save energy: keep dogs and horses well away.",
+        text: "The roosts of waders and gulls stay large, and birds weakened by cold days need to save energy: keep dogs and horses well away.",
         where: [G.birkdale, G.formby, G.crosby],
-        src: ["sefton"],
+        src: [],
       },
       {
-        text: "Wintering Pink-footed Geese grow restless. The council says most will soon head back to Iceland, though some stay into late spring; the BTO says birds are present into April or May.",
+        text: "Wintering Pink-footed Geese grow restless. Most will soon head back to Iceland, though some stay into late spring; the BTO says birds are present into April or May.",
         where: [G.marshside, G.hesketh],
         birds: ["pink-footed-goose"],
-        src: ["sefton", "btoPinkfoot"],
+        src: ["btoPinkfoot"],
       },
       {
         text: "Amphibians, including Natterjack Toads and Great Crested Newts, begin to emerge. Keep dogs out of the dune pools.",
         where: [G.ainsdale, G.birkdale],
-        src: ["sefton"],
+        src: [],
       },
     ],
   },
@@ -130,7 +128,7 @@ const MONTHS: Month[] = [
       {
         text: "Sand Lizards and Common Lizards emerge in the frontal dunes, and Natterjack Toads may be spawning by the end of the month, depending on temperatures.",
         where: [G.ainsdale, G.formby],
-        src: ["sefton"],
+        src: [],
       },
       {
         text: "Lapwings breed from mid-March to June (RSPB). At Marshside, the RSPB says, Lapwings chase off predators that come too close to their nests in spring.",
@@ -139,8 +137,8 @@ const MONTHS: Month[] = [
         src: ["rspbLapwing", "rspbMarshside"],
       },
       {
-        text: "Willow Warblers, Chiffchaffs and Blackcaps can now be back on territory by the third week of March, the council says.",
-        src: ["sefton"],
+        text: "Willow Warblers, Chiffchaffs and Blackcaps can now be back on territory by the third week of March.",
+        src: [],
       },
       {
         text: "Whooper Swans leave the UK in March and April (RSPB).",
@@ -154,14 +152,14 @@ const MONTHS: Month[] = [
     month: "April",
     items: [
       {
-        text: "Spring migration builds: waders, warblers, Swallows, pipits, chats, gulls and occasional Ospreys move along the coast. Sefton Council's key roost areas are off the Green Beach between Ainsdale and Birkdale, from Albert Road to the Alt at Formby, and on the sandbanks off Hightown north of Hall Road.",
+        text: "Spring migration builds: waders, warblers, Swallows, pipits, chats, gulls and occasional Ospreys move along the coast. The key roost areas are off the Green Beach between Ainsdale and Birkdale, from Albert Road to the Alt at Formby, and on the sandbanks off Hightown north of Hall Road.",
         where: [G.birkdale, G.formby, G.crosby],
-        src: ["sefton"],
+        src: [],
       },
       {
-        text: "Natterjack Toad breeding is in full swing (Sefton Council). Natural England says natterjacks call around the flooded slacks at Cabin Hill on nights in late April.",
+        text: "Natterjack Toad breeding is in full swing. Natural England says natterjacks call around the flooded slacks at Cabin Hill on nights in late April.",
         where: [G.ainsdale, G.formby],
-        src: ["sefton", "ne"],
+        src: ["ne"],
       },
       {
         text: "Migrating Little Gulls pass through Seaforth in spring (Wildlife Trust). Common Terns are present from April (BTO).",
@@ -172,7 +170,7 @@ const MONTHS: Month[] = [
       {
         text: "Ainsdale beach parking opens on 1 April for the summer.",
         where: [G.ainsdale],
-        src: ["seftonAinsdale"],
+        src: [],
       },
     ],
   },
@@ -180,10 +178,10 @@ const MONTHS: Month[] = [
     month: "May",
     items: [
       {
-        text: "Roosts of waders migrating north peak, and roosts of non-breeding birds stay into summer until the end of July (Sefton Council). Sanderling passage continues into late May (BTO).",
+        text: "Roosts of waders migrating north peak, and roosts of non-breeding birds stay into summer until the end of July. Sanderling passage continues into late May (BTO).",
         where: [G.birkdale, G.formby, G.crosby],
         birds: ["sanderling"],
-        src: ["sefton", "btoSanderling"],
+        src: ["btoSanderling"],
       },
       {
         text: "The RSPB says Avocets and Lapwings nest on the islands at Marshside in summer.",
@@ -194,7 +192,7 @@ const MONTHS: Month[] = [
       {
         text: "Natterjack toadlets leave the breeding pools, and Bee and Southern Marsh Orchids begin to flower by the end of the month. From 1 May, Ainsdale and Southport beaches each have a dog-free zone.",
         where: [G.ainsdale, G.birkdale],
-        src: ["sefton", "seftonAinsdale"],
+        src: [],
       },
     ],
   },
@@ -216,7 +214,7 @@ const MONTHS: Month[] = [
       {
         text: "Up to 11 species of orchid bloom along the coast from Crosby to Marshside in June and July, and Sand Lizards lay their eggs. Grey Seals are more likely close inshore over high tides.",
         where: [G.ainsdale, G.birkdale],
-        src: ["sefton"],
+        src: [],
       },
     ],
   },
@@ -224,15 +222,15 @@ const MONTHS: Month[] = [
     month: "July",
     items: [
       {
-        text: "Sefton Council says autumn begins for the natural world: waders and terns heading south after breeding begin to build along the coast. The BTO says Grey Plover return migration can begin in late July.",
+        text: "Autumn begins for the natural world: waders and terns heading south after breeding begin to build along the coast. The BTO says Grey Plover return migration can begin in late July.",
         where: [G.birkdale, G.formby, G.crosby],
         birds: ["grey-plover"],
-        src: ["sefton", "btoGreyPlover"],
+        src: ["btoGreyPlover"],
       },
       {
         text: "Dune, Broad-leaved and Green-flowered Helleborines are usually at their best. Natterjacks move to the upper tideline until the end of September or October; please leave driftwood where it lies.",
         where: [G.ainsdale],
-        src: ["sefton"],
+        src: [],
       },
     ],
   },
@@ -240,20 +238,20 @@ const MONTHS: Month[] = [
     month: "August",
     items: [
       {
-        text: "Migration approaches its peak, with thousands of waders, terns and gulls resting and feeding on the sands (Sefton Council). The BTO notes pronounced autumn passage of Knot and peaks of Bar-tailed and Black-tailed Godwits.",
+        text: "Migration approaches its peak, with thousands of waders, terns and gulls resting and feeding on the sands. The BTO notes pronounced autumn passage of Knot and peaks of Bar-tailed and Black-tailed Godwits.",
         where: [G.birkdale, G.formby, G.crosby, G.marshside],
         birds: ["knot", "bar-tailed-godwit", "black-tailed-godwit"],
-        src: ["sefton", "btoKnot", "btoBartail", "btoBlacktail"],
+        src: ["btoKnot", "btoBartail", "btoBlacktail"],
       },
       {
         text: "Seawatching: Gannets, shearwaters, skuas, terns and even petrels can be seen from the dunes over high tides when the wind is from the north-west or south-west.",
         where: [G.formby],
-        src: ["sefton"],
+        src: [],
       },
       {
-        text: "Common Terns depart from August, and Pintail are present from late August (BTO). Young Sand Lizards hatch in the frontal dunes from Hightown to Birkdale (Sefton Council).",
+        text: "Common Terns depart from August, and Pintail are present from late August (BTO). Young Sand Lizards hatch in the frontal dunes from Hightown to Birkdale.",
         birds: ["common-tern", "pintail"],
-        src: ["btoCommonTern", "btoPintail", "sefton"],
+        src: ["btoCommonTern", "btoPintail"],
       },
     ],
   },
@@ -261,20 +259,20 @@ const MONTHS: Month[] = [
     month: "September",
     items: [
       {
-        text: "Pink-footed Geese begin to arrive from Iceland, with large roosts building on the sands off Birkdale and Hightown by the end of the month (Sefton Council). The BTO says they arrive in September.",
+        text: "Pink-footed Geese begin to arrive from Iceland, with large roosts building on the sands off Birkdale and Hightown by the end of the month. The BTO says they arrive in September.",
         where: [G.birkdale, G.crosby, G.marshside],
         birds: ["pink-footed-goose"],
-        src: ["sefton", "btoPinkfoot"],
+        src: ["btoPinkfoot"],
       },
       {
         text: "Autumn storms can leave migrating birds exhausted on the coast. Keep dogs and horses well away from birds on the beach, especially over high tides.",
         where: [G.birkdale, G.formby, G.crosby],
-        src: ["sefton"],
+        src: [],
       },
       {
-        text: "Ainsdale beach parking ends on 30 September and reopens on 1 April. Sefton Council lists Ainsdale station as within walking distance of the beach.",
+        text: "Ainsdale beach parking ends on 30 September and reopens on 1 April. Ainsdale station is within walking distance of the beach.",
         where: [G.ainsdale, G.birkdale],
-        src: ["seftonAinsdale"],
+        src: [],
       },
     ],
   },
@@ -285,7 +283,7 @@ const MONTHS: Month[] = [
         text: "Winter roosts of waders and gulls build, especially between Ainsdale and Birkdale, and thousands of Pink-footed Geese roost on the shore at Hightown, Birkdale and Southport.",
         where: [G.birkdale, G.crosby],
         birds: ["pink-footed-goose"],
-        src: ["sefton"],
+        src: [],
       },
       {
         text: "Whooper Swans usually start arriving in October (RSPB). At Martin Mere, WWT says up to 50,000 Pink-footed Geese come in to roost in autumn, with Whooper Swans joining towards the end of the season.",
@@ -294,13 +292,13 @@ const MONTHS: Month[] = [
         src: ["rspbWhooper", "wwt"],
       },
       {
-        text: "Twite use the high-tide line between Weld Road and Fairways in Southport; the council asks that seed-rich debris is left for them. An egret roost builds on the north island of Southport Marine Lake.",
+        text: "Twite use the high-tide line between Weld Road and Fairways in Southport; please leave the seed-rich debris for them. An egret roost builds on the north island of Southport Marine Lake.",
         birds: ["twite"],
-        src: ["sefton"],
+        src: [],
       },
       {
         text: "From October to December, seals may rest on the coast after bad weather. Keep people and dogs well away; for a sick or injured seal, dolphin or porpoise, call British Divers Marine Life Rescue on 01825 765546.",
-        src: ["sefton"],
+        src: [],
       },
     ],
   },
@@ -308,9 +306,9 @@ const MONTHS: Month[] = [
     month: "November",
     items: [
       {
-        text: "Winter roosts are well established. Sefton Council says the birds are highly susceptible to disturbance at high tide and in bad weather, and asks everyone to give them a wide berth: Give Birds A Break.",
+        text: "Winter roosts are well established. The birds are highly susceptible to disturbance at high tide and in bad weather: give them a wide berth.",
         where: [G.birkdale, G.formby, G.crosby],
-        src: ["sefton"],
+        src: [],
       },
       {
         text: "At Marshside, the winter skies fill with Pink-footed Geese and Wigeons, and large flocks of Golden Plovers, Wigeons and Lapwings rise when a Peregrine or Kestrel arrives. The car park now closes at 4pm. The BTO calls Teal a common winter visitor.",
@@ -321,7 +319,7 @@ const MONTHS: Month[] = [
       {
         text: "Sand Lizards and Natterjack Toads are hibernating in the frontal dunes. Do not dig in the frontal dunes from Hightown to Birkdale.",
         where: [G.ainsdale],
-        src: ["sefton"],
+        src: [],
       },
     ],
   },
@@ -332,7 +330,7 @@ const MONTHS: Month[] = [
         text: "Roosts of Knot, godwits, Sanderling and Dunlin are well established. Give them a wide berth, especially in cold and windy weather when they need to save energy.",
         where: [G.birkdale, G.formby, G.crosby],
         birds: ["knot", "bar-tailed-godwit", "sanderling", "dunlin"],
-        src: ["sefton"],
+        src: [],
       },
       {
         text: "Natural England's citation names internationally important numbers of Turnstone and Redshank on the Mersey Narrows in winter, with Seaforth as their high-tide roost.",
@@ -362,8 +360,6 @@ function birdName(slug: string) {
 }
 
 const allSources: Source[] = [
-  used(SRC.seftonCalendar, "most monthly timings for roosts, migration, geese, amphibians, reptiles, plants, seals and advice on disturbance"),
-  used(SRC.seftonAinsdaleBeach, "beach parking season, Ainsdale station and the summer dog-free zones"),
   used(SRC.rspbMarshside, "nesting Avocets and Lapwings, winter geese, Wigeons and plover flocks, and car park hours"),
   used(rspbSpecies("lapwing", "Lapwing"), "the Lapwing breeding season"),
   used(rspbSpecies("whooper-swan", "Whooper Swan"), "when Whooper Swans arrive and leave"),
@@ -415,7 +411,7 @@ export default function MonthByMonthPage() {
           <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-3">Calendar</p>
           <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-3">What to see on the Sefton Coast, month by month</h1>
           <p className="text-white/70 max-w-2xl leading-relaxed">
-            Twelve months of the coast&apos;s birds and other wildlife, each with the place to go and the source for the timing. These are seasons, not promises: birds arrive early or late with the weather, and numbers change from year to year.
+            Twelve months of the coast&apos;s birds and other wildlife, each with the place to go and, for many, a link to the source. These are seasons, not promises: birds arrive early or late with the weather, and numbers change from year to year.
           </p>
         </div>
       </div>
@@ -442,37 +438,48 @@ export default function MonthByMonthPage() {
                   <li key={i} className="text-sm text-[var(--slate)] leading-relaxed">
                     <p>{item.text}</p>
                     <p className="text-xs mt-1.5 text-[var(--slate)]/80 leading-relaxed">
-                      {item.where && item.where.length > 0 && (
-                        <>
-                          Where:{" "}
-                          {item.where.map((w, j) => (
-                            <span key={w.href}>
-                              {j > 0 && ", "}
-                              <Link href={w.href} className="text-[var(--marsh)] underline underline-offset-2">{w.label}</Link>
-                            </span>
-                          ))}
-                          <span aria-hidden="true"> · </span>
-                        </>
-                      )}
-                      {item.birds && item.birds.length > 0 && (
-                        <>
-                          Species:{" "}
-                          {item.birds.map((b, j) => (
-                            <span key={b}>
-                              {j > 0 && ", "}
-                              <Link href={`/birds/${b}`} className="text-[var(--marsh)] underline underline-offset-2">{birdName(b)}</Link>
-                            </span>
-                          ))}
-                          <span aria-hidden="true"> · </span>
-                        </>
-                      )}
-                      Source:{" "}
-                      {item.src.map((k, j) => (
-                        <span key={k}>
-                          {j > 0 && ", "}
-                          <a href={S[k].url} target="_blank" rel="noopener" className="underline underline-offset-2">{S[k].short}</a>
-                        </span>
-                      ))}
+                      {[
+                        item.where && item.where.length > 0 && (
+                          <span key="where">
+                            Where:{" "}
+                            {item.where.map((w, j) => (
+                              <span key={w.href}>
+                                {j > 0 && ", "}
+                                <Link href={w.href} className="text-[var(--marsh)] underline underline-offset-2">{w.label}</Link>
+                              </span>
+                            ))}
+                          </span>
+                        ),
+                        item.birds && item.birds.length > 0 && (
+                          <span key="birds">
+                            Species:{" "}
+                            {item.birds.map((b, j) => (
+                              <span key={b}>
+                                {j > 0 && ", "}
+                                <Link href={`/birds/${b}`} className="text-[var(--marsh)] underline underline-offset-2">{birdName(b)}</Link>
+                              </span>
+                            ))}
+                          </span>
+                        ),
+                        item.src.length > 0 && (
+                          <span key="src">
+                            Source:{" "}
+                            {item.src.map((k, j) => (
+                              <span key={k}>
+                                {j > 0 && ", "}
+                                <a href={S[k].url} target="_blank" rel="noopener" className="underline underline-offset-2">{S[k].short}</a>
+                              </span>
+                            ))}
+                          </span>
+                        ),
+                      ]
+                        .filter(Boolean)
+                        .map((seg, j) => (
+                          <span key={j}>
+                            {j > 0 && <span aria-hidden="true"> · </span>}
+                            {seg}
+                          </span>
+                        ))}
                     </p>
                   </li>
                 ))}

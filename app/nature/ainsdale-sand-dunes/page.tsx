@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Where do I park for Ainsdale Sand Dunes NNR?",
-    a: "There is no public parking on the reserve. Natural England points visitors to the Ainsdale-on-Sea beach car park, which Sefton Council opens from 1 April to 30 September only (£10 all day), or to the National Trust car parks at Formby to the south. A limited number of disabled parking places are available on the reserve: call the reserve office on 01704 578774.",
+    a: "There is no public parking on the reserve. Natural England points visitors to the Ainsdale-on-Sea beach car park, which is open from 1 April to 30 September only (£10 all day), or to the National Trust car parks at Formby to the south. A limited number of disabled parking places are available on the reserve: call the reserve office on 01704 578774.",
   },
   {
     q: "How do I get to Ainsdale NNR by train?",
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "When can I hear natterjack toads at Ainsdale?",
-    a: "Sefton Council's nature calendar says natterjacks may be spawning in the dunes by the end of March, depending on temperatures, and that breeding is in full swing in April. Natural England calls Ainsdale one of the best remaining strongholds of the natterjack, Europe's loudest amphibian. Keep dogs out of the pools.",
+    a: "Natterjacks may be spawning in the dunes by the end of March, depending on temperatures, and breeding is in full swing in April. Natural England calls Ainsdale one of the best remaining strongholds of the natterjack, Europe's loudest amphibian. Keep dogs out of the pools.",
   },
   {
     q: "What is the difference between Ainsdale NNR and the National Trust site at Formby?",
@@ -76,9 +76,6 @@ const pageJsonLd = [
 const sources = [
   used(SRC.neMerseysideNnrs, "the reserve's plants and animals, paths, cycle routes, stations, buses, parking, entrances, safety advice and contact details"),
   used(SRC.neAinsdaleNnr, "the reserve's area"),
-  used(SRC.seftonAinsdaleBeach, "beach parking season, charge and closures, the toilets' summer season and the all-year Changing Places toilet, and the dog rules on the beach"),
-  used(SRC.seftonCalendar, "when natterjacks, lizards and plants are active through the year, grazing, and the advice on driftwood and digging"),
-  used(SRC.seftonLnr, "the neighbouring Ainsdale and Birkdale Sandhills LNR"),
 ];
 
 export default function AinsdaleSandDunesPage() {
@@ -139,7 +136,7 @@ export default function AinsdaleSandDunesPage() {
             <>
               Natural England. Reserve office: 2 West End Lodge, Pinfold Lane, Ainsdale, PR8 3QW; 01704 578774. The neighbouring{" "}
               <Link href="/nature/birkdale-green-beach" className="text-[var(--marsh)] underline underline-offset-2">Ainsdale and Birkdale Sandhills LNR</Link>{" "}
-              to the north is Sefton Council&apos;s.
+              to the north belongs to the local council.
             </>
           }
           official={[{ label: "Natural England: Merseyside's National Nature Reserves (Ainsdale Sand Dunes)", url: SRC.neMerseysideNnrs.url }]}
@@ -152,47 +149,47 @@ export default function AinsdaleSandDunesPage() {
           ]}
           parking={[
             <>There is no public parking on the reserve. A limited number of disabled parking places are available: call the reserve office on 01704 578774.</>,
-            <>Natural England points visitors to the Ainsdale-on-Sea beach car park, with access to the NNR along the beach or through Ainsdale Sandhills LNR. Sefton Council opens that beach parking from 1 April to 30 September only, at £10 all day, and may reduce or close it because of the tide or the weather.</>,
+            <>Natural England points visitors to the Ainsdale-on-Sea beach car park, with access to the NNR along the beach or through Ainsdale Sandhills LNR. That beach parking is open from 1 April to 30 September only, at £10 all day, and may be reduced or closed because of the tide or the weather.</>,
             <>To the south, the National Trust car parks at Formby give access to the NNR along the Sefton Coast Footpath. See the <Link href="/nature/formby-point" className="text-[var(--marsh)] underline underline-offset-2">Formby Point guide</Link>.</>,
           ]}
           paths={[
             <>About 8 miles of footpaths, marked with colour-topped posts.</>,
             <>The Woodland Path and Fisherman&apos;s Path are accessible by bike, pushchair and wheelchair. Natural England&apos;s map shows where you can ride a horse or cycle.</>,
             <>The Trans Pennine Trail and the Sefton Coastal Footpath give access along the whole coast.</>,
-            <>Sefton Council&apos;s toilet block at Ainsdale beach is open from April to September; its accessible Changing Places toilet is open all year.</>,
+            <>The toilet block at Ainsdale beach is open from April to September; its accessible Changing Places toilet is open all year.</>,
           ]}
           seasons={[
             {
               season: "February and March",
-              text: "Sefton Council's nature calendar says amphibians, including Natterjack Toads and Great Crested Newts, begin to emerge in February. In March, Sand Lizards and Common Lizards emerge in the frontal dunes, and natterjacks may be spawning by the end of the month. The grazing cattle and sheep leave the dunes in spring.",
+              text: "Amphibians, including Natterjack Toads and Great Crested Newts, begin to emerge in February. In March, Sand Lizards and Common Lizards emerge in the frontal dunes, and natterjacks may be spawning by the end of the month. The grazing cattle and sheep leave the dunes in spring.",
             },
             {
               season: "April to June",
-              text: "Natterjack breeding is in full swing in April and toadlets leave the pools in May. Bee and Southern Marsh Orchids begin to flower by the end of May, and up to 11 species of orchid bloom along the coast in June and July. Sand Lizards lay eggs in June (Sefton Council).",
+              text: "Natterjack breeding is in full swing in April and toadlets leave the pools in May. Bee and Southern Marsh Orchids begin to flower by the end of May, and up to 11 species of orchid bloom along the coast in June and July. Sand Lizards lay eggs in June.",
             },
             {
               season: "July to September",
-              text: "Dune, Broad-leaved and Green-flowered Helleborines are usually at their best in July. Natterjacks move out to the upper tideline to shelter and forage until the end of September or October, and young Sand Lizards hatch in August (Sefton Council). Natural England lists petalwort, seaside centaury, yellow bartsia, round-leaved wintergreen and dune helleborine among the reserve's rarer plants.",
+              text: "Dune, Broad-leaved and Green-flowered Helleborines are usually at their best in July. Natterjacks move out to the upper tideline to shelter and forage until the end of September or October, and young Sand Lizards hatch in August. Natural England lists petalwort, seaside centaury, yellow bartsia, round-leaved wintergreen and dune helleborine among the reserve's rarer plants.",
             },
             {
               season: "October to January",
-              text: "Conservation grazing resumes in the dunes in October. By November, Sand Lizards and natterjacks are hibernating in the frontal dunes, and the council asks people not to dig there. On the shore, wader roosts build between Ainsdale and Birkdale from October, and by December the roosts of Knot, godwits, Sanderling and Dunlin are established. Natural England says Red Squirrels can occasionally be seen in the reserve's pinewoods.",
+              text: "Conservation grazing resumes in the dunes in October. By November, Sand Lizards and natterjacks are hibernating in the frontal dunes, so please do not dig there. On the shore, wader roosts build between Ainsdale and Birkdale from October, and by December the roosts of Knot, godwits, Sanderling and Dunlin are established. Natural England says Red Squirrels can occasionally be seen in the reserve's pinewoods.",
               birds: ["knot", "sanderling", "dunlin"],
             },
           ]}
           tide={[
             <>Natural England advises checking the local tide timetable before visiting the beach.</>,
-            <>Wader roosts on the shore form over high tide and are easily disturbed: if birds run or fly ahead of you, you are too close (Sefton Council).</>,
+            <>Wader roosts on the shore form over high tide and are easily disturbed: if birds run or fly ahead of you, you are too close.</>,
           ]}
           access={[
             <>The dunes cover a large area, parts of them remote, and Natural England warns that you can become disorientated. If you visit alone, tell someone where you are going and when you expect to be back.</>,
             <>Rabbit burrows are common and soft sand can give way. In dry weather the fire risk is high: do not smoke near pine-needle debris or leave cigarettes or bottles.</>,
-            <>No barbecues, fires or camping anywhere on the coast. Sefton Council asks visitors not to take driftwood, which toads and their prey shelter under.</>,
+            <>No barbecues, fires or camping anywhere on the coast. Please do not take driftwood, which toads and their prey shelter under.</>,
           ]}
           dogs={[
-            <>From 1 May to 30 September, Ainsdale beach is dog-free for 200m either side of the main beach entrance, down to the tide line (Sefton Council).</>,
+            <>From 1 May to 30 September, Ainsdale beach is dog-free for 200m either side of the main beach entrance, down to the tide line.</>,
             <>Keep dogs out of the dune pools and slacks, where Natterjack Toads and Great Crested Newts breed, and under close control near the grazing livestock.</>,
-            <>Keep dogs away from roosting birds. Sefton Council says it is a criminal offence under the Wildlife and Countryside Act 1981 to allow your dog to disturb them.</>,
+            <>Keep dogs away from roosting birds. It is a criminal offence under the Wildlife and Countryside Act 1981 to allow your dog to disturb them.</>,
           ]}
         />
 
@@ -200,7 +197,7 @@ export default function AinsdaleSandDunesPage() {
           <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">The tideline</p>
           <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Ainsdale beach from the NNR</h2>
           <p className="text-[var(--slate)] mb-5 text-sm leading-relaxed">
-            The strandline below the dunes turns up jellyfish, egg cases and shells, especially after storms. Sefton Council&apos;s advice is to treat stranded jellyfish with caution and not to touch them, because they can still sting even when dead.
+            The strandline below the dunes turns up jellyfish, egg cases and shells, especially after storms. Treat stranded jellyfish with caution and do not touch them: they can still sting even when dead.
           </p>
           <div className="rounded-xl overflow-hidden mb-4">
             <ClickableImage

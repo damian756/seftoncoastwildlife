@@ -350,7 +350,7 @@ export function SpeciesDetail({ category, species, related, slug }: SpeciesDetai
               <h2 className="text-xl font-bold text-[var(--forest)] mb-4 pb-2 border-b border-[var(--dune)]">Sources</h2>
               {species.factsChecked && (
                 <p className="text-sm text-[var(--slate)] mb-3">
-                  Status, numbers, season and designations on this page were checked on {species.factsChecked} against:
+                  Status, numbers, season and designations on this page were checked on {species.factsChecked}. Sources:
                 </p>
               )}
               <ul className="list-disc pl-5 space-y-1.5 text-sm text-[var(--slate)]">

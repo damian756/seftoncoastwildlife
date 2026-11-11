@@ -31,8 +31,8 @@ export const SITE_GUIDES: SiteGuideSummary[] = [
   {
     href: "/nature/birkdale-green-beach",
     name: "Birkdale Green Beach and the Sandhills LNR",
-    tag: "Sefton Council · Birkdale and Ainsdale",
-    desc: "Dune slacks and the saltmarsh on Birkdale's beach, between Weld Road and Ainsdale. Off the Green Beach is one of three key wader roost areas Sefton Council names.",
+    tag: "Local council · Birkdale and Ainsdale",
+    desc: "Dune slacks and the saltmarsh on Birkdale's beach, between Weld Road and Ainsdale. Off the Green Beach is one of the coast's three key wader roost areas.",
     checked: "2026-11-11",
   },
   {
@@ -52,7 +52,7 @@ export const SITE_GUIDES: SiteGuideSummary[] = [
   {
     href: "/nature/crosby-and-alt-estuary",
     name: "Crosby, Hall Road and the Alt estuary",
-    tag: "Sefton Council · Crosby to Hightown",
+    tag: "Local council · Crosby to Hightown",
     desc: "Crosby Coastal Park runs from Waterloo to the mouth of the Alt. Waders roost on the sandbanks off Hightown, north of Hall Road.",
     checked: "2026-11-11",
   },

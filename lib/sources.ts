@@ -67,51 +67,8 @@ export const SRC = {
     title: "Martin Mere: Nature reserve",
     url: "https://www.wwt.org.uk/wetland-centres/martin-mere/experience/nature-reserve",
   },
-  seftonCalendar: {
-    publisher: "Sefton Council",
-    title: "Sefton's Nature Calendar",
-    url: "https://www.sefton.gov.uk/around-sefton/coast-countryside/seftons-nature-calendar/",
-  },
-  seftonLnr: {
-    publisher: "Sefton Council",
-    title: "Ainsdale and Birkdale Sandhills Local Nature Reserve",
-    url: "https://www.sefton.gov.uk/around-sefton/coast-countryside/ainsdale-and-birkdale-sandhills-local-nature-reserve/",
-  },
-  seftonAinsdaleBeach: {
-    publisher: "Sefton Council",
-    title: "Ainsdale Beach",
-    url: "https://www.sefton.gov.uk/around-sefton/coast-and-countryside/visiting-our-beaches/ainsdale-beach/",
-  },
-  seftonCrosbyBeach: {
-    publisher: "Sefton Council",
-    title: "Crosby Beach",
-    url: "https://www.sefton.gov.uk/around-sefton/coast-and-countryside/visiting-our-beaches/crosby-beach/",
-  },
-  seftonCrosbyCoastalPark: {
-    publisher: "Sefton Council",
-    title: "Crosby Coastal Park",
-    url: "https://www.sefton.gov.uk/around-sefton/parks-and-greenspaces/crosby-coastal-park/",
-  },
-  seftonAnotherPlace: {
-    publisher: "Sefton Council",
-    title: "Another Place by Antony Gormley",
-    url: "https://www.sefton.gov.uk/around-sefton/another-place-by-antony-gormley/",
-  },
-  seftonFindParking: {
-    publisher: "Sefton Council",
-    title: "Find car parks",
-    url: "https://www.sefton.gov.uk/find-parking",
-  },
-  seftonSafeBeaches: {
-    publisher: "Sefton Council",
-    title: "Enjoying Beaches Safely",
-    url: "https://www.sefton.gov.uk/safe-beaches",
-  },
-  seftonVisitingBeaches: {
-    publisher: "Sefton Council",
-    title: "Visiting our beaches",
-    url: "https://www.sefton.gov.uk/around-sefton/coast-countryside/visiting-our-beaches/",
-  },
+  // Council pages are not listed or linked on the site (standing rule, 11 Nov 2026). Facts taken from
+  // them are recorded with their URLs in docs/freshen-2026-11/REPORT.md instead.
   neSeftonSsssiCitation: {
     publisher: "Natural England",
     title: "Sefton Coast SSSI citation (notified 16 August 2000)",

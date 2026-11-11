@@ -83,7 +83,6 @@ const sources = [
   used(SRC.rspbMarshside, "address, grid reference, directions, car park hours and charges, entry prices, hides, screens, platform, trails, toilet, dogs, education sessions and the wildlife in summer and winter"),
   used(SRC.neMerseysideNnrs, "Marshside as part of the Ribble Estuary NNR, its joint management, the 12km embankment path and access limited to rights of way"),
   used(SRC.neRibbleAltSpaCitation, "saltmarshes and grazing marshes used as high-tide roosts, and the species the SPA protects"),
-  used(SRC.seftonCalendar, "when the autumn wader passage builds and when the Pink-footed Geese return"),
   used(SRC.rspbBlackTailedGodwit, "Marshside among the RSPB's places to see Black-tailed Godwits"),
 ];
 
@@ -180,7 +179,7 @@ export default function MarshsidePage() {
             },
             {
               season: "Late summer and autumn",
-              text: "Sefton Council's nature calendar says waders and terns heading south after breeding begin to build in July, that migration approaches its peak on the coast in August, and that Pink-footed Geese begin to arrive from Iceland in September. The RSPB lists Marshside among the places to see Black-tailed Godwits.",
+              text: "Waders and terns heading south after breeding begin to build in July, migration approaches its peak on the coast in August, and Pink-footed Geese begin to arrive from Iceland in September. The RSPB lists Marshside among the places to see Black-tailed Godwits.",
               birds: ["black-tailed-godwit", "pink-footed-goose"],
             },
           ]}
