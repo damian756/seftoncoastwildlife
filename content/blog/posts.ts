@@ -14,7 +14,9 @@ export interface BlogPost {
   metaDescription: string;
   heroWikipediaTitle?: string;
   heroLocalSrc?: string; // overrides Wikipedia fetch when set
-  heroCredit?: { text: string; href: string }; // shown on the hero for licensed photos
+  // shown on the hero for licensed photos: "Photo: <text>, <licence>, <source>"
+  heroCredit?: { text: string; href: string; licence?: { text: string; href: string }; source?: string };
+  heroCaption?: string; // one line under the hero image, when the photo needs explaining
   heroAlt: string;
   intro: string;
   sections: {
@@ -58,8 +60,13 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2026-11-11",
     metaDescription: "Sanderling spend the winter on the Sefton Coast's long sandy beaches. How to identify them, where Sefton Council says the wader roosts gather, and how to watch without pushing them off the beach.",
     heroLocalSrc: "/images/blog/sanderling-strandline.jpg",
-    heroCredit: { text: "Ian Kirk, CC BY 2.0, via Wikimedia Commons", href: "https://commons.wikimedia.org/wiki/File:Sanderling_at_Sandbanks,_Dorset_(8591897521).jpg" },
-    heroAlt: "A sanderling with pale grey and white plumage feeding among shells and seaweed on a beach strandline",
+    heroCredit: {
+      text: "Ian Kirk",
+      href: "https://commons.wikimedia.org/wiki/File:Sanderling_at_Sandbanks,_Dorset_(8591897521).jpg",
+      licence: { text: "CC BY 2.0", href: "https://creativecommons.org/licenses/by/2.0/" },
+      source: "via Wikimedia Commons",
+    },
+    heroAlt: "A sanderling feeding on a strandline of shells and seaweed in Dorset in March, white below with a brown-flecked head and back, showing signs of summer plumage",
     intro: "On a winter beach on the Sefton Coast, look along the line where the waves run up the sand. A small pale wader running out behind each retreating wave, probing quickly, then running back up as the next one breaks, is very likely a sanderling. It does not breed in Britain. It nests in the high Arctic and spends the winter on long sandy beaches, and this coast has plenty of those.",
     sections: [
       {
@@ -67,7 +74,7 @@ export const BLOG_POSTS: BlogPost[] = [
         body: [
           "The RSPB describes the sanderling as a small, plump, energetic wader with a short, straight black bill and black legs of medium length. In winter it is pale grey above and white below, with a dark mark at the shoulder where the folded wing meets the body. At a distance on a bright day it can look almost white.",
           "Behaviour is the quickest clue. The BTO sums the species up as a small, white, mouse-like wader chasing the tideline back and forth on a sandy beach. Watch for that: a bird keeping to the very edge of the water and following each wave in and out at a run.",
-          "They are small birds. BTO measurements of live birds put the average adult at around 58 grams. Old English folk names for the species include Towillee and Curwillet, and in Welsh it is Pibydd y Tywod, the piper of the sand.",
+          "They are small birds. BTO measurements of live birds put the average adult at around 58 grams. English folk names for the species include Towillee and Curwillet, and in Welsh it is Pibydd y Tywod.",
         ],
       },
       {
@@ -83,7 +90,7 @@ export const BLOG_POSTS: BlogPost[] = [
         body: [
           "The BTO names two sites in the UK that hold internationally important numbers of sanderling: The Wash and the Ribble Estuary. It also lists the Ribble among the places with the highest densities in winter. Sanderling prefer open sandy beaches and sandbars to muddy estuaries, which is why the long beaches running south from Southport suit them.",
           "The shore is protected for them. The Ribble and Alt Estuaries Special Protection Area, which overlaps the Sefton Coast SSSI, lists sanderling among the wintering birds it is designated for, and again as a passage species in spring and autumn. Sanderling are on the Amber list of Birds of Conservation Concern.",
-          "The UK picture is a good one. The BTO estimates the UK winter population at around 21,000 birds and reports that it rose by 54% between 1998 and 2023.",
+          "In the UK, numbers have risen over the long term. The BTO estimates the UK winter population at around 21,000 birds and reports that it rose by 54% between 1998 and 2023. The picture is not the same everywhere, though. The BTO notes that Wales is the one UK country where sanderling are declining, and that across the East Atlantic flyway the increase has slowed and the population may now be declining.",
         ],
         imageAfter: {
           src: "/images/reserves/marshside/ribble-estuary-spa-sign.jpg",
@@ -95,7 +102,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Where to Look",
         body: [
-          "Any stretch of open sandy beach on the Sefton Coast can hold sanderling in winter. For the bigger gatherings, Sefton Council names three key roost areas: between Ainsdale and Birkdale off the Green Beach, from Albert Road to the Alt at Formby, and the sandbanks off Hightown north of Hall Road.",
+          "Any stretch of open sandy beach on the Sefton Coast can hold sanderling in winter. Sefton Council's nature calendar says the winter roosts of waders and gulls begin to build in October, especially between Ainsdale and Birkdale. For spring migration, the same calendar names three key roost areas: between Ainsdale and Birkdale off the Green Beach, from Albert Road to the Alt at Formby, and the sandbanks off Hightown north of Hall Road.",
           "Timing around the tide makes the biggest difference. As the tide comes in, the birds feed along the edge of the advancing water, and at high tide they gather to roost on the upper beach and sandbanks. A rising tide on a calm morning gives you birds feeding close to the edge without you needing to approach the roost itself. Natural England's advice for the Ainsdale coast is to check the local tide timetable before you head onto the beach.",
           "You do not need a car. Sefton Council points out that the beaches are within walking distance of Merseyrail stations including Birkdale, Hillside, Ainsdale, Freshfield, Formby and Hall Road.",
         ],
@@ -104,7 +111,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Watching Without Disturbing Them",
         body: [
           "Winter is hard on small waders. Sefton Council's nature calendar says the coast's winter roosts are highly susceptible to disturbance during high tides and bad weather, when the birds need to conserve energy. Its Green Sefton team runs a campaign called Give Birds A Break, supported by the RSPB, Natural England and the National Trust.",
-          "The council's rule of thumb is simple: if the birds run or fly ahead of you, you are too close. Keep dogs and horses well away from birds on the beach, especially around high tide. The government factsheet for the Special Protection Area records the same concern: beach recreation disturbs roosting flocks, which affects the birds' energy and their chances of survival, especially in winter.",
+          "In winter the council asks visitors to give the roosts a wide berth and to keep dogs and horses well away from resting and feeding birds. For the nesting season it adds a simple test: if birds run or fly ahead of you, you are too close. The government factsheet for the Special Protection Area records the same concern: beach recreation disturbs roosting flocks, which affects the birds' energy and their chances of survival, especially in winter.",
           "Binoculars let you stay back. Stand still at the top of the beach as the tide rises, let the feeding flock work along the water's edge towards you, and they will often pass at a comfortable distance without you moving at all.",
         ],
       },
@@ -122,10 +129,11 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "conservation",
     categoryLabel: "Conservation",
     title: "Stranded Seals, Porpoises and Dolphins on the Sefton Coast: What to Do",
-    date: "2026-11-10",
+    date: "2026-11-11",
     metaDescription: "Found a seal, porpoise or dolphin on a Sefton Coast beach? Who to call, what to tell them and why you should never put it back in the sea, using advice from BDMLR, the UK strandings programme and Sefton Council.",
     heroLocalSrc: "/images/blog/beachcombing/barrel-jellyfish-ainsdale-beach.webp",
     heroAlt: "A barrel jellyfish stranded on wet sand at Ainsdale beach, with the dunes in the background",
+    heroCaption: "A barrel jellyfish stranded at Ainsdale. Seals and porpoises are not the only animals that wash up here. After storms, jellyfish can strand in large numbers, and those strandings are worth reporting too (see the end of this guide).",
     intro: "Seals, porpoises and dolphins live in the Irish Sea off the Sefton Coast, and now and then one ends up on the beach. Sefton Council says seal pups and adults are possible on the coast from October to December, especially after bad weather. Most seals on a beach are resting and need nothing from you. Some are injured, sick or too young to cope, and a porpoise or dolphin out of the water always needs help. This guide sets out who to ring and what to do while you wait.",
     sections: [
       {
@@ -148,8 +156,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Porpoises, Dolphins and Whales",
         body: [
           "About 12 species of whale, dolphin and porpoise have been recorded in the Irish Sea, according to Living Seas. The ones seen most often are harbour porpoise, bottlenose dolphin, common dolphin and minke whale. Sefton Council notes that porpoises, and occasionally dolphins, reappear off this coast in spring.",
-          "Unlike a seal, a porpoise or dolphin on the sand is in trouble. Call BDMLR straight away. Living Seas is clear that you should never drag the animal or try to return it to the sea: it has stranded for a reason and needs professional medical attention. Keep dogs and crowds back, keep noise and sudden movements to a minimum, and stay away from the tail, which is very powerful.",
-          "It is natural to want to push a stranded animal back into the water. Do not. Living Seas warns that this is dangerous for you and for the animal, and the same goes for trying to move it yourself.",
+          "Unlike a seal, a porpoise or dolphin on the sand is in trouble. Call BDMLR straight away. It is natural to want to push it back into the water, but Living Seas is clear that you should never drag the animal, try to return it to the sea or move it yourself. It has stranded for a reason and needs professional medical attention, and trying to help it back is dangerous for you and for the animal. Keep dogs and crowds back, keep noise and sudden movements to a minimum, and stay away from the tail, which is very powerful.",
         ],
       },
       {
@@ -540,7 +547,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Pink-footed Geese: catch them before they go",
         body: [
           "The Pink-footed Geese have been roosting at Marshside RSPB since October. By late March, numbers start to fall. The birds are building condition for the migration back to Iceland and Greenland, and the skeins thin out week by week. You can still get 10,000–20,000 at the dusk roost in early March. Later in the month it drops off quickly.",
-          "Go to the Marshside car park 30 minutes before sunset on a clear evening. The birds come in from the south and west, off the farmland fields where they've been feeding all day. Bring a flask. It's still cold. The noise as the first skeins arrive is something you don't forget.",
+          "The evening flight is the one to see: the birds come in from the south and west, off the farmland fields where they've been feeding all day. Do not plan on the RSPB car park for it. The RSPB locks its car park at 5pm from 2 March (4pm before that), before the geese come in, so arrive on foot or by bike. Bring a flask. It's still cold. The noise as the first skeins arrive is something you don't forget.",
           "If you've never seen the Marshside roost, March is your last chance until October. Don't leave it too late in the month.",
         ],
         imageAfter: {
@@ -576,7 +583,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Wader movement beginning",
         body: [
-          "Wader migration on the Sefton Coast picks up from mid-March. Ringed Plovers start moving through and early Sanderling can appear on the beach in the second half of the month. The beach at low tide is worth scanning systematically. Most people walk past good waders without noticing them.",
+          "Wader migration on the Sefton Coast picks up from mid-March. Ringed Plovers start moving through, and the Sanderling that spend the winter on these beaches are still here: they stay into spring, and passage birds keep coming through until late May. The beach at low tide is worth scanning systematically. Most people walk past good waders without noticing them.",
           "Redshank are present year-round and March is a good time to look properly at the waders on Marshside as the winter visitors are still present alongside early migrants. By April the scrape is busy; March is the quieter lead-up.",
           "Oystercatchers are loud and obvious throughout the month. Their piping calls at low tide are one of the defining sounds of the coast in early spring.",
         ],
@@ -584,10 +591,10 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Where to go this month",
         body: [
-          "Marshside RSPB (Southport end): Pink-footed Goose roost in early March, Avocets arriving, winter wildfowl still on the lagoons. The car park off Marshside Road is free. An hour at dusk on a clear day is worth it.",
-          "Ainsdale NNR: Common Frog spawn in the dune slack ponds, early Sand Lizard if the weather is kind, Brown Hares on the dune grassland edge. Walk in from the Ainsdale-on-Sea beach car park.",
+          "Marshside RSPB (Southport end): Pink-footed Goose roost in early March, Avocets arriving, winter wildfowl still on the lagoons. The RSPB car park (PR9 9PJ) is open from 8.30am to 4pm until 1 March and to 5pm from 2 March, and is locked outside those hours. It costs £1.50 for up to 2 hours or £3.00 for longer; RSPB members and Blue Badge holders park free.",
+          "Ainsdale NNR: Common Frog spawn in the dune slack ponds, early Sand Lizard if the weather is kind, Brown Hares on the dune grassland edge. Sefton Council's beach parking at Ainsdale does not open until 1 April, so come by train: Natural England puts the reserve 1.2km from Ainsdale station and 1.4km from Freshfield.",
           "Hesketh Bank farmland: Brown Hare and Pink-footed Goose feeding during the day. Drive the lanes slowly at first light.",
-          "Formby Beach: Low-tide wader watching along the tideline. Sanderling and Ringed Plover from mid-March. Worth combining with a walk through the pinewoods. Roe Deer are occasionally visible at the woodland edge at dawn.",
+          "Formby Beach: Low-tide wader watching along the tideline. Sanderling all month, and Ringed Plover from mid-March. Worth combining with a walk through the pinewoods. Roe Deer are occasionally visible at the woodland edge at dawn.",
         ],
       },
     ],
@@ -932,7 +939,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "What it is",
         body: [
           "The Marshside Saltmarsh is part of the Ribble Estuary Special Protection Area, protected at the highest level because of the birds it holds. The coastal path runs along the top of the sea wall from the RSPB car park area, with the reserve and managed lagoons behind the wall on your left and the open saltmarsh and estuary on your right.",
-          "It's free to access. There's no entrance fee, no booking system, no opening times: the coastal path is open at any reasonable hour. Park at the RSPB car park on Redshank Road and the coastal path starts from there.",
+          "Natural England describes it as a footpath of more than 12km along the flood embankment, running from RSPB Marshside past Crossens and Hundred End to Hesketh Out Marsh. If you drive, the RSPB car park (PR9 9PJ) is the place to leave the car, but it has opening hours and is locked outside them (see When to go below). Parking costs £1.50 for up to 2 hours or £3.00 for longer; RSPB members and Blue Badge holders park free.",
         ],
       },
       {
@@ -1079,13 +1086,13 @@ export const BLOG_POSTS: BlogPost[] = [
     heroLocalSrc: "/images/blog/beachcombing/barrel-jellyfish-dog-ainsdale-beach.webp",
     heroAlt: "A large barrel jellyfish stranded on Ainsdale Beach on the Sefton Coast, with a dog investigating in the background",
     intro:
-      "Jellyfish strandings on the Sefton Coast are common, particularly in late winter and spring. Two species dominate: barrel jellyfish and compass jellyfish. They look alarming. One of them will sting you (mildly). Here's how to tell them apart and what to actually do about it.",
+      "Jellyfish strandings on the Sefton Coast are common, particularly in late winter and spring. Two species dominate: barrel jellyfish and compass jellyfish. They look alarming, and Sefton Council's advice is not to touch any of them, because a stranded jellyfish can still sting after it has died. Here's how to tell them apart and what to actually do about it.",
     sections: [
       {
         heading: "Barrel jellyfish: the big flat one",
         body: [
           "If you've found a large, flat, disc-shaped jellyfish (dark brown or grey-purple, iridescent in the light, the size of a dinner plate or bigger), that's a barrel jellyfish (Rhizostoma pulmo). It's the UK's largest jellyfish species, capable of reaching 90cm across the bell and 35kg in weight. The ones that wash up on the Sefton coast are typically 30–60cm.",
-          "The sting of a barrel jellyfish is considered negligible for most people. The tentacles are fused and the nematocysts are too small to penetrate adult human skin effectively. You can handle one without concern. That said, don't rub your eyes afterwards, and don't let the dog eat it: digested nematocysts can still cause a reaction.",
+          "Sefton Council asks visitors to treat every stranded jellyfish with caution and not to touch it, because jellyfish can still sting when dead. If you do touch one, don't rub your eyes afterwards, and don't let the dog eat it: digested nematocysts can still cause a reaction.",
         ],
         imageAfter: {
           src: "/images/blog/beachcombing/barrel-jellyfish-dog-ainsdale-beach.webp",
@@ -1171,7 +1178,7 @@ export const BLOG_POSTS: BlogPost[] = [
         body: [
           "The Avocet colony at Marshside RSPB is well established by April. Breeding pairs are on the scrape, and by mid-April territorial disputes and courtship displays are visible from the road or the sea wall walk. In a good year, 40–50 pairs use the site.",
           "The Avocet is one of conservation's clearest success stories: extinct as a British breeding bird by 1840, recolonised naturally in Suffolk in the 1940s, and now established at a handful of key sites including Marshside. The RSPB uses it as its logo for good reason.",
-          "Access: the Marshside scrape is visible from Marshside Road (the road alongside the RSPB reserve). Free access to the sea wall path. The car park off Marshside Road is also free. You can see the Avocets clearly from the road without entering the reserve.",
+          "Access: the Marshside scrape is visible from Marshside Road (the road alongside the RSPB reserve). You can see the Avocets clearly from the road without entering the reserve. The RSPB car park (PR9 9PJ) costs £1.50 for up to 2 hours or £3.00 for longer, with RSPB members and Blue Badge holders free. In April it is open from 8.30am to 5pm and is locked outside those hours.",
         ],
       },
       {
@@ -1185,7 +1192,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Where to go in April",
         body: [
-          "Marshside RSPB (off Marshside Road, Southport): Avocets displaying and breeding, winter wildfowl still departing, early wader movement. Best in the morning. Car park free.",
+          "Marshside RSPB (off Marshside Road, Southport): Avocets displaying and breeding, winter wildfowl still departing, early wader movement. Best in the morning. RSPB car park 8.30am to 5pm, £1.50 up to 2 hours or £3.00 over 2 hours (RSPB members and Blue Badge holders free).",
           "Ainsdale NNR: Sand Lizards on south-facing dune slopes from mid-morning, Natterjack Toad ponds, dune vegetation starting to green up. Evenings for Natterjack calling.",
           "Formby Beach (Lifeboat Road car park, L37 2EB): Wheatears on the open beach, Sand Martins over the dune ponds, Oystercatchers nesting on the beach edge.",
           "Hesketh Bank farmland: Brown Hares still visible in April, quieter than March but still worth a slow drive at first light.",
@@ -1328,7 +1335,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Spring migrants in the scrub",
         body: [
-          "By Easter the first spring migrants are in. Chiffchaff has been back since mid-March. You'll hear its repetitive chiff-chaff call from any patch of scrub or woodland. Willow Warbler is the next arrival: similar habitat, similar size, but the song is completely different: a beautiful descending cascade of notes that starts strongly and fades. Once you know the Willow Warbler song you'll hear it everywhere in April.",
+          "By Easter the first spring migrants are in. Chiffchaff has been back since mid-March. You'll hear its repetitive chiff-chaff call from any patch of scrub or woodland. Willow Warbler is the next arrival, in similar habitat and of similar size, but the song is completely different: a beautiful descending cascade of notes that starts strongly and fades. Once you know the Willow Warbler song you'll hear it everywhere in April.",
           "Blackcap and Garden Warbler start arriving in April. The Blackcap has a rich, varied warbling song, stronger and more varied than the Willow Warbler. The males arrive before females and establish territories in dense scrub. The scrub margins around Ainsdale NNR are good habitat for both.",
           "Wheatear passes through in April on its way to upland breeding areas. Look for it on the open dune crests: a small, upright bird with a distinctive white rump that flashes as it flies. Not a breeding species on the Sefton Coast but a reliable spring passage migrant.",
         ],
@@ -1389,7 +1396,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Where to see them on the Sefton Coast",
         body: [
-          "Marshside RSPB is a reliable hirundine site in April. The open water and reed margins attract insects, and Swallows and House Martins feed low over the water on calm evenings. Park at the RSPB car park (the RSPB gives the reserve's postcode as PR9 9PJ) and walk the coastal path: hirundines will be feeding over the pools to the west.",
+          "Marshside RSPB is a reliable hirundine site in April. The open water and reed margins attract insects, and Swallows and House Martins feed low over the water on calm evenings. Walk the coastal path and watch the pools to the west. If you drive, note that the RSPB car park (the reserve's postcode is PR9 9PJ) is locked at 5pm, so an evening visit means arriving on foot or by bike. Daytime parking costs £1.50 for up to 2 hours or £3.00 for longer; RSPB members and Blue Badge holders park free.",
           "Farmland between Formby and Southport is good Swallow country once they've arrived. The birds nest in farm buildings and feed over the adjacent fields and hedgerows. Drive slowly on the minor roads between the coast and the A565 in April and you'll see them repeatedly.",
           "The dune margin at Ainsdale NNR can have hirundines feeding over the open dune slacks on warm afternoons when the insect activity is high.",
         ],
@@ -1654,7 +1661,7 @@ export const BLOG_POSTS: BlogPost[] = [
         body: [
           "Marshside is the most productive site on the Sefton Coast for Common Terns. The managed lagoons provide good fishing opportunities and, in some years, nesting habitat on the islands within the scrape. Check the RSPB sightings board at the car park for recent reports before walking out.",
           "The lagoon viewpoints along the sea wall give good views over the water. Late morning is usually productive: the terns fish actively when light is strong and direct. Bring binoculars at minimum; a telescope is worthwhile if you're specifically watching terns rather than passing through.",
-          "The car park is off Marshside Road, Southport. Free parking. The walk to the main viewpoints is around 10 minutes on a flat, surfaced path. Accessible for most visitors.",
+          "The RSPB car park (PR9 9PJ) costs £1.50 for up to 2 hours or £3.00 for longer, with RSPB members and Blue Badge holders free. From 2 March to 31 October it is open from 8.30am to 5pm and is locked outside those hours. The walk to the main viewpoints is around 10 minutes on a flat, surfaced path. Accessible for most visitors.",
         ],
       },
       {
@@ -1792,7 +1799,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Where to watch: Marshside RSPB",
         body: [
-          "Marshside is the most accessible quality site on the Sefton Coast for spring migration watching. The car park off Marshside Road is free. The scrape (visible from the road) holds Avocet, Lapwing, Redshank and early wader migrants. The lagoon to the north holds wildfowl year-round with additions in April.",
+          "Marshside is the most accessible quality site on the Sefton Coast for spring migration watching. The RSPB car park opens at 8.30am and is locked at 5pm from 2 March to 31 October; it costs £1.50 for up to 2 hours or £3.00 for longer, and RSPB members and Blue Badge holders park free. The scrape (visible from the road) holds Avocet, Lapwing, Redshank and early wader migrants. The lagoon to the north holds wildfowl year-round with additions in April.",
           "Spring at Marshside has a different quality to winter. Fewer birds overall, but what's there is more active, noisier, and in breeding plumage. Avocet males displaying at the scrape in April is worth seeing. They're elegant birds and the calling and posturing is sustained.",
           "Check the sea wall walk for Wheatear in the first half of April. They use the short turf along the top of the sea wall as a feeding perch before moving on. You can sometimes count five or six birds on a short stretch on a clear April morning.",
         ],
@@ -2049,7 +2056,7 @@ export const BLOG_POSTS: BlogPost[] = [
         body: [
           "By early July most of the first-brood passerine breeding has concluded. Linnets, stonechats, and reed buntings may be on second broods in suitable habitat. The marshside RSPB reserve and the dune slack habitats at Ainsdale have good populations of all three species.",
           "The little tern colony on Ainsdale beach is typically in the chick-rearing phase in early July, with chick fledging through mid-July. This is a critical period for the colony. Keep dogs on leads near the fenced exclosure if you are walking south from Formby Point.",
-          "Marsh harriers are regular over the reedbed habitats at Marshside through summer. A July morning visit to the Nelson hide or the coastal path at Marshside will often produce a harrier quartering the reedbed in the first hour after dawn.",
+          "Marsh harriers are regular over the reedbed habitats at Marshside through summer. A July morning visit to the coastal path at Marshside will often produce a harrier quartering the reedbed. The RSPB car park and Nel's Hide open at 8.30am, so for the first hours after dawn you will need to arrive on foot or by bike.",
         ],
       },
       {
@@ -2210,8 +2217,8 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Where to Look",
         body: [
           "Formby Point is the best land-based vantage point for grey seal sightings on the Sefton Coast. The point extends into the Irish Sea and provides clear views of the nearshore water and exposed sandbanks at low tide. Scan the water with binoculars at low tide for dark heads or the larger bulk of hauled seals.",
-          "Ainsdale beach has produced haul-out records on the lower beach beyond the little tern colony area. Access this section by walking south from Formby Point or north from the Ainsdale-on-Sea beach car park.",
-          "The walk from Formby Point south toward Ainsdale at low tide on a calm autumn or winter morning is the most reliable approach for grey seal sightings on this coast. Early morning before beach users arrive in numbers is the best timing.",
+          "Ainsdale beach has produced haul-out records on the lower beach beyond the little tern colony area. Access this section by walking north from Formby Point or south from the Ainsdale-on-Sea beach. Sefton Council's beach parking at Ainsdale is open only from 1 April to 30 September, so in autumn and winter come by train: Natural England puts the Ainsdale dunes 1.2km from Ainsdale station and 1.4km from Freshfield.",
+          "The walk from Formby Point north toward Ainsdale at low tide on a calm autumn or winter morning is the most reliable approach for grey seal sightings on this coast. Early morning before beach users arrive in numbers is the best timing.",
         ],
       },
       {
@@ -2444,7 +2451,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Where to Go in September",
         body: [
-          "Marshside RSPB: the primary destination for September waders, Pink-footed Geese and wildfowl. The Stan and Peggy Scott hide overlooks the main scrape. The Nels Hide path offers the most varied habitat walk. Arrive at dawn for waders and late afternoon for geese movement.",
+          "Marshside RSPB: the primary destination for September waders, Pink-footed Geese and wildfowl. The Nels Hide path offers the most varied habitat walk. The RSPB car park is open from 8.30am to 5pm and is locked outside those hours, so come early in the day for waders and late afternoon for geese movement, and be back at the car before 5pm.",
           "Formby pinewoods: early morning after overnight north-easterly winds for passerine migrants. The squirrel trail and the woodland path between the car park and the beach are the most productive areas.",
           "Formby Point: seawatching in any onshore wind. September produces Gannets, Manx Shearwater, skuas and terns moving south. The numbers increase through the month as the autumn migration builds.",
           "Ainsdale dunes: Wheatear and other open-country migrants on the short dune turf. The beach approach path and the dune ridges are the right habitat.",
@@ -2567,7 +2574,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Where to Go in August",
         body: [
-          "Marshside RSPB: hides open from dawn. August mornings are excellent for dragonflies on the scrape margins and waders on the mud. The Stan and Peggy Scott hide gives the best views of the main scrape. The path to the Nels Hide is the most productive for mixed wader and passerine activity.",
+          "Marshside RSPB: the car park and Nel's Hide open at 8.30am, and the car park is locked at 5pm. August mornings are excellent for dragonflies on the scrape margins and waders on the mud. The path to the Nels Hide is the most productive for mixed wader and passerine activity.",
           "Formby pinewoods: the squirrel trail and woodland path network. Early morning for red squirrels, which are increasingly active as September approaches. The pinewoods floor for early fungi.",
           "Formby Point: seawatching on westerly days. Stand facing the sea and scan systematically. August is the beginning rather than the peak of the autumn seawatching season, but an hour in the right conditions is always worth it.",
           "Ainsdale beach: the little tern colony area at the northern end of the managed beach zone. The colony wardens are still present in early August. Respect the fencing.",

@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "Can I see Pink-footed Geese at Marshside?",
-    a: "Yes. Pink-footed Geese start arriving from Iceland in September, and by October thousands roost on the shore at Hightown, Birkdale and Southport. Evening and morning flighting from the sea wall is one of the best wildlife spectacles in England.",
+    a: "Yes. Pink-footed Geese start arriving from Iceland in September, and by October thousands roost on the shore at Hightown, Birkdale and Southport. Evening and morning flighting from the sea wall is one of the best wildlife spectacles in England. Both happen outside the RSPB car park's hours: it opens at 8.30am and is locked at 4pm from 1 November to 1 March (5pm from 2 March to 31 October), so for dawn or dusk arrive on foot or by bike.",
   },
 ];
 
@@ -99,9 +99,9 @@ export default function BirdwatchingGuidePage() {
         {/* Stat block */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {[
-            { stat: "250,000", label: "Up to this many birds use the Ribble each year" },
+            { stat: "250,000", label: "Birds a year, at most, on the Ribble Estuary (Natural England)" },
             { stat: "4", label: "Key sites to visit" },
-            { stat: "Free", label: "Entry to Marshside RSPB" },
+            { stat: "8.30am", label: "Marshside car park opens (locked at 4pm in winter)" },
             { stat: "Year-round", label: "Always something to see" },
           ].map(({ stat, label }) => (
             <div key={label} className="rounded-xl bg-[var(--dune)] p-4 text-center">
@@ -124,9 +124,9 @@ export default function BirdwatchingGuidePage() {
               <span className="text-xs bg-[var(--forest)] text-white px-2 py-0.5 rounded font-medium flex-shrink-0">Best overall</span>
             </div>
             <p className="text-sm text-[var(--slate)] leading-relaxed mb-2">
-              Managed lagoons and scrapes on the edge of the Ribble Estuary. Free entry. A hide, a viewing platform and screens. Waders, wildfowl and, in winter, thousands of Pink-footed Geese. Go in the morning: better light and the geese are still on the fields.
+              Managed lagoons and scrapes on the edge of the Ribble Estuary. A hide, a viewing platform and screens. Waders, wildfowl and, in winter, thousands of Pink-footed Geese. Go in the morning: better light and the geese are still on the fields.
             </p>
-            <p className="text-xs text-[var(--slate)]/60 mb-1">Postcode: PR9 9PJ · Free entry · Dogs on leads</p>
+            <p className="text-xs text-[var(--slate)]/60 mb-1">Postcode: PR9 9PJ · Car park 8.30am to 4pm (1 Nov to 1 Mar) or 5pm (2 Mar to 31 Oct), locked outside those hours · £1.50 up to 2 hours, £3.00 over 2 hours, RSPB members and Blue Badge holders free · Dogs on leads</p>
             <Link href="/nature/marshside-rspb" className="text-xs text-[var(--marsh)] font-medium hover:underline block">Full guide to Marshside →</Link>
           </div>
 
@@ -143,7 +143,7 @@ export default function BirdwatchingGuidePage() {
             <p className="text-sm text-[var(--slate)] leading-relaxed mb-2">
               Managed by Natural England. Dune slack habitat holds Natterjack Toads (spring evenings) and dune-specialist insects. Breeding Stonechats and Linnets on the scrub edge. The pine woodland section can produce Crossbill in irruption years.
             </p>
-            <p className="text-xs text-[var(--slate)]/60">Park at Ainsdale-on-Sea beach car park (none on the reserve) · Free entry · Permits required for restricted areas</p>
+            <p className="text-xs text-[var(--slate)]/60">No parking on the reserve · Sefton Council beach parking at Ainsdale-on-Sea 1 April to 30 September only · By train: Ainsdale station (1.2km) or Freshfield (1.4km) · Free entry · Permits required for restricted areas</p>
           </div>
 
           <div className="card-hover rounded-xl border border-[var(--dune)] bg-white p-5">

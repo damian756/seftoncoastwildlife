@@ -25,11 +25,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Is Ainsdale Sand Dunes NNR free to enter?",
-    a: "Yes. Entry is free and the reserve is open at all times. The main access is from Shore Road, Ainsdale. You pay to use the beach car park at Ainsdale (managed by Sefton Council) but the NNR itself has no entry charge.",
+    a: "Yes. Entry is free and the reserve is open at all times. There is no public parking on the reserve. Sefton Council charges for its beach parking at Ainsdale-on-Sea, which is open only from 1 April to 30 September, but the NNR itself has no entry charge.",
   },
   {
     q: "What is the postcode for Ainsdale Sand Dunes NNR?",
-    a: "PR8 2QA gets you to Shore Road, Ainsdale, which is the main access point for the reserve. The NNR sits directly inland from Ainsdale Beach, between the beach and the railway line.",
+    a: "There is no single entrance. Natural England lists footpath entrances from Pinfold Lane and the Coastal Road in Ainsdale, from Fisherman's Path in Freshfield, and from the north and south along the beach and frontal dune paths. For the beach approach from Ainsdale-on-Sea, PR8 2QA takes you to Shore Road. By train, the reserve is 1.2km from Ainsdale station and 1.4km from Freshfield.",
   },
   {
     q: "Can I see natterjack toads at Ainsdale?",
@@ -131,7 +131,7 @@ export default function AinsdaleSandDunesPage() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {[
             { stat: "Free", label: "Entry, always" },
-            { stat: "PR8 2QA", label: "Postcode for access" },
+            { stat: "PR8 2QA", label: "Postcode for the beach approach" },
             { stat: "492ha", label: "Reserve area" },
             { stat: "Apr–Jun", label: "Best for natterjacks" },
           ].map(({ stat, label }) => (
@@ -151,7 +151,7 @@ export default function AinsdaleSandDunesPage() {
             <tbody className="divide-y divide-[var(--foam)]">
               <tr className="py-2"><td className="py-2 font-medium w-36">Postcode</td><td className="py-2">PR8 2QA (Shore Road, Ainsdale)</td></tr>
               <tr><td className="py-2 font-medium">Entry</td><td className="py-2">Free. Open access at all times</td></tr>
-              <tr><td className="py-2 font-medium">Parking</td><td className="py-2"><a href="https://www.southportguide.co.uk/parking/parking-ainsdale-beach-parking-area" target="_blank" rel="noopener" className="text-[var(--marsh)] underline underline-offset-2">Ainsdale Beach car park</a> (Sefton Council, paid). The NNR is directly accessible from the beach</td></tr>
+              <tr><td className="py-2 font-medium">Parking</td><td className="py-2">None on the reserve. Sefton Council&apos;s <a href="https://www.southportguide.co.uk/parking/parking-ainsdale-beach-parking-area" target="_blank" rel="noopener" className="text-[var(--marsh)] underline underline-offset-2">beach parking at Ainsdale</a> is open from 1 April to 30 September only (£10 a day). Out of season, come by train: Ainsdale station is 1.2km away, Freshfield 1.4km</td></tr>
               <tr><td className="py-2 font-medium">Managed by</td><td className="py-2">Natural England</td></tr>
               <tr><td className="py-2 font-medium">Dogs</td><td className="py-2">Permitted, under close control. On leads Mar–Aug near dune slacks and vegetated areas</td></tr>
               <tr><td className="py-2 font-medium">Facilities</td><td className="py-2">No on-site facilities. Ainsdale village is 10 minutes walk with cafés and shops</td></tr>
@@ -178,7 +178,7 @@ export default function AinsdaleSandDunesPage() {
         </p>
         <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">What lives here</h2>
         <p className="text-[var(--slate)] mb-6 leading-relaxed">
-          Ainsdale&apos;s dune system is internationally designated: it&apos;s a Special Area of Conservation (SAC) and Site of Special Scientific Interest (SSSI). That&apos;s not bureaucratic box-ticking. It means the wildlife here is genuinely rare.
+          Ainsdale&apos;s dune system is internationally designated: it&apos;s a Special Area of Conservation (SAC) and Site of Special Scientific Interest (SSSI). That&apos;s not bureaucratic box-ticking. It means the wildlife here is rare.
         </p>
 
         <div className="space-y-6 mb-6">
@@ -230,10 +230,10 @@ export default function AinsdaleSandDunesPage() {
         </p>
         <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Ainsdale Beach from the NNR</h2>
         <p className="text-[var(--slate)] mb-5 text-sm leading-relaxed">
-          Walk west through the dune system and you emerge straight onto Ainsdale Beach, a wide, open stretch of Irish Sea coast backed by the NNR. The tideline here is genuinely worth a look. After overnight high tides or storms, the strandline turns up mermaid&apos;s purses (shark egg cases), barrel jellyfish, compass jellyfish, whelk egg masses and razor clams. Low tide after a big winter swell is prime beachcombing.
+          Walk west through the dune system and you emerge straight onto Ainsdale Beach, a wide, open stretch of Irish Sea coast backed by the NNR. The tideline here is worth a look. After overnight high tides or storms, the strandline turns up mermaid&apos;s purses (shark egg cases), barrel jellyfish, compass jellyfish, whelk egg masses and razor clams. Low tide after a big winter swell is prime beachcombing.
         </p>
         <p className="text-[var(--slate)] mb-5 text-sm leading-relaxed">
-          Barrel jellyfish wash in through winter and early spring. They can reach 90cm across and are completely harmless. Compass jellyfish have a mild sting on the tentacles: don&apos;t handle those. Both species indicate clean offshore water and are normal on this coastline.
+          Barrel jellyfish wash in through winter and early spring. They can reach 90cm across. Compass jellyfish have a sting on the tentacles. Sefton Council&apos;s advice covers both: treat stranded jellyfish with caution and do not touch them, because they can still sting even when dead. Both species indicate clean offshore water and are normal on this coastline.
         </p>
 
         {/* Full-width beach image */}
@@ -278,10 +278,10 @@ export default function AinsdaleSandDunesPage() {
         <div className="bg-[var(--dune)] rounded-xl p-5 mb-10 text-sm text-[var(--slate)] leading-relaxed">
           <p className="font-semibold text-[var(--forest)] mb-2">Beachcombing at Ainsdale: what to know</p>
           <ul className="space-y-1.5">
-            <li>Best timing: low tide on a falling tide after an overnight high: the strandline is freshest</li>
+            <li>Best timing: low tide on a falling tide after an overnight high, when the strandline is freshest</li>
             <li>Post-storm mornings in winter are prime: the biggest finds wash in after rough weather</li>
             <li>Mermaid&apos;s purses are safe to handle: the shark has already hatched</li>
-            <li>Barrel jellyfish are harmless; compass jellyfish have a mild sting on the tentacles</li>
+            <li>Look but do not touch jellyfish: Sefton Council warns they can sting even when dead</li>
             <li>Full guide: <Link href="/blog/what-is-a-mermaids-purse" className="text-[var(--marsh)] underline">what is a mermaid&apos;s purse?</Link> and <Link href="/blog/jellyfish-sefton-coast" className="text-[var(--marsh)] underline">jellyfish on the Sefton Coast</Link></li>
           </ul>
         </div>
@@ -337,13 +337,13 @@ export default function AinsdaleSandDunesPage() {
         </p>
         <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-3">How to find it</h2>
         <p className="text-[var(--slate)] mb-3 text-sm leading-relaxed">
-          <strong>By car:</strong> Postcode <strong>PR8 2QA</strong> takes you to Shore Road, Ainsdale. Park at <a href="https://www.southportguide.co.uk/parking/parking-ainsdale-beach-parking-area" target="_blank" rel="noopener" className="text-[var(--marsh)] underline underline-offset-2">Ainsdale Beach car park</a> (Sefton Council, pay and display). The NNR lies to the south of the beach car park: Natural England says you can reach it along the beach or through the neighbouring Ainsdale Sandhills Local Nature Reserve.
+          <strong>By car:</strong> Postcode <strong>PR8 2QA</strong> takes you to Shore Road, Ainsdale. Sefton Council&apos;s <a href="https://www.southportguide.co.uk/parking/parking-ainsdale-beach-parking-area" target="_blank" rel="noopener" className="text-[var(--marsh)] underline underline-offset-2">beach parking at Ainsdale</a> is open from 1 April to 30 September only, at £10 a day, and there is no public parking on the reserve. The NNR lies to the south of the beach car park: Natural England says you can reach it along the beach or through the neighbouring Ainsdale Sandhills Local Nature Reserve.
         </p>
         <p className="text-[var(--slate)] mb-3 text-sm leading-relaxed">
           The National Trust site at Formby (Victoria Road car park, L37 1LJ) is to the south, and the two reserves adjoin. You can walk between them along the beach at low tide, though the NT car park and Ainsdale car park are separate.
         </p>
         <p className="text-[var(--slate)] mb-6 text-sm leading-relaxed">
-          <strong>By train:</strong> Ainsdale station is on the Merseyrail Northern Line, 15 minutes&apos; walk to the beach. Much easier than dealing with the car park on summer weekends.
+          <strong>By train:</strong> Natural England puts the reserve 1.2km from Ainsdale station and 1.4km from Freshfield station, both on Merseyrail. From October to March, when the beach parking is closed, the train is the easiest way in, and it saves dealing with the car park on summer weekends.
         </p>
 
         {/* Access sign images, 2-column grid like Marshside's viewpoints */}

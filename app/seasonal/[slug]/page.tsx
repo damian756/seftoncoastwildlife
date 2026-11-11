@@ -39,6 +39,7 @@ const seasonalPages: Record<string, SeasonalPageData> = {
         body: [
           "The sea wall at Marshside RSPB (PR9 9PJ) is the best viewpoint. The geese roost on the estuary and flight out to the fields at dawn: stand on the wall at first light in October and you'll hear them before you see them. The calling builds from a murmur to something that fills the sky.",
           "Evening flighting is equally good: watch from the same spot an hour before dusk as the birds come back onto the estuary. In the right light it's unforgettable.",
+          "Neither flight fits the RSPB car park's hours. It opens at 8.30am and is locked at 4pm from 1 November to 1 March and at 5pm from 2 March to 31 October, so for dawn or dusk come on foot or by bike, and never leave a car there after closing time. Daytime parking costs £1.50 for up to 2 hours or £3.00 for longer; RSPB members and Blue Badge holders park free.",
           "The fields around Southport and Crossens hold feeding flocks during the day. You can often see birds from the road: look for large brown geese in ploughed or stubble fields, usually in flocks of hundreds.",
         ],
       },
@@ -59,12 +60,12 @@ const seasonalPages: Record<string, SeasonalPageData> = {
       },
     ],
     practicalTips: [
-      "Arrive before dawn for morning flighting: the spectacle starts at first light",
-      "Evening flighting: be in position an hour before dusk",
+      "Morning flighting starts at first light and evening flighting comes in around dusk. Both fall outside the RSPB car park's hours, so arrive on foot or by bike",
+      "RSPB car park: 8.30am to 4pm from 1 November to 1 March, 8.30am to 5pm from 2 March to 31 October, locked outside those hours",
       "Dress warmly: the sea wall is exposed and you may be standing still for a while",
       "Bring a scope if you have one: useful for picking through the flocks",
       "Peak viewing: late October to late November",
-      "Postcode for Marshside: PR9 9PJ",
+      "Postcode for Marshside: PR9 9PJ. Parking £1.50 up to 2 hours, £3.00 over 2 hours (RSPB members and Blue Badge holders free)",
     ],
     relatedLinks: [
       { href: "/nature/marshside-rspb", label: "Marshside RSPB guide" },
@@ -142,7 +143,7 @@ const seasonalPages: Record<string, SeasonalPageData> = {
     heroWikipediaTitle: "Grey plover",
     heroAlt: "Grey Plover in breeding plumage on coastal habitat",
     intro:
-      "Spring and summer bring a different Sefton Coast. The winter geese have gone back to Iceland, but in their place come breeding Avocets on the Marshside scrapes, Little Terns on the Ainsdale beach, Sedge Warblers in the reedbed edge and Skylarks above the dunes. It's less dramatic than October geese but it requires more attention, and some of the breeding species here are genuinely rare.",
+      "Spring and summer bring a different Sefton Coast. The winter geese have gone back to Iceland, but in their place come breeding Avocets on the Marshside scrapes, Little Terns on the Ainsdale beach, Sedge Warblers in the reedbed edge and Skylarks above the dunes. It's less dramatic than October geese but it requires more attention, and some of the breeding species here are rare.",
     sections: [
       {
         heading: "Avocets at Marshside",
@@ -228,7 +229,7 @@ const seasonalPages: Record<string, SeasonalPageData> = {
         heading: "Going beyond the ducks",
         body: [
           "Winter mornings at Marshside are rarely just about wildfowl. The saltmarsh holds Water Rail: you'll hear them more than see them, a squealing call from the vegetation edge. Jack Snipe are present through winter but require specific conditions to see: muddy areas in low sun, and patience.",
-          "Short-eared Owl hunts the marsh in winter, usually late afternoon. They're not guaranteed but a winter visit without scanning the marsh edge at dusk is a missed opportunity.",
+          "Short-eared Owl hunts the marsh in winter, usually late afternoon. They're not guaranteed, but scan the marsh edge before you leave. In winter the RSPB car park is locked at 4pm, so if you have driven, be back at the car before then.",
         ],
       },
     ],
@@ -237,8 +238,8 @@ const seasonalPages: Record<string, SeasonalPageData> = {
       "Cold spells bring unusual species: worth visiting after a hard frost",
       "Wigeon can often be heard before you reach the hide: a whistling call from the marsh",
       "Check the saltmarsh edge carefully for Jack Snipe and Water Rail",
-      "Late afternoon in January: scan for Short-eared Owl over the marsh",
-      "Postcode: PR9 9PJ · Free entry",
+      "Afternoon in January: scan for Short-eared Owl over the marsh, and be back at the car before the RSPB car park is locked at 4pm",
+      "Postcode: PR9 9PJ. RSPB car park 8.30am to 4pm (1 November to 1 March), £1.50 up to 2 hours, £3.00 over 2 hours; RSPB members and Blue Badge holders free",
     ],
     relatedLinks: [
       { href: "/nature/marshside-rspb", label: "Marshside RSPB guide" },

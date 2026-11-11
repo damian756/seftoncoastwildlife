@@ -18,8 +18,8 @@ const reserves = [
   {
     href: "/nature/marshside-rspb",
     name: "Marshside RSPB Reserve",
-    tag: "RSPB · Free entry · Southport",
-    desc: "80,000+ Pink-footed Geese in winter. Free entry. Managed lagoons and breeding Avocets. The best single wildlife site on the Sefton Coast.",
+    tag: "RSPB · Paid car park · Southport",
+    desc: "On the Ribble Estuary, which Natural England says holds up to 250,000 birds a year. Pink-footed Geese and Wigeon in winter, managed lagoons and breeding Avocets in summer.",
   },
   {
     href: "/nature/ainsdale-sand-dunes",

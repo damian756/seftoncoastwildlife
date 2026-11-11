@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Page Not Found | Sefton Coast Wildlife",
+  title: "Page Not Found",
   description: "That page doesn't exist. Browse birds, mammals, insects and plants recorded on the Sefton Coast.",
 };
 

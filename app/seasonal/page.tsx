@@ -1,8 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const title = "Seasonal Wildlife Guides — Sefton Coast";
-const description = "What to see when on the Sefton Coast — pink-footed geese, wader migration, breeding birds and winter wildfowl.";
+const title = "Seasonal Wildlife Guides for the Sefton Coast";
+const description = "What to see when on the Sefton Coast: pink-footed geese, wader migration, breeding birds and winter wildfowl.";
 const url = "https://www.seftoncoastwildlife.co.uk/seasonal";
 
 export const metadata: Metadata = {
@@ -18,14 +18,14 @@ const seasons = [
     slug: "pink-footed-geese",
     title: "Pink-footed Geese",
     period: "October – March",
-    desc: "Up to 80,000 geese arrive from Iceland each autumn — one of the great wildlife spectacles of northern England.",
+    desc: "Thousands of Pink-footed Geese arrive from Iceland each autumn, and Natural England says up to 250,000 birds a year use the Ribble Estuary.",
     tag: "Peak season",
   },
   {
     slug: "wader-migration",
     title: "Wader Migration",
     period: "Spring & Autumn",
-    desc: "Dunlin, Curlew Sandpiper, Little Stint and Black-tailed Godwit — the scrapes fill with birds that have crossed continents.",
+    desc: "Dunlin, Curlew Sandpiper, Little Stint and Black-tailed Godwit: the scrapes fill with birds that have crossed continents.",
     tag: "April–May & Jul–Oct",
   },
   {
@@ -60,7 +60,7 @@ export default function SeasonalPage() {
           </p>
           <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-3">Seasonal guides</h1>
           <p className="text-white/70 max-w-2xl leading-relaxed">
-            When to visit the Sefton Coast for specific wildlife — from the spectacle of 80,000 Pink-footed Geese to spring wader passage and summer breeders.
+            When to visit the Sefton Coast for specific wildlife, from the winter geese on the Ribble to spring wader passage and summer breeders.
           </p>
         </div>
       </div>

@@ -99,6 +99,15 @@ export default async function BlogPostPage({ params }: Props) {
                 <a href={heroCredit.href} target="_blank" rel="noopener noreferrer" className="underline hover:text-white/90 pointer-events-auto">
                   {heroCredit.text}
                 </a>
+                {heroCredit.licence && (
+                  <>
+                    ,{" "}
+                    <a href={heroCredit.licence.href} target="_blank" rel="noopener noreferrer license" className="underline hover:text-white/90 pointer-events-auto">
+                      {heroCredit.licence.text}
+                    </a>
+                  </>
+                )}
+                {heroCredit.source && <>, {heroCredit.source}</>}
               </p>
             </div>
           )}
@@ -113,6 +122,11 @@ export default async function BlogPostPage({ params }: Props) {
             </div>
           )}
         </div>
+      )}
+      {heroSrc && post.heroCaption && (
+        <p className="mx-auto max-w-3xl px-4 pt-3 text-xs text-[var(--slate)]/70 leading-relaxed">
+          {post.heroCaption}
+        </p>
       )}
 
       <div className="mx-auto max-w-3xl px-4 py-10">

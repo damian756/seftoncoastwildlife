@@ -7,10 +7,10 @@
     "order": "Rodentia",
     "family": "Sciuridae",
     "seasonalPresence": "Year-round. Most active and visible September–February.",
-    "bestTimeOfDay": "8–10am, most active in early morning, especially in autumn when caching food",
+    "bestTimeOfDay": "Morning, especially in autumn when they are caching food. The National Trust's Victoria Road car park opens at 9am",
     "whereToSee": "National Trust pinewoods at Formby, on the red squirrel trail from the Victoria Road car park (L37 1LJ). A squirrel pox outbreak was confirmed in Formby in July 2026, and the Wildlife Trust has asked people to remove feeders along the Sefton Coast.",
     "shortLocation": "Formby NT Pinewoods",
-    "ukPopulation": "Around 140,000, 85% in Scotland; fewer than 20,000 in England, mostly in the north",
+    "ukPopulation": "An estimated 287,000 in the UK, around three quarters of them in Scotland (Wildlife Trust)",
     "seftonPopulation": "Isolated population in the Formby pinewoods, one of England's most important remaining strongholds. Squirrel pox was confirmed there in July 2026; the last major outbreak, in 2008, cut numbers by an estimated 80%.",
     "habitat": [
       "Coniferous pinewood",
@@ -19,7 +19,7 @@
     "diet": "Pine seeds, acorns, hazelnuts, fungi, bark, insects. Caches food for winter",
     "description": "The red squirrel at Formby is an icon. This is one of the most accessible populations in England, managed carefully by the National Trust. They've been lost from most of England, outcompeted and displaced by introduced Grey Squirrels. Formby's isolated pinewood population survives because Grey Squirrels struggle in pure pine: there's not enough food for them, but the reds are adapted to pine seed. The squirrel trail is well-signed and early morning gives the best chance.",
     "identification": "Smaller and more slender than Grey Squirrel. Russet-red coat (can be darker in winter, occasionally near-black). Ear tufts in winter: distinctive. No grey colouring. Much more compact than Grey Squirrel.",
-    "tips": "Go early morning (8–10am) in autumn. Bring binoculars and keep quiet. Dogs must be on leads. Autumn is best: they spend more time on the ground caching seeds. If you see a sick red squirrel, call the Wildlife Trust's Red Squirrel Team on 07590 745 862.",
+    "tips": "Go in the morning in autumn; the Victoria Road car park opens at 9am. Bring binoculars and keep quiet. Dogs must be on leads. Autumn is best: they spend more time on the ground caching seeds. If you see a sick red squirrel, call the Wildlife Trust's Red Squirrel Team on 07590 745 862.",
     "difficulty": "easy",
     "relatedSpecies": [],
     "wikipediaTitle": "Red squirrel",
@@ -30,15 +30,11 @@
     "faq": [
       {
         "question": "Where is the best place to see Red Squirrels at Formby?",
-        "answer": "The red squirrel trail in the National Trust pinewoods at Formby, reached from the Victoria Road car park (postcode L37 1LJ). Arrive early morning (8–10am) for the best chance, especially in autumn. A squirrel pox outbreak was confirmed in Formby in July 2026: the Wildlife Trust asks people not to put out feeders and to report sick red squirrels to its Red Squirrel Team on 07590 745 862."
+        "answer": "The red squirrel trail in the National Trust pinewoods at Formby, reached from the Victoria Road car park (postcode L37 1LJ). Go in the morning for the best chance, especially in autumn; the car park opens at 9am. A squirrel pox outbreak was confirmed in Formby in July 2026: the Wildlife Trust asks people not to put out feeders and to report sick red squirrels to its Red Squirrel Team on 07590 745 862."
       },
       {
         "question": "Why do Red Squirrels survive at Formby when they've been lost elsewhere?",
         "answer": "Formby's pinewoods are dominated by Scots Pine, which produces small seeds that Red Squirrels can efficiently harvest but Grey Squirrels struggle with. The isolation of the pinewood also slows recolonisation by Greys. The National Trust actively manages the woodland and controls Grey Squirrel numbers to protect the population."
-      },
-      {
-        "question": "How many Red Squirrels are at Formby?",
-        "answer": "The Formby population is estimated at 1,000–1,500 individuals, making it one of the larger Red Squirrel populations in England. It is considered a key conservation site and the National Trust invests significantly in habitat management and monitoring."
       }
     ],
     "group": "mammal",
@@ -494,7 +490,7 @@
     ],
     "diet": "Invertebrates: beetles, ants, grasshoppers, spiders",
     "description": "The Sand Lizard is one of Britain's most spectacular reptiles and one of the most important reasons Ainsdale NNR exists. Breeding males in spring are vivid emerald-green on the flanks, extraordinary colouration unlike any other British reptile. The Sefton Coast population is one of the largest in Britain and a National Trust/Natural England conservation priority. They require open, bare, south-facing sand for egg-laying (the sun incubates the eggs) and are highly sensitive to habitat structure. Careful dune management, creating and maintaining bare sand slopes, is done specifically for them.",
-    "identification": "Stocky lizard. Male spring: brilliant green flanks, brown-spotted back: unmistakeable. Female and non-breeding male: brown with pale-spotted pattern. Broader, more robust than Common Lizard. Slow, cautious movement.",
+    "identification": "Stocky lizard. Male in spring: brilliant green flanks and a brown-spotted back, unmistakeable. Female and non-breeding male: brown with pale-spotted pattern. Broader, more robust than Common Lizard. Slow, cautious movement.",
     "tips": "Visit south-facing open sand slopes at Ainsdale NNR on a warm March or April morning. Sand Lizards emerge early to bask. Move very slowly: they're wary and retreat to cover quickly. May is peak time for vivid male colour.",
     "difficulty": "specialist",
     "relatedSpecies": [
