@@ -159,7 +159,7 @@
       "Coastal lagoon"
     ],
     "diet": "Bivalves, crustaceans, marine worms on mudflats",
-    "description": "A stocky wader that breeds on Arctic tundra and spends the winter on estuaries. The RSPB says wintering Knots in the UK have declined by 13% in 25 years, which puts them on the Amber List, and that their dependence on estuaries leaves them vulnerable to barrages, rising sea levels and disturbance. On this coast they are protected by the Sefton Coast SSSI and two Special Protection Areas.",
+    "description": "A stocky wader that breeds on Arctic tundra and spends the winter on estuaries. It is Amber-listed (BTO, RSPB). The BTO gives the change in the UK winter population as +15% from 1998 to 2023 and says the long-term trend has been more or less stable since the early 1990s. The RSPB says its dependence on estuaries leaves it vulnerable to barrages, rising sea levels and disturbance. On this coast it is protected by the Sefton Coast SSSI and two Special Protection Areas.",
     "identification": "Dumpy and stocky. Grey above and white below in winter; brick-red chest, belly and face in summer. A pale rump and a faint wing stripe in flight. Winter flocks twist and turn, flashing their pale underwings (RSPB).",
     "tips": "Roosts form over high tide. Sefton Council asks you to give them a wide berth: if the birds run or fly ahead of you, you are too close. Keep dogs well away.",
     "difficulty": "moderate",
@@ -180,7 +180,7 @@
       },
       {
         "question": "Is the Knot on the Red List?",
-        "answer": "No. The BTO and the RSPB list it as Amber. The RSPB says UK wintering numbers have fallen by 13% in 25 years."
+        "answer": "No. The BTO and the RSPB list it as Amber."
       }
     ],
     "localImage": "/images/species/birds/knot.jpg",
@@ -204,6 +204,10 @@
       {
         "label": "Natural England: Mersey Narrows and North Wirral Foreshore SPA (Designated Sites View)",
         "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9020287"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries Ramsar (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK11057"
       },
       {
         "label": "Natural England: Merseyside's National Nature Reserves",
@@ -299,7 +303,7 @@
     "whereToSee": "The RSPB lists Marshside among its reserves for Black-tailed Godwits. WWT includes them among the birds at its winter swan feeds at Martin Mere.",
     "shortLocation": "Marshside RSPB",
     "ukPopulation": "About 41,000 in winter and 53 breeding pairs (BTO estimates, 2012-17 and 2013-17)",
-    "seftonPopulation": "The Icelandic race is a qualifying species of the Ribble and Alt Estuaries SPA and Ramsar site (Natural England).",
+    "seftonPopulation": "The Icelandic race is a qualifying species of the Ribble and Alt Estuaries SPA, and Black-tailed Godwit is a wintering feature of the Ramsar site (Natural England).",
     "habitat": [
       "Coastal lagoon",
       "Estuary",
@@ -670,7 +674,7 @@
       "Flooded fields"
     ],
     "diet": "Earthworms, soil invertebrates, beetles",
-    "description": "The RSPB says Lapwing numbers fell by 56% between 1995 and 2024, partly because of changes in agriculture, which puts the species on the Red List. Lapwings nest on spring-tilled arable land or short grassland and feed mainly on earthworms, leatherjackets and insects, often on grazed pasture and wet grassland. At Marshside they nest on the islands, and in spring they chase off predators that come too close.",
+    "description": "The RSPB says the UK breeding population fell by 56% between 1995 and 2024, partly because of changes in agriculture, which puts the species on the Red List. Lapwings nest on spring-tilled arable land or short grassland and feed mainly on earthworms, leatherjackets and insects, often on grazed pasture and wet grassland. At Marshside they nest on the islands, and in spring they chase off predators that come too close.",
     "identification": "Medium wader with a wispy crest. Iridescent green-black above, white below, black breast band. Orange-red undertail. Broad, rounded wings with slow wingbeats.",
     "tips": "In spring, watch for Lapwings chasing predators away from their nests. In winter, look for the big flocks of Lapwings, Golden Plovers and Wigeons that rise when a Peregrine or Kestrel arrives (RSPB).",
     "difficulty": "easy",
@@ -687,7 +691,7 @@
     "faq": [
       {
         "question": "Why are Lapwings declining?",
-        "answer": "The RSPB says Lapwing numbers fell by 56% between 1995 and 2024, partly because of changes in agriculture. It works with farmers to keep suitable nesting habitat and to look out for nests when using machinery."
+        "answer": "The RSPB says the UK breeding population fell by 56% between 1995 and 2024, partly because of changes in agriculture. It works with farmers to keep suitable nesting habitat and to look out for nests when using machinery."
       }
     ],
     "localImage": "/images/species/birds/lapwing.jpg",
@@ -1162,7 +1166,7 @@
     "seasonalPresence": "Mainly a winter visitor from Iceland. The RSPB says they usually start arriving in October and leave in March and April.",
     "whereToSee": "WWT Martin Mere, where WWT says Whooper Swans join the autumn flocks towards the end of the season and gather at the 3pm swan feeds in winter.",
     "shortLocation": "WWT Martin Mere",
-    "ukPopulation": "About 20,000 in winter and 28 breeding pairs (BTO estimates)",
+    "ukPopulation": "About 20,000 in winter (BTO estimate) and 28 breeding pairs (BTO, 2013-17)",
     "seftonPopulation": "A qualifying species of the Ribble and Alt Estuaries SPA and Ramsar site in winter (Natural England).",
     "habitat": [
       "Coastal marsh",
@@ -1228,7 +1232,7 @@
     "seasonalPresence": "Common winter visitor; scarce in summer, when a small number breed (BTO).",
     "whereToSee": "Low-lying wetland in winter. The Wildlife Trust lists Teal on the lagoons and reedbed at Seaforth in winter.",
     "shortLocation": "Seaforth",
-    "ukPopulation": "About 435,000 in winter and about 2,700 breeding pairs (BTO estimates)",
+    "ukPopulation": "About 435,000 in winter (BTO, 2012-17) and about 2,700 breeding pairs (BTO, 2016)",
     "seftonPopulation": "A qualifying species of the Ribble and Alt Estuaries SPA in winter (Natural England).",
     "habitat": [
       "Coastal lagoon",
@@ -1287,7 +1291,7 @@
     "seasonalPresence": "Common winter visitor; scarce in summer, when a small number breed (BTO).",
     "whereToSee": "Marshside, where the RSPB says Wigeons fill the winter sky with the Pink-footed Geese; Hesketh Out Marsh; and WWT Martin Mere in autumn and winter.",
     "shortLocation": "Marshside RSPB",
-    "ukPopulation": "About 450,000 in winter and about 200 breeding pairs (BTO estimates)",
+    "ukPopulation": "About 450,000 in winter (BTO, 2012-17) and about 200 breeding pairs (BTO, 2013-17)",
     "seftonPopulation": "A qualifying species of the Ribble and Alt Estuaries SPA (Natural England). Natural England says thousands arrive on the Ribble from Siberia in winter.",
     "habitat": [
       "Coastal lagoon",
@@ -1358,7 +1362,7 @@
     "seasonalPresence": "Locally common winter visitor, present from late August to May (BTO).",
     "whereToSee": "WWT Martin Mere in autumn and winter (WWT). A qualifying species of the Ribble and Alt Estuaries SPA.",
     "shortLocation": "WWT Martin Mere",
-    "ukPopulation": "About 20,000 in winter and 27 breeding pairs (BTO estimates)",
+    "ukPopulation": "About 20,000 in winter (BTO, 2012-17) and 27 breeding pairs (BTO, 2013-17)",
     "seftonPopulation": "A qualifying species of the Ribble and Alt Estuaries SPA and Ramsar site in winter (Natural England).",
     "habitat": [
       "Deep lagoon",
@@ -1556,7 +1560,7 @@
     "diet": "Small fish and sand eels, caught by hovering and plunge-diving",
     "description": "A silvery-grey and white tern whose long tail has earned it the nickname 'sea-swallow' (RSPB). It hovers over water before plunging for fish and breeds in noisy groups. The RSPB says it is Amber-listed because nesting in the open leaves eggs and chicks exposed to predators and disturbance. JNCC says the Liverpool Bay SPA protects foraging areas for Common Terns breeding at the Mersey Narrows.",
     "identification": "Silvery-grey and white with a long tail; a graceful, floating flight, often hovering before plunging for fish (RSPB).",
-    "tips": "Seaforth needs a day pass from the Wildlife Trust, requested in advance. Keep well away from nesting birds anywhere on the coast.",
+    "tips": "Seaforth needs a day pass: request one with the Wildlife Trust's form, a week ahead if possible. Requests are forwarded to the Port of Liverpool Police, and the Trust will be in touch to confirm. Keep well away from nesting birds anywhere on the coast.",
     "difficulty": "easy",
     "relatedSpecies": [
       "sandwich-tern",
@@ -1818,7 +1822,7 @@
     "seasonalPresence": "Winter visitor and passage migrant; as a high Arctic breeder its passage continues into late May (BTO). Sefton Council says Sanderling roosts are well established by December.",
     "whereToSee": "Sandy beaches along the coast. Sefton Council's key roost areas are off the Green Beach, from Albert Road to the Alt at Formby, and off Hightown.",
     "shortLocation": "Formby Beach",
-    "ukPopulation": "Around 21,000 in winter (BTO estimate, 2012-17)",
+    "ukPopulation": "About 21,000 in winter (BTO estimate, 2012-17)",
     "seftonPopulation": "Internationally important numbers in winter and on passage on the Sefton Coast foreshore (Sefton Coast SSSI citation); a qualifying species of the Ribble and Alt Estuaries SPA (Natural England).",
     "habitat": [
       "Sandy beach",
@@ -1841,8 +1845,8 @@
     },
     "faq": [
       {
-        "question": "Why do Sanderlings run in and out with the waves?",
-        "answer": "The BTO describes the Sanderling as a small wader chasing the tideline back and forth on a sandy beach, feeding at the water's edge."
+        "question": "How can I recognise a Sanderling on the beach?",
+        "answer": "The BTO describes a small wader chasing the tideline back and forth on a sandy beach. The RSPB notes a black mark on the shoulder where the folded wing meets the body."
       }
     ],
     "localImage": "/images/species/birds/sanderling.jpg",
@@ -2747,7 +2751,7 @@
     "diet": "Invertebrates found under stones, seaweed and debris, which it turns over with its bill",
     "description": "Smaller than a Redshank, with mottled brown or chestnut and black upperparts, a brown and white or black and white head pattern, white underparts and orange legs (RSPB). Turnstones spend most of their time creeping and fluttering over rocks, picking food from under stones. Amber-listed.",
     "identification": "Mottled brown or chestnut and black above, white below, with orange legs and a patterned head (RSPB).",
-    "tips": "Natural England describes Seaforth as mainly a high-tide roost, especially on high spring tides. Request a day pass from the Wildlife Trust before you go.",
+    "tips": "Natural England describes Seaforth as mainly a high-tide roost, especially on high spring tides. Seaforth needs a day pass: request one with the Wildlife Trust's form, a week ahead if possible. Requests are forwarded to the Port of Liverpool Police, and the Trust will be in touch to confirm.",
     "difficulty": "easy",
     "relatedSpecies": [
       "purple-sandpiper",
