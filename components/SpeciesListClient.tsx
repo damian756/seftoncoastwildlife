@@ -328,6 +328,7 @@ function SpeciesGrid({ category, species }: { category: SpeciesCategory; species
           <li key={s.id}>
             <Link
               href={`/${category}/${s.id}`}
+              prefetch={false}
               className="card-hover block rounded-xl border border-[var(--dune)] bg-white hover:border-[var(--marsh)] transition group h-full overflow-hidden"
             >
               <SpeciesCardImage species={s} />
