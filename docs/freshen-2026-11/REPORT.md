@@ -274,3 +274,18 @@ Built 11 Nov 2026 from Damian's picks. Commits: `ff21b92` (advertising, enquiry 
 - Visit counts: the old beacon stopped on 12 Mar 2026 when commit `59ebdba` removed the middleware; `/api/p` removed; `PageView` and its 17 rows untouched. New `PageCount` (path, day, count) via `prisma/sql/2026-11-page-count.sql` and `prisma db execute` on host ep-crimson-wave-abpzd483-pooler.eu-west-2.aws.neon.tech; read back: 3 columns plus primary key, 0 rows. `components/VisitCounter.tsx` beacons the path to `/api/count`, which writes only in production, skips bots and stores nothing about the visitor. Draft privacy line (not applied): "Visit counts: we count how many times each page is viewed each day. We store only the page address, the date and the number of views, and nothing about you: no IP address, browser, device or cookie."
 - Tests: `npm run test:enquiry` 24 of 24 (addresses, escaping, reply-to, error logging, no `resend.dev`, no affiliate patterns, prices, empty spaces, visit-count rules). tsc 0 errors; eslint 0 errors, 3 warnings (baseline). Nothing sent.
 - For Damian: confirm the end-of-post price; the privacy page says Plausible but the site loads Ahrefs and Vercel Analytics; add the visit-count privacy line.
+
+### 7b. Advertising build: independent review and fixes
+
+An independent reviewer read `ff21b92`, `667dd12` and `f44b992` cold: 1 MUST FIX, 6 SHOULD FIX, plus items carried over from the Formby review. Fixed in `9df295e`:
+
+1. The end-of-post card was one shared space on 33 posts at the £35 section price. Each eligible post is now its own space (`post-<slug>`, "Sponsor of the <title> post"), one sponsor per post at the £35 section-sponsor price, for Damian to confirm; the Section sponsor card says "Also available on a single species or seasonal post, one sponsor per post."
+2. Pages with a space revalidate daily, so an expired sponsor drops off without a deploy.
+3. The birdwatching guide card is no longer pitched at optics sellers ("Suits guided walks and places to stay"), with a note that it must not be sold to a seller of a brand named on the page. Brands named there, for Damian: Celestron Nature DX, Kowa YF, Swarovski, the Collins Bird Guide, the Merlin app (and the RSPB, which also sells optics).
+4. Filled-card label now 12px in full colour.
+5. Command-centre stats read sums from `PageCount` (read-only). For Damian: its existing `DELETE` handler can still wipe the old `PageView` table.
+6. Disclosure: "Churchtown Media Ltd pays for the site. Businesses can pay for a labelled advert."
+7. `/api/count` counts only known routes and drops cross-site requests.
+8. Contact form: name and subject capped at 100 characters, honeypot field `website`, no auto-reply (one email, to the delivery inbox only); "Our rules" reads "Adverts never appear inside a review, and paying for a space does not change what we write."
+
+Also: em dashes removed from the titles and meta descriptions of `/birds`, `/insects`, `/mammals`, `/plants`. Tests 41 of 41; tsc 0; eslint 0 errors and 3 warnings. Screenshots `adsfix-*`.
