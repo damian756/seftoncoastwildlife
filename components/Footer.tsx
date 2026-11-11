@@ -50,6 +50,7 @@ export function Footer() {
             <h3 className="text-xs font-bold uppercase tracking-widest text-[var(--gold)] mb-4">Nature & Coast</h3>
             <ul className="space-y-2.5 text-sm text-white/70">
               {[
+                { href: "/nature", label: "Reserve and Site Guides" },
                 { href: "/nature/marshside-rspb", label: "Marshside RSPB" },
                 { href: "/nature/sefton-coast", label: "The Sefton Coast" },
                 { href: "/birdwatching-guide", label: "Birdwatching Guide" },

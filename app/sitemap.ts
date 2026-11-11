@@ -1,5 +1,6 @@
 import { getAllSlugs } from "@/lib/species";
 import { BLOG_POSTS } from "@/content/blog/posts";
+import { NATURE_REFERENCE, SITE_GUIDES } from "@/lib/site-guides";
 import type { MetadataRoute } from "next";
 
 const baseUrl = "https://www.seftoncoastwildlife.co.uk";
@@ -48,12 +49,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/insects`, lastModified: new Date("2026-02-18"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/plants`, lastModified: new Date("2026-02-15"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/mammals`, lastModified: new Date("2026-02-12"), changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/nature`, lastModified: new Date("2026-02-10"), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/nature/marshside-rspb`, lastModified: new Date("2026-02-08"), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/nature/ainsdale-sand-dunes`, lastModified: new Date("2026-02-05"), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/nature/martin-mere`, lastModified: new Date("2026-01-28"), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/nature/seaforth-nature-reserve`, lastModified: new Date("2026-01-25"), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${baseUrl}/nature/sefton-coast`, lastModified: new Date("2026-01-20"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/nature`, lastModified: new Date("2026-11-11"), changeFrequency: "monthly", priority: 0.8 },
+    ...[...SITE_GUIDES, ...NATURE_REFERENCE].map((g) => ({
+      url: `${baseUrl}${g.href}`,
+      lastModified: new Date(g.checked),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
     { url: `${baseUrl}/birdwatching-guide`, lastModified: new Date("2026-11-11"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/seasonal`, lastModified: new Date("2026-11-11"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/seasonal/pink-footed-geese`, lastModified: new Date("2026-01-15"), changeFrequency: "monthly", priority: 0.7 },

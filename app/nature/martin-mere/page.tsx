@@ -1,9 +1,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { SiteGuideFacts } from "@/components/SiteGuideFacts";
+import { SourceList } from "@/components/SourceList";
+import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 
-const title = "WWT Martin Mere — Whooper Swans, Flamingos & Visitor Guide";
+const title = "WWT Martin Mere: Opening Times, Getting There and the Winter Birds";
 const description =
-  "Practical guide to WWT Martin Mere Wetland Centre near Burscough — postcode L40 0TA, opening times, whooper swans, entry prices and what to see each season.";
+  "Guide to WWT Martin Mere near Burscough: winter and summer opening times, tickets, free parking, the walk from Burscough Bridge and New Lane stations, no dogs, and the Pink-footed Geese and Whooper Swans, from WWT's own pages.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/martin-mere";
 
 export const metadata: Metadata = {
@@ -16,28 +19,20 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    q: "What is the postcode for WWT Martin Mere?",
-    a: "L40 0TA. WWT Martin Mere is on Fish Lane, Burscough, near Ormskirk in Lancashire. It's about 10 miles north-east of Southport, well signposted from the A59.",
+    q: "What are Martin Mere's opening times this winter?",
+    a: "WWT lists winter opening from 24 October 2026 to 28 March 2027, 9.30am to 4.30pm with last entry at 3.30pm. In summer the centre opens 9.30am to 6pm, last entry 5pm. It is closed on Christmas Day and closes at 3pm on Christmas Eve.",
   },
   {
-    q: "How much does it cost to visit Martin Mere?",
-    a: "Adult entry is around £14–16, with discounts for children and families. WWT members enter free. A family membership works out cheaper than two adult visits, so worth considering if you're planning to return. Check wwt.org.uk for current prices and seasonal offers.",
+    q: "Do I need to pay to visit Martin Mere?",
+    a: "Yes, there is an admission charge. WWT says tickets booked online by midnight the day before your visit are 10% cheaper; prices are on its tickets page. WWT members have unlimited visits, and carers assisting disabled visitors go free. Parking is free.",
   },
   {
-    q: "When is the best time to visit Martin Mere?",
-    a: "October to February for the whooper and Bewick's swans — they arrive from Iceland and Siberia respectively and the numbers at peak can reach 1,000+ birds on the reserve. November is the most reliable month. Summer is better for breeding ducks, waders and the flamingo collection.",
+    q: "Can I bring my dog to Martin Mere?",
+    a: "No. WWT does not allow dogs or pets of any kind on site, except trained assistance dogs, which must be on a lead.",
   },
   {
-    q: "Are dogs allowed at WWT Martin Mere?",
-    a: "Guide dogs and registered assistance dogs are welcome. Pet dogs are not permitted inside the centre.",
-  },
-  {
-    q: "What's the difference between whooper and Bewick's swans?",
-    a: "Both winter at Martin Mere. Whooper swans are larger with a longer, wedge-shaped yellow and black bill. Bewick's are smaller and rounder, with a more variable yellow patch on the bill — each individual has a unique pattern. Bewick's are the rarer and more threatened of the two, breeding in Siberia.",
-  },
-  {
-    q: "Is Martin Mere good for families?",
-    a: "Yes — it's one of the best family wildlife days out in the North West. The flamingo lagoon, the swan feeds (daily in winter), adventure play areas, and the Discovery Zone all keep children engaged. Plan 3–4 hours minimum.",
+    q: "When can I see the swan feeds?",
+    a: "WWT lists swan feeds at 3pm in winter, when Whooper Swans gather on the mere alongside Shelduck, Wigeon, Pintail, Ruff and Black-tailed Godwits.",
   },
 ];
 
@@ -46,26 +41,17 @@ const pageJsonLd = [
     "@context": "https://schema.org",
     "@type": "TouristAttraction",
     name: "WWT Martin Mere Wetland Centre",
-    description:
-      "WWT wetland centre near Burscough, Lancashire — famous for winter whooper and Bewick's swans, flamingos and diverse wetland habitats.",
+    description: "Wildfowl and Wetlands Trust wetland centre and reserve near Burscough, Lancashire.",
     url,
-    geo: { "@type": "GeoCoordinates", latitude: 53.606, longitude: -2.847 },
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Fish Lane, Burscough",
-      addressLocality: "Ormskirk",
+      streetAddress: "Fish Lane",
+      addressLocality: "Burscough",
+      addressRegion: "Lancashire",
       postalCode: "L40 0TA",
       addressCountry: "GB",
     },
-    telephone: "01704 895181",
-    amenityFeature: [
-      { "@type": "LocationFeatureSpecification", name: "Café", value: true },
-      { "@type": "LocationFeatureSpecification", name: "Car park", value: true },
-      { "@type": "LocationFeatureSpecification", name: "Hides", value: true },
-      { "@type": "LocationFeatureSpecification", name: "Family facilities", value: true },
-      { "@type": "LocationFeatureSpecification", name: "Accessible paths", value: true },
-    ],
-    touristType: ["Families", "Birdwatchers", "Wildlife photographers", "Day trippers"],
+    sameAs: SRC.wwtPlan.url,
   },
   {
     "@context": "https://schema.org",
@@ -76,6 +62,15 @@ const pageJsonLd = [
       acceptedAnswer: { "@type": "Answer", text: a },
     })),
   },
+];
+
+const sources = [
+  used(SRC.wwtPlan, "opening times, tickets, members, the café and shop, and the dog rule"),
+  used(SRC.wwtDirections, "road directions, free parking, the three stations and walking routes, cycle racks and coach parking"),
+  used(SRC.wwtAccess, "Blue Badge parking, the paved nature trail and hides, wheelchairs, carers and boat tours"),
+  used(SRC.wwtWildlife, "the birds and other wildlife by season, the swan feeds and the size of the site"),
+  used(SRC.wwtReserve, "the Ramsar wetland, the wild reserve's winter birds and the captive collection"),
+  used(SRC.neRibbleAltSpaCitation, "the movement of birds between the Ribble and Alt Estuaries and Martin Mere"),
 ];
 
 export default function MartinMerePage() {
@@ -93,150 +88,97 @@ export default function MartinMerePage() {
             <span className="text-white/80">WWT Martin Mere</span>
           </nav>
           <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-3">
-            WWT Wetland Centre · Burscough · Entry charge
+            WWT wetland centre · Burscough · Admission charge
           </p>
-          <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">
-            WWT Martin Mere
-          </h1>
+          <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">WWT Martin Mere</h1>
           <p className="text-white/75 text-lg leading-relaxed max-w-2xl">
-            In November, up to a thousand whooper swans land on the mere after flying in from Iceland. It&apos;s one of those things you have to see to believe. Martin Mere is a proper day out — there&apos;s always something to see regardless of season.
+            A wetland centre and reserve of 600 acres, 10 miles from Southport. WWT says up to 50,000 Pink-footed Geese come in to roost in autumn, with flocks of Pintail and Wigeon, and that Whooper Swans join them towards the end of the season.
           </p>
         </div>
       </div>
 
       <div className="mx-auto max-w-3xl px-4 py-10">
-
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
-          {[
-            { stat: "1,000+", label: "Whooper Swans (peak winter)" },
-            { stat: "L40 0TA", label: "Postcode" },
-            { stat: "Nov", label: "Best month to visit" },
-            { stat: "~£15", label: "Adult entry (members free)" },
-          ].map(({ stat, label }) => (
-            <div key={label} className="rounded-xl bg-[var(--dune)] p-4 text-center">
-              <p className="font-display text-2xl font-bold text-[var(--forest)]">{stat}</p>
-              <p className="text-xs text-[var(--slate)]/70 mt-1 leading-snug">{label}</p>
-            </div>
-          ))}
-        </div>
-
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          Practical information
-        </p>
-        <div className="bg-[var(--dune)] rounded-xl p-6 mb-10">
-          <table className="w-full text-sm text-[var(--slate)]">
-            <tbody className="divide-y divide-[var(--foam)]">
-              <tr className="py-2"><td className="py-2 font-medium w-36">Postcode</td><td className="py-2">L40 0TA (Fish Lane, Burscough)</td></tr>
-              <tr><td className="py-2 font-medium">Entry</td><td className="py-2">Paid. ~£14–16 adults, less for children. WWT members free. Check wwt.org.uk for current prices</td></tr>
-              <tr><td className="py-2 font-medium">Opening times</td><td className="py-2">Generally 9:30am–5pm (summer), 9:30am–4:30pm (winter). Check website before visiting — hours vary</td></tr>
-              <tr><td className="py-2 font-medium">Car park</td><td className="py-2">Free for visitors. Large car park on site</td></tr>
-              <tr><td className="py-2 font-medium">Café</td><td className="py-2">On-site café and gift shop. Good food, reasonable prices — plan to eat here</td></tr>
-              <tr><td className="py-2 font-medium">Dogs</td><td className="py-2">Registered assistance dogs only. No pet dogs</td></tr>
-              <tr><td className="py-2 font-medium">Accessibility</td><td className="py-2">Excellent. Most paths are firm and surfaced. Wheelchairs and mobility scooters available to borrow</td></tr>
-              <tr><td className="py-2 font-medium">Phone</td><td className="py-2">01704 895181</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          Seasonal highlights
-        </p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">When to visit</h2>
-        <p className="text-[var(--slate)] mb-6 leading-relaxed">
-          Martin Mere is worth visiting any time of year — the flamingo lagoon, breeding ducks and otters are year-round. But winter is when it becomes something genuinely special.
+        <p className="text-[var(--slate)] mb-10 leading-relaxed">
+          Martin Mere is inland, not on the coast, but its birds and the coast&apos;s are linked: Natural England&apos;s citation for the Ribble and Alt Estuaries Special Protection Area notes considerable movement of birds between the estuaries and Martin Mere. WWT describes the reserve as a Ramsar-rated marshland.
         </p>
 
-        <div className="space-y-6 mb-10">
-          <div className="border-l-4 border-sky-400 pl-5">
-            <h3 className="font-semibold text-[var(--forest)] mb-1">October – February: the swan season</h3>
-            <p className="text-[var(--slate)] text-sm leading-relaxed">
-              Whooper Swans start arriving from Iceland in October and peak in November — numbers regularly exceed 1,000 birds on the reserve. They&apos;re huge, vocal and completely unafraid of people. The daily swan feed brings them in close and is one of the best wildlife experiences in the North West. Don&apos;t skip it.
-            </p>
-            <p className="text-[var(--slate)] text-sm leading-relaxed mt-2">
-              Bewick&apos;s Swans also winter here, though in smaller numbers than they once did — their Siberian breeding grounds are under pressure. Look for the smaller body size and more rounded head compared to the Whoopers. Each individual has a unique yellow bill pattern; WWT researchers photograph and name them all.
-            </p>
-            <p className="text-[var(--slate)] text-sm leading-relaxed mt-2">
-              Through winter the lagoons also hold large numbers of Pintail, Shoveler, Wigeon and Teal. European White-fronted Geese roost on the main mere in good numbers. Pink-footed Geese — the same birds you see at Marshside — use the fields around the reserve.
-            </p>
+        <SiteGuideFacts
+          name="Martin Mere"
+          checked="11 November 2026"
+          managedBy={<>WWT, the Wildfowl and Wetlands Trust.</>}
+          official={[
+            { label: "WWT Martin Mere: Plan your visit", url: SRC.wwtPlan.url },
+            { label: "WWT Martin Mere: Directions", url: SRC.wwtDirections.url },
+          ]}
+          gettingThere={[
+            <>Address: WWT Martin Mere, Fish Lane, Burscough, Lancashire, L40 0TA. WWT says it is six miles from Ormskirk and 10 miles from Southport.</>,
+            <>By car: off the A59, signposted from junction 8 of the M61, junction 3 of the M58 and junction 27 of the M6.</>,
+            <>By train: from Burscough Bridge (Southport to Manchester line), WWT recommends walking up to the A59, turning left onto Red Cat Lane and following it as it becomes Tarlscough Lane and then Fish Lane: 2.5 miles. New Lane station on the same line is 1.2 miles away, but on a country lane with no footpaths, so WWT does not recommend it on foot. Burscough Junction (Liverpool to Preston via Ormskirk) is 3.1 miles away.</>,
+            <>By bike: there are Sheffield stands for 16 bikes, and the centre is on two West Lancashire cycle routes.</>,
+          ]}
+          parking={[
+            <>Parking is free, including for coaches bringing visitors.</>,
+            <>Two Blue Badge car parks outside the entrance hold 25 vehicles.</>,
+          ]}
+          paths={[
+            <>The nature trail is fully paved but is not a circular loop. Most hides have lower windows for wheelchair users and bird books for identification.</>,
+            <>Free wheelchairs are available; a mobility scooter can be hired with a £12 deposit, booked in advance on 01704 891220.</>,
+            <>Boat tours run daily from 2 April to the end of September.</>,
+            <>Away from the wild reserve, WWT keeps an otter enclosure, flamingos and about 100 species of water birds from around the world. There is a café and a shop on site.</>,
+          ]}
+          seasons={[
+            {
+              season: "Autumn",
+              text: "WWT says thousands of migratory birds arrive, with up to 50,000 Pink-footed Geese descending to roost, flocks of Pintail and Wigeon, and Whooper Swans towards the end of the season.",
+              birds: ["pink-footed-goose", "pintail", "wigeon", "whooper-swan"],
+            },
+            {
+              season: "Winter",
+              text: "Swan feeds at 3pm bring Whooper Swans close, with Shelduck, Wigeon, Pintail, Ruff and Black-tailed Godwits among them. At dusk, Starlings return to roost in the reedbed. Willow Tits, Bramblings and Tree Sparrows visit the Janet Kear feeding station (WWT).",
+              birds: ["whooper-swan", "black-tailed-godwit"],
+            },
+            {
+              season: "Spring",
+              text: "Up to 1,000 Black-headed Gulls nest on the islands, and WWT counts up to 25 pairs of Cetti's Warblers, mostly along the reedbed walk. Avocets, Marsh Harriers and Kingfishers are among its spring species.",
+              birds: ["avocet"],
+            },
+            {
+              season: "Summer",
+              text: "Reed and Sedge Warblers return from Africa to the reedbed, Avocets are present, and WWT says three pairs of Barn Owls hunt the fields to feed their chicks.",
+              birds: ["avocet"],
+            },
+          ]}
+          access={[
+            <>Open 364 days a year. Winter hours from 24 October 2026 to 28 March 2027: 9.30am to 4.30pm, last entry 3.30pm. Summer hours: 9.30am to 6pm, last entry 5pm. Closed on Christmas Day; 9.30am to 3pm on Christmas Eve.</>,
+            <>Admission is charged. Booking online by midnight the day before saves 10%; WWT members have unlimited visits; carers assisting disabled visitors go free. Groups of 12 or more get 15% off.</>,
+            <>WWT suggests weekday visits in term time, or 9.30am to 11.30am at weekends, for a quieter visit.</>,
+          ]}
+          dogs={[
+            <>No dogs or pets of any kind, except trained assistance dogs, which must be kept on a lead. Do not leave a dog in your car while you visit.</>,
+          ]}
+        />
+
+        <section className="mt-12">
+          <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">Common questions</p>
+          <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-6">FAQs</h2>
+          <div className="space-y-5">
+            {faqs.map(({ q, a }) => (
+              <div key={q} className="border-b border-[var(--dune)] pb-5 last:border-0">
+                <h3 className="font-semibold text-[var(--forest)] mb-1.5 text-sm">{q}</h3>
+                <p className="text-sm text-[var(--slate)] leading-relaxed">{a}</p>
+              </div>
+            ))}
           </div>
+        </section>
 
-          <div className="border-l-4 border-emerald-500 pl-5">
-            <h3 className="font-semibold text-[var(--forest)] mb-1">March – June: breeding season</h3>
-            <p className="text-[var(--slate)] text-sm leading-relaxed">
-              The swans leave in March for Iceland. Breeding ducks take over — Tufted Duck, Pochard, Gadwall and Garganey all nest on the reserve. Lapwing and Redshank breed on the wet grassland. The captive flamingo collection is spectacular in summer when they&apos;re most active.
-            </p>
-            <p className="text-[var(--slate)] text-sm leading-relaxed mt-2">
-              Great Crested Grebes display on the open water in March and April. Otters are resident and occasionally visible from the hides in early morning.
-            </p>
-          </div>
-
-          <div className="border-l-4 border-amber-400 pl-5">
-            <h3 className="font-semibold text-[var(--forest)] mb-1">July – September: family season</h3>
-            <p className="text-[var(--slate)] text-sm leading-relaxed">
-              Summer is peak family season. The Discovery Zone, adventure play and daily keeper talks make this the best time for children. Wildlife-wise it&apos;s quieter, but Kingfisher is reliable on the water channels in late summer and wader passage picks up in August.
-            </p>
-          </div>
-        </div>
-
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          What to see
-        </p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Highlights not to miss</h2>
-        <ul className="space-y-3 mb-10 text-[var(--slate)] text-sm leading-relaxed">
-          {[
-            { label: "The swan feed", body: "Daily in winter. The whole flock moves in and the noise is incredible. Get there 10 minutes early for a good position." },
-            { label: "Flamingo Lagoon", body: "A large captive flock of Chilean Flamingos. Genuinely impressive — and oddly at home in Lancashire." },
-            { label: "Otter holt", body: "The resident otters have a purpose-built holt with underwater viewing windows. Early morning and late afternoon are best." },
-            { label: "The hides", body: "Multiple hides overlooking different habitats. Bespoke Mere Hide overlooks the main water and is the best winter viewpoint." },
-            { label: "Canoe safari", body: "Seasonal activity — paddling through the reedbeds with a guide. Book in advance, it sells out." },
-          ].map(({ label, body }) => (
-            <li key={label} className="flex gap-3">
-              <span className="text-[var(--marsh)] mt-0.5 flex-shrink-0">▸</span>
-              <span><strong className="text-[var(--slate)]">{label}</strong> — {body}</span>
-            </li>
-          ))}
-        </ul>
-
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          Getting there
-        </p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-3">How to find it</h2>
-        <p className="text-[var(--slate)] mb-3 text-sm leading-relaxed">
-          Postcode <strong>L40 0TA</strong>. Martin Mere is on Fish Lane, Burscough — about 10 miles north-east of Southport via the A570 and A59. Well signposted from the A59 between Ormskirk and Rufford. Allow 20–25 minutes from Southport.
-        </p>
-        <p className="text-[var(--slate)] mb-10 text-sm leading-relaxed">
-          By public transport: Burscough Bridge or Burscough Junction stations (both on the Merseyrail network) are about 1.5 miles from the reserve. It&apos;s a walkable distance in good weather but there&apos;s no direct bus connection to the gate.
-        </p>
-
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          Common questions
-        </p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-6">FAQs</h2>
-        <div className="space-y-5 mb-10">
-          {faqs.map(({ q, a }) => (
-            <div key={q} className="border-b border-[var(--dune)] pb-5 last:border-0">
-              <h3 className="font-semibold text-[var(--forest)] mb-1.5 text-sm">{q}</h3>
-              <p className="text-sm text-[var(--slate)] leading-relaxed">{a}</p>
-            </div>
-          ))}
-        </div>
-
-        <p className="text-[var(--slate)] text-sm leading-relaxed mb-10">
-          Martin Mere is roughly equidistant between Southport and Wigan — a natural stop on a day that combines the coast with the wetlands inland. If you&apos;re based in Southport,{" "}
-          <a
-            href="https://www.southportguide.co.uk"
-            className="font-medium text-[var(--marsh)] underline underline-offset-2 hover:text-[var(--forest)] transition-colors"
-          >
-            SouthportGuide covers accommodation and restaurants nearby
-          </a>
-          .
-        </p>
-
-        <div className="flex flex-wrap gap-4 pt-4 border-t border-[var(--dune)]">
-          <Link href="/nature/marshside-rspb" className="text-[var(--marsh)] font-medium hover:underline text-sm">Marshside RSPB Reserve →</Link>
-          <Link href="/nature/ainsdale-sand-dunes" className="text-[var(--marsh)] font-medium hover:underline text-sm">Ainsdale Sand Dunes NNR →</Link>
+        <div className="flex flex-wrap gap-x-6 gap-y-3 pt-6 mt-10 border-t border-[var(--dune)]">
+          <Link href="/nature" className="text-[var(--marsh)] font-medium hover:underline text-sm">All site guides →</Link>
+          <Link href="/nature/marshside-rspb" className="text-[var(--marsh)] font-medium hover:underline text-sm">Marshside RSPB →</Link>
           <Link href="/seasonal/winter-wildfowl" className="text-[var(--marsh)] font-medium hover:underline text-sm">Winter wildfowl guide →</Link>
+          <Link href="/seasonal/month-by-month" className="text-[var(--marsh)] font-medium hover:underline text-sm">Month by month →</Link>
         </div>
+
+        <SourceList sources={sources} accessed={SOURCES_ACCESSED} />
       </div>
     </>
   );

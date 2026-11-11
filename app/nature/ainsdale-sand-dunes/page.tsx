@@ -1,10 +1,13 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ClickableImage } from "@/components/ClickableImage";
+import { SiteGuideFacts } from "@/components/SiteGuideFacts";
+import { SourceList } from "@/components/SourceList";
+import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 
-const title = "Ainsdale Sand Dunes NNR: Natterjack Toads, Sand Lizards & Access Guide";
+const title = "Ainsdale Sand Dunes NNR: Access, Paths, Natterjacks and Seasons";
 const description =
-  "Practical guide to Ainsdale Sand Dunes National Nature Reserve: postcode PR8 2QA, free entry, natterjack toads, sand lizards and rare dune plants managed by Natural England.";
+  "Guide to Natural England's Ainsdale Sand Dunes National Nature Reserve: entrances, stations, seasonal beach parking, waymarked paths, natterjack toads, sand lizards, dune plants, tides and dog rules.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/ainsdale-sand-dunes";
 
 export const metadata: Metadata = {
@@ -24,28 +27,20 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    q: "Is Ainsdale Sand Dunes NNR free to enter?",
-    a: "Yes. Entry is free and the reserve is open at all times. There is no public parking on the reserve. Sefton Council charges for its beach parking at Ainsdale-on-Sea, which is open only from 1 April to 30 September, but the NNR itself has no entry charge.",
+    q: "Where do I park for Ainsdale Sand Dunes NNR?",
+    a: "There is no public parking on the reserve. Natural England points visitors to the Ainsdale-on-Sea beach car park, which Sefton Council opens from 1 April to 30 September only (£10 all day), or to the National Trust car parks at Formby to the south. A limited number of disabled parking places are available on the reserve: call the reserve office on 01704 578774.",
   },
   {
-    q: "What is the postcode for Ainsdale Sand Dunes NNR?",
-    a: "There is no single entrance. Natural England lists footpath entrances from Pinfold Lane and the Coastal Road in Ainsdale, from Fisherman's Path in Freshfield, and from the north and south along the beach and frontal dune paths. For the beach approach from Ainsdale-on-Sea, PR8 2QA takes you to Shore Road. By train, the reserve is 1.2km from Ainsdale station and 1.4km from Freshfield.",
+    q: "How do I get to Ainsdale NNR by train?",
+    a: "Natural England says the reserve is 1.2km from Ainsdale station and 1.4km from Freshfield station. There are footpath entrances from Pinfold Lane and the Coastal Road in Ainsdale, from Fisherman's Path in Freshfield, and along the beach and frontal dune paths.",
   },
   {
-    q: "Can I see natterjack toads at Ainsdale?",
-    a: "Yes, Ainsdale is one of the best places in the UK to hear natterjack toads. The males call loudly from the dune slack pools on warm spring evenings, usually from April through June. You're more likely to hear them than see them. Visit after dark in May for the best chance.",
+    q: "When can I hear natterjack toads at Ainsdale?",
+    a: "Sefton Council's nature calendar says natterjacks may be spawning in the dunes by the end of March, depending on temperatures, and that breeding is in full swing in April. Natural England calls Ainsdale one of the best remaining strongholds of the natterjack, Europe's loudest amphibian. Keep dogs out of the pools.",
   },
   {
-    q: "Are sand lizards present at Ainsdale?",
-    a: "Yes. Sand lizards were reintroduced to Ainsdale and the population has established well. Look on south-facing dune slopes on warm, sunny days from April onwards: they bask early in the morning before it gets too hot. Males turn bright green in the breeding season.",
-  },
-  {
-    q: "Are dogs allowed at Ainsdale Sand Dunes NNR?",
-    a: "Dogs are permitted but must be kept under close control, especially between March and August when ground-nesting birds and reptiles are present. Keep dogs on leads on the dune slacks and vegetated areas.",
-  },
-  {
-    q: "What's the difference between Ainsdale NNR and the National Trust site at Formby?",
-    a: "The National Trust site at Formby, to the south, is better set up for visitors, with two car parks (Victoria Road, L37 1LJ, and Lifeboat Road, L37 2EB), toilets and waymarked trails. Ainsdale NNR is quieter and less managed for tourism, making it better for wildlife encounters. The two sites adjoin along the Sefton Coast.",
+    q: "What is the difference between Ainsdale NNR and the National Trust site at Formby?",
+    a: "Ainsdale Sand Dunes NNR is managed by Natural England. The National Trust's land at Formby lies to the south and has its own car parks at Victoria Road (L37 1LJ) and Lifeboat Road (L37 2EB). Natural England says you can walk from the Formby car parks to the NNR along the Sefton Coast Footpath.",
   },
 ];
 
@@ -55,22 +50,17 @@ const pageJsonLd = [
     "@type": "TouristAttraction",
     name: "Ainsdale Sand Dunes National Nature Reserve",
     description:
-      "National Nature Reserve managed by Natural England on the Sefton Coast: internationally important dune system supporting natterjack toads, sand lizards and rare dune plants.",
+      "National Nature Reserve on the Sefton Coast managed by Natural England: dunes, slacks and pinewood with natterjack toads, sand lizards and rare dune plants.",
     url,
-    geo: { "@type": "GeoCoordinates", latitude: 53.606, longitude: -3.043 },
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Shore Road",
-      addressLocality: "Ainsdale, Southport",
-      postalCode: "PR8 2QA",
+      streetAddress: "2 West End Lodge, Pinfold Lane",
+      addressLocality: "Ainsdale",
+      postalCode: "PR8 3QW",
       addressCountry: "GB",
     },
-    amenityFeature: [
-      { "@type": "LocationFeatureSpecification", name: "Free entry", value: true },
-      { "@type": "LocationFeatureSpecification", name: "Open access", value: true },
-      { "@type": "LocationFeatureSpecification", name: "Dogs on leads", value: true },
-    ],
-    touristType: ["Wildlife photographers", "Naturalists", "Families", "Walkers"],
+    telephone: "01704 578774",
+    sameAs: SRC.neMerseysideNnrs.url,
   },
   {
     "@context": "https://schema.org",
@@ -83,27 +73,31 @@ const pageJsonLd = [
   },
 ];
 
+const sources = [
+  used(SRC.neMerseysideNnrs, "the reserve's plants and animals, paths, cycle routes, stations, buses, parking, entrances, safety advice and contact details"),
+  used(SRC.neAinsdaleNnr, "the reserve's area"),
+  used(SRC.seftonAinsdaleBeach, "beach parking season, charge and closures, toilets, and the dog rules on the beach"),
+  used(SRC.seftonCalendar, "when natterjacks, lizards and plants are active through the year, grazing, and the advice on driftwood and digging"),
+  used(SRC.seftonLnr, "the neighbouring Ainsdale and Birkdale Sandhills LNR"),
+];
+
 export default function AinsdaleSandDunesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
 
-      {/* Hero image, before header band, matching Marshside structure */}
       <div className="relative h-72 sm:h-96 w-full overflow-hidden bg-[var(--slate)]">
         <ClickableImage
           src="/images/blog/beachcombing/sea-spurge-ainsdale-dunes.webp"
-          alt="Sea spurge growing across the Ainsdale sand dunes, one of the protected dune plants of the Sefton Coast SSSI"
+          alt="Sea spurge growing across the Ainsdale sand dunes"
           className="w-full h-full object-cover object-center"
-          caption="Sea spurge on the Ainsdale dunes: a protected SSSI plant. The sap is toxic; do not handle."
+          caption="Sea spurge on the Ainsdale dunes. The sap is toxic; do not handle."
           fill
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent pointer-events-none" />
-        <div className="absolute bottom-0 left-0 right-0 p-6 pointer-events-none">
-          <p className="text-xs text-white/50">Sea spurge on the Ainsdale dunes: protected SSSI plant. Toxic sap: do not handle.</p>
-        </div>
       </div>
 
-      {/* Page header band */}
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-3xl px-4 py-10">
           <nav className="text-sm text-white/50 mb-4 flex items-center gap-1.5">
@@ -114,26 +108,22 @@ export default function AinsdaleSandDunesPage() {
             <span className="text-white/80">Ainsdale Sand Dunes NNR</span>
           </nav>
           <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-3">
-            National Nature Reserve · Natural England · Free entry
+            National Nature Reserve · Natural England · Ainsdale
           </p>
-          <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">
-            Ainsdale Sand Dunes NNR
-          </h1>
+          <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">Ainsdale Sand Dunes NNR</h1>
           <p className="text-white/75 text-lg leading-relaxed max-w-2xl">
-            One of the most important dune systems in Europe, and most people drive straight past it to the beach. Natterjack toads, sand lizards, rare dune plants, and almost no crowds. Free entry, any time.
+            Natural England calls Ainsdale one of the best remaining strongholds of the natterjack toad, Europe&apos;s loudest amphibian. The dunes hold over 450 plant species, 33 of them locally or regionally rare, along with sand lizards and great crested newts.
           </p>
         </div>
       </div>
 
       <div className="mx-auto max-w-3xl px-4 py-10">
-
-        {/* Stat block */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {[
-            { stat: "Free", label: "Entry, always" },
-            { stat: "PR8 2QA", label: "Postcode for the beach approach" },
             { stat: "492ha", label: "Reserve area" },
-            { stat: "Apr–Jun", label: "Best for natterjacks" },
+            { stat: "8 miles", label: "Waymarked paths" },
+            { stat: "1.2km", label: "From Ainsdale station" },
+            { stat: "April", label: "Natterjack breeding in full swing" },
           ].map(({ stat, label }) => (
             <div key={label} className="rounded-xl bg-[var(--dune)] p-4 text-center">
               <p className="font-display text-2xl font-bold text-[var(--forest)]">{stat}</p>
@@ -142,270 +132,160 @@ export default function AinsdaleSandDunesPage() {
           ))}
         </div>
 
-        {/* Practical info */}
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          Practical information
-        </p>
-        <div className="bg-[var(--dune)] rounded-xl p-6 mb-6">
-          <table className="w-full text-sm text-[var(--slate)]">
-            <tbody className="divide-y divide-[var(--foam)]">
-              <tr className="py-2"><td className="py-2 font-medium w-36">Postcode</td><td className="py-2">PR8 2QA (Shore Road, Ainsdale)</td></tr>
-              <tr><td className="py-2 font-medium">Entry</td><td className="py-2">Free. Open access at all times</td></tr>
-              <tr><td className="py-2 font-medium">Parking</td><td className="py-2">None on the reserve. Sefton Council&apos;s <a href="https://www.southportguide.co.uk/parking/parking-ainsdale-beach-parking-area" target="_blank" rel="noopener" className="text-[var(--marsh)] underline underline-offset-2">beach parking at Ainsdale</a> is open from 1 April to 30 September only (£10 a day). Out of season, come by train: Ainsdale station is 1.2km away, Freshfield 1.4km</td></tr>
-              <tr><td className="py-2 font-medium">Managed by</td><td className="py-2">Natural England</td></tr>
-              <tr><td className="py-2 font-medium">Dogs</td><td className="py-2">Permitted, under close control. On leads Mar–Aug near dune slacks and vegetated areas</td></tr>
-              <tr><td className="py-2 font-medium">Facilities</td><td className="py-2">No on-site facilities. Ainsdale village is 10 minutes walk with cafés and shops</td></tr>
-              <tr><td className="py-2 font-medium">Accessibility</td><td className="py-2">Beach and main paths are accessible. The dune interior is rough going: uneven sand, steep slopes</td></tr>
-              <tr><td className="py-2 font-medium">Rules</td><td className="py-2">No barbecues. No fires. Stay on marked paths in sensitive areas. Do not disturb wildlife Apr–Aug.</td></tr>
-            </tbody>
-          </table>
-        </div>
+        <SiteGuideFacts
+          name="Ainsdale NNR"
+          checked="11 November 2026"
+          managedBy={
+            <>
+              Natural England. Reserve office: 2 West End Lodge, Pinfold Lane, Ainsdale, PR8 3QW; 01704 578774. The neighbouring{" "}
+              <Link href="/nature/birkdale-green-beach" className="text-[var(--marsh)] underline underline-offset-2">Ainsdale and Birkdale Sandhills LNR</Link>{" "}
+              to the north is Sefton Council&apos;s.
+            </>
+          }
+          official={[{ label: "Natural England: Merseyside's National Nature Reserves (Ainsdale Sand Dunes)", url: SRC.neMerseysideNnrs.url }]}
+          gettingThere={[
+            <>By train: Natural England says the reserve is a short walk from Ainsdale station (1.2km) and Freshfield station (1.4km).</>,
+            <>By bus: local services stop at Freshfield station, Pinfold Lane and Gleneagles Drive.</>,
+            <>By bike: the reserve is on Route 62 (the Trans Pennine Trail) and local route 81 of the National Cycle Network.</>,
+            <>By car: minor roads from the A565.</>,
+            <>Footpath entrances: Pinfold Lane and the Coastal Road in Ainsdale; Fisherman&apos;s Path in Freshfield; and from the north and south along the beach and frontal dune paths.</>,
+          ]}
+          parking={[
+            <>There is no public parking on the reserve. A limited number of disabled parking places are available: call the reserve office on 01704 578774.</>,
+            <>Natural England points visitors to the Ainsdale-on-Sea beach car park, with access to the NNR along the beach or through Ainsdale Sandhills LNR. Sefton Council opens that beach parking from 1 April to 30 September only, at £10 all day, and may reduce or close it because of the tide or the weather.</>,
+            <>To the south, the National Trust car parks at Formby give access to the NNR along the Sefton Coast Footpath. See the <Link href="/nature/formby-point" className="text-[var(--marsh)] underline underline-offset-2">Formby Point guide</Link>.</>,
+          ]}
+          paths={[
+            <>About 8 miles of footpaths, marked with colour-topped posts.</>,
+            <>The Woodland Path and Fisherman&apos;s Path are accessible by bike, pushchair and wheelchair. Natural England&apos;s map shows where you can ride a horse or cycle.</>,
+            <>The Trans Pennine Trail and the Sefton Coastal Footpath give access along the whole coast.</>,
+            <>There are no facilities on the reserve. Sefton Council&apos;s toilet block at Ainsdale beach includes an accessible Changing Places toilet.</>,
+          ]}
+          seasons={[
+            {
+              season: "February and March",
+              text: "Sefton Council's nature calendar says amphibians, including Natterjack Toads and Great Crested Newts, begin to emerge in February. In March, Sand Lizards and Common Lizards emerge in the frontal dunes, and natterjacks may be spawning by the end of the month. The grazing cattle and sheep leave the dunes in spring.",
+            },
+            {
+              season: "April to June",
+              text: "Natterjack breeding is in full swing in April and toadlets leave the pools in May. Bee and Southern Marsh Orchids begin to flower by the end of May, and up to 11 species of orchid bloom along the coast in June and July. Sand Lizards lay eggs in June (Sefton Council).",
+            },
+            {
+              season: "July to September",
+              text: "Dune, Broad-leaved and Green-flowered Helleborines are usually at their best in July. Natterjacks move out to the upper tideline to shelter and forage until the end of September or October, and young Sand Lizards hatch in August (Sefton Council). Natural England lists petalwort, seaside centaury, yellow bartsia, round-leaved wintergreen and dune helleborine among the reserve's rarer plants.",
+            },
+            {
+              season: "October to January",
+              text: "Conservation grazing resumes in the dunes in October. By November, Sand Lizards and natterjacks are hibernating in the frontal dunes, and the council asks people not to dig there. On the shore, wader roosts build between Ainsdale and Birkdale from October, and by December the roosts of Knot, godwits, Sanderling and Dunlin are established. Natural England says Red Squirrels can occasionally be seen in the reserve's pinewoods.",
+              birds: ["knot", "sanderling", "dunlin"],
+            },
+          ]}
+          tide={[
+            <>Natural England advises checking the local tide timetable before visiting the beach.</>,
+            <>Wader roosts on the shore form over high tide and are easily disturbed: if birds run or fly ahead of you, you are too close (Sefton Council).</>,
+          ]}
+          access={[
+            <>The dunes cover a large area, parts of them remote, and Natural England warns that you can become disorientated. If you visit alone, tell someone where you are going and when you expect to be back.</>,
+            <>Rabbit burrows are common and soft sand can give way. In dry weather the fire risk is high: do not smoke near pine-needle debris or leave cigarettes or bottles.</>,
+            <>No barbecues, fires or camping anywhere on the coast. Sefton Council asks visitors not to take driftwood, which toads and their prey shelter under.</>,
+          ]}
+          dogs={[
+            <>From 1 May to 30 September, Ainsdale beach is dog-free for 200m either side of the main beach entrance, down to the tide line (Sefton Council).</>,
+            <>Keep dogs out of the dune pools and slacks, where Natterjack Toads and Great Crested Newts breed, and under close control near the grazing livestock.</>,
+            <>Keep dogs away from roosting birds. Sefton Council says it is a criminal offence under the Wildlife and Countryside Act 1981 to allow your dog to disturb them.</>,
+          ]}
+        />
 
-        {/* Reserve rules sign, like Marshside's car park sign */}
-        <div className="mb-10 rounded-xl overflow-hidden">
-          <ClickableImage
-            src="/images/blog/beachcombing/no-barbecues-sefton-coast-sign.webp"
-            alt="Sefton Coast reserve rules sign: no barbecues, no fires at Ainsdale Beach and Sand Dunes NNR"
-            className="w-full object-cover"
-            caption="Reserve rules at Ainsdale: no barbecues or fires on the dunes or beach. The dune vegetation is fragile and fire risk is high in dry conditions."
-          />
-          <p className="text-xs text-[var(--slate)]/50 mt-1.5 px-1">Reserve rules at Ainsdale: no barbecues or fires on the dunes or beach.</p>
-        </div>
-
-        {/* Key species */}
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          Key species
-        </p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">What lives here</h2>
-        <p className="text-[var(--slate)] mb-6 leading-relaxed">
-          Ainsdale&apos;s dune system is internationally designated: it&apos;s a Special Area of Conservation (SAC) and Site of Special Scientific Interest (SSSI). That&apos;s not bureaucratic box-ticking. It means the wildlife here is rare.
-        </p>
-
-        <div className="space-y-6 mb-6">
-          <div className="border-l-4 border-amber-400 pl-5">
-            <h3 className="font-semibold text-[var(--forest)] mb-1">Natterjack Toad</h3>
-            <p className="text-[var(--slate)] text-sm leading-relaxed">
-              The UK&apos;s second rarest amphibian, and Ainsdale is one of the strongest populations in England. They breed in the shallow dune slack pools from April through June. The males call (a surprisingly loud, rasping chur) on warm evenings from April, often audible from 400 metres away. Go after dark in May, walk quietly near the slack pools, and you&apos;ll hear them. Seeing one takes more patience, but the calls alone are worth the trip.
-            </p>
-          </div>
-
-          <div className="border-l-4 border-emerald-500 pl-5">
-            <h3 className="font-semibold text-[var(--forest)] mb-1">Sand Lizard</h3>
-            <p className="text-[var(--slate)] text-sm leading-relaxed">
-              Rarer than the natterjack and harder to find, but present on Ainsdale&apos;s south-facing dune slopes. Reintroduced after local extinction and the population is now self-sustaining. Males turn vivid green on their flanks in spring, unmistakable when they emerge to bask in April sunshine. Look for them on bare, sandy slopes with patchy vegetation. They move fast, so move slowly.
-            </p>
-          </div>
-
-          <div className="border-l-4 border-sky-400 pl-5">
-            <h3 className="font-semibold text-[var(--forest)] mb-1">Dune Plants</h3>
-            <p className="text-[var(--slate)] text-sm leading-relaxed">
-              The dune slack vegetation is outstanding: Creeping Willow, Round-leaved Wintergreen, Dune Helleborine and several rare mosses and lichens occur here. June and July are the best months. Sea spurge colonises the seaward dune face in dense mats: striking fleshy yellow-green leaves, but the milky sap is toxic. Don&apos;t walk on the vegetated slacks themselves; the substrate is fragile and takes years to recover.
-            </p>
-          </div>
-        </div>
-
-        {/* Dune plant closeup image, full width, clickable */}
-        <div className="rounded-xl overflow-hidden mb-6">
-          <ClickableImage
-            src="/images/blog/beachcombing/sea-spurge-closeup-ainsdale.webp"
-            alt="Sea spurge close-up on the Ainsdale sand dunes: fleshy whorled yellow-green leaves with toxic milky sap"
-            className="w-full h-64 sm:h-80 object-cover"
-            caption="Sea spurge close-up: the fleshy, whorled leaves are distinctive. The white milky sap is toxic: wash your hands thoroughly if you touch it."
-          />
-          <p className="text-xs text-[var(--slate)]/50 mt-1.5 px-1">Sea spurge at Ainsdale: a protected SSSI dune plant. Do not handle.</p>
-        </div>
-
-        <div className="space-y-6 mb-10">
-          <div className="border-l-4 border-rose-400 pl-5">
-            <h3 className="font-semibold text-[var(--forest)] mb-1">Birds</h3>
-            <p className="text-[var(--slate)] text-sm leading-relaxed">
-              Stonechat breeds on the dune scrub: look for them perching on top of bramble clumps from March onwards. Skylark still nests in good numbers on the open dunes. Passage migrants use the scrub in spring and autumn: Wheatear, Whinchat, and Redstart are regular in May and September. In winter the dune edges hold Meadow Pipit and sometimes Short-eared Owl. Little Tern colonies nest on the beach at Ainsdale each summer, wardened by the RSPB, one of the most important colonies in England.
-            </p>
-          </div>
-        </div>
-
-        {/* THE BEACH, new section, equivalent to Marshside's coastal path section */}
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          The tideline
-        </p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Ainsdale Beach from the NNR</h2>
-        <p className="text-[var(--slate)] mb-5 text-sm leading-relaxed">
-          Walk west through the dune system and you emerge straight onto Ainsdale Beach, a wide, open stretch of Irish Sea coast backed by the NNR. The tideline here is worth a look. After overnight high tides or storms, the strandline turns up mermaid&apos;s purses (shark egg cases), barrel jellyfish, compass jellyfish, whelk egg masses and razor clams. Low tide after a big winter swell is prime beachcombing.
-        </p>
-        <p className="text-[var(--slate)] mb-5 text-sm leading-relaxed">
-          Barrel jellyfish wash in through winter and early spring. They can reach 90cm across. Compass jellyfish have a sting on the tentacles. Sefton Council&apos;s advice covers both: treat stranded jellyfish with caution and do not touch them, because they can still sting even when dead. Both species indicate clean offshore water and are normal on this coastline.
-        </p>
-
-        {/* Full-width beach image */}
-        <div className="rounded-xl overflow-hidden mb-4">
-          <ClickableImage
-            src="/images/blog/beachcombing/barrel-jellyfish-dog-ainsdale-beach.webp"
-            alt="Barrel jellyfish stranded on Ainsdale Beach with a dog in the background, typical winter strandline on the Sefton Coast"
-            className="w-full h-64 sm:h-80 object-cover"
-            caption="Barrel jellyfish on the Ainsdale strandline: harmless, and common in winter and spring. Their presence indicates healthy offshore conditions."
-          />
-          <p className="text-xs text-[var(--slate)]/50 mt-1.5 px-1">Barrel jellyfish on the Ainsdale strandline: harmless. Common after winter storms.</p>
-        </div>
-
-        {/* 3-column tideline finds grid */}
-        <div className="grid grid-cols-3 gap-2 mb-5">
-          <div className="rounded-xl overflow-hidden h-28">
+        <section className="mt-12">
+          <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">The tideline</p>
+          <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Ainsdale beach from the NNR</h2>
+          <p className="text-[var(--slate)] mb-5 text-sm leading-relaxed">
+            The strandline below the dunes turns up jellyfish, egg cases and shells, especially after storms. Sefton Council&apos;s advice is to treat stranded jellyfish with caution and not to touch them, because they can still sting even when dead.
+          </p>
+          <div className="rounded-xl overflow-hidden mb-4">
             <ClickableImage
-              src="/images/blog/beachcombing/compass-jellyfish-closeup-ainsdale.webp"
-              alt="Compass jellyfish close-up on the Ainsdale tideline: distinctive brown V-shaped markings"
-              className="w-full h-28 object-cover"
-              caption="Compass jellyfish: identified by the brown V-shaped markings radiating from the centre. Mild sting on tentacles: don't touch directly."
+              src="/images/blog/beachcombing/barrel-jellyfish-dog-ainsdale-beach.webp"
+              alt="A barrel jellyfish stranded on Ainsdale beach, with a dog in the background"
+              className="w-full h-64 sm:h-80 object-cover"
+              caption="A barrel jellyfish on the Ainsdale strandline. Do not touch stranded jellyfish."
             />
           </div>
-          <div className="rounded-xl overflow-hidden h-28">
-            <ClickableImage
-              src="/images/blog/beachcombing/mermaids-purse-held-hand-ainsdale.webp"
-              alt="Mermaid's purse: small-spotted catshark egg case found on Ainsdale Beach, held in a hand"
-              className="w-full h-28 object-cover object-top"
-              caption="Mermaid's purse: the leathery egg case of a small-spotted catshark. The pup has long since hatched; the empty case washes in year-round."
-            />
+          <div className="grid grid-cols-3 gap-2 mb-5">
+            <div className="rounded-xl overflow-hidden h-28">
+              <ClickableImage
+                src="/images/blog/beachcombing/compass-jellyfish-closeup-ainsdale.webp"
+                alt="A compass jellyfish on the Ainsdale tideline, with brown V-shaped markings"
+                className="w-full h-28 object-cover"
+                caption="A compass jellyfish on the Ainsdale tideline."
+              />
+            </div>
+            <div className="rounded-xl overflow-hidden h-28">
+              <ClickableImage
+                src="/images/blog/beachcombing/mermaids-purse-held-hand-ainsdale.webp"
+                alt="A mermaid's purse egg case found on Ainsdale beach, held in a hand"
+                className="w-full h-28 object-cover object-top"
+                caption="A mermaid's purse found on Ainsdale beach."
+              />
+            </div>
+            <div className="rounded-xl overflow-hidden h-28">
+              <ClickableImage
+                src="/images/blog/beachcombing/whelk-egg-mass-ainsdale-beach.webp"
+                alt="A whelk egg mass on the Ainsdale strandline with seaweed"
+                className="w-full h-28 object-cover"
+                caption="A whelk egg mass on the Ainsdale strandline."
+              />
+            </div>
           </div>
-          <div className="rounded-xl overflow-hidden h-28">
+          <p className="text-sm text-[var(--slate)] leading-relaxed">
+            More on the strandline:{" "}
+            <Link href="/blog/what-is-a-mermaids-purse" className="text-[var(--marsh)] underline">what is a mermaid&apos;s purse?</Link> and{" "}
+            <Link href="/blog/jellyfish-sefton-coast" className="text-[var(--marsh)] underline">jellyfish on the Sefton Coast</Link>.
+          </p>
+        </section>
+
+        <div className="grid grid-cols-2 gap-3 mt-10">
+          <div className="rounded-xl overflow-hidden h-44">
             <ClickableImage
-              src="/images/blog/beachcombing/whelk-egg-mass-ainsdale-beach.webp"
-              alt="Whelk egg mass (sea wash ball) found on the Ainsdale strandline with seaweed"
-              className="w-full h-28 object-cover"
-              caption="Common whelk egg mass: also called a sea wash ball. Each tiny capsule originally held multiple whelk eggs. Completely harmless and worth picking up for a closer look."
+              src="/images/blog/beachcombing/no-barbecues-sefton-coast-sign.webp"
+              alt="Sign at Ainsdale: no barbecues and no fires on the beach and dunes"
+              className="w-full h-44 object-cover"
+              caption="No barbecues or fires: the sign at Ainsdale."
             />
+            <p className="text-xs text-[var(--slate)]/60 mt-1 px-0.5">No barbecues or fires</p>
           </div>
-        </div>
-
-        <div className="bg-[var(--dune)] rounded-xl p-5 mb-10 text-sm text-[var(--slate)] leading-relaxed">
-          <p className="font-semibold text-[var(--forest)] mb-2">Beachcombing at Ainsdale: what to know</p>
-          <ul className="space-y-1.5">
-            <li>Best timing: low tide on a falling tide after an overnight high, when the strandline is freshest</li>
-            <li>Post-storm mornings in winter are prime: the biggest finds wash in after rough weather</li>
-            <li>Mermaid&apos;s purses are safe to handle: the shark has already hatched</li>
-            <li>Look but do not touch jellyfish: Sefton Council warns they can sting even when dead</li>
-            <li>Full guide: <Link href="/blog/what-is-a-mermaids-purse" className="text-[var(--marsh)] underline">what is a mermaid&apos;s purse?</Link> and <Link href="/blog/jellyfish-sefton-coast" className="text-[var(--marsh)] underline">jellyfish on the Sefton Coast</Link></li>
-          </ul>
-        </div>
-
-        {/* Seasonal highlights */}
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          Seasonal highlights
-        </p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">When to visit</h2>
-
-        <div className="overflow-x-auto mb-10">
-          <table className="w-full text-sm text-[var(--slate)] border-collapse">
-            <thead>
-              <tr className="bg-[var(--dune)] text-left">
-                <th className="py-2 px-3 font-semibold text-[var(--forest)]">Month</th>
-                <th className="py-2 px-3 font-semibold text-[var(--forest)]">Highlights</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-[var(--dune)]">
-              <tr><td className="py-2 px-3 font-medium">April</td><td className="py-2 px-3">Natterjack males start calling. Sand lizards emerge to bask. First Wheatear on passage</td></tr>
-              <tr><td className="py-2 px-3 font-medium">May</td><td className="py-2 px-3">Peak natterjack calling. Sand lizard breeding season. Dune plants in flower. Good for migrants</td></tr>
-              <tr><td className="py-2 px-3 font-medium">June</td><td className="py-2 px-3">Dune slack plants at their best. Natterjack tadpoles in the pools. Stonechat and Skylark breeding</td></tr>
-              <tr><td className="py-2 px-3 font-medium">Jul–Aug</td><td className="py-2 px-3">Quieter for herps. Insects peak: Dark Green Fritillary and Six-spot Burnet moth on the dunes</td></tr>
-              <tr><td className="py-2 px-3 font-medium">Sep–Oct</td><td className="py-2 px-3">Autumn migrants. Whinchat and Redstart in the scrub. Meadow Pipit flocks building</td></tr>
-              <tr><td className="py-2 px-3 font-medium">Nov–Mar</td><td className="py-2 px-3">Quiet for reptiles and amphibians. Best beachcombing on the strandline. Short-eared Owl occasional</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        {/* What to bring */}
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          Know before you go
-        </p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">What to bring</h2>
-        <ul className="space-y-3 mb-10 text-[var(--slate)] text-sm leading-relaxed">
-          {[
-            { label: "Binoculars", body: "For birds and to scan dune slopes for lizards at a distance. 8×42 is plenty." },
-            { label: "Torch", body: "Essential if you're going for natterjacks after dark. A head torch keeps your hands free." },
-            { label: "Wellies or waterproof boots", body: "The dune slacks hold standing water after rain. Even in summer the slacks can be wet." },
-            { label: "Layers", body: "The coast is exposed. It can be 5°C colder at Ainsdale than in Southport town centre on a windy day." },
-            { label: "A field guide to amphibians and reptiles", body: "Collins Reptiles and Amphibians of Britain and Europe is the standard: well worth having if you're looking for natterjacks or sand lizards." },
-          ].map(({ label, body }) => (
-            <li key={label} className="flex gap-3">
-              <span className="text-[var(--marsh)] mt-0.5 flex-shrink-0">▸</span>
-              <span><strong className="text-[var(--slate)]">{label}</strong>: {body}</span>
-            </li>
-          ))}
-        </ul>
-
-        {/* Getting there */}
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          Getting there
-        </p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-3">How to find it</h2>
-        <p className="text-[var(--slate)] mb-3 text-sm leading-relaxed">
-          <strong>By car:</strong> Postcode <strong>PR8 2QA</strong> takes you to Shore Road, Ainsdale. Sefton Council&apos;s <a href="https://www.southportguide.co.uk/parking/parking-ainsdale-beach-parking-area" target="_blank" rel="noopener" className="text-[var(--marsh)] underline underline-offset-2">beach parking at Ainsdale</a> is open from 1 April to 30 September only, at £10 a day, and there is no public parking on the reserve. The NNR lies to the south of the beach car park: Natural England says you can reach it along the beach or through the neighbouring Ainsdale Sandhills Local Nature Reserve.
-        </p>
-        <p className="text-[var(--slate)] mb-3 text-sm leading-relaxed">
-          The National Trust site at Formby (Victoria Road car park, L37 1LJ) is to the south, and the two reserves adjoin. You can walk between them along the beach at low tide, though the NT car park and Ainsdale car park are separate.
-        </p>
-        <p className="text-[var(--slate)] mb-6 text-sm leading-relaxed">
-          <strong>By train:</strong> Natural England puts the reserve 1.2km from Ainsdale station and 1.4km from Freshfield station, both on Merseyrail. From October to March, when the beach parking is closed, the train is the easiest way in, and it saves dealing with the car park on summer weekends.
-        </p>
-
-        {/* Access sign images, 2-column grid like Marshside's viewpoints */}
-        <div className="grid grid-cols-2 gap-3 mb-10">
           <div className="rounded-xl overflow-hidden h-44">
             <ClickableImage
               src="/images/blog/beachcombing/england-coast-path-sign-ainsdale.webp"
-              alt="England Coast Path directional sign at Ainsdale on the Sefton Coast"
+              alt="England Coast Path sign at Ainsdale"
               className="w-full h-44 object-cover"
-              caption="England Coast Path runs through Ainsdale: waymarked with the blue acorn signs. Links north to Southport and south toward Crosby."
+              caption="England Coast Path sign at Ainsdale."
             />
-            <p className="text-xs text-[var(--slate)]/50 mt-1 px-0.5">England Coast Path: runs north to Southport and south toward Crosby</p>
-          </div>
-          <div className="rounded-xl overflow-hidden h-44">
-            <ClickableImage
-              src="/images/blog/beachcombing/sefton-coast-natural-home-sign.webp"
-              alt="Sefton Coast: Natural Home interpretation sign at Ainsdale Sand Dunes NNR"
-              className="w-full h-44 object-cover object-top"
-              caption="Sefton Coast: Natural Home sign at the NNR. Natural England manages the reserve for natterjack toads, sand lizards, rare dune plants and Little Tern colonies."
-            />
-            <p className="text-xs text-[var(--slate)]/50 mt-1 px-0.5">NNR entrance, managed by Natural England</p>
+            <p className="text-xs text-[var(--slate)]/60 mt-1 px-0.5">England Coast Path sign</p>
           </div>
         </div>
 
-        {/* FAQs */}
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">
-          Common questions
-        </p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-6">FAQs</h2>
-        <div className="space-y-5 mb-10">
-          {faqs.map(({ q, a }) => (
-            <div key={q} className="border-b border-[var(--dune)] pb-5 last:border-0">
-              <h3 className="font-semibold text-[var(--forest)] mb-1.5 text-sm">{q}</h3>
-              <p className="text-sm text-[var(--slate)] leading-relaxed">{a}</p>
-            </div>
-          ))}
+        <section className="mt-12">
+          <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">Common questions</p>
+          <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-6">FAQs</h2>
+          <div className="space-y-5">
+            {faqs.map(({ q, a }) => (
+              <div key={q} className="border-b border-[var(--dune)] pb-5 last:border-0">
+                <h3 className="font-semibold text-[var(--forest)] mb-1.5 text-sm">{q}</h3>
+                <p className="text-sm text-[var(--slate)] leading-relaxed">{a}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <div className="flex flex-wrap gap-x-6 gap-y-3 pt-6 mt-10 border-t border-[var(--dune)]">
+          <Link href="/nature" className="text-[var(--marsh)] font-medium hover:underline text-sm">All site guides →</Link>
+          <Link href="/nature/birkdale-green-beach" className="text-[var(--marsh)] font-medium hover:underline text-sm">Birkdale Green Beach →</Link>
+          <Link href="/nature/formby-point" className="text-[var(--marsh)] font-medium hover:underline text-sm">Formby Point →</Link>
+          <Link href="/seasonal/month-by-month" className="text-[var(--marsh)] font-medium hover:underline text-sm">Month by month →</Link>
+          <Link href="/nature/designations" className="text-[var(--marsh)] font-medium hover:underline text-sm">Protected sites →</Link>
         </div>
 
-        <p className="text-[var(--slate)] text-sm leading-relaxed mb-10">
-          Ainsdale village has a good selection of cafés and a Co-op for supplies. If you&apos;re combining this with the National Trust site at Formby, it is a short drive south. For a full day on the Sefton Coast,{" "}
-          <a
-            href="https://www.southportguide.co.uk"
-            className="font-medium text-[var(--marsh)] underline underline-offset-2 hover:text-[var(--forest)] transition-colors"
-          >
-            SouthportGuide covers food, accommodation and things to do in Southport
-          </a>
-          {" "}and{" "}
-          <a
-            href="https://www.formbyguide.co.uk/red-squirrels-formby"
-            className="font-medium text-[var(--marsh)] underline underline-offset-2 hover:text-[var(--forest)] transition-colors"
-          >
-            FormbyGuide has the full red squirrel trail guide
-          </a>
-          .
-        </p>
-
-        <div className="flex flex-wrap gap-4 pt-4 border-t border-[var(--dune)]">
-          <Link href="/nature/marshside-rspb" className="text-[var(--marsh)] font-medium hover:underline text-sm">Marshside RSPB Reserve →</Link>
-          <Link href="/blog/what-is-a-mermaids-purse" className="text-[var(--marsh)] font-medium hover:underline text-sm">What is a mermaid&apos;s purse? →</Link>
-          <Link href="/blog/jellyfish-sefton-coast" className="text-[var(--marsh)] font-medium hover:underline text-sm">Jellyfish on the Sefton Coast →</Link>
-          <Link href="/nature/sefton-coast" className="text-[var(--marsh)] font-medium hover:underline text-sm">The Sefton Coast overview →</Link>
-        </div>
+        <SourceList sources={sources} accessed={SOURCES_ACCESSED} />
       </div>
     </>
   );

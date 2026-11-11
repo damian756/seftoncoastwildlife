@@ -1,10 +1,14 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ClickableImage } from "@/components/ClickableImage";
+import { SourceList } from "@/components/SourceList";
+import { getAllSpecies } from "@/lib/species";
+import { SITE_GUIDES } from "@/lib/site-guides";
+import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 
-const title = "The Sefton Coast — Geography, Habitats & Wildlife";
+const title = "The Sefton Coast: Habitats, Wildlife and Where to Go";
 const description =
-  "The Sefton Coast stretches from the Mersey to the Ribble — saltmarsh, sand dunes, pinewoods and some of the best birdwatching in northwest England.";
+  "An overview of the Sefton Coast from the Ribble to the Mersey: saltmarsh, sand dunes, pinewoods and beaches, what each protects, and guides to each site north to south.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/sefton-coast";
 
 export const metadata: Metadata = {
@@ -27,39 +31,47 @@ const pageJsonLd = {
   "@type": "TouristAttraction",
   name: "The Sefton Coast",
   description:
-    "A 21-mile stretch of coastline between Merseyside and Lancashire — sand dunes, saltmarsh, pinewoods and internationally important wildlife reserves.",
+    "Sefton's 22-mile natural coastline between the Mersey and the Ribble: sand dunes, beaches, saltmarsh and pinewoods, much of it protected as the Sefton Coast SSSI.",
   url,
-  geo: { "@type": "GeoCoordinates", latitude: 53.55, longitude: -3.06 },
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Sefton",
-    addressRegion: "Merseyside",
-    addressCountry: "GB",
-  },
-  touristType: ["Nature lovers", "Birdwatchers", "Walkers", "Families"],
+  address: { "@type": "PostalAddress", addressLocality: "Sefton", addressRegion: "Merseyside", addressCountry: "GB" },
 };
 
+const sources = [
+  used(SRC.seftonVisitingBeaches, "the 22-mile length of Sefton's natural coastline"),
+  used(SRC.neSeftonSsssiCitation, "the SSSI's extent, habitats, waders, reptiles and amphibians, Formby Point's erosion, pine plantations and scrub"),
+  used(SRC.neSeftonSacCitation, "the creeping willow dune slacks"),
+  used(SRC.jnccRibbleAltRamsar, "the share of the British natterjack population"),
+  used(SRC.neRibbleSsssiCitation, "the Ribble's saltmarsh and the Southport Sanctuary"),
+  used(SRC.neMerseysideNnrs, "the number of birds on the Ribble Estuary NNR"),
+  used(SRC.ntFormby, "Red Squirrels in the Formby pinewoods and the Trust's dune restoration"),
+  used(SRC.lwtSquirrelPox, "the 2026 squirrel pox outbreak"),
+  used(SRC.seftonCalendar, "the three key roost areas and Green Sefton's winter scrub clearance and grazing"),
+];
+
 export default function SeftonCoastPage() {
+  const counts = {
+    birds: getAllSpecies("birds").length,
+    insects: getAllSpecies("insects").length,
+    plants: getAllSpecies("plants").length,
+    mammals: getAllSpecies("mammals").length,
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
 
-      {/* Hero image — before the header band */}
       <div className="relative h-72 sm:h-96 w-full overflow-hidden bg-[var(--slate)]">
         <ClickableImage
           src="/images/blog/beachcombing/compass-jellyfish-dogprints-ainsdale.webp"
-          alt="Compass jellyfish stranded on the Ainsdale tideline with dog paw prints in the wet sand — Sefton Coast, winter"
+          alt="A compass jellyfish stranded on the Ainsdale tideline with dog paw prints in the wet sand"
           className="w-full h-full object-cover object-center"
-          caption="The Sefton Coast tideline at Ainsdale — compass jellyfish with dog prints in the wet sand. Twenty-one miles of coast, most of it wild and free."
+          caption="The tideline at Ainsdale in winter."
           fill
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent pointer-events-none" />
-        <div className="absolute bottom-0 left-0 right-0 p-6 pointer-events-none">
-          <p className="text-xs text-white/50">The Sefton Coast at Ainsdale — 21 miles of coastline between the Mersey and the Ribble</p>
-        </div>
       </div>
 
-      {/* Page header band */}
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-3xl px-4 py-10">
           <nav className="text-sm text-white/50 mb-4 flex items-center gap-1.5">
@@ -70,126 +82,120 @@ export default function SeftonCoastPage() {
             <span className="text-white/80">The Sefton Coast</span>
           </nav>
           <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-3">
-            SSSI · 21 miles · Merseyside to Lancashire
+            Overview · Ribble to Mersey
           </p>
-          <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">
-            The Sefton Coast
-          </h1>
+          <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">The Sefton Coast</h1>
           <p className="text-white/75 text-lg leading-relaxed max-w-2xl">
-            Twenty-one miles of coastline between the Mersey and the Ribble — saltmarsh, sand dunes, pinewoods and one of the most important stretches of coastal habitat in England.
+            Sefton Council puts its natural coastline at 22 miles. The Sefton Coast SSSI covers more than 20km of it between Southport and Crosby: sand and mudflats, mobile dunes, dune slacks, dune heath and small areas of saltmarsh, with the Ribble Estuary to the north.
           </p>
         </div>
       </div>
 
       <div className="mx-auto max-w-3xl px-4 py-10">
-        <p className="text-lg text-[var(--slate)] mb-8 leading-relaxed">
-          Not many people outside the North West know it exists. That&apos;s their loss. From Marshside&apos;s 80,000+ Pink-footed Geese to Red Squirrels in the Formby pinewoods — this coastline punches well above its weight for wildlife.
+        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">Where to go</p>
+        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Site guides, north to south</h2>
+        <ol className="space-y-3 mb-4">
+          {SITE_GUIDES.map((g) => (
+            <li key={g.href} className="rounded-xl border border-[var(--dune)] bg-white p-4">
+              <Link href={g.href} className="font-semibold text-[var(--forest)] hover:text-[var(--marsh)]">{g.name}</Link>
+              <p className="text-xs font-bold uppercase tracking-wider text-[var(--marsh)] mt-0.5">{g.tag}</p>
+              <p className="text-sm text-[var(--slate)] leading-relaxed mt-1">{g.desc}</p>
+            </li>
+          ))}
+        </ol>
+        <p className="text-sm text-[var(--slate)] mb-10">
+          Also: <Link href="/seasonal/month-by-month" className="text-[var(--marsh)] underline underline-offset-2">what to see month by month</Link> and{" "}
+          <Link href="/nature/designations" className="text-[var(--marsh)] underline underline-offset-2">the coast&apos;s protected-site designations</Link>.
         </p>
 
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">Geography</p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-3">Where it is</h2>
-        <p className="text-[var(--slate)] mb-6 leading-relaxed text-sm">
-          The Sefton Coast runs along the Lancashire and Merseyside shoreline from Crosby in the south to Southport in the north — taking in Formby, Ainsdale, and the Ribble Estuary at the top end. It sits on the edge of two major conurbations (Liverpool and Manchester are both within an hour) but feels entirely separate from both.
-        </p>
-        <p className="text-[var(--slate)] mb-8 leading-relaxed text-sm">
-          The whole stretch is designated as a Site of Special Scientific Interest (SSSI). Large portions are managed by the National Trust, RSPB, Natural England and the Sefton Council ranger service. It&apos;s one of the few places in lowland England where you can still see nationally rare habitats in reasonable condition.
-        </p>
-
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">Ecosystems</p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Key habitats</h2>
+        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">Habitats</p>
+        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">How the coast fits together</h2>
 
         <div className="space-y-6 mb-10">
-
-          {/* Saltmarsh */}
           <div className="rounded-xl border border-[var(--dune)] p-5">
-            <h3 className="font-bold text-[var(--forest)] mb-2">Saltmarsh and managed lagoons — Marshside &amp; Crossens</h3>
+            <h3 className="font-bold text-[var(--forest)] mb-2">Saltmarsh and the Ribble Estuary</h3>
             <p className="text-[var(--slate)] text-sm leading-relaxed mb-4">
-              At the northern end of the coast, the RSPB manages two reserves at Marshside and Hesketh Out Marsh. Tidal creeks, managed scrapes and saltmarsh grassland hold huge numbers of waders and wildfowl through winter. Pink-footed Geese from Iceland arrive in October — at peak, 80,000+ can be present on the Ribble. Breeding Avocets, Lapwing and Redshank nest here in summer.
+              The Ribble Estuary SSSI citation describes extensive intertidal sand and silt flats with one of the largest areas of grazed &lsquo;greenmarsh&rsquo; in Britain. Most of the Sefton foreshore outside the National Nature Reserve is covered by the Southport Sanctuary, a statutory bird sanctuary since 1956 that gives Pink-footed Geese a protected low-tide roost. Natural England says up to a quarter of a million birds use the estuary each year. The RSPB manages{" "}
+              <Link href="/nature/marshside-rspb" className="text-[var(--marsh)] underline underline-offset-2">Marshside</Link> and{" "}
+              <Link href="/nature/hesketh-out-marsh" className="text-[var(--marsh)] underline underline-offset-2">Hesketh Out Marsh</Link> within it.
             </p>
             <div className="relative h-52 rounded-lg overflow-hidden">
               <ClickableImage
                 src="/images/reserves/marshside/hero-coastal-reflection.jpg"
-                alt="The Marshside coastal saltmarsh path — sky and clouds reflected in a tidal pool, a walker in the distance"
+                alt="The saltmarsh path at Marshside, with sky and clouds reflected in a tidal pool and a walker in the distance"
                 className="w-full h-full object-cover object-center"
-                caption="Marshside coastal path — Redshank Road, SD 353204. The saltmarsh is part of the Ribble Estuary Special Protection Area."
+                caption="The saltmarsh path at Marshside, February 2026."
                 fill
               />
-              <p className="absolute bottom-2 left-3 right-3 text-white text-xs drop-shadow pointer-events-none">Marshside saltmarsh — part of the Ribble Estuary Special Protection Area</p>
             </div>
           </div>
 
-          {/* Sand dunes */}
           <div className="rounded-xl border border-[var(--dune)] p-5">
-            <h3 className="font-bold text-[var(--forest)] mb-2">Sand dunes — Ainsdale NNR and Formby</h3>
+            <h3 className="font-bold text-[var(--forest)] mb-2">Sand dunes and slacks</h3>
             <p className="text-[var(--slate)] text-sm leading-relaxed">
-              The dune system at Ainsdale is one of the most extensive in England — mobile yellow dunes at the seaward edge, fixed grey dunes further back, and dune slacks (wet hollows between the ridges) that support nationally rare plants and the only natural breeding population of Natterjack Toad in the North West.
+              The SSSI&apos;s dune system runs from embryo dunes on the strandline through mobile marram dunes to fixed dunes, dune grassland and dune heath, with wet slacks most frequent in the north. Natural England&apos;s SAC citation estimates that 43% of England&apos;s main creeping willow dune-slack community is here. The Ramsar information sheet says the site supports up to 40% of Great Britain&apos;s natterjack toads, and the SSSI citation notes that the coast&apos;s sand lizards, at the north-western edge of their natural range, are distinct from the southern colonies.
             </p>
             <p className="text-[var(--slate)] text-sm leading-relaxed mt-2 mb-4">
-              Rare dune plants including Grass of Parnassus, Round-leaved Wintergreen and Dune Helleborine grow at Ainsdale NNR. Sea spurge lines the seaward dune face — toxic sap, striking fleshy leaves. Access is managed — check Natural England&apos;s guidance before visiting the most sensitive areas.
+              Guides:{" "}
+              <Link href="/nature/ainsdale-sand-dunes" className="text-[var(--marsh)] underline underline-offset-2">Ainsdale Sand Dunes NNR</Link>,{" "}
+              <Link href="/nature/birkdale-green-beach" className="text-[var(--marsh)] underline underline-offset-2">Birkdale Green Beach and the Sandhills LNR</Link>.
             </p>
             <div className="relative h-52 rounded-lg overflow-hidden">
               <ClickableImage
                 src="/images/blog/beachcombing/sea-spurge-ainsdale-dunes.webp"
-                alt="Sea spurge on the Ainsdale sand dunes — a protected dune plant of the Sefton Coast SSSI"
+                alt="Sea spurge on the Ainsdale sand dunes"
                 className="w-full h-full object-cover object-center"
-                caption="Sea spurge on the Ainsdale dunes — one of the protected plants of the SSSI. The sap is toxic; do not handle."
+                caption="Sea spurge on the Ainsdale dunes. The sap is toxic; do not handle."
                 fill
               />
-              <p className="absolute bottom-2 left-3 right-3 text-white text-xs drop-shadow pointer-events-none">Sea spurge on the Ainsdale dunes — a protected plant of the Sefton Coast SSSI</p>
             </div>
           </div>
 
-          {/* Pinewoods */}
           <div className="rounded-xl border border-[var(--dune)] p-5">
-            <h3 className="font-bold text-[var(--forest)] mb-2">Pinewoods — Formby (National Trust)</h3>
+            <h3 className="font-bold text-[var(--forest)] mb-2">Pinewoods</h3>
             <p className="text-[var(--slate)] text-sm leading-relaxed">
-              Planted Victorian pinewoods at Formby now support one of the last viable populations of Red Squirrel in England. The NT manages the site for squirrel conservation — Grey Squirrel control is an ongoing requirement for the population&apos;s survival. Red Squirrels are most active and visible from September through to February.
-            </p>
-            <p className="text-[var(--slate)] text-sm leading-relaxed mt-2">
-              The pinewoods also hold Woodcock, Treecreeper and Lesser Spotted Woodpecker in the older sections. Worth exploring beyond the squirrel trail if you have the time.
+              The SSSI citation notes that parts of the dunes have been changed by golf courses, sand-winning and extensive pine plantations. The National Trust says the pinewoods at Formby are home to Red Squirrels. The Wildlife Trust confirmed a squirrel pox outbreak in Formby in July 2026 and asks people to remove feeders. See the{" "}
+              <Link href="/nature/formby-point" className="text-[var(--marsh)] underline underline-offset-2">Formby Point guide</Link>.
             </p>
           </div>
 
-          {/* Beach and intertidal */}
           <div className="rounded-xl border border-[var(--dune)] p-5">
-            <h3 className="font-bold text-[var(--forest)] mb-2">The beach and intertidal zone</h3>
+            <h3 className="font-bold text-[var(--forest)] mb-2">The beach and the waders</h3>
             <p className="text-[var(--slate)] text-sm leading-relaxed">
-              Formby Beach is managed by the National Trust. The intertidal zone — the stretch exposed at low tide — is significant for roosting and feeding waders. Sanderling, Dunlin and Ringed Plover work the tideline year-round. Little Tern colonies nest on the beach at Ainsdale each summer — the colony is one of the most important in England and is wardened by the RSPB. The strandline after winter storms regularly turns up mermaid&apos;s purses, barrel jellyfish, and whelk egg masses.
+              The SSSI citation lists internationally important wintering populations of Grey Plover, Knot, Sanderling and Bar-tailed Godwit on the foreshore, with Oystercatcher and Dunlin in nationally important numbers, and internationally important numbers of Ringed Plover and Sanderling on passage. Sefton Council names three key roost areas: off the Green Beach between Ainsdale and Birkdale, from Albert Road to the Alt at Formby, and the sandbanks off Hightown north of Hall Road. See{" "}
+              <Link href="/nature/crosby-and-alt-estuary" className="text-[var(--marsh)] underline underline-offset-2">Crosby and the Alt estuary</Link>.
             </p>
             <div className="grid grid-cols-2 gap-3 mt-4">
               <div className="relative h-44 rounded-lg overflow-hidden">
                 <ClickableImage
                   src="/images/blog/beachcombing/barrel-jellyfish-ainsdale-beach.webp"
-                  alt="Barrel jellyfish stranded on Ainsdale Beach — common winter strandline find on the Sefton Coast"
+                  alt="A barrel jellyfish stranded on Ainsdale beach"
                   className="w-full h-full object-cover object-center"
-                  caption="Barrel jellyfish on the Ainsdale strandline — harmless, and common in winter and spring after storms."
+                  caption="A barrel jellyfish on Ainsdale beach. Do not touch stranded jellyfish."
                   fill
                 />
-                <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug pointer-events-none">Barrel jellyfish — common winter strandline find on the Sefton Coast</p>
               </div>
               <div className="relative h-44 rounded-lg overflow-hidden">
                 <ClickableImage
                   src="/images/blog/beachcombing/mermaids-purse-held-hand-ainsdale.webp"
-                  alt="Mermaid's purse — catshark egg case — found on Ainsdale Beach"
+                  alt="A mermaid's purse egg case found on Ainsdale beach, held in a hand"
                   className="w-full h-full object-cover object-center"
-                  caption="Mermaid's purse — the empty egg case of a small-spotted catshark, washed up on Ainsdale Beach."
+                  caption="A mermaid's purse found on Ainsdale beach."
                   fill
                 />
-                <p className="absolute bottom-2 left-2 right-2 text-white text-xs drop-shadow leading-snug pointer-events-none">Mermaid&apos;s purse — catshark egg case washed up on Ainsdale Beach</p>
               </div>
             </div>
           </div>
-
         </div>
 
-        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">Species database</p>
-        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Wildlife summary</h2>
+        <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">Species pages</p>
+        <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Wildlife on this site</h2>
         <div className="grid sm:grid-cols-2 gap-4 mb-10">
           {[
-            { category: "Birds", stat: "119 species recorded", detail: "Including 42 winter visitors and 13 breeding summer species", href: "/birds" },
-            { category: "Insects", stat: "61 species recorded", detail: "One of the richest invertebrate assemblages in the North West", href: "/insects" },
-            { category: "Plants", stat: "52 species recorded", detail: "Including nationally rare dune and marsh flora", href: "/plants" },
-            { category: "Mammals", stat: "25 species recorded", detail: "Red Squirrel, Grey Seal, Natterjack Toad and more", href: "/mammals" },
+            { category: "Birds", stat: `${counts.birds} species pages`, href: "/birds" },
+            { category: "Insects", stat: `${counts.insects} species pages`, href: "/insects" },
+            { category: "Plants", stat: `${counts.plants} species pages`, href: "/plants" },
+            { category: "Mammals and other wildlife", stat: `${counts.mammals} species pages`, href: "/mammals" },
           ].map((item) => (
             <Link
               key={item.href}
@@ -198,7 +204,6 @@ export default function SeftonCoastPage() {
             >
               <span className="text-xs font-bold uppercase tracking-wide text-[var(--marsh)]">{item.category}</span>
               <p className="font-semibold text-[var(--forest)] mt-1">{item.stat}</p>
-              <p className="text-xs text-[var(--slate)]/70 mt-0.5">{item.detail}</p>
             </Link>
           ))}
         </div>
@@ -206,19 +211,20 @@ export default function SeftonCoastPage() {
         <p className="text-[var(--marsh)] text-xs font-bold uppercase tracking-widest mb-2">Looking after it</p>
         <h2 className="font-display text-2xl font-bold text-[var(--forest)] mb-4">Conservation</h2>
         <p className="text-[var(--slate)] mb-4 text-sm leading-relaxed">
-          The Sefton Coast faces the same pressures as coastal habitats everywhere — sea level rise, erosion, visitor pressure and invasive species. The dune system is naturally eroding at the seaward edge while scrubbing over at the landward side. Both processes reduce habitat quality for dune specialists.
+          The SSSI citation says the zone around Formby Point has been eroding since 1906 while the coast to the north and south builds up, and that some dune slacks are being invaded by birch and sea buckthorn scrub.
         </p>
         <p className="text-[var(--slate)] mb-10 text-sm leading-relaxed">
-          Active management — scrub removal, grazing by cattle and rabbits, Natterjack Toad egg-string translocations, Little Tern wardening — keeps the system in better condition than it would otherwise be. It&apos;s unglamorous work and it makes a difference.
+          Sefton Council&apos;s Green Sefton teams cut back invasive scrub on the coast in winter and graze the dunes with Belted Galloway cattle and Herdwick sheep. The National Trust is restoring dune habitat at Formby, including with conservation cattle grazing this winter.
         </p>
 
-        <div className="flex flex-wrap gap-4 pt-4 border-t border-[var(--dune)]">
-          <Link href="/nature/marshside-rspb" className="text-[var(--marsh)] font-medium hover:underline text-sm">Marshside RSPB Reserve →</Link>
-          <Link href="/nature/ainsdale-sand-dunes" className="text-[var(--marsh)] font-medium hover:underline text-sm">Ainsdale Sand Dunes NNR →</Link>
+        <div className="flex flex-wrap gap-x-6 gap-y-3 pt-6 border-t border-[var(--dune)]">
+          <Link href="/nature" className="text-[var(--marsh)] font-medium hover:underline text-sm">All site guides →</Link>
+          <Link href="/nature/designations" className="text-[var(--marsh)] font-medium hover:underline text-sm">Protected sites →</Link>
+          <Link href="/seasonal/month-by-month" className="text-[var(--marsh)] font-medium hover:underline text-sm">Month by month →</Link>
           <Link href="/birdwatching-guide" className="text-[var(--marsh)] font-medium hover:underline text-sm">Birdwatching guide →</Link>
-          <a href="https://www.formbyguide.co.uk" target="_blank" rel="noopener" className="text-[var(--marsh)] font-medium hover:underline text-sm">FormbyGuide — pinewoods &amp; red squirrels →</a>
-          <a href="https://www.southportguide.co.uk" target="_blank" rel="noopener" className="text-[var(--marsh)] font-medium hover:underline text-sm">SouthportGuide →</a>
         </div>
+
+        <SourceList sources={sources} accessed={SOURCES_ACCESSED} />
       </div>
     </>
   );
