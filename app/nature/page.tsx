@@ -23,7 +23,7 @@ export default function NaturePage() {
     <div className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="text-3xl font-bold text-[var(--forest)] mb-2">Reserve and site guides</h1>
       <p className="text-[var(--slate)] mb-8 max-w-2xl">
-        One guide for each place birdwatchers go on this coast, listed north to south, then WWT Martin Mere inland. Each says who manages the site, how to get there and park, the paths and hides, what is seen by season, when the tide matters, the rules on access and dogs, and links to the managing body&apos;s own page.
+        One guide for each place birdwatchers go on this coast, listed north to south, then WWT Martin Mere inland. Each says who manages the site, how to get there and park, the paths and hides, what is seen by season, when the tide matters, the rules on access and dogs, and a link to an official page: the managing body&apos;s own page or, for Birkdale Green Beach and Crosby, Natural England&apos;s record of the site.
       </p>
 
       <h2 className="font-display text-xl font-bold text-[var(--forest)] mb-4">Coast sites north to south, then WWT Martin Mere inland</h2>
