@@ -7,7 +7,7 @@ import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
 const title = "Crosby, Hall Road and the Alt Estuary: Roosts, Parking and Safety";
 const description =
-  "Guide to Crosby Coastal Park and the Alt estuary at Hightown for birdwatchers: stations, car parks, the wader and goose roosts off Hightown, the 50m safety rule on Crosby beach, and dogs.";
+  "Guide to Crosby Coastal Park and the Alt estuary at Hightown for birdwatchers: stations, car parks, the wader and goose roosts off Hightown, the 50m safety rule on Crosby beach, and dogs, from Sefton Council's pages.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/crosby-and-alt-estuary";
 
 export const metadata: Metadata = {
@@ -23,16 +23,22 @@ const pageJsonLd = {
   "@type": "Place",
   name: "Crosby Coastal Park and the Alt estuary",
   description:
-    "Crosby Coastal Park, from Waterloo to the estuary of the River Alt at Hightown, part of the Ribble and Alt Estuaries Special Protection Area.",
+    "Sefton Council's Crosby Coastal Park, from Waterloo to the estuary of the River Alt at Hightown, part of the Ribble and Alt Estuaries Special Protection Area.",
   url,
   address: { "@type": "PostalAddress", addressLocality: "Crosby", addressRegion: "Merseyside", addressCountry: "GB" },
 };
 
 const sources = [
+  used(SRC.seftonCrosbyCoastalPark, "the park's extent, its designations, stations, buses and car parks"),
+  used(SRC.seftonCrosbyBeach, "the 50m safety rule, lifeguards, stations and car park names"),
+  used(SRC.seftonAnotherPlace, "the Another Place figures"),
+  used(SRC.seftonCalendar, "the roost on the sandbanks off Hightown, the Pink-footed Goose roosts, winter wader roosts, Sand Lizards and the advice on disturbance"),
   used(SRC.neRibbleAltSpaDetail, "how the Sefton shore merges into the Alt estuary and the Alt's flats and saltmarsh"),
   used(SRC.neRibbleAltSpaCitation, "the Alt Estuary SPA of 1985 and the 2002 extension"),
   used(SRC.neMerseyNarrowsSpaDetail, "birds from the Mersey roosting at the high-tide mark near Hightown"),
   used(SRC.neSeftonSsssiCitation, "the Alt's saltmarsh and reedbed, the Hightown shingle bank and the sandhill rustic moth"),
+  used(SRC.seftonAinsdaleBeach, "dogs near roosting birds and the Wildlife and Countryside Act"),
+  used(SRC.seftonFindParking, "car park times and prices"),
 ];
 
 export default function CrosbyAltEstuaryPage() {
@@ -50,11 +56,11 @@ export default function CrosbyAltEstuaryPage() {
             <span className="text-white/80">Crosby and the Alt estuary</span>
           </nav>
           <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-3">
-            Local council · Crosby, Hall Road and Hightown
+            Sefton Council · Crosby, Hall Road and Hightown
           </p>
           <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">Crosby, Hall Road and the Alt estuary</h1>
           <p className="text-white/75 text-lg leading-relaxed max-w-2xl">
-            Crosby Coastal Park runs from Waterloo to the estuary of the River Alt at Hightown. The sandbanks off Hightown, north of Hall Road, are one of the coast&apos;s three key roost areas, and Pink-footed Geese roost on the shore at Hightown in autumn.
+            Crosby Coastal Park runs from Waterloo to the estuary of the River Alt at Hightown. Sefton Council names the sandbanks off Hightown, north of Hall Road, as one of the coast&apos;s three key roost areas, and Pink-footed Geese roost on the shore at Hightown in autumn.
           </p>
         </div>
       </div>
@@ -69,18 +75,18 @@ export default function CrosbyAltEstuaryPage() {
           checked="11 November 2026"
           managedBy={
             <>
-              The local council, as Crosby Coastal Park. The park is a Site of Local Biological Interest, part of the Sefton Coast Special Area of Conservation and part of the Ribble and Alt Estuaries Special Protection Area.
+              Sefton Council, as Crosby Coastal Park. The council lists the park as a Site of Local Biological Interest, part of the Sefton Coast Special Area of Conservation and part of the Ribble and Alt Estuaries Special Protection Area.
             </>
           }
           official={[{ label: "Natural England: Ribble and Alt Estuaries SPA record", url: SRC.neRibbleAltSpaDetail.url }]}
           gettingThere={[
-            <>By train: Blundellsands and Crosby, Waterloo and Hall Road stations on Merseyrail are all in easy walking distance. Blundellsands and Crosby is closest to the beach entrance for the Another Place figures; Waterloo is a short stroll from the park&apos;s gardens and Marine Lake.</>,
-            <>By bus: many regular routes serve the area.</>,
+            <>By train: the council says Blundellsands and Crosby, Waterloo and Hall Road stations on Merseyrail are all in easy walking distance. Blundellsands and Crosby is closest to the beach entrance for the Another Place figures; Waterloo is a short stroll from the park&apos;s gardens and Marine Lake.</>,
+            <>By bus: the council says many regular routes serve the area.</>,
             <>On foot or by bike: the park has a promenade and a coastal footpath and cycleway.</>,
           ]}
           parking={[
             <>Car parks are off Cambridge Road, Blucher Street, Mariners Road and Hall Road West.</>,
-            <>Plan ahead to avoid traffic delays, and park considerately.</>,
+            <>The council asks drivers to plan ahead to avoid traffic delays and to park considerately. Its find-parking page lists car park times and prices.</>,
           ]}
           paths={[
             <>The promenade and the coastal footpath and cycleway run along the park. Antony Gormley&apos;s Another Place, 100 cast-iron figures, stands along about 3km of the shore and almost a mile out to sea.</>,
@@ -89,27 +95,27 @@ export default function CrosbyAltEstuaryPage() {
           seasons={[
             {
               season: "Spring",
-              text: "The sandbanks off Hightown north of Hall Road are one of three key areas for roosts as spring migration builds in April.",
+              text: "Sefton Council's nature calendar names the sandbanks off Hightown north of Hall Road as one of three key areas for roosts as spring migration builds in April.",
             },
             {
               season: "Summer",
-              text: "The grasslands at Crosby Coastal Park are a mix of wildflowers in July thanks to the mowing regime, and young Sand Lizards hatch in the frontal dunes from Hightown to Birkdale in August. The SSSI citation records the Red Data Book sandhill rustic moth on the embryo dunes and strandline at Altcar.",
+              text: "The council says the grasslands at Crosby Coastal Park are a mix of wildflowers in July thanks to the mowing regime, and that young Sand Lizards hatch in the frontal dunes from Hightown to Birkdale in August. The SSSI citation records the Red Data Book sandhill rustic moth on the embryo dunes and strandline at Altcar.",
             },
             {
               season: "Autumn",
-              text: "Pink-footed Geese begin to arrive from Iceland in September, with large roosts building on the sands off Hightown by the end of the month, and thousands roost on the shore at Hightown in October. Natural England notes that birds from the Mersey Narrows may roost at the high-tide mark near Hightown.",
+              text: "Pink-footed Geese begin to arrive from Iceland in September, with large roosts building on the sands off Hightown by the end of the month, and thousands roost on the shore at Hightown in October (Sefton Council). Natural England notes that birds from the Mersey Narrows may roost at the high-tide mark near Hightown.",
               birds: ["pink-footed-goose"],
             },
             {
               season: "Winter",
-              text: "By December, roosts of Knot, godwits, Sanderling and Dunlin are well established on the coast and are highly susceptible to disturbance at high tide and in bad weather.",
+              text: "By December, the council says, roosts of Knot, godwits, Sanderling and Dunlin are well established on the coast and are highly susceptible to disturbance at high tide and in bad weather.",
               birds: ["knot", "bar-tailed-godwit", "sanderling", "dunlin"],
             },
           ]}
           tide={[
-            <>Crosby beach is not a bathing beach. It has areas of soft sand and mud and a risk of changing tides: stay out of the sea and within 50 metres of the promenade at all tides. Watch from the promenade.</>,
+            <>Crosby beach is not a bathing beach. Sefton Council says it has areas of soft sand and mud and a risk of changing tides, and that visitors should stay out of the sea and within 50 metres of the promenade at all tides. Watch from the promenade.</>,
             <>The roosts form over high tide. If birds run or fly ahead of you, you are too close.</>,
-            <>RNLI lifeguards are on Crosby beach all year, but there is no patrolled bathing area.</>,
+            <>Sefton Council says RNLI lifeguards are on Crosby beach all year, but that there is no patrolled bathing area.</>,
           ]}
           access={[
             <>No barbecues or fires anywhere on the coast.</>,
@@ -117,7 +123,7 @@ export default function CrosbyAltEstuaryPage() {
           ]}
           dogs={[
             <>Keep dogs under close control, and on a lead if you cannot control them.</>,
-            <>Keep dogs away from roosting waders, terns and gulls. It is a criminal offence under the Wildlife and Countryside Act 1981 to allow your dog to disturb them.</>,
+            <>Keep dogs away from roosting waders, terns and gulls. Sefton Council says it is a criminal offence under the Wildlife and Countryside Act 1981 to allow your dog to disturb them.</>,
           ]}
         />
 

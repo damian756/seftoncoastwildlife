@@ -11,7 +11,8 @@ export interface SpeciesFaq {
 
 export interface SpeciesSource {
   label: string;
-  url: string;
+  /** Omitted for sites the network names but does not link (lib/blocked-domains.ts); the label then shows as plain text. */
+  url?: string;
 }
 
 export interface SpeciesExternalLinks {

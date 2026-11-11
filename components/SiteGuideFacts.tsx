@@ -72,7 +72,7 @@ export function SiteGuideFacts(props: SiteGuideFactsProps) {
             ))}
           </dd>
           <dt className="font-semibold text-[var(--forest)]">Facts checked</dt>
-          <dd>{checked}. The main sources are listed under Sources. Times and charges change: check before you go.</dd>
+          <dd>{checked}, against the pages listed under Sources. Times and charges change: check the official page before you go.</dd>
         </dl>
       </section>
 

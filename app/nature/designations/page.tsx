@@ -173,7 +173,7 @@ const NATIONAL: Designation[] = [
         Intertidal mud and sandflats, embryonic and mobile dunes, dunes with creeping willow, humid dune slacks, fixed dunes, dune grassland and dune heath, with small areas of saltmarsh; plants including grey hair-grass, petalwort and the moss Bryum neodamense; internationally important wintering waterfowl and waders; sand lizard, natterjack toad and great crested newt; the sandhill rustic moth; and the coast&apos;s geomorphology, especially its large mobile dune system and the sand bars on the foreshore.
       </>
     ),
-    where: <>More than 20km of coast between Southport and Crosby: the foreshore and the dune system behind it.</>,
+    where: <>More than 20km of coast between Southport and Crosby: the foreshore and the dune system behind it. The local planning authority is Sefton Council.</>,
     responsible: <>Natural England holds the citation and site record. The SSSI underpins the Sefton Coast SAC and, with the Ribble Estuary SSSI, the Ribble and Alt Estuaries SPA and Ramsar site.</>,
     records: [{ label: "Natural England: SSSI citation (PDF)", url: SRC.neSeftonSsssiCitation.url }],
     guides: [
@@ -199,7 +199,7 @@ const NATIONAL: Designation[] = [
         The Ribble Estuary west of Preston, between Southport and Lytham St Annes and inland to Longton. It includes the Ribble Marshes National Nature Reserve. Most of the Sefton foreshore outside the NNR is the Southport Sanctuary, a statutory bird sanctuary under the Wild Birds (Southport Sanctuary) Order 1956, which gives Pink-footed Geese a protected low-tide roost.
       </>
     ),
-    responsible: <>Natural England holds the citation and site record, which also names the local planning authorities.</>,
+    responsible: <>Natural England holds the citation and site record. Local planning authorities: Fylde, Sefton, South Ribble and West Lancashire councils.</>,
     records: [{ label: "Natural England: SSSI citation (PDF)", url: SRC.neRibbleSsssiCitation.url }],
     guides: [
       { label: "Marshside", href: "/nature/marshside-rspb" },
@@ -213,7 +213,7 @@ const NATIONAL: Designation[] = [
     dates: "Notified on 9 August 2000.",
     area: "117.84 hectares",
     protects: <>Intertidal sand and mudflats supporting internationally important Turnstone and Redshank and nationally important Cormorant. Seaforth is a high-tide roost, especially on high spring tides.</>,
-    where: <>Seaforth on the north bank of the Mersey and the Egremont foreshore on the south bank, about 2km apart.</>,
+    where: <>Seaforth on the north bank of the Mersey and the Egremont foreshore on the south bank, about 2km apart. Local planning authorities: Wirral and Sefton councils.</>,
     responsible: <>Natural England holds the citation and site record.</>,
     records: [{ label: "Natural England: SSSI citation (PDF)", url: SRC.neMerseyNarrowsSsssiCitation.url }],
     guides: [{ label: "Seaforth Nature Reserve", href: "/nature/seaforth-nature-reserve" }],
@@ -273,11 +273,11 @@ const LOCAL: Designation[] = [
     id: "ainsdale-birkdale-lnr",
     name: "Ainsdale and Birkdale Hills (Sandhills) Local Nature Reserve",
     type: "Local Nature Reserve (LNR)",
-    dates: "Declared in 1980 by the local council.",
-    area: "296.04 hectares on Natural England's register; the reserve's managers give 988 hectares of open dunes and beach",
+    dates: "Declared in 1980 by Sefton Borough Council.",
+    area: "296.04 hectares on Natural England's register; Sefton Council's page gives 988 hectares of open dunes and beach",
     protects: <>Wild dunes with high ridges and slacks, some of them natterjack breeding pools, and dune plants including early marsh orchid, marsh helleborine, grass of Parnassus, round-leaved wintergreen and dune helleborine.</>,
     where: <>Between Ainsdale Sand Dunes NNR in the south, Weld Road in Southport in the north and the Royal Birkdale and Hillside golf links to the east.</>,
-    responsible: <>Owned by the local council and managed by its coast and countryside service (Natural England&apos;s register).</>,
+    responsible: <>Owned by Sefton Council and managed by its coast and countryside service (Natural England&apos;s register).</>,
     records: [{ label: "Natural England: LNR record", url: SRC.neAinsdaleLnr.url }],
     guides: [{ label: "Birkdale Green Beach", href: "/nature/birkdale-green-beach" }],
   },
@@ -285,11 +285,11 @@ const LOCAL: Designation[] = [
     id: "ravenmeols-lnr",
     name: "Ravenmeols Hills Local Nature Reserve",
     type: "Local Nature Reserve (LNR)",
-    dates: "Declared on 1 December 1983 by the local council.",
+    dates: "Declared on 1 December 1983 by Sefton Borough Council.",
     area: "74.4 hectares",
     protects: <>A wide sandy beach, high dunes, furrowed grassland that was once asparagus fields, scrub and a belt of pinewoods. Natural England notes its importance for natterjack toads.</>,
     where: <>Off Lifeboat Road, Formby, near Formby station.</>,
-    responsible: <>Owned by the local council and managed by its coast and countryside service, according to Natural England&apos;s register.</>,
+    responsible: <>Owned by Sefton Council and managed by its coast and countryside service, according to Natural England&apos;s register.</>,
     records: [{ label: "Natural England: LNR record", url: SRC.neRavenmeolsLnr.url }],
     guides: [{ label: "Formby Point", href: "/nature/formby-point" }],
   },
@@ -335,6 +335,7 @@ const sources = [
   used(SRC.neAinsdaleNnr, "Ainsdale NNR area and underpinning"),
   used(SRC.neCabinHillNnr, "Cabin Hill NNR area and underpinning"),
   used(SRC.neAinsdaleLnr, "Ainsdale and Birkdale Hills LNR declaration, area, owner, manager and location"),
+  used(SRC.seftonLnr, "the council's description and area of the LNR"),
   used(SRC.neRavenmeolsLnr, "Ravenmeols Hills LNR declaration, area, owner, manager and description"),
   used(SRC.neRibbleMcz, "the Ribble Estuary MCZ"),
   used(SRC.govukRibbleMcz, "the MCZ's area and announcement on 31 May 2019"),
@@ -414,7 +415,7 @@ const GROUPS: { id: string; heading: string; intro: string; items: Designation[]
   {
     id: "local",
     heading: "Local Nature Reserves",
-    intro: "Declared by the local council and recorded by Natural England.",
+    intro: "Declared by Sefton Council and recorded by Natural England.",
     items: LOCAL,
   },
   {

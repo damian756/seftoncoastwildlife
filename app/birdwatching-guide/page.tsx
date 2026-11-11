@@ -148,7 +148,7 @@ export default function BirdwatchingGuidePage() {
             <p className="text-sm text-[var(--slate)] leading-relaxed mb-2">
               Managed by Natural England. Dune slack habitat holds Natterjack Toads (spring evenings) and dune-specialist insects. Breeding Stonechats and Linnets on the scrub edge. The pine woodland section can produce Crossbill in irruption years.
             </p>
-            <p className="text-xs text-[var(--slate)]/75 mb-1">No parking on the reserve · Beach parking at Ainsdale-on-Sea 1 April to 30 September only · By train: Ainsdale station (1.2km) or Freshfield (1.4km)</p>
+            <p className="text-xs text-[var(--slate)]/75 mb-1">No parking on the reserve · Sefton Council beach parking at Ainsdale-on-Sea 1 April to 30 September only · By train: Ainsdale station (1.2km) or Freshfield (1.4km)</p>
             <Link href="/nature/ainsdale-sand-dunes" className="text-xs text-[var(--marsh)] font-medium hover:underline block">Full guide to Ainsdale NNR →</Link>
           </div>
 

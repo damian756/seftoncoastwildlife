@@ -37,6 +37,7 @@ const pageJsonLd = {
 };
 
 const sources = [
+  used(SRC.seftonVisitingBeaches, "the 22-mile length of Sefton's natural coastline"),
   used(SRC.neSeftonSsssiCitation, "the SSSI's extent, habitats, waders, reptiles and amphibians, Formby Point's erosion, pine plantations and scrub"),
   used(SRC.neSeftonSacCitation, "the creeping willow dune slacks"),
   used(SRC.jnccRibbleAltRamsar, "the share of the British natterjack population"),
@@ -44,6 +45,7 @@ const sources = [
   used(SRC.neMerseysideNnrs, "the number of birds on the Ribble Estuary NNR"),
   used(SRC.ntFormby, "Red Squirrels in the Formby pinewoods and the Trust's dune restoration"),
   used(SRC.lwtSquirrelPox, "the 2026 squirrel pox outbreak"),
+  used(SRC.seftonCalendar, "the three key roost areas and Green Sefton's winter scrub clearance and grazing"),
 ];
 
 export default function SeftonCoastPage() {
@@ -84,7 +86,7 @@ export default function SeftonCoastPage() {
           </p>
           <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">The Sefton Coast</h1>
           <p className="text-white/75 text-lg leading-relaxed max-w-2xl">
-            Sefton&apos;s natural coastline runs for 22 miles. The Sefton Coast SSSI covers more than 20km of it between Southport and Crosby: sand and mudflats, mobile dunes, dune slacks, dune heath and small areas of saltmarsh, with the Ribble Estuary to the north.
+            Sefton Council puts its natural coastline at 22 miles. The Sefton Coast SSSI covers more than 20km of it between Southport and Crosby: sand and mudflats, mobile dunes, dune slacks, dune heath and small areas of saltmarsh, with the Ribble Estuary to the north.
           </p>
         </div>
       </div>
@@ -160,7 +162,7 @@ export default function SeftonCoastPage() {
           <div className="rounded-xl border border-[var(--dune)] p-5">
             <h3 className="font-bold text-[var(--forest)] mb-2">The beach and the waders</h3>
             <p className="text-[var(--slate)] text-sm leading-relaxed">
-              The SSSI citation lists internationally important wintering populations of Grey Plover, Knot, Sanderling and Bar-tailed Godwit on the foreshore, with Oystercatcher and Dunlin in nationally important numbers, and internationally important numbers of Ringed Plover and Sanderling on passage. The three key roost areas are off the Green Beach between Ainsdale and Birkdale, from Albert Road to the Alt at Formby, and the sandbanks off Hightown north of Hall Road. See{" "}
+              The SSSI citation lists internationally important wintering populations of Grey Plover, Knot, Sanderling and Bar-tailed Godwit on the foreshore, with Oystercatcher and Dunlin in nationally important numbers, and internationally important numbers of Ringed Plover and Sanderling on passage. Sefton Council names three key roost areas: off the Green Beach between Ainsdale and Birkdale, from Albert Road to the Alt at Formby, and the sandbanks off Hightown north of Hall Road. See{" "}
               <Link href="/nature/crosby-and-alt-estuary" className="text-[var(--marsh)] underline underline-offset-2">Crosby and the Alt estuary</Link>.
             </p>
             <div className="grid grid-cols-2 gap-3 mt-4">
@@ -212,7 +214,7 @@ export default function SeftonCoastPage() {
           The SSSI citation says the zone around Formby Point has been eroding since 1906 while the coast to the north and south builds up, and that some dune slacks are being invaded by birch and sea buckthorn scrub.
         </p>
         <p className="text-[var(--slate)] mb-10 text-sm leading-relaxed">
-          In winter the local council&apos;s coast teams cut back invasive scrub and graze the dunes with Belted Galloway cattle and Herdwick sheep. The National Trust is restoring dune habitat at Formby, including with conservation cattle grazing this winter.
+          Sefton Council&apos;s Green Sefton teams cut back invasive scrub on the coast in winter and graze the dunes with Belted Galloway cattle and Herdwick sheep. The National Trust is restoring dune habitat at Formby, including with conservation cattle grazing this winter.
         </p>
 
         <div className="flex flex-wrap gap-x-6 gap-y-3 pt-6 border-t border-[var(--dune)]">

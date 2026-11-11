@@ -73,9 +73,37 @@ export const SRC = {
     publisher: "Sefton Council",
     title: "Sefton's Nature Calendar (last updated 12 August 2024)",
   },
+  seftonLnr: {
+    publisher: "Sefton Council",
+    title: "Ainsdale and Birkdale Sandhills Local Nature Reserve",
+  },
   seftonAinsdaleBeach: {
     publisher: "Sefton Council",
     title: "Ainsdale Beach",
+  },
+  seftonCrosbyBeach: {
+    publisher: "Sefton Council",
+    title: "Crosby Beach",
+  },
+  seftonCrosbyCoastalPark: {
+    publisher: "Sefton Council",
+    title: "Crosby Coastal Park",
+  },
+  seftonAnotherPlace: {
+    publisher: "Sefton Council",
+    title: "Another Place by Antony Gormley",
+  },
+  seftonFindParking: {
+    publisher: "Sefton Council",
+    title: "Find car parks",
+  },
+  seftonSafeBeaches: {
+    publisher: "Sefton Council",
+    title: "Enjoying Beaches Safely",
+  },
+  seftonVisitingBeaches: {
+    publisher: "Sefton Council",
+    title: "Visiting our beaches",
   },
   bdmlr: {
     publisher: "BDMLR",

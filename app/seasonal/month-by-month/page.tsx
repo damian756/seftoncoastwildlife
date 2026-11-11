@@ -87,7 +87,7 @@ const MONTHS: Month[] = [
     month: "January",
     items: [
       {
-        text: "The winter wader roosts that are well established by December are still on the shore. The BTO describes Knot, Sanderling and Bar-tailed Godwit as mainly winter visitors.",
+        text: "The winter wader roosts that Sefton Council says are well established by December are still on the shore. The BTO describes Knot, Sanderling and Bar-tailed Godwit as mainly winter visitors.",
         where: [G.birkdale, G.formby, G.crosby],
         birds: ["knot", "sanderling", "bar-tailed-godwit", "dunlin"],
         src: ["sefton", "btoKnot", "btoSanderling", "btoBartail"],
@@ -110,12 +110,12 @@ const MONTHS: Month[] = [
     month: "February",
     items: [
       {
-        text: "The roosts of waders and gulls stay large, and birds weakened by cold days need to save energy: keep dogs and horses well away.",
+        text: "Sefton Council says the roosts of waders and gulls stay large, and that birds weakened by cold days need to save energy: keep dogs and horses well away.",
         where: [G.birkdale, G.formby, G.crosby],
         src: ["sefton"],
       },
       {
-        text: "Wintering Pink-footed Geese grow restless. Most will soon head back to Iceland, though some stay into late spring; the BTO says birds are present into April or May.",
+        text: "Wintering Pink-footed Geese grow restless. The council says most will soon head back to Iceland, though some stay into late spring; the BTO says birds are present into April or May.",
         where: [G.marshside, G.hesketh],
         birds: ["pink-footed-goose"],
         src: ["sefton", "btoPinkfoot"],
@@ -142,7 +142,7 @@ const MONTHS: Month[] = [
         src: ["rspbLapwing", "rspbMarshside"],
       },
       {
-        text: "Willow Warblers, Chiffchaffs and Blackcaps can now be back on territory by the third week of March.",
+        text: "Willow Warblers, Chiffchaffs and Blackcaps can now be back on territory by the third week of March, the council says.",
         src: ["sefton"],
       },
       {
@@ -157,12 +157,12 @@ const MONTHS: Month[] = [
     month: "April",
     items: [
       {
-        text: "Spring migration builds: waders, warblers, Swallows, pipits, chats, gulls and even Ospreys move along the coast. The key roost areas are off the Green Beach between Ainsdale and Birkdale, from Albert Road to the Alt at Formby, and on the sandbanks off Hightown north of Hall Road.",
+        text: "Spring migration builds: waders, warblers, Swallows, pipits, chats, gulls and even Ospreys move along the coast. Sefton Council's key roost areas are off the Green Beach between Ainsdale and Birkdale, from Albert Road to the Alt at Formby, and on the sandbanks off Hightown north of Hall Road.",
         where: [G.birkdale, G.formby, G.crosby],
         src: ["sefton"],
       },
       {
-        text: "Natterjack Toad breeding is in full swing. Natural England says natterjacks call around the flooded slacks at Cabin Hill on nights in late April.",
+        text: "Natterjack Toad breeding is in full swing (Sefton Council). Natural England says natterjacks call around the flooded slacks at Cabin Hill on nights in late April.",
         where: [G.ainsdale, G.formby],
         src: ["sefton", "ne"],
       },
@@ -183,7 +183,7 @@ const MONTHS: Month[] = [
     month: "May",
     items: [
       {
-        text: "Roosts of waders migrating north peak, and roosts of non-breeding birds stay into summer until the end of July. Sanderling passage continues into late May (BTO).",
+        text: "Roosts of waders migrating north peak, and roosts of non-breeding birds stay into summer until the end of July (Sefton Council). Sanderling passage continues into late May (BTO).",
         where: [G.birkdale, G.formby, G.crosby],
         birds: ["sanderling"],
         src: ["sefton", "btoSanderling"],
@@ -227,7 +227,7 @@ const MONTHS: Month[] = [
     month: "July",
     items: [
       {
-        text: "Autumn begins for the natural world: waders and terns heading south after breeding begin to build along the coast. The BTO says Grey Plover return migration can begin in late July.",
+        text: "Sefton Council says autumn begins for the natural world: waders and terns heading south after breeding begin to build along the coast. The BTO says Grey Plover return migration can begin in late July.",
         where: [G.birkdale, G.formby, G.crosby],
         birds: ["grey-plover"],
         src: ["sefton", "btoGreyPlover"],
@@ -243,7 +243,7 @@ const MONTHS: Month[] = [
     month: "August",
     items: [
       {
-        text: "Migration approaches its peak, with thousands of waders, terns and gulls resting and feeding on the sands. The BTO notes pronounced autumn passage of Knot and peaks of Bar-tailed and Black-tailed Godwits.",
+        text: "Migration approaches its peak, with thousands of waders, terns and gulls resting and feeding on the sands (Sefton Council). The BTO notes pronounced autumn passage of Knot and peaks of Bar-tailed and Black-tailed Godwits.",
         where: [G.birkdale, G.formby, G.crosby, G.marshside],
         birds: ["knot", "bar-tailed-godwit", "black-tailed-godwit"],
         src: ["sefton", "btoKnot", "btoBartail", "btoBlacktail"],
@@ -254,7 +254,7 @@ const MONTHS: Month[] = [
         src: ["sefton"],
       },
       {
-        text: "Common Terns depart from August, and Pintail are present from late August (BTO). Young Sand Lizards hatch in the frontal dunes from Hightown to Birkdale.",
+        text: "Common Terns depart from August, and Pintail are present from late August (BTO). Young Sand Lizards hatch in the frontal dunes from Hightown to Birkdale (Sefton Council).",
         birds: ["common-tern", "pintail"],
         src: ["btoCommonTern", "btoPintail", "sefton"],
       },
@@ -264,7 +264,7 @@ const MONTHS: Month[] = [
     month: "September",
     items: [
       {
-        text: "Pink-footed Geese begin to arrive from Iceland, with large roosts building on the sands off Birkdale and Hightown by the end of the month. The BTO says they arrive in September.",
+        text: "Pink-footed Geese begin to arrive from Iceland, with large roosts building on the sands off Birkdale and Hightown by the end of the month (Sefton Council). The BTO says they arrive in September.",
         where: [G.birkdale, G.crosby, G.marshside],
         birds: ["pink-footed-goose"],
         src: ["sefton", "btoPinkfoot"],
@@ -275,7 +275,7 @@ const MONTHS: Month[] = [
         src: ["sefton"],
       },
       {
-        text: "Ainsdale beach parking ends on 30 September and reopens on 1 April. Ainsdale station is within walking distance of the beach.",
+        text: "Ainsdale beach parking ends on 30 September and reopens on 1 April. Sefton Council lists Ainsdale station as within walking distance of the beach.",
         where: [G.ainsdale, G.birkdale],
         src: ["seftonAinsdale"],
       },
@@ -297,7 +297,7 @@ const MONTHS: Month[] = [
         src: ["rspbWhooper", "wwt"],
       },
       {
-        text: "Twite use the high-tide line between Weld Road and Fairways in Southport; please leave the seed-rich debris for them. An egret roost builds on the north island of Southport Marine Lake.",
+        text: "Twite use the high-tide line between Weld Road and Fairways in Southport; the council asks that seed-rich debris is left for them. An egret roost builds on the north island of Southport Marine Lake.",
         birds: ["twite"],
         src: ["sefton"],
       },
@@ -311,7 +311,7 @@ const MONTHS: Month[] = [
     month: "November",
     items: [
       {
-        text: "Winter roosts are well established. The birds are highly susceptible to disturbance at high tide and in bad weather: give them a wide berth.",
+        text: "Winter roosts are well established. Sefton Council says the birds are highly susceptible to disturbance at high tide and in bad weather, and asks everyone to give them a wide berth: Give Birds A Break.",
         where: [G.birkdale, G.formby, G.crosby],
         src: ["sefton"],
       },

@@ -26,7 +26,7 @@ const seasonalPages: Record<string, SeasonalPageData> = {
     heroWikipediaTitle: "Greater white-fronted goose",
     heroAlt: "Geese flock in flight over the estuary",
     intro:
-      "The Pink-footed Goose is the reason Marshside RSPB exists on most birders' lists. Every autumn, tens of thousands fly south from their Icelandic breeding grounds and settle on the Ribble Estuary and surrounding farmland. By October, thousands roost on the shore at Hightown, Birkdale and Southport. It is one of the great wildlife spectacles in England, and most people have never heard of it.",
+      "The Pink-footed Goose is the reason Marshside RSPB exists on most birders' lists. Every autumn, tens of thousands fly south from their Icelandic breeding grounds and settle on the Ribble Estuary and surrounding farmland. By October, Sefton Council reports thousands roosting on the shore at Hightown, Birkdale and Southport. It is one of the great wildlife spectacles in England, and most people have never heard of it.",
     sections: [
       {
         heading: "When they arrive",

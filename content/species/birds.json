@@ -6,9 +6,9 @@
     "conservationStatus": "amber",
     "order": "Anseriformes",
     "family": "Anatidae",
-    "seasonalPresence": "Winter visitor. The BTO says birds arrive in September and stay until April or May; roosts build on the sands off Birkdale and Hightown by the end of September.",
+    "seasonalPresence": "Winter visitor. The BTO says birds arrive in September and stay until April or May; Sefton Council says roosts build on the sands off Birkdale and Hightown by the end of September.",
     "bestTimeOfDay": "Early morning and late afternoon, when flocks commute between roosts and feeding grounds (RSPB)",
-    "whereToSee": "Marshside and Hesketh Out Marsh on the Ribble; the shore at Hightown, Birkdale and Southport, where thousands roost in October; WWT Martin Mere inland.",
+    "whereToSee": "Marshside and Hesketh Out Marsh on the Ribble; the shore at Hightown, Birkdale and Southport, where thousands roost in October (Sefton Council); WWT Martin Mere inland.",
     "shortLocation": "Marshside RSPB",
     "ukPopulation": "About 510,000 in winter (BTO estimate, 2015-16), up 96% from 1998 to 2023 (BTO)",
     "seftonPopulation": "A protected feature of the Ribble and Alt Estuaries SPA and Ramsar site (Natural England). The Southport Sanctuary on the Sefton foreshore gives the geese a protected low-tide roost (Ribble Estuary SSSI citation).",
@@ -20,7 +20,7 @@
     "diet": "Grass, grain, winter cereals, sugar beet tops",
     "description": "Pink-footed Geese breed in Iceland and eastern Greenland, and the BTO says that whole population comes to Britain in winter: more than a quarter of a million birds, with Lancashire one of the main wintering areas. On the Ribble, Natural England names the geese arriving from Iceland as the winter spectacle of the estuary's National Nature Reserve, and the RSPB says the winter skies at Marshside fill with them. The species is Amber-listed in the UK.",
     "identification": "A medium-sized goose, smaller than a Mute Swan and bigger than a Mallard. Pinkish grey with a dark head and neck, a pink bill and pink feet and legs (RSPB).",
-    "tips": "The RSPB car park at Marshside locks at 4pm from 1 November to 1 March and at 5pm from 2 March to 31 October, so for the evening flights come on foot, by bike or by bus, or watch the morning and late-afternoon movements instead. Keep well back from flocks roosting on the beach: if birds run or fly ahead of you, you are too close.",
+    "tips": "The RSPB car park at Marshside locks at 4pm from 1 November to 1 March and at 5pm from 2 March to 31 October, so for the evening flights come on foot, by bike or by bus, or watch the morning and late-afternoon movements instead. Keep well back from flocks roosting on the beach: Sefton Council says if birds run or fly ahead of you, you are too close.",
     "difficulty": "easy",
     "relatedSpecies": [
       "greylag-goose",
@@ -34,7 +34,7 @@
     "faq": [
       {
         "question": "When do Pink-footed Geese arrive on the Sefton Coast?",
-        "answer": "The BTO says Pink-footed Geese arrive in September and stay until April or May. Roosts build on the sands off Birkdale and Hightown by the end of September, and thousands roost on the shore at Hightown, Birkdale and Southport in October."
+        "answer": "The BTO says Pink-footed Geese arrive in September and stay until April or May. Sefton Council's nature calendar says roosts build on the sands off Birkdale and Hightown by the end of September, and that thousands roost on the shore at Hightown, Birkdale and Southport in October."
       },
       {
         "question": "Can I watch the geese at dusk from Marshside?",
@@ -54,6 +54,9 @@
       {
         "label": "RSPB: Pink-footed Goose",
         "url": "https://www.rspb.org.uk/birds-and-wildlife/pink-footed-goose"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar"
       },
       {
         "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
@@ -143,9 +146,9 @@
     "conservationStatus": "amber",
     "order": "Charadriiformes",
     "family": "Scolopacidae",
-    "seasonalPresence": "Mostly a winter visitor, with a pronounced passage in autumn as birds arrive from their tundra breeding grounds (BTO). Knot roosts are well established on the coast by December.",
+    "seasonalPresence": "Mostly a winter visitor, with a pronounced passage in autumn as birds arrive from their tundra breeding grounds (BTO). Sefton Council says Knot roosts are well established on the coast by December.",
     "bestTimeOfDay": "Over high tide, when birds gather at roosts",
-    "whereToSee": "The Ribble Estuary and the Sefton foreshore. Natural England names the shore at Cabin Hill, Formby, as a feeding and roosting ground; the key roost areas are off the Green Beach, from Albert Road to the Alt at Formby, and off Hightown.",
+    "whereToSee": "The Ribble Estuary and the Sefton foreshore. Natural England names the shore at Cabin Hill, Formby, as a feeding and roosting ground; Sefton Council's key roost areas are off the Green Beach, from Albert Road to the Alt at Formby, and off Hightown.",
     "shortLocation": "Formby Point",
     "ukPopulation": "About 265,000 in winter (BTO estimate, 2012-17)",
     "seftonPopulation": "Internationally important numbers winter on the Sefton Coast foreshore (Sefton Coast SSSI citation). A qualifying species of the Ribble and Alt Estuaries SPA and of the Mersey Narrows and North Wirral Foreshore SPA (Natural England).",
@@ -157,7 +160,7 @@
     "diet": "Bivalves, crustaceans, marine worms on mudflats",
     "description": "A stocky wader that breeds on Arctic tundra and spends the winter on estuaries. It is Amber-listed (BTO, RSPB). The BTO gives the change in the UK winter population as +15% from 1998 to 2023 and says the long-term trend has been more or less stable since the early 1990s. The RSPB says its dependence on estuaries leaves it vulnerable to barrages, rising sea levels and disturbance. On this coast it is protected by the Sefton Coast SSSI and two Special Protection Areas.",
     "identification": "Dumpy and stocky. Grey above and white below in winter; brick-red chest, belly and face in summer. A pale rump and a faint wing stripe in flight. Winter flocks twist and turn, flashing their pale underwings (RSPB).",
-    "tips": "Roosts form over high tide. Give them a wide berth: if the birds run or fly ahead of you, you are too close. Keep dogs well away.",
+    "tips": "Roosts form over high tide. Sefton Council asks you to give them a wide berth: if the birds run or fly ahead of you, you are too close. Keep dogs well away.",
     "difficulty": "moderate",
     "relatedSpecies": [
       "dunlin",
@@ -208,6 +211,9 @@
       {
         "label": "Natural England: Merseyside's National Nature Reserves",
         "url": "https://www.gov.uk/government/publications/merseysides-national-nature-reserves/merseysides-national-nature-reserves"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar"
       }
     ],
     "factsChecked": "11 November 2026"
@@ -219,9 +225,9 @@
     "conservationStatus": "red",
     "order": "Charadriiformes",
     "family": "Scolopacidae",
-    "seasonalPresence": "Recorded all year, with pulses of migration as different breeding and wintering populations pass through (BTO). Dunlin roosts are well established on the coast by December.",
+    "seasonalPresence": "Recorded all year, with pulses of migration as different breeding and wintering populations pass through (BTO). Sefton Council says Dunlin roosts are well established on the coast by December.",
     "bestTimeOfDay": "Over high tide, when birds gather at roosts",
-    "whereToSee": "The Ribble Estuary and the Sefton foreshore, at the key roosts off the Green Beach, from Albert Road to the Alt and off Hightown. The Wildlife Trust lists Dunlin at Seaforth.",
+    "whereToSee": "The Ribble Estuary and the Sefton foreshore, at the roosts Sefton Council names off the Green Beach, from Albert Road to the Alt and off Hightown. The Wildlife Trust lists Dunlin at Seaforth.",
     "shortLocation": "Birkdale Green Beach",
     "ukPopulation": "About 350,000 in winter (BTO estimate, 2012-17); about 8,600 breeding pairs (BTO, 2005-07)",
     "seftonPopulation": "Nationally important numbers in winter and on passage on the Sefton Coast foreshore (Sefton Coast SSSI citation). A qualifying species of the Ribble and Alt Estuaries SPA (Natural England).",
@@ -234,7 +240,7 @@
     "diet": "Small invertebrates, marine worms, crustaceans picked from mud",
     "description": "A small wader that the RSPB says was added to the Red List in 2021 because its wintering population in the UK has fallen sharply; it has declined by 20% globally since the early 2000s. The RSPB says most UK estuaries and bays hold Dunlins from late summer to spring, and that the Mersey Estuary holds the highest number in the UK.",
     "identification": "Small brown wader with a drooped bill tip. Black belly patch in summer plumage. Pale greyish-brown in winter.",
-    "tips": "Roosts form over high tide. Give them a wide berth: if the birds run or fly ahead of you, you are too close. Keep dogs well away.",
+    "tips": "Roosts form over high tide. Sefton Council asks you to give them a wide berth: if the birds run or fly ahead of you, you are too close. Keep dogs well away.",
     "difficulty": "moderate",
     "relatedSpecies": [
       "knot",
@@ -252,7 +258,7 @@
       },
       {
         "question": "When are Dunlin on the Sefton Coast?",
-        "answer": "The BTO records Dunlin all year, with pulses as different populations migrate through. Winter roosts of Dunlin, with Knot, godwits and Sanderling, are well established by December."
+        "answer": "The BTO records Dunlin all year, with pulses as different populations migrate through. Sefton Council says winter roosts of Dunlin, with Knot, godwits and Sanderling, are well established by December."
       }
     ],
     "localImage": "/images/species/birds/dunlin.jpg",
@@ -272,6 +278,9 @@
       {
         "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
         "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar"
       },
       {
         "label": "Wildlife Trust: Seaforth Nature Reserve",
@@ -1807,8 +1816,8 @@
     "conservationStatus": "amber",
     "order": "Charadriiformes",
     "family": "Scolopacidae",
-    "seasonalPresence": "Winter visitor and passage migrant; as a high Arctic breeder its passage continues into late May (BTO). Sanderling roosts are well established by December.",
-    "whereToSee": "Sandy beaches along the coast. The key roost areas are off the Green Beach, from Albert Road to the Alt at Formby, and off Hightown.",
+    "seasonalPresence": "Winter visitor and passage migrant; as a high Arctic breeder its passage continues into late May (BTO). Sefton Council says Sanderling roosts are well established by December.",
+    "whereToSee": "Sandy beaches along the coast. Sefton Council's key roost areas are off the Green Beach, from Albert Road to the Alt at Formby, and off Hightown.",
     "shortLocation": "Formby Beach",
     "ukPopulation": "About 21,000 in winter (BTO estimate, 2012-17)",
     "seftonPopulation": "Internationally important numbers in winter and on passage on the Sefton Coast foreshore (Sefton Coast SSSI citation); a qualifying species of the Ribble and Alt Estuaries SPA (Natural England).",
@@ -1819,7 +1828,7 @@
     "diet": "Small crustaceans, sand hoppers, worms exposed by retreating waves",
     "description": "A small, plump wader that the BTO pictures chasing the tideline back and forth on a sandy beach. It does not breed in the UK but is a winter visitor and passage migrant to and from its high Arctic breeding grounds (RSPB). The BTO says the Ribble is one of two UK sites with internationally important numbers.",
     "identification": "Short, straight black bill and black legs. Pale grey above and white below, with a black mark on the shoulder where the folded wing meets the body (RSPB).",
-    "tips": "Watch from a distance and let the birds feed. Give roosting birds a wide berth at high tide: if they run or fly ahead of you, you are too close.",
+    "tips": "Watch from a distance and let the birds feed. Sefton Council asks you to give roosting birds a wide berth at high tide: if they run or fly ahead of you, you are too close.",
     "difficulty": "easy",
     "relatedSpecies": [
       "dunlin",
@@ -1854,6 +1863,9 @@
       {
         "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
         "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar"
       }
     ],
     "factsChecked": "11 November 2026"
@@ -1921,7 +1933,7 @@
     "diet": "Marine worms, bivalves, crustaceans probed from mud and sand",
     "description": "A long-billed, long-legged wader that visits UK shores for the winter, usually in grey-brown winter plumage, though spring birds may show rich chestnut breeding plumage (RSPB). It breeds in the Arctic of Scandinavia and Siberia, and the RSPB says hundreds of thousands pass through the UK. It is Amber-listed and on Annex 1 of the Birds Directive (BTO).",
     "identification": "Long bill and legs. In flight a white patch runs from the rump up the back, narrowing to a point (RSPB).",
-    "tips": "Roosts form over high tide. Give them a wide berth: if the birds run or fly ahead of you, you are too close. Keep dogs well away.",
+    "tips": "Roosts form over high tide. Sefton Council asks you to give them a wide berth: if the birds run or fly ahead of you, you are too close. Keep dogs well away.",
     "difficulty": "moderate",
     "relatedSpecies": [
       "black-tailed-godwit",
@@ -1964,6 +1976,9 @@
       {
         "label": "Natural England: Merseyside's National Nature Reserves",
         "url": "https://www.gov.uk/government/publications/merseysides-national-nature-reserves/merseysides-national-nature-reserves"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar"
       }
     ],
     "factsChecked": "11 November 2026"
@@ -4589,11 +4604,11 @@
     "conservationStatus": "red",
     "order": "Passeriformes",
     "family": "Fringillidae",
-    "seasonalPresence": "A localised and declining breeder and winter visitor (BTO). Twite use the high-tide line between Weld Road and Fairways in Southport from October.",
-    "whereToSee": "The high-tide line between Weld Road and Fairways in Southport. Please leave the seed-rich debris there for them.",
+    "seasonalPresence": "A localised and declining breeder and winter visitor (BTO). Sefton Council says Twite use the high-tide line between Weld Road and Fairways in Southport from October.",
+    "whereToSee": "The high-tide line between Weld Road and Fairways in Southport, where Sefton Council asks that seed-rich debris is left for them.",
     "shortLocation": "Birkdale Green Beach",
     "ukPopulation": "About 7,850 breeding pairs (BTO, 2013)",
-    "seftonPopulation": "A scarce upland species and a prized winter visitor to the coast.",
+    "seftonPopulation": "Sefton Council calls it a scarce upland species and a prized winter visitor to the coast.",
     "habitat": [
       "Saltmarsh",
       "Coastal rough grassland",
@@ -4602,7 +4617,7 @@
     "diet": "Seeds of saltmarsh plants, particularly Sea Lavender, Sea Aster and coastal grasses",
     "description": "A small brown finch closely related to the Linnet, with a shorter tail and stubbier beak (RSPB). Like the Linnet it feeds on seeds all year. It is Red-listed (BTO).",
     "identification": "Tawny back heavily streaked with dark brown; white below with dark-brown streaks on the lower sides. The rump is pink on males and brown on females (RSPB).",
-    "tips": "Leave the seed-rich strandline between Weld Road and Fairways undisturbed and watch from a distance.",
+    "tips": "Leave the seed-rich strandline between Weld Road and Fairways undisturbed (Sefton Council) and watch from a distance.",
     "difficulty": "specialist",
     "relatedSpecies": [
       "linnet"
@@ -4615,7 +4630,7 @@
     "faq": [
       {
         "question": "Where can I see Twite on the Sefton Coast?",
-        "answer": "Twite, a scarce upland species and prized winter visitor, use the high-tide line between Weld Road and Fairways in Southport. Please leave the seed-rich debris there undisturbed."
+        "answer": "Sefton Council says Twite, a scarce upland species and prized winter visitor, use the high-tide line between Weld Road and Fairways in Southport, and asks that seed-rich debris there is left undisturbed."
       }
     ],
     "localImage": "/images/species/birds/twite.jpg",
@@ -4627,6 +4642,9 @@
       {
         "label": "RSPB: Twite",
         "url": "https://www.rspb.org.uk/birds-and-wildlife/twite"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar"
       }
     ],
     "factsChecked": "11 November 2026"

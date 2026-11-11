@@ -61,7 +61,7 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Species Spotlight",
     title: "Sanderling on the Sefton Coast: The Winter Wader at the Edge of the Tide",
     date: "2026-11-11",
-    metaDescription: "Sanderling spend the winter on the Sefton Coast's long sandy beaches. How to identify them, where the wader roosts gather, and how to watch without pushing them off the beach.",
+    metaDescription: "Sanderling spend the winter on the Sefton Coast's long sandy beaches. How to identify them, where Sefton Council says the wader roosts gather, and how to watch without pushing them off the beach.",
     heroLocalSrc: "/images/blog/sanderling-strandline.jpg",
     heroCredit: {
       text: "Ian Kirk",
@@ -84,7 +84,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "When They Are Here",
         body: [
           "Sanderling are winter visitors and passage migrants. The RSPB notes that they do not breed in the UK and pass through in spring and autumn on the way to and from their Arctic breeding grounds. The BTO adds that passage continues into late May, and that a few young birds stay through the summer.",
-          "On the Sefton Coast the winter wader roosts start to build in October, and sanderling, with knot, godwits and dunlin, are among the roosts that are well established by December. So the months from late autumn to early spring are the time to look.",
+          "On the Sefton Coast the winter wader roosts start to build in October, and Sefton Council's nature calendar lists sanderling with knot, godwits and dunlin among the roosts that are well established by December. So the months from late autumn to early spring are the time to look.",
           "Where the birds come from has turned out to be more varied than once thought. It was assumed that all of Britain's wintering sanderling came from Siberia, but ringing has shown that birds from the Greenland population pass through too, and some of them stay for the winter. The oldest ringed sanderling on the BTO's records lived for more than 17 years.",
         ],
       },
@@ -105,16 +105,16 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Where to Look",
         body: [
-          "Any stretch of open sandy beach on the Sefton Coast can hold sanderling in winter. The winter roosts of waders and gulls begin to build in October, especially between Ainsdale and Birkdale. For spring migration, there are three key roost areas: between Ainsdale and Birkdale off the Green Beach, from Albert Road to the Alt at Formby, and the sandbanks off Hightown north of Hall Road.",
+          "Any stretch of open sandy beach on the Sefton Coast can hold sanderling in winter. Sefton Council's nature calendar says the winter roosts of waders and gulls begin to build in October, especially between Ainsdale and Birkdale. For spring migration, the same calendar names three key roost areas: between Ainsdale and Birkdale off the Green Beach, from Albert Road to the Alt at Formby, and the sandbanks off Hightown north of Hall Road.",
           "Timing around the tide makes the biggest difference. As the tide comes in, the birds feed along the edge of the advancing water, and at high tide they gather to roost on the upper beach and sandbanks. A rising tide on a calm morning gives you birds feeding close to the edge without you needing to approach the roost itself. Natural England's advice for the Ainsdale coast is to check the local tide timetable before you head onto the beach.",
-          "You do not need a car. The beaches are within walking distance of Merseyrail stations including Birkdale, Hillside, Ainsdale, Freshfield, Formby and Hall Road.",
+          "You do not need a car. Sefton Council points out that the beaches are within walking distance of Merseyrail stations including Birkdale, Hillside, Ainsdale, Formby and Hall Road, and Natural England puts the Ainsdale dunes 1.4km from Freshfield station.",
         ],
       },
       {
         heading: "Watching Without Disturbing Them",
         body: [
-          "Winter is hard on small waders. The coast's winter roosts are highly susceptible to disturbance during high tides and bad weather, when the birds need to conserve energy.",
-          "In winter, give the roosts a wide berth and keep dogs and horses well away from resting and feeding birds. In the nesting season there is a simple test: if birds run or fly ahead of you, you are too close. The government factsheet for the Special Protection Area records the same concern: beach recreation disturbs roosting flocks, which affects the birds' energy and their chances of survival, especially in winter.",
+          "Winter is hard on small waders. Sefton Council's nature calendar says the coast's winter roosts are highly susceptible to disturbance during high tides and bad weather, when the birds need to conserve energy. Its Green Sefton team runs a campaign called Give Birds A Break, supported by the RSPB, Natural England and the National Trust.",
+          "In winter the council asks visitors to give the roosts a wide berth and to keep dogs and horses well away from resting and feeding birds. For the nesting season it adds a simple test: if birds run or fly ahead of you, you are too close. The government factsheet for the Special Protection Area records the same concern: beach recreation disturbs roosting flocks, which affects the birds' energy and their chances of survival, especially in winter.",
           "Binoculars let you stay back. Stand still at the top of the beach as the tide rises, let the feeding flock work along the water's edge towards you, and they will often pass at a comfortable distance without you moving at all.",
         ],
       },
@@ -133,16 +133,16 @@ export const BLOG_POSTS: BlogPost[] = [
     categoryLabel: "Conservation",
     title: "Stranded Seals, Porpoises and Dolphins on the Sefton Coast: What to Do",
     date: "2026-11-11",
-    metaDescription: "Found a seal, porpoise or dolphin on a Sefton Coast beach? Who to call, what to tell them and why you should never put it back in the sea, using advice from BDMLR and the UK strandings programme.",
+    metaDescription: "Found a seal, porpoise or dolphin on a Sefton Coast beach? Who to call, what to tell them and why you should never put it back in the sea, using advice from BDMLR, the UK strandings programme and Sefton Council.",
     heroLocalSrc: "/images/blog/beachcombing/barrel-jellyfish-ainsdale-beach.webp",
     heroAlt: "A barrel jellyfish stranded on wet sand at Ainsdale beach, with the dunes in the background",
     heroCaption: "A barrel jellyfish stranded at Ainsdale. Seals and porpoises are not the only animals that wash up here. After storms, jellyfish can strand in large numbers, and those strandings are worth reporting too (see the end of this guide).",
-    intro: "Seals, porpoises and dolphins live in the Irish Sea off the Sefton Coast, and now and then one ends up on the beach. Seal pups and adults are possible on the coast from October to December, especially after bad weather. Most seals on a beach are resting and need nothing from you. Some are injured, sick or too young to cope, and a porpoise or dolphin out of the water always needs help. This guide sets out who to ring and what to do while you wait.",
+    intro: "Seals, porpoises and dolphins live in the Irish Sea off the Sefton Coast, and now and then one ends up on the beach. Sefton Council says seal pups and adults are possible on the coast from October to December, especially after bad weather. Most seals on a beach are resting and need nothing from you. Some are injured, sick or too young to cope, and a porpoise or dolphin out of the water always needs help. This guide sets out who to ring and what to do while you wait.",
     sections: [
       {
         heading: "Who to Call",
         body: [
-          "For a live seal, porpoise, dolphin, whale, shark or turtle, call British Divers Marine Life Rescue (BDMLR) on 01825 765546. BDMLR says its rescue hotline is available 24 hours a day. The UK Cetacean Strandings Investigation Programme also lists the RSPCA, on 0300 1234 999, for live strandings in England and Wales.",
+          "For a live seal, porpoise, dolphin, whale, shark or turtle, call British Divers Marine Life Rescue (BDMLR) on 01825 765546. BDMLR says its rescue hotline is available 24 hours a day, and Sefton Council gives the same number for injured or sick seals, dolphins and porpoises on its coast. The UK Cetacean Strandings Investigation Programme also lists the RSPCA, on 0300 1234 999, for live strandings in England and Wales.",
           "For a dead animal, call the UK Cetacean Strandings Investigation Programme (CSIP) on 0800 652 0333. CSIP has run since 1990, is funded by Defra and the devolved governments, and records the whales, dolphins, porpoises, marine turtles and basking sharks that strand around the UK coast. Some of the animals reported are collected for a post-mortem to find out why they died.",
           "Both numbers are worth saving in your phone before a winter walk, so you are not searching for them while trying to keep a dog back.",
         ],
@@ -150,7 +150,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Does the Seal Need Help?",
         body: [
-          "Usually not. The North West Wildlife Trusts' Living Seas team points out that healthy adult seals regularly haul out of the water to rest. Seals on these beaches are usually resting and will go back to the water, and parents often watch their pups from the shallows offshore.",
+          "Usually not. The North West Wildlife Trusts' Living Seas team points out that healthy adult seals regularly haul out of the water to rest. Sefton Council says the same of seals on its beaches: they are usually resting and will go back to the water, and parents often watch their pups from the shallows offshore.",
           "Pups are a special case. In autumn and winter a young seal has a white, long-haired coat, and pups are often left alone for short periods and may not yet be able to swim. A white pup on its own is not necessarily abandoned. The advice from Living Seas is to keep watch from a distance.",
           "Call for help if the seal is obviously ill or injured, if it is thin enough for the ribs to show, or if it looks like an abandoned pup. Then keep watching from a safe distance and keep other people and dogs away. Do not get close: seals can give a nasty bite.",
         ],
@@ -158,7 +158,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "Porpoises, Dolphins and Whales",
         body: [
-          "About 12 species of whale, dolphin and porpoise have been recorded in the Irish Sea, according to Living Seas. The ones seen most often are harbour porpoise, bottlenose dolphin, common dolphin and minke whale. Porpoises, and occasionally dolphins, reappear off this coast in spring.",
+          "About 12 species of whale, dolphin and porpoise have been recorded in the Irish Sea, according to Living Seas. The ones seen most often are harbour porpoise, bottlenose dolphin, common dolphin and minke whale. Sefton Council notes that porpoises, and occasionally dolphins, reappear off this coast in spring.",
           "Unlike a seal, a porpoise or dolphin on the sand is in trouble. Call BDMLR straight away. It is natural to want to push it back into the water, but Living Seas is clear that you should never drag the animal, try to return it to the sea or move it yourself. It has stranded for a reason and needs professional medical attention, and trying to help it back is dangerous for you and for the animal. Keep dogs and crowds back, keep noise and sudden movements to a minimum, and stay away from the tail, which is very powerful.",
         ],
       },
@@ -181,7 +181,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Dead Animals and Mass Strandings",
         body: [
           "A dead porpoise or seal on the strandline is still worth reporting to CSIP. Living Seas explains that dead strandings tell scientists about diet, health and disease, the effects of pollution and bycatch, and where each species lives. Avoid touching the body, and wash your hands if you do make contact.",
-          "After storms, strong winds or sudden changes in sea temperature, beaches can be covered in jellyfish, starfish, razor clams, crabs or sea urchins. Living Seas asks for these mass strandings to be reported too. Stranded jellyfish can still sting when dead, so look but do not touch.",
+          "After storms, strong winds or sudden changes in sea temperature, beaches can be covered in jellyfish, starfish, razor clams, crabs or sea urchins. Living Seas asks for these mass strandings to be reported too. Sefton Council warns that stranded jellyfish can still sting when dead, so look but do not touch.",
         ],
       },
     ],
@@ -595,7 +595,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Where to go this month",
         body: [
           "Marshside RSPB (Southport end): Pink-footed Goose roost in early March, Avocets arriving, winter wildfowl still on the lagoons. The RSPB car park (PR9 9PJ) is open from 8.30am to 4pm until 1 March and to 5pm from 2 March, and is locked outside those hours. It costs £1.50 for up to 2 hours or £3.00 for longer; RSPB members and Blue Badge holders park free.",
-          "Ainsdale NNR: Common Frog spawn in the dune slack ponds, early Sand Lizard if the weather is kind, Brown Hares on the dune grassland edge. Beach parking at Ainsdale does not open until 1 April, so come by train: Natural England puts the reserve 1.2km from Ainsdale station and 1.4km from Freshfield.",
+          "Ainsdale NNR: Common Frog spawn in the dune slack ponds, early Sand Lizard if the weather is kind, Brown Hares on the dune grassland edge. Sefton Council's beach parking at Ainsdale does not open until 1 April, so come by train: Natural England puts the reserve 1.2km from Ainsdale station and 1.4km from Freshfield.",
           "Hesketh Bank farmland: Brown Hare and Pink-footed Goose feeding during the day. Drive the lanes slowly at first light.",
           "Formby Beach: Low-tide wader watching along the tideline. Sanderling all month, and Ringed Plover from mid-March. Worth combining with a walk through the pinewoods. Roe Deer are occasionally visible at the woodland edge at dawn.",
         ],
@@ -1089,13 +1089,13 @@ export const BLOG_POSTS: BlogPost[] = [
     heroLocalSrc: "/images/blog/beachcombing/barrel-jellyfish-dog-ainsdale-beach.webp",
     heroAlt: "A large barrel jellyfish stranded on Ainsdale Beach on the Sefton Coast, with a dog investigating in the background",
     intro:
-      "Jellyfish strandings on the Sefton Coast are common, particularly in late winter and spring. Two species dominate: barrel jellyfish and compass jellyfish. They look alarming. Don't touch any of them: a stranded jellyfish can still sting after it has died. Here's how to tell them apart and what to actually do about it.",
+      "Jellyfish strandings on the Sefton Coast are common, particularly in late winter and spring. Two species dominate: barrel jellyfish and compass jellyfish. They look alarming, and Sefton Council's advice is not to touch any of them, because a stranded jellyfish can still sting after it has died. Here's how to tell them apart and what to actually do about it.",
     sections: [
       {
         heading: "Barrel jellyfish: the big flat one",
         body: [
           "If you've found a large, flat, disc-shaped jellyfish (dark brown or grey-purple, iridescent in the light, the size of a dinner plate or bigger), that's a barrel jellyfish (Rhizostoma pulmo). It's the UK's largest jellyfish species, capable of reaching 90cm across the bell and 35kg in weight. The ones that wash up on the Sefton coast are typically 30–60cm.",
-          "Treat every stranded jellyfish with caution and don't touch it, because jellyfish can still sting when dead. If you do touch one, don't rub your eyes afterwards, and don't let the dog eat it: digested nematocysts can still cause a reaction.",
+          "Sefton Council asks visitors to treat every stranded jellyfish with caution and not to touch it, because jellyfish can still sting when dead. If you do touch one, don't rub your eyes afterwards, and don't let the dog eat it: digested nematocysts can still cause a reaction.",
         ],
         imageAfter: {
           src: "/images/blog/beachcombing/barrel-jellyfish-dog-ainsdale-beach.webp",
@@ -2220,7 +2220,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Where to Look",
         body: [
           "Formby Point is the best land-based vantage point for grey seal sightings on the Sefton Coast. The point extends into the Irish Sea and provides clear views of the nearshore water and exposed sandbanks at low tide. Scan the water with binoculars at low tide for dark heads or the larger bulk of hauled seals.",
-          "Ainsdale beach has produced haul-out records on the lower beach beyond the little tern colony area. Access this section by walking north from Formby Point or south from the Ainsdale-on-Sea beach. Beach parking at Ainsdale is open only from 1 April to 30 September, so in autumn and winter come by train: Natural England puts the Ainsdale dunes 1.2km from Ainsdale station and 1.4km from Freshfield.",
+          "Ainsdale beach has produced haul-out records on the lower beach beyond the little tern colony area. Access this section by walking north from Formby Point or south from the Ainsdale-on-Sea beach. Sefton Council's beach parking at Ainsdale is open only from 1 April to 30 September, so in autumn and winter come by train: Natural England puts the Ainsdale dunes 1.2km from Ainsdale station and 1.4km from Freshfield.",
           "The walk from Formby Point north toward Ainsdale at low tide on a calm autumn or winter morning is the most reliable approach for grey seal sightings on this coast. Early morning before beach users arrive in numbers is the best timing.",
         ],
       },

@@ -190,7 +190,7 @@ export default async function HomePage() {
               <strong className="text-[var(--forest)] font-bold">Free entry</strong> to Marshside RSPB; parking £1.50 or £3
             </span>
             <span className="flex items-center gap-2">
-              <strong className="text-[var(--forest)] font-bold">22 miles</strong> of natural coastline
+              <strong className="text-[var(--forest)] font-bold">22 miles</strong> of natural coastline (Sefton Council)
             </span>
           </div>
         </div>

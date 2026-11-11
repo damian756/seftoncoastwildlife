@@ -35,6 +35,8 @@ const sources = [
   used(SRC.neCabinHillNnr, "Cabin Hill's area and its designated features"),
   used(SRC.neRavenmeolsLnr, "Ravenmeols Hills LNR: declaration, area, owner, manager, location and what to see"),
   used(SRC.neSeftonSsssiCitation, "Formby Point as an eroding hinge point and the waders of the Sefton foreshore"),
+  used(SRC.seftonCalendar, "the roost area from Albert Road to the Alt, seawatching in August and advice on roosting birds"),
+  used(SRC.seftonAinsdaleBeach, "dogs near roosting birds and the Wildlife and Countryside Act"),
   used(SRC.lwtSquirrelPox, "the 2026 squirrel pox outbreak and the request to remove feeders"),
 ];
 
@@ -53,7 +55,7 @@ export default function FormbyPointPage() {
             <span className="text-white/80">Formby Point</span>
           </nav>
           <p className="text-[var(--gold)] text-xs font-bold uppercase tracking-widest mb-3">
-            National Trust · Natural England · Local council · Formby
+            National Trust · Natural England · Sefton Council · Formby
           </p>
           <h1 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">Formby Point</h1>
           <p className="text-white/75 text-lg leading-relaxed max-w-2xl">
@@ -72,7 +74,7 @@ export default function FormbyPointPage() {
           checked="11 November 2026"
           managedBy={
             <>
-              The National Trust manages the beach, dunes and pinewoods. Natural England manages Cabin Hill National Nature Reserve (28 hectares). Ravenmeols Hills Local Nature Reserve, off Lifeboat Road, was declared by the local council in 1983; Natural England records it as owned by the council and managed by its coast and countryside service.
+              The National Trust manages the beach, dunes and pinewoods. Natural England manages Cabin Hill National Nature Reserve (28 hectares). Ravenmeols Hills Local Nature Reserve, off Lifeboat Road, was declared by Sefton Council in 1983; Natural England records it as owned by the council and managed by the Sefton Coast and Countryside Service.
             </>
           }
           official={[
@@ -90,7 +92,7 @@ export default function FormbyPointPage() {
             <>The two National Trust car parks are small and fill quickly on sunny days; the Trust recommends the train on busy days. On 11 November 2026 it listed both car parks as open 9am to 4pm.</>,
             <>Charge on 11 November 2026: £9.00 a car at either car park. National Trust members and Blue Badge holders park free.</>,
             <>Both car parks are ticketless with number-plate cameras. Pay at the machines with coins or card, or use the JustPark app; payment cannot be transferred between the two car parks.</>,
-            <>Lifeboat Road has a height limit of 2.3m and a width limit of 3m. Coaches, minibuses and horseboxes use Lifeboat Road, and there is no coach or minibus parking at weekends, in school holidays or on bank holidays. Parking restrictions are enforced on the residential roads nearby.</>,
+            <>Lifeboat Road has a height limit of 2.3m and a width limit of 3m. Coaches, minibuses and horseboxes use Lifeboat Road, and there is no coach or minibus parking at weekends, in school holidays or on bank holidays. Sefton Council enforces parking restrictions on the residential roads nearby.</>,
           ]}
           paths={[
             <>From Lifeboat Road, a hard-standing path and boardwalk with benches leads to the beach. From Victoria Road, the way to the beach is over uneven ground through the woods and dunes.</>,
@@ -101,16 +103,16 @@ export default function FormbyPointPage() {
           seasons={[
             {
               season: "Autumn and winter",
-              text: "Natural England says the shore at Cabin Hill provides feeding and roosting grounds for migrating and wintering birds, including Knot, Grey Plover and Bar-tailed Godwit. The shore from Albert Road to the Alt at Formby is one of three key roost areas on the coast. The Sefton Coast SSSI citation lists Sanderling among the internationally important wintering waders of this foreshore.",
+              text: "Natural England says the shore at Cabin Hill provides feeding and roosting grounds for migrating and wintering birds, including Knot, Grey Plover and Bar-tailed Godwit. Sefton Council names the shore from Albert Road to the Alt at Formby as one of three key roost areas on the coast. The Sefton Coast SSSI citation lists Sanderling among the internationally important wintering waders of this foreshore.",
               birds: ["knot", "grey-plover", "bar-tailed-godwit", "sanderling"],
             },
             {
               season: "Spring",
-              text: "Natural England says the rare Natterjack Toad calls around the fringes of the flooded slacks at Cabin Hill on nights in late April. Sand Lizards and Common Lizards live on the site, and spring bird migration builds along the coast in April.",
+              text: "Natural England says the rare Natterjack Toad calls around the fringes of the flooded slacks at Cabin Hill on nights in late April. Sand Lizards and Common Lizards live on the site, and Sefton Council says spring bird migration builds along the coast in April.",
             },
             {
               season: "Summer seawatching",
-              text: "In August Gannets, shearwaters, skuas, terns and even petrels can be seen by watching out to sea from the dunes over high tides, provided the wind is from the north-west or south-west.",
+              text: "Sefton Council's nature calendar says that in August Gannets, shearwaters, skuas, terns and even petrels can be seen by watching out to sea from the dunes over high tides, provided the wind is from the north-west or south-west.",
             },
             {
               season: "All year",
@@ -118,7 +120,7 @@ export default function FormbyPointPage() {
             },
           ]}
           tide={[
-            <>The roosts form over high tide. Roosting birds are highly susceptible to disturbance at high tide and in bad weather: if they run or fly ahead of you, you are too close.</>,
+            <>The roosts form over high tide. Sefton Council says roosting birds are highly susceptible to disturbance at high tide and in bad weather: if they run or fly ahead of you, you are too close.</>,
             <>Natural England advises checking the local tide timetable before going on the beach.</>,
           ]}
           access={[
@@ -128,7 +130,7 @@ export default function FormbyPointPage() {
           ]}
           dogs={[
             <>The National Trust welcomes well-behaved dogs under close control, and suggests a lead if you are unsure. Be mindful of wildlife and of the cattle grazing in the dunes.</>,
-            <>Keep dogs away from roosting birds on the beach. It is a criminal offence under the Wildlife and Countryside Act 1981 to allow your dog to disturb them.</>,
+            <>Keep dogs away from roosting birds on the beach. Sefton Council says it is a criminal offence under the Wildlife and Countryside Act 1981 to allow your dog to disturb them.</>,
           ]}
         />
 
