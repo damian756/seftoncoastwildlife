@@ -34,7 +34,7 @@ export default function PrivacyPage() {
           <h2 className="font-display text-lg font-bold text-[var(--forest)] mb-2">What data we collect</h2>
           <p className="mb-3">We keep data collection to a minimum:</p>
           <ul className="list-disc pl-5 space-y-1.5">
-            <li><strong>Contact form</strong>: if you use the contact form, we receive your name, email address and message. This is sent to us via Resend and is used solely to reply to your enquiry.</li>
+            <li><strong>Contact form</strong>: if you use the contact form, we receive your name, email address, subject and message. This is sent to us via Resend and is used solely to reply to your enquiry.</li>
             <li><strong>Ahrefs Web Analytics</strong>: page view statistics without cookies. It records the page, referrer, browser, device, language, screen size and approximate location (city level), and counts visitors with a daily pseudonymous identifier that is not kept across days.</li>
             <li><strong>Visit counts</strong>: we count how many times each page is viewed each day. We store only the page, the day and a number, and record nothing about the person viewing it.</li>
           </ul>
@@ -53,7 +53,7 @@ export default function PrivacyPage() {
             <li><strong>Ahrefs Web Analytics</strong>: page view statistics without cookies. <a href="https://help.ahrefs.com/en/articles/10247870-about-ahrefs-web-analytics" target="_blank" rel="noopener" className="text-[var(--marsh)] hover:underline">About Ahrefs Web Analytics</a></li>
             <li><strong>Resend</strong>: email delivery for the contact form. <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener" className="text-[var(--marsh)] hover:underline">Resend privacy policy</a></li>
             <li><strong>Vercel</strong>: website hosting. <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener" className="text-[var(--marsh)] hover:underline">Vercel privacy policy</a></li>
-            <li><strong>Wikipedia / Wikimedia Commons</strong>: species images are loaded from Wikipedia&apos;s REST API. No personal data is sent to Wikipedia by this site.</li>
+            <li><strong>Species photos</strong>: served from this site. Your browser does not connect to Wikipedia or Wikimedia Commons to show them.</li>
           </ul>
         </section>
 
