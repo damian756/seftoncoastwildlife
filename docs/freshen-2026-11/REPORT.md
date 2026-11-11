@@ -452,3 +452,62 @@ From the second independent review (`wildlife-review-2.md`), 11 Nov 2026, evenin
 9. **Privacy merge (done).** `privacy-wording` (ca8fdc5) merged; the conflict kept `/75` and "November 2026". `/privacy` renders (200) with the branch wording.
 
 **Checks:** `npx tsc --noEmit` 0; `npx eslint .` 0 errors, 2 warnings (as before); `node --test tests/*.test.mjs` 49 of 49; `next build` passed, 338 pages. No `sefton.gov.uk` URL or em dash added. Screens at 1440 and 390 are in the job's scratch folder, not the repo.
+
+
+## 12. SEO
+
+Checked 11 Nov 2026: the live site (older than `main`) and the dev server (port 3104) at `main` before and after the fixes. Every sitemap URL fetched without following redirects; title, description, canonical, robots and every JSON-LD block parsed and checked by page type; every FAQ question and answer and every breadcrumb name in the structured data matched against the page's own text (299 FAQ items and 959 crumbs, none missing). Commits `4b48419`, `c08aad2`, `ef464b5`, `ddcae13` and this report. Not pushed.
+
+**Sitemap** `https://www.seftoncoastwildlife.co.uk/sitemap.xml`: 327 URLs (16 fixed pages, 11 guides and reference pages, 257 species, 43 posts).
+
+| | URLs | 200 | Redirect | 404 | Noindex |
+|---|---|---|---|---|---|
+| Before (live) | 326 | 326 | 0 | 0 | 0 |
+| Before (`main`, dev) | 326 | 326 | 0 | 0 | 0 |
+| After (dev) | 327 | 327 | 0 | 0 | 0 |
+
+The one added URL is `/disclosure`: indexable and linked from the footer, but missing. `/privacy` and `/terms` are noindex (since February 2026) and stay out.
+
+**robots.txt** (unchanged): `User-Agent: *`, `Allow: /`, `Sitemap: https://www.seftoncoastwildlife.co.uk/sitemap.xml`. Nothing is disallowed, so CSS, JS and images can be fetched.
+
+**Canonicals.** All 327 pages have one canonical: absolute, https, www, pointing at themselves. Query versions point at the clean URL and stay indexable: `/advertise?space=`, `/contact?topic=&space=`, `/birds?season=` (and the other lists' filters), `/blog?category=`. There is no pagination. `/privacy` and `/terms` are noindex with a self-canonical; no other page's canonical points at them. No canonical points at a redirect or a 404.
+
+**Schema.**
+- Species pages (257): `WebPage` (name, description, photo, breadcrumb, and `lastReviewed` on the 20 pages that print "checked on") about a `Taxon` (scientific name, the common name as `alternateName`, family and order as "At a Glance" shows them), plus `BreadcrumbList` and the printed FAQ. Before: an `Article` with a `Person` author "Ed" the page does not show, and Taxon properties schema.org does not have (`commonName`, `additionalProperty`). No status or species fact changed; the status is still printed on the page.
+- Posts (43): `Article` with `datePublished` (the date shown) and now `dateModified` 2026-11-11 on the 38 posts whose words changed after publication (git, `e9b8d24` to `8da7aa4`). Not on the three unchanged since they went up (rabbits, pyramidal orchids, painted lady) or the two published on 11 Nov. `BreadcrumbList` added (Home > Blog > category, as shown). The image's made-up `width: 800` removed.
+- `BreadcrumbList` added on every page that shows a trail: the four species lists, the blog index, the birdwatching guide, the ten `/nature` pages, `/seasonal`, the four seasonal guides and the calendar. A test checks that every template with a trail has one.
+- Organization and WebSite once, on the home page. The Organization `logo` pointed at `/og-default.png`, which does not exist (404 live and on dev); removed.
+- Article author: the birdwatching guide named "Ed", whom that page does not show; it, the calendar and the protected sites page now give the site (Organization). Posts and seasonal guides keep "Ed", who is shown there (P2 is still Damian's call).
+- Site guides keep `TouristAttraction` or `Place` with the address and telephone the managing body gives (and Marshside's coordinates). No rating or review markup anywhere. No Event markup: the site lists no dated events.
+- After: 327 pages, 386 blocks, 0 parse errors.
+
+**Titles and descriptions.** Fixed: the three bat pages read "on the Sefton Coast" (was "Noctule Bat at the Sefton Coast"; review m6); the calendar and the June post had the site name twice; the June post said "Right Now" in November (now "Sefton Coast Wildlife in June 2026: What to Look For"). Meta descriptions over 190 characters cut to about 160 on 17 pages (the four lists, `/nature`, the ten guides, the calendar, the birdwatching guide), keeping each source line ("from the RSPB's own page", "from Sefton Council's pages"). Post descriptions use the summary's whole sentences up to 160 characters where that leaves at least 120 (12 posts); the summary on the blog index is unchanged. No duplicate titles or descriptions. Left as they are under the traffic-first rule: 59 titles over 65 characters (long post and guide titles plus " | Sefton Coast Wildlife") and 22 post descriptions over 165 that cannot be cut at a sentence. Dated post titles ("June 2026", "April 2026") are the posts' own dates and stay.
+
+**Sitemap lastmod** (review m9 and P5). Before: 237 species pages carried dates spread by a formula from 1 Nov 2025 to 28 Feb 2026, and the lists, seasonal guides, blog index, contact page and the 38 posts edited on 11 Nov kept dates from October 2025 to September 2026. Now each URL carries the day its words last changed (git): 324 on 2026-11-11 (all 257 species pages, as 256 entries changed that day and every one shares the changed template; every fixed page and guide; 40 posts) and three posts their own June and July dates. The dates live in `lib/seo.ts` (`PAGE_UPDATED`, `SPECIES_PAGES_UPDATED`); a page with no known date gets no lastmod. Nothing uses the build date.
+
+**Advertise page** (coordinator's brief: URL, title and H1 not changed). In the sitemap, self-canonical, indexable (no robots tag). Title "Advertise | Sefton Coast Wildlife", H1 "Advertise on Sefton Coast Wildlife". This is not the restored ranking form the brief describes: before the advertising build (`ff21b92`) the title was "Advertise on Sefton Coast Wildlife | Sefton Coast Network", shown with the site suffix as "... | Sefton Coast Network | Sefton Coast Wildlife". Left for the coordinating chat. The site's own link text to `/advertise` is unchanged ("Advertise", "Advertise with the Sefton Coast Network").
+
+**Found, not changed.** The bare domain takes two hops on the live site: `http://seftoncoastwildlife.co.uk` answers 308 to https, then 307 to www (path kept). The 307 comes from the Vercel domain settings, before `next.config.ts` runs; set it to a permanent redirect there. The six-organisations checks were not run: the rule is parked (playbook 1a), and `tests/no-blocked-links.test.mjs` is unchanged.
+
+**Tonight's URLs:** 8 new (2 posts, 5 guides and reference pages, the calendar), 122 with changed words or facts, 197 with punctuation or template changes only. Full list: `wildlife-seo-urls.md` in the job's notes folder.
+
+**Checks.** tsc 0. eslint 0 errors, 2 warnings (as before). Tests 57 of 57, 8 new in `tests/seo.test.mjs` (breadcrumbs, descriptions, dates, species titles and schema properties, post `dateModified`, sitemap URLs and dates, a BreadcrumbList on every template with a trail). `next build` passes, 338 pages.
+
+## Traffic: what to do next
+
+Ranked by the visits each is likely to bring. No keyword tool or Search Console data (Semrush expired); the terms are the plain phrasing people use. Every fact in a new post comes from an official or primary page fetched at the time, as the playbook says. Checked against the site on 11 Nov 2026.
+
+1. **Search terms not covered yet**
+   1. "starling murmuration southport", "where to see a starling murmuration merseyside": the species page (`/birds/common-starling`, "Common Starling at Marshside RSPB") mentions winter murmurations near Southport and Marshside in passing; there is no post. In season now (October to March): publish in November from RSPB and BTO pages, and check the species page's unsourced "near Southport" line at the same time.
+   2. "hen harrier marshside", "birds of prey southport": winter raptors on the Ribble marshes (Hen Harrier, Merlin, Peregrine, Marsh Harrier). Species pages only; the only raptor post is the Short-eared Owl. RSPB and BTO; December or January.
+   3. "high tide birdwatching southport", "marshside high tide": how the tide pushes waders to the roosts, which heights matter and where to stand. The guides name the roosts at each site and the Sanderling post covers beach roosts, but nothing explains reading the tide table. RSPB and Natural England.
+   4. "how to report bird sightings merseyside", "birdtrack": two paragraphs in the April swallows post only. A short post on BirdTrack, iRecord and the county recorders serves students and researchers. BTO, Biological Records Centre and the recorders' own pages.
+   5. "hesketh out marsh managed realignment": the guide gives one paragraph on how the marsh was made. A post for students from RSPB, Environment Agency and Natural England pages.
+2. **Pages one edit away**
+   1. `/nature/martin-mere` for "martin mere swan feed", "whooper swans martin mere": the guide already covers the Whooper Swans. Add WWT's swan feed times and season, checked on WWT's page at the time, rather than a new post.
+   2. The monthly posts stopped after September. Two carry 2026 in the title (June, late May) and five in the address (May, late May, June, July, August). Link each to its month in the calendar (`/seasonal/month-by-month#june` and so on; the anchors exist) and the calendar month back to the post, so they stay useful in 2027. Next year, refresh a month's post in place rather than writing a second one; the URL stays.
+   3. The species checklist: 237 species pages have no sources yet. Each one checked gains a "checked on" line, `lastReviewed` in its schema and a fresh lastmod. Start with the species people look for most: red squirrel, natterjack toad, sand lizard and grey seal (none checked yet), then the birds with their own posts (little tern, oystercatcher, skylark).
+   4. The 22 post summaries over 165 characters are cut short in results. A short search description on each (the summary on the blog index stays) would fix that without touching the titles.
+   5. The Vercel bare-domain redirect to permanent (above).
+   6. Watch in Search Console: the three bat titles and the June post title changed tonight; the 59 long titles were left.
+3. **Posts a month**: two a month, one species or site and one seasonal (published two to three weeks before the season it covers), plus updating the calendar month as it comes round and continuing the species checklist. Going back to four a month from March to June, the months of natterjacks, orchids and terns, is worth it if the time is there. Rhythm so far: 6 to 9 a month March to June 2026, 4 in July, 2 in August and September, none in October, 2 in November (this job).
