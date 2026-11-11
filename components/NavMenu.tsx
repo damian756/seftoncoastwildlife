@@ -1,7 +1,9 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+
+const menuId = (label: string) => `menu-${label.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
 
 const nav = [
   { label: "Birds", href: "/birds" },
@@ -45,12 +47,24 @@ const nav = [
 export function NavMenu() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  // Desktop dropdowns: open on hover (CSS) or by the disclosure button (click, Enter or Space).
+  const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const desktopNav = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    if (!openMenu) return;
+    const onPointerDown = (e: PointerEvent) => {
+      if (!desktopNav.current?.contains(e.target as Node)) setOpenMenu(null);
+    };
+    document.addEventListener("pointerdown", onPointerDown);
+    return () => document.removeEventListener("pointerdown", onPointerDown);
+  }, [openMenu]);
 
   return (
     <header
@@ -68,17 +82,42 @@ export function NavMenu() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden lg:flex items-center gap-1">
+        <nav ref={desktopNav} className="hidden lg:flex items-center gap-1">
           {nav.map((item) =>
             item.children ? (
-              <div key={item.label} className="relative group">
-                <span className="flex items-center gap-1 px-3 py-2 rounded-md text-sm font-medium text-[var(--slate)] hover:bg-[var(--dune)] hover:text-[var(--forest)] cursor-default transition">
+              <div
+                key={item.label}
+                className="relative group"
+                onBlur={(e) => {
+                  if (!e.currentTarget.contains(e.relatedTarget as Node | null)) setOpenMenu((m) => (m === item.label ? null : m));
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === "Escape" && openMenu === item.label) {
+                    setOpenMenu(null);
+                    e.currentTarget.querySelector("button")?.focus();
+                  }
+                }}
+              >
+                <button
+                  type="button"
+                  aria-expanded={openMenu === item.label}
+                  aria-controls={menuId(item.label)}
+                  onClick={() => setOpenMenu((m) => (m === item.label ? null : item.label))}
+                  className="flex items-center gap-1 px-3 py-2 rounded-md text-sm font-medium text-[var(--slate)] hover:bg-[var(--dune)] hover:text-[var(--forest)] cursor-default transition"
+                >
                   {item.label}
-                  <svg className="w-3.5 h-3.5 opacity-50 group-hover:opacity-80 transition" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <svg aria-hidden="true" className="w-3.5 h-3.5 opacity-50 group-hover:opacity-80 transition" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                   </svg>
-                </span>
-                <div className="absolute top-full left-0 pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150">
+                </button>
+                <div
+                  id={menuId(item.label)}
+                  className={`absolute top-full left-0 pt-1 ${
+                    openMenu === item.label
+                      ? "opacity-100 visible [transition:opacity_150ms,visibility_0s]"
+                      : "opacity-0 invisible [transition:opacity_150ms,visibility_0s_150ms] group-hover:opacity-100 group-hover:visible group-hover:[transition:opacity_150ms,visibility_0s]"
+                  }`}
+                >
                   <div className="bg-white border border-[var(--dune)] rounded-xl shadow-lg py-1.5 min-w-[230px]">
                     {item.children.map((child) =>
                       child.href.startsWith("http") ? (
@@ -87,6 +126,7 @@ export function NavMenu() {
                           href={child.href}
                           target="_blank"
                           rel="noopener"
+                          onClick={() => setOpenMenu(null)}
                           className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-[var(--slate)] hover:bg-[var(--sand)] hover:text-[var(--forest)] transition"
                         >
                           {child.label}
@@ -96,6 +136,7 @@ export function NavMenu() {
                       <Link
                         key={child.href}
                         href={child.href}
+                        onClick={() => setOpenMenu(null)}
                         className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-[var(--slate)] hover:bg-[var(--sand)] hover:text-[var(--forest)] transition"
                       >
                         {child.label}
