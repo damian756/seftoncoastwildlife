@@ -6,6 +6,7 @@ import { getWikipediaImage } from "@/lib/wikipedia";
 import { BLOG_POSTS } from "@/content/blog/posts";
 import { PhotoGallery } from "@/components/PhotoGallery";
 import { AdSlot } from "@/components/AdSlot";
+import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
 // Rebuilt at most once a day, so an advertising sponsor whose `until` has passed drops off within a day.
 export const revalidate = 86400;
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: url },
-  openGraph: { title, description, url, siteName: "Sefton Coast Wildlife", type: "website" },
+  openGraph: { images: [DEFAULT_OG_IMAGE], title, description, url, siteName: "Sefton Coast Wildlife", type: "website" },
   twitter: { card: "summary_large_image", title, description },
 };
 

@@ -6,6 +6,7 @@ import { getWikipediaImage } from "@/lib/wikipedia";
 import { ClickableImage } from "@/components/ClickableImage";
 import { AdSlot } from "@/components/AdSlot";
 import { hasPostSlot, postSlotId } from "@/lib/ad-slots";
+import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -32,6 +33,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: "Sefton Coast Wildlife",
       type: "article",
       publishedTime: post.date,
+      images: post.heroLocalSrc
+        ? [{ url: `https://www.seftoncoastwildlife.co.uk${post.heroLocalSrc}`, alt: post.heroAlt }]
+        : [DEFAULT_OG_IMAGE],
     },
     twitter: { card: "summary_large_image", title: post.title, description: post.metaDescription },
   };

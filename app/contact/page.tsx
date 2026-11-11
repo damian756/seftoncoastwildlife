@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ContactForm } from "@/components/ContactForm";
 import { BLOG_POSTS } from "@/content/blog/posts";
 import { spaceTitle } from "@/lib/ad-slots";
+import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
 const title = "Contact";
 const description = "Get in touch with Sefton Coast Wildlife: questions, species records, local knowledge or advertising enquiries.";
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: url },
-  openGraph: { title, description, url, siteName: "Sefton Coast Wildlife", type: "website" },
+  openGraph: { images: [DEFAULT_OG_IMAGE], title, description, url, siteName: "Sefton Coast Wildlife", type: "website" },
 };
 
 type Props = { searchParams: Promise<{ topic?: string | string[]; space?: string | string[] }> };

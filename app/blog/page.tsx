@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { BLOG_POSTS } from "@/content/blog/posts";
 import { getWikipediaImage } from "@/lib/wikipedia";
 import { BlogListClient } from "@/components/BlogListClient";
+import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
 const title = "Wildlife Blog";
 const description =
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: url },
-  openGraph: { title, description, url, siteName: "Sefton Coast Wildlife", type: "website" },
+  openGraph: { images: [DEFAULT_OG_IMAGE], title, description, url, siteName: "Sefton Coast Wildlife", type: "website" },
   twitter: { card: "summary_large_image", title, description },
 };
 

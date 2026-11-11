@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
 /* ─── per-page content ────────────────────────────────────── */
 
@@ -270,6 +271,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: page.metaDescription,
     alternates: { canonical: url },
     openGraph: {
+      images: [DEFAULT_OG_IMAGE],
       title: page.title,
       description: page.metaDescription,
       url,

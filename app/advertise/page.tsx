@@ -3,6 +3,7 @@ import Link from "next/link";
 import { BLOG_POSTS } from "@/content/blog/posts";
 import { AD_OPTIONS, findSlot, isAdOptionId, type AdOptionId } from "@/lib/ad-slots";
 import { DISPLAY_EMAIL } from "@/lib/contact";
+import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
 const title = "Advertise";
 const description =
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: url },
-  openGraph: { title: "Advertise on Sefton Coast Wildlife", description, url, siteName: "Sefton Coast Wildlife", type: "website" },
+  openGraph: { images: [DEFAULT_OG_IMAGE], title: "Advertise on Sefton Coast Wildlife", description, url, siteName: "Sefton Coast Wildlife", type: "website" },
 };
 
 // Order of the cards on the page. The network bundle is drawn separately.

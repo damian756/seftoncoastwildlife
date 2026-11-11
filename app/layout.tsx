@@ -42,8 +42,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: `${BASE_URL}/images/species/birds/pink-footed-goose.jpg`,
-        width: 1200,
-        height: 630,
+        width: 600,
+        height: 450,
         alt: "Pink-footed Geese over the Sefton Coast",
       },
     ],

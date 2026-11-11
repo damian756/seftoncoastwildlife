@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { SourceList } from "@/components/SourceList";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
+import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
 const title = "Protected Sites of the Sefton Coast: SPA, Ramsar, SAC, SSSI, NNR and LNR";
 const description =
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: url },
-  openGraph: { title, description, url, siteName: "Sefton Coast Wildlife", type: "article" },
+  openGraph: { images: [DEFAULT_OG_IMAGE], title, description, url, siteName: "Sefton Coast Wildlife", type: "article" },
   twitter: { card: "summary", title, description },
 };
 

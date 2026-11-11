@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { NATURE_REFERENCE, SITE_GUIDES } from "@/lib/site-guides";
+import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
 const title = "Sefton Coast Reserve and Site Guides";
 const description =
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: url },
-  openGraph: { title, description, url, siteName: "Sefton Coast Wildlife", type: "website" },
+  openGraph: { images: [DEFAULT_OG_IMAGE], title, description, url, siteName: "Sefton Coast Wildlife", type: "website" },
   twitter: { card: "summary_large_image", title, description },
 };
 

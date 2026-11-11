@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { SiteGuideFacts } from "@/components/SiteGuideFacts";
 import { SourceList } from "@/components/SourceList";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
+import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
 const title = "Crosby, Hall Road and the Alt Estuary: Roosts, Parking and Safety";
 const description =
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: url },
-  openGraph: { title, description, url, siteName: "Sefton Coast Wildlife", type: "article" },
+  openGraph: { images: [DEFAULT_OG_IMAGE], title, description, url, siteName: "Sefton Coast Wildlife", type: "article" },
   twitter: { card: "summary_large_image", title, description },
 };
 
