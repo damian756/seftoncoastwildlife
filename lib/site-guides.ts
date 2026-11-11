@@ -81,4 +81,11 @@ export const NATURE_REFERENCE = [
     desc: "How the dunes, beaches, saltmarsh and estuaries fit together, and where each site guide sits.",
     checked: "2026-11-11",
   },
+  {
+    href: "/seasonal/month-by-month",
+    name: "Month by month: what to see and where",
+    tag: "Calendar",
+    desc: "Twelve months of the coast's birds and other wildlife, with the site to visit for each and the source for every timing.",
+    checked: "2026-11-11",
+  },
 ];

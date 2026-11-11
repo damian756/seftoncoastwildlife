@@ -58,6 +58,7 @@ export const STATIC_PATHS = [
   "/plants",
   "/privacy",
   "/seasonal",
+  "/seasonal/month-by-month",
   "/terms",
 ];
 

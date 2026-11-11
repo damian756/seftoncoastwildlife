@@ -22,6 +22,7 @@ const nav = [
       { label: "Seaforth Nature Reserve", href: "/nature/seaforth-nature-reserve" },
       { label: "WWT Martin Mere", href: "/nature/martin-mere" },
       { label: "The Sefton Coast", href: "/nature/sefton-coast" },
+      { label: "Month by month", href: "/seasonal/month-by-month" },
       { label: "Birdwatching Guide", href: "/birdwatching-guide" },
       { label: "Seasonal Guides", href: "/seasonal" },
     ],

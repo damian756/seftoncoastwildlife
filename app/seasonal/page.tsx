@@ -36,7 +36,7 @@ const seasons = [
     slug: "breeding-birds",
     title: "Breeding Birds",
     period: "April – July",
-    desc: "Avocets on the Marshside scrapes, Little Terns at Ainsdale, Sedge Warblers and Reed Buntings on the marsh edge.",
+    desc: "Avocets and Lapwings nesting at Marshside, Common Terns at Seaforth, Sedge Warblers and Reed Buntings on the marsh edge.",
     tag: "Nesting season",
   },
   {
@@ -70,6 +70,20 @@ export default function SeasonalPage() {
       </div>
 
       <div className="mx-auto max-w-5xl px-4 py-10">
+        <Link
+          href="/seasonal/month-by-month"
+          className="card-hover group block mb-8 p-6 rounded-2xl border border-[var(--marsh)]/40 bg-white hover:border-[var(--marsh)]"
+        >
+          <span className="inline-block text-[10px] font-bold uppercase tracking-widest text-[var(--marsh)] bg-[var(--marsh)]/10 px-2 py-0.5 rounded-full mb-3">
+            Calendar
+          </span>
+          <h2 className="font-display text-xl font-bold text-[var(--forest)] group-hover:text-[var(--marsh)] transition mb-1">
+            Month by month: what to see and where
+          </h2>
+          <p className="text-sm text-[var(--slate)] leading-relaxed">
+            All twelve months in one place, each linked to the site guides and species pages, with the source for every timing.
+          </p>
+        </Link>
         <ul className="grid gap-5 md:grid-cols-2">
           {seasons.map((s) => (
             <li key={s.slug}>

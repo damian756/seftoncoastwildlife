@@ -53,6 +53,7 @@ export function Footer() {
                 { href: "/nature", label: "Reserve and Site Guides" },
                 { href: "/nature/marshside-rspb", label: "Marshside RSPB" },
                 { href: "/nature/sefton-coast", label: "The Sefton Coast" },
+                { href: "/seasonal/month-by-month", label: "Month by Month" },
                 { href: "/birdwatching-guide", label: "Birdwatching Guide" },
                 { href: "/seasonal", label: "Seasonal Guides" },
                 { href: "/blog", label: "Wildlife Blog" },
