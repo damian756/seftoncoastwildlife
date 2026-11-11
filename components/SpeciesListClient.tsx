@@ -21,10 +21,10 @@ function SpeciesCardImage({ species }: { species: Species }) {
   );
 }
 
-const GROUP_CONFIG: Record<string, { label: string; icon: string }> = {
-  mammal:    { label: "Mammals",    icon: "🐾" },
-  reptile:   { label: "Reptiles",   icon: "🦎" },
-  amphibian: { label: "Amphibians", icon: "🐸" },
+const GROUP_CONFIG: Record<string, { label: string }> = {
+  mammal:    { label: "Mammals" },
+  reptile:   { label: "Reptiles" },
+  amphibian: { label: "Amphibians" },
 };
 const GROUP_ORDER = ["mammal", "reptile", "amphibian"];
 
@@ -304,9 +304,8 @@ export function SpeciesListClient({ category, species }: SpeciesListClientProps)
             return (
               <section key={group}>
                 <h2 className="text-lg font-bold text-[var(--forest)] mb-4 flex items-center gap-2 border-b border-[var(--dune)] pb-2">
-                  <span>{cfg.icon}</span>
                   <span>{cfg.label}</span>
-                  <span className="text-sm font-normal text-[var(--slate)]/50 ml-1">— {groupSpecies.length} species</span>
+                  <span className="text-sm font-normal text-[var(--slate)]/50 ml-1">({groupSpecies.length} species)</span>
                 </h2>
                 <SpeciesGrid category={category} species={groupSpecies} />
               </section>
