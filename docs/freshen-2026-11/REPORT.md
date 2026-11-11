@@ -331,3 +331,106 @@ New routes added to `STATIC_PATHS` in `lib/visit-count.ts` (the tests require it
 ### 8.10 Next steps
 1. A species checklist with status and source for every species page: about a day (237 species still need BTO or RSPB status; `sources` and `factsChecked` fields exist).
 2. A "for schools and researchers" page: about half a day (RSPB education sessions, National Trust group booking, Seaforth day passes, the citations on the protected-sites page).
+
+## 9. Review of the birdwatcher and student pages: findings and fixes
+
+The independent review of job 3 (`wildlife-job3-review.md`) listed 41 findings: 0 wrong facts, 8 misleading, 1 house rule and 32 minor. Every fix that adds a fact was checked again against the source on 11 November 2026. 39 were applied (some with changed wording, given below), 1 was applied in part and 1 was skipped as instructed.
+
+Commits on `main`: 4e124d7 (protected sites), 5a699c5 (Hesketh Out Marsh), fb5dac8 (calendar), 4a12986 (site guides), 7317513 (home and hub wording), 6946524 (sitemap), 0265497 (species pages). On `privacy-wording`: 4457d14.
+
+### Applied
+- **A1** Hesketh Out Marsh breeding birds: the guide and the June calendar item now use Natural England's Ribble Estuary NNR list (gulls, terns, Redshanks, Avocets, Lapwings and Skylarks) instead of the RSPB's Arctic Tern and Eider line. The calendar no longer cites the RSPB Hesketh page.
+- **A3** Ribble Estuary MCZ: "Designated by the Ribble Estuary Marine Conservation Zone Designation Order 2019, made on 20 May 2019 and in force from 31 May 2019"; the Secretary of State made the order under the Marine and Coastal Access Act 2009. Links to legislation.gov.uk and gov.uk added.
+- **A4, A5** Mersey Narrows: Ramsar site designated 5 July 2013 (JNCC Ramsar Information Sheet UK11042, 2,078.41 ha); the Ramsar record lists the same species, all as wintering features. Sheet linked.
+- **A6** Sefton Coast SAC: Natural England record linked; area line now also gives the Standard Data Form's 4,591.59 ha.
+- **A8** Ribble and Alt Ramsar features listed by name as Natural England's record gives them.
+- **A9 to A11** Calendar: National Trust dropped from the source list; March warblers split from the Martin Mere item; the Twite and egret item no longer links the Birkdale guide.
+- **A12** "Ainsdale beach parking ends on 30 September and reopens on 1 April. Ainsdale station is within walking distance of the beach."
+- **A14** Privacy page: the contact form line now includes the subject (on `privacy-wording`).
+- **A15** Sitemap: the 20 checked species pages and the home page carry 11 November 2026.
+- **B1** Home: free entry to Marshside; parking £1.50 or £3, RSPB members and Blue Badge holders free (RSPB price list: adult and child £0).
+- **B5** Seaforth: day-pass requests go through the Wildlife Trust to the Port of Liverpool Police.
+- **B6 to B8** Martin Mere: no flamingos (WWT lists an otter enclosure and about 100 species of water birds); the tickets page cited for unlimited members' visits; the scooter deposit is non-refundable.
+- **B9, B10** Marshside: RSPB Black-tailed Godwit page cited; "Two hides, a viewing platform and screens" in the birdwatching guide.
+- **B11** Guide lists say "the coast north to south, then WWT Martin Mere inland" (hub, overview, birdwatching guide, and the same wording in the hub descriptions, home card and species page panel).
+- **B12, B13, B15, B16** Martin Mere "inland, 10 miles from Southport"; "birds", not "waders", may roost near Hightown; squirrel pox source uses the article address; unused source entry removed.
+- **B14** Formby: "The National Trust says Formby is legally protected and has basic facilities." and "All group visits must be booked in advance with the National Trust, including schools and groups arriving on foot."
+- **B17** Home: "22 miles of natural coastline".
+- **C3 to C8** Species: BTO population periods (Teal, Wigeon, Pintail, Sanderling; Whooper Swan's winter period left out because the BTO page prints "2015-15"); Black-tailed Godwit as a wintering Ramsar feature; Knot FAQ cites the Ramsar record; Sanderling FAQ now asks how to recognise one (BTO and RSPB wording); Seaforth pass "a week ahead if possible", forwarded to the Port of Liverpool Police; Lapwing "UK breeding population fell by 56% between 1995 and 2024" (description and FAQ).
+
+### Applied with different wording
+- **B2** Birkdale winter parking: "From October to March there is no beach parking, so use another car park or come by train." No council page is linked (standing rule).
+- **B3** Ainsdale toilets: open April to September, Changing Places toilet all year. The unsourced "no facilities on the reserve" is gone. The reviewer's opening line on parking was not added, because the parking list already says it.
+- **B4** Crosby: the superlative is removed rather than attributed, since the first wording of the standing rule barred naming the council: "RNLI lifeguards are on Crosby beach all year, but there is no patrolled bathing area."
+- **C1** Knot: "It is Amber-listed (BTO, RSPB). The BTO gives the change in the UK winter population as +15% from 1998 to 2023 and says the long-term trend has been more or less stable since the early 1990s." The BTO page does not name the Wetland Bird Survey beside the figure, so the line does not either. The RSPB's 13% is dropped.
+- **C2** Green List text: "This species is on the UK Green List in Birds of Conservation Concern 5 (December 2021), which places each species on the Red, Amber or Green List using criteria such as population and range trends, rarity and international importance (BTO). Green does not by itself mean numbers are rising: see the BTO and RSPB pages for its current trends." No fetched page states the reviewer's "does not meet the criteria" definition.
+- **C9** Bat titles: `shortLocation` removed for the three bats (the reviewer's second option), so titles use "the Sefton Coast" and no lower-case badge shows.
+- **A2** Privacy, Wikipedia line: replaced, not deleted. `lib/wikipedia.ts` is called only by the home page, the blog index and blog posts, and only for a post with `heroWikipediaTitle` and no `heroLocalSrc`; none of the 43 posts is like that. Species photos are local, and no rendered page references `upload.wikimedia.org` or the Wikipedia API.
+
+### Applied in part
+- **A7** Liverpool Bay SPA: code UK9020294 and the JNCC Standard Data Form added (site code, classified 2010-08). The "responsible" line was kept, now attributed: the JNCC page fetched today says the SPA "was classified by the UK Government to meet obligations" under the Birds Directive, so the reviewer's premise does not hold.
+
+### Skipped
+- **A13** Ahrefs sentence on the privacy page: unchanged, as instructed. The wording is agreed across the five sites; the reviewer's points (IP address used for location and for the daily ID without being stored, operating system, URL parameters) go to the coordinating chat.
+
+### Privacy sentences, before and after (`privacy-wording`, 4457d14)
+- Before: "Contact form: if you use the contact form, we receive your name, email address and message."
+  After: "Contact form: if you use the contact form, we receive your name, email address, subject and message."
+- Before: "Wikipedia / Wikimedia Commons: species images are loaded from Wikipedia's REST API. No personal data is sent to Wikipedia by this site."
+  After: "Species photos: served from this site. Your browser does not connect to Wikipedia or Wikimedia Commons to show them."
+
+### Standing rule: no links to the six organisations (11 Nov 2026)
+The rule was first "do not name or link the council", then refined to "keep them, i dont want to link to any of them": naming is fine, linking is not. Commit ec672a7 (under the first wording) took the council's name and links out of this job's copy: the site guides, calendar, protected sites page, checked species pages and the review fixes. Managed sites say "the local council"; the council entries are gone from the source lists, `lib/sources.ts` and the Birkdale and Crosby "official page" boxes (now Natural England records). Commit db4dd96, "Copy: no council attributions (standing rule)", applied the approved inventory items WC1 to WC8 to older copy (five blog posts, the Pink-footed Geese seasonal page, six moth entries and Sea Buckthorn); the council's Give Birds A Break campaign line went with it. These rewordings stay as committed.
+
+Links removed: 61 to sefton.gov.uk (30 in the guides, protected sites page and overview source lists, "official page" boxes and schema `sameAs`; 29 on the calendar, 27 of them per-item source links; 6 species source entries) and 2 plain-text mentions of sefton.gov.uk/find-parking. None to the other five organisations or their social pages existed. Commit f9b15e5 adds `lib/blocked-domains.ts` (the shared list of 18 domains) and `tests/no-blocked-links.test.mjs`. A rendered check of 331 pages on the dev server found 0 occurrences of any listed domain.
+
+18 of the calendar's 39 items now show no source. The council pages the facts came from, all fetched on 11 November 2026:
+- Nature calendar: https://www.sefton.gov.uk/around-sefton/coast-countryside/seftons-nature-calendar/ (roost areas and timings, migration, geese, amphibians, reptiles, plants, seals, disturbance advice, Twite)
+- Ainsdale Beach: https://www.sefton.gov.uk/around-sefton/coast-and-countryside/visiting-our-beaches/ainsdale-beach/ (parking 1 April to 30 September, £10, closures, toilets April to September, Changing Places all year, dog-free zones, stations, the Wildlife and Countryside Act line)
+- Ainsdale and Birkdale Sandhills LNR: https://www.sefton.gov.uk/around-sefton/coast-countryside/ainsdale-and-birkdale-sandhills-local-nature-reserve/ (988 ha, Velvet Trail, entrances, Shore Road toilets, plants)
+- Crosby Beach: https://www.sefton.gov.uk/around-sefton/coast-and-countryside/visiting-our-beaches/crosby-beach/ (50 m rule, soft sand and mud, lifeguards all year, stations)
+- Crosby Coastal Park: https://www.sefton.gov.uk/around-sefton/parks-and-greenspaces/crosby-coastal-park/ (extent, designations, stations, buses, car parks)
+- Another Place: https://www.sefton.gov.uk/around-sefton/another-place-by-antony-gormley/ (100 figures, 3 km)
+- Visiting our beaches: https://www.sefton.gov.uk/around-sefton/coast-countryside/visiting-our-beaches/ (22 miles of natural coastline)
+- Safe beaches: https://www.sefton.gov.uk/safe-beaches (tide forecasts)
+- Find car parks: https://www.sefton.gov.uk/find-parking (no longer used)
+
+### Checks
+`npx tsc --noEmit` 0 errors (baseline 0). `npx eslint .` 0 errors, 2 warnings (baseline 0 and 3; the `<img>` warning on the blog index is gone). `node --test tests/*.test.mjs` 49 of 49 (baseline 42; four em dash tests and three blocked-link tests added).
+
+## 10. Improvements and modernising
+
+Measured on 11 November 2026 on the dev server (port 3104) and a local production build (`next build`, `next start`), with Playwright and headless Edge: every sitemap URL (326) plus contact, advertise, legal pages, the feed and a 404; bytes, layout shift, overflow, contrast, headings, links and metadata on 26 page types at 1440 and 390. External links: 307 unique, each fetched once.
+
+### Ranked, with effort and status
+1. **Blog index downloaded every original photo**: 72.3 MB of images (43 cards, plain `<img>` of 2 to 3 MB files). Now through `next/image` with card-sized hints: 0.6 MB at 1440, 1.3 MB at 390. 15 minutes. **Done** (0f09dda, bb121ce).
+2. **Wrong species links**: six NBN Atlas links on mammal and amphibian pages opened other species (the red squirrel link showed palmate newt, natterjack showed painted turtle, otter showed wood mouse; grey seal gave an error). Replaced with the records NBN's own search returns, each checked by page title; the BTO Crossbill page had moved. 15 minutes. **Done** (4506166).
+3. **Em dashes in rendered text**: 888 in the species data (birds 446, insects 265, plants 177) on 257 species pages, and 1 in the mammals list headings. All replaced; rendered HTML of all 333 URLs, titles, meta, Open Graph, JSON-LD and the feed now has none. Test: `tests/no-em-dash.test.mjs`. 45 minutes. **Done** (88b00ce, 1d51542).
+4. **No share image on 69 pages** (home, the four species lists, the blog index and all 43 posts, seven guides, six seasonal pages, birdwatching guide, contact, advertise): each page's own Open Graph data replaced the layout's, image included. Posts now use their photo, the rest the default; the layout's stated 1200 x 630 for a 600 x 450 file is corrected. 25 minutes. **Done** (95f8664).
+5. **Text contrast**: faded grey text at 40 to 60% opacity (3.4:1 or less) in 31 places, including the postcode and car park lines on the birdwatching guide and Marshside; white on the gold advertise buttons (2.2:1); white on the amber status badges (about 2.1:1) and on green ones (about 3.8:1) at 10 to 12 px. All now 4.5:1 or better. 20 minutes. **Done** (bb54953, e51617b).
+6. **Species list thumbnails**: /birds loaded 4.2 MB of 640 px files into 320 px cards at 1440; now 1.9 MB (/mammals 1.2 to 0.5 MB). At 390 the cards are full width, so no change there. 5 minutes. **Done** (bb121ce).
+7. **Route prefetch**: in production each page fetched 1.1 to 3.5 MB of route data as links scrolled into view (/birds at 390: 685 requests, 3.5 MB). Species cards no longer prefetch. 5 minutes. **Done** (d8584c1). Nav and footer links: **proposed** (P6).
+8. **Species schema image** pointed at Wikipedia's file redirect, not the photo on the page. 5 minutes. **Done** (f1295c2).
+9. **Emoji as icons**: the pin on every species page, the eagle on the 404 page, the mammals headings and the "In Southport" menu items. 10 minutes. **Done** (7bc3e8d, 1d51542, b5865c4).
+10. **Long titles and descriptions**: 62 titles over 65 characters (longest 113, /mammals) and 54 descriptions over 165 (longest 244). None missing or duplicated. **Proposed** (P1).
+11. **Author "Ed"**: a named author with a biography in post bylines and in Person schema on blog, seasonal and species pages; the site does not say whether Ed is a persona. **Proposed** (P2), for Damian.
+12. **Calendar sources**: 18 of 39 items show no source since the council rule. **Proposed** (P3).
+13. **Main menu**: an "In Southport" dropdown of pubs, cafés and days out sits beside the species lists; the calendar and protected sites page are only inside "Nature & Coast". **Proposed** (P4).
+14. **Sitemap dates**: 237 species pages carry generated dates (spread from 1 Nov 2025 to 28 Feb 2026) rather than edit dates. **Proposed** (P5).
+15. **Mobile image weight on species lists**: 4.2 MB at 390 on a 1x screen, more on 3x phones. **Proposed** (P6, with prefetch).
+16. **Header at 768**: the full menu wrapped to three lines and cut off the Visit Marshside button. The menu button now covers widths up to 1023 px; 1024 and up are unchanged. 5 minutes. **Done** (a03a3d7). The full-page screens at 768 were taken before this fix; `imp-nav-birds-*` show the header after it.
+17. **Heading order**: h1 then h3 on the species lists and the 404 page. **Left**: minor, needs the filter panel restructured.
+18. **IUCN links** answer 403 to scripts but open in a browser. **Left**.
+
+Checked and fine: layout shift 0 to 0.005 everywhere; no sideways scroll at 1440, 1024, 768 or 390; every page has `lang="en"`, one h1 and a correct canonical; all 326 sitemap URLs return 200 with no redirects; no orphan pages; every JSON-LD block parses; no vague or empty link text; robots allows all and names the sitemap. JavaScript is 573 KB (176 KB gzipped) on the home page, mostly shared chunks; fonts 85 KB.
+
+### Proposals (not built)
+- **P1. Titles and descriptions.** Rewrite the 62 long titles to about 60 characters and the 54 long descriptions to about 155, mostly blog posts, so search results stop cutting them mid-phrase. About 2 to 3 hours of copy. Screenshot: `docs/freshen-2026-11/screens/imp-proposal-titles-1440.jpg` (mock-up of the cut results).
+- **P2. The "Ed" byline.** Either say on the site that Ed is a persona and give schema an Organization author, or name the real author. 30 to 60 minutes once Damian decides. Screenshot: `imp-proposal-author-1440.jpg`.
+- **P3. Re-source the calendar.** For the 18 items without a source, find the same timing on Natural England, BTO, RSPB or Wildlife Trust pages and cite it; otherwise name the council's nature calendar without a link, which the refined rule allows. About 2 to 3 hours. Screenshot: `imp-proposal-calendar-sources-1440.jpg`.
+- **P4. Main menu.** Move the Southport Guide links to the footer's network block and put Month by month and Protected sites in the top level. A navigation change, about 45 minutes. Screenshots: `imp-proposal-nav-1440.jpg`, `imp-proposal-nav-390.jpg`.
+- **P5. Sitemap dates.** Give unchecked species pages a real date (the data file's last change) instead of generated ones. 20 minutes, but it reverses a deliberate choice, so it is Damian's call. Screenshot: `imp-proposal-sitemap-1440.jpg`.
+- **P6. Mobile data.** Cap image widths for list cards (a smaller `deviceSizes` set or a lower quality for thumbnails) and turn off prefetch on footer links. About 45 minutes plus a check of sharpness on phones. Screenshot: `imp-birds-390.jpg` (2.8 MB, kept out of the repo; in the job's scratch folder `imp\jpg`).
+
+### Screens
+Every changed page (37) was shot at 1440, 1024, 768 and 390 and checked; no sideways overflow at any width. To keep the commit under 10 MB, 31 JPEGs (8.6 MB) are committed under `docs/freshen-2026-11/screens/imp-*` (5c97433): the blog index, Birkdale Green Beach at all four widths, the calendar, protected sites, Knot, Golden Plover, mammals, the header at four widths, the privacy page on `privacy-wording` at four widths, the 404 page, advertise, Crosby and the six proposal screens. The full set is in the job's scratch folder.
