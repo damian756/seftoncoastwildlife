@@ -2154,7 +2154,7 @@ export const BLOG_POSTS: BlogPost[] = [
         body: [
           "The Eurasian skylark (Alauda arvensis) is a medium-sized songbird of open habitats: farmland, heathland, moorland, and coastal dune grassland. In the UK it is most associated with arable farmland, where it has declined severely since the 1970s due to agricultural intensification. On the Sefton Coast, the open dune grassland provides an important breeding habitat that has been lost from much of the species' former range.",
           "Identification on the ground: brown and streaked above, paler below, with a short crest that is raised when alert and flattened when calm. Slightly larger than a sparrow. In flight the song flight posture is distinctive: the bird rises steeply, hovers at height, and descends slowly, singing throughout. The white outer tail feathers flash briefly in flight.",
-          "The skylark is an Amber List species under the Birds of Conservation Concern assessment, reflecting long-term population declines. Any site supporting breeding skylarks has conservation significance.",
+          "The skylark is a Red List species under the Birds of Conservation Concern assessment (BTO), reflecting long-term population declines. Any site supporting breeding skylarks has conservation significance.",
         ],
       },
       {

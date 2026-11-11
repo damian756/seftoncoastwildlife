@@ -54,7 +54,7 @@ export function SpeciesJsonLd({ species, category, slug }: SpeciesJsonLdProps) {
   if (species.conservationStatus && species.conservationStatus !== "unknown") {
     const value =
       category === "birds"
-        ? `${species.conservationStatus.charAt(0).toUpperCase() + species.conservationStatus.slice(1)} List (BoCC5)`
+        ? `${species.conservationStatus.charAt(0).toUpperCase() + species.conservationStatus.slice(1)} List (UK Birds of Conservation Concern, BTO)`
         : `${species.conservationStatus.charAt(0).toUpperCase() + species.conservationStatus.slice(1)} List`;
     taxon.additionalProperty = {
       "@type": "PropertyValue",
