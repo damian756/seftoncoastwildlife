@@ -54,7 +54,7 @@ export default async function AdvertisePage({ searchParams }: Props) {
           </p>
           <Link
             href={contactHref(askedSpace)}
-            className="inline-flex items-center gap-2 bg-[var(--gold)] hover:opacity-90 text-white font-semibold px-6 py-3 rounded-lg transition-opacity"
+            className="inline-flex items-center gap-2 bg-[var(--gold)] hover:opacity-90 text-[var(--forest)] font-semibold px-6 py-3 rounded-lg transition-opacity"
           >
             Ask about a space
           </Link>
@@ -95,7 +95,7 @@ export default async function AdvertisePage({ searchParams }: Props) {
                   <span className="text-3xl font-bold text-[var(--forest)]">{o.price}</span>{" "}
                   <span className="text-sm text-[var(--slate)]/70">{o.per} plus VAT</span>
                 </p>
-                <p className="text-xs text-[var(--slate)]/60 mb-4">{o.term}</p>
+                <p className="text-xs text-[var(--slate)]/75 mb-4">{o.term}</p>
                 <ul className="space-y-2 text-sm text-[var(--slate)]/85 mb-6 flex-1">
                   {o.points.map((p) => (
                     <li key={p} className="flex gap-2.5">
@@ -138,7 +138,7 @@ export default async function AdvertisePage({ searchParams }: Props) {
             </ul>
             <Link
               href={contactHref(spaceFor("network"))}
-              className="text-center bg-[var(--gold)] hover:opacity-90 text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-opacity"
+              className="text-center bg-[var(--gold)] hover:opacity-90 text-[var(--forest)] text-sm font-semibold px-4 py-2.5 rounded-lg transition-opacity"
             >
               Ask about the bundle
             </Link>

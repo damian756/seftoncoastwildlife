@@ -122,7 +122,7 @@ export function BlogListClient({ posts }: Props) {
         {/* Result count */}
         {hasFilter && (
           <div className="flex items-center gap-3">
-            <p className="text-sm text-[var(--slate)]/60">
+            <p className="text-sm text-[var(--slate)]/75">
               {filtered.length === 0
                 ? "No posts found"
                 : `${filtered.length} post${filtered.length !== 1 ? "s" : ""}`}
@@ -140,7 +140,7 @@ export function BlogListClient({ posts }: Props) {
       {/* Grid */}
       {filtered.length === 0 ? (
         <div className="py-20 text-center">
-          <p className="text-[var(--slate)]/60 text-sm mb-3">No posts match your search.</p>
+          <p className="text-[var(--slate)]/75 text-sm mb-3">No posts match your search.</p>
           <button
             onClick={() => { setQuery(""); setActiveCategory(ALL); }}
             className="text-sm text-[var(--marsh)] hover:underline font-medium"
@@ -181,7 +181,7 @@ export function BlogListClient({ posts }: Props) {
                 <h2 className="font-semibold text-[var(--forest)] leading-snug mb-1.5 group-hover:text-[var(--marsh)] transition text-base">
                   {post.title}
                 </h2>
-                <p className="text-xs text-[var(--slate)]/50 mb-3">{formatDate(post.date)}</p>
+                <p className="text-xs text-[var(--slate)]/75 mb-3">{formatDate(post.date)}</p>
                 <p className="text-sm text-[var(--slate)]/75 leading-relaxed line-clamp-2">
                   {post.metaDescription}
                 </p>

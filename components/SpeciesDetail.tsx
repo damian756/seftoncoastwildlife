@@ -377,9 +377,9 @@ export function SpeciesDetail({ category, species, related, slug }: SpeciesDetai
                     className="block p-4 rounded-xl border border-[var(--dune)] bg-white hover:border-[var(--marsh)] hover:shadow-sm transition group"
                   >
                     <div className="font-medium text-[var(--forest)] group-hover:text-[var(--marsh)] transition">{r.commonName}</div>
-                    <div className="text-xs italic text-[var(--slate)]/60 mt-0.5">{r.scientificName}</div>
+                    <div className="text-xs italic text-[var(--slate)]/75 mt-0.5">{r.scientificName}</div>
                     {r.seasonalPresence && (
-                      <div className="text-xs text-[var(--slate)]/50 mt-1.5 leading-snug">{r.seasonalPresence.split('.')[0]}</div>
+                      <div className="text-xs text-[var(--slate)]/75 mt-1.5 leading-snug">{r.seasonalPresence.split('.')[0]}</div>
                     )}
                   </Link>
                 ))}

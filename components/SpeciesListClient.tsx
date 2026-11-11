@@ -253,7 +253,7 @@ export function SpeciesListClient({ category, species }: SpeciesListClientProps)
 
       {/* Results count + arrange by */}
       <div className="flex items-center justify-between gap-4 mb-5">
-        <p className="text-sm text-[var(--slate)]/60">
+        <p className="text-sm text-[var(--slate)]/75">
           {hasActiveFilter ? (
             <>
               Showing <strong className="text-[var(--slate)]">{filtered.length}</strong> of {species.length} species
@@ -269,7 +269,7 @@ export function SpeciesListClient({ category, species }: SpeciesListClientProps)
 
         {/* Arrange by */}
         <div className="flex items-center gap-2 flex-shrink-0">
-          <label htmlFor="sort-select" className="text-xs text-[var(--slate)]/60 hidden sm:block whitespace-nowrap">
+          <label htmlFor="sort-select" className="text-xs text-[var(--slate)]/75 hidden sm:block whitespace-nowrap">
             Arrange by
           </label>
           <select
@@ -290,7 +290,7 @@ export function SpeciesListClient({ category, species }: SpeciesListClientProps)
       {/* Grid or grouped sections */}
       {filtered.length === 0 ? (
         <div className="py-16 text-center">
-          <p className="text-[var(--slate)]/60 text-sm">No species match your filters.</p>
+          <p className="text-[var(--slate)]/75 text-sm">No species match your filters.</p>
           <button onClick={clearAll} className="mt-3 text-sm text-[var(--marsh)] hover:underline font-medium">
             Clear filters
           </button>
@@ -305,7 +305,7 @@ export function SpeciesListClient({ category, species }: SpeciesListClientProps)
               <section key={group}>
                 <h2 className="text-lg font-bold text-[var(--forest)] mb-4 flex items-center gap-2 border-b border-[var(--dune)] pb-2">
                   <span>{cfg.label}</span>
-                  <span className="text-sm font-normal text-[var(--slate)]/50 ml-1">({groupSpecies.length} species)</span>
+                  <span className="text-sm font-normal text-[var(--slate)]/75 ml-1">({groupSpecies.length} species)</span>
                 </h2>
                 <SpeciesGrid category={category} species={groupSpecies} />
               </section>
@@ -343,7 +343,7 @@ function SpeciesGrid({ category, species }: { category: SpeciesCategory; species
                     </span>
                   )}
                 </div>
-                <span className="text-xs italic text-[var(--slate)]/60 block mb-2">{s.scientificName}</span>
+                <span className="text-xs italic text-[var(--slate)]/75 block mb-2">{s.scientificName}</span>
                 {s.habitat && s.habitat.length > 0 && (
                   <div className="flex flex-wrap gap-1 mb-2">
                     {s.habitat.slice(0, 2).map((h) => (
@@ -354,7 +354,7 @@ function SpeciesGrid({ category, species }: { category: SpeciesCategory; species
                   </div>
                 )}
                 {s.seasonalPresence && (
-                  <span className="text-xs text-[var(--slate)]/55 leading-snug block">
+                  <span className="text-xs text-[var(--slate)]/75 leading-snug block">
                     {s.seasonalPresence.split(".")[0]}
                   </span>
                 )}

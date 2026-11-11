@@ -141,7 +141,7 @@ export default async function BlogPostPage({ params }: Props) {
 
       <div className="mx-auto max-w-3xl px-4 py-10">
         {/* Breadcrumb */}
-        <nav className="text-sm text-[var(--slate)]/60 mb-6 flex items-center gap-1.5 flex-wrap">
+        <nav className="text-sm text-[var(--slate)]/75 mb-6 flex items-center gap-1.5 flex-wrap">
           <Link href="/" className="hover:text-[var(--marsh)] transition">Home</Link>
           <span>/</span>
           <Link href="/blog" className="hover:text-[var(--marsh)] transition">Blog</Link>
@@ -158,7 +158,7 @@ export default async function BlogPostPage({ params }: Props) {
           )}
           <span className="block text-xs font-bold uppercase tracking-wider text-[var(--marsh)]">{post.categoryLabel}</span>
           <h1 className="font-display text-3xl sm:text-4xl font-bold text-[var(--forest)] mt-2 mb-3 leading-tight">{post.title}</h1>
-          <p className="text-sm text-[var(--slate)]/60">
+          <p className="text-sm text-[var(--slate)]/75">
             {sponsor && (
               <>
                 Sponsored by{" "}
@@ -195,7 +195,7 @@ export default async function BlogPostPage({ params }: Props) {
                   />
                 </div>
                 {section.imageAfter.caption && (
-                  <p className="text-xs text-[var(--slate)]/60 px-4 py-2 bg-[var(--dune)]/40 text-center leading-relaxed">
+                  <p className="text-xs text-[var(--slate)]/75 px-4 py-2 bg-[var(--dune)]/40 text-center leading-relaxed">
                     {section.imageAfter.caption}
                   </p>
                 )}

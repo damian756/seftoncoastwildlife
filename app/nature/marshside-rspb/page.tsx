@@ -210,7 +210,7 @@ export default function MarshsidePage() {
                 className="w-full h-72 object-cover object-top"
                 caption="The car park signs, February 2026: the parking fee includes entrance to the reserve and use of the paths, hides and toilet."
               />
-              <p className="text-xs text-[var(--slate)]/60 mt-1.5 px-1">The car park signs, February 2026.</p>
+              <p className="text-xs text-[var(--slate)]/75 mt-1.5 px-1">The car park signs, February 2026.</p>
             </div>
             <div className="rounded-xl overflow-hidden">
               <ClickableImage
@@ -219,7 +219,7 @@ export default function MarshsidePage() {
                 className="w-full h-72 object-cover"
                 caption="Nel's hide, 560m from the car park."
               />
-              <p className="text-xs text-[var(--slate)]/60 mt-1.5 px-1">Nel&apos;s hide.</p>
+              <p className="text-xs text-[var(--slate)]/75 mt-1.5 px-1">Nel&apos;s hide.</p>
             </div>
             <div className="rounded-xl overflow-hidden">
               <ClickableImage
@@ -228,7 +228,7 @@ export default function MarshsidePage() {
                 className="w-full h-56 object-cover"
                 caption="Inside Nel's hide."
               />
-              <p className="text-xs text-[var(--slate)]/60 mt-1.5 px-1">Inside Nel&apos;s hide.</p>
+              <p className="text-xs text-[var(--slate)]/75 mt-1.5 px-1">Inside Nel&apos;s hide.</p>
             </div>
             <div className="rounded-xl overflow-hidden">
               <ClickableImage
@@ -237,7 +237,7 @@ export default function MarshsidePage() {
                 className="w-full h-56 object-cover"
                 caption="The Halfway Viewpoint on the reserve path."
               />
-              <p className="text-xs text-[var(--slate)]/60 mt-1.5 px-1">The Halfway Viewpoint.</p>
+              <p className="text-xs text-[var(--slate)]/75 mt-1.5 px-1">The Halfway Viewpoint.</p>
             </div>
             <div className="rounded-xl overflow-hidden sm:col-span-2">
               <ClickableImage
@@ -246,7 +246,7 @@ export default function MarshsidePage() {
                 className="w-full h-64 object-cover"
                 caption="The embankment path beside the saltmarsh."
               />
-              <p className="text-xs text-[var(--slate)]/60 mt-1.5 px-1">The embankment path beside the saltmarsh.</p>
+              <p className="text-xs text-[var(--slate)]/75 mt-1.5 px-1">The embankment path beside the saltmarsh.</p>
             </div>
           </div>
         </section>

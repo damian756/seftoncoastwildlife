@@ -248,7 +248,7 @@ export default function AinsdaleSandDunesPage() {
               className="w-full h-44 object-cover"
               caption="No barbecues or fires: the sign at Ainsdale."
             />
-            <p className="text-xs text-[var(--slate)]/60 mt-1 px-0.5">No barbecues or fires</p>
+            <p className="text-xs text-[var(--slate)]/75 mt-1 px-0.5">No barbecues or fires</p>
           </div>
           <div className="rounded-xl overflow-hidden h-44">
             <ClickableImage
@@ -257,7 +257,7 @@ export default function AinsdaleSandDunesPage() {
               className="w-full h-44 object-cover"
               caption="England Coast Path sign at Ainsdale."
             />
-            <p className="text-xs text-[var(--slate)]/60 mt-1 px-0.5">England Coast Path sign</p>
+            <p className="text-xs text-[var(--slate)]/75 mt-1 px-0.5">England Coast Path sign</p>
           </div>
         </div>
 

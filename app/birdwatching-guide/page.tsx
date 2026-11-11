@@ -129,7 +129,7 @@ export default function BirdwatchingGuidePage() {
             <p className="text-sm text-[var(--slate)] leading-relaxed mb-2">
               Managed lagoons and scrapes on the edge of the Ribble Estuary. Two hides, a viewing platform and screens. Waders, wildfowl and, in winter, thousands of Pink-footed Geese. Go in the morning: better light and the geese are still on the fields.
             </p>
-            <p className="text-xs text-[var(--slate)]/60 mb-1">Postcode: PR9 9PJ · Car park 8.30am to 4pm (1 Nov to 1 Mar) or 5pm (2 Mar to 31 Oct), locked outside those hours · £1.50 up to 2 hours, £3.00 over 2 hours, RSPB members and Blue Badge holders free · Dogs on leads</p>
+            <p className="text-xs text-[var(--slate)]/75 mb-1">Postcode: PR9 9PJ · Car park 8.30am to 4pm (1 Nov to 1 Mar) or 5pm (2 Mar to 31 Oct), locked outside those hours · £1.50 up to 2 hours, £3.00 over 2 hours, RSPB members and Blue Badge holders free · Dogs on leads</p>
             <Link href="/nature/marshside-rspb" className="text-xs text-[var(--marsh)] font-medium hover:underline block">Full guide to Marshside →</Link>
           </div>
 
@@ -138,7 +138,7 @@ export default function BirdwatchingGuidePage() {
             <p className="text-sm text-[var(--slate)] leading-relaxed mb-2">
               East of Marshside along the Ribble, at Hesketh Bank. Saltmarsh recreated by the RSPB, the Environment Agency and Natural England, with a surfaced trail to Karen&apos;s Viewpoint. Pink-footed Geese and Wigeons in winter, Redshanks and Lapwings.
             </p>
-            <p className="text-xs text-[var(--slate)]/60 mb-1">Postcode: PR4 6XQ · Car park 8am to 6pm or dusk if earlier · No admission charge (RSPB) · Dogs on footpaths only, on leads</p>
+            <p className="text-xs text-[var(--slate)]/75 mb-1">Postcode: PR4 6XQ · Car park 8am to 6pm or dusk if earlier · No admission charge (RSPB) · Dogs on footpaths only, on leads</p>
             <Link href="/nature/hesketh-out-marsh" className="text-xs text-[var(--marsh)] font-medium hover:underline block">Full guide to Hesketh Out Marsh →</Link>
           </div>
 
@@ -147,7 +147,7 @@ export default function BirdwatchingGuidePage() {
             <p className="text-sm text-[var(--slate)] leading-relaxed mb-2">
               Managed by Natural England. Dune slack habitat holds Natterjack Toads (spring evenings) and dune-specialist insects. Breeding Stonechats and Linnets on the scrub edge. The pine woodland section can produce Crossbill in irruption years.
             </p>
-            <p className="text-xs text-[var(--slate)]/60 mb-1">No parking on the reserve · Beach parking at Ainsdale-on-Sea 1 April to 30 September only · By train: Ainsdale station (1.2km) or Freshfield (1.4km)</p>
+            <p className="text-xs text-[var(--slate)]/75 mb-1">No parking on the reserve · Beach parking at Ainsdale-on-Sea 1 April to 30 September only · By train: Ainsdale station (1.2km) or Freshfield (1.4km)</p>
             <Link href="/nature/ainsdale-sand-dunes" className="text-xs text-[var(--marsh)] font-medium hover:underline block">Full guide to Ainsdale NNR →</Link>
           </div>
 
@@ -156,7 +156,7 @@ export default function BirdwatchingGuidePage() {
             <p className="text-sm text-[var(--slate)] leading-relaxed mb-2">
               The beach is good for tideline waders: Sanderling and Dunlin from autumn to spring, Purple Sandpiper occasionally in winter. Natural England says Knot, Grey Plover and Bar-tailed Godwit feed and roost on the shore at Cabin Hill. The pinewoods are the place for Red Squirrel and woodland species: Treecreeper, Coal Tit and occasional Woodcock.
             </p>
-            <p className="text-xs text-[var(--slate)]/60 mb-1">Postcodes: L37 1LJ (Victoria Road), L37 2EB (Lifeboat Road) · NT car park charge, members free · Dogs allowed</p>
+            <p className="text-xs text-[var(--slate)]/75 mb-1">Postcodes: L37 1LJ (Victoria Road), L37 2EB (Lifeboat Road) · NT car park charge, members free · Dogs allowed</p>
             <Link href="/nature/formby-point" className="text-xs text-[var(--marsh)] font-medium hover:underline block">Full guide to Formby Point →</Link>
           </div>
 
