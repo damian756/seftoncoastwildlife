@@ -39,7 +39,7 @@ const pageJsonLd = {
 
 const sources = [
   used(SRC.rspbHesketh, "address, grid reference, directions, car park, entry prices, the trail and viewpoint, footpaths, facilities, dogs, the managed realignment and the birds"),
-  used(SRC.neMerseysideNnrs, "Hesketh Out Marsh as part of the Ribble Estuary NNR, the embankment footpath from Marshside, and access limited to rights of way"),
+  used(SRC.neMerseysideNnrs, "Hesketh Out Marsh as part of the Ribble Estuary NNR, the reserve's breeding birds, the embankment footpath from Marshside, and access limited to rights of way"),
   used(SRC.neRibbleSsssiCitation, "the estuary's importance for passage and wintering waterfowl"),
 ];
 
@@ -102,8 +102,8 @@ export default function HeskethOutMarshPage() {
           seasons={[
             {
               season: "Spring and summer",
-              text: "The RSPB says the site holds nationally important breeding populations of Arctic Terns, Eiders, Lesser Black-backed Gulls, Herring Gulls and Redshanks. A new predator-exclusion fence along the floodbank is being built to keep foxes away from birds nesting on the saltmarsh.",
-              birds: ["redshank"],
+              text: "Natural England says the Ribble Estuary NNR, which includes Hesketh Out Marsh, holds breeding gulls, terns, Redshanks, Avocets, Lapwings and Skylarks. A new predator-exclusion fence along the floodbank is being built to keep foxes away from birds nesting on the saltmarsh.",
+              birds: ["redshank", "avocet", "lapwing"],
             },
             {
               season: "Autumn and winter",
