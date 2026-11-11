@@ -34,10 +34,10 @@ const nav = [
     label: "In Southport",
     href: "https://www.southportguide.co.uk",
     children: [
-      { label: "🐾 Dog-friendly pubs",      href: "https://www.southportguide.co.uk/collections/dog-friendly-pubs-southport" },
-      { label: "☕ Dog-friendly cafés",      href: "https://www.southportguide.co.uk/collections/dog-friendly-cafes-southport" },
-      { label: "🎟️ Free things to do",       href: "https://www.southportguide.co.uk/collections/free-things-to-do-southport" },
-      { label: "👨‍👩‍👧‍👦 Family-friendly days",  href: "https://www.southportguide.co.uk/collections/family-friendly-things-to-do-southport" },
+      { label: "Dog-friendly pubs",      href: "https://www.southportguide.co.uk/collections/dog-friendly-pubs-southport" },
+      { label: "Dog-friendly cafés",      href: "https://www.southportguide.co.uk/collections/dog-friendly-cafes-southport" },
+      { label: "Free things to do",       href: "https://www.southportguide.co.uk/collections/free-things-to-do-southport" },
+      { label: "Family-friendly days",  href: "https://www.southportguide.co.uk/collections/family-friendly-things-to-do-southport" },
     ],
   },
 ];
