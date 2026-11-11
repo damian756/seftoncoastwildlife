@@ -142,6 +142,11 @@ export const SRC = {
     title: "Sefton Coast SAC citation (UK0013076, May 2005)",
     url: "https://publications.naturalengland.org.uk/file/4702839272112128",
   },
+  neSeftonSacDetail: {
+    publisher: "Natural England",
+    title: "Designated Sites View: Sefton Coast SAC",
+    url: "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK0013076",
+  },
   jnccSeftonSacForm: {
     publisher: "JNCC",
     title: "Standard Data Form: Sefton Coast SAC (UK0013076)",
@@ -151,6 +156,16 @@ export const SRC = {
     publisher: "JNCC",
     title: "Information Sheet on Ramsar Wetlands: Ribble and Alt Estuaries (UK11057, version 3.0, 2008)",
     url: "https://jncc.gov.uk/jncc-assets/RIS/UK11057.pdf",
+  },
+  jnccMerseyNarrowsRamsar: {
+    publisher: "JNCC",
+    title: "Information Sheet on Ramsar Wetlands: Mersey Narrows and North Wirral Foreshore (UK11042)",
+    url: "https://jncc.gov.uk/jncc-assets/RIS/UK11042.pdf",
+  },
+  jnccLiverpoolBaySdf: {
+    publisher: "JNCC",
+    title: "Standard Data Form: Liverpool Bay / Bae Lerpwl SPA (UK9020294)",
+    url: "https://jncc.gov.uk/jncc-assets/SPA-N2K/UK9020294.pdf",
   },
   jnccLiverpoolBay: {
     publisher: "JNCC",
@@ -196,6 +211,16 @@ export const SRC = {
     publisher: "Natural England",
     title: "Designated Sites View: Ribble Estuary MCZ",
     url: "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UKMCZ0067",
+  },
+  govukRibbleMcz: {
+    publisher: "Defra, JNCC and Natural England (gov.uk)",
+    title: "Marine Conservation Zones: Ribble Estuary (published 31 May 2019)",
+    url: "https://www.gov.uk/government/publications/marine-conservation-zones-ribble-estuary",
+  },
+  legRibbleMczOrder: {
+    publisher: "legislation.gov.uk",
+    title: "The Ribble Estuary Marine Conservation Zone Designation Order 2019 (2019 No. 34)",
+    url: "https://www.legislation.gov.uk/ukmo/2019/34/made",
   },
   lwtSquirrelPox: {
     publisher: "The Wildlife Trust for Lancashire, Manchester and North Merseyside",

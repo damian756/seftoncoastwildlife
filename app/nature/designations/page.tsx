@@ -71,7 +71,7 @@ const INTERNATIONAL: Designation[] = [
     area: "13,464.1 hectares (Ramsar Information Sheet)",
     protects: (
       <>
-        The sheet gives three Ramsar criteria. Criterion 2: the site supports up to 40% of Great Britain&apos;s natterjack toads. Criteria 5 and 6: an internationally important assemblage of waterbirds, and internationally important numbers of individual species. Natural England&apos;s record lists the natterjack toad, wintering and passage waterbirds from Pink-footed Goose to Sanderling, breeding Lesser Black-backed Gull and the breeding wetland bird assemblage.
+        The sheet gives three Ramsar criteria. Criterion 2: the site supports up to 40% of Great Britain&apos;s natterjack toads. Criteria 5 and 6: an internationally important assemblage of waterbirds, and internationally important numbers of individual species. Natural England&apos;s record lists the natterjack toad; wintering Bar-tailed Godwit, Bewick&apos;s Swan, Black-tailed Godwit, Dunlin, Grey Plover, Knot, Oystercatcher, Pink-footed Goose, Pintail, Redshank, Sanderling, Shelduck, Teal, Whooper Swan and Wigeon; Redshank, Ringed Plover and Sanderling on passage; breeding Lesser Black-backed Gull; and the wintering waterbird and breeding wetland bird assemblages.
       </>
     ),
     where: (
@@ -95,7 +95,7 @@ const INTERNATIONAL: Designation[] = [
     type: "Special Area of Conservation (SAC), designated under the Habitats Directive",
     code: "UK0013076",
     dates: "Designated on 1 April 2005; entered in the Register of European Sites on 14 June 2005.",
-    area: "4,563.97 hectares in the 2005 citation; Natural England's current record gives 4,587.84 hectares",
+    area: "4,563.97 hectares in the 2005 citation; Natural England's current record gives 4,587.84 hectares and the JNCC Standard Data Form 4,591.59 hectares",
     protects: (
       <>
         Six dune habitats: embryonic shifting dunes; shifting dunes with marram (&lsquo;white dunes&rsquo;); fixed dunes with herbaceous vegetation (&lsquo;grey dunes&rsquo;, a priority habitat); Atlantic decalcified fixed dunes, or coastal dune heathland (a priority habitat); dunes with creeping willow; and humid dune slacks. Two species: the great crested newt and the liverwort petalwort. The citation estimates that 43% of England&apos;s main creeping willow dune-slack community is here, and that petalwort, first recorded at Ainsdale in 1861, is still found in the dunes between Southport and Ainsdale.
@@ -105,6 +105,7 @@ const INTERNATIONAL: Designation[] = [
     responsible: <>The citation was signed on behalf of the Secretary of State for Environment, Food and Rural Affairs. Natural England holds the citation and site record; JNCC publishes the Standard Data Form.</>,
     records: [
       { label: "Natural England: SAC citation (PDF)", url: SRC.neSeftonSacCitation.url },
+      { label: "Natural England: Designated Sites View", url: SRC.neSeftonSacDetail.url },
       { label: "JNCC: Standard Data Form (PDF)", url: SRC.jnccSeftonSacForm.url },
     ],
     guides: [
@@ -117,11 +118,11 @@ const INTERNATIONAL: Designation[] = [
     name: "Mersey Narrows and North Wirral Foreshore SPA and Ramsar site",
     type: "Special Protection Area (SPA) and Ramsar site",
     code: "SPA UK9020287; Ramsar UK11042",
-    dates: "The SPA was entered in the Register of European Sites on 5 July 2013.",
-    area: "2,078.41 hectares (SPA citation)",
+    dates: "The SPA was entered in the Register of European Sites on 5 July 2013, and the Ramsar site was designated the same day (JNCC Ramsar Information Sheet).",
+    area: "2,078.41 hectares (SPA citation and Ramsar Information Sheet)",
     protects: (
       <>
-        Non-breeding Bar-tailed Godwit and Knot, Common Terns in both the breeding and non-breeding seasons, non-breeding Little Gulls, and a non-breeding waterbird assemblage. The Ramsar record lists the same birds.
+        Non-breeding Bar-tailed Godwit and Knot, Common Terns in both the breeding and non-breeding seasons, non-breeding Little Gulls, and a non-breeding waterbird assemblage. The Ramsar record lists the same species, all as wintering features.
       </>
     ),
     where: (
@@ -134,6 +135,7 @@ const INTERNATIONAL: Designation[] = [
       { label: "Natural England: SPA citation (PDF)", url: SRC.neMerseyNarrowsSpaCitation.url },
       { label: "Natural England: SPA record", url: SRC.neMerseyNarrowsSpaDetail.url },
       { label: "Natural England: Ramsar record", url: SRC.neMerseyNarrowsRamsarDetail.url },
+      { label: "JNCC: Ramsar Information Sheet UK11042 (PDF)", url: SRC.jnccMerseyNarrowsRamsar.url },
     ],
     guides: [{ label: "Seaforth Nature Reserve", href: "/nature/seaforth-nature-reserve" }],
   },
@@ -141,6 +143,7 @@ const INTERNATIONAL: Designation[] = [
     id: "liverpool-bay-spa",
     name: "Liverpool Bay / Bae Lerpwl SPA",
     type: "Marine Special Protection Area (SPA)",
+    code: "UK9020294",
     dates: "Classified as an SPA in August 2010; reclassified in October 2017 with new protected features and boundary changes (JNCC site timeline).",
     area: "About 2,528 square kilometres (JNCC)",
     protects: (
@@ -149,8 +152,11 @@ const INTERNATIONAL: Designation[] = [
       </>
     ),
     where: <>The east of the Irish Sea, bordering the coasts of north-west England and north Wales in a broad arc from Morecambe Bay to the east coast of Anglesey. It extends beyond 12 nautical miles, so it lies partly in English and Welsh territorial waters and partly in offshore waters.</>,
-    responsible: <>Classified by the UK Government under the Birds Directive. Natural England, Natural Resources Wales and JNCC share responsibility for statutory advice, according to JNCC. In offshore waters it is protected by the Conservation of Offshore Marine Habitats and Species Regulations 2017.</>,
-    records: [{ label: "JNCC: Liverpool Bay / Bae Lerpwl SPA", url: SRC.jnccLiverpoolBay.url }],
+    responsible: <>JNCC says the UK Government classified it to meet obligations under the Birds Directive. Natural England, Natural Resources Wales and JNCC share responsibility for statutory advice, according to JNCC. In offshore waters it is protected by the Conservation of Offshore Marine Habitats and Species Regulations 2017.</>,
+    records: [
+      { label: "JNCC: Liverpool Bay / Bae Lerpwl SPA", url: SRC.jnccLiverpoolBay.url },
+      { label: "JNCC: Standard Data Form (PDF)", url: SRC.jnccLiverpoolBaySdf.url },
+    ],
   },
 ];
 
@@ -296,12 +302,16 @@ const NEARBY: Designation[] = [
     id: "ribble-estuary-mcz",
     name: "Ribble Estuary Marine Conservation Zone",
     type: "Marine Conservation Zone (MCZ)",
-    dates: "Natural England's record cites its 2019 advice to Defra on the zones considered for designation that year.",
+    dates: "Designated by the Ribble Estuary Marine Conservation Zone Designation Order 2019, made on 20 May 2019 and in force from 31 May 2019.",
     area: "About 15 square kilometres",
     protects: <>Smelt. Natural England notes the estuary&apos;s saltmarsh as a nursery for many fish.</>,
     where: <>The upper Ribble near Preston, to the tidal limits on the Ribble, the Douglas and the Yarrow. The outer estuary is already within the SPA, Ramsar site and SSSI.</>,
-    responsible: <>Natural England holds the site record.</>,
-    records: [{ label: "Natural England: MCZ record", url: SRC.neRibbleMcz.url }],
+    responsible: <>The Secretary of State made the designation order under the Marine and Coastal Access Act 2009. Natural England holds the site record.</>,
+    records: [
+      { label: "Natural England: MCZ record", url: SRC.neRibbleMcz.url },
+      { label: "gov.uk: Ribble Estuary MCZ", url: SRC.govukRibbleMcz.url },
+      { label: "legislation.gov.uk: Designation Order 2019", url: SRC.legRibbleMczOrder.url },
+    ],
   },
 ];
 
@@ -311,11 +321,14 @@ const sources = [
   used(SRC.jnccRibbleAltRamsar, "Ramsar designation date, area, criteria and overview"),
   used(SRC.neRibbleAltRamsarDetail, "the Ramsar site's features"),
   used(SRC.neSeftonSacCitation, "SAC designation, area, habitats, species and description"),
-  used(SRC.jnccSeftonSacForm, "the SAC's Standard Data Form"),
+  used(SRC.neSeftonSacDetail, "the SAC's current area and features"),
+  used(SRC.jnccSeftonSacForm, "the SAC's Standard Data Form and its area"),
   used(SRC.neMerseyNarrowsSpaCitation, "Mersey Narrows SPA area, boundary, description and features"),
   used(SRC.neMerseyNarrowsSpaDetail, "the SPA's features and Seaforth's role"),
-  used(SRC.neMerseyNarrowsRamsarDetail, "the Ramsar site's features"),
+  used(SRC.neMerseyNarrowsRamsarDetail, "the Ramsar site's features, all wintering"),
+  used(SRC.jnccMerseyNarrowsRamsar, "the Mersey Narrows Ramsar designation date and area"),
   used(SRC.jnccLiverpoolBay, "Liverpool Bay SPA features, extent and responsibility"),
+  used(SRC.jnccLiverpoolBaySdf, "the Liverpool Bay SPA site code and classification date"),
   used(SRC.neSeftonSsssiCitation, "Sefton Coast SSSI notification, area, reasons and the NNR and LNR declaration dates"),
   used(SRC.neRibbleSsssiCitation, "Ribble Estuary SSSI notification, area, description and the Southport Sanctuary"),
   used(SRC.neMerseyNarrowsSsssiCitation, "Mersey Narrows SSSI notification, area and description"),
@@ -327,6 +340,8 @@ const sources = [
   used(SRC.seftonLnr, "the council's description and area of the LNR"),
   used(SRC.neRavenmeolsLnr, "Ravenmeols Hills LNR declaration, area, owner, manager and description"),
   used(SRC.neRibbleMcz, "the Ribble Estuary MCZ"),
+  used(SRC.govukRibbleMcz, "the MCZ's area and announcement on 31 May 2019"),
+  used(SRC.legRibbleMczOrder, "the MCZ designation order: made 20 May 2019, in force 31 May 2019, under the Marine and Coastal Access Act 2009"),
 ];
 
 const pageJsonLd = {
