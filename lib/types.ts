@@ -9,6 +9,11 @@ export interface SpeciesFaq {
   answer: string;
 }
 
+export interface SpeciesSource {
+  label: string;
+  url: string;
+}
+
 export interface SpeciesExternalLinks {
   bto?: string;
   rspb?: string;
@@ -66,6 +71,11 @@ export interface Species {
 
   /** Sub-group within a category e.g. "mammal" | "reptile" | "amphibian" */
   group?: string;
+
+  /** Named sources for the status, numbers, season and designation facts on the page. */
+  sources?: SpeciesSource[];
+  /** Date those facts were checked against the sources, e.g. "11 November 2026". */
+  factsChecked?: string;
 }
 
 export const SPECIES_CATEGORIES: SpeciesCategory[] = ['birds', 'insects', 'plants', 'mammals'];

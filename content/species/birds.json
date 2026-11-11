@@ -6,21 +6,21 @@
     "conservationStatus": "amber",
     "order": "Anseriformes",
     "family": "Anatidae",
-    "seasonalPresence": "October–March. Peak November–January.",
-    "bestTimeOfDay": "Dusk — arrive 30 minutes before sunset to see the roost flight",
-    "whereToSee": "Marshside RSPB lagoons and surrounding fields. Hesketh Out Marsh. Feeding on farmland inland during the day, returning to roost at dusk in spectacular skeins.",
+    "seasonalPresence": "Winter visitor. The BTO says birds arrive in September and stay until April or May; Sefton Council says roosts build on the sands off Birkdale and Hightown by the end of September.",
+    "bestTimeOfDay": "Early morning and late afternoon, when flocks commute between roosts and feeding grounds (RSPB)",
+    "whereToSee": "Marshside and Hesketh Out Marsh on the Ribble; the shore at Hightown, Birkdale and Southport, where thousands roost in October (Sefton Council); WWT Martin Mere inland.",
     "shortLocation": "Marshside RSPB",
-    "ukPopulation": "Around 360,000 wintering birds — one of the largest Pink-footed Goose populations in the world",
-    "seftonPopulation": "Up to 40,000 birds roost at Marshside nightly at peak; regularly 20,000–30,000",
+    "ukPopulation": "About 510,000 in winter (BTO estimate, 2015-16), up 96% from 1998 to 2023 (BTO)",
+    "seftonPopulation": "A protected feature of the Ribble and Alt Estuaries SPA and Ramsar site (Natural England). The Southport Sanctuary on the Sefton foreshore gives the geese a protected low-tide roost (Ribble Estuary SSSI citation).",
     "habitat": [
       "Coastal marsh",
       "Farmland",
       "Estuary"
     ],
     "diet": "Grass, grain, winter cereals, sugar beet tops",
-    "description": "The pink-footed goose is the star of Marshside in winter. Flocks of 20,000–40,000 birds are not unusual — the noise and spectacle at dusk as they come in to roost is genuinely one of the best wildlife experiences in England, and most people don't know it exists. They breed in Iceland and Greenland and use the Ribble Estuary and Marshside as a key wintering site. Watch from the Marshside car park at dusk for the full effect.",
-    "identification": "Medium-sized grey-brown goose. Pink bill with dark base, pink legs. Shorter neck than Greylag. Orange legs would mean Greylag — legs are the key check.",
-    "tips": "Arrive 30 minutes before sunset at Marshside. The skeins build from the south as they come off farmland. Bring a flask — it can be very cold and the wait is worth it.",
+    "description": "Pink-footed Geese breed in Iceland and eastern Greenland, and the BTO says that whole population comes to Britain in winter: more than a quarter of a million birds, with Lancashire one of the main wintering areas. On the Ribble, Natural England names the geese arriving from Iceland as the winter spectacle of the estuary's National Nature Reserve, and the RSPB says the winter skies at Marshside fill with them. The species is Amber-listed in the UK.",
+    "identification": "A medium-sized goose, smaller than a Mute Swan and bigger than a Mallard. Pinkish grey with a dark head and neck, a pink bill and pink feet and legs (RSPB).",
+    "tips": "The RSPB car park at Marshside locks at 4pm from 1 November to 1 March and at 5pm from 2 March to 31 October, so for the evening flights come on foot, by bike or by bus, or watch the morning and late-afternoon movements instead. Keep well back from flocks roosting on the beach: Sefton Council says if birds run or fly ahead of you, you are too close.",
     "difficulty": "easy",
     "relatedSpecies": [
       "greylag-goose",
@@ -33,19 +33,50 @@
     },
     "faq": [
       {
-        "question": "When is the best time to see Pink-footed Geese at Marshside?",
-        "answer": "October to January, at dusk. Flocks of 20,000–40,000 birds fly in from feeding grounds at sunset, creating one of the most spectacular wildlife spectacles in England. Arrive 30 minutes before sunset at the Marshside RSPB car park."
+        "question": "When do Pink-footed Geese arrive on the Sefton Coast?",
+        "answer": "The BTO says Pink-footed Geese arrive in September and stay until April or May. Sefton Council's nature calendar says roosts build on the sands off Birkdale and Hightown by the end of September, and that thousands roost on the shore at Hightown, Birkdale and Southport in October."
       },
       {
-        "question": "How many Pink-footed Geese winter at Marshside RSPB?",
-        "answer": "Peak counts at Marshside regularly exceed 30,000–40,000 birds, representing a significant portion of the entire UK wintering population of around 360,000. The Ribble Estuary is one of the most important wintering sites in Europe."
+        "question": "Can I watch the geese at dusk from Marshside?",
+        "answer": "Not from a parked car once the car park has locked. The RSPB car park at Marshside locks at 4pm from 1 November to 1 March and at 5pm from 2 March to 31 October. Come on foot, by bike or by bus, or watch earlier: the RSPB says early mornings and late afternoons are best, when flocks commute between roosts and feeding grounds."
       },
       {
         "question": "Where do Pink-footed Geese breed?",
-        "answer": "In Iceland and Greenland, on tundra and mountain areas. They make a direct transatlantic migration to reach UK wintering grounds each autumn, arriving on the Sefton Coast from late September onwards."
+        "answer": "In Iceland and eastern Greenland. The BTO says that entire breeding population comes to Britain in winter."
       }
     ],
-    "localImage": "/images/species/birds/pink-footed-goose.jpg"
+    "localImage": "/images/species/birds/pink-footed-goose.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Pink-footed Goose",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/pink-footed-goose"
+      },
+      {
+        "label": "RSPB: Pink-footed Goose",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/pink-footed-goose"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar",
+        "url": "https://www.sefton.gov.uk/around-sefton/coast-countryside/seftons-nature-calendar/"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Natural England: Ribble Estuary SSSI citation",
+        "url": "https://designatedsites.naturalengland.org.uk/PDFsForWeb/Citation/1004299.pdf"
+      },
+      {
+        "label": "Natural England: Merseyside's National Nature Reserves",
+        "url": "https://www.gov.uk/government/publications/merseysides-national-nature-reserves/merseysides-national-nature-reserves"
+      },
+      {
+        "label": "RSPB: Marshside Nature Reserve",
+        "url": "https://www.rspb.org.uk/days-out/reserves/marshside"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Avocet",
@@ -54,21 +85,19 @@
     "conservationStatus": "amber",
     "order": "Charadriiformes",
     "family": "Recurvirostridae",
-    "seasonalPresence": "March–September. Breeding birds from April. Some winter birds.",
-    "bestTimeOfDay": "Morning — calm conditions improve visibility on the scrape",
-    "whereToSee": "Marshside RSPB — the scrape and lagoons close to the road are ideal. Visible from the car without leaving it on good days.",
+    "seasonalPresence": "Recorded all year, but met most widely in spring and summer, when birds move from their wintering sites to breed (BTO). At Marshside the RSPB says Avocets nest on the islands in summer.",
+    "whereToSee": "Marshside RSPB, where Avocets and Lapwings nest on the islands in summer (RSPB). WWT lists Avocets among its spring and summer species at Martin Mere.",
     "shortLocation": "Marshside RSPB",
-    "ukPopulation": "Around 2,000 breeding pairs in the UK — a conservation success story since recolonisation in 1947",
-    "seftonPopulation": "Small but regular breeding colony at Marshside RSPB; one of few northwest England sites",
+    "ukPopulation": "About 1,950 breeding pairs (BTO estimate, 2013-17)",
     "habitat": [
       "Coastal lagoon",
       "Estuary",
       "Saltmarsh"
     ],
     "diet": "Aquatic invertebrates, small crustaceans swept with bill",
-    "description": "Avocets breed at Marshside RSPB, which makes it one of a small number of sites in northwest England where this can happen. They were extinct in the UK until the 1940s and their return is one of conservation's genuine success stories. At Marshside you can get excellent close views from the road-side bank. Pairs are territorial and vocal in spring.",
-    "identification": "Unmistakeable. Black and white with a long upturned bill. Sweeps bill through water while feeding. Blue-grey legs.",
-    "tips": "April–June is best for breeding behaviour. Use the bank along the road to scan the scrape — you don't need the main RSPB path.",
+    "description": "The emblem of the RSPB. The RSPB says the Avocet's return in the 1940s and the rise in its numbers since is one of the most successful conservation and protection stories in the UK. It is on Schedule 1, which makes it an offence to disturb them, and it is Amber-listed. At Marshside it nests on the islands in summer.",
+    "identification": "A black and white wader with a long, up-curved bill (RSPB).",
+    "tips": "Watch from the hides, screens and viewing platform at Marshside and keep to the paths in the nesting season: disturbing Avocets is an offence (RSPB).",
     "difficulty": "easy",
     "relatedSpecies": [
       "black-tailed-godwit",
@@ -82,38 +111,57 @@
     },
     "faq": [
       {
-        "question": "Do Avocets breed at Marshside RSPB?",
-        "answer": "Yes. Marshside RSPB is one of a small number of sites in northwest England where Avocets breed. They nest on the scrape from April and can be watched from the road bank without disturbing them."
+        "question": "Do Avocets nest at Marshside?",
+        "answer": "Yes. The RSPB says Avocets and Lapwings nest on the islands at Marshside in summer."
       },
       {
-        "question": "When were Avocets extinct in Britain?",
-        "answer": "Avocets were extinct in Britain as a breeding bird by the mid-19th century, returning naturally to breed in 1947 at Minsmere in Suffolk. They are now the symbol of the RSPB and breed at Marshside RSPB among other northwest England sites."
+        "question": "Why is the Avocet the RSPB's emblem?",
+        "answer": "The RSPB says the Avocet symbolises the bird protection movement in the UK more than any other species: its return in the 1940s and later increase is one of the most successful conservation stories."
       }
     ],
-    "localImage": "/images/species/birds/avocet.jpg"
+    "localImage": "/images/species/birds/avocet.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Avocet",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/avocet"
+      },
+      {
+        "label": "RSPB: Avocet",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/avocet"
+      },
+      {
+        "label": "RSPB: Marshside Nature Reserve",
+        "url": "https://www.rspb.org.uk/days-out/reserves/marshside"
+      },
+      {
+        "label": "WWT: Wildlife at Martin Mere",
+        "url": "https://www.wwt.org.uk/wetland-centres/martin-mere/wildlife"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Knot",
     "scientificName": "Calidris canutus",
     "category": "birds",
-    "conservationStatus": "red",
+    "conservationStatus": "amber",
     "order": "Charadriiformes",
     "family": "Scolopacidae",
-    "seasonalPresence": "August–April. Peak numbers October–March.",
-    "bestTimeOfDay": "2 hours before high tide — birds are pushed off the mudflats and pack into roosting sites",
-    "whereToSee": "Ribble Estuary and Hesketh Out Marsh. High tide roosts push birds up onto Marshside lagoons. Best views at high tide when they pack tightly.",
-    "shortLocation": "Ribble Estuary",
-    "ukPopulation": "Around 320,000 wintering birds — the Ribble Estuary holds one of the UK's largest concentrations",
-    "seftonPopulation": "100,000+ on the Ribble Estuary at peak — the aerial murmurations are among the greatest wildlife spectacles in England",
+    "seasonalPresence": "Mostly a winter visitor, with a pronounced passage in autumn as birds arrive from their tundra breeding grounds (BTO). Sefton Council says Knot roosts are well established on the coast by December.",
+    "bestTimeOfDay": "Over high tide, when birds gather at roosts",
+    "whereToSee": "The Ribble Estuary and the Sefton foreshore. Natural England names the shore at Cabin Hill, Formby, as a feeding and roosting ground; Sefton Council's key roost areas are off the Green Beach, from Albert Road to the Alt at Formby, and off Hightown.",
+    "shortLocation": "Formby Point",
+    "ukPopulation": "About 265,000 in winter (BTO estimate, 2012-17)",
+    "seftonPopulation": "Internationally important numbers winter on the Sefton Coast foreshore (Sefton Coast SSSI citation). A qualifying species of the Ribble and Alt Estuaries SPA and of the Mersey Narrows and North Wirral Foreshore SPA (Natural England).",
     "habitat": [
       "Estuary",
       "Mudflat",
       "Coastal lagoon"
     ],
     "diet": "Bivalves, crustaceans, marine worms on mudflats",
-    "description": "The knot flocks on the Ribble Estuary are among the largest wader gatherings in Europe. The Ribble is designated a Ramsar site partly because of these birds. At high tide they form dense silver-grey clouds that roll and twist in the sky — a phenomenon called a murmuration equivalent for waders. In summer plumage (April–May) birds develop a rich brick-red breast. They breed on the high Arctic tundra and the Sefton Coast is one of their key UK wintering grounds.",
-    "identification": "Stocky, compact wader. Pale grey in winter with straight medium-length bill. In summer, bright brick-red below. Dumps in tight flocks.",
-    "tips": "2 hours before high tide on the Ribble. They feed on the mudflats then roost as the tide pushes them off. Frodsham or Marshside banks for close roost views.",
+    "description": "A stocky wader that breeds on Arctic tundra and spends the winter on estuaries. The RSPB says wintering Knots in the UK have declined by 13% in 25 years, which puts them on the Amber List, and that their dependence on estuaries leaves them vulnerable to barrages, rising sea levels and disturbance. On this coast they are protected by the Sefton Coast SSSI and two Special Protection Areas.",
+    "identification": "Dumpy and stocky. Grey above and white below in winter; brick-red chest, belly and face in summer. A pale rump and a faint wing stripe in flight. Winter flocks twist and turn, flashing their pale underwings (RSPB).",
+    "tips": "Roosts form over high tide. Sefton Council asks you to give them a wide berth: if the birds run or fly ahead of you, you are too close. Keep dogs well away.",
     "difficulty": "moderate",
     "relatedSpecies": [
       "dunlin",
@@ -127,15 +175,46 @@
     },
     "faq": [
       {
-        "question": "Where can I see Knot murmurations on the Sefton Coast?",
-        "answer": "The Ribble Estuary holds one of England's largest Knot flocks — 100,000+ birds at peak. The aerial murmurations at high tide are visible from the Hesketh Out Marsh sea wall and from Marshside RSPB. Arrive 2 hours before high tide."
+        "question": "Why are Knot protected on the Sefton Coast?",
+        "answer": "Natural England lists Knot as a qualifying species of the Ribble and Alt Estuaries SPA and Ramsar site and of the Mersey Narrows and North Wirral Foreshore SPA, and the Sefton Coast SSSI citation records internationally important numbers in winter. The citations give the counts."
       },
       {
-        "question": "Why is the Ribble Estuary important for Knot?",
-        "answer": "The Ribble Estuary is designated a Ramsar Wetland of International Importance partly because of its Knot population. The mudflats provide critical feeding grounds for birds wintering from Arctic breeding sites in Greenland, Canada and Siberia."
+        "question": "Is the Knot on the Red List?",
+        "answer": "No. The BTO and the RSPB list it as Amber. The RSPB says UK wintering numbers have fallen by 13% in 25 years."
       }
     ],
-    "localImage": "/images/species/birds/knot.jpg"
+    "localImage": "/images/species/birds/knot.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Knot",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/knot"
+      },
+      {
+        "label": "RSPB: Knot",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/knot"
+      },
+      {
+        "label": "Natural England: Sefton Coast SSSI citation",
+        "url": "https://designatedsites.naturalengland.org.uk/PDFsForWeb/Citation/2000426.pdf"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Natural England: Mersey Narrows and North Wirral Foreshore SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9020287"
+      },
+      {
+        "label": "Natural England: Merseyside's National Nature Reserves",
+        "url": "https://www.gov.uk/government/publications/merseysides-national-nature-reserves/merseysides-national-nature-reserves"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar",
+        "url": "https://www.sefton.gov.uk/around-sefton/coast-countryside/seftons-nature-calendar/"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Dunlin",
@@ -144,12 +223,12 @@
     "conservationStatus": "red",
     "order": "Charadriiformes",
     "family": "Scolopacidae",
-    "seasonalPresence": "Year-round, mainly August–April as wintering and passage birds.",
-    "bestTimeOfDay": "Any time; most active at tide edges",
-    "whereToSee": "Marshside RSPB lagoons and mudflats. Ribble Estuary at low tide. Often in mixed flocks with Knot.",
-    "shortLocation": "Marshside RSPB",
-    "ukPopulation": "Around 340,000 wintering birds, declining",
-    "seftonPopulation": "Thousands along the Ribble Estuary and Marshside lagoons in winter",
+    "seasonalPresence": "Recorded all year, with pulses of migration as different breeding and wintering populations pass through (BTO). Sefton Council says Dunlin roosts are well established on the coast by December.",
+    "bestTimeOfDay": "Over high tide, when birds gather at roosts",
+    "whereToSee": "The Ribble Estuary and the Sefton foreshore, at the roosts Sefton Council names off the Green Beach, from Albert Road to the Alt and off Hightown. The Wildlife Trust lists Dunlin at Seaforth.",
+    "shortLocation": "Birkdale Green Beach",
+    "ukPopulation": "About 350,000 in winter (BTO estimate, 2012-17); about 8,600 breeding pairs (BTO, 2005-07)",
+    "seftonPopulation": "Nationally important numbers in winter and on passage on the Sefton Coast foreshore (Sefton Coast SSSI citation). A qualifying species of the Ribble and Alt Estuaries SPA (Natural England).",
     "habitat": [
       "Mudflat",
       "Coastal lagoon",
@@ -157,9 +236,9 @@
       "Saltmarsh"
     ],
     "diet": "Small invertebrates, marine worms, crustaceans picked from mud",
-    "description": "The most abundant wader on the Sefton Coast in winter. Often overlooked because of its small size and tendency to feed in dense flocks with other species, but worth a closer look — the drooped bill tip is distinctive. Dunlin from several different breeding populations pass through or winter here, from Greenland to Siberia. Numbers have declined significantly in recent decades, which is why it now sits on the red list.",
-    "identification": "Small brown wader with distinctive drooped bill tip. Black belly patch in summer plumage. Pale greyish-brown in winter.",
-    "tips": "Look for the drooped bill to pick them out in mixed wader flocks. They often feed right at the water's edge.",
+    "description": "A small wader that the RSPB says was added to the Red List in 2021 because its wintering population in the UK has fallen sharply; it has declined by 20% globally since the early 2000s. The RSPB says most UK estuaries and bays hold Dunlins from late summer to spring, and that the Mersey Estuary holds the highest number in the UK.",
+    "identification": "Small brown wader with a drooped bill tip. Black belly patch in summer plumage. Pale greyish-brown in winter.",
+    "tips": "Roosts form over high tide. Sefton Council asks you to give them a wide berth: if the birds run or fly ahead of you, you are too close. Keep dogs well away.",
     "difficulty": "moderate",
     "relatedSpecies": [
       "knot",
@@ -172,15 +251,42 @@
     },
     "faq": [
       {
-        "question": "How do I identify Dunlin?",
-        "answer": "The key feature is the drooped tip to the bill — no other common small wader has this. In summer plumage the black belly patch is obvious. In winter they are dull greyish-brown and easily confused with other small waders, but the drooped bill always gives them away."
+        "question": "Why is the Dunlin on the Red List?",
+        "answer": "The RSPB says Dunlin were added to the Red List in 2021 because their wintering numbers in the UK have fallen sharply, and that they have declined by 20% globally since the early 2000s."
       },
       {
-        "question": "Why is Dunlin on the Red List?",
-        "answer": "Dunlin populations have declined significantly due to loss of intertidal habitat, agricultural intensification on breeding grounds, and climate change affecting Arctic breeding areas. The UK wintering population has fallen by more than 50% over recent decades."
+        "question": "When are Dunlin on the Sefton Coast?",
+        "answer": "The BTO records Dunlin all year, with pulses as different populations migrate through. Sefton Council says winter roosts of Dunlin, with Knot, godwits and Sanderling, are well established by December."
       }
     ],
-    "localImage": "/images/species/birds/dunlin.jpg"
+    "localImage": "/images/species/birds/dunlin.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Dunlin",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/dunlin"
+      },
+      {
+        "label": "RSPB: Dunlin",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/dunlin"
+      },
+      {
+        "label": "Natural England: Sefton Coast SSSI citation",
+        "url": "https://designatedsites.naturalengland.org.uk/PDFsForWeb/Citation/2000426.pdf"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar",
+        "url": "https://www.sefton.gov.uk/around-sefton/coast-countryside/seftons-nature-calendar/"
+      },
+      {
+        "label": "Wildlife Trust: Seaforth Nature Reserve",
+        "url": "https://www.lancswt.org.uk/nature-reserves/seaforth-nature-reserve"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Black-tailed Godwit",
@@ -189,21 +295,20 @@
     "conservationStatus": "red",
     "order": "Charadriiformes",
     "family": "Scolopacidae",
-    "seasonalPresence": "Year-round. Icelandic birds winter October–March. Passage April–May and July–August.",
-    "bestTimeOfDay": "Morning and afternoon; active throughout the day",
-    "whereToSee": "Marshside RSPB lagoons. Often stands in deeper water than other waders, sometimes up to its belly.",
+    "seasonalPresence": "Recorded throughout the year, with a strong peak in autumn migration (BTO).",
+    "whereToSee": "The RSPB lists Marshside among its reserves for Black-tailed Godwits. WWT includes them among the birds at its winter swan feeds at Martin Mere.",
     "shortLocation": "Marshside RSPB",
-    "ukPopulation": "Around 50,000 wintering Icelandic birds; UK breeding population critically endangered with fewer than 100 pairs",
-    "seftonPopulation": "Regular at Marshside; peak counts of 50–200 birds in winter",
+    "ukPopulation": "About 41,000 in winter and 53 breeding pairs (BTO estimates, 2012-17 and 2013-17)",
+    "seftonPopulation": "The Icelandic race is a qualifying species of the Ribble and Alt Estuaries SPA and Ramsar site (Natural England).",
     "habitat": [
       "Coastal lagoon",
       "Estuary",
       "Flooded fields"
     ],
     "diet": "Worms, molluscs, crustaceans probed from mud and shallow water",
-    "description": "A large, elegant wader that is one of the more reliable sights at Marshside RSPB. The Icelandic subspecies winters in good numbers along the Sefton Coast. They're strikingly orange-red on the breast in spring plumage. The black and white tail pattern is diagnostic in flight. The UK breeding population is critically endangered — fewer than 100 pairs remain — making the wintering flocks here particularly important.",
-    "identification": "Large, long-billed wader. Straight bill (compare Bar-tailed's upturned). Bold black tail with white base visible in flight. Orange-red breast in summer.",
-    "tips": "The lagoon closest to the Marshside road often holds a group. Scan for birds standing in mid-depth water.",
+    "description": "A large wader with long legs and a long bill. The RSPB says it is a Schedule 1 species, fully protected from disturbance, and it is Red-listed. In summer it has a bright orange-brown chest and belly; in winter it is greyish-brown. Females are bigger than males, with a noticeably longer bill. The Icelandic race is one of the Ribble and Alt Estuaries SPA's qualifying species.",
+    "identification": "Long legs and bill, with black and white stripes on the wings. Bar-tailed Godwits have shorter legs and no wing stripes, and the tail patterns differ (RSPB).",
+    "tips": "Watch from the hides and screens at Marshside. As a Schedule 1 species it is protected from disturbance (RSPB).",
     "difficulty": "easy",
     "relatedSpecies": [
       "bar-tailed-godwit",
@@ -218,14 +323,37 @@
     "faq": [
       {
         "question": "How do I tell Black-tailed from Bar-tailed Godwit?",
-        "answer": "The key difference in flight is the tail — Black-tailed has a bold black and white tail; Bar-tailed has a barred tail with no white base. On the ground, Black-tailed has a straight bill; Bar-tailed's bill curves gently upward. Both are large waders."
+        "answer": "The RSPB says Black-tailed Godwits have longer legs and black and white stripes on the wings, which Bar-tailed Godwits lack, and the tail patterns differ, as the names suggest."
       },
       {
-        "question": "Are Black-tailed Godwits endangered in the UK?",
-        "answer": "The UK breeding population (islandica subspecies) is critically endangered with fewer than 100 pairs, mainly in the Nene and Ouse Washes. However, the Icelandic subspecies (islandica) is much more numerous and winters in large numbers on the Sefton Coast."
+        "question": "Is the Black-tailed Godwit protected?",
+        "answer": "Yes. The RSPB says it is a Schedule 1 species with full protection from disturbance, and it is on the UK Red List. The Icelandic race is a qualifying species of the Ribble and Alt Estuaries SPA (Natural England)."
       }
     ],
-    "localImage": "/images/species/birds/black-tailed-godwit.jpg"
+    "localImage": "/images/species/birds/black-tailed-godwit.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Black-tailed Godwit",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/black-tailed-godwit"
+      },
+      {
+        "label": "RSPB: Black-tailed Godwit",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/black-tailed-godwit"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries Ramsar (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK11057"
+      },
+      {
+        "label": "WWT: Wildlife at Martin Mere",
+        "url": "https://www.wwt.org.uk/wetland-centres/martin-mere/wildlife"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Curlew",
@@ -530,12 +658,11 @@
     "conservationStatus": "red",
     "order": "Charadriiformes",
     "family": "Charadriidae",
-    "seasonalPresence": "Year-round. Breeding March–July. Large wintering flocks October–March.",
-    "bestTimeOfDay": "Morning for displaying breeding birds in spring; any time for winter flocks",
-    "whereToSee": "Marshside RSPB lagoons and surrounding fields. Hesketh Out Marsh. Farmland behind the sea wall.",
+    "seasonalPresence": "Present all year (BTO). Lapwings breed between mid-March and June (RSPB); at Marshside large flocks gather in winter.",
+    "whereToSee": "Marshside RSPB, where Lapwings nest on the islands in summer and form big winter flocks with Golden Plovers and Wigeons (RSPB). The RSPB also lists Hesketh Out Marsh.",
     "shortLocation": "Marshside RSPB",
-    "ukPopulation": "Around 140,000 breeding pairs, down 80% since 1960",
-    "seftonPopulation": "Breeding colony at Marshside; winter flocks of several thousand on surrounding farmland",
+    "ukPopulation": "About 98,000 breeding pairs (BTO, 2016); about 635,000 in winter (BTO, 2006-07)",
+    "seftonPopulation": "Natural England lists Lapwing among the breeding birds of the Ribble Estuary NNR.",
     "habitat": [
       "Coastal marsh",
       "Farmland",
@@ -543,9 +670,9 @@
       "Flooded fields"
     ],
     "diet": "Earthworms, soil invertebrates, beetles",
-    "description": "Once one of the most familiar farmland birds in Britain, the Lapwing has declined badly — lost from most lowland farmland due to agricultural intensification. The Sefton Coast retains good numbers as a breeding and wintering species. At Marshside the displays in early spring — tumbling, 'pee-wit' calling, iridescent green wings — are a sign that the season has turned. Winter flocks can be large and spectacular, rolling across fields in coordinated movement.",
-    "identification": "Medium wader with distinctive wispy crest. Iridescent green-black above, white below, black breast band. Orange-red undertail. Broad, rounded wings with slow wingbeats.",
-    "tips": "Breeding birds display noisily from March. Winter flocks tend to roost on flooded fields — look for them from the sea wall.",
+    "description": "The RSPB says Lapwing numbers fell by 56% between 1995 and 2024, partly because of changes in agriculture, which puts the species on the Red List. Lapwings nest on spring-tilled arable land or short grassland and feed mainly on earthworms, leatherjackets and insects, often on grazed pasture and wet grassland. At Marshside they nest on the islands, and in spring they chase off predators that come too close.",
+    "identification": "Medium wader with a wispy crest. Iridescent green-black above, white below, black breast band. Orange-red undertail. Broad, rounded wings with slow wingbeats.",
+    "tips": "In spring, watch for Lapwings chasing predators away from their nests. In winter, look for the big flocks of Lapwings, Golden Plovers and Wigeons that rise when a Peregrine or Kestrel arrives (RSPB).",
     "difficulty": "easy",
     "relatedSpecies": [
       "golden-plover",
@@ -559,34 +686,52 @@
     },
     "faq": [
       {
-        "question": "Why are Lapwings declining in the UK?",
-        "answer": "Lapwings have declined by 80% since 1960, mainly due to agricultural intensification — silage cutting destroys nests, drainage removes wet grassland feeding habitat, and pesticides reduce invertebrate food. The Marshside RSPB management (maintaining wet, grazed grassland) directly benefits Lapwing breeding success."
+        "question": "Why are Lapwings declining?",
+        "answer": "The RSPB says Lapwing numbers fell by 56% between 1995 and 2024, partly because of changes in agriculture. It works with farmers to keep suitable nesting habitat and to look out for nests when using machinery."
       }
     ],
-    "localImage": "/images/species/birds/lapwing.jpg"
+    "localImage": "/images/species/birds/lapwing.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Lapwing",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/lapwing"
+      },
+      {
+        "label": "RSPB: Lapwing",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/lapwing"
+      },
+      {
+        "label": "RSPB: Marshside Nature Reserve",
+        "url": "https://www.rspb.org.uk/days-out/reserves/marshside"
+      },
+      {
+        "label": "Natural England: Merseyside's National Nature Reserves",
+        "url": "https://www.gov.uk/government/publications/merseysides-national-nature-reserves/merseysides-national-nature-reserves"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Golden Plover",
     "scientificName": "Pluvialis apricaria",
     "category": "birds",
-    "conservationStatus": "amber",
+    "conservationStatus": "green",
     "order": "Charadriiformes",
     "family": "Charadriidae",
-    "seasonalPresence": "October–March. Large wintering flocks.",
-    "bestTimeOfDay": "Morning and afternoon when feeding in fields",
-    "whereToSee": "Farmland around Hesketh Bank and Crossens. Often with Lapwing. Fields immediately behind Marshside sometimes hold large flocks.",
-    "shortLocation": "Hesketh Bank",
-    "ukPopulation": "Around 300,000 wintering birds",
-    "seftonPopulation": "Flocks of hundreds to several thousand on Sefton Coast farmland in winter",
+    "seasonalPresence": "Recorded all year, with a noticeable peak in autumn when birds of northern and eastern origin arrive (BTO).",
+    "whereToSee": "Marshside RSPB in winter, where large flocks rise with Wigeons and Lapwings when a Kestrel or Peregrine arrives (RSPB).",
+    "shortLocation": "Marshside RSPB",
+    "ukPopulation": "About 33,000 breeding pairs (BTO, 2016); about 410,000 in winter (BTO, 2006-07)",
+    "seftonPopulation": "A qualifying species of the Ribble and Alt Estuaries SPA in winter (Natural England).",
     "habitat": [
       "Farmland",
       "Rough grassland",
       "Coastal fields"
     ],
     "diet": "Earthworms, beetles, seeds, berries",
-    "description": "Golden Plovers often mix with Lapwings in winter on the flat farmland behind the sea wall. When the flock takes to the air together — Lapwings with their slow wingbeats, Golden Plovers with rapid, flickering wings — the aerial display is extraordinary. In summer plumage (April–May) birds develop a striking black face and belly bordered by white. They breed on northern and upland moors and winter across the Sefton Coast plain in large numbers.",
-    "identification": "Round-headed plover. Golden-speckled brown above. Black face and belly in summer, pale below in winter. Rapid wingbeats. High-pitched whistle.",
-    "tips": "Look in fields with Lapwings in winter. They tend to feed slightly separately then flush together. The whistling call helps locate flocks.",
+    "description": "A medium-sized plover with gold and black summer plumage; in winter the black is replaced by light brown and white (RSPB). It is Green-listed in the UK and listed on Annex 1 of the Birds Directive (BTO). In winter Golden Plovers form large flocks that fly close together with rapid, twinkling wingbeats.",
+    "identification": "Stands upright and runs in short bursts. Gold and black in summer; light brown and white in winter. Winter flocks fly close together with rapid wingbeats (RSPB).",
+    "tips": "Watch the winter flocks at Marshside when a Peregrine or Kestrel passes: Golden Plovers, Wigeons and Lapwings rise together (RSPB).",
     "difficulty": "easy",
     "relatedSpecies": [
       "lapwing",
@@ -601,10 +746,33 @@
     "faq": [
       {
         "question": "How do I tell Golden Plover from Grey Plover?",
-        "answer": "In winter, Golden Plovers are warm golden-buff above, while Grey Plovers are cooler grey. In flight, the definitive feature is the 'armpit' — Grey Plover has black axillary feathers; Golden Plover has pale armpits. Golden Plovers also form huge dense flocks on farmland, which Grey Plovers rarely do."
+        "answer": "The RSPB says Grey Plovers show distinctive black 'armpits' in flight in winter and a white rump, and are generally seen in small numbers. Golden Plovers form large winter flocks that fly close together with rapid, twinkling wingbeats."
       }
     ],
-    "localImage": "/images/species/birds/golden-plover.jpg"
+    "localImage": "/images/species/birds/golden-plover.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Golden Plover",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/golden-plover"
+      },
+      {
+        "label": "RSPB: Golden Plover",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/golden-plover"
+      },
+      {
+        "label": "RSPB: Grey Plover",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/grey-plover"
+      },
+      {
+        "label": "RSPB: Marshside Nature Reserve",
+        "url": "https://www.rspb.org.uk/days-out/reserves/marshside"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Grey Plover",
@@ -613,21 +781,20 @@
     "conservationStatus": "amber",
     "order": "Charadriiformes",
     "family": "Charadriidae",
-    "seasonalPresence": "August–April. Passage and wintering.",
-    "bestTimeOfDay": "Low tide for feeding on mudflats",
-    "whereToSee": "Ribble Estuary mudflats at low tide. Marshside lagoons.",
-    "shortLocation": "Ribble Estuary",
-    "ukPopulation": "Around 43,000 wintering birds",
-    "seftonPopulation": "Regular on the Ribble Estuary and Marshside; numbers in tens to low hundreds",
+    "seasonalPresence": "Mostly a winter visitor; a few birds summer on larger estuaries, and return migration can begin in late July (BTO).",
+    "whereToSee": "The Sefton foreshore and the Ribble. Natural England names the shore at Cabin Hill, Formby, as a feeding and roosting ground for Grey Plover.",
+    "shortLocation": "Formby Point",
+    "ukPopulation": "About 34,000 in winter (BTO estimate, 2012-17)",
+    "seftonPopulation": "Internationally important numbers winter on the Sefton Coast foreshore (Sefton Coast SSSI citation); a qualifying species of the Ribble and Alt Estuaries SPA (Natural England).",
     "habitat": [
       "Mudflat",
       "Estuary",
       "Coastal lagoon"
     ],
     "diet": "Marine worms, bivalves, crustaceans picked from mud surface",
-    "description": "The Grey Plover is an Arctic breeder that winters on the Sefton Coast's mudflats and lagoons. Stockier than Golden Plover, it tends to be solitary or in small groups rather than the huge flocks of its cousin. The black axillary feathers ('armpits') visible in flight are distinctive. In April departing birds may be starting to show the black belly of summer plumage.",
-    "identification": "Stocky plover. Pale grey above in winter, with spangled black-and-white in summer. Black armpits in flight — diagnostic. Stands upright, tilts forward to feed.",
-    "tips": "Check mudflats at low tide for solitary birds. The black armpits visible in flight are the clincher.",
+    "description": "In summer the Grey Plover has silver and black spotted upperparts and a black face, neck and belly; in winter it is browny-grey (RSPB). The RSPB says it is generally seen in small numbers, though flocks can form at high tide. It is Amber-listed.",
+    "identification": "Stands very upright and tends to run and then stop suddenly to feed. White rump in both plumages; in flight in winter it shows distinctive black 'armpits' (RSPB).",
+    "tips": "Look on the foreshore around high tide, when flocks can form (RSPB), and keep well back from roosting birds.",
     "difficulty": "moderate",
     "relatedSpecies": [
       "golden-plover",
@@ -642,10 +809,33 @@
     "faq": [
       {
         "question": "What is the best way to identify a Grey Plover in flight?",
-        "answer": "The 'black armpits' — the axillary feathers beneath the wing — are diagnostic of Grey Plover in flight and distinguishable from all other similarly-sized plovers. Golden Plover has pale armpits. The feature is visible even at distance with binoculars."
+        "answer": "Look for the black 'armpits' under the wings, which the RSPB calls distinctive in winter, and the white rump."
       }
     ],
-    "localImage": "/images/species/birds/grey-plover.jpg"
+    "localImage": "/images/species/birds/grey-plover.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Grey Plover",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/grey-plover"
+      },
+      {
+        "label": "RSPB: Grey Plover",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/grey-plover"
+      },
+      {
+        "label": "Natural England: Sefton Coast SSSI citation",
+        "url": "https://designatedsites.naturalengland.org.uk/PDFsForWeb/Citation/2000426.pdf"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Natural England: Merseyside's National Nature Reserves",
+        "url": "https://www.gov.uk/government/publications/merseysides-national-nature-reserves/merseysides-national-nature-reserves"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Oystercatcher",
@@ -696,12 +886,11 @@
     "conservationStatus": "amber",
     "order": "Charadriiformes",
     "family": "Scolopacidae",
-    "seasonalPresence": "Year-round. Breeds on coastal marsh. Wintering birds from Iceland and Faroe.",
-    "bestTimeOfDay": "Any time; most vocal when predators are present",
-    "whereToSee": "Marshside RSPB lagoons and salt marsh. Ribble Estuary. Crossens Marsh.",
-    "shortLocation": "Marshside RSPB",
-    "ukPopulation": "Around 24,000 breeding pairs; winter population boosted by Icelandic birds",
-    "seftonPopulation": "Common year-round; breeds at Marshside RSPB and surrounds",
+    "seasonalPresence": "Recorded all year, especially in autumn and winter when large numbers gather on coasts and large wetlands (BTO). In spring they move to saltmarshes and wet grasslands to breed (RSPB).",
+    "whereToSee": "Hesketh Out Marsh, where the RSPB says Redshanks breed in nationally important numbers; the Ribble Estuary NNR, including Marshside; and Seaforth, where Natural England records internationally important numbers in winter.",
+    "shortLocation": "Hesketh Out Marsh",
+    "ukPopulation": "About 22,000 breeding pairs (BTO, 2016); about 100,000 in winter (BTO, 2012-17)",
+    "seftonPopulation": "A qualifying species of the Ribble and Alt Estuaries SPA (Natural England). The Mersey Narrows SSSI, which includes Seaforth, holds internationally important numbers in winter (Natural England).",
     "habitat": [
       "Coastal marsh",
       "Lagoon edge",
@@ -709,9 +898,9 @@
       "Mudflat"
     ],
     "diet": "Small invertebrates, worms, small fish, crustaceans",
-    "description": "The Redshank is the 'sentinel of the marsh' — always the first bird to call the alarm and take flight, warning everything else on the lagoon. They breed in the long grass and rush beds around Marshside and are present year-round, with wintering numbers boosted by birds from Iceland. The orange-red legs and base to the bill are obvious at any range; the white trailing edge to the wing is the best flight feature.",
-    "identification": "Medium wader. Brown above, paler below with dense spotting. Bright orange-red legs and bill base. Bold white trailing wing edge and white back in flight.",
-    "tips": "If Redshanks suddenly call and fly up, look for the predator that caused it — often a harrier, Peregrine, or Sparrowhawk.",
+    "description": "The RSPB says the Redshank is Amber-listed because of big declines in its breeding population, threatened by wetland loss, predation of eggs and chicks, and extreme weather: spring storms and high tides can flood nests. In winter Redshanks flock to the mudflats; in spring they move to saltmarshes and wet grasslands to raise chicks.",
+    "identification": "One of the easiest waders to identify, thanks to its bright red legs and bill (RSPB).",
+    "tips": "Scan coastal marsh in spring for breeding birds, from the paths and sea walls only.",
     "difficulty": "easy",
     "relatedSpecies": [
       "spotted-redshank",
@@ -725,11 +914,38 @@
     },
     "faq": [
       {
-        "question": "Why is the Redshank called the sentinel of the marsh?",
-        "answer": "Redshanks are famously alert and are invariably the first birds to call and take flight when a predator appears. Their sharp, repeated alarm call immediately alerts all other waders and wildfowl on the lagoon. Experienced birdwatchers use a sudden Redshank alarm as a cue to look for the cause — usually a harrier or Peregrine."
+        "question": "Why is the Redshank Amber-listed?",
+        "answer": "The RSPB says Redshanks are Amber-listed because of big declines in their breeding population, through loss of wetland habitat, predation of eggs and chicks, and more frequent extreme weather."
       }
     ],
-    "localImage": "/images/species/birds/redshank.jpg"
+    "localImage": "/images/species/birds/redshank.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Redshank",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/redshank"
+      },
+      {
+        "label": "RSPB: Redshank",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/redshank"
+      },
+      {
+        "label": "RSPB: Hesketh Out Marsh Nature Reserve",
+        "url": "https://www.rspb.org.uk/days-out/reserves/hesketh-out-marsh"
+      },
+      {
+        "label": "Natural England: Merseyside's National Nature Reserves",
+        "url": "https://www.gov.uk/government/publications/merseysides-national-nature-reserves/merseysides-national-nature-reserves"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Natural England: Mersey Narrows SSSI citation",
+        "url": "https://designatedsites.naturalengland.org.uk/PDFsForWeb/Citation/2000436.pdf"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Spotted Redshank",
@@ -943,21 +1159,20 @@
     "conservationStatus": "amber",
     "order": "Anseriformes",
     "family": "Anatidae",
-    "seasonalPresence": "October–March. Wintering birds from Iceland.",
-    "bestTimeOfDay": "Morning and evening when feeding in fields",
-    "whereToSee": "Hesketh Out Marsh and Crossens Marsh. Occasionally Marshside RSPB lagoons.",
-    "shortLocation": "Hesketh Out Marsh",
-    "ukPopulation": "Around 15,000 wintering birds from Iceland",
-    "seftonPopulation": "Small numbers most winters; check Crossens Marsh and surrounding fields",
+    "seasonalPresence": "Mainly a winter visitor from Iceland. The RSPB says they usually start arriving in October and leave in March and April.",
+    "whereToSee": "WWT Martin Mere, where WWT says Whooper Swans join the autumn flocks towards the end of the season and gather at the 3pm swan feeds in winter.",
+    "shortLocation": "WWT Martin Mere",
+    "ukPopulation": "About 20,000 in winter and 28 breeding pairs (BTO estimates)",
+    "seftonPopulation": "A qualifying species of the Ribble and Alt Estuaries SPA and Ramsar site in winter (Natural England).",
     "habitat": [
       "Coastal marsh",
       "Flooded fields",
       "Lagoon"
     ],
     "diet": "Aquatic plants, grass, grain",
-    "description": "Whooper Swans are winter visitors from Iceland — they fly direct across the Atlantic to reach the UK. The Sefton Coast is within range of the Ribble Valley wintering sites and birds can be seen around Crossens and Hesketh Out Marsh. Larger and more upright-necked than Mute Swan, with a distinctive yellow and black bill rather than orange. The loud bugling call is quite different from a Mute Swan.",
-    "identification": "Large white swan. Yellow triangular bill patch extending to nostril — key feature. Holds neck straight and upright (not curved). Loud bugling call.",
-    "tips": "Check any swan flock in winter for yellow-billed birds. The call is very different from Mute Swan — a loud trumpeting 'whoop'.",
+    "description": "A large white swan, bigger than a Bewick's Swan. The RSPB says it is mainly a winter visitor from Iceland, with a small number of pairs nesting in the north. It says there is some evidence that numbers wintering in the UK are rising with the Icelandic population, but that the birds face threats from avian flu and habitat loss. It is Amber-listed and on Schedule 1, which makes it illegal to disturb them.",
+    "identification": "Long neck, usually held straight, and black legs. The black bill has a large triangular patch of yellow (RSPB).",
+    "tips": "At Martin Mere the winter swan feeds are at 3pm (WWT). Whooper Swans are a Schedule 1 species: do not disturb them.",
     "difficulty": "moderate",
     "relatedSpecies": [
       "greylag-goose",
@@ -970,11 +1185,38 @@
     },
     "faq": [
       {
-        "question": "How do I tell Whooper Swan from Mute Swan?",
-        "answer": "Bill colour and shape are the key differences. Whooper Swan has a yellow and black bill — the yellow forms a triangular patch extending to the nostril. Mute Swan has an orange bill with a black knob at the base. Whooper also holds its neck straighter (Mute curves it), and calls loudly (Mute is largely silent in flight)."
+        "question": "When do Whooper Swans arrive?",
+        "answer": "The RSPB says Whooper Swans usually start arriving in the UK in October and leave in March and April."
+      },
+      {
+        "question": "Where can I see Whooper Swans near the Sefton Coast?",
+        "answer": "At WWT Martin Mere, 10 miles from Southport, where WWT says Whooper Swans join the geese towards the end of autumn and come to the 3pm swan feeds in winter."
       }
     ],
-    "localImage": "/images/species/birds/whooper-swan.jpg"
+    "localImage": "/images/species/birds/whooper-swan.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Whooper Swan",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/whooper-swan"
+      },
+      {
+        "label": "RSPB: Whooper Swan",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/whooper-swan"
+      },
+      {
+        "label": "WWT: Wildlife at Martin Mere",
+        "url": "https://www.wwt.org.uk/wetland-centres/martin-mere/wildlife"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries Ramsar (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK11057"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Teal",
@@ -983,21 +1225,20 @@
     "conservationStatus": "amber",
     "order": "Anseriformes",
     "family": "Anatidae",
-    "seasonalPresence": "Year-round but mainly October–March. Large wintering flocks.",
-    "bestTimeOfDay": "Morning and evening; most active at low light",
-    "whereToSee": "Marshside RSPB lagoons. Crossens Marsh. Any shallow water with emergent vegetation.",
-    "shortLocation": "Marshside RSPB",
-    "ukPopulation": "Around 700,000 wintering birds",
-    "seftonPopulation": "Hundreds at Marshside in winter; small number of breeding pairs",
+    "seasonalPresence": "Common winter visitor; scarce in summer, when a small number breed (BTO).",
+    "whereToSee": "Low-lying wetland in winter. The Wildlife Trust lists Teal on the lagoons and reedbed at Seaforth in winter.",
+    "shortLocation": "Seaforth",
+    "ukPopulation": "About 435,000 in winter and about 2,700 breeding pairs (BTO estimates)",
+    "seftonPopulation": "A qualifying species of the Ribble and Alt Estuaries SPA in winter (Natural England).",
     "habitat": [
       "Coastal lagoon",
       "Shallow marsh",
       "Reed edge"
     ],
     "diet": "Seeds, aquatic invertebrates, plant material filtered from shallow water",
-    "description": "Britain's smallest duck, the Teal is a common and delightful winter visitor to Marshside. Males are beautifully marked — chestnut head with an iridescent green eye stripe bordered in yellow. They take flight suddenly in tight, fast-wheeling flocks, almost like waders. The whistling call of the male is one of the most evocative sounds of the winter marsh.",
-    "identification": "Very small duck. Males: chestnut head, green eye stripe, grey body, cream-yellow triangle under tail. Females: brown, like small Mallard. Green speculum visible in flight.",
-    "tips": "Look at the edge of the lagoon where there's shallow water and vegetation. They hide well but take off explosively when disturbed.",
+    "description": "A small dabbling duck. In winter the UK's thinly spread breeding birds are joined by many from around the Baltic and Siberia, and the RSPB says the UK then holds a significant share of the north-west European wintering population, which makes the Teal Amber-listed.",
+    "identification": "Males have chestnut heads with broad green eye-patches, a spotted chest, grey lower sides and a black-edged yellow tail; females are mottled brown. Both show bright green wing patches in flight (RSPB).",
+    "tips": "Check shallow water and lagoon edges in winter. Seaforth needs a day pass from the Wildlife Trust.",
     "difficulty": "easy",
     "relatedSpecies": [
       "wigeon",
@@ -1011,11 +1252,30 @@
     },
     "faq": [
       {
-        "question": "What is Britain's smallest duck?",
-        "answer": "The Teal is Britain's smallest native duck — about half the size of a Mallard. On the Sefton Coast it is a common winter visitor to Marshside RSPB, where flocks of hundreds can be seen in shallow lagoon margins. The male's high, musical whistle is one of the characteristic sounds of the winter marsh."
+        "question": "Why is the Teal Amber-listed?",
+        "answer": "The RSPB says the UK holds a significant percentage of the north-west European wintering population, which makes the Teal an Amber List species."
       }
     ],
-    "localImage": "/images/species/birds/teal.jpg"
+    "localImage": "/images/species/birds/teal.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Teal",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/teal"
+      },
+      {
+        "label": "RSPB: Teal",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/teal"
+      },
+      {
+        "label": "Wildlife Trust: Seaforth Nature Reserve",
+        "url": "https://www.lancswt.org.uk/nature-reserves/seaforth-nature-reserve"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Wigeon",
@@ -1024,21 +1284,20 @@
     "conservationStatus": "amber",
     "order": "Anseriformes",
     "family": "Anatidae",
-    "seasonalPresence": "October–March. Large wintering flocks.",
-    "bestTimeOfDay": "Daytime — feeds actively throughout the day on grass and water",
-    "whereToSee": "Marshside RSPB lagoons and surrounding grass. Hesketh Out Marsh. Often grazes short grass.",
+    "seasonalPresence": "Common winter visitor; scarce in summer, when a small number breed (BTO).",
+    "whereToSee": "Marshside, where the RSPB says Wigeons fill the winter sky with the Pink-footed Geese; Hesketh Out Marsh; and WWT Martin Mere in autumn and winter.",
     "shortLocation": "Marshside RSPB",
-    "ukPopulation": "Around 450,000 wintering birds from Iceland and Scandinavia",
-    "seftonPopulation": "Hundreds to thousands at Marshside in peak winter; large grazingflocks on surrounding fields",
+    "ukPopulation": "About 450,000 in winter and about 200 breeding pairs (BTO estimates)",
+    "seftonPopulation": "A qualifying species of the Ribble and Alt Estuaries SPA (Natural England). Natural England says thousands arrive on the Ribble from Siberia in winter.",
     "habitat": [
       "Coastal lagoon",
       "Coastal grassland",
       "Marsh"
     ],
     "diet": "Short grass, aquatic vegetation, seeds",
-    "description": "Wigeons are one of the commoner winter ducks on the Sefton Coast. Unlike most ducks, they spend much of their time grazing short grass like geese. The male's whistling 'whee-oo' call is very distinctive. They breed in Iceland, Scotland and Scandinavia and are classic Sefton Coast winter birds.",
-    "identification": "Medium duck. Males: chestnut-red head, cream forehead, grey body, white flank patch. Females: warm rusty brown. Pointed tail. Whistling 'whee-oo' call.",
-    "tips": "Listen for the whistling call. Large flocks often graze the grass behind the sea wall as well as on the lagoons.",
+    "description": "A medium-sized duck with a round head and small bill (RSPB). Wigeons breed in Scotland and northern England, and many more visit in winter from Iceland, Scandinavia and Russia. Large numbers of wintering birds at a few UK sites make it Amber-listed.",
+    "identification": "Round head and small bill. Male: chestnut head and neck, yellow forehead, pink breast, grey body, and a large white wing patch in flight. Both sexes show white bellies in flight (RSPB).",
+    "tips": "At Marshside in winter, watch for flocks rising with Golden Plovers and Lapwings when a Kestrel or Peregrine arrives (RSPB).",
     "difficulty": "easy",
     "relatedSpecies": [
       "teal",
@@ -1052,11 +1311,42 @@
     },
     "faq": [
       {
-        "question": "What does a Wigeon call sound like?",
-        "answer": "The male Wigeon's call is a distinctive, musical 'whee-oo' whistle — once learned it's instantly recognisable and heard from some distance. The female makes a soft growling purr. Wigeon flocks at Marshside RSPB are often heard before they are seen."
+        "question": "Where do the Sefton Coast's Wigeons come from?",
+        "answer": "The RSPB says many Wigeons visit the UK in winter from Iceland, Scandinavia and Russia, and Natural England says thousands arrive on the Ribble from Siberia."
       }
     ],
-    "localImage": "/images/species/birds/wigeon.jpg"
+    "localImage": "/images/species/birds/wigeon.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Wigeon",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/wigeon"
+      },
+      {
+        "label": "RSPB: Wigeon",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/wigeon"
+      },
+      {
+        "label": "RSPB: Marshside Nature Reserve",
+        "url": "https://www.rspb.org.uk/days-out/reserves/marshside"
+      },
+      {
+        "label": "RSPB: Hesketh Out Marsh Nature Reserve",
+        "url": "https://www.rspb.org.uk/days-out/reserves/hesketh-out-marsh"
+      },
+      {
+        "label": "Natural England: Merseyside's National Nature Reserves",
+        "url": "https://www.gov.uk/government/publications/merseysides-national-nature-reserves/merseysides-national-nature-reserves"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "WWT: Wildlife at Martin Mere",
+        "url": "https://www.wwt.org.uk/wetland-centres/martin-mere/wildlife"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Pintail",
@@ -1065,21 +1355,20 @@
     "conservationStatus": "amber",
     "order": "Anseriformes",
     "family": "Anatidae",
-    "seasonalPresence": "October–March. Wintering flocks.",
-    "bestTimeOfDay": "Morning and afternoon; active feeders",
-    "whereToSee": "Marshside RSPB — one of the more reliable UK sites for Pintail. The deeper lagoons.",
-    "shortLocation": "Marshside RSPB",
-    "ukPopulation": "Around 26,000 wintering birds; UK breeding almost non-existent",
-    "seftonPopulation": "50–200 birds regularly at Marshside in winter; counts sometimes higher",
+    "seasonalPresence": "Locally common winter visitor, present from late August to May (BTO).",
+    "whereToSee": "WWT Martin Mere in autumn and winter (WWT). A qualifying species of the Ribble and Alt Estuaries SPA.",
+    "shortLocation": "WWT Martin Mere",
+    "ukPopulation": "About 20,000 in winter and 27 breeding pairs (BTO estimates)",
+    "seftonPopulation": "A qualifying species of the Ribble and Alt Estuaries SPA and Ramsar site in winter (Natural England).",
     "habitat": [
       "Deep lagoon",
       "Estuary",
       "Open water"
     ],
-    "diet": "Aquatic plants, seeds, invertebrates — up-ends in deeper water to feed",
-    "description": "The Pintail is one of the most elegant ducks in the world and Marshside RSPB is one of the best places in the northwest to see it. Males have a chocolate-brown head, white neck stripe, grey body and the distinctive long pointed tail. They feed in deeper water than Teal, often up-ending. Numbers at Marshside have held up better than on many sites and a winter visit might yield 50–200 birds.",
-    "identification": "Slim, elegant duck. Males: chocolate head, white neck, grey body, very long pointed tail. Females: pale brown, more streamlined than Mallard.",
-    "tips": "Look in the deeper parts of the Marshside lagoon. They up-end to feed and the long tail is visible even when swimming.",
+    "diet": "Aquatic plants, seeds and invertebrates; up-ends in deeper water to feed",
+    "description": "Slightly bigger than a Mallard, with a long neck and small head (RSPB). The small breeding population and significant winter population make it Amber-listed, and the BTO lists it on Schedule 1. The RSPB notes it is a quarry species that can legally be shot in winter, but that shooting does not appear to be affecting its UK status.",
+    "identification": "Long neck and small head. Flies with curved-back pointed wings and a tapering tail, the best way to tell it from other UK ducks (RSPB).",
+    "tips": "WWT names flocks of Pintail among the autumn highlights at Martin Mere, and Pintail among the birds at its winter swan feeds.",
     "difficulty": "easy",
     "relatedSpecies": [
       "teal",
@@ -1093,11 +1382,34 @@
     },
     "faq": [
       {
-        "question": "Why is Marshside RSPB good for Pintail?",
-        "answer": "Marshside RSPB holds one of the better concentrations of wintering Pintail in northwest England, with counts regularly reaching 50–200 birds. The deep lagoons offer ideal feeding habitat and the site's management specifically benefits wintering wildfowl. Pintail are among the most elegant ducks and the males' long tail is visible at distance."
+        "question": "Is the Pintail protected?",
+        "answer": "It is Amber-listed and the BTO lists it on Schedule 1. The RSPB notes that it is a quarry species that can legally be shot in winter, but that shooting does not appear to be affecting its UK population status."
       }
     ],
-    "localImage": "/images/species/birds/pintail.jpg"
+    "localImage": "/images/species/birds/pintail.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Pintail",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/pintail"
+      },
+      {
+        "label": "RSPB: Pintail",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/pintail"
+      },
+      {
+        "label": "WWT: Wildlife at Martin Mere",
+        "url": "https://www.wwt.org.uk/wetland-centres/martin-mere/wildlife"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries Ramsar (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK11057"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Shoveler",
@@ -1231,21 +1543,20 @@
     "conservationStatus": "amber",
     "order": "Charadriiformes",
     "family": "Laridae",
-    "seasonalPresence": "April–September. Breeding and passage.",
-    "bestTimeOfDay": "Morning and evening; active throughout the day",
-    "whereToSee": "Marshside RSPB lagoons — nesting rafts provided. Formby Beach offshore.",
-    "shortLocation": "Marshside RSPB",
-    "ukPopulation": "Around 12,000 breeding pairs",
-    "seftonPopulation": "Breeding colony on rafts at Marshside RSPB; good numbers offshore at Formby",
+    "seasonalPresence": "Summer breeding visitor, present from April and departing from August (BTO).",
+    "whereToSee": "Seaforth Nature Reserve, where the Wildlife Trust says early summer brings up to 1% of the UK population (day pass needed). Natural England records Common Terns breeding at Seaforth.",
+    "shortLocation": "Seaforth",
+    "ukPopulation": "About 11,000 breeding pairs (BTO, 2015)",
+    "seftonPopulation": "A qualifying species of the Ribble and Alt Estuaries SPA (breeding) and of the Mersey Narrows and North Wirral Foreshore SPA (breeding and non-breeding) (Natural England).",
     "habitat": [
       "Coastal lagoon",
       "Open sea",
       "Beach"
     ],
-    "diet": "Small fish, sand eels — caught by hovering and plunge-diving",
-    "description": "Common Terns breed on the rafts at Marshside RSPB, making it one of the more reliable inland spots to watch them. They're agile, graceful birds that make up for the lack of spectacular looks with their aerobatic fishing — hovering then plunging headfirst into the lagoon. The colony is visible from the road bank.",
-    "identification": "Medium tern. Red bill with black tip. Black cap. Pale grey above, white-grey below. Long tail streamers. Orange-red legs.",
-    "tips": "The Marshside nesting rafts are visible from the road. Breeding birds are tolerant of watching from a distance.",
+    "diet": "Small fish and sand eels, caught by hovering and plunge-diving",
+    "description": "A silvery-grey and white tern whose long tail has earned it the nickname 'sea-swallow' (RSPB). It hovers over water before plunging for fish and breeds in noisy groups. The RSPB says it is Amber-listed because nesting in the open leaves eggs and chicks exposed to predators and disturbance. JNCC says the Liverpool Bay SPA protects foraging areas for Common Terns breeding at the Mersey Narrows.",
+    "identification": "Silvery-grey and white with a long tail; a graceful, floating flight, often hovering before plunging for fish (RSPB).",
+    "tips": "Seaforth needs a day pass from the Wildlife Trust, requested in advance. Keep well away from nesting birds anywhere on the coast.",
     "difficulty": "easy",
     "relatedSpecies": [
       "sandwich-tern",
@@ -1258,11 +1569,42 @@
     },
     "faq": [
       {
-        "question": "Do Common Terns breed at Marshside RSPB?",
-        "answer": "Yes. Common Terns nest on specially provided floating rafts on the Marshside RSPB lagoon. The colony is visible from the road bank and the birds can be watched actively fishing over the lagoon throughout the summer. Numbers vary year to year but the rafts are a reliable breeding site."
+        "question": "Where do Common Terns nest near the Sefton Coast?",
+        "answer": "Natural England records Common Terns breeding at Seaforth, part of the Mersey Narrows and North Wirral Foreshore SPA, and the Wildlife Trust says early summer brings up to 1% of the UK population there. The Ribble and Alt Estuaries SPA also lists breeding Common Terns."
       }
     ],
-    "localImage": "/images/species/birds/common-tern.jpg"
+    "localImage": "/images/species/birds/common-tern.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Common Tern",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/common-tern"
+      },
+      {
+        "label": "RSPB: Common Tern",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/common-tern"
+      },
+      {
+        "label": "Wildlife Trust: Seaforth Nature Reserve",
+        "url": "https://www.lancswt.org.uk/nature-reserves/seaforth-nature-reserve"
+      },
+      {
+        "label": "Natural England: Mersey Narrows SSSI citation",
+        "url": "https://designatedsites.naturalengland.org.uk/PDFsForWeb/Citation/2000436.pdf"
+      },
+      {
+        "label": "Natural England: Mersey Narrows and North Wirral Foreshore SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9020287"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "JNCC: Liverpool Bay / Bae Lerpwl SPA",
+        "url": "https://jncc.gov.uk/our-work/liverpool-bay-spa/"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Skylark",
@@ -1473,20 +1815,19 @@
     "conservationStatus": "amber",
     "order": "Charadriiformes",
     "family": "Scolopacidae",
-    "seasonalPresence": "August–May. Passage and wintering. Rare in midsummer.",
-    "bestTimeOfDay": "Any time on the beach; most active at low tide",
-    "whereToSee": "Formby Beach and Ainsdale Beach. Runs along the surf line chasing waves.",
+    "seasonalPresence": "Winter visitor and passage migrant; as a high Arctic breeder its passage continues into late May (BTO). Sefton Council says Sanderling roosts are well established by December.",
+    "whereToSee": "Sandy beaches along the coast. Sefton Council's key roost areas are off the Green Beach, from Albert Road to the Alt at Formby, and off Hightown.",
     "shortLocation": "Formby Beach",
     "ukPopulation": "Around 21,000 in winter (BTO estimate, 2012-17)",
-    "seftonPopulation": "Common winter visitor to Formby Beach; tens to hundreds of birds",
+    "seftonPopulation": "Internationally important numbers in winter and on passage on the Sefton Coast foreshore (Sefton Coast SSSI citation); a qualifying species of the Ribble and Alt Estuaries SPA (Natural England).",
     "habitat": [
       "Sandy beach",
       "Surf zone"
     ],
     "diet": "Small crustaceans, sand hoppers, worms exposed by retreating waves",
-    "description": "The Sanderling is the small white wader that chases the waves up and down Formby Beach. It feeds at the very edge of the surf, running up as a wave breaks to pick invertebrates exposed by the water, then retreating as the next wave comes in. In winter plumage they're pale grey and white — almost pure white in bright sunlight. They breed on the high Arctic tundra.",
-    "identification": "Small wader. Very pale grey and white in winter. Bright orange-buff and black in summer. Runs fast along surf. Bold white wing bar in flight.",
-    "tips": "Just walk along the beach at Formby — they're usually there in winter. The wave-chasing behaviour makes them easy to spot.",
+    "description": "A small, plump wader that the BTO pictures chasing the tideline back and forth on a sandy beach. It does not breed in the UK but is a winter visitor and passage migrant to and from its high Arctic breeding grounds (RSPB). The BTO says the Ribble is one of two UK sites with internationally important numbers.",
+    "identification": "Short, straight black bill and black legs. Pale grey above and white below, with a black mark on the shoulder where the folded wing meets the body (RSPB).",
+    "tips": "Watch from a distance and let the birds feed. Sefton Council asks you to give roosting birds a wide berth at high tide: if they run or fly ahead of you, you are too close.",
     "difficulty": "easy",
     "relatedSpecies": [
       "dunlin",
@@ -1501,10 +1842,33 @@
     "faq": [
       {
         "question": "Why do Sanderlings run in and out with the waves?",
-        "answer": "Sanderlings feed on tiny invertebrates — sand hoppers, small crabs, worms — that are exposed by breaking waves at the surf line. As each wave retreats it uncovers food; the Sanderling dashes in to pick it up before the next wave arrives. This characteristic wave-chasing behaviour makes them one of the easiest waders to watch on Formby Beach."
+        "answer": "The BTO describes the Sanderling as a small wader chasing the tideline back and forth on a sandy beach, feeding at the water's edge."
       }
     ],
-    "localImage": "/images/species/birds/sanderling.jpg"
+    "localImage": "/images/species/birds/sanderling.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Sanderling",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/sanderling"
+      },
+      {
+        "label": "RSPB: Sanderling",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/sanderling"
+      },
+      {
+        "label": "Natural England: Sefton Coast SSSI citation",
+        "url": "https://designatedsites.naturalengland.org.uk/PDFsForWeb/Citation/2000426.pdf"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar",
+        "url": "https://www.sefton.gov.uk/around-sefton/coast-countryside/seftons-nature-calendar/"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Ringed Plover",
@@ -1552,24 +1916,24 @@
     "commonName": "Bar-tailed Godwit",
     "scientificName": "Limosa lapponica",
     "category": "birds",
-    "conservationStatus": "red",
+    "conservationStatus": "amber",
     "order": "Charadriiformes",
     "family": "Scolopacidae",
-    "seasonalPresence": "August–May. Passage and winter. Absent most of summer.",
-    "bestTimeOfDay": "Low tide for feeding on estuary mudflats",
-    "whereToSee": "Ribble Estuary at low tide. Marshside lagoons. Sandy beach at low tide.",
-    "shortLocation": "Ribble Estuary",
-    "ukPopulation": "Around 40,000 wintering birds from Scandinavian and Siberian breeding grounds",
-    "seftonPopulation": "Regular on the Ribble Estuary; numbers in hundreds in winter",
+    "seasonalPresence": "Mostly a winter visitor with a pronounced peak in autumn migration; some remain in summer on larger estuaries (BTO).",
+    "bestTimeOfDay": "Over high tide, when birds gather at roosts",
+    "whereToSee": "Large estuaries including the Ribble (RSPB). Natural England names the shore at Cabin Hill, Formby, as a feeding and roosting ground.",
+    "shortLocation": "Formby Point",
+    "ukPopulation": "About 54,000 in winter (BTO estimate, 2012-17)",
+    "seftonPopulation": "Internationally important numbers winter on the Sefton Coast foreshore (Sefton Coast SSSI citation). A qualifying species of the Ribble and Alt Estuaries SPA and of the Mersey Narrows and North Wirral Foreshore SPA (Natural England).",
     "habitat": [
       "Estuary",
       "Mudflat",
       "Sandy beach"
     ],
     "diet": "Marine worms, bivalves, crustaceans probed from mud and sand",
-    "description": "The Bar-tailed Godwit is a long-haul migration specialist — some individuals fly non-stop from Alaska to New Zealand, the longest non-stop bird migration on Earth. The Sefton Coast birds are from Scandinavian breeding grounds, wintering on the Ribble Estuary. In autumn passage, adults still in brick-red summer plumage are spectacular.",
-    "identification": "Large wader. Long, slightly upturned bill. No white wing bar (unlike Black-tailed). Barred tail visible in flight. Brick-red below in summer, grey-brown in winter.",
-    "tips": "Check the Ribble Estuary mudflats at low tide. In August, some birds retain summer plumage and stand out.",
+    "description": "A long-billed, long-legged wader that visits UK shores for the winter, usually in grey-brown winter plumage, though spring birds may show rich chestnut breeding plumage (RSPB). It breeds in the Arctic of Scandinavia and Siberia, and the RSPB says hundreds of thousands pass through the UK. It is Amber-listed and on Annex 1 of the Birds Directive (BTO).",
+    "identification": "Long bill and legs. In flight a white patch runs from the rump up the back, narrowing to a point (RSPB).",
+    "tips": "Roosts form over high tide. Sefton Council asks you to give them a wide berth: if the birds run or fly ahead of you, you are too close. Keep dogs well away.",
     "difficulty": "moderate",
     "relatedSpecies": [
       "black-tailed-godwit",
@@ -1583,11 +1947,42 @@
     },
     "faq": [
       {
-        "question": "Do Bar-tailed Godwits really fly non-stop from Alaska to New Zealand?",
-        "answer": "Yes. The Bar-tailed Godwit (Baueri subspecies) undertakes the longest non-stop migration of any bird — around 11,000km in approximately 8–11 days without landing, eating or drinking. The Sefton Coast birds are a different subspecies (lapponica) from Scandinavian breeding grounds, but still undertake substantial migrations of several thousand kilometres."
+        "question": "Where do Bar-tailed Godwits on the Sefton Coast come from?",
+        "answer": "The RSPB says the species breeds in the Arctic of Scandinavia and Siberia, that hundreds of thousands pass through the UK, and that the largest numbers are on big estuaries including the Ribble."
       }
     ],
-    "localImage": "/images/species/birds/bar-tailed-godwit.jpg"
+    "localImage": "/images/species/birds/bar-tailed-godwit.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Bar-tailed Godwit",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/bar-tailed-godwit"
+      },
+      {
+        "label": "RSPB: Bar-tailed Godwit",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/bar-tailed-godwit"
+      },
+      {
+        "label": "Natural England: Sefton Coast SSSI citation",
+        "url": "https://designatedsites.naturalengland.org.uk/PDFsForWeb/Citation/2000426.pdf"
+      },
+      {
+        "label": "Natural England: Ribble and Alt Estuaries SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9005103"
+      },
+      {
+        "label": "Natural England: Mersey Narrows and North Wirral Foreshore SPA (Designated Sites View)",
+        "url": "https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK9020287"
+      },
+      {
+        "label": "Natural England: Merseyside's National Nature Reserves",
+        "url": "https://www.gov.uk/government/publications/merseysides-national-nature-reserves/merseysides-national-nature-reserves"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar",
+        "url": "https://www.sefton.gov.uk/around-sefton/coast-countryside/seftons-nature-calendar/"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Whimbrel",
@@ -2079,20 +2474,19 @@
     "conservationStatus": "red",
     "order": "Anseriformes",
     "family": "Anatidae",
-    "seasonalPresence": "Year-round offshore, peaking August–April. Huge passage flocks in autumn.",
-    "bestTimeOfDay": "Morning and early afternoon — sea-watching from Formby Point",
-    "whereToSee": "Offshore from Formby Point and Ainsdale beach. Passes in large flocks during autumn.",
-    "shortLocation": "Formby Beach",
-    "ukPopulation": "Around 100,000 wintering birds; breeding population small and declining — red-listed",
-    "seftonPopulation": "Large flocks offshore in autumn and winter; sometimes thousands visible from Formby Point",
+    "seasonalPresence": "Most abundant in winter but seen all year, with returning birds appearing from July (BTO).",
+    "whereToSee": "Offshore in Liverpool Bay, which JNCC says held the UK's largest aggregation of Common Scoters when its Special Protection Area was extended in 2017.",
+    "shortLocation": "Liverpool Bay",
+    "ukPopulation": "About 135,000 in winter (BTO, 2011-15); 52 breeding pairs (BTO, 2007)",
+    "seftonPopulation": "A protected feature of the Liverpool Bay / Bae Lerpwl SPA in the non-breeding season (JNCC).",
     "habitat": [
       "Open sea",
       "Offshore coastal water"
     ],
-    "diet": "Mussels and other bivalves — dives to seabed",
-    "description": "Common Scoters pass the Sefton Coast in large numbers — on a good autumn day from Formby Point, you can watch skein after skein of these all-black ducks flying low over the sea. The drake is Britain's only entirely black duck, with a yellow patch on the orange-black bill. They breed on upland Scottish lochs and overwinter offshore in the Irish Sea and elsewhere. Formby Point is a excellent seawatching station for autumn scoter movement.",
-    "identification": "Drake: entirely jet black with yellow knob and patch on bill. Duck: dark brown with pale cheeks contrasting with dark cap. Flies in long, straggling low lines over the sea. Often in large flocks.",
-    "tips": "Visit Formby Point in October–November for scoter movement. Sit above the beach on the dune and scan low over the sea. Lines of black ducks flying west are almost certainly Common Scoters.",
+    "diet": "Mussels and other bivalves; dives to the seabed",
+    "description": "A dark sea duck: the male is all black and the female lighter with a pale face (RSPB). They are often seen as large bobbing rafts offshore or long, straggling lines flying along the coast. The RSPB says the UK breeding population has fallen significantly, so it is Red-listed and on Schedule 1, and it is vulnerable to oil spills in winter.",
+    "identification": "Male entirely black; female lighter with a pale face. Often in large rafts offshore or long straggling lines in flight (RSPB).",
+    "tips": "Scan the sea with a telescope: the birds are often in rafts offshore or flying in lines along the coast (RSPB).",
     "difficulty": "moderate",
     "relatedSpecies": [
       "eider",
@@ -2105,11 +2499,30 @@
     },
     "faq": [
       {
-        "question": "Why are Common Scoters red-listed in the UK?",
-        "answer": "Common Scoters are red-listed due to the very small and declining UK breeding population — fewer than 100 pairs, all in Scotland and Ireland. Despite good wintering numbers offshore, the breeding population is vulnerable to habitat change on upland lochs. Their dependence on coastal sandbanks for wintering also makes them sensitive to offshore disturbance."
+        "question": "Why is the Common Scoter Red-listed?",
+        "answer": "The RSPB says the UK breeding population has fallen significantly, so it is now on the Red List and on Schedule 1 of the Wildlife and Countryside Act."
+      },
+      {
+        "question": "Is Liverpool Bay important for Common Scoters?",
+        "answer": "Yes. JNCC says that when the Liverpool Bay / Bae Lerpwl SPA was extended in 2017 it protected the largest aggregation of Common Scoters in the UK."
       }
     ],
-    "localImage": "/images/species/birds/common-scoter.jpg"
+    "localImage": "/images/species/birds/common-scoter.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Common Scoter",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/common-scoter"
+      },
+      {
+        "label": "RSPB: Common Scoter",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/common-scoter"
+      },
+      {
+        "label": "JNCC: Liverpool Bay / Bae Lerpwl SPA",
+        "url": "https://jncc.gov.uk/our-work/liverpool-bay-spa/"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Eider",
@@ -2317,25 +2730,24 @@
     "commonName": "Turnstone",
     "scientificName": "Arenaria interpres",
     "category": "birds",
-    "conservationStatus": "red",
+    "conservationStatus": "amber",
     "order": "Charadriiformes",
     "family": "Scolopacidae",
-    "seasonalPresence": "Year-round on the coast; non-breeding birds present all summer. Peak numbers August–May.",
-    "bestTimeOfDay": "Any time; most active when feeding on strandline",
-    "whereToSee": "Rocky areas and strandline at Ainsdale and Formby beaches. Rock jetties at Southport pier. Rummages in seaweed.",
-    "shortLocation": "Formby Beach",
-    "ukPopulation": "Winter only; around 48,000 wintering birds. Red-listed due to global decline.",
-    "seftonPopulation": "Regular year-round on the coast, particularly around rock structures and strandline seaweed",
+    "seasonalPresence": "Mostly a passage migrant and winter visitor; small numbers can be seen all year, but none breed (BTO).",
+    "whereToSee": "Seaforth and the Mersey Narrows, where Natural England records internationally important numbers in winter. Seaforth needs a day pass from the Wildlife Trust.",
+    "shortLocation": "Seaforth",
+    "ukPopulation": "About 43,000 in winter (BTO estimate, 2012-17)",
+    "seftonPopulation": "Internationally important numbers winter on the Mersey Narrows, which includes Seaforth (Mersey Narrows SSSI citation).",
     "habitat": [
       "Rocky shore",
       "Strandline",
       "Sandy beach",
       "Rock jetty"
     ],
-    "diet": "Invertebrates found under stones, seaweed and debris — turns over objects with its bill",
-    "description": "The Turnstone is aptly named — it methodically flips stones, shells, seaweed and any other beach debris to find invertebrates underneath. In summer plumage, striking tortoiseshell patterning in orange, black and white. In winter, more subdued. They work along the strandline in small flocks, constantly busy. The rock jetties at Southport and strandline seaweed at Formby and Ainsdale are reliable spots. A familiar, approachable little wader.",
-    "identification": "Short-legged, robust wader. Summer: vivid tortoiseshell orange-black-white pattern. Winter: dark brown and white with black breast. Orange legs. Upturned bill. Active, constantly flipping objects.",
-    "tips": "Walk the strandline at Formby in any season. Small groups work along the seaweed. They're surprisingly tame and approachable if you move slowly.",
+    "diet": "Invertebrates found under stones, seaweed and debris, which it turns over with its bill",
+    "description": "Smaller than a Redshank, with mottled brown or chestnut and black upperparts, a brown and white or black and white head pattern, white underparts and orange legs (RSPB). Turnstones spend most of their time creeping and fluttering over rocks, picking food from under stones. Amber-listed.",
+    "identification": "Mottled brown or chestnut and black above, white below, with orange legs and a patterned head (RSPB).",
+    "tips": "Natural England describes Seaforth as mainly a high-tide roost, especially on high spring tides. Request a day pass from the Wildlife Trust before you go.",
     "difficulty": "easy",
     "relatedSpecies": [
       "purple-sandpiper",
@@ -2348,11 +2760,30 @@
     },
     "faq": [
       {
-        "question": "Do Turnstones ever breed in the UK?",
-        "answer": "No. Turnstones breed in Arctic Scandinavia, Greenland and northern Canada. The birds seen on the Sefton Coast year-round are non-breeding birds — either winter visitors from the Arctic or birds too young to breed that remain on UK coasts throughout the summer. They have one of the longest migrations of any wader."
+        "question": "Do Turnstones breed in the UK?",
+        "answer": "No. The BTO says small numbers can be seen all year but none breed; they are mostly passage migrants and winter visitors."
       }
     ],
-    "localImage": "/images/species/birds/turnstone.jpg"
+    "localImage": "/images/species/birds/turnstone.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Turnstone",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/turnstone"
+      },
+      {
+        "label": "RSPB: Turnstone",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/turnstone"
+      },
+      {
+        "label": "Natural England: Mersey Narrows SSSI citation",
+        "url": "https://designatedsites.naturalengland.org.uk/PDFsForWeb/Citation/2000436.pdf"
+      },
+      {
+        "label": "Wildlife Trust: Seaforth Nature Reserve",
+        "url": "https://www.lancswt.org.uk/nature-reserves/seaforth-nature-reserve"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Snipe",
@@ -2758,23 +3189,22 @@
     "commonName": "Red-throated Diver",
     "scientificName": "Gavia stellata",
     "category": "birds",
-    "conservationStatus": "amber",
+    "conservationStatus": "green",
     "order": "Gaviiformes",
     "family": "Gaviidae",
-    "seasonalPresence": "October–April. Regular winter visitor offshore.",
-    "bestTimeOfDay": "Morning — scan offshore from Formby Point in calm conditions",
-    "whereToSee": "Offshore from Formby Point and Ainsdale beach. Most visible in calm, cold weather.",
-    "shortLocation": "Formby Beach",
-    "ukPopulation": "Around 1,800 breeding pairs in Scotland; winter population around 17,000",
-    "seftonPopulation": "Regular offshore in winter; occasional singles and small groups from the beach",
+    "seasonalPresence": "Recorded all year (BTO); in Liverpool Bay it is protected in the non-breeding season (JNCC).",
+    "whereToSee": "Offshore in Liverpool Bay, which JNCC says held the third largest aggregation in the UK when its Special Protection Area was extended in 2017.",
+    "shortLocation": "Liverpool Bay",
+    "ukPopulation": "About 22,000 in winter (BTO, 2011-15); about 1,250 breeding pairs (BTO, 2006)",
+    "seftonPopulation": "A protected feature of the Liverpool Bay / Bae Lerpwl SPA in the non-breeding season (JNCC).",
     "habitat": [
       "Open sea",
       "Offshore coastal water"
     ],
-    "diet": "Fish — dives from the surface and pursues fish underwater",
-    "description": "The Red-throated Diver is the most likely diver to be seen offshore from the Sefton Coast in winter. In winter plumage, the brick-red throat of the breeding season is replaced by a pale face and neck, but the upturned bill is diagnostic. They swim low in the water, diving regularly. The most numerous diver on UK coasts in winter. On calm winter mornings, a scan from Formby Point should produce at least one or two, often more in good years.",
-    "identification": "Slender, streamlined seabird. Winter: white face, neck and underparts; grey back with white spots. Distinctive upturned bill — unique among divers. In summer: brick-red throat, grey head. Flies low over water.",
-    "tips": "Use a telescope from Formby Point or Ainsdale on calm winter mornings. Red-throated Divers sit low and dive frequently. The pale face and upturned bill are visible at good range.",
+    "diet": "Fish, pursued underwater after a dive from the surface",
+    "description": "The smallest of the UK's divers, grey-brown with an up-tilted bill and, in summer, a red throat (RSPB). It usually jumps up to dive and can stay underwater for a minute and a half. It is Green-listed but on Schedule 1 and Annex 1 of the Birds Directive (BTO).",
+    "identification": "Grey-brown plumage and an up-tilted bill distinguish it from the other divers; red throat in summer (RSPB).",
+    "tips": "Scan the sea with a telescope; divers usually jump up before they dive (RSPB).",
     "difficulty": "moderate",
     "relatedSpecies": [
       "great-northern-diver"
@@ -2786,11 +3216,26 @@
     },
     "faq": [
       {
-        "question": "Why is the Red-throated Diver's bill upturned?",
-        "answer": "The slightly upturned bill of the Red-throated Diver is thought to be an adaptation for catching fast-moving fish at angles — the upward angle may help the bird strike upward at fish above it. It also serves as a good field mark, distinguishing Red-throated from the straighter-billed Great Northern and Black-throated Divers."
+        "question": "Is Liverpool Bay important for Red-throated Divers?",
+        "answer": "Yes. JNCC says that when the Liverpool Bay / Bae Lerpwl SPA was extended in 2017 it held the third largest aggregation of Red-throated Divers in the UK, and the SPA protects them outside the breeding season."
       }
     ],
-    "localImage": "/images/species/birds/red-throated-diver.jpg"
+    "localImage": "/images/species/birds/red-throated-diver.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Red-throated Diver",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/red-throated-diver"
+      },
+      {
+        "label": "RSPB: Red-throated Diver",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/red-throated-diver"
+      },
+      {
+        "label": "JNCC: Liverpool Bay / Bae Lerpwl SPA",
+        "url": "https://jncc.gov.uk/our-work/liverpool-bay-spa/"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Great Northern Diver",
@@ -4160,21 +4605,20 @@
     "conservationStatus": "red",
     "order": "Passeriformes",
     "family": "Fringillidae",
-    "seasonalPresence": "October–April. Winter visitor to saltmarsh and coastal grassland.",
-    "bestTimeOfDay": "Morning — most active feeding early",
-    "whereToSee": "Saltmarsh and rough coastal grassland at Marshside and Hesketh Out Marsh. Feeds on seeds in small flocks.",
-    "shortLocation": "Hesketh Out Marsh",
-    "ukPopulation": "Around 40,000 pairs; red-listed due to 80% decline since the 1990s",
-    "seftonPopulation": "Marshside is one of northwest England's best winter sites — regular flocks of 50–200 birds",
+    "seasonalPresence": "A localised and declining breeder and winter visitor (BTO). Sefton Council says Twite use the high-tide line between Weld Road and Fairways in Southport from October.",
+    "whereToSee": "The high-tide line between Weld Road and Fairways in Southport, where Sefton Council asks that seed-rich debris is left for them.",
+    "shortLocation": "Birkdale Green Beach",
+    "ukPopulation": "About 7,850 breeding pairs (BTO, 2013)",
+    "seftonPopulation": "Sefton Council calls it a scarce upland species and a prized winter visitor to the coast.",
     "habitat": [
       "Saltmarsh",
       "Coastal rough grassland",
       "Strandline"
     ],
     "diet": "Seeds of saltmarsh plants, particularly Sea Lavender, Sea Aster and coastal grasses",
-    "description": "The Twite is a small, brown finch of mountain and coastal habitats — and Marshside is one of the most important wintering sites for Twite in northwest England. Flocks of 50–200 birds can be found on the saltmarsh and rough coastal grassland, feeding on saltmarsh plant seeds. The pink rump on male Twites is a good field mark. The UK population has declined catastrophically — down 80% since the 1990s. A winter visit to Marshside with good Twite flocks is increasingly precious.",
-    "identification": "Small, streaky brown finch. Yellow bill in winter. Pink rump on males (key feature). Streaked brown throughout — like a Linnet but buffier and without white in wings. Nasal, twanging 'chweet' call in flight.",
-    "tips": "Walk the Marshside coastal path in December–February. Twite flocks feed on the saltmarsh seeds. Their nasal flight call is distinctive and helps locate flocks before you can see them. Scope is helpful for identifying the pink rump.",
+    "description": "A small brown finch closely related to the Linnet, with a shorter tail and stubbier beak (RSPB). Like the Linnet it feeds on seeds all year. It is Red-listed (BTO).",
+    "identification": "Tawny back heavily streaked with dark brown; white below with dark-brown streaks on the lower sides. The rump is pink on males and brown on females (RSPB).",
+    "tips": "Leave the seed-rich strandline between Weld Road and Fairways undisturbed (Sefton Council) and watch from a distance.",
     "difficulty": "specialist",
     "relatedSpecies": [
       "linnet"
@@ -4186,11 +4630,26 @@
     },
     "faq": [
       {
-        "question": "Why is Marshside RSPB important for Twite?",
-        "answer": "Marshside's saltmarsh supports good populations of the seed-bearing plants that Twite depend on in winter — particularly Sea Aster, Sea Lavender and various coastal grasses. As coastal saltmarsh has been lost across northwest England, the Sefton Coast has become increasingly important for wintering Twite. Counts at Marshside regularly represent a significant proportion of the remaining northwest England winter population."
+        "question": "Where can I see Twite on the Sefton Coast?",
+        "answer": "Sefton Council says Twite, a scarce upland species and prized winter visitor, use the high-tide line between Weld Road and Fairways in Southport, and asks that seed-rich debris there is left undisturbed."
       }
     ],
-    "localImage": "/images/species/birds/twite.jpg"
+    "localImage": "/images/species/birds/twite.jpg",
+    "sources": [
+      {
+        "label": "BTO BirdFacts: Twite",
+        "url": "https://www.bto.org/understanding-birds/birdfacts/twite"
+      },
+      {
+        "label": "RSPB: Twite",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/twite"
+      },
+      {
+        "label": "Sefton Council: Sefton's Nature Calendar",
+        "url": "https://www.sefton.gov.uk/around-sefton/coast-countryside/seftons-nature-calendar/"
+      }
+    ],
+    "factsChecked": "11 November 2026"
   },
   {
     "commonName": "Linnet",

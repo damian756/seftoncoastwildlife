@@ -45,6 +45,18 @@ const statusConfig = {
   },
 };
 
+/** Site guides to link from a species page, matched against its short location. */
+const GUIDE_LINKS: { match: RegExp; href: string; label: string }[] = [
+  { match: /Marshside/i, href: "/nature/marshside-rspb", label: "Marshside RSPB guide" },
+  { match: /Hesketh/i, href: "/nature/hesketh-out-marsh", label: "Hesketh Out Marsh guide" },
+  { match: /Birkdale|Green Beach/i, href: "/nature/birkdale-green-beach", label: "Birkdale Green Beach guide" },
+  { match: /Ainsdale/i, href: "/nature/ainsdale-sand-dunes", label: "Ainsdale Sand Dunes NNR guide" },
+  { match: /Formby/i, href: "/nature/formby-point", label: "Formby Point guide" },
+  { match: /Crosby|Hightown|\bAlt\b/i, href: "/nature/crosby-and-alt-estuary", label: "Crosby and the Alt estuary guide" },
+  { match: /Seaforth/i, href: "/nature/seaforth-nature-reserve", label: "Seaforth Nature Reserve guide" },
+  { match: /Martin Mere/i, href: "/nature/martin-mere", label: "WWT Martin Mere guide" },
+];
+
 const difficultyLabel: Record<string, string> = {
   easy: "Easy to see",
   moderate: "Moderate",
@@ -242,33 +254,25 @@ export function SpeciesDetail({ category, species, related, slug }: SpeciesDetai
           <section>
             <h2 className="text-xl font-bold text-[var(--forest)] mb-4 pb-2 border-b border-[var(--dune)]">Where to See It</h2>
             <p className="text-[var(--slate)] leading-relaxed">{species.whereToSee}</p>
-            {species.shortLocation && (
-              <div className="mt-4">
-                {species.shortLocation.includes("Marshside") && (
-                  <Link href="/nature/marshside-rspb" className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--marsh)] hover:text-[var(--forest)] transition">
-                    → Marshside RSPB reserve guide
+            <div className="mt-4 flex flex-col gap-1.5">
+              {species.shortLocation &&
+                GUIDE_LINKS.filter((g) => g.match.test(species.shortLocation ?? "")).map((g) => (
+                  <Link key={g.href} href={g.href} className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--marsh)] hover:text-[var(--forest)] transition">
+                    → {g.label}
                   </Link>
-                )}
-                {species.shortLocation.includes("Formby") && (
-                  <Link href="/nature/sefton-coast" className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--marsh)] hover:text-[var(--forest)] transition">
-                    → Formby & Sefton Coast guide
-                  </Link>
-                )}
-                {species.shortLocation.includes("Formby") && category === "mammals" && (
-                  <a
-                    href="https://www.formbyguide.co.uk/red-squirrels-formby"
-                    className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--marsh)] hover:text-[var(--forest)] transition"
-                  >
-                    → Visiting the Formby red squirrel reserve — practical guide
-                  </a>
-                )}
-                {species.shortLocation.includes("Ainsdale") && (
-                  <Link href="/nature/sefton-coast" className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--marsh)] hover:text-[var(--forest)] transition">
-                    → Ainsdale NNR & Sefton Coast guide
-                  </Link>
-                )}
-              </div>
-            )}
+                ))}
+              {species.shortLocation?.includes("Formby") && category === "mammals" && (
+                <a
+                  href="https://www.formbyguide.co.uk/red-squirrels-formby"
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--marsh)] hover:text-[var(--forest)] transition"
+                >
+                  → Visiting the Formby red squirrels: FormbyGuide
+                </a>
+              )}
+              <Link href="/nature" className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--marsh)] hover:text-[var(--forest)] transition">
+                → All site guides
+              </Link>
+            </div>
           </section>
 
           {/* Identification */}
@@ -340,6 +344,27 @@ export function SpeciesDetail({ category, species, related, slug }: SpeciesDetai
             </section>
           )}
 
+          {/* Sources for the facts on this page */}
+          {species.sources && species.sources.length > 0 && (
+            <section>
+              <h2 className="text-xl font-bold text-[var(--forest)] mb-4 pb-2 border-b border-[var(--dune)]">Sources</h2>
+              {species.factsChecked && (
+                <p className="text-sm text-[var(--slate)] mb-3">
+                  Status, numbers, season and designations on this page were checked on {species.factsChecked} against:
+                </p>
+              )}
+              <ul className="list-disc pl-5 space-y-1.5 text-sm text-[var(--slate)]">
+                {species.sources.map((src) => (
+                  <li key={src.url}>
+                    <a href={src.url} target="_blank" rel="noopener" className="text-[var(--marsh)] underline underline-offset-2 break-words">
+                      {src.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
           {/* Related species */}
           {related.length > 0 && (
             <section>
@@ -366,14 +391,17 @@ export function SpeciesDetail({ category, species, related, slug }: SpeciesDetai
           <section className="bg-[var(--forest)] rounded-2xl p-6 sm:p-8 text-white">
             <h2 className="text-xl font-bold mb-2">Plan your visit to the Sefton Coast</h2>
             <p className="text-white/70 text-sm mb-5 max-w-xl">
-              Marshside RSPB, Formby pinewoods, Ainsdale NNR — practical guides to getting there, what to bring, and the best spots for each season.
+              Guides to each reserve and site, north to south: who manages it, getting there and parking, hides, seasons, tides and dogs.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link href="/birdwatching-guide" className="inline-flex items-center gap-2 bg-white text-[var(--forest)] text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-[var(--sand)] transition">
                 Birdwatching guide →
               </Link>
-              <Link href="/nature/marshside-rspb" className="inline-flex items-center gap-2 bg-white/10 text-white text-sm font-semibold px-4 py-2.5 rounded-lg border border-white/20 hover:bg-white/20 transition">
-                Marshside RSPB
+              <Link href="/nature" className="inline-flex items-center gap-2 bg-white/10 text-white text-sm font-semibold px-4 py-2.5 rounded-lg border border-white/20 hover:bg-white/20 transition">
+                Site guides
+              </Link>
+              <Link href="/seasonal/month-by-month" className="inline-flex items-center gap-2 bg-white/10 text-white text-sm font-semibold px-4 py-2.5 rounded-lg border border-white/20 hover:bg-white/20 transition">
+                Month by month
               </Link>
               <Link href={`/${category}`} className="inline-flex items-center gap-2 bg-white/10 text-white text-sm font-semibold px-4 py-2.5 rounded-lg border border-white/20 hover:bg-white/20 transition">
                 All {label} →
