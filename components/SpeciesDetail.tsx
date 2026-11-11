@@ -22,14 +22,14 @@ const statusConfig = {
   amber: {
     label: "Amber List",
     bg: "bg-amber-500",
-    text: "text-white",
+    text: "text-[var(--forest)]",
     callout: "bg-amber-50 border-amber-200",
     calloutText: "text-amber-900",
     calloutHead: "text-amber-700",
   },
   green: {
     label: "Green List",
-    bg: "bg-emerald-600",
+    bg: "bg-emerald-700",
     text: "text-white",
     callout: "bg-emerald-50 border-emerald-200",
     calloutText: "text-emerald-900",
@@ -37,7 +37,7 @@ const statusConfig = {
   },
   unknown: {
     label: "Status Unknown",
-    bg: "bg-gray-400",
+    bg: "bg-gray-600",
     text: "text-white",
     callout: "bg-gray-50 border-gray-200",
     calloutText: "text-gray-800",

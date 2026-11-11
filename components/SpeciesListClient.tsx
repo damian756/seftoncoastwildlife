@@ -30,8 +30,8 @@ const GROUP_ORDER = ["mammal", "reptile", "amphibian"];
 
 const statusConfig = {
   red: { label: "Red", bg: "bg-red-600", text: "text-white", pill: "bg-red-100 text-red-800 border-red-200" },
-  amber: { label: "Amber", bg: "bg-amber-500", text: "text-white", pill: "bg-amber-100 text-amber-800 border-amber-200" },
-  green: { label: "Green", bg: "bg-emerald-600", text: "text-white", pill: "bg-emerald-100 text-emerald-800 border-emerald-200" },
+  amber: { label: "Amber", bg: "bg-amber-500", text: "text-[var(--forest)]", pill: "bg-amber-100 text-amber-800 border-amber-200" },
+  green: { label: "Green", bg: "bg-emerald-700", text: "text-white", pill: "bg-emerald-100 text-emerald-800 border-emerald-200" },
   unknown: { label: "", bg: "", text: "", pill: "" },
 };
 
