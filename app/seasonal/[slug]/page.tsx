@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 /* ─── per-page content ────────────────────────────────────── */
 
@@ -308,6 +309,10 @@ export default async function SeasonalSlugPage({ params }: Props) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      <BreadcrumbJsonLd
+        crumbs={[{ name: "Home", path: "/" }, { name: "Seasonal guides", path: "/seasonal" }, { name: page.title }]}
+        path={`/seasonal/${slug}`}
+      />
 
       {/* Page header band */}
       <div className="bg-[var(--forest)] text-white">

@@ -4,14 +4,16 @@ import { SourceList, type Source } from "@/components/SourceList";
 import { getSpeciesBySlug } from "@/lib/species";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "Sefton Coast Wildlife Calendar: What to See Month by Month, and Where";
 const description =
-  "A month-by-month calendar of birds and other wildlife on the Sefton Coast, with the site to visit for each and the source for every timing: RSPB, BTO, Natural England, the Wildlife Trust, WWT, JNCC and Sefton Council.";
+  "Sefton Coast wildlife month by month and where to see it, with sources: RSPB, BTO, Natural England, the Wildlife Trust, WWT, JNCC and Sefton Council.";
 const url = "https://www.seftoncoastwildlife.co.uk/seasonal/month-by-month";
 
 export const metadata: Metadata = {
-  title,
+  // The title already names the site, so no " | Sefton Coast Wildlife" after it.
+  title: { absolute: title },
   description,
   alternates: { canonical: url },
   openGraph: { images: [DEFAULT_OG_IMAGE], title, description, url, siteName: "Sefton Coast Wildlife", type: "article" },
@@ -399,6 +401,8 @@ const pageJsonLd = {
   url,
   datePublished: "2026-11-11",
   dateModified: "2026-11-11",
+  // No byline on the page: the site is the author.
+  author: { "@type": "Organization", name: "Sefton Coast Wildlife", url: "https://www.seftoncoastwildlife.co.uk" },
   publisher: { "@type": "Organization", name: "Sefton Coast Wildlife", url: "https://www.seftoncoastwildlife.co.uk" },
 };
 
@@ -406,6 +410,7 @@ export default function MonthByMonthPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Seasonal guides", path: "/seasonal" }, { name: "Month by month" }]} path="/seasonal/month-by-month" />
 
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-5xl px-4 py-10">

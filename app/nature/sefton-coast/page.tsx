@@ -5,10 +5,11 @@ import { SourceList } from "@/components/SourceList";
 import { getAllSpecies } from "@/lib/species";
 import { SITE_GUIDES } from "@/lib/site-guides";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "The Sefton Coast: Habitats, Wildlife and Where to Go";
 const description =
-  "An overview of the Sefton Coast from the Ribble to the Mersey: saltmarsh, sand dunes, pinewoods and beaches, what each protects, and guides to each site north to south, then WWT Martin Mere inland.";
+  "The Sefton Coast from the Ribble to the Mersey: saltmarsh, sand dunes, pinewoods and beaches, what each protects, and a guide to each site north to south.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/sefton-coast";
 
 export const metadata: Metadata = {
@@ -59,6 +60,7 @@ export default function SeftonCoastPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Nature", path: "/nature" }, { name: "The Sefton Coast" }]} path="/nature/sefton-coast" />
 
       <div className="relative h-72 sm:h-96 w-full overflow-hidden bg-[var(--slate)]">
         <ClickableImage

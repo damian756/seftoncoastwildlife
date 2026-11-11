@@ -4,10 +4,11 @@ import { ClickableImage } from "@/components/ClickableImage";
 import { SiteGuideFacts } from "@/components/SiteGuideFacts";
 import { SourceList } from "@/components/SourceList";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "Ainsdale Sand Dunes NNR: Access, Paths, Natterjacks and Seasons";
 const description =
-  "Guide to Natural England's Ainsdale Sand Dunes National Nature Reserve: entrances, stations, seasonal beach parking, waymarked paths, natterjack toads, sand lizards, dune plants, tides and dog rules.";
+  "Natural England's Ainsdale Sand Dunes NNR: entrances, stations, seasonal beach parking, paths, natterjack toads, sand lizards, dune plants, tides and dogs.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/ainsdale-sand-dunes";
 
 export const metadata: Metadata = {
@@ -85,6 +86,7 @@ export default function AinsdaleSandDunesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Nature", path: "/nature" }, { name: "Ainsdale Sand Dunes NNR" }]} path="/nature/ainsdale-sand-dunes" />
 
       <div className="relative h-72 sm:h-96 w-full overflow-hidden bg-[var(--slate)]">
         <ClickableImage

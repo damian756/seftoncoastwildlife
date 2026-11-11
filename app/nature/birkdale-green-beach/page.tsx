@@ -4,10 +4,11 @@ import { SiteGuideFacts } from "@/components/SiteGuideFacts";
 import { SourceList } from "@/components/SourceList";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "Birkdale Green Beach and the Sandhills LNR: Roosts, Slacks and Access";
 const description =
-  "Guide to the Green Beach and the Ainsdale and Birkdale Sandhills Local Nature Reserve: how to get there, the Velvet Trail, wader roosts off the Green Beach, Twite, orchids, tides and dog rules, from Sefton Council's pages.";
+  "Birkdale Green Beach and the Sandhills LNR: getting there, the Velvet Trail, wader roosts, Twite, orchids, tides and dog rules, from Sefton Council's pages.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/birkdale-green-beach";
 
 export const metadata: Metadata = {
@@ -43,6 +44,7 @@ export default function BirkdaleGreenBeachPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Nature", path: "/nature" }, { name: "Birkdale Green Beach" }]} path="/nature/birkdale-green-beach" />
 
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-3xl px-4 py-10">

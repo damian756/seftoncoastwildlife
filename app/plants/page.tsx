@@ -8,7 +8,7 @@ import { DEFAULT_OG_IMAGE } from "@/lib/og";
 export const revalidate = 86400;
 
 const title = "Sefton Coast Plants: Dune & Marsh Flora Species Guide";
-const description = "Dune and marsh plants of the Sefton Coast, including nationally rare species like Grass of Parnassus and Round-leaved Wintergreen at Ainsdale NNR. Identification guides and where to find them.";
+const description = "Dune and marsh plants of the Sefton Coast, including nationally rare Grass of Parnassus and Round-leaved Wintergreen at Ainsdale NNR, and how to identify them.";
 const url = "https://www.seftoncoastwildlife.co.uk/plants";
 
 export const metadata: Metadata = {

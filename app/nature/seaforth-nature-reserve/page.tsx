@@ -4,10 +4,11 @@ import { SiteGuideFacts } from "@/components/SiteGuideFacts";
 import { SourceList } from "@/components/SourceList";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "Seaforth Nature Reserve: Day Passes, Hides and Seasons";
 const description =
-  "Guide to the Wildlife Trust's Seaforth Nature Reserve inside the Port of Liverpool: how to get a day pass, no dogs, the hides, high-tide roosts, Little Gulls in spring and Common Terns in summer.";
+  "The Wildlife Trust's Seaforth Nature Reserve in the Port of Liverpool: day passes, no dogs, hides, high-tide roosts, spring Little Gulls and summer Common Terns.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/seaforth-nature-reserve";
 
 export const metadata: Metadata = {
@@ -72,6 +73,7 @@ export default function SeaforthNatureReservePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Nature", path: "/nature" }, { name: "Seaforth Nature Reserve" }]} path="/nature/seaforth-nature-reserve" />
 
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-3xl px-4 py-10">

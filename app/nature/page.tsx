@@ -5,7 +5,7 @@ import { DEFAULT_OG_IMAGE } from "@/lib/og";
 
 const title = "Sefton Coast Reserve and Site Guides";
 const description =
-  "Guides to the Sefton Coast's reserves and birdwatching sites, north to south: Hesketh Out Marsh, Marshside, Birkdale Green Beach, Ainsdale NNR, Formby Point, Crosby and the Alt and Seaforth, then WWT Martin Mere inland.";
+  "Sefton Coast reserve and birdwatching site guides, from Hesketh Out Marsh and Marshside to Formby Point, Crosby and Seaforth, and WWT Martin Mere inland.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature";
 
 export const metadata: Metadata = {

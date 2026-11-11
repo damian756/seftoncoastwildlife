@@ -2,13 +2,14 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { AdSlot } from "@/components/AdSlot";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 // Rebuilt at most once a day, so an advertising sponsor whose `until` has passed drops off within a day.
 export const revalidate = 86400;
 
 const title = "Birdwatching on the Sefton Coast: Guide, Best Spots & What to Bring";
 const description =
-  "Where to go birdwatching on the Sefton Coast: Marshside RSPB, Hesketh Out Marsh, the Green Beach, Ainsdale NNR, Formby Point and the Alt estuary. What to bring, when to go and what you'll see each season.";
+  "Birdwatching on the Sefton Coast: Marshside, Hesketh Out Marsh, the Green Beach, Ainsdale NNR, Formby Point and the Alt estuary. What to bring and when to go.";
 const url = "https://www.seftoncoastwildlife.co.uk/birdwatching-guide";
 
 export const metadata: Metadata = {
@@ -49,11 +50,10 @@ const pageJsonLd = [
     headline: title,
     description,
     url,
+    // The page has no byline, so the author is the site itself.
     author: {
-      "@type": "Person",
-      name: "Ed",
-      description:
-        "Ed has been walking the Sefton Coast since the 1980s. Retired geography teacher. Keeps a yearly bird tally. Still gets up at five.",
+      "@type": "Organization",
+      name: "Sefton Coast Wildlife",
       url: "https://www.seftoncoastwildlife.co.uk",
     },
     publisher: {
@@ -77,6 +77,7 @@ export default function BirdwatchingGuidePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Birdwatching guide" }]} path="/birdwatching-guide" />
 
       {/* Page header */}
       <div className="bg-[var(--forest)] text-white">

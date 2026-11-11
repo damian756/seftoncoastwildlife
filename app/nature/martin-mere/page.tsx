@@ -4,10 +4,11 @@ import { SiteGuideFacts } from "@/components/SiteGuideFacts";
 import { SourceList } from "@/components/SourceList";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "WWT Martin Mere: Opening Times, Getting There and the Winter Birds";
 const description =
-  "Guide to WWT Martin Mere near Burscough: winter and summer opening times, tickets, free parking, the walk from Burscough Bridge and New Lane stations, no dogs, and the Pink-footed Geese and Whooper Swans, from WWT's own pages.";
+  "WWT Martin Mere near Burscough: opening times, tickets, free parking, the walk from the stations, no dogs, the geese and Whooper Swans, from WWT's own pages.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/martin-mere";
 
 export const metadata: Metadata = {
@@ -79,6 +80,7 @@ export default function MartinMerePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Nature", path: "/nature" }, { name: "WWT Martin Mere" }]} path="/nature/martin-mere" />
 
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-3xl px-4 py-10">

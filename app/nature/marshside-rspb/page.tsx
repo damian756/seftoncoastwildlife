@@ -4,10 +4,11 @@ import { ClickableImage } from "@/components/ClickableImage";
 import { SiteGuideFacts } from "@/components/SiteGuideFacts";
 import { SourceList } from "@/components/SourceList";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "Marshside RSPB Reserve: Parking, Hides, Trails and Seasons";
 const description =
-  "Birdwatcher's guide to RSPB Marshside near Southport: car park hours and charges, Sandgrounders' and Nel's hides, three trails, tides, dogs and what is seen each season, from the RSPB's own page.";
+  "RSPB Marshside near Southport: car park hours and charges, Sandgrounders' and Nel's hides, trails, tides, dogs and the seasons, from the RSPB's own page.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/marshside-rspb";
 
 export const metadata: Metadata = {
@@ -91,6 +92,7 @@ export default function MarshsidePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Nature", path: "/nature" }, { name: "Marshside RSPB" }]} path="/nature/marshside-rspb" />
 
       <div className="relative h-72 sm:h-96 w-full overflow-hidden bg-[var(--slate)]">
         <ClickableImage

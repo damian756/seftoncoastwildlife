@@ -4,10 +4,11 @@ import { SiteGuideFacts } from "@/components/SiteGuideFacts";
 import { SourceList } from "@/components/SourceList";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "Crosby, Hall Road and the Alt Estuary: Roosts, Parking and Safety";
 const description =
-  "Guide to Crosby Coastal Park and the Alt estuary at Hightown for birdwatchers: stations, car parks, the wader and goose roosts off Hightown, the 50m safety rule on Crosby beach, and dogs, from Sefton Council's pages.";
+  "Crosby Coastal Park and the Alt estuary at Hightown: stations, car parks, wader and goose roosts, Crosby beach's 50m rule and dogs, from Sefton Council's pages.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/crosby-and-alt-estuary";
 
 export const metadata: Metadata = {
@@ -45,6 +46,7 @@ export default function CrosbyAltEstuaryPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Nature", path: "/nature" }, { name: "Crosby and the Alt estuary" }]} path="/nature/crosby-and-alt-estuary" />
 
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-3xl px-4 py-10">

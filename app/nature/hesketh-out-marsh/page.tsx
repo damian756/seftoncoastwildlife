@@ -4,10 +4,11 @@ import { SiteGuideFacts } from "@/components/SiteGuideFacts";
 import { SourceList } from "@/components/SourceList";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "Hesketh Out Marsh RSPB: Parking, Paths and Birds";
 const description =
-  "Guide to RSPB Hesketh Out Marsh on the Ribble Estuary: car park hours, the trail to Karen's Viewpoint, the sea-wall footpaths, dogs and the birds of the recreated saltmarsh, from the RSPB's own page.";
+  "RSPB Hesketh Out Marsh on the Ribble: car park hours, the trail to Karen's Viewpoint, footpaths, dogs and birds of the recreated saltmarsh, from the RSPB's own page.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/hesketh-out-marsh";
 
 export const metadata: Metadata = {
@@ -48,6 +49,7 @@ export default function HeskethOutMarshPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Nature", path: "/nature" }, { name: "Hesketh Out Marsh" }]} path="/nature/hesketh-out-marsh" />
 
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-3xl px-4 py-10">

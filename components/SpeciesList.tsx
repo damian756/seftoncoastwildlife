@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Species, SpeciesCategory } from "@/lib/types";
 import { SpeciesListClient } from "./SpeciesListClient";
 import { AdSlot } from "./AdSlot";
+import { BreadcrumbJsonLd } from "./BreadcrumbJsonLd";
 
 const categoryLabels: Record<SpeciesCategory, string> = {
   birds: "Birds",
@@ -31,6 +32,7 @@ export function SpeciesList({ category, species }: SpeciesListProps) {
 
   return (
     <div>
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: label }]} path={`/${category}`} />
       {/* Header — server-rendered, no interactivity needed */}
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-5xl px-4 py-10">

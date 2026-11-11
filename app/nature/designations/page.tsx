@@ -4,10 +4,11 @@ import type { ReactNode } from "react";
 import { SourceList } from "@/components/SourceList";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "Protected Sites of the Sefton Coast: SPA, Ramsar, SAC, SSSI, NNR and LNR";
 const description =
-  "A reference to the Sefton Coast's nature designations as the official citations give them: what each protects, the area it covers, who is responsible, with links to Natural England, JNCC and gov.uk records.";
+  "Sefton Coast protected sites as the official citations give them: what each protects, its area and who is responsible, linked to Natural England, JNCC and gov.uk.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/designations";
 const UPDATED = "11 November 2026";
 
@@ -350,6 +351,8 @@ const pageJsonLd = {
   url,
   datePublished: "2026-11-11",
   dateModified: "2026-11-11",
+  // No byline on the page: the site is the author.
+  author: { "@type": "Organization", name: "Sefton Coast Wildlife", url: "https://www.seftoncoastwildlife.co.uk" },
   publisher: { "@type": "Organization", name: "Sefton Coast Wildlife", url: "https://www.seftoncoastwildlife.co.uk" },
 };
 
@@ -430,6 +433,7 @@ export default function DesignationsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Nature", path: "/nature" }, { name: "Protected sites" }]} path="/nature/designations" />
 
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-4xl px-4 py-10">

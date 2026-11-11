@@ -4,10 +4,11 @@ import { SiteGuideFacts } from "@/components/SiteGuideFacts";
 import { SourceList } from "@/components/SourceList";
 import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 const title = "Formby Point: National Trust Shore, Cabin Hill and Ravenmeols";
 const description =
-  "Birdwatcher's guide to Formby Point: National Trust car parks and charges, trains, beach paths, Cabin Hill NNR and Ravenmeols LNR, wader roosts, seawatching, tides and dogs, from the managing bodies' own pages.";
+  "Formby Point: National Trust car parks and charges, trains, Cabin Hill, Ravenmeols, wader roosts, seawatching, tides and dogs, from the managing bodies' pages.";
 const url = "https://www.seftoncoastwildlife.co.uk/nature/formby-point";
 
 export const metadata: Metadata = {
@@ -44,6 +45,7 @@ export default function FormbyPointPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Nature", path: "/nature" }, { name: "Formby Point" }]} path="/nature/formby-point" />
 
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-3xl px-4 py-10">

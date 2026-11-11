@@ -41,12 +41,7 @@ const orgJsonLd = {
       "@id": "https://www.seftoncoastwildlife.co.uk/#organization",
       name: "Sefton Coast Wildlife",
       url: "https://www.seftoncoastwildlife.co.uk",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.seftoncoastwildlife.co.uk/og-default.png",
-        width: 1200,
-        height: 630,
-      },
+      // No logo: the site has no logo file (/og-default.png, named here before, does not exist).
       sameAs: [
         "https://www.southportguide.co.uk",
         "https://www.formbyguide.co.uk",

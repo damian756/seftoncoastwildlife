@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { AdSlot } from "@/components/AdSlot";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 // Rebuilt at most once a day, so an advertising sponsor whose `until` has passed drops off within a day.
 export const revalidate = 86400;
@@ -52,6 +53,7 @@ const seasons = [
 export default function SeasonalPage() {
   return (
     <>
+      <BreadcrumbJsonLd crumbs={[{ name: "Home", path: "/" }, { name: "Seasonal guides" }]} path="/seasonal" />
       {/* Page header */}
       <div className="bg-[var(--forest)] text-white">
         <div className="mx-auto max-w-5xl px-4 py-10">
