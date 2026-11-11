@@ -68,7 +68,7 @@ export function NavMenu() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden lg:flex items-center gap-1">
           {nav.map((item) =>
             item.children ? (
               <div key={item.label} className="relative group">
@@ -118,7 +118,7 @@ export function NavMenu() {
         </nav>
 
         {/* Desktop CTA */}
-        <div className="hidden md:flex items-center gap-3">
+        <div className="hidden lg:flex items-center gap-3">
           <Link
             href="/nature/marshside-rspb"
             className="rounded-lg bg-[var(--forest)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--marsh)] transition"
@@ -129,7 +129,7 @@ export function NavMenu() {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden p-2 rounded-md text-[var(--slate)] hover:bg-[var(--dune)] transition"
+          className="lg:hidden p-2 rounded-md text-[var(--slate)] hover:bg-[var(--dune)] transition"
           onClick={() => setMobileOpen((o) => !o)}
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
         >
@@ -147,7 +147,7 @@ export function NavMenu() {
 
       {/* Mobile drawer */}
       {mobileOpen && (
-        <div className="md:hidden border-t border-[var(--dune)] bg-white">
+        <div className="lg:hidden border-t border-[var(--dune)] bg-white">
           <nav className="px-4 py-4 flex flex-col gap-1">
             {nav.map((item) => (
               <div key={item.label}>
