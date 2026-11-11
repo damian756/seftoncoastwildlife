@@ -23,6 +23,7 @@ const nav = [
       { label: "WWT Martin Mere", href: "/nature/martin-mere" },
       { label: "The Sefton Coast", href: "/nature/sefton-coast" },
       { label: "Month by month", href: "/seasonal/month-by-month" },
+      { label: "Protected sites", href: "/nature/designations" },
       { label: "Birdwatching Guide", href: "/birdwatching-guide" },
       { label: "Seasonal Guides", href: "/seasonal" },
     ],

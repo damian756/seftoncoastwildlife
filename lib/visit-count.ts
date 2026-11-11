@@ -49,6 +49,7 @@ export const STATIC_PATHS = [
   "/nature/ainsdale-sand-dunes",
   "/nature/birkdale-green-beach",
   "/nature/crosby-and-alt-estuary",
+  "/nature/designations",
   "/nature/formby-point",
   "/nature/hesketh-out-marsh",
   "/nature/marshside-rspb",

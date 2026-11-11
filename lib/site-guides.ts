@@ -88,4 +88,11 @@ export const NATURE_REFERENCE = [
     desc: "Twelve months of the coast's birds and other wildlife, with the site to visit for each and the source for every timing.",
     checked: "2026-11-11",
   },
+  {
+    href: "/nature/designations",
+    name: "Protected sites of the Sefton Coast",
+    tag: "Reference",
+    desc: "The SPA, Ramsar, SAC, SSSI, NNR and LNR designations: what each protects, where, and who is responsible.",
+    checked: "2026-11-11",
+  },
 ];
