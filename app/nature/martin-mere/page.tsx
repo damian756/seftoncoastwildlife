@@ -65,7 +65,8 @@ const pageJsonLd = [
 ];
 
 const sources = [
-  used(SRC.wwtPlan, "opening times, tickets, members, the café and shop, and the dog rule"),
+  used(SRC.wwtPlan, "opening times, tickets, the café and shop, and the dog rule"),
+  used(SRC.wwtTickets, "unlimited visits for WWT members"),
   used(SRC.wwtDirections, "road directions, free parking, the three stations and walking routes, cycle racks and coach parking"),
   used(SRC.wwtAccess, "Blue Badge parking, the paved nature trail and hides, wheelchairs, carers and boat tours"),
   used(SRC.wwtWildlife, "the birds and other wildlife by season, the swan feeds and the size of the site"),
@@ -122,9 +123,9 @@ export default function MartinMerePage() {
           ]}
           paths={[
             <>The nature trail is fully paved but is not a circular loop. Most hides have lower windows for wheelchair users and bird books for identification.</>,
-            <>Free wheelchairs are available; a mobility scooter can be hired with a £12 deposit, booked in advance on 01704 891220.</>,
+            <>Free wheelchairs are available; a mobility scooter can be hired with a £12 non-refundable deposit, booked in advance on 01704 891220.</>,
             <>Boat tours run daily from 2 April to the end of September.</>,
-            <>Away from the wild reserve, WWT keeps an otter enclosure, flamingos and about 100 species of water birds from around the world. There is a café and a shop on site.</>,
+            <>Away from the wild reserve, WWT keeps an otter enclosure and about 100 species of water birds from around the world. There is a café and a shop on site.</>,
           ]}
           seasons={[
             {

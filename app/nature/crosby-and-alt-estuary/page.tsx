@@ -106,7 +106,7 @@ export default function CrosbyAltEstuaryPage() {
             },
             {
               season: "Autumn",
-              text: "Pink-footed Geese begin to arrive from Iceland in September, with large roosts building on the sands off Hightown by the end of the month, and thousands roost on the shore at Hightown in October (Sefton Council). Natural England notes that waders from the Mersey Narrows may roost at the high-tide mark near Hightown.",
+              text: "Pink-footed Geese begin to arrive from Iceland in September, with large roosts building on the sands off Hightown by the end of the month, and thousands roost on the shore at Hightown in October (Sefton Council). Natural England notes that birds from the Mersey Narrows may roost at the high-tide mark near Hightown.",
               birds: ["pink-footed-goose"],
             },
             {
@@ -118,7 +118,7 @@ export default function CrosbyAltEstuaryPage() {
           tide={[
             <>Crosby beach is not a bathing beach. Sefton Council says it has areas of soft sand and mud and a risk of changing tides, and that visitors should stay out of the sea and within 50 metres of the promenade at all tides. Watch from the promenade.</>,
             <>The roosts form over high tide. If birds run or fly ahead of you, you are too close.</>,
-            <>Crosby is the only RNLI beach in the UK with lifeguards present 365 days a year.</>,
+            <>Sefton Council says Crosby is the only RNLI beach in the UK with lifeguards present all year.</>,
           ]}
           access={[
             <>No barbecues or fires anywhere on the coast.</>,

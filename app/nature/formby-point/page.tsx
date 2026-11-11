@@ -123,8 +123,8 @@ export default function FormbyPointPage() {
             <>Natural England advises checking the local tide timetable before going on the beach.</>,
           ]}
           access={[
-            <>The National Trust describes Formby as a wild, natural and legally protected landscape with basic facilities.</>,
-            <>All group visits, including schools, must be booked in advance with the National Trust, whether you arrive by coach, minibus or on foot.</>,
+            <>The National Trust says Formby is legally protected and has basic facilities.</>,
+            <>All group visits must be booked in advance with the National Trust, including schools and groups arriving on foot.</>,
             <>Keep to designated cycle paths, roads or the beach when cycling.</>,
           ]}
           dogs={[

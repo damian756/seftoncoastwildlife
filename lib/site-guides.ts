@@ -67,7 +67,7 @@ export const SITE_GUIDES: SiteGuideSummary[] = [
     href: "/nature/martin-mere",
     name: "WWT Martin Mere",
     tag: "WWT · Burscough, inland",
-    desc: "A wetland centre 10 miles inland from Southport. Pink-footed Geese roost in autumn and Whooper Swans gather in winter.",
+    desc: "A wetland centre inland, 10 miles from Southport. Pink-footed Geese roost in autumn and Whooper Swans gather in winter.",
     checked: "2026-11-11",
   },
 ];

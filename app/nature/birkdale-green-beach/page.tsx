@@ -32,7 +32,8 @@ const sources = [
   used(SRC.seftonLnr, "the reserve's extent, the Velvet Trail and dune trail, entrances, toilets, beach zoning and dog rules, and its plants"),
   used(SRC.neAinsdaleLnr, "declaration, area, ownership and management, location, stations, road access and winter sheep grazing"),
   used(SRC.seftonCalendar, "wader roosts off the Green Beach, the Pink-footed Goose roosts, Twite between Weld Road and Fairways, and the advice on disturbance"),
-  used(SRC.seftonAinsdaleBeach, "beach parking season and charge, toilets, the summer dog exclusion zone and dogs near roosting birds"),
+  used(SRC.seftonAinsdaleBeach, "beach parking season and charge, the toilets' summer season and the all-year Changing Places toilet, the summer dog exclusion zone and dogs near roosting birds"),
+  used(SRC.seftonFindParking, "the council's other car parks"),
   used(SRC.neSeftonSsssiCitation, "saltmarsh on Birkdale beach, the dune slacks and Baltic rush, and the wintering waders"),
   used(SRC.seftonSafeBeaches, "tide forecasts and how quickly the tide comes in"),
 ];
@@ -87,13 +88,13 @@ export default function BirkdaleGreenBeachPage() {
           ]}
           parking={[
             <>Sefton Council&apos;s beach parking at Ainsdale is open from 1 April to 30 September only. The all-day charge is £10, and the council prefers cashless payment.</>,
-            <>The council warns that beach parking can be reduced or closed because of the tide, severe weather, events or emergencies. From October to March, come by train.</>,
+            <>The council warns that beach parking can be reduced or closed because of the tide, severe weather, events or emergencies. From October to March there is no beach parking. Sefton Council&apos;s find-parking page (sefton.gov.uk/find-parking) lists its other car parks, or come by train.</>,
           ]}
           paths={[
             <>The Velvet Trail is a circular route that follows the Green Beach south from Weld Road and winds back through the dunes to Weld Road. It is named after the carpets of lush vegetation seen there in early summer.</>,
             <>A separate dune trail makes a circular walk through the reserve&apos;s range of habitats.</>,
             <>Waymarked footpaths link the reserve with Ainsdale Sand Dunes NNR to the south.</>,
-            <>The toilets at Shore Road are open in summer. Sefton Council&apos;s refurbished toilet block at Ainsdale includes an accessible Changing Places toilet and baby changing.</>,
+            <>The toilets at Shore Road are open in summer. Sefton Council&apos;s refurbished toilet block at Ainsdale beach, with baby changing, is open from April to September; its accessible Changing Places toilet is open all year.</>,
           ]}
           seasons={[
             {

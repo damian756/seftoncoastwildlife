@@ -17,6 +17,11 @@ export const SRC = {
     title: "Hesketh Out Marsh Nature Reserve",
     url: "https://www.rspb.org.uk/days-out/reserves/hesketh-out-marsh",
   },
+  rspbBlackTailedGodwit: {
+    publisher: "RSPB",
+    title: "Black-tailed Godwit: bird facts",
+    url: "https://www.rspb.org.uk/birds-and-wildlife/black-tailed-godwit",
+  },
   neMerseysideNnrs: {
     publisher: "Natural England",
     title: "Merseyside's National Nature Reserves (updated 9 December 2020)",
@@ -41,6 +46,11 @@ export const SRC = {
     publisher: "WWT",
     title: "How to get to Martin Mere Wetland Centre",
     url: "https://www.wwt.org.uk/wetland-centres/martin-mere/plan-your-visit/directions",
+  },
+  wwtTickets: {
+    publisher: "WWT",
+    title: "Martin Mere: Tickets",
+    url: "https://www.wwt.org.uk/wetland-centres/martin-mere/plan-your-visit/tickets",
   },
   wwtAccess: {
     publisher: "WWT",
@@ -77,11 +87,6 @@ export const SRC = {
     title: "Crosby Beach",
     url: "https://www.sefton.gov.uk/around-sefton/coast-and-countryside/visiting-our-beaches/crosby-beach/",
   },
-  seftonSouthportBeach: {
-    publisher: "Sefton Council",
-    title: "Southport Beach",
-    url: "https://www.sefton.gov.uk/around-sefton/coast-and-countryside/visiting-our-beaches/southport-beach/",
-  },
   seftonCrosbyCoastalPark: {
     publisher: "Sefton Council",
     title: "Crosby Coastal Park",
@@ -91,6 +96,11 @@ export const SRC = {
     publisher: "Sefton Council",
     title: "Another Place by Antony Gormley",
     url: "https://www.sefton.gov.uk/around-sefton/another-place-by-antony-gormley/",
+  },
+  seftonFindParking: {
+    publisher: "Sefton Council",
+    title: "Find car parks",
+    url: "https://www.sefton.gov.uk/find-parking",
   },
   seftonSafeBeaches: {
     publisher: "Sefton Council",
@@ -225,7 +235,7 @@ export const SRC = {
   lwtSquirrelPox: {
     publisher: "The Wildlife Trust for Lancashire, Manchester and North Merseyside",
     title: "Squirrel pox outbreak confirmed on the Sefton Coast (20 July 2026)",
-    url: "https://www.lancswt.org.uk/node/9334",
+    url: "https://www.lancswt.org.uk/news/squirrel-pox-outbreak-confirmed-on-sefton-coast",
   },
 } satisfies Record<string, Source>;
 

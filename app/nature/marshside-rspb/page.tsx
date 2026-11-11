@@ -84,6 +84,7 @@ const sources = [
   used(SRC.neMerseysideNnrs, "Marshside as part of the Ribble Estuary NNR, its joint management, the 12km embankment path and access limited to rights of way"),
   used(SRC.neRibbleAltSpaCitation, "saltmarshes and grazing marshes used as high-tide roosts, and the species the SPA protects"),
   used(SRC.seftonCalendar, "when the autumn wader passage builds and when the Pink-footed Geese return"),
+  used(SRC.rspbBlackTailedGodwit, "Marshside among the RSPB's places to see Black-tailed Godwits"),
 ];
 
 export default function MarshsidePage() {

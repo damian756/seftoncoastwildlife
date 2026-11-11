@@ -76,7 +76,7 @@ const pageJsonLd = [
 const sources = [
   used(SRC.neMerseysideNnrs, "the reserve's plants and animals, paths, cycle routes, stations, buses, parking, entrances, safety advice and contact details"),
   used(SRC.neAinsdaleNnr, "the reserve's area"),
-  used(SRC.seftonAinsdaleBeach, "beach parking season, charge and closures, toilets, and the dog rules on the beach"),
+  used(SRC.seftonAinsdaleBeach, "beach parking season, charge and closures, the toilets' summer season and the all-year Changing Places toilet, and the dog rules on the beach"),
   used(SRC.seftonCalendar, "when natterjacks, lizards and plants are active through the year, grazing, and the advice on driftwood and digging"),
   used(SRC.seftonLnr, "the neighbouring Ainsdale and Birkdale Sandhills LNR"),
 ];
@@ -159,7 +159,7 @@ export default function AinsdaleSandDunesPage() {
             <>About 8 miles of footpaths, marked with colour-topped posts.</>,
             <>The Woodland Path and Fisherman&apos;s Path are accessible by bike, pushchair and wheelchair. Natural England&apos;s map shows where you can ride a horse or cycle.</>,
             <>The Trans Pennine Trail and the Sefton Coastal Footpath give access along the whole coast.</>,
-            <>There are no facilities on the reserve. Sefton Council&apos;s toilet block at Ainsdale beach includes an accessible Changing Places toilet.</>,
+            <>Sefton Council&apos;s toilet block at Ainsdale beach is open from April to September; its accessible Changing Places toilet is open all year.</>,
           ]}
           seasons={[
             {

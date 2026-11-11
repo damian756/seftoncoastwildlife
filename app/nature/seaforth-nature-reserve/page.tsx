@@ -111,7 +111,7 @@ export default function SeaforthNatureReservePage() {
           checked="11 November 2026"
           managedBy={
             <>
-              The Wildlife Trust for Lancashire, Manchester and North Merseyside. The reserve sits inside the Port of Liverpool perimeter, and day passes are confirmed by the Port of Liverpool Police.
+              The Wildlife Trust for Lancashire, Manchester and North Merseyside. The reserve sits inside the Port of Liverpool perimeter. Day-pass requests go through the Wildlife Trust to the Port of Liverpool Police.
             </>
           }
           official={[{ label: "Wildlife Trust: Seaforth Nature Reserve", url: SRC.lwtSeaforth.url }]}
