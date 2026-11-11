@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getSpeciesBySlug, getAllSlugs, getAllSpecies } from "@/lib/species";
 import { SpeciesDetail } from "@/components/SpeciesDetail";
 import type { Metadata } from "next";
+import { speciesTitle } from "@/lib/seo";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -24,8 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const species = getSpeciesBySlug("mammals", slug);
   if (!species) return {};
 
-  const location = species.shortLocation ?? "the Sefton Coast";
-  const title = `${species.commonName} at ${location}`;
+  const title = speciesTitle(species);
   const description = truncateAtSentence(
     species.description || `${species.commonName} (${species.scientificName}) on the Sefton Coast. ${species.seasonalPresence}.`,
     155
