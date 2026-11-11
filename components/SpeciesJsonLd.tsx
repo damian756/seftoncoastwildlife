@@ -83,10 +83,11 @@ export function SpeciesJsonLd({ species, category, slug }: SpeciesJsonLdProps) {
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
   };
-  if (species.wikipediaTitle) {
+  // The photo shown on the page is served from this site.
+  if (species.localImage) {
     article.image = {
       "@type": "ImageObject",
-      url: `https://en.wikipedia.org/wiki/Special:FilePath/${encodeURIComponent(species.wikipediaTitle)}`,
+      url: `${baseUrl}${species.localImage}`,
     };
   }
   graph.push(article);
