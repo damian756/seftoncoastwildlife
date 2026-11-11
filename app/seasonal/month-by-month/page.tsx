@@ -6,7 +6,7 @@ import { SRC, SOURCES_ACCESSED, used } from "@/lib/sources";
 
 const title = "Sefton Coast Wildlife Calendar: What to See Month by Month, and Where";
 const description =
-  "A month-by-month calendar of birds and other wildlife on the Sefton Coast, with the site to visit for each and the source for every timing: RSPB, BTO, Natural England, the National Trust, the Wildlife Trust, WWT, JNCC and Sefton Council.";
+  "A month-by-month calendar of birds and other wildlife on the Sefton Coast, with the site to visit for each and the source for every timing: RSPB, BTO, Natural England, the Wildlife Trust, WWT, JNCC and Sefton Council.";
 const url = "https://www.seftoncoastwildlife.co.uk/seasonal/month-by-month";
 
 export const metadata: Metadata = {
@@ -139,10 +139,14 @@ const MONTHS: Month[] = [
         src: ["rspbLapwing", "rspbMarshside"],
       },
       {
-        text: "Willow Warblers, Chiffchaffs and Blackcaps can now be back on territory by the third week of March, the council says. Whooper Swans leave the UK in March and April (RSPB).",
+        text: "Willow Warblers, Chiffchaffs and Blackcaps can now be back on territory by the third week of March, the council says.",
+        src: ["sefton"],
+      },
+      {
+        text: "Whooper Swans leave the UK in March and April (RSPB).",
         where: [G.martinMere],
         birds: ["whooper-swan"],
-        src: ["sefton", "rspbWhooper"],
+        src: ["rspbWhooper"],
       },
     ],
   },
@@ -268,7 +272,7 @@ const MONTHS: Month[] = [
         src: ["sefton"],
       },
       {
-        text: "Ainsdale beach parking closes after 30 September; come by train until April.",
+        text: "Ainsdale beach parking ends on 30 September and reopens on 1 April. Sefton Council lists Ainsdale station as within walking distance of the beach.",
         where: [G.ainsdale, G.birkdale],
         src: ["seftonAinsdale"],
       },
@@ -291,7 +295,6 @@ const MONTHS: Month[] = [
       },
       {
         text: "Twite use the high-tide line between Weld Road and Fairways in Southport; the council asks that seed-rich debris is left for them. An egret roost builds on the north island of Southport Marine Lake.",
-        where: [G.birkdale],
         birds: ["twite"],
         src: ["sefton"],
       },
@@ -360,7 +363,7 @@ function birdName(slug: string) {
 
 const allSources: Source[] = [
   used(SRC.seftonCalendar, "most monthly timings for roosts, migration, geese, amphibians, reptiles, plants, seals and advice on disturbance"),
-  used(SRC.seftonAinsdaleBeach, "beach parking season and the summer dog-free zones"),
+  used(SRC.seftonAinsdaleBeach, "beach parking season, Ainsdale station and the summer dog-free zones"),
   used(SRC.rspbMarshside, "nesting Avocets and Lapwings, winter geese, Wigeons and plover flocks, and car park hours"),
   used(rspbSpecies("lapwing", "Lapwing"), "the Lapwing breeding season"),
   used(rspbSpecies("whooper-swan", "Whooper Swan"), "when Whooper Swans arrive and leave"),
